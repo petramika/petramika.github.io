@@ -284,6 +284,58 @@ footer {
   text-align: center;
 }
 
+@font-face {
+  font-family: gothic;
+  src: url(/assets/gothic.ttf);
+}
+
+#cvinfo, #cvinfo h3, #cvinfo h4,  #cvinfo h2 {
+  font-family: gothic !important;
+}
+
+.datework {
+  font-size: larger;
+  color: #6290C8  ;
+}
+
+#donutcharts p{
+  font-weight: bold;
+}
+
+#main.container {
+  max-width: 70%
+}
+
+#leftinfo {
+  background-color:#3f51b5;
+}
+
+@media only screen and (max-width: 1500px) {
+  #leftinfo {
+    display: none;
+  }
+  #main.container {
+    max-width: 100%
+  }
+}
+
+#mephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 90%;
+}
+
+#brifdesc {
+  padding: 0% 4% 0% 10%;
+  color: $white; 
+}
+
+.w3-greencustom {
+  background-color: #49BEAA !important;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
