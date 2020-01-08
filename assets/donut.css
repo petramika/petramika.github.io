@@ -23,24 +23,33 @@ svg {
     stroke-width: 10;
     fill: none;
     stroke: #49BEAA;
-
 }
 
+
+
 .html .circle_animation {
+    stroke: #197BBD;
     -webkit-animation: html 1s ease-out forwards;
     animation: html 1s ease-out forwards;
 }
 
 .css .circle_animation {
+    stroke: #9B9ECE;
     -webkit-animation: css 1s ease-out forwards;
     animation: css 1s ease-out forwards;
 }
 
 .web .circle_animation {
+    stroke: #8797B2;
     -webkit-animation: web 1s ease-out forwards;
     animation: web 1s ease-out forwards;
 }
 
+.soa .circle_animation {
+    stroke: #094D92;
+    -webkit-animation: soa 1s ease-out forwards;
+    animation: soa 1s ease-out forwards;
+}
 
 @-webkit-keyframes html {
     to {
@@ -74,6 +83,18 @@ svg {
 }
 
 @keyframes web {
+    to {
+        stroke-dashoffset: 20;
+    }
+}
+
+@-webkit-keyframes soa {
+    to {
+        stroke-dashoffset: 20;
+    }
+}
+
+@keyframes soa {
     to {
         stroke-dashoffset: 20;
     }
