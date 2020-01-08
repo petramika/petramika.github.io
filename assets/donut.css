@@ -20,7 +20,7 @@ svg {
     stroke-dasharray: 440;
     /* this value is the pixel circumference of the circle */
     stroke-dashoffset: 380;
-    stroke-width: 10;
+    stroke-width: 15;
     fill: none;
     stroke: #49BEAA;
 }
