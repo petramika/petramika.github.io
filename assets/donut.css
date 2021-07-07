@@ -28,25 +28,25 @@ svg {
 
 
 .html .circle_animation {
-    stroke: #197BBD;
+    stroke: #6290C8;
     -webkit-animation: html 1s ease-out forwards;
     animation: html 1s ease-out forwards;
 }
 
 .css .circle_animation {
-    stroke: #9B9ECE;
+    stroke: #49BEAA;
     -webkit-animation: css 1s ease-out forwards;
     animation: css 1s ease-out forwards;
 }
 
 .web .circle_animation {
-    stroke: #8797B2;
+    stroke: #fbb13c;
     -webkit-animation: web 1s ease-out forwards;
     animation: web 1s ease-out forwards;
 }
 
 .soa .circle_animation {
-    stroke: #094D92;
+    stroke: #3f51b5;
     -webkit-animation: soa 1s ease-out forwards;
     animation: soa 1s ease-out forwards;
 }

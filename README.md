@@ -127,4 +127,4 @@ Compile and start at the root of the project with:
 bundle exec jekyll serve --trace
 ```
 
-Add a new artice in _posts by copiying a file and modifying date+routing name
+Add a new article in _posts by copying a file and modifying date+routing name

@@ -32,7 +32,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -57,12 +56,10 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: $white;
 }
 
 h4 {
   font-size: 18px;
-  color: $white;
 }
 
 p {
@@ -303,20 +300,52 @@ footer {
 }
 
 #main.container {
-  max-width: 70%
+  max-width: 90%
 }
 
 #leftinfo {
-  background-color:#3f51b5;
-  min-width: 320px;
+  background:linear-gradient(#3f51b5, #49BEAA);
+  min-width: 420px;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
 }
 
-@media only screen and (max-width: 1500px) {
+.rounded-border {
+  border-radius: 10px;
+}
+
+.page { 
+  padding: 0 20% 0 20%;
+}
+
+@media only screen and (max-width: 1250px) {
   #leftinfo {
     display: none;
   }
   #main.container {
     max-width: 100%
+  }
+  .page {
+    padding: 0 5% 0 5%;
+  }
+}
+
+#rightinfo {
+  width: 100%;
+
+  ul {
+  list-style: none; /* Remove default bullets */
+  }
+
+  ul li::before {
+    content: "\2021";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #fbb13c; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-top: 0.5%;
   }
 }
 
@@ -352,6 +381,20 @@ ul {
     max-width: 45px;
     padding:4%;
   }
+}
+
+.content {
+  display: flex !important;
+  flex: 1;
+}
+
+.center-item {
+  float: none !important;
+}
+
+.li-title {
+  color: #fbb13c;
+  font-size: 1.05em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
