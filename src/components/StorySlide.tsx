@@ -1,0 +1,141 @@
+import { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'motion/react';
+import { EssayItem } from '../types';
+import { ImageSequenceSlide } from './ImageSequenceSlide';
+
+interface StorySlideProps {
+  item: EssayItem;
+  index: number;
+  total: number;
+}
+
+function StandardPhotoSlide({
+  item,
+  index,
+}: {
+  item: EssayItem;
+  index: number;
+}) {
+  const imageSlideRef = useRef<HTMLDivElement>(null);
+
+  // Parallax calculations for the FULL-BLEED PHOTOGRAPHIC SLIDE
+  const { scrollYProgress: imageScroll } = useScroll({
+    target: imageSlideRef,
+    offset: ['start end', 'end start'],
+  });
+
+  const photoY = useTransform(imageScroll, [0, 1], [-80, 80]);
+  const photoScale = useTransform(imageScroll, [0, 0.5, 1], [1.12, 1, 1.08]);
+  const imageOverlayOpacity = useTransform(imageScroll, [0, 0.5, 1], [0.35, 0.1, 0.35]);
+
+  return (
+    <section
+      ref={imageSlideRef}
+      className="relative w-full h-[88vh] sm:h-[95vh] md:h-screen overflow-hidden bg-[#0f1013] flex items-end justify-start"
+    >
+      {/* Parallax moving image */}
+      <motion.div
+        style={{ y: photoY, scale: photoScale }}
+        className="absolute inset-0 w-full h-[125%] -top-[12%] will-change-transform"
+      >
+        <img
+          src={item.imageSrc}
+          alt={item.imageAlt}
+          referrerPolicy="no-referrer"
+          loading="lazy"
+          className="w-full h-full object-cover photo-treatment"
+        />
+      </motion.div>
+
+      {/* Dynamic ambient exposure overlay */}
+      <motion.div
+        style={{ opacity: imageOverlayOpacity }}
+        className="absolute inset-0 bg-black pointer-events-none"
+      />
+
+      {/* Rotated vertical edge label on photographic slide */}
+      <div className="hidden sm:flex absolute left-8 top-1/2 -translate-y-1/2 writing-vertical-left text-[10px] font-editorial-mono uppercase tracking-[0.25em] text-white/50 z-10 pointer-events-none select-none">
+        [ {String(index + 1).padStart(2, '0')} // ARCHIVO VISUAL ] · ROTA 2026
+      </div>
+
+      {/* Soft edge atmospheric gradients */}
+      <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[#fbfbfb] via-[#fbfbfb]/25 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 inset-x-0 h-40 bg-gradient-to-t from-[#fbfbfb] via-[#fbfbfb]/30 to-transparent pointer-events-none" />
+    </section>
+  );
+}
+
+export function StorySlide({
+  item,
+  index,
+  total,
+}: StorySlideProps) {
+  const textSlideRef = useRef<HTMLDivElement>(null);
+
+  const hasSequence = Boolean(
+    item.imageSequence && item.imageSequence.length >= 2
+  );
+
+  // Parallax calculations for the DEDICATED FLOATING TEXT SLIDE
+  const { scrollYProgress: textScroll } = useScroll({
+    target: textSlideRef,
+    offset: ['start end', 'end start'],
+  });
+
+  const textY = useTransform(textScroll, [0, 0.5, 1], [65, 0, -65]);
+  const textOpacity = useTransform(textScroll, [0, 0.25, 0.75, 1], [0.15, 1, 1, 0.15]);
+  const textScale = useTransform(textScroll, [0, 0.5, 1], [0.96, 1, 0.98]);
+
+  return (
+    <div id={`fragment-${item.id}`} className="relative w-full">
+      {/* ------------------------------------------------------------- */}
+      {/* 1. DIAPOSITIVA VISUAL: SECUENCIA FLASH (CAP V) O FOTO ESTÁNDAR */}
+      {/* ------------------------------------------------------------- */}
+      {hasSequence && item.imageSequence ? (
+        <ImageSequenceSlide
+          sequence={item.imageSequence}
+          chapter={item.chapter}
+          index={index}
+        />
+      ) : (
+        <StandardPhotoSlide
+          item={item}
+          index={index}
+        />
+      )}
+
+      {/* ------------------------------------------------------------- */}
+      {/* 2. DIAPOSITIVA: BLOQUE DE TEXTO CON EFECTO PARALLAX FLOTANTE  */}
+      {/* ------------------------------------------------------------- */}
+      <section
+        ref={textSlideRef}
+        className="relative min-h-screen flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
+      >
+        <motion.div
+          style={{ y: textY, opacity: textOpacity, scale: textScale }}
+          className="relative w-full will-change-transform flex flex-col items-center my-auto px-4"
+        >
+          {/* Rotated vertical side text on desktop */}
+          <div className="hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
+            [ {String(index + 1).padStart(2, '0')} // MANIFIESTO ] · CAPÍTULO VISUAL
+          </div>
+
+          <div className="hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
+            COORD. {String(index + 1).padStart(2, '0')}.{total} · ARCHIVO PERMANENTE [ + ]
+          </div>
+
+          {/* High-impact phrase with bold Swiss Grotesque typography */}
+          <blockquote className="font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-[#141518] leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8">
+            {item.phrase}
+          </blockquote>
+
+          {item.subtext && (
+            <p className="font-sans-clean text-base sm:text-lg md:text-xl text-[#52525b] leading-relaxed max-w-2xl font-light mb-8">
+              {item.subtext}
+            </p>
+          )}
+        </motion.div>
+      </section>
+    </div>
+  );
+}

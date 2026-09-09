@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "ROTA — Una autopsia del silencio",
+    "subtitle": "Manifiesto Editorial y Diario Visual",
+    "year": "2026"
+  },
+  "hero": {
+    "title": "ROTA",
+    "status": "[ PROCESO ACTIVO ]",
+    "editorialTag": "MANIFIESTO EDITORIAL EXPERIMENTAL",
+    "archiveTag": "[ ARCHIVO 01 ]",
+    "leftRibbon": "[ MANIFIESTO DE LO QUE SE QUIEBRA ]",
+    "rightRibbon": "ROTA · DIARIO VISUAL · EDICIÓN 2026 [ + ]",
+    "introPhrase": "Lo que se quiebra por dentro no siempre hace ruido al caer.",
+    "introSubtext": "A veces el dolor solo aprende a esperar en silencio mientras intentamos recordar quiénes éramos antes de la grieta.",
+    "leftBadge": "[ FRACTURA ]",
+    "leftFooter": "ROTA LABS · MANIFIESTO 01",
+    "rightBadge": "[ REFLEXIÓN ]",
+    "rightPill": "SILENCIO",
+    "rightFooter": "DIARIO VISUAL · EDICIÓN SIN TIEMPO"
+  },
+  "chapters": [
+    {
+      "id": "fragment-1",
+      "chapter": "I",
+      "subtitle": "La quietud y el derrumbe",
+      "phrase": "A veces el dolor no hace ruido. Solo se sienta en la esquina de la habitación a esperar que todo el mundo se vaya.",
+      "subtext": "Nadie nota que estás conteniendo la respiración hasta que el silencio pesa más que la casa entera.",
+      "dateOrPlace": "3:17 AM — En el cuarto deshabitado",
+      "imageAlt": "Fotograma 01 — La quietud y el derrumbe",
+      "aspectRatio": "landscape"
+    },
+    {
+      "id": "fragment-2",
+      "chapter": "II",
+      "subtitle": "El eco de lo pronunciado",
+      "phrase": "Lo más difícil de soltar no fue tu nombre, sino el eco que todavía retumba en las paredes que una vez llamamos refugio.",
+      "subtext": "Quedan objetos que todavía te esperan, como si el tiempo se hubiera negado a creer tu partida.",
+      "dateOrPlace": "Domingo sin horas",
+      "imageAlt": "Fotograma 02 — El eco de lo pronunciado",
+      "aspectRatio": "portrait"
+    },
+    {
+      "id": "fragment-3",
+      "chapter": "III",
+      "subtitle": "La despedida muda",
+      "phrase": "Hay adioses que nunca tuvieron palabras: simplemente un día dejaste de mirar con la misma verdad.",
+      "subtext": "El duelo más cruel ocurre cuando la persona sigue frente a ti, pero ya hace semanas que se fue.",
+      "dateOrPlace": "La distancia entre dos miradas",
+      "imageAlt": "Fotograma 03 — La despedida muda",
+      "aspectRatio": "wide"
+    },
+    {
+      "id": "fragment-4",
+      "chapter": "IV",
+      "subtitle": "Kintsugi involuntario",
+      "phrase": "Llevo tantas grietas que a veces confundo la luz que entra con lo que se sigue quebrando por dentro.",
+      "subtext": "No todo lo que se rompe se vuelve más fuerte; a veces solo se vuelve más frágil y más lúcido.",
+      "dateOrPlace": "Cicatriz visible al trasluz",
+      "imageAlt": "Fotograma 04 — Secuencia flash",
+      "aspectRatio": "square",
+      "imageSequence": [
+        {
+          "alt": "Fotograma 04.1 — Primera imagen de la secuencia"
+        },
+        {
+          "alt": "Fotograma 04.2 — Segunda imagen de la secuencia"
+        },
+        {
+          "alt": "Fotograma 04.3 — Tercera imagen de la secuencia"
+        }
+      ]
+    },
+    {
+      "id": "fragment-5",
+      "chapter": "V",
+      "subtitle": "La mentira del tiempo",
+      "phrase": "El tiempo no borra nada; solo nos enseña a disimular la forma exacta en que nos falta el aire.",
+      "subtext": "Aprendes a reír en público, pero en los semáforos en rojo la memoria te vuelve a encontrar.",
+      "dateOrPlace": "Noviembre tardío",
+      "imageAlt": "Fotograma 05 — La mentira del tiempo",
+      "aspectRatio": "landscape"
+    },
+    {
+      "id": "fragment-6",
+      "chapter": "VI",
+      "subtitle": "La sombra persistente",
+      "phrase": "Te busco todavía en las esquinas de conversaciones que ya nadie tiene, en calles que prometí no volver a cruzar.",
+      "subtext": "La ciudad se vuelve un mapa de lugares prohibidos por el peso de lo que fuimos en ellos.",
+      "dateOrPlace": "Intersección sin retorno",
+      "imageAlt": "Fotograma 06 — La sombra persistente",
+      "aspectRatio": "portrait"
+    },
+    {
+      "id": "fragment-7",
+      "chapter": "VII",
+      "subtitle": "La rendición",
+      "phrase": "Al final comprendí que no te extrañaba a ti, sino a la versión de mí que aún no conocía el frío de perderte.",
+      "subtext": "La pérdida también es el entierro de quien éramos cuando fuimos amados con certeza.",
+      "dateOrPlace": "El último umbral",
+      "imageAlt": "Fotograma 07 — La rendición",
+      "aspectRatio": "wide"
+    }
+  ],
+  "epilogue": {
+    "backToTop": "↑ VOLVER AL INICIO [ TOP ]",
+    "copyright": "ROTA © 2026 — MANIFIESTO VISUAL EXPERIMENTAL"
+  },
+  "navigation": {
+    "contrastToggleLabel": "+ / -",
+    "negativeModeLabel": "+ / -",
+    "positiveModeLabel": "+ / -"
+  }
+}

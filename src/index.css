@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+    --font-display: "Archivo", "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "IBM Plex Mono", monospace;
+  }
+
+  html, body {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #fbfbfb;
+    color: #141518;
+    overflow-x: hidden;
+    width: 100%;
+    transition: filter 0.4s ease;
+  }
+}
+
+/* ------------------------------------------------------------- */
+/* NEGATIVE FILM EFFECT: INVERTS EVERYTHING EXCEPT IMAGES        */
+/* ------------------------------------------------------------- */
+html.negative-mode {
+  filter: invert(1);
+  background-color: #040404;
+}
+
+/*
+  Re-invert all image elements so they remain in their original positive state.
+  Since the entire page is inverted (1 - x), inverting the images a second time
+  (1 - (1 - x) = x) ensures that all photographic imagery and the white crumpled
+  paper balls appear in their natural positive appearance without any color inversion.
+*/
+html.negative-mode img:not(.photo-treatment),
+html.negative-mode image,
+html.negative-mode svg image,
+html.negative-mode picture,
+html.negative-mode video,
+html.negative-mode canvas,
+html.negative-mode .daruma-figure,
+html.negative-mode .paper-ball-image {
+  filter: invert(1) !important;
+}
+
+/* -------------------------------------------------------------
+   PHOTOGRAPHS: same colour treatment in negative and positive.
+
+   `filter` is one property, so the old `invert(1) !important` rule
+   above silently replaced Tailwind's `grayscale` — photos came out
+   in colour in negative mode and black & white in positive. The
+   treatment now lives here instead of in the class list.
+
+   Filter functions apply left to right, so putting invert(1) LAST
+   means the html-level invert cancels it exactly: contrast and
+   brightness land on the same values in both modes.
+   ------------------------------------------------------------- */
+.photo-treatment {
+  filter: contrast(1.1) brightness(0.88);
+}
+
+html.negative-mode .photo-treatment {
+  filter: contrast(1.1) brightness(0.88) invert(1);
+}
+
+/* Flash overlay: in positive mode it is pure white; in negative mode (inverted by root html) it becomes pure black */
+.flash-burst-overlay {
+  background-color: #ffffff;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@keyframes cameraFlash {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.flash-burst-active {
+  animation: cameraFlash 0.48s cubic-bezier(0.12, 0.95, 0.22, 1) forwards;
+}
+
+.paper-ball-image {
+  filter: none !important;
+  box-shadow: none !important;
+}
+
+.font-editorial-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.035em;
+}
+
+.font-editorial-mono {
+  font-family: var(--font-mono);
+}
+
+.font-serif-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+}
+
+.font-sans-clean {
+  font-family: var(--font-sans);
+}
+
+/* Vertical rotated editorial text utility */
+.writing-vertical-left {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.writing-vertical-right {
+  writing-mode: vertical-rl;
+}
+
+.writing-vertical-270 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+/* Subtle editorial paper grain effect */
+.bg-grain {
+  background-image: radial-gradient(rgba(20, 20, 24, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
+
+/* -------------------------------------------------------------
+   DARUMA: faux-3D rocking doll next to the +/- toggle.
+   The figure keeps its true colours in negative mode (see the
+   re-inversion rule above). Perspective on the wrapper plus a
+   bottom transform-origin gives the weighted-base rocking that
+   a real daruma has — it always returns upright.
+   ------------------------------------------------------------- */
+.daruma-stage {
+  perspective: 260px;
+  perspective-origin: 50% 85%;
+}
+
+.daruma-figure {
+  transform-style: preserve-3d;
+  transform-origin: 50% 92%;
+}
+
+/* Contact shadow squashes as the doll tips off its base */
+.daruma-contact-shadow {
+  transform-origin: 50% 50%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .daruma-figure,
+  .daruma-contact-shadow {
+    transform: none !important;
+  }
+}
+
