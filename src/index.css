@@ -176,6 +176,32 @@ html.negative-mode .photo-treatment {
   transform-origin: 50% 92%;
 }
 
+/* -------------------------------------------------------------
+   SPIRAL WORDS (chapter II): a slow drift so the escaped words
+   breathe without ever becoming hard to read. Pure CSS, so
+   twenty-odd looping animations stay off the main thread; the
+   per-word delay is set inline.
+   ------------------------------------------------------------- */
+@keyframes spiralWordDrift {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+.spiral-word {
+  animation: spiralWordDrift 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spiral-word {
+    animation: none;
+  }
+}
+
 /* Contact shadow squashes as the doll tips off its base */
 .daruma-contact-shadow {
   transform-origin: 50% 50%;

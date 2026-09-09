@@ -33,6 +33,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
+      scene: 'book',
       imageSrc: getAnnePhoto('2.JPG', 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1200&q=85'),
     };
   }

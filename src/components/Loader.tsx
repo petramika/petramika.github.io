@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { motion } from 'motion/react';
+import { motion, type Transition } from 'motion/react';
 import paperBall1 from '../assets/images/user_paper_ball_1.png';
 import paperBall2 from '../assets/images/user_paper_ball_2.png';
 import paperBall3 from '../assets/images/user_paper_ball_3.png';
@@ -105,7 +105,17 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const veilTransition = { duration: 1.15, ease: [0.16, 1, 0.3, 1] as const };
+  /*
+    Two stages, in one keyframe run. First the crack eases open a couple of
+    percent — enough to see the site through the tear and to register that
+    these are two separate curtains — then they sweep the rest of the way.
+    Slow on purpose: the tear is the point, not a transition to get past.
+  */
+  const veilTransition: Transition = {
+    duration: 2.6,
+    times: [0, 0.26, 1],
+    ease: ['easeInOut', [0.16, 1, 0.3, 1]],
+  };
 
   return (
     <div
@@ -117,8 +127,8 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
       <motion.div
         className="absolute inset-0 bg-[#0a0a0c]"
         style={{ clipPath: TOP_CLIP, WebkitClipPath: TOP_CLIP }}
-        initial={{ y: 0 }}
-        animate={isOpening ? { y: '-100%' } : { y: 0 }}
+        initial={{ y: '0%' }}
+        animate={isOpening ? { y: ['0%', '-2.5%', '-100%'] } : { y: '0%' }}
         transition={veilTransition}
       />
 
@@ -126,13 +136,35 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
       <motion.div
         className="absolute inset-0 bg-[#0a0a0c]"
         style={{ clipPath: BOTTOM_CLIP, WebkitClipPath: BOTTOM_CLIP }}
-        initial={{ y: 0 }}
-        animate={isOpening ? { y: '100%' } : { y: 0 }}
+        initial={{ y: '0%' }}
+        animate={isOpening ? { y: ['0%', '2.5%', '100%'] } : { y: '0%' }}
         transition={veilTransition}
         onAnimationComplete={() => {
           if (isOpening) onFinished();
         }}
       />
+
+      {/*
+        The crack itself, while the curtains are still shut: a hairline of
+        light along the exact tear the two halves are clipped to, so the
+        seam is visible before anything moves. Fades once a real gap opens.
+      */}
+      <motion.svg
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        className="absolute inset-0 w-full h-full"
+        aria-hidden="true"
+        animate={{ opacity: isOpening ? 0 : 0.5 }}
+        transition={{ duration: isOpening ? 0.8 : 1.2, ease: 'easeOut' }}
+      >
+        <polyline
+          points={TEAR.map(([x, y]) => `${x},${y}`).join(' ')}
+          fill="none"
+          stroke="#9a9aa4"
+          strokeWidth="1"
+          vectorEffect="non-scaling-stroke"
+        />
+      </motion.svg>
 
       {/*
         The crumpled paper, turning on itself between the two halves.
@@ -142,7 +174,8 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
       <motion.div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
         animate={isOpening ? { opacity: 0, scale: 0.86 } : { opacity: 1, scale: 1 }}
-        transition={{ duration: 0.45, ease: 'easeIn' }}
+        /* Survives the crack stage, then goes as the curtains sweep */
+        transition={{ duration: 0.9, delay: isOpening ? 0.45 : 0, ease: 'easeIn' }}
       >
         <motion.img
           src={paperBall1}
