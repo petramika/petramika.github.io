@@ -17,35 +17,55 @@ const MAX_WAIT_MS = 10000;
 
 /**
  * The tear, as percentages across the viewport. Hand-tuned rather than
- * random so the teeth stay irregular in a way that reads as torn paper
- * instead of a sawtooth — and so it looks the same on every load.
+ * random so it looks the same on every load — and deliberately uneven:
+ * the x steps run from 0.9% to 4.8% and the jags from 0.8% to 7.9%, with
+ * micro-teeth between the deep ones and a few places where two steps go
+ * the same way. Even spacing reads as a sawtooth, not as torn paper.
  *
  * Both halves are clipped along these exact points, which is what makes the
  * two edges mate perfectly before they part.
  */
 const TEAR: [number, number][] = [
-  [0, 49.5],
-  [5, 45.8],
-  [9, 51.4],
-  [14, 46.6],
-  [19, 52.8],
-  [24, 47.2],
-  [28, 53.1],
-  [33, 48.4],
-  [38, 52.2],
-  [43, 46.2],
-  [48, 51.8],
-  [53, 45.9],
-  [57, 50.9],
-  [62, 46.4],
-  [67, 52.6],
-  [72, 47.8],
-  [77, 53.4],
-  [81, 48.2],
-  [86, 52.1],
-  [91, 46.8],
-  [96, 51.6],
-  [100, 48.6],
+  [0, 48.2],
+  [2.4, 46.1],
+  [3.6, 51.8],
+  [7.9, 49.4],
+  [9.1, 44.8],
+  [10.2, 45.6],
+  [14.7, 52.9],
+  [16.1, 50.2],
+  [17, 54.1],
+  [21.8, 47.6],
+  [23, 48.9],
+  [27.6, 43.9],
+  [29.4, 50.7],
+  [30.3, 49.1],
+  [35.1, 55.2],
+  [37.8, 51.3],
+  [39, 46.4],
+  [43.6, 48.1],
+  [44.5, 44.6],
+  [48.9, 52.4],
+  [50.1, 50.8],
+  [51.2, 54.6],
+  [55.8, 47.9],
+  [57.1, 49.3],
+  [61.4, 44.2],
+  [63.2, 51.1],
+  [64.3, 48.6],
+  [68.9, 53.8],
+  [71.2, 50.4],
+  [72.3, 45.9],
+  [76.8, 47.2],
+  [78.1, 43.7],
+  [82.4, 51.6],
+  [84, 49.8],
+  [85.1, 54.3],
+  [89.7, 48.4],
+  [91.3, 50.1],
+  [95.4, 45.3],
+  [97.2, 49.7],
+  [100, 47.8],
 ];
 
 const point = ([x, y]: [number, number]) => `${x}% ${y}%`;
@@ -154,14 +174,14 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
         preserveAspectRatio="none"
         className="absolute inset-0 w-full h-full"
         aria-hidden="true"
-        animate={{ opacity: isOpening ? 0 : 0.5 }}
+        animate={{ opacity: isOpening ? 0 : 0.55 }}
         transition={{ duration: isOpening ? 0.8 : 1.2, ease: 'easeOut' }}
       >
         <polyline
           points={TEAR.map(([x, y]) => `${x},${y}`).join(' ')}
           fill="none"
           stroke="#9a9aa4"
-          strokeWidth="1"
+          strokeWidth="1.8"
           vectorEffect="non-scaling-stroke"
         />
       </motion.svg>
