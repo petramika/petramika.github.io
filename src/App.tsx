@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { EssayItem } from './types';
 import { INITIAL_ESSAY_ITEMS } from './data/defaultItems';
 import texts from './data/texts.json';
+import { Loader } from './components/Loader';
 import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
 import { StorySlide } from './components/StorySlide';
@@ -11,6 +12,7 @@ import { DustParticles } from './components/DustParticles';
 
 export default function App() {
   const [items] = useState<EssayItem[]>(INITIAL_ESSAY_ITEMS);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Negative film mode state: default to true as requested by user
   const [negativeMode, setNegativeMode] = useState<boolean>(() => {
@@ -45,6 +47,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#fbfbfb] text-[#141518] relative selection:bg-[#18181b] selection:text-[#fbfbfb] font-sans-clean bg-grain">
+      {/* Torn curtain that holds until the first heavy photograph is in */}
+      {isLoading && (
+        <Loader
+          sources={items[0] ? [items[0].imageSrc] : []}
+          onFinished={() => setIsLoading(false)}
+        />
+      )}
+
       {/* Floating atmospheric dust particles with cursor repulsion */}
       <DustParticles negativeMode={negativeMode} />
 
