@@ -187,8 +187,11 @@ export function NeonMorphFrames() {
         </filter>
       </defs>
 
-      {/* Amber bloom */}
-      <g filter="url(#neonBloom)" opacity="0.5">
+      {/*
+        Bloom is the only place colour lives: a muted dark orange, kept low
+        enough that it reads as a warm glow rather than tinting the room.
+      */}
+      <g filter="url(#neonBloom)" opacity="0.46">
         {RINGS.map((ring, i) => (
           <path
             key={`halo-${ring.scale}`}
@@ -196,14 +199,14 @@ export function NeonMorphFrames() {
               haloRefs.current[i] = el;
             }}
             fill="none"
-            stroke="#ff9d3f"
+            stroke="#b35e12"
             strokeWidth={ring.strokeWidth * 2.8}
             strokeLinejoin="round"
           />
         ))}
       </g>
 
-      {/* Incandescent core, dimming with depth */}
+      {/* Neutral white tube, dimming with depth */}
       <g filter="url(#neonCore)">
         {RINGS.map((ring, i) => (
           <path
@@ -212,7 +215,7 @@ export function NeonMorphFrames() {
               coreRefs.current[i] = el;
             }}
             fill="none"
-            stroke="#fff4e2"
+            stroke="#f4f4f5"
             strokeWidth={ring.strokeWidth}
             strokeLinejoin="round"
             opacity={1 - i * 0.13}
