@@ -177,12 +177,12 @@ html.negative-mode .photo-treatment {
 }
 
 /* -------------------------------------------------------------
-   SPIRAL WORDS (chapter II): a slow drift so the escaped words
+   ECHO WORDS (chapter II): a slow drift so the escaped words
    breathe without ever becoming hard to read. Pure CSS, so
    twenty-odd looping animations stay off the main thread; the
    per-word delay is set inline.
    ------------------------------------------------------------- */
-@keyframes spiralWordDrift {
+@keyframes echoWordDrift {
   0%,
   100% {
     transform: translateY(0) rotate(0deg);
@@ -192,12 +192,12 @@ html.negative-mode .photo-treatment {
   }
 }
 
-.spiral-word {
-  animation: spiralWordDrift 7s ease-in-out infinite;
+.echo-word {
+  animation: echoWordDrift 7s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .spiral-word {
+  .echo-word {
     animation: none;
   }
 }
