@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import { EssayItem } from '../types';
 import { ImageSequenceSlide } from './ImageSequenceSlide';
 import { NeonMorphFrames } from './NeonMorphFrames';
+import { BookSpiralScene } from './BookSpiralScene';
 
 interface StorySlideProps {
   item: EssayItem;
@@ -136,7 +137,13 @@ export function StorySlide({
       {/* ------------------------------------------------------------- */}
       {/* 1. DIAPOSITIVA VISUAL: SECUENCIA FLASH (CAP IV) O FOTO ESTÁNDAR */}
       {/* ------------------------------------------------------------- */}
-      {hasSequence && item.imageSequence ? (
+      {item.scene === 'book' ? (
+        <BookSpiralScene
+          phrase={item.phrase}
+          chapter={item.chapter}
+          index={index}
+        />
+      ) : hasSequence && item.imageSequence ? (
         <ImageSequenceSlide
           sequence={item.imageSequence}
           chapter={item.chapter}
