@@ -10,6 +10,8 @@ export interface EssayItem {
   imageSrc: string;
   imageAlt: string;
   aspectRatio: AspectRatio;
+  /** Renders the text slide inside the dark neon room instead of on paper */
+  backdrop?: 'neon';
   imageSequence?: {
     src: string;
     alt: string;

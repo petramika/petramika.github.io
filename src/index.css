@@ -40,6 +40,7 @@ html.negative-mode picture,
 html.negative-mode video,
 html.negative-mode canvas,
 html.negative-mode .daruma-figure,
+html.negative-mode .neon-room,
 html.negative-mode .paper-ball-image {
   filter: invert(1) !important;
 }
