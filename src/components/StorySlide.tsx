@@ -99,27 +99,20 @@ export function StorySlide({
         style={{ y: textY, opacity: textOpacity, scale: textScale }}
         className="relative w-full will-change-transform flex flex-col items-center my-auto px-4"
       >
-        {/* Rotated vertical side text on desktop */}
-        <div
-          className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] select-none pointer-events-none ${
-            isNeon ? 'text-[#8c8071]' : 'text-[#71717a]'
-          }`}
-        >
+        {/* Rotated vertical side text on desktop — the same mid grey reads
+            on paper and in the dark room, so it needs no variant */}
+        <div className="hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
           [ {String(index + 1).padStart(2, '0')} // MANIFIESTO ] · CAPÍTULO VISUAL
         </div>
 
-        <div
-          className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] select-none pointer-events-none ${
-            isNeon ? 'text-[#8c8071]' : 'text-[#71717a]'
-          }`}
-        >
+        <div className="hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
           COORD. {String(index + 1).padStart(2, '0')}.{total} · ARCHIVO PERMANENTE [ + ]
         </div>
 
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8 ${
-            isNeon ? 'text-[#fdf6ea]' : 'text-[#141518]'
+            isNeon ? 'text-[#f4f4f5]' : 'text-[#141518]'
           }`}
         >
           {item.phrase}
@@ -128,7 +121,7 @@ export function StorySlide({
         {item.subtext && (
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl font-light mb-8 ${
-              isNeon ? 'text-[#c9bfae]' : 'text-[#52525b]'
+              isNeon ? 'text-[#a1a1aa]' : 'text-[#52525b]'
             }`}
           >
             {item.subtext}
@@ -162,11 +155,13 @@ export function StorySlide({
       {/* oscura con marcos de luz que giran y se transforman.          */}
       {/* ------------------------------------------------------------- */}
       {isNeon ? (
-        <div className="neon-room relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden bg-[#0a0705]">
+        <div className="neon-room relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden bg-[#08080a]">
           <NeonMorphFrames />
 
-          {/* Darkens the middle so the bloom never fights the type */}
-          <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(10,7,5,0.9)_0%,rgba(10,7,5,0.58)_36%,rgba(10,7,5,0.18)_66%,transparent_100%)]" />
+          {/* Darkens the middle so the bloom never fights the type. Neutral
+              grey, not a warm black — a tinted scrim is what made the whole
+              room read brown. */}
+          <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(8,8,10,0.9)_0%,rgba(8,8,10,0.58)_36%,rgba(8,8,10,0.18)_66%,transparent_100%)]" />
 
           {textSlide}
         </div>
