@@ -25,6 +25,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
+      backdrop: 'neon',
       imageSrc: getAnnePhoto('1.JPG', 'https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?auto=format&fit=crop&w=1400&q=85'),
     };
   }
