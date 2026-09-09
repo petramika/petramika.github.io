@@ -12,8 +12,8 @@ export interface EssayItem {
   aspectRatio: AspectRatio;
   /** Renders the text slide inside the dark neon room instead of on paper */
   backdrop?: 'neon';
-  /** Replaces the photographic slide with a drawn scene */
-  scene?: 'grid';
+  /** Replaces the written passage with a drawn scene, keeping the photo */
+  textScene?: 'grid';
   imageSequence?: {
     src: string;
     alt: string;

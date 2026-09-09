@@ -80,10 +80,10 @@ export function StorySlide({
 
   // The neon room is a dark space, so the type has to flip with it
   const isNeon = item.backdrop === 'neon';
-  // A drawn scene stands in for the photograph, not for the text: the
-  // essay alternates image and text, and skipping one leaves two text
-  // sections back to back
-  const isScene = item.scene === 'grid';
+  // The grid stands in for the WRITTEN passage, not for the photograph:
+  // the essay alternates image and text, so the chapter keeps its picture
+  // and the grid takes the place of the prose
+  const isTextScene = item.textScene === 'grid';
 
   // Parallax calculations for the DEDICATED FLOATING TEXT SLIDE
   const { scrollYProgress: textScroll } = useScroll({
@@ -141,9 +141,7 @@ export function StorySlide({
       {/* ------------------------------------------------------------- */}
       {/* 1. DIAPOSITIVA VISUAL: SECUENCIA FLASH (CAP IV) O FOTO ESTÁNDAR */}
       {/* ------------------------------------------------------------- */}
-      {isScene ? (
-        <WordGridScene chapter={item.chapter} index={index} />
-      ) : hasSequence && item.imageSequence ? (
+      {hasSequence && item.imageSequence ? (
         <ImageSequenceSlide
           sequence={item.imageSequence}
           chapter={item.chapter}
@@ -161,7 +159,9 @@ export function StorySlide({
       {/* El capítulo marcado como 'neon' se lee dentro de una sala     */}
       {/* oscura con marcos de luz que giran y se transforman.          */}
       {/* ------------------------------------------------------------- */}
-      {isNeon ? (
+      {isTextScene ? (
+        <WordGridScene chapter={item.chapter} index={index} />
+      ) : isNeon ? (
         <div className="neon-room relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden bg-[#08080a]">
           <NeonMorphFrames />
 

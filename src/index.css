@@ -177,11 +177,90 @@ html.negative-mode .photo-treatment {
 }
 
 /* -------------------------------------------------------------
-   WORD GRID (chapter II): the words fade in and out as the scroll
-   re-rolls each cell's emphasis, and a hovered cell comes fully
-   forward. Driven by the --cell-emphasis custom property that the
-   component sets per cell, so all of this stays in CSS
-   transitions rather than in per-word motion values.
+   WORD GRID (chapter II).
+
+   Two tilings, switched by a media query rather than by JS: two
+   columns on a phone, six on a desktop. The spans come in as
+   custom properties from the component, since inline styles
+   cannot carry a breakpoint of their own.
+   ------------------------------------------------------------- */
+.word-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(9, minmax(76px, 1fr));
+}
+
+.word-grid-cell {
+  grid-column: var(--cell-col-mobile);
+  grid-row: var(--cell-row-mobile);
+  /* Type is sized in cqw, so it scales to its own cell and can never
+     outgrow it however wide the window gets */
+  container-type: inline-size;
+}
+
+@media (min-width: 768px) {
+  .word-grid {
+    gap: 12px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    height: 74vh;
+    min-height: 440px;
+  }
+
+  .word-grid-cell {
+    grid-column: var(--cell-col);
+    grid-row: var(--cell-row);
+  }
+}
+
+/* -------------------------------------------------------------
+   Borders. Every side is always in the DOM — only its opacity and
+   scale change — because a side that unmounts has no previous
+   state to transition from and snaps instead of fading.
+   ------------------------------------------------------------- */
+.word-grid-edge {
+  position: absolute;
+  background-color: #141518;
+  opacity: 0;
+  transition:
+    opacity 1100ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1100ms cubic-bezier(0.22, 1, 0.36, 1),
+    width 1100ms cubic-bezier(0.22, 1, 0.36, 1),
+    height 1100ms cubic-bezier(0.22, 1, 0.36, 1),
+    left 1100ms cubic-bezier(0.22, 1, 0.36, 1),
+    top 1100ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Lines grow out of their own middle rather than blinking on */
+.word-grid-edge-h {
+  transform: scaleX(0.2);
+  transform-origin: center;
+}
+
+.word-grid-edge-v {
+  transform: scaleY(0.2);
+  transform-origin: center;
+}
+
+.word-grid-edge[data-visible='true'] {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .word-grid-edge {
+    transition: opacity 200ms linear;
+    transform: none;
+  }
+}
+
+/* -------------------------------------------------------------
+   Words fade in and out as the scroll re-rolls each cell's
+   emphasis, and a hovered cell comes fully forward. Driven by the
+   --cell-emphasis custom property the component sets per cell, so
+   this stays in CSS transitions rather than in per-word motion
+   values.
    ------------------------------------------------------------- */
 .word-grid-word {
   opacity: calc(0.26 + var(--cell-emphasis, 0.5) * 0.62);
