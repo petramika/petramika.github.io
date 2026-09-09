@@ -41,8 +41,18 @@ html.negative-mode video,
 html.negative-mode canvas,
 html.negative-mode .daruma-figure,
 html.negative-mode .neon-room,
+html.negative-mode .loader-veil,
 html.negative-mode .paper-ball-image {
   filter: invert(1) !important;
+}
+
+/*
+  The veil above already restored its own colours, so the paper inside must
+  not be inverted a second time. Same specificity as the img rule above, so
+  this has to stay after it to win.
+*/
+html.negative-mode .loader-veil img {
+  filter: none !important;
 }
 
 /* -------------------------------------------------------------
@@ -157,17 +167,12 @@ html.negative-mode .photo-treatment {
 /* -------------------------------------------------------------
    DARUMA: faux-3D rocking doll next to the +/- toggle.
    The figure keeps its true colours in negative mode (see the
-   re-inversion rule above). Perspective on the wrapper plus a
-   bottom transform-origin gives the weighted-base rocking that
-   a real daruma has — it always returns upright.
+   re-inversion rule above). The low transform-origin is the
+   weighted base: it pivots on its bottom edge and rights itself.
+   The turn is not a CSS 3D rotation — the features are projected
+   across a fixed body in the component, so no perspective here.
    ------------------------------------------------------------- */
-.daruma-stage {
-  perspective: 260px;
-  perspective-origin: 50% 85%;
-}
-
 .daruma-figure {
-  transform-style: preserve-3d;
   transform-origin: 50% 92%;
 }
 

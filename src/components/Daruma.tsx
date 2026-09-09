@@ -1,8 +1,9 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import {
   animate,
   motion,
   useMotionValue,
+  useMotionValueEvent,
   useReducedMotion,
   useSpring,
   useTransform,
@@ -19,6 +20,20 @@ const GESTURES: Gesture[] = ['rock', 'rock', 'rock', 'hop', 'hop', 'turn'];
 
 const HOP_PEAK = 5.5;
 
+/** Body centre in viewBox units, and how far a feature rides across it */
+const CX = 32;
+const CY = 30;
+/**
+ * Kept under the body's ~17-unit half-width. Translating and squeezing a
+ * whole patch is only a linearisation of the real spherical projection, so
+ * a wide feature still overshoots the silhouette near the limb — the clip
+ * path below is what actually contains it.
+ */
+const SURFACE_R = 12;
+
+const BODY_PATH =
+  'M32 7C41 7 47.5 13.5 49 22c2.5 12 3 31-17 31S11.5 34 15 22C16.5 13.5 23 7 32 7Z';
+
 /**
  * Faux-3D daruma that animates itself, unprompted — nothing here is driven
  * by the scroll.
@@ -30,12 +45,15 @@ const HOP_PEAK = 5.5;
  *  - at irregular intervals it picks a gesture — a rock, a couple of mini
  *    hops, or a full turn on its base;
  *  - a deliberately under-damped spring supplies the wobble on the return,
- *    so one short push yields several seconds of settling;
- *  - depth comes from layering rather than real 3D geometry — the face and
- *    the specular highlight shift against the body as it leans, and the
- *    contact shadow narrows both when it tips and when it leaves the ground;
- *  - a turn swaps in a plain back, since a flat SVG spun past 90° would
- *    otherwise show its face mirrored.
+ *    so one short push yields several seconds of settling.
+ *
+ * THE TURN IS THE 3D PART. Rotating the flat SVG on its Y axis would only
+ * ever look like a spinning card, because a card's silhouette changes as it
+ * turns. A round object's does not — so instead the body and the specular
+ * highlight stay completely still, and the FEATURES travel across the
+ * surface: a feature at longitude θ lands at sin(θ) × radius and is squeezed
+ * horizontally by cos(θ), which is where it would fall on a real sphere. A
+ * fixed highlight over a moving surface is what the eye reads as volume.
  */
 export function Daruma({ size = 30 }: DarumaProps) {
   const reduceMotion = useReducedMotion();
@@ -48,19 +66,45 @@ export function Daruma({ size = 30 }: DarumaProps) {
   // Low damping is the point: this is what produces the righting wobble.
   const tilt = useSpring(idleKick, { stiffness: 90, damping: 7, mass: 0.9 });
 
-  // --- Faux-3D derivations ----------------------------------------------
-  // Leaning turns it slightly around Y; a gesture can add a whole rotation.
-  const rotateY = useTransform([tilt, spin], ([t, s]: number[]) => t * 0.85 + s);
+  const frontRef = useRef<SVGGElement>(null);
+  const backRef = useRef<SVGGElement>(null);
 
-  // Past 90° we are looking at the back of the doll
-  const facingBack = useTransform(rotateY, (deg) =>
-    Math.cos((deg * Math.PI) / 180) < 0 ? 1 : 0,
-  );
-  const facingFront = useTransform(facingBack, (back) => 1 - back);
+  /**
+   * Projects both hemispheres onto the fixed body for the current spin and
+   * lean. Written straight to attributes: it has to stay in lockstep with
+   * the spring, and there is nothing here for React to re-render.
+   */
+  const applySurface = useCallback(() => {
+    const front = frontRef.current;
+    const back = backRef.current;
+    if (!front || !back) return;
 
-  // The face sits "in front" of the body, so it lags the lean.
-  const faceParallax = useTransform(tilt, (t) => t * -0.16);
-  // The highlight is the frontmost layer, so it travels furthest.
+    const theta = (spin.get() * Math.PI) / 180;
+    const sin = Math.sin(theta);
+    const cos = Math.cos(theta);
+    // Leaning shifts the near face slightly, as a nearer layer should
+    const lean = tilt.get() * -0.16;
+
+    // Scale about the feature's own centre, after it has travelled
+    const project = (offset: number, squeeze: number) =>
+      `translate(${(CX + offset).toFixed(2)} ${CY}) scale(${Math.max(squeeze, 0.001).toFixed(4)} 1) translate(${-CX} ${-CY})`;
+
+    const facingFront = cos > 0;
+
+    front.setAttribute('opacity', facingFront ? '1' : '0');
+    front.setAttribute('transform', project(SURFACE_R * sin + lean, cos));
+
+    // The back sits half a turn away: mirrored travel, mirrored squeeze
+    back.setAttribute('opacity', facingFront ? '0' : '1');
+    back.setAttribute('transform', project(-SURFACE_R * sin + lean, -cos));
+  }, [spin, tilt]);
+
+  useMotionValueEvent(spin, 'change', applySurface);
+  useMotionValueEvent(tilt, 'change', applySurface);
+  useEffect(applySurface, [applySurface]);
+
+  // The highlight is a fixed light source — it only answers the lean, never
+  // the spin. That is the cue that sells the sphere.
   const glintParallax = useTransform(tilt, (t) => t * -0.34);
 
   // Shadow reacts to leaning off the base and to lifting off the ground
@@ -115,7 +159,7 @@ export function Daruma({ size = 30 }: DarumaProps) {
 
       // A full turn on its base, easing out of and back into rest
       running.spin = animate(spin, spin.get() + direction * 360, {
-        duration: 2.4,
+        duration: 2,
         ease: [0.5, 0, 0.25, 1],
       });
     };
@@ -127,7 +171,7 @@ export function Daruma({ size = 30 }: DarumaProps) {
           perform(GESTURES[Math.floor(Math.random() * GESTURES.length)]);
           schedule();
         },
-        3200 + Math.random() * 4600,
+        2000 + Math.random() * 3000,
       );
     };
 
@@ -141,7 +185,7 @@ export function Daruma({ size = 30 }: DarumaProps) {
 
   return (
     <div
-      className="daruma-stage relative shrink-0 select-none"
+      className="relative shrink-0 select-none"
       style={{ width: size, height: size }}
       title="Daruma — siete veces caes, ocho veces te levantas"
     >
@@ -163,7 +207,7 @@ export function Daruma({ size = 30 }: DarumaProps) {
         width={size}
         height={size}
         className="daruma-figure relative block overflow-visible"
-        style={{ rotate: tilt, rotateY, y: hop }}
+        style={{ rotate: tilt, y: hop }}
         aria-hidden="true"
       >
         <defs>
@@ -187,20 +231,24 @@ export function Daruma({ size = 30 }: DarumaProps) {
             <stop offset="45%" stopColor="#ff9d8f" stopOpacity="0.85" />
             <stop offset="100%" stopColor="#ff9d8f" stopOpacity="0" />
           </linearGradient>
+
+          {/* Nothing painted on the doll may cross its own outline */}
+          <clipPath id="darumaSurface">
+            <path d={BODY_PATH} />
+          </clipPath>
         </defs>
 
-        {/* ---- Body, seen from either side ----------------------------- */}
-        <path
-          d="M32 7C41 7 47.5 13.5 49 22c2.5 12 3 31-17 31S11.5 34 15 22C16.5 13.5 23 7 32 7Z"
-          fill="url(#darumaBody)"
-        />
+        {/* ---- Body. Never rotates: a sphere keeps its outline ---------- */}
+        <path d={BODY_PATH} fill="url(#darumaBody)" />
 
         {/* Occlusion at the base, so it looks like it's resting on weight */}
         <ellipse cx="32" cy="50" rx="17" ry="4.5" fill="#5e0b06" opacity="0.35" />
 
-        {/* ---- FRONT ---------------------------------------------------- */}
-        <motion.g style={{ opacity: facingFront }}>
-          <motion.g style={{ x: faceParallax }}>
+        {/* The clip carries no transform, so it stays pinned to the body
+            while the hemispheres slide underneath it. */}
+        <g clipPath="url(#darumaSurface)">
+          {/* ---- NEAR HEMISPHERE: face and belly ------------------------- */}
+          <g ref={frontRef}>
             <ellipse cx="32" cy="27" rx="13.6" ry="12.2" fill="url(#darumaFace)" />
 
             {/*
@@ -254,78 +302,55 @@ export function Daruma({ size = 30 }: DarumaProps) {
               strokeLinecap="round"
               fill="none"
             />
-          </motion.g>
 
-          {/* Gold belly panel */}
-          <motion.g style={{ x: faceParallax }} opacity="0.92">
-            <ellipse
-              cx="32"
-              cy="44.5"
-              rx="7.8"
-              ry="5.2"
-              fill="none"
-              stroke="#e9c463"
-              strokeWidth="1.35"
-            />
+            {/* Gold belly panel */}
+            <g opacity="0.92">
+              <ellipse
+                cx="32"
+                cy="44.5"
+                rx="7.8"
+                ry="5.2"
+                fill="none"
+                stroke="#e9c463"
+                strokeWidth="1.35"
+              />
+              <path
+                d="M28.6 43.4h6.8M30 46.4h4"
+                stroke="#e9c463"
+                strokeWidth="1.25"
+                strokeLinecap="round"
+              />
+            </g>
+          </g>
+
+          {/* ---- FAR HEMISPHERE: bare lacquer and the spine seam --------- */}
+          <g ref={backRef} opacity="0">
             <path
-              d="M28.6 43.4h6.8M30 46.4h4"
-              stroke="#e9c463"
-              strokeWidth="1.25"
+              d="M32 8.5v43"
+              stroke="#5e0b06"
+              strokeWidth="1"
+              opacity="0.4"
               strokeLinecap="round"
             />
-          </motion.g>
-
-          {/* Specular highlight, frontmost layer */}
-          <motion.ellipse
-            cx="21.5"
-            cy="15.5"
-            rx="5.4"
-            ry="3.4"
-            fill="#ffffff"
-            opacity="0.3"
-            transform="rotate(-30 21.5 15.5)"
-            style={{ x: glintParallax }}
-          />
-        </motion.g>
-
-        {/* ---- BACK: bare lacquer, only seen mid-turn ------------------- */}
-        <motion.g style={{ opacity: facingBack }}>
-          {/* Papier-mâché seam down the spine */}
-          <path
-            d="M32 8.5v43"
-            stroke="#5e0b06"
-            strokeWidth="1"
-            opacity="0.4"
-            strokeLinecap="round"
-          />
-          <ellipse
-            cx="32"
-            cy="40"
-            rx="9"
-            ry="6.5"
-            fill="none"
-            stroke="#e9c463"
-            strokeWidth="1.1"
-            opacity="0.55"
-          />
-          <path
-            d="M28.5 38.6h7M29.5 41.6h5"
-            stroke="#e9c463"
-            strokeWidth="1.05"
-            strokeLinecap="round"
-            opacity="0.55"
-          />
-          {/* Highlight flips to the other shoulder from behind */}
-          <ellipse
-            cx="42"
-            cy="16"
-            rx="5"
-            ry="3.2"
-            fill="#ffffff"
-            opacity="0.22"
-            transform="rotate(30 42 16)"
-          />
-        </motion.g>
+            <ellipse
+              cx="32"
+              cy="40"
+              rx="9"
+              ry="6.5"
+              fill="none"
+              stroke="#e9c463"
+              strokeWidth="1.1"
+              opacity="0.55"
+            />
+            <path
+              d="M28.5 38.6h7M29.5 41.6h5"
+              stroke="#e9c463"
+              strokeWidth="1.05"
+              strokeLinecap="round"
+              opacity="0.55"
+            />
+          </g>
+        </g>
 
         {/* Rim light reads from both sides */}
         <path
@@ -333,6 +358,21 @@ export function Daruma({ size = 30 }: DarumaProps) {
           stroke="url(#darumaRim)"
           strokeWidth="1.7"
           fill="none"
+        />
+
+        {/*
+          Specular highlight, outside both hemispheres: the light does not
+          travel with the surface, so this stays put through a whole turn.
+        */}
+        <motion.ellipse
+          cx="21.5"
+          cy="15.5"
+          rx="5.4"
+          ry="3.4"
+          fill="#ffffff"
+          opacity="0.3"
+          transform="rotate(-30 21.5 15.5)"
+          style={{ x: glintParallax }}
         />
       </motion.svg>
     </div>
