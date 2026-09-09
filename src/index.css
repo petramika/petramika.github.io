@@ -177,28 +177,34 @@ html.negative-mode .photo-treatment {
 }
 
 /* -------------------------------------------------------------
-   ECHO WORDS (chapter II): a slow drift so the escaped words
-   breathe without ever becoming hard to read. Pure CSS, so
-   twenty-odd looping animations stay off the main thread; the
-   per-word delay is set inline.
+   WORD GRID (chapter II): the words fade in and out as the scroll
+   re-rolls each cell's emphasis, and a hovered cell comes fully
+   forward. Driven by the --cell-emphasis custom property that the
+   component sets per cell, so all of this stays in CSS
+   transitions rather than in per-word motion values.
    ------------------------------------------------------------- */
-@keyframes echoWordDrift {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-6px) rotate(-1.2deg);
-  }
+.word-grid-word {
+  opacity: calc(0.26 + var(--cell-emphasis, 0.5) * 0.62);
+  transition:
+    opacity 900ms ease-out,
+    letter-spacing 900ms ease-out;
 }
 
-.echo-word {
-  animation: echoWordDrift 7s ease-in-out infinite;
+/* Repeats and echoes: present, but hanging further back */
+.word-grid-late {
+  opacity: calc(0.1 + var(--cell-emphasis, 0.5) * 0.5);
+}
+
+.word-grid-cell:hover .word-grid-word,
+.word-grid-cell:hover .word-grid-late {
+  opacity: 1;
+  letter-spacing: 0.012em;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .echo-word {
-    animation: none;
+  .word-grid-word,
+  .word-grid-late {
+    transition: none;
   }
 }
 

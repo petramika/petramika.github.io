@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import { EssayItem } from '../types';
 import { ImageSequenceSlide } from './ImageSequenceSlide';
 import { NeonMorphFrames } from './NeonMorphFrames';
-import { BookEchoScene } from './BookEchoScene';
+import { WordGridScene } from './WordGridScene';
 
 interface StorySlideProps {
   item: EssayItem;
@@ -80,9 +80,10 @@ export function StorySlide({
 
   // The neon room is a dark space, so the type has to flip with it
   const isNeon = item.backdrop === 'neon';
-  // A drawn scene already carries the phrase; repeating it below would
-  // just print the same sentence twice
-  const isScene = item.scene === 'book';
+  // A drawn scene stands in for the photograph, not for the text: the
+  // essay alternates image and text, and skipping one leaves two text
+  // sections back to back
+  const isScene = item.scene === 'grid';
 
   // Parallax calculations for the DEDICATED FLOATING TEXT SLIDE
   const { scrollYProgress: textScroll } = useScroll({
@@ -141,12 +142,7 @@ export function StorySlide({
       {/* 1. DIAPOSITIVA VISUAL: SECUENCIA FLASH (CAP IV) O FOTO ESTÁNDAR */}
       {/* ------------------------------------------------------------- */}
       {isScene ? (
-        <BookEchoScene
-          phrase={item.phrase}
-          subtext={item.subtext}
-          chapter={item.chapter}
-          index={index}
-        />
+        <WordGridScene chapter={item.chapter} index={index} />
       ) : hasSequence && item.imageSequence ? (
         <ImageSequenceSlide
           sequence={item.imageSequence}
@@ -165,7 +161,7 @@ export function StorySlide({
       {/* El capítulo marcado como 'neon' se lee dentro de una sala     */}
       {/* oscura con marcos de luz que giran y se transforman.          */}
       {/* ------------------------------------------------------------- */}
-      {isScene ? null : isNeon ? (
+      {isNeon ? (
         <div className="neon-room relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden bg-[#08080a]">
           <NeonMorphFrames />
 
