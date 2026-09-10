@@ -161,11 +161,23 @@ export function NeonMorphFrames() {
           colorInterpolationFilters="sRGB"
         >
           <feGaussianBlur stdDeviation="1.4" result="tight" />
-          <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="mid" />
-          <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="wide" />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="mid" />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="wide" />
+          {/*
+            The wide pass is what carried the glow across the whole room and
+            tinted it brown. It stays, because a tube with no far falloff
+            looks pasted on, but at a fraction of its weight — so the warmth
+            dies out close to the glass and the rest of the room is the same
+            flat black as the page behind it.
+          */}
+          <feColorMatrix
+            in="wide"
+            type="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.35 0"
+            result="wideFaint"
+          />
           <feMerge>
-            <feMergeNode in="wide" />
-            <feMergeNode in="mid" />
+            <feMergeNode in="wideFaint" />
             <feMergeNode in="mid" />
             <feMergeNode in="tight" />
           </feMerge>
@@ -189,9 +201,10 @@ export function NeonMorphFrames() {
 
       {/*
         Bloom is the only place colour lives: a muted dark orange, kept low
-        enough that it reads as a warm glow rather than tinting the room.
+        enough that it reads as a warm glow hugging the tube rather than a
+        wash that turns the whole room brown.
       */}
-      <g filter="url(#neonBloom)" opacity="0.46">
+      <g filter="url(#neonBloom)" opacity="0.34">
         {RINGS.map((ring, i) => (
           <path
             key={`halo-${ring.scale}`}
