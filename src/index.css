@@ -40,7 +40,6 @@ html.negative-mode picture,
 html.negative-mode video,
 html.negative-mode canvas,
 html.negative-mode .daruma-figure,
-html.negative-mode .neon-room,
 html.negative-mode .loader-veil,
 html.negative-mode .paper-ball-image {
   filter: invert(1) !important;
@@ -74,6 +73,26 @@ html.negative-mode .loader-veil img {
 html.negative-mode .photo-treatment {
   filter: contrast(1.1) brightness(0.88) invert(1);
 }
+
+/* -------------------------------------------------------------
+   THE NEON ROOM FOLLOWS THE PAGE.
+
+   The room is authored dark, so it needs an invert of its own — and
+   the same one in both modes, which is why this rule is not scoped
+   to negative-mode. On the light page it is the only invert running,
+   so the room turns light; on the dark page it cancels the root
+   invert exactly, so the room stays the dark room it was drawn as.
+   Scoping it to one mode is what pinned it to black in both.
+
+   The background is the page's own inverted paper (#fbfbfb -> #040404)
+   rather than a near-black of its own, so the room meets the page on
+   the same value and there is no seam where the section starts — only
+   the neon, floating.
+   ------------------------------------------------------------- */
+.neon-room {
+  filter: invert(1);
+}
+
 
 /* Flash overlay: in positive mode it is pure white; in negative mode (inverted by root html) it becomes pure black */
 .flash-burst-overlay {
@@ -299,3 +318,96 @@ html.negative-mode .photo-treatment {
   }
 }
 
+
+/* -------------------------------------------------------------
+   The drawn line that runs underneath the passage of chapter IV.
+   It is softened so the type sitting on top of it stays readable,
+   and its ink is the same near-black as the text, so the global
+   negative-mode invert flips it to white on black along with the
+   rest of the page — never a stroke that disappears into its own
+   background.
+   ------------------------------------------------------------- */
+.wave-line {
+  /* Softened and held well back: the passage is the thing being read, the
+     line is the thing moving behind it. Full-strength ink at this size
+     fought the type instead of sitting under it. */
+  opacity: 0.34;
+  filter: blur(3.2px);
+}
+
+/*
+  Paper-coloured halo around the glyphs. Print does this with a knockout:
+  the wash stops short of the letterform instead of running into it, which
+  is what makes the type read as sitting ON the line rather than tangled
+  with it. The halo is the page colour, so the root invert carries it into
+  negative mode as a near-black glow on the dark page.
+*/
+.wave-type {
+  text-shadow:
+    0 0 12px #fbfbfb,
+    0 0 26px rgba(251, 251, 251, 0.92),
+    0 0 48px rgba(251, 251, 251, 0.7);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave-line {
+    filter: blur(2.4px);
+  }
+}
+
+/* -------------------------------------------------------------
+   ORRERY RIDERS
+
+   The halo is a second copy of the glyph painted in the page colour
+   and fattened with a stroke, sitting under the real one. The `*`
+   selector is the point of it: the glyphs carry their own `fill` and
+   `stroke` presentation attributes, and a rule on the parent would
+   only reach children that set none — a CSS declaration on the
+   children themselves overrides them, which is what turns the copy
+   into a solid paper-coloured mass.
+
+   Page colour, so the root invert carries it: the rider clears its
+   own hole in the ring on white paper and on black alike.
+   ------------------------------------------------------------- */
+.orrery-halo,
+.orrery-halo * {
+  fill: #fbfbfb;
+  stroke: #fbfbfb;
+  stroke-width: 3.4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+/* -------------------------------------------------------------
+   THE LAVA FIELD OPTS OUT OF THE NEGATIVE.
+
+   It is the only colour in the essay, and a global invert turns a
+   lavender into an olive, so the layer cancels the root invert and
+   names its own colours for each mode instead: pale periwinkle on
+   paper, deep violet in the dark. The edge colour follows the page
+   so the field still melts into it at both ends.
+   ------------------------------------------------------------- */
+.lava-field {
+  --lava-base-a: #cfd9fb;
+  --lava-base-b: #e4d8fc;
+  --lava-violet-a: #c6b3f7;
+  --lava-violet-b: #a688f0;
+  --lava-blue-a: #bcc9f9;
+  --lava-blue-b: #9db2f3;
+  --lava-mauve-a: #dcbcf8;
+  --lava-mauve-b: #b596f4;
+  --lava-edge: #fbfbfb;
+}
+
+html.negative-mode .lava-field {
+  filter: invert(1);
+  --lava-base-a: #140d29;
+  --lava-base-b: #1d1138;
+  --lava-violet-a: #34235f;
+  --lava-violet-b: #52338f;
+  --lava-blue-a: #1f2452;
+  --lava-blue-b: #34407e;
+  --lava-mauve-a: #402561;
+  --lava-mauve-b: #653b96;
+  --lava-edge: #040404;
+}

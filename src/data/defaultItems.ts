@@ -49,6 +49,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
+      underlay: 'wave',
       imageSrc: getAnnePhoto('4-1.JPG', 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=85'),
       imageSequence: [
         {
@@ -77,12 +78,14 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
+      underlay: 'lava',
       imageSrc: getAnnePhoto('6.JPG', 'https://images.unsplash.com/photo-1476820865390-c52aeebb9891?auto=format&fit=crop&w=1200&q=85'),
     };
   }
   return {
     ...restCh,
     aspectRatio,
+    coda: 'orrery',
     imageSrc: getAnnePhoto('7.JPG', 'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=1400&q=85'),
   };
 });
