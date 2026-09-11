@@ -104,7 +104,37 @@
   ],
   "epilogue": {
     "backToTop": "↑ VOLVER AL INICIO [ TOP ]",
-    "copyright": "ROTA © 2026 — MANIFIESTO VISUAL EXPERIMENTAL"
+    "credit": "Website developed by broken Anne"
+  },
+  "wordRain": [
+    "amor",
+    "cuidar",
+    "besos",
+    "caricias",
+    "reír",
+    "lucha",
+    "juntos",
+    "acompañar",
+    "te quiero",
+    "aceptar",
+    "cambiar",
+    "respeto",
+    "admiración"
+  ],
+  "wordGrid": {
+    "trauma": "trauma",
+    "dolor": "dolor",
+    "mentiras": "mentiras",
+    "miedo": "miedo",
+    "rabia": "rabia",
+    "queja": "queja"
+  },
+  "labels": {
+    "photoEdge": "[ {n} // ARCHIVO VISUAL ] · {title} {year}",
+    "sequenceEdge": "[ {n} // SECUENCIA FLASH ] · CAPÍTULO {chapter}",
+    "gridEdge": "[ {n} // INVENTARIO ] · CAPÍTULO {chapter}",
+    "passageLeft": "[ {n} // MANIFIESTO ] · CAPÍTULO VISUAL",
+    "passageRight": "COORD. {n}.{total} · ARCHIVO PERMANENTE [ + ]"
   },
   "navigation": {
     "contrastToggleLabel": "+ / -",

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { label, pad, texts } from '../data/labels';
 
 interface SequenceItem {
   src: string;
@@ -114,7 +115,7 @@ export function ImageSequenceSlide({ sequence, chapter, index }: ImageSequenceSl
       ref={sectionRef}
       id={`chapter-${chapter}-sequence`}
       onClick={() => triggerNextWithFlash()}
-      className="relative w-full h-[88vh] sm:h-[95vh] md:h-screen overflow-hidden bg-[#0a0a0a] flex items-center justify-center select-none cursor-pointer group"
+      className="stack-ground-photo relative w-full h-full overflow-hidden flex items-center justify-center select-none cursor-pointer group"
       title="Secuencia flash de 3 imágenes (haz clic para disparar el siguiente flash)"
     >
       {/*
@@ -167,7 +168,7 @@ export function ImageSequenceSlide({ sequence, chapter, index }: ImageSequenceSl
 
       {/* Left editorial watermark */}
       <div className="hidden sm:flex absolute left-8 top-1/2 -translate-y-1/2 writing-vertical-left text-[10px] font-editorial-mono uppercase tracking-[0.28em] text-white/50 z-20 pointer-events-none">
-        [ {String(index + 1).padStart(2, '0')} // SECUENCIA FLASH ] · CAPÍTULO {chapter}
+        {label(texts.labels.sequenceEdge, { n: pad(index + 1), chapter })}
       </div>
 
       {/* Right editorial watermark */}

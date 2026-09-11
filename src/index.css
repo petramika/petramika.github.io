@@ -24,7 +24,15 @@
 /* ------------------------------------------------------------- */
 html.negative-mode {
   filter: invert(1);
-  background-color: #040404;
+  /*
+    Paper, not black — because `filter` applies to the element's own
+    background too, so this value is inverted before it is painted and
+    #040404 came out as #fbfbfb. That made the surface behind the entire
+    page the brightest thing in the document, and any hairline gap between
+    two panels showed up as a white line. Written as paper, it inverts to
+    the page's black and a gap shows nothing at all.
+  */
+  background-color: #fbfbfb;
 }
 
 /*
@@ -336,13 +344,14 @@ html.negative-mode .photo-treatment {
 }
 
 /*
-  Paper-coloured halo around the glyphs. Print does this with a knockout:
+  Paper-coloured halo around the glyphs, for any passage with something
+  moving underneath it. Print does this with a knockout:
   the wash stops short of the letterform instead of running into it, which
   is what makes the type read as sitting ON the line rather than tangled
   with it. The halo is the page colour, so the root invert carries it into
   negative mode as a near-black glow on the dark page.
 */
-.wave-type {
+.type-halo {
   text-shadow:
     0 0 12px #fbfbfb,
     0 0 26px rgba(251, 251, 251, 0.92),
@@ -411,3 +420,138 @@ html.negative-mode .lava-field {
   --lava-mauve-b: #653b96;
   --lava-edge: #040404;
 }
+
+/* -------------------------------------------------------------
+   STACKED PANELS
+
+   Both of these are authored twice, because the root invert flips
+   them: a black veil becomes a white one and a cast shadow becomes
+   a glow, so in negative mode each is written as its own opposite
+   and lands right side up after the inversion. The white hairline
+   this replaces was the page showing through a scaled panel; the
+   mat in the component takes care of that side of it.
+   ------------------------------------------------------------- */
+/*
+  The edge of an arriving panel is drawn INSIDE it, as a gradient across its
+  own top. It used to be an outer box-shadow, which is the one thing here
+  that painted outside a panel's box — and anything that paints into the
+  seam between two panels can show up as a line in it.
+*/
+.stack-contact {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
+
+html.negative-mode .stack-contact {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+}
+
+.stack-recede {
+  background-color: #000000;
+}
+
+html.negative-mode .stack-recede {
+  background-color: #ffffff;
+}
+
+/* -------------------------------------------------------------
+   PANEL GROUNDS
+
+   A dark ground is not the same thing as a dark colour here. The
+   photographs are re-inverted to stay positive and the neon room
+   cancels the invert too, so both of those surfaces read dark in
+   BOTH modes — which means the ground behind them has to be
+   written as its own opposite, or the root invert turns it into a
+   cream (#0f1013 becomes #f0efec) and that cream shows in the gap
+   a receding panel opens, and for a moment before a photograph
+   has loaded.
+
+   Paper needs no pair: inverted it lands on the page's own black,
+   which is exactly where it should be — and it is also the ground
+   the neon room wants, because that room follows the page rather
+   than holding one colour of its own.
+   ------------------------------------------------------------- */
+.stack-ground-paper {
+  background-color: #fbfbfb;
+}
+
+.stack-ground-photo {
+  background-color: #0f1013;
+}
+
+html.negative-mode .stack-ground-photo {
+  background-color: #f0efec;
+}
+
+/* -------------------------------------------------------------
+   THE WORD RAIN
+
+   Held back like the other underlays: the passage is what is being
+   read, the words are weather behind it. Ink, so the root invert
+   carries them into the dark page along with the type.
+
+   `will-change` is set here rather than per node — every word is
+   moving every frame, and each one is a fresh element, so there is
+   nothing to be gained by promoting them one at a time.
+   ------------------------------------------------------------- */
+.word-rain {
+  color: #141518;
+  opacity: 0.44;
+}
+
+.word-rain-word {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  will-change: transform;
+}
+
+.word-rain-letter {
+  display: inline-block;
+  position: relative;
+  will-change: transform, opacity;
+}
+
+/*
+  The glyph is what gives way. It sinks onto its own baseline and spreads
+  as it goes, which is why the origin is at the bottom: scaling from the
+  middle would pull the letter off the floor it just landed on.
+*/
+.word-rain-glyph {
+  display: inline-block;
+  transform-origin: 50% 100%;
+  will-change: transform;
+}
+
+/*
+  The two drips. They hang off the OUTER span, not off the glyph, so the
+  body can collapse to nothing while what has already run off it keeps its
+  length — melting snow leaves the icicle behind. Their lengths are written
+  per frame as --drip-a and --drip-b; at rest they are zero and nothing is
+  drawn at all.
+*/
+.word-rain-letter::before,
+.word-rain-letter::after {
+  content: '';
+  position: absolute;
+  bottom: 0.08em;
+  width: 0.085em;
+  background-color: currentColor;
+  /* Rounded at the bottom only: a drip hangs, it does not float */
+  border-radius: 0 0 0.1em 0.1em;
+  pointer-events: none;
+}
+
+.word-rain-letter::before {
+  left: var(--drip-x1, 30%);
+  height: var(--drip-a, 0);
+}
+
+.word-rain-letter::after {
+  left: var(--drip-x2, 64%);
+  height: var(--drip-b, 0);
+}
+

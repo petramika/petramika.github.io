@@ -57,7 +57,7 @@ export function HeroSection({
             <span className="text-[#a1a1aa]">{texts.hero.status}</span>
           </div>
           <div className="hidden md:flex items-center space-x-6 text-[10px] tracking-[0.2em]">
-            <span>© {texts.meta.year} {texts.hero.title} LABS</span>
+            <span>© {new Date().getFullYear()} {texts.hero.title} LABS</span>
             <span className="text-[#d4d4d8]">|</span>
             <span>{texts.hero.editorialTag}</span>
           </div>
