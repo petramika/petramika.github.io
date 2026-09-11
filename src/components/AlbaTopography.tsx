@@ -16,35 +16,68 @@ import { useEffect, useRef } from 'react';
  * wider than the one behind it, and the peaks grow. Any one of them alone
  * reads as a pattern.
  *
+ * The range is built from a handful of peaks combined with max(), not from
+ * waves added together. Summed sines give a woven mesh where every line
+ * looks like every other one; taking the highest of a few bumps gives
+ * summits, shoulders and valleys — silhouettes that cut into each other the
+ * way ridges seen from a distance do.
+ *
+ * Behind it all the sun climbs out from behind the range, leaves through the
+ * top of the sky and comes round again. It is drawn before the ridges, so
+ * they take a bite out of it on the way up.
+ *
  * Ink and paper are the page's own two values, so the whole drawing flips
  * with the negative — see the note beside `.alba-canvas` in the stylesheet
  * for why this canvas has to opt out of the rule that protects photographs.
  */
 
 /** Contour lines from the horizon to the foreground */
-const ROWS = 42;
+const ROWS = 30;
 /** Points sampled across each line */
-const SAMPLES = 132;
+const SAMPLES = 150;
 /** Where the horizon sits within the drawing */
-const HORIZON = 0.2;
+const HORIZON = 0.5;
 /** Which rows the mist lies in front of */
-const MIST_ROWS = [13, 24];
+const MIST_ROWS = [9, 17];
+/** Seconds for the sun to rise, leave the sky and come round again */
+const SUN_PERIOD = 54;
 
 const INK = '20, 21, 24';
 const PAPER = '251, 251, 251';
 
+/** A summit: where it stands, how wide it lies and how high it goes */
+const PEAKS = [
+  { at: 0.08, width: 0.19, height: 0.72, sway: 0.9 },
+  { at: 0.24, width: 0.13, height: 1.0, sway: 1.6 },
+  { at: 0.38, width: 0.17, height: 0.58, sway: 1.1 },
+  { at: 0.52, width: 0.11, height: 0.86, sway: 2.1 },
+  { at: 0.66, width: 0.2, height: 0.66, sway: 0.7 },
+  { at: 0.79, width: 0.12, height: 0.94, sway: 1.4 },
+  { at: 0.93, width: 0.16, height: 0.61, sway: 1.9 },
+];
+
+/** Sky, in fractions of the drawing: where each cloud sits and how it drifts */
+const CLOUDS = [
+  { at: 0.18, y: 0.3, width: 0.15, lift: 0.05, lines: 6, speed: 0.011 },
+  { at: 0.58, y: 0.19, width: 0.19, lift: 0.065, lines: 7, speed: 0.007 },
+  { at: 0.86, y: 0.37, width: 0.12, lift: 0.04, lines: 5, speed: 0.015 },
+];
+
 /**
- * The land itself. Layered waves whose phases run at different rates with
- * depth, so no two contours describe the same ridge and the range never
- * repeats into the distance.
+ * The land at one point along one contour. Each summit is a smooth bump and
+ * the range is the highest of them, so ridges meet in valleys instead of
+ * blurring through each other. Nearer contours see the peaks shifted a
+ * little further across — the parallax of walking towards a range.
  */
 function terrain(u: number, d: number, t: number) {
-  return (
-    Math.sin(u * 3.1 - d * 1.2 - t * 0.021) * 0.42 +
-    Math.sin(u * 6.2 + d * 2.1 + t * 0.05) * 0.55 +
-    Math.sin(u * 11.3 - d * 3.4 + 1.7) * 0.3 +
-    Math.sin(u * 19.7 + d * 5.2 + t * 0.03) * 0.16
-  );
+  let h = 0;
+  for (const peak of PEAKS) {
+    const at = peak.at + (d - 0.5) * 0.06 + Math.sin(t * 0.05 + peak.sway) * 0.012;
+    const reach = (u - at) / peak.width;
+    h = Math.max(h, peak.height * Math.exp(-reach * reach));
+  }
+  // Just enough roughness that no slope comes out perfectly smooth
+  return h + 0.05 * Math.sin(u * 26 + d * 4.1) + 0.03 * Math.sin(u * 41 - t * 0.1);
 }
 
 export function AlbaTopography() {
@@ -78,79 +111,117 @@ export function AlbaTopography() {
     const observer = new ResizeObserver(resize);
     observer.observe(host);
 
+    const drawSun = (t: number, horizonY: number) => {
+      const radius = Math.min(width, height) * 0.1;
+      const phase = (t % SUN_PERIOD) / SUN_PERIOD;
+      // Slow off the horizon and quicker as it clears: dawn takes its time
+      const climb = phase ** 1.45;
+      const from = horizonY + radius * 1.1;
+      const to = -radius * 1.5;
+      const y = from + (to - from) * climb;
+      const x = width * 0.62;
+
+      for (let ring = 0; ring < 3; ring += 1) {
+        ctx.beginPath();
+        ctx.arc(x, y, radius * (1 - ring * 0.17), 0, Math.PI * 2);
+        ctx.lineWidth = ring === 0 ? 1.5 : 1;
+        ctx.strokeStyle = `rgba(${INK}, ${(0.42 - ring * 0.12).toFixed(3)})`;
+        ctx.stroke();
+      }
+    };
+
+    const drawClouds = (t: number) => {
+      for (const cloud of CLOUDS) {
+        // Drifting, and round again from the other side
+        const cx = (((cloud.at + t * cloud.speed) % 1.34) - 0.17) * width;
+        const cy = cloud.y * height;
+
+        for (let i = 0; i < cloud.lines; i += 1) {
+          const up = i / (cloud.lines - 1);
+          const half = cloud.width * width * (1 - 0.74 * up);
+          const y = cy - cloud.lift * height * up;
+          ctx.beginPath();
+          ctx.moveTo(cx - half, y);
+          // A flattened arc: the contour of something with no edges
+          ctx.quadraticCurveTo(cx, y - half * 0.26, cx + half, y);
+          ctx.lineWidth = 1;
+          ctx.strokeStyle = `rgba(${INK}, ${(0.3 - up * 0.16).toFixed(3)})`;
+          ctx.stroke();
+        }
+      }
+    };
+
     const draw = (t: number) => {
       const horizonY = height * HORIZON;
       const depth = height - horizonY;
 
       ctx.clearRect(0, 0, width, height);
 
-      // First light: the sky carries its weight at the top and lets go as it
-      // comes down, so the brightest part of the drawing is the horizon
+      /*
+        The sky carries its weight in a band rather than from the very top
+        down: fading in from nothing at the edge means the drawing has no
+        hard line anywhere, and the brightest part of it is the horizon,
+        which is what makes it read as first light.
+      */
       const sky = ctx.createLinearGradient(0, 0, 0, horizonY);
-      sky.addColorStop(0, `rgba(${INK}, 0.13)`);
+      sky.addColorStop(0, `rgba(${INK}, 0)`);
+      sky.addColorStop(0.34, `rgba(${INK}, 0.1)`);
       sky.addColorStop(1, `rgba(${INK}, 0)`);
       ctx.fillStyle = sky;
       ctx.fillRect(0, 0, width, horizonY);
 
-      ctx.strokeStyle = `rgba(${INK}, 0.16)`;
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(0, horizonY);
-      ctx.lineTo(width, horizonY);
-      ctx.stroke();
+      drawSun(t, horizonY);
+      drawClouds(t);
 
       for (let j = 0; j < ROWS; j += 1) {
         const d = j / (ROWS - 1);
         // Rows crowd at the horizon and open out towards the viewer
-        const base = horizonY + depth * d ** 1.85;
-        const amp = depth * (0.1 + 0.36 * d);
+        const base = horizonY + depth * d ** 1.7;
+        const amp = depth * (0.34 + 0.66 * d);
         // And each one is drawn wider than the row behind it
-        const spread = 0.8 + 0.55 * d;
+        const spread = 0.86 + 0.42 * d;
 
         ctx.beginPath();
         for (let i = 0; i <= SAMPLES; i += 1) {
           const u = i / SAMPLES;
           const x = width / 2 + (u - 0.5) * width * spread;
-          // Normalised into 0..1 so a ridge only ever rises from its line
-          const h = (terrain(u * spread * 2.4 + t * 0.014, d, t) + 1.43) / 2.86;
-          const y = base - amp * h;
+          const y = base - amp * terrain(u, d, t);
           if (i === 0) ctx.moveTo(x, y);
           else ctx.lineTo(x, y);
         }
 
         // Everything under this ridge is ground: fill it with the page, and
         // whatever was drawn behind is gone
-        ctx.lineTo(width, height + 2);
-        ctx.lineTo(0, height + 2);
+        ctx.lineTo(width + 2, height + 2);
+        ctx.lineTo(-2, height + 2);
         ctx.closePath();
         ctx.fillStyle = `rgb(${PAPER})`;
         ctx.fill();
 
         // Far lines are thin and faint, near ones carry the weight
-        ctx.lineWidth = 0.75 + 1.15 * d;
-        ctx.strokeStyle = `rgba(${INK}, ${(0.26 + 0.6 * d).toFixed(3)})`;
+        ctx.lineWidth = 0.7 + 1.1 * d;
+        ctx.strokeStyle = `rgba(${INK}, ${(0.24 + 0.6 * d).toFixed(3)})`;
         ctx.stroke();
 
-        // Mist sits in the valley it was laid in: rows in front of it are
-        // still to come, so they will cut through it the way ridges do
+        // Mist settles in the valley it was laid in: the rows still to come
+        // will cut through it the way ridges cut through cloud
         const mist = MIST_ROWS.indexOf(j);
         if (mist !== -1) {
-          const drift = t * (mist === 0 ? 15 : 9);
+          const drift = t * (mist === 0 ? 13 : 8);
           ctx.beginPath();
-          ctx.moveTo(0, height);
+          ctx.moveTo(-2, height);
           for (let i = 0; i <= SAMPLES; i += 1) {
             const x = (i / SAMPLES) * width;
             const y =
               base -
-              amp * 0.22 +
-              14 * Math.sin((x + drift) / 230 + mist) +
-              7 * Math.sin((x - drift) / 95);
-            if (i === 0) ctx.lineTo(0, y);
-            else ctx.lineTo(x, y);
+              amp * 0.1 +
+              13 * Math.sin((x + drift) / 240 + mist) +
+              6 * Math.sin((x - drift) / 95);
+            ctx.lineTo(x, y);
           }
-          ctx.lineTo(width, height + 2);
+          ctx.lineTo(width + 2, height + 2);
           ctx.closePath();
-          ctx.fillStyle = `rgba(${PAPER}, 0.62)`;
+          ctx.fillStyle = `rgba(${PAPER}, 0.6)`;
           ctx.fill();
         }
       }
