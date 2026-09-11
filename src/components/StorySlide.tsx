@@ -52,6 +52,7 @@ function StandardPhotoSlide({
           alt={item.imageAlt}
           referrerPolicy="no-referrer"
           loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover photo-treatment"
         />
       </motion.div>

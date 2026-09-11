@@ -11,7 +11,7 @@ export function Navigation({ negativeMode, onToggleNegativeMode }: NavigationPro
   return (
     <header
       id="main-navigation"
-      className="fixed top-0 left-0 right-0 z-50 bg-[#fbfbfb]/90 backdrop-blur-md border-b border-[#e9e9eb]/80 transition-colors duration-300"
+      className="site-header fixed top-0 left-0 right-0 z-50 bg-[#fbfbfb]/95 border-b border-[#e9e9eb]/80 transition-colors duration-300"
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Brand / Title */}

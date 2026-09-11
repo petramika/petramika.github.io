@@ -585,3 +585,62 @@ html.negative-mode .stack-ground-photo {
    ever seen. It picks its own palette per mode from inside the
    component instead.
    ------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+   THE HEADER HOLDS STILL.
+
+   It used to sit on a backdrop blur, and a backdrop blur inside a
+   page that is itself under `filter: invert(1)` is a bad trade: the
+   browser has to resample everything behind the bar THROUGH that
+   filter on every frame, and with full-screen scenes animating
+   underneath it that resampling is what was flashing.
+
+   Nearly opaque instead, and promoted onto its own layer so the
+   compositor can leave it alone while the page moves under it. The
+   `contain` keeps anything below from forcing it to repaint.
+   ------------------------------------------------------------- */
+.site-header {
+  transform: translateZ(0);
+  will-change: transform;
+  contain: paint;
+}
+
+/* -------------------------------------------------------------
+   THE ORRERY'S WISH
+
+   The ring is always in the markup and always turning; pressing
+   the letter only lets it be seen. Animating opacity and a scale
+   costs the compositor nothing, where mounting a ring mid-flight
+   would have it appear already halfway round its orbit.
+
+   The rest of the stack draws back a little to let it in, which is
+   what makes the new ring read as arriving rather than as having
+   been hidden there all along.
+   ------------------------------------------------------------- */
+.orrery-wish {
+  opacity: 0;
+  transition: opacity 900ms ease-out;
+}
+
+.orrery-wish.is-out {
+  opacity: 1;
+}
+
+/* The one thing on the page asking to be pressed */
+.orrery-core {
+  cursor: pointer;
+  outline: none;
+}
+
+.orrery-core:focus-visible circle {
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  paint-order: stroke;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orrery-wish {
+    transition-duration: 1ms;
+  }
+}

@@ -1,6 +1,8 @@
-import { ReactElement, useEffect, useMemo, useRef } from 'react';
+import { ReactElement, useEffect, useMemo, useRef, useState } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
 import { useOnScreen } from '../hooks/useOnScreen';
+import texts from '../data/texts.json';
+import { WHEEL, mix, throughTheNegative, RESTING_INK } from '../data/wheel';
 
 /**
  * A very small planetarium. Concentric rings turn around a dark core, and
@@ -13,6 +15,10 @@ import { useOnScreen } from '../hooks/useOnScreen';
  * wobble rather than as a circle spinning inside itself — a perfect circle
  * rotating about its own centre shows no motion at all.
  *
+ * Press the letter at the centre and a ring nobody asked for comes out of
+ * it, with what the whole essay has been circling written along it. The rest
+ * of the orrery draws back to make room.
+ *
  * Put the cursor on a ring and that ring speeds up. Which ring the cursor is
  * on is worked out from the geometry rather than from hit testing: the rings
  * are a couple of units thick, so landing on one with a mouse would be
@@ -24,11 +30,22 @@ import { useOnScreen } from '../hooks/useOnScreen';
 const POINTS = 120;
 const TAU = Math.PI * 2;
 /** The viewBox is VIEW units across, centred on zero */
-const VIEW = 224;
+const VIEW = 244;
 /** How near the line the cursor has to be, in viewBox units, to take it */
 const GRAB = 11;
 /** How much faster a ring runs while the cursor is on it */
 const BOOST = 4.5;
+/** The ring that is not there until it is asked for */
+const WISH: Orbit = {
+  r: 105,
+  cx: 0,
+  cy: 0,
+  wobble: 3.7,
+  speed: TAU / 210,
+  precess: 0.12,
+  phase: 0,
+  strokeWidth: 0.9,
+};
 
 interface Orbit {
   /** Mean radius, in the 200-unit viewBox */
@@ -233,10 +250,25 @@ export function Orrery() {
   const reduceMotion = useReducedMotion();
   const svgRef = useRef<SVGSVGElement>(null);
   const onScreen = useOnScreen(svgRef);
+  const wishRef = useRef<SVGGElement>(null);
+  const coreRef = useRef<SVGCircleElement>(null);
+  const skyRef = useRef<SVGGElement>(null);
+  const wishScaleRef = useRef<SVGGElement>(null);
+  /*
+    The drawing back is scaled here rather than in CSS. A CSS transform on an
+    SVG group is measured from that group's own bounding box unless the box
+    is redeclared, and these rings are each deliberately off centre, so their
+    box is not the middle of anything — scaling about it walked the whole
+    orrery sideways. An SVG scale() is always about user space, and user
+    space here is the centre by construction.
+  */
+  const zoom = useRef({ sky: 1, wish: 0.86 });
+  const [wished, setWished] = useState(false);
   const ringRefs = useRef<(SVGGElement | null)[]>([]);
   const riderRefs = useRef<(SVGGElement | null)[]>([]);
 
   const paths = useMemo(() => ORBITS.map(ringPath), []);
+  const wishPath = useMemo(() => ringPath(WISH), []);
 
   // Where the cursor is, in viewBox units, kept out of React so the loop can
   // read it every frame
@@ -276,7 +308,29 @@ export function Orrery() {
     };
   }, []);
 
+  /*
+    The dust over the whole page takes its colour from this, so the scene has
+    to say when it is here. Written on the document, and only when it changes.
+  */
+  const announced = useRef(false);
+
+  /*
+    The core borrows a colour from the dust's wheel now and then, so there is
+    something asking to be pressed without anything saying so. It settles for
+    good once the ring is out: a hint that carries on hinting after it has
+    been taken reads as decoration.
+  */
+  const hint = useRef({ tint: 0, from: WHEEL[0], to: WHEEL[4], hold: 0, span: 1 });
+
   useAnimationFrame((elapsed) => {
+    if (announced.current !== onScreen.current) {
+      announced.current = onScreen.current;
+      if (onScreen.current) document.documentElement.dataset.scene = 'orrery';
+      else if (document.documentElement.dataset.scene === 'orrery') {
+        delete document.documentElement.dataset.scene;
+      }
+    }
+
     if (!onScreen.current) {
       // Keep the clock with it, or the rings jump on the way back
       lastTime.current = elapsed / 1000;
@@ -336,16 +390,100 @@ export function Orrery() {
         `translate(${here.x.toFixed(2)} ${here.y.toFixed(2)}) rotate(${heading.toFixed(2)}) scale(${orbit.riderScale ?? 0.6})`,
       );
     });
+
+    const z = zoom.current;
+    const ease = 1 - Math.exp(-3.2 * dt);
+    z.sky += ((wished ? 0.88 : 1) - z.sky) * ease;
+    z.wish += ((wished ? 1 : 0.86) - z.wish) * ease;
+    skyRef.current?.setAttribute('transform', `scale(${z.sky.toFixed(4)})`);
+    wishScaleRef.current?.setAttribute('transform', `scale(${z.wish.toFixed(4)})`);
+
+    const core = coreRef.current;
+    if (core) {
+      const h = hint.current;
+      h.hold -= dt;
+      if (h.hold <= 0) {
+        h.from = h.to;
+        h.to = WHEEL[Math.floor(Math.random() * WHEEL.length)];
+        // Never the same interval twice, or it reads as a pulse
+        h.span = 1.8 + Math.random() * 2.6;
+        h.hold = h.span;
+      }
+      const wanted = wished ? 0 : 1;
+      h.tint += (wanted - h.tint) * (1 - Math.exp(-1.6 * dt));
+
+      const negative = document.documentElement.classList.contains('negative-mode');
+      const resting = negative ? RESTING_INK.dark : RESTING_INK.light;
+      /*
+        Measured against THIS crossfade's own length, and smoothed at both
+        ends. Reading it against a fixed span was the jump: each interval is
+        a different length, so a fade would start partway through and the
+        colour snapped. Smoothstep takes care of the rest — matching the
+        value at the joins is not enough, the rate has to match too or the
+        eye catches the corner.
+      */
+      const k = 1 - Math.max(0, h.hold) / h.span;
+      const hue = mix(h.from, h.to, k * k * (3 - 2 * k));
+      core.setAttribute(
+        'fill',
+        `rgb(${throughTheNegative(mix(resting, hue, h.tint * 0.85), negative)})`,
+      );
+    }
+
+    // The wish turns too, slower than anything else out there
+    wishRef.current?.setAttribute(
+      'transform',
+      `rotate(${(((now * WISH.precess * 180) / Math.PI) % 360).toFixed(3)})`,
+    );
   });
+
+  useEffect(() => {
+    return () => {
+      if (document.documentElement.dataset.scene === 'orrery') {
+        delete document.documentElement.dataset.scene;
+      }
+    };
+  }, []);
 
   return (
     <section className="relative z-10 flex h-full w-full items-center justify-center px-6 py-16 sm:px-12 sm:py-24">
       <svg
         ref={svgRef}
-        viewBox="-112 -112 224 224"
-        className="block w-[min(84vw,520px)] text-[#141518]"
+        /*
+          Room for the wish. Its ring reaches 110 units out and the writing
+          on it stands another five and a half above that, which the old
+          112-unit frame cut clean through. The rendered width grows by the
+          same proportion, so everything else is exactly the size it was.
+        */
+        viewBox="-122 -122 244 244"
+        className="block w-[min(88vw,566px)] text-[#141518]"
         aria-hidden="true"
       >
+        <defs>
+          <path id="orrery-wish-path" d={wishPath} />
+        </defs>
+
+        {/* The wish: a ring that is not there until the letter is pressed */}
+        <g className={`orrery-wish ${wished ? 'is-out' : ''}`} aria-hidden={!wished}>
+          <g ref={wishScaleRef}>
+            <g ref={wishRef}>
+          <path
+            d={wishPath}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={WISH.strokeWidth}
+            opacity="0.45"
+          />
+          <text fontSize="7.4" letterSpacing="0.14em" fill="currentColor">
+            <textPath href="#orrery-wish-path" startOffset="1%">
+              {texts.orrery.wish}
+            </textPath>
+          </text>
+            </g>
+          </g>
+        </g>
+
+        <g ref={skyRef}>
         {ORBITS.map((orbit, i) => {
           const RiderGlyph = orbit.rider ? RIDERS[orbit.rider] : null;
           return (
@@ -380,13 +518,27 @@ export function Orrery() {
           );
         })}
 
+        </g>
+
         {/* The core everything is turning around, with the initial cut out
             of it. The letter is painted in the page's own paper rather than
             drawn on top: knocked out of the disc it reads as part of the
             core, and paper is the one value that flips on its own — under
             the negative it lands on the page's black without a second rule. */}
-        <g>
-          <circle cx="0" cy="0" r="10.4" fill="currentColor" />
+        <g
+          className="orrery-core"
+          role="button"
+          tabIndex={0}
+          aria-label={texts.orrery.wish}
+          onClick={() => setWished((was) => !was)}
+          onKeyDown={(event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              setWished((was) => !was);
+            }
+          }}
+        >
+          <circle ref={coreRef} cx="0" cy="0" r="10.4" fill="currentColor" />
           <text
             x="0"
             y="0"

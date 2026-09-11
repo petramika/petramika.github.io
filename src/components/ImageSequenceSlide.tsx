@@ -144,6 +144,7 @@ export function ImageSequenceSlide({ sequence, chapter, index }: ImageSequenceSl
                 alt={img.alt}
                 referrerPolicy="no-referrer"
                 loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover photo-treatment"
               />
             </div>
