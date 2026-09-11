@@ -255,10 +255,10 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
     <section
       ref={sceneRef}
       id={`chapter-${chapter}-grid`}
-      className="relative w-full h-full flex items-center justify-center px-4 sm:px-8 py-20"
+      className="relative w-full h-full flex items-center justify-center px-4 sm:px-8 py-10 sm:py-20"
       aria-label={`Capítulo ${chapter}: miedo, mentiras, trauma, dolor, rabia, queja`}
     >
-      <div className="w-full max-w-6xl">
+      <div className="w-full h-full min-h-0 max-w-6xl">
         <div className="word-grid">
           {CELLS.map((cell, i) => {
             // Each cell settles at its own intensity, and lifts on hover
