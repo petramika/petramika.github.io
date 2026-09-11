@@ -121,7 +121,7 @@ export function StorySlide({
     >
       {/* The dawn, drawn in contour lines across the foot of the panel */}
       {hasAlba && (
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 left-1/2 z-0 h-[62%] w-screen -translate-x-1/2">
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
           <AlbaTopography />
         </div>
       )}
@@ -167,7 +167,7 @@ export function StorySlide({
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8 ${
             isNeon ? 'text-[#f4f4f5]' : 'text-[#141518]'
-          } ${hasWave || hasRain ? 'type-halo' : ''}`}
+          } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
         >
           {item.phrase}
         </blockquote>
@@ -176,7 +176,7 @@ export function StorySlide({
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl font-light mb-8 ${
               isNeon ? 'text-[#a1a1aa]' : 'text-[#52525b]'
-            } ${hasWave || hasRain ? 'type-halo' : ''}`}
+            } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
           >
             {item.subtext}
           </p>
