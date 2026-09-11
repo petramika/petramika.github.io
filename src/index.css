@@ -215,7 +215,14 @@ html.negative-mode .photo-treatment {
   display: grid;
   gap: 8px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-template-rows: repeat(9, minmax(76px, 1fr));
+  /*
+    The rows share whatever height the panel has, they do not demand a
+    minimum of their own. Nine rows with a 76px floor came to 748px before
+    padding, which is taller than a phone panel — the grid grew past the
+    panel and the panel, being a panel, clipped it.
+  */
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+  height: 100%;
 }
 
 .word-grid-cell {
@@ -436,13 +443,17 @@ html.negative-mode .lava-field {
   own top. It used to be an outer box-shadow, which is the one thing here
   that painted outside a panel's box — and anything that paints into the
   seam between two panels can show up as a line in it.
+
+  It is the PAGE's colour, not a shadow. Shading the lip dark left a grey
+  smear across the top of every panel on the light page, which reads as dirt
+  on paper rather than as depth. Fading the panel into the page instead is
+  the same move the neon room and the lava field make at their own edges,
+  and paper is the one value that needs no pair: inverted it lands on the
+  page's black, so the lip is white on the white page and black on the dark
+  one without being written twice.
 */
 .stack-contact {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
-}
-
-html.negative-mode .stack-contact {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+  background-image: linear-gradient(to bottom, rgba(251, 251, 251, 0.85), transparent);
 }
 
 .stack-recede {
