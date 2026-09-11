@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * A single hand-drawn line that keeps changing its mind: it drifts sideways
@@ -51,6 +52,8 @@ export function WaveLine() {
   const rightRef = useRef<SVGPathElement>(null);
   const shardsRef = useRef<SVGGElement>(null);
 
+  const onScreen = useOnScreen(hostRef);
+
   // Live pointer state, kept out of React so the loop can read it every frame
   const pointer = useRef({ x: 0, near: false });
 
@@ -96,6 +99,10 @@ export function WaveLine() {
 
     const draw = (now: number) => {
       if (host.dataset.waveGeneration !== generation) return;
+      if (!onScreen.current) {
+        raf = requestAnimationFrame(draw);
+        return;
+      }
       const dt = Math.min((now - last) / 1000, 0.05);
       last = now;
       if (!reduced) elapsed += dt;
@@ -260,7 +267,7 @@ export function WaveLine() {
       window.removeEventListener('pointerdown', onPointerMove);
       window.removeEventListener('pointerleave', onPointerLeave);
     };
-  }, []);
+  }, [onScreen]);
 
   return (
     <div

@@ -84,7 +84,7 @@ function SinglePaper({ config, progress }: SinglePaperProps) {
   const rotate = useTransform(progress, [0, 1], [config.initialRotate, config.targetRotate]);
   const scale = useTransform(progress, [0, 1], [config.initialScale, config.targetScale]);
   // Opacity: stays solid while growing, then gracefully dissolves as it approaches full scale
-  const opacity = useTransform(progress, [0, 0.45, 0.85, 1], [1, 0.92, 0.2, 0]);
+  const opacity = useTransform(progress, [0, 0.5, 0.92, 1], [1, 0.95, 0.62, 0.35]);
 
   return (
     <motion.g
@@ -129,7 +129,7 @@ export function PaperDispersion({ progress }: PaperDispersionProps) {
   return (
     <div
       id="paper-dispersion-layer"
-      className="absolute inset-0 w-full h-full pointer-events-none z-20 overflow-hidden"
+      className="absolute inset-0 w-full h-full pointer-events-none"
       aria-hidden="true"
     >
       <svg

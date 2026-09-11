@@ -1,5 +1,6 @@
 import { ReactElement, useEffect, useMemo, useRef } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * A very small planetarium. Concentric rings turn around a dark core, and
@@ -231,6 +232,7 @@ const RIDERS: Record<Rider, () => ReactElement> = {
 export function Orrery() {
   const reduceMotion = useReducedMotion();
   const svgRef = useRef<SVGSVGElement>(null);
+  const onScreen = useOnScreen(svgRef);
   const ringRefs = useRef<(SVGGElement | null)[]>([]);
   const riderRefs = useRef<(SVGGElement | null)[]>([]);
 
@@ -275,6 +277,11 @@ export function Orrery() {
   }, []);
 
   useAnimationFrame((elapsed) => {
+    if (!onScreen.current) {
+      // Keep the clock with it, or the rings jump on the way back
+      lastTime.current = elapsed / 1000;
+      return;
+    }
     const now = elapsed / 1000;
     const dt = reduceMotion ? 0 : Math.min(now - lastTime.current, 0.05);
     lastTime.current = now;

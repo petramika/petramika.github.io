@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import texts from '../data/texts.json';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * A rain of the words the chapter is about losing. They fall from random
@@ -92,6 +93,7 @@ function pick<T>(list: T[]): T {
 
 export function WordRain() {
   const hostRef = useRef<HTMLDivElement>(null);
+  const onScreen = useOnScreen(hostRef);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -201,6 +203,12 @@ export function WordRain() {
     };
 
     const frame = (now: number) => {
+      if (!onScreen.current) {
+        // Held where they are, not fast-forwarded on the way back
+        last = now;
+        raf = requestAnimationFrame(frame);
+        return;
+      }
       const dt = Math.min((now - last) / 1000, 0.05);
       last = now;
 
@@ -304,7 +312,7 @@ export function WordRain() {
       observer.disconnect();
       words.forEach((word) => word.wrap.remove());
     };
-  }, []);
+  }, [onScreen]);
 
   return (
     <div
