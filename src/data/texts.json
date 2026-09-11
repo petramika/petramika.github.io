@@ -79,15 +79,7 @@
       "subtext": "Aprendes a reír en público, pero en los semáforos en rojo la memoria te vuelve a encontrar.",
       "dateOrPlace": "Noviembre tardío",
       "imageAlt": "Fotograma 05 — La mentira del tiempo",
-      "aspectRatio": "landscape",
-      "imageSequence": [
-        {
-          "alt": "Fotograma 05.1 — Primera imagen de la secuencia"
-        },
-        {
-          "alt": "Fotograma 05.2 — Segunda imagen de la secuencia"
-        }
-      ]
+      "aspectRatio": "landscape"
     },
     {
       "id": "fragment-6",
@@ -97,7 +89,15 @@
       "subtext": "La ciudad se vuelve un mapa de lugares prohibidos por el peso de lo que fuimos en ellos.",
       "dateOrPlace": "Intersección sin retorno",
       "imageAlt": "Fotograma 06 — La sombra persistente",
-      "aspectRatio": "portrait"
+      "aspectRatio": "portrait",
+      "imageSequence": [
+        {
+          "alt": "Fotograma 06.1 — Primera imagen de la secuencia"
+        },
+        {
+          "alt": "Fotograma 06.2 — Segunda imagen de la secuencia"
+        }
+      ]
     },
     {
       "id": "fragment-7",
