@@ -131,6 +131,9 @@
     "rabia": "rabia",
     "queja": "queja"
   },
+  "orrery": {
+    "wish": "te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño"
+  },
   "labels": {
     "photoEdge": "[ {n} // ARCHIVO VISUAL ] · {title} {year}",
     "sequenceEdge": "[ {n} // SECUENCIA FLASH ] · CAPÍTULO {chapter}",

@@ -6,3 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Fotos a resolucion de camara, antes de reducirlas para la web
+.originales/

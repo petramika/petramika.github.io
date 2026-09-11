@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { WHEEL, mix } from '../data/wheel';
 
 interface DustParticlesProps {
   negativeMode?: boolean;
@@ -15,6 +16,8 @@ interface Particle {
   baseVx: number;
   baseVy: number;
   radius: number;
+  /** This speck's own hue, waiting for a scene that calls for it */
+  hue: string;
   baseAlpha: number;
   alpha: number;
   phase: number;
@@ -54,7 +57,7 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
       const y = Math.random() * height;
       const baseVx = (Math.random() - 0.5) * 0.35;
       const baseVy = -0.15 - Math.random() * 0.25; // Gentle upward suspension drift like real dust
-      const radius = 0.7 + Math.random() * 1.5; // Micro dust specks
+      const radius = 1 + Math.random() * 2; // Dust specks, the same size everywhere
       const baseAlpha = 0.2 + Math.random() * 0.45;
 
       particles.push({
@@ -67,6 +70,7 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         baseVx,
         baseVy,
         radius,
+        hue: WHEEL[i % WHEEL.length],
         baseAlpha,
         alpha: baseAlpha,
         phase: Math.random() * Math.PI * 2,
@@ -119,10 +123,28 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
     // In negative mode: white illuminated dust motes
     // In positive mode: dark graphite / black atmospheric dust
     const rgbColor = negativeMode ? '255, 255, 255' : '20, 21, 24';
+    // Eased rather than switched: the colour has to arrive with the section,
+    // not the instant a threshold is crossed
+    let colourful = 0;
+    let lastFrame = performance.now();
 
     // Physics & render animation loop
     const render = () => {
       ctx.clearRect(0, 0, width, height);
+
+      /*
+        The orrery says when it is on screen, and the dust takes its colour
+        from that. It goes through the document rather than through props
+        because the two live at opposite ends of the tree — the dust is a
+        fixed sheet over the whole page, the orrery is one panel deep inside
+        it — and threading a flag between them would mean re-rendering the
+        essay to tint a speck.
+      */
+      const now = performance.now();
+      const step = Math.min((now - lastFrame) / 1000, 0.05);
+      lastFrame = now;
+      const wanted = document.documentElement.dataset.scene === 'orrery' ? 1 : 0;
+      colourful += (wanted - colourful) * (1 - Math.exp(-2.4 * step));
 
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
@@ -169,7 +191,8 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         // 5. Render particle
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${rgbColor}, ${Math.max(0.05, Math.min(1, p.alpha))})`;
+        const shade = colourful > 0.004 ? mix(rgbColor, p.hue, colourful) : rgbColor;
+        ctx.fillStyle = `rgba(${shade}, ${Math.max(0.05, Math.min(1, p.alpha))})`;
         ctx.fill();
       }
 
