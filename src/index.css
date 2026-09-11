@@ -566,3 +566,17 @@ html.negative-mode .stack-ground-photo {
   height: var(--drip-b, 0);
 }
 
+
+/* -------------------------------------------------------------
+   THE DAWN OPTS BACK INTO THE NEGATIVE.
+
+   Every canvas on the page is re-inverted so photographic and
+   painted pixels keep their own colours whatever mode the page is
+   in. This one is not a picture: it is drawn in the page's own ink
+   on the page's own paper, so it belongs with the type. Turning
+   its filter off lets the root invert reach it, and the range
+   reads black on the white page and white on the dark one.
+   ------------------------------------------------------------- */
+html.negative-mode canvas.alba-canvas {
+  filter: none !important;
+}

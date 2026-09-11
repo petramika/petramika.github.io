@@ -72,6 +72,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
+      underlay: 'alba',
       imageSrc: getAnnePhoto('5-1.JPG', getAnnePhoto('5.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1400&q=85')),
     };
   }

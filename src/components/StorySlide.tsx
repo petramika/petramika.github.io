@@ -8,6 +8,7 @@ import { WaveLine } from './WaveLine';
 import { Orrery } from './Orrery';
 import { LavaField } from './LavaField';
 import { WordRain } from './WordRain';
+import { AlbaTopography } from './AlbaTopography';
 import { StackPanel } from './StackPanel';
 import { label, pad, YEAR, texts } from '../data/labels';
 
@@ -97,6 +98,9 @@ export function StorySlide({
   const hasLava = item.underlay === 'lava';
   // Words fall through the passage and break on the floor of the panel
   const hasRain = item.underlay === 'rain';
+  // A drawn dawn fills the panel below the passage, so the type moves up out
+  // of it instead of sitting in the middle of the range
+  const hasAlba = item.underlay === 'alba';
   // The chapter closes on a drawn scene rather than on white space
   const hasCoda = item.coda === 'orrery';
 
@@ -115,6 +119,13 @@ export function StorySlide({
       ref={textSlideRef}
       className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
     >
+      {/* The dawn, drawn in contour lines across the foot of the panel */}
+      {hasAlba && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 left-1/2 z-0 h-[62%] w-screen -translate-x-1/2">
+          <AlbaTopography />
+        </div>
+      )}
+
       {/* Words raining down the panel, behind the passage */}
       {hasRain && (
         <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
@@ -138,7 +149,9 @@ export function StorySlide({
 
       <motion.div
         style={{ y: textY, opacity: textOpacity, scale: textScale }}
-        className="relative z-10 w-full will-change-transform flex flex-col items-center my-auto px-4"
+        className={`relative z-10 w-full will-change-transform flex flex-col items-center px-4 ${
+          hasAlba ? 'mt-[9vh] mb-auto' : 'my-auto'
+        }`}
       >
         {/* Rotated vertical side text on desktop — the same mid grey reads
             on paper and in the dark room, so it needs no variant */}
