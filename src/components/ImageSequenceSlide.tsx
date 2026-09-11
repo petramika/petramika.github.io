@@ -37,8 +37,14 @@ export function ImageSequenceSlide({ sequence, chapter, index }: ImageSequenceSl
   // Every timeout the flash schedules, so unmounting mid-flash cancels cleanly
   const timeoutsRef = useRef<number[]>([]);
 
+  /*
+    However many frames it was handed, and no more. It used to map over the
+    fallbacks instead, which padded any shorter sequence back up to three —
+    so a chapter with two photographs of its own silently flashed a stock
+    image as its third. The fallbacks are for having nothing at all.
+  */
   const images = useMemo(
-    () => SEQUENCE_FALLBACKS.map((fallback, i) => sequence[i] ?? fallback),
+    () => (sequence.length >= 2 ? sequence : SEQUENCE_FALLBACKS),
     [sequence],
   );
 
