@@ -15,6 +15,14 @@
   </head>
   <body class="bg-[#fbfbfb] text-[#141518] antialiased selection:bg-[#141518] selection:text-[#fbfbfb]">
     <div id="root"></div>
+    <!--
+      Que se indexe el ensayo, no las fotografias: noimageindex deja la
+      pagina en los resultados de busqueda y mantiene sus imagenes fuera de
+      la busqueda de imagenes. Es lo unico que lo consigue de verdad; el
+      robots.txt solo impide que las rastreen, y una imagen enlazada desde
+      fuera podria colarse igual.
+    -->
+    <meta name="robots" content="index, follow, noimageindex" />
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
