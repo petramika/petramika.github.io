@@ -6,7 +6,6 @@ export interface EssayItem {
   subtitle?: string;
   phrase: string;
   subtext?: string;
-  dateOrPlace?: string;
   imageSrc: string;
   imageAlt: string;
   aspectRatio: AspectRatio;
