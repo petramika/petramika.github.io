@@ -6,6 +6,12 @@
     --font-display: "Archivo", "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
     --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-mono: "IBM Plex Mono", monospace;
+  /*
+    For the words that fall and break. Two faces are loaded while this is
+    being chosen: Glitch shears the letters into displaced pieces, Moonrocks
+    runs cracks through them. Swap the name here to change it everywhere.
+  */
+  --font-broken: "Rubik Glitch", "Rubik Moonrocks", "Archivo", sans-serif;
   }
 
   html, body {
@@ -514,8 +520,10 @@ html.negative-mode .stack-ground-photo {
   top: 0;
   left: 0;
   white-space: nowrap;
-  font-weight: 500;
-  letter-spacing: -0.02em;
+  /* Already broken on the way down, before the floor gets to them */
+  font-family: var(--font-broken);
+  font-weight: 400;
+  letter-spacing: 0.012em;
   line-height: 1;
   will-change: transform;
 }
@@ -568,15 +576,12 @@ html.negative-mode .stack-ground-photo {
 
 
 /* -------------------------------------------------------------
-   THE DAWN OPTS BACK INTO THE NEGATIVE.
+   THE DAWN KEEPS ITS OWN COLOURS.
 
-   Every canvas on the page is re-inverted so photographic and
-   painted pixels keep their own colours whatever mode the page is
-   in. This one is not a picture: it is drawn in the page's own ink
-   on the page's own paper, so it belongs with the type. Turning
-   its filter off lets the root invert reach it, and the range
-   reads black on the white page and white on the dark one.
+   It is covered by the blanket rule above that re-inverts every
+   canvas, and that is now the right place for it: the drawing is
+   in colour, and a colour run through the page's negative comes
+   back as its complement — an inverted dawn is a sky nobody has
+   ever seen. It picks its own palette per mode from inside the
+   component instead.
    ------------------------------------------------------------- */
-html.negative-mode canvas.alba-canvas {
-  filter: none !important;
-}
