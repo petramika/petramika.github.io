@@ -12,6 +12,8 @@
     runs cracks through them. Swap the name here to change it everywhere.
   */
   --font-broken: "Rubik Glitch", "Rubik Moonrocks", "Archivo", sans-serif;
+  /* Written by a hand, for the names given to the parts of the brain */
+  --font-hand: "Caveat", "Segoe Script", cursive;
   }
 
   html, body {
@@ -401,37 +403,45 @@ html.negative-mode .photo-treatment {
 }
 
 /* -------------------------------------------------------------
-   THE LAVA FIELD OPTS OUT OF THE NEGATIVE.
+   THE BRAIN (chapter VI)
 
-   It is the only colour in the essay, and a global invert turns a
-   lavender into an olive, so the layer cancels the root invert and
-   names its own colours for each mode instead: pale periwinkle on
-   paper, deep violet in the dark. The edge colour follows the page
-   so the field still melts into it at both ends.
+   One hue per part, and the drift laid over all of them keeps them
+   bleeding into one another. Written twice, because this is the
+   one place in the essay with colour of its own and the root
+   invert would hand the dark page a set of complements.
+
+   Its focus and its opacity are not here: those are written from
+   the scroll, in StorySlide, so the passage and the brain can
+   trade places as the page is read.
    ------------------------------------------------------------- */
-.lava-field {
-  --lava-base-a: #cfd9fb;
-  --lava-base-b: #e4d8fc;
-  --lava-violet-a: #c6b3f7;
-  --lava-violet-b: #a688f0;
-  --lava-blue-a: #bcc9f9;
-  --lava-blue-b: #9db2f3;
-  --lava-mauve-a: #dcbcf8;
-  --lava-mauve-b: #b596f4;
-  --lava-edge: #fbfbfb;
+.brain-field {
+  --brain-head: #b6a2ef;
+  --brain-intuition: #9cb1f2;
+  --brain-soul: #8ed0c6;
+  --brain-heart: #efa6bd;
+  --brain-body: #f0c28e;
+  --brain-drift: #ffffff;
+  --brain-fold: #4a3c78;
+  color: #141518;
 }
 
-html.negative-mode .lava-field {
+html.negative-mode .brain-field {
   filter: invert(1);
-  --lava-base-a: #140d29;
-  --lava-base-b: #1d1138;
-  --lava-violet-a: #34235f;
-  --lava-violet-b: #52338f;
-  --lava-blue-a: #1f2452;
-  --lava-blue-b: #34407e;
-  --lava-mauve-a: #402561;
-  --lava-mauve-b: #653b96;
-  --lava-edge: #040404;
+  --brain-head: #452a86;
+  --brain-intuition: #2f3b78;
+  --brain-soul: #1f6259;
+  --brain-heart: #74304a;
+  --brain-body: #7a5327;
+  --brain-drift: #000000;
+  --brain-fold: #b6a6e2;
+  color: #e6e6e3;
+}
+
+.brain-labels {
+  font-family: var(--font-hand);
+  /* It carries less weight than a printed face at the same size, and it is
+     sitting on a drawing: without this the names go to thread */
+  font-weight: 600;
 }
 
 /* -------------------------------------------------------------
@@ -523,7 +533,10 @@ html.negative-mode .stack-ground-photo {
   /* Already broken on the way down, before the floor gets to them */
   font-family: var(--font-broken);
   font-weight: 400;
-  letter-spacing: 0.012em;
+  /* Case is typography, not copy: the words stay lower case in the JSON so
+     they can be read and rewritten as words, and are shouted here */
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   line-height: 1;
   will-change: transform;
 }

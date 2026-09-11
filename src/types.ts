@@ -15,7 +15,7 @@ export interface EssayItem {
   /** Replaces the written passage with a drawn scene, keeping the photo */
   textScene?: 'grid';
   /** Runs a drawn scene under the passage: a line, a field of colour, or rain */
-  underlay?: 'wave' | 'lava' | 'rain' | 'alba';
+  underlay?: 'wave' | 'lava' | 'rain' | 'alba' | 'brain';
   /** Closes the chapter with a drawn scene after the written passage */
   coda?: 'orrery';
   imageSequence?: {

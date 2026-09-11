@@ -77,6 +77,7 @@ const PALETTES = {
     ink: '44, 44, 51',
     mist: '255, 255, 255',
     glow: '255, 238, 206',
+    page: '251, 251, 251',
   },
   dark: {
     skies: [
@@ -88,6 +89,7 @@ const PALETTES = {
     ink: '206, 209, 219',
     mist: '58, 70, 96',
     glow: '255, 168, 84',
+    page: '4, 4, 4',
   },
 };
 
@@ -343,6 +345,20 @@ export function AlbaTopography() {
       sea.addColorStop(1, `rgba(${tone.mist}, 0.95)`);
       ctx.fillStyle = sea;
       ctx.fill();
+
+      /*
+        And the drawing lets go of the page before it runs out of it. Whatever
+        arrives next in the stack comes in on the page's own colour, so the
+        dawn has to arrive there too — a cloud sea meeting a photograph at
+        full strength is a cut, however soft each of them is on its own.
+      */
+      const salida = height * 0.78;
+      const cierre = ctx.createLinearGradient(0, salida, 0, height);
+      cierre.addColorStop(0, `rgba(${tone.page}, 0)`);
+      cierre.addColorStop(0.55, `rgba(${tone.page}, 0.6)`);
+      cierre.addColorStop(1, `rgba(${tone.page}, 1)`);
+      ctx.fillStyle = cierre;
+      ctx.fillRect(0, salida, width, height - salida + 2);
     };
 
     /*

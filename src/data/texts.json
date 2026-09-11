@@ -142,6 +142,13 @@
   "orrery": {
     "wish": "te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño"
   },
+  "brain": {
+    "head": "cabeza",
+    "intuition": "intuición",
+    "soul": "alma",
+    "heart": "corazón",
+    "body": "cuerpo"
+  },
   "labels": {
     "photoEdge": "[ {n} // ARCHIVO VISUAL ] · {title} {year}",
     "sequenceEdge": "[ {n} // SECUENCIA FLASH ] · CAPÍTULO {chapter}",
