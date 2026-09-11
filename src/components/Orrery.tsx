@@ -1,4 +1,4 @@
-import { ReactElement, useMemo, useRef } from 'react';
+import { ReactElement, useEffect, useMemo, useRef } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
 
 /**
@@ -11,11 +11,23 @@ import { useAnimationFrame, useReducedMotion } from 'motion/react';
  * one sits a little off the centre, so their slow precession is visible as a
  * wobble rather than as a circle spinning inside itself — a perfect circle
  * rotating about its own centre shows no motion at all.
+ *
+ * Put the cursor on a ring and that ring speeds up. Which ring the cursor is
+ * on is worked out from the geometry rather than from hit testing: the rings
+ * are a couple of units thick, so landing on one with a mouse would be
+ * hopeless. The pointer is taken back into each ring's own unrotated frame
+ * and compared against the radius the ring has at that angle.
  */
 
 /** Samples per ring — enough that the out-of-round curve stays smooth */
 const POINTS = 120;
 const TAU = Math.PI * 2;
+/** The viewBox is VIEW units across, centred on zero */
+const VIEW = 224;
+/** How near the line the cursor has to be, in viewBox units, to take it */
+const GRAB = 11;
+/** How much faster a ring runs while the cursor is on it */
+const BOOST = 4.5;
 
 interface Orbit {
   /** Mean radius, in the 200-unit viewBox */
@@ -218,25 +230,96 @@ const RIDERS: Record<Rider, () => ReactElement> = {
 
 export function Orrery() {
   const reduceMotion = useReducedMotion();
+  const svgRef = useRef<SVGSVGElement>(null);
   const ringRefs = useRef<(SVGGElement | null)[]>([]);
   const riderRefs = useRef<(SVGGElement | null)[]>([]);
 
   const paths = useMemo(() => ORBITS.map(ringPath), []);
 
+  // Where the cursor is, in viewBox units, kept out of React so the loop can
+  // read it every frame
+  const pointer = useRef({ x: 0, y: 0, inside: false });
+
+  /**
+   * Each ring carries its own angle rather than deriving one from the clock.
+   * A ring that can change speed has to accumulate: read the position off
+   * elapsed time instead and the ring jumps the moment its rate changes.
+   */
+  const state = useRef(
+    ORBITS.map((orbit) => ({ angle: orbit.phase, spin: 0, boost: 1 })),
+  );
+  const lastTime = useRef(0);
+
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg) return;
+
+    const onMove = (event: PointerEvent) => {
+      const box = svg.getBoundingClientRect();
+      if (!box.width || !box.height) return;
+      // The viewBox is square and centred on zero, so this is one scale away
+      pointer.current.x = ((event.clientX - box.left) / box.width) * VIEW - VIEW / 2;
+      pointer.current.y = ((event.clientY - box.top) / box.height) * VIEW - VIEW / 2;
+      pointer.current.inside = true;
+    };
+    const onLeave = () => {
+      pointer.current.inside = false;
+    };
+
+    svg.addEventListener('pointermove', onMove, { passive: true });
+    svg.addEventListener('pointerleave', onLeave);
+    return () => {
+      svg.removeEventListener('pointermove', onMove);
+      svg.removeEventListener('pointerleave', onLeave);
+    };
+  }, []);
+
   useAnimationFrame((elapsed) => {
-    const t = reduceMotion ? 0 : elapsed / 1000;
+    const now = elapsed / 1000;
+    const dt = reduceMotion ? 0 : Math.min(now - lastTime.current, 0.05);
+    lastTime.current = now;
+
+    // Which ring is the cursor on? The nearest one it is close enough to
+    let held = -1;
+    if (pointer.current.inside && !reduceMotion) {
+      let best = GRAB;
+      ORBITS.forEach((orbit, i) => {
+        // Back into the ring's own frame: undo its rotation, then measure
+        // from its own off-centre middle
+        const spin = -state.current[i].spin;
+        const cos = Math.cos(spin);
+        const sin = Math.sin(spin);
+        const px = pointer.current.x * cos - pointer.current.y * sin - orbit.cx;
+        const py = pointer.current.x * sin + pointer.current.y * cos - orbit.cy;
+        const gap = Math.abs(Math.hypot(px, py) - radiusAt(orbit, Math.atan2(py, px)));
+        if (gap < best) {
+          best = gap;
+          held = i;
+        }
+      });
+    }
 
     ORBITS.forEach((orbit, i) => {
+      const st = state.current[i];
+      // Eased in and out, so a ring gathers and loses pace instead of
+      // snapping between two speeds as the cursor crosses it
+      const target = i === held ? BOOST : 1;
+      st.boost += (target - st.boost) * (1 - Math.exp(-5 * dt));
+      st.angle += orbit.speed * st.boost * dt;
+      st.spin += ((orbit.precess * Math.PI) / 180) * st.boost * dt;
+
       // Ring and rider share one rotating group, so the rider stays welded
       // to its own ring however far the ring has drifted
-      ringRefs.current[i]?.setAttribute('transform', `rotate(${(t * orbit.precess).toFixed(3)})`);
+      ringRefs.current[i]?.setAttribute(
+        'transform',
+        `rotate(${((st.spin * 180) / Math.PI).toFixed(3)})`,
+      );
 
       const rider = riderRefs.current[i];
       if (!rider) return;
 
-      const angle = orbit.phase + t * orbit.speed;
-      const here = pointAt(orbit, angle);
-      const ahead = pointAt(orbit, angle + 0.02);
+      const here = pointAt(orbit, st.angle);
+      const ahead = pointAt(orbit, st.angle + 0.02);
       // Seen from above, an insect faces the way it is travelling
       const heading =
         (Math.atan2(ahead.y - here.y, ahead.x - here.x) * 180) / Math.PI + 90;
@@ -251,6 +334,7 @@ export function Orrery() {
   return (
     <section className="relative z-10 flex h-full w-full items-center justify-center px-6 py-16 sm:px-12 sm:py-24">
       <svg
+        ref={svgRef}
         viewBox="-112 -112 224 224"
         className="block w-[min(84vw,520px)] text-[#141518]"
         aria-hidden="true"
@@ -289,8 +373,27 @@ export function Orrery() {
           );
         })}
 
-        {/* The core everything is turning around */}
-        <circle cx="0" cy="0" r="8.4" fill="currentColor" />
+        {/* The core everything is turning around, with the initial cut out
+            of it. The letter is painted in the page's own paper rather than
+            drawn on top: knocked out of the disc it reads as part of the
+            core, and paper is the one value that flips on its own — under
+            the negative it lands on the page's black without a second rule. */}
+        <g>
+          <circle cx="0" cy="0" r="10.4" fill="currentColor" />
+          <text
+            x="0"
+            y="0"
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize="13"
+            fontWeight="900"
+            letterSpacing="-0.04em"
+            fill="#fbfbfb"
+            className="font-editorial-display"
+          >
+            A
+          </text>
+        </g>
       </svg>
     </section>
   );
