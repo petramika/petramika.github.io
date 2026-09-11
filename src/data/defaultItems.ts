@@ -69,31 +69,31 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     };
   }
   if (ch.chapter === 'V') {
-    // Two frames, flashed one into the other, the same way chapter IV works
-    const seq = ch.imageSequence || [];
     return {
       ...restCh,
       aspectRatio,
       underlay: 'alba',
-      imageSrc: getAnnePhoto('5-1.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1400&q=85'),
-      imageSequence: [
-        {
-          src: getAnnePhoto('5-1.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1600&q=85'),
-          alt: seq[0]?.alt || 'Fotograma 05.1 — Primera imagen de la secuencia',
-        },
-        {
-          src: getAnnePhoto('5-2.JPG', 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1600&q=85'),
-          alt: seq[1]?.alt || 'Fotograma 05.2 — Segunda imagen de la secuencia',
-        },
-      ],
+      imageSrc: getAnnePhoto('5.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1400&q=85'),
     };
   }
   if (ch.chapter === 'VI') {
+    // La secuencia vive aqui y no en el V: dos flashes seguidos se pisaban
+    const seq = ch.imageSequence || [];
     return {
       ...restCh,
       aspectRatio,
       underlay: 'lava',
-      imageSrc: getAnnePhoto('6.JPG', 'https://images.unsplash.com/photo-1476820865390-c52aeebb9891?auto=format&fit=crop&w=1200&q=85'),
+      imageSrc: getAnnePhoto('6-1.JPG', 'https://images.unsplash.com/photo-1476820865390-c52aeebb9891?auto=format&fit=crop&w=1200&q=85'),
+      imageSequence: [
+        {
+          src: getAnnePhoto('6-1.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1600&q=85'),
+          alt: seq[0]?.alt || 'Fotograma 06.1 — Primera imagen de la secuencia',
+        },
+        {
+          src: getAnnePhoto('6-2.JPG', 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1600&q=85'),
+          alt: seq[1]?.alt || 'Fotograma 06.2 — Segunda imagen de la secuencia',
+        },
+      ],
     };
   }
   return {
