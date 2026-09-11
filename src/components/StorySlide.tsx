@@ -7,6 +7,9 @@ import { WordGridScene } from './WordGridScene';
 import { WaveLine } from './WaveLine';
 import { Orrery } from './Orrery';
 import { LavaField } from './LavaField';
+import { WordRain } from './WordRain';
+import { StackPanel } from './StackPanel';
+import { label, pad, YEAR, texts } from '../data/labels';
 
 interface StorySlideProps {
   item: EssayItem;
@@ -36,7 +39,7 @@ function StandardPhotoSlide({
   return (
     <section
       ref={imageSlideRef}
-      className="relative w-full h-[88vh] sm:h-[95vh] md:h-screen overflow-hidden bg-[#0f1013] flex items-end justify-start"
+      className="stack-ground-photo relative w-full h-full overflow-hidden flex items-end justify-start"
     >
       {/* Parallax moving image */}
       <motion.div
@@ -60,7 +63,7 @@ function StandardPhotoSlide({
 
       {/* Rotated vertical edge label on photographic slide */}
       <div className="hidden sm:flex absolute left-8 top-1/2 -translate-y-1/2 writing-vertical-left text-[10px] font-editorial-mono uppercase tracking-[0.25em] text-white/50 z-10 pointer-events-none select-none">
-        [ {String(index + 1).padStart(2, '0')} // ARCHIVO VISUAL ] · ROTA 2026
+        {label(texts.labels.photoEdge, { n: pad(index + 1), title: texts.hero.title, year: YEAR })}
       </div>
 
       {/* Soft edge atmospheric gradients */}
@@ -92,6 +95,8 @@ export function StorySlide({
   const hasWave = item.underlay === 'wave';
   // A drifting field of colour fills the whole slide behind the passage
   const hasLava = item.underlay === 'lava';
+  // Words fall through the passage and break on the floor of the panel
+  const hasRain = item.underlay === 'rain';
   // The chapter closes on a drawn scene rather than on white space
   const hasCoda = item.coda === 'orrery';
 
@@ -108,8 +113,15 @@ export function StorySlide({
   const textSlide = (
     <section
       ref={textSlideRef}
-      className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
+      className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
     >
+      {/* Words raining down the panel, behind the passage */}
+      {hasRain && (
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
+          <WordRain />
+        </div>
+      )}
+
       {/* Full-bleed field of slowly deforming colour, behind everything */}
       {hasLava && (
         <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
@@ -119,7 +131,7 @@ export function StorySlide({
 
       {/* Full-bleed drawn line, blurred and running below the type */}
       {hasWave && (
-        <div className="pointer-events-none absolute left-1/2 top-[62%] z-0 w-screen -translate-x-1/2 -translate-y-1/2">
+        <div className="pointer-events-none absolute left-1/2 top-[52%] z-0 w-screen -translate-x-1/2 -translate-y-1/2">
           <WaveLine />
         </div>
       )}
@@ -131,18 +143,18 @@ export function StorySlide({
         {/* Rotated vertical side text on desktop — the same mid grey reads
             on paper and in the dark room, so it needs no variant */}
         <div className="hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
-          [ {String(index + 1).padStart(2, '0')} // MANIFIESTO ] · CAPÍTULO VISUAL
+          {label(texts.labels.passageLeft, { n: pad(index + 1) })}
         </div>
 
         <div className="hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
-          COORD. {String(index + 1).padStart(2, '0')}.{total} · ARCHIVO PERMANENTE [ + ]
+          {label(texts.labels.passageRight, { n: pad(index + 1), total })}
         </div>
 
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8 ${
             isNeon ? 'text-[#f4f4f5]' : 'text-[#141518]'
-          } ${hasWave ? 'wave-type' : ''}`}
+          } ${hasWave || hasRain ? 'type-halo' : ''}`}
         >
           {item.phrase}
         </blockquote>
@@ -151,7 +163,7 @@ export function StorySlide({
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl font-light mb-8 ${
               isNeon ? 'text-[#a1a1aa]' : 'text-[#52525b]'
-            } ${hasWave ? 'wave-type' : ''}`}
+            } ${hasWave || hasRain ? 'type-halo' : ''}`}
           >
             {item.subtext}
           </p>
@@ -160,58 +172,81 @@ export function StorySlide({
     </section>
   );
 
+  // Where this chapter's panels sit in the stack, and which of them are the
+  // ends of it: the first has nothing to climb over, the last nothing to hold
+  // for.
+  const order = index * 3 + 1;
+  const isFirstChapter = index === 0;
+  const isLastChapter = index === total - 1;
+
+  const passage = isTextScene ? (
+    <WordGridScene chapter={item.chapter} index={index} />
+  ) : isNeon ? (
+    <div className="neon-room absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden bg-[#040404]">
+      <NeonMorphFrames />
+
+      {/* Darkens the middle so the bloom never fights the type. Neutral
+          grey, not a warm black — a tinted scrim is what made the whole
+          room read brown. */}
+      <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(4,4,4,0.82)_0%,rgba(4,4,4,0.5)_38%,rgba(4,4,4,0.14)_68%,transparent_100%)]" />
+
+      {/* The room ends where the page does. Fading both edges to the
+          page's own black means the glow never runs into the join, so
+          the section reads as neon floating in the same darkness rather
+          than as a panel dropped onto it. These invert with the room,
+          so they land on the paper colour on the light page too. */}
+      <div className="absolute inset-x-0 top-0 h-48 z-[2] pointer-events-none bg-gradient-to-b from-[#040404] via-[#040404]/72 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-48 z-[2] pointer-events-none bg-gradient-to-t from-[#040404] via-[#040404]/72 to-transparent" />
+
+      {textSlide}
+    </div>
+  ) : (
+    textSlide
+  );
+
   return (
-    <div id={`fragment-${item.id}`} className="relative w-full">
+    <>
       {/* ------------------------------------------------------------- */}
       {/* 1. DIAPOSITIVA VISUAL: SECUENCIA FLASH (CAP IV) O FOTO ESTÁNDAR */}
       {/* ------------------------------------------------------------- */}
-      {hasSequence && item.imageSequence ? (
-        <ImageSequenceSlide
-          sequence={item.imageSequence}
-          chapter={item.chapter}
-          index={index}
-        />
-      ) : (
-        <StandardPhotoSlide
-          item={item}
-          index={index}
-        />
-      )}
+      <StackPanel
+        id={`fragment-${item.id}`}
+        order={order}
+        cover={!isFirstChapter}
+        panelClassName="stack-ground-photo"
+      >
+        {hasSequence && item.imageSequence ? (
+          <ImageSequenceSlide
+            sequence={item.imageSequence}
+            chapter={item.chapter}
+            index={index}
+          />
+        ) : (
+          <StandardPhotoSlide item={item} index={index} />
+        )}
+      </StackPanel>
 
       {/* ------------------------------------------------------------- */}
       {/* 2. DIAPOSITIVA: BLOQUE DE TEXTO CON EFECTO PARALLAX FLOTANTE  */}
       {/* El capítulo marcado como 'neon' se lee dentro de una sala     */}
       {/* oscura con marcos de luz que giran y se transforman.          */}
       {/* ------------------------------------------------------------- */}
-      {isTextScene ? (
-        <WordGridScene chapter={item.chapter} index={index} />
-      ) : isNeon ? (
-        <div className="neon-room relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden bg-[#040404]">
-          <NeonMorphFrames />
-
-          {/* Darkens the middle so the bloom never fights the type. Neutral
-              grey, not a warm black — a tinted scrim is what made the whole
-              room read brown. */}
-          <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(4,4,4,0.82)_0%,rgba(4,4,4,0.5)_38%,rgba(4,4,4,0.14)_68%,transparent_100%)]" />
-
-          {/* The room ends where the page does. Fading both edges to the
-              page's own black means the glow never runs into the join, so
-              the section reads as neon floating in the same darkness rather
-              than as a panel dropped onto it. These invert with the room,
-              so they land on the paper colour on the light page too. */}
-          <div className="absolute inset-x-0 top-0 h-48 z-[2] pointer-events-none bg-gradient-to-b from-[#040404] via-[#040404]/72 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-48 z-[2] pointer-events-none bg-gradient-to-t from-[#040404] via-[#040404]/72 to-transparent" />
-
-          {textSlide}
-        </div>
-      ) : (
-        textSlide
-      )}
+      <StackPanel
+        order={order + 1}
+        pin={!isLastChapter || hasCoda}
+        panelClassName="stack-ground-paper bg-grain"
+      >
+        {passage}
+      </StackPanel>
 
       {/* ------------------------------------------------------------- */}
       {/* 3. CODA: PLANETARIO DE AROS CON PASAJEROS (CAP VII)            */}
       {/* ------------------------------------------------------------- */}
-      {hasCoda && <Orrery />}
-    </div>
+      {hasCoda && (
+        <StackPanel order={order + 2} pin={!isLastChapter}>
+          <Orrery />
+        </StackPanel>
+      )}
+    </>
   );
 }

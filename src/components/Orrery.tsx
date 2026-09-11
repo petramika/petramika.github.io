@@ -249,7 +249,7 @@ export function Orrery() {
   });
 
   return (
-    <section className="relative z-10 flex w-full items-center justify-center px-6 pb-24 sm:px-12 sm:pb-32">
+    <section className="relative z-10 flex h-full w-full items-center justify-center px-6 py-16 sm:px-12 sm:py-24">
       <svg
         viewBox="-112 -112 224 224"
         className="block w-[min(84vw,520px)] text-[#141518]"

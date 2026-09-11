@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { label, pad, texts } from '../data/labels';
 import { useMotionValueEvent, useScroll } from 'motion/react';
 
 interface WordGridSceneProps {
@@ -10,7 +11,8 @@ interface WordGridSceneProps {
 const STEPS = 5;
 
 interface WordSpec {
-  text: string;
+  /** Key into texts.wordGrid: the layout points at the copy, never holds it */
+  word: keyof typeof texts.wordGrid;
   /**
    * Percentage of the CELL's own width (cqw), never of the viewport. Sizes
    * in vw ignore the grid's max-width, so on a wide screen the type kept
@@ -21,6 +23,16 @@ interface WordSpec {
   vertical?: boolean;
   /** Held further back until the scroll or the cursor brings it forward */
   late?: boolean;
+  /** Shouted. Case is typography here, so it stays out of the copy */
+  upper?: boolean;
+  /** Closed with a full stop, for the same reason */
+  stop?: boolean;
+}
+
+/** The word as it is set: copy from the JSON, case and punctuation from here */
+function setWord(spec: WordSpec): string {
+  const base = texts.wordGrid[spec.word];
+  return (spec.upper ? base.toUpperCase() : base) + (spec.stop ? '.' : '');
 }
 
 interface Cell {
@@ -49,10 +61,10 @@ const CELLS: Cell[] = [
     mRow: [1, 2],
     align: 'start',
     words: [
-      { text: 'TRAUMA', size: 20 },
-      { text: 'TRAUMA', size: 18, rotate: -4 },
-      { text: 'TRAUMA', size: 15.5, rotate: -9, late: true },
-      { text: 'TRAUMA', size: 13, rotate: -14, late: true },
+      { word: 'trauma', upper: true, size: 20 },
+      { word: 'trauma', upper: true, size: 18, rotate: -4 },
+      { word: 'trauma', upper: true, size: 15.5, rotate: -9, late: true },
+      { word: 'trauma', upper: true, size: 13, rotate: -14, late: true },
     ],
   },
   {
@@ -62,7 +74,7 @@ const CELLS: Cell[] = [
     mCol: [1, 1],
     mRow: [3, 1],
     align: 'center',
-    words: [{ text: 'mentiras', size: 13 }],
+    words: [{ word: 'mentiras', size: 13 }],
   },
   {
     id: 'C',
@@ -72,10 +84,10 @@ const CELLS: Cell[] = [
     mRow: [3, 2],
     align: 'center',
     words: [
-      { text: 'miedo', size: 17, vertical: true },
-      { text: 'miedo', size: 17, vertical: true },
-      { text: 'rabia', size: 13, vertical: true, late: true },
-      { text: 'rabia', size: 10, vertical: true, late: true },
+      { word: 'miedo', size: 17, vertical: true },
+      { word: 'miedo', size: 17, vertical: true },
+      { word: 'rabia', size: 13, vertical: true, late: true },
+      { word: 'rabia', size: 10, vertical: true, late: true },
     ],
   },
   {
@@ -86,8 +98,8 @@ const CELLS: Cell[] = [
     mRow: [4, 1],
     align: 'center',
     words: [
-      { text: 'queja', size: 14, rotate: -22 },
-      { text: 'mentiras', size: 14, rotate: -22, late: true },
+      { word: 'queja', size: 14, rotate: -22 },
+      { word: 'mentiras', size: 14, rotate: -22, late: true },
     ],
   },
   {
@@ -98,9 +110,9 @@ const CELLS: Cell[] = [
     mRow: [5, 2],
     align: 'center',
     words: [
-      { text: 'DOLOR.', size: 20 },
-      { text: 'dolor.', size: 11, late: true },
-      { text: 'dolor.', size: 8.5, late: true },
+      { word: 'dolor', upper: true, stop: true, size: 20 },
+      { word: 'dolor', stop: true, size: 11, late: true },
+      { word: 'dolor', stop: true, size: 8.5, late: true },
     ],
   },
   {
@@ -111,10 +123,10 @@ const CELLS: Cell[] = [
     mRow: [5, 1],
     align: 'end',
     words: [
-      { text: 'dolor', size: 22 },
-      { text: 'dolor', size: 18, late: true },
-      { text: 'dolor', size: 15, late: true },
-      { text: 'dolor', size: 12, late: true },
+      { word: 'dolor', size: 22 },
+      { word: 'dolor', size: 18, late: true },
+      { word: 'dolor', size: 15, late: true },
+      { word: 'dolor', size: 12, late: true },
     ],
   },
   {
@@ -124,7 +136,7 @@ const CELLS: Cell[] = [
     mCol: [2, 1],
     mRow: [6, 1],
     align: 'center',
-    words: [{ text: 'rabia', size: 24 }],
+    words: [{ word: 'rabia', size: 24 }],
   },
   {
     id: 'H',
@@ -134,8 +146,8 @@ const CELLS: Cell[] = [
     mRow: [7, 1],
     align: 'center',
     words: [
-      { text: 'mentiras', size: 15 },
-      { text: 'mentiras', size: 15, late: true },
+      { word: 'mentiras', size: 15 },
+      { word: 'mentiras', size: 15, late: true },
     ],
   },
   {
@@ -145,7 +157,7 @@ const CELLS: Cell[] = [
     mCol: [1, 1],
     mRow: [8, 1],
     align: 'center',
-    words: [{ text: 'miedo', size: 22, rotate: 12 }],
+    words: [{ word: 'miedo', size: 22, rotate: 12 }],
   },
   {
     id: 'J',
@@ -155,8 +167,8 @@ const CELLS: Cell[] = [
     mRow: [8, 1],
     align: 'center',
     words: [
-      { text: 'QUEJA', size: 17 },
-      { text: 'queja', size: 9, late: true },
+      { word: 'queja', upper: true, size: 17 },
+      { word: 'queja', size: 9, late: true },
     ],
   },
   {
@@ -167,9 +179,9 @@ const CELLS: Cell[] = [
     mRow: [9, 1],
     align: 'start',
     words: [
-      { text: 'mentiras', size: 14 },
-      { text: 'dolor', size: 12, late: true },
-      { text: 'dolor', size: 10, late: true },
+      { word: 'mentiras', size: 14 },
+      { word: 'dolor', size: 12, late: true },
+      { word: 'dolor', size: 10, late: true },
     ],
   },
 ];
@@ -243,7 +255,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
     <section
       ref={sceneRef}
       id={`chapter-${chapter}-grid`}
-      className="relative w-full min-h-screen flex items-center justify-center px-4 sm:px-8 py-20"
+      className="relative w-full h-full flex items-center justify-center px-4 sm:px-8 py-20"
       aria-label={`Capítulo ${chapter}: miedo, mentiras, trauma, dolor, rabia, queja`}
     >
       <div className="w-full max-w-6xl">
@@ -300,7 +312,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
                 >
                   {cell.words.map((word, w) => (
                     <span
-                      key={`${word.text}-${w}`}
+                      key={`${word.word}-${w}`}
                       className={`word-grid-word font-editorial-display font-black text-[#141518] leading-[0.94] whitespace-nowrap ${
                         word.late ? 'word-grid-late' : ''
                       } ${word.vertical ? 'writing-vertical-270' : ''}`}
@@ -309,7 +321,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
                         transform: word.rotate ? `rotate(${word.rotate}deg)` : undefined,
                       }}
                     >
-                      {word.text}
+                      {setWord(word)}
                     </span>
                   ))}
                 </div>
@@ -319,7 +331,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
         </div>
 
         <p className="mt-5 text-[10px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none">
-          [ {String(index + 1).padStart(2, '0')} // INVENTARIO ] · CAPÍTULO {chapter}
+          {label(texts.labels.gridEdge, { n: pad(index + 1), chapter })}
         </p>
       </div>
     </section>
