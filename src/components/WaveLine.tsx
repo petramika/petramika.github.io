@@ -8,6 +8,12 @@ import { useOnScreen } from '../hooks/useOnScreen';
  * Nothing about it is regular — the crests come out uneven, the wavelength
  * stretches and bunches, and the whole stroke wanders off its own baseline.
  *
+ * Underneath it runs the axis: the line the wave departs from, drawn flat and
+ * whole. It never breaks. Where a crest rises over it the two read as an A,
+ * and a row of crests as a row of them — which is the point of it being
+ * there, and the reason it follows the wave's own wandering baseline instead
+ * of being ruled straight across.
+ *
  * It is blurred and sits behind the type, so the passage above stays readable
  * while the line keeps moving underneath it.
  *
@@ -50,6 +56,7 @@ export function WaveLine() {
   const svgRef = useRef<SVGSVGElement>(null);
   const leftRef = useRef<SVGPathElement>(null);
   const rightRef = useRef<SVGPathElement>(null);
+  const axisRef = useRef<SVGPathElement>(null);
   const shardsRef = useRef<SVGGElement>(null);
 
   const onScreen = useOnScreen(hostRef);
@@ -62,8 +69,9 @@ export function WaveLine() {
     const svg = svgRef.current;
     const left = leftRef.current;
     const right = rightRef.current;
+    const axis = axisRef.current;
     const shards = shardsRef.current;
-    if (!host || !svg || !left || !right || !shards) return;
+    if (!host || !svg || !left || !right || !axis || !shards) return;
 
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -153,16 +161,18 @@ export function WaveLine() {
        * wavelength that bunches and stretches along the way, and a baseline
        * that never quite settles — a stroke drawn by a hand, not a plotter.
        */
+      /** The line the wave swings about, and what the axis is drawn along */
+      const baselineAt = (x: number) =>
+        26 * Math.sin(x * 0.0026 + elapsed * 0.07) +
+        11 * Math.sin(x * 0.0017 - elapsed * 0.05);
+
       const heightAt = (x: number) => {
         // Fed into the PHASE rather than into the position: a sine added to
         // the phase makes the wavelength itself stretch and bunch along the
         // line, so no two cycles come out the same width. Its slope stays
         // positive at this depth, so the curve never folds back on itself.
         const theta = x * k + 2.6 * Math.sin(x / 300 + elapsed * 0.04) + phase;
-        const baseline =
-          26 * Math.sin(x * 0.0026 + elapsed * 0.07) +
-          11 * Math.sin(x * 0.0017 - elapsed * 0.05);
-        return mid + baseline + ampAt(x) * Math.sin(theta);
+        return mid + baselineAt(x) + ampAt(x) * Math.sin(theta);
       };
 
       /**
@@ -215,6 +225,27 @@ export function WaveLine() {
           .reverse()
           .join(' L')} Z`;
       };
+
+      /*
+        The axis, drawn the whole way across whatever the wave is doing. Its
+        weight is even and a good deal lighter: it has to hold the crests
+        together without competing with them.
+      */
+      const axisPts: string[] = [];
+      const axisBelow: string[] = [];
+      for (let x = 0; x <= width; x += STEP * 2) {
+        const y = mid + baselineAt(x);
+        const taper = Math.sqrt(Math.min(1, Math.min(x, width - x) / 60));
+        const h = WEIGHT * 0.34 * taper;
+        axisPts.push(`${x.toFixed(1)} ${(y - h).toFixed(1)}`);
+        axisBelow.push(`${x.toFixed(1)} ${(y + h).toFixed(1)}`);
+      }
+      axis.setAttribute(
+        'd',
+        `M${axisPts[0]} L${axisPts.slice(1).join(' L')} L${axisBelow
+          .reverse()
+          .join(' L')} Z`,
+      );
 
       left.setAttribute('d', buildHalf(0, leftEnd, 'end'));
       right.setAttribute('d', buildHalf(rightStart, width, 'start'));
@@ -285,6 +316,7 @@ export function WaveLine() {
         className="block overflow-visible"
       >
         <g fill="#141518" stroke="none">
+          <path ref={axisRef} d="" />
           <path ref={leftRef} d="" />
           <path ref={rightRef} d="" />
         </g>

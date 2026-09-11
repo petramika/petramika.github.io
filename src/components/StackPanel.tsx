@@ -88,6 +88,25 @@ export function StackPanel({
         >
           {children}
 
+          {/*
+            A hairline of the panel's own ground along each edge, over the
+            top of whatever it holds.
+
+            A photograph is re-inverted to survive negative mode, and an
+            inverted layer clipped on a fractional pixel — which 100svh is,
+            more often than not — leaves a semi-transparent edge row that the
+            filter pushes towards white. It is the same fringe that made
+            scaling the panels unusable, arriving this time by way of the
+            clip instead. One opaque pixel covers it, and on a full-bleed
+            photograph one pixel is nothing.
+          */}
+          <div
+            className={`pointer-events-none absolute inset-x-0 top-0 z-10 h-px ${panelClassName}`}
+          />
+          <div
+            className={`pointer-events-none absolute inset-x-0 bottom-0 z-10 h-px ${panelClassName}`}
+          />
+
           {/* The lip of the arriving panel, shaded on its own top edge */}
           <div className="stack-contact pointer-events-none absolute inset-x-0 top-0 z-20 h-28" />
 

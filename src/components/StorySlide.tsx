@@ -1,12 +1,12 @@
 import { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'motion/react';
+import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { EssayItem } from '../types';
 import { ImageSequenceSlide } from './ImageSequenceSlide';
 import { NeonMorphFrames } from './NeonMorphFrames';
 import { WordGridScene } from './WordGridScene';
 import { WaveLine } from './WaveLine';
 import { Orrery } from './Orrery';
-import { LavaField } from './LavaField';
+import { BrainField } from './BrainField';
 import { WordRain } from './WordRain';
 import { AlbaTopography } from './AlbaTopography';
 import { StackPanel } from './StackPanel';
@@ -95,8 +95,8 @@ export function StorySlide({
   // A drawn line runs under the passage, so the type steps back to let it
   // show through from below
   const hasWave = item.underlay === 'wave';
-  // A drifting field of colour fills the whole slide behind the passage
-  const hasLava = item.underlay === 'lava';
+  // The chapter is about looking for someone in the corners of memory
+  const hasBrain = item.underlay === 'brain';
   // Words fall through the passage and break on the floor of the panel
   const hasRain = item.underlay === 'rain';
   // A drawn dawn fills the panel below the passage, so the type moves up out
@@ -110,6 +110,24 @@ export function StorySlide({
     target: textSlideRef,
     offset: ['start end', 'end start'],
   });
+
+  /*
+    The beat runs off the scroll itself, not off a clock: descending is what
+    makes it happen, and going back up unwinds it. It reads from the window
+    rather than from this panel's own progress because the panel is pinned
+    for half its stay — its progress stops moving while you are still
+    scrolling past it, and the beat would stop with it.
+  */
+  const stillness = useReducedMotion();
+  const { scrollY } = useScroll();
+  const beat = useTransform(scrollY, (v) =>
+    stillness ? 0 : (1 - Math.cos((v / 420) * Math.PI * 2)) / 2,
+  );
+  // What the passage loses, the brain behind it gains
+  const typeBlur = useTransform(beat, (b) => `blur(${(b * 9).toFixed(2)}px)`);
+  const typeFade = useTransform(beat, (b) => 1 - b * 0.8);
+  const brainBlur = useTransform(beat, (b) => `blur(${(7.5 - b * 7).toFixed(2)}px)`);
+  const brainFade = useTransform(beat, (b) => 0.42 + b * 0.58);
 
   const textY = useTransform(textScroll, [0, 0.5, 1], [65, 0, -65]);
   const textOpacity = useTransform(textScroll, [0, 0.25, 0.75, 1], [0.15, 1, 1, 0.15]);
@@ -134,11 +152,14 @@ export function StorySlide({
         </div>
       )}
 
-      {/* Full-bleed field of slowly deforming colour, behind everything */}
-      {hasLava && (
-        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
-          <LavaField />
-        </div>
+      {/* A brain behind the passage, with the colour moving inside it */}
+      {hasBrain && (
+        <motion.div
+          style={{ filter: brainBlur, opacity: brainFade }}
+          className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2 will-change-[filter]"
+        >
+          <BrainField />
+        </motion.div>
       )}
 
       {/* Full-bleed drawn line, blurred and running below the type */}
@@ -164,6 +185,11 @@ export function StorySlide({
           {label(texts.labels.passageRight, { n: pad(index + 1), total })}
         </div>
 
+        {/* The words keep the beat, so what is behind them can be seen */}
+        <motion.div
+          style={hasBrain ? { filter: typeBlur, opacity: typeFade } : undefined}
+          className={hasBrain ? 'will-change-[filter]' : undefined}
+        >
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8 ${
@@ -182,6 +208,8 @@ export function StorySlide({
             {item.subtext}
           </p>
         )}
+        </motion.div>
+
       </motion.div>
     </section>
   );
