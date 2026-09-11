@@ -1,0 +1,56 @@
+# Publica la web en GitHub Pages con cada empujon a main.
+#
+# El despliegue va por Actions y no por una rama gh-pages: asi no hay que
+# subir la carpeta construida al repositorio, que es codigo generado y solo
+# ensucia el historial.
+name: Publicar
+
+on:
+  push:
+    branches: [main]
+  # Y a mano, desde la pestana Actions, cuando haga falta
+  workflow_dispatch:
+
+# Lo minimo que necesita el desplegador oficial de Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se empuja dos veces seguidas, que gane el ultimo y no se pisen
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # ci y no install: instala exactamente lo del package-lock, asi la web
+      # publicada se construye con las mismas versiones que en local
+      - run: npm ci
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

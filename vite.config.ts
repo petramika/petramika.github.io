@@ -5,6 +5,15 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    /*
+      La web vive en petramika.github.io/thoughts/, no en la raiz del dominio,
+      asi que todo lo construido tiene que apuntar ahi. Sin esto los assets se
+      piden a /assets/... y la pagina publicada sale en blanco.
+
+      Con dominio propio, o si el repositorio se llamara petramika.github.io,
+      esto pasaria a ser '/'.
+    */
+    base: '/thoughts/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
