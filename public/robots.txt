@@ -1,0 +1,12 @@
+# La pagina se indexa; las fotografias no.
+#
+# El bloqueo por extension impide que los rastreadores lleguen a las imagenes
+# sin tocar el JavaScript ni la hoja de estilos, que sí tienen que poder
+# leerse o el buscador no sabe renderizar la pagina.
+User-agent: *
+Allow: /
+Disallow: /*.JPG$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.webp$
