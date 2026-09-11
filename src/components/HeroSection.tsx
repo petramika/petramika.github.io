@@ -1,6 +1,7 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { PaperDispersion } from './PaperDispersion';
+import { PaperTear } from './PaperTear';
 import texts from '../data/texts.json';
 
 interface HeroSectionProps {
@@ -14,6 +15,28 @@ export function HeroSection({
 }: HeroSectionProps) {
   const heroRef = useRef<HTMLElement>(null);
   const introTextRef = useRef<HTMLDivElement>(null);
+  // Stacked on a phone, the two halves are not the same height, so where the
+  // seam between them runs has to be measured rather than assumed
+  const spreadRef = useRef<HTMLDivElement>(null);
+  const firstHalfRef = useRef<HTMLDivElement>(null);
+  const [seamAt, setSeamAt] = useState(0.5);
+
+  useEffect(() => {
+    const spread = spreadRef.current;
+    const half = firstHalfRef.current;
+    if (!spread || !half) return;
+
+    const measure = () => {
+      const total = spread.offsetHeight;
+      if (total > 0) setSeamAt(half.offsetHeight / total);
+    };
+    measure();
+
+    const observer = new ResizeObserver(measure);
+    observer.observe(spread);
+    observer.observe(half);
+    return () => observer.disconnect();
+  }, []);
 
   // Parallax calculations for the HERO COVER SLIDE
   const { scrollYProgress: heroScroll } = useScroll({
@@ -134,16 +157,38 @@ export function HeroSection({
         ref={introTextRef}
         className="relative min-h-screen flex items-center justify-center px-4 sm:px-8 lg:px-12 py-16 sm:py-24 max-w-7xl mx-auto"
       >
+        {/* The page itself, torn out along both margins of the screen. It
+            bites less deep on a phone, where 34px of a 390px screen would be
+            eating the text rather than framing it. */}
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
+          <div className="hidden md:block">
+            <PaperTear progress={textScroll} at="left" />
+            <PaperTear progress={textScroll} at="right" />
+          </div>
+          <div className="md:hidden">
+            <PaperTear progress={textScroll} at="left" reach={14} />
+            <PaperTear progress={textScroll} at="right" reach={14} />
+          </div>
+        </div>
         <motion.div
           style={{ y: textY, opacity: textOpacity, scale: textScale }}
           className="relative w-full will-change-transform"
         >
           {/* Outer Editorial Container with Swiss grid border */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 border border-[#141518]/15 bg-white/80 backdrop-blur-xs min-h-[75vh] md:min-h-[82vh] shadow-xs relative overflow-hidden">
+          <div ref={spreadRef} className="w-full grid grid-cols-1 md:grid-cols-2 border border-[#141518]/15 bg-white/80 backdrop-blur-xs min-h-[75vh] md:min-h-[82vh] shadow-xs relative overflow-hidden">
+            {/* The seam between the halves gives way as the spread is read.
+                Only where the seam is vertical — stacked on a phone, the two
+                halves sit one over the other and there is nothing to part. */}
+            <div className="hidden md:block absolute inset-0 z-20">
+              <PaperTear progress={textScroll} />
+            </div>
+            <div className="md:hidden absolute inset-0 z-20">
+              <PaperTear progress={textScroll} orientation="horizontal" reach={22} seamAt={seamAt} />
+            </div>
             
             {/* ----------------- MITAD IZQUIERDA ----------------- */}
             {/* Frase principal rotada 90° hacia la izquierda con tipografía de cartel */}
-            <div className="relative flex flex-col items-center justify-center p-8 sm:p-10 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-[#141518]/15 bg-[#fafafa]/70 overflow-hidden min-h-[40vh] md:min-h-[82vh]">
+            <div ref={firstHalfRef} className="relative flex flex-col items-center justify-center p-8 sm:p-10 md:p-12 lg:p-16 border-b md:border-b-0 border-[#141518]/15 bg-[#fafafa]/70 overflow-hidden min-h-[40vh] md:min-h-[82vh]">
               {/* Micro badge superior izquierdo */}
               <div className="absolute top-6 left-6 flex items-center space-x-2 text-[10px] font-editorial-mono uppercase tracking-[0.25em] text-[#71717a] select-none">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#141518]" />

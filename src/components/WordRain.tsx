@@ -30,10 +30,10 @@ const WORDS: string[] = texts.wordRain;
  * px/s². Real gravity at a typical screen density would be some 37000 px/s²
  * and a word would cross the panel in a fifth of a second — there and gone
  * before it could be read. This is slow enough to read a word the whole way
- * down, around a second and a half for a full-height drop, while still
- * visibly gathering speed: falling at a constant rate reads as drifting.
+ * down, close to two seconds for a full-height drop, while still visibly
+ * gathering speed: falling at a constant rate reads as drifting.
  */
-const GRAVITY = 850;
+const GRAVITY = 520;
 /** How far the baseline stops short of the bottom edge: just enough that
  *  the drips have somewhere to run before the panel clips them */
 const FLOOR_INSET = 6;
@@ -118,7 +118,7 @@ export function WordRain() {
       if (words.length >= MAX_WORDS) return;
 
       const wrap = document.createElement('div');
-      wrap.className = 'word-rain-word font-editorial-display';
+      wrap.className = 'word-rain-word';
       // Big screens get bigger words; on a phone they stay out of the way
       const room = Math.max(0.68, Math.min(1, width / 900));
       wrap.style.fontSize = `${(26 + Math.random() * 30) * room}px`;
