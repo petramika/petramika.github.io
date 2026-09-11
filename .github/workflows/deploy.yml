@@ -39,7 +39,11 @@ jobs:
 
       - run: npm run build
 
+      # enablement da de alta Pages por API si aun no lo esta, que es
+      # exactamente donde fallaban las tres ejecuciones anteriores
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
