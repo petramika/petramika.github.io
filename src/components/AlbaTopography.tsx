@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * Dawn over a range, drawn as a survey rather than as a picture: contour
@@ -166,6 +167,7 @@ function cloudLine(x: number, t: number) {
 export function AlbaTopography() {
   const hostRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const onScreen = useOnScreen(hostRef);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -364,6 +366,10 @@ export function AlbaTopography() {
 
     const loop = (now: number) => {
       if (host.dataset.albaGeneration !== generation) return;
+      if (!onScreen.current) {
+        raf = requestAnimationFrame(loop);
+        return;
+      }
       draw(reduced ? 0 : (now - start) / 1000, reduced ? 0.6 : dawnNow());
       raf = requestAnimationFrame(loop);
     };
@@ -378,7 +384,7 @@ export function AlbaTopography() {
       cancelAnimationFrame(raf);
       observer.disconnect();
     };
-  }, []);
+  }, [onScreen]);
 
   return (
     <div ref={hostRef} className="pointer-events-none absolute inset-0" aria-hidden="true">

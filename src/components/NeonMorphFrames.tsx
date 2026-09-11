@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 const TAU = Math.PI * 2;
 /* Enough samples that the square corners stay crisp */
@@ -90,6 +91,7 @@ function ringStateAt(ring: RingConfig, t: number) {
 export function NeonMorphFrames() {
   const reduceMotion = useReducedMotion();
   const svgRef = useRef<SVGSVGElement>(null);
+  const onScreen = useOnScreen(svgRef);
   // Halo and core share one path string, so the glow tracks the shape exactly
   const haloRefs = useRef<(SVGPathElement | null)[]>([]);
   const coreRefs = useRef<(SVGPathElement | null)[]>([]);
@@ -134,6 +136,7 @@ export function NeonMorphFrames() {
   }, []);
 
   useAnimationFrame((elapsed) => {
+    if (!onScreen.current) return;
     if (reduceMotion || !isVisibleRef.current) return;
     paint(elapsed / 1000);
   });

@@ -143,9 +143,17 @@ export function HeroSection({
           </div>
         </motion.div>
 
-        {/* SVG animated 3 crumpled papers dispersion below ROTA */}
-        <PaperDispersion progress={heroScroll} />
       </section>
+
+      {/*
+        The falling paper lives BETWEEN the two spreads, not inside the cover.
+        Inside it, the cover's own clipping cut the ball off at a hard edge
+        halfway down; out here it can carry on past and go behind the spread
+        below, which is what a thing falling out of frame actually does.
+      */}
+      <div className="pointer-events-none absolute inset-x-0 top-0 z-0 h-screen">
+        <PaperDispersion progress={heroScroll} />
+      </div>
 
       {/* ------------------------------------------------------------- */}
       {/* 2. DIAPOSITIVA: PRIMER TEXTO — SPLIT EDITORIAL SUIZO          */}
@@ -155,7 +163,7 @@ export function HeroSection({
       <section
         id="intro-text-slide"
         ref={introTextRef}
-        className="relative min-h-screen flex items-center justify-center px-4 sm:px-8 lg:px-12 py-16 sm:py-24 max-w-7xl mx-auto"
+        className="relative z-10 min-h-screen flex items-center justify-center px-4 sm:px-8 lg:px-12 py-16 sm:py-24 max-w-7xl mx-auto"
       >
         {/* The page itself, torn out along both margins of the screen. It
             bites less deep on a phone, where 34px of a 390px screen would be
@@ -188,7 +196,7 @@ export function HeroSection({
             
             {/* ----------------- MITAD IZQUIERDA ----------------- */}
             {/* Frase principal rotada 90° hacia la izquierda con tipografía de cartel */}
-            <div ref={firstHalfRef} className="relative flex flex-col items-center justify-center p-8 sm:p-10 md:p-12 lg:p-16 border-b md:border-b-0 border-[#141518]/15 bg-[#fafafa]/70 overflow-hidden min-h-[40vh] md:min-h-[82vh]">
+            <div ref={firstHalfRef} className="relative flex flex-col items-center justify-center p-8 sm:p-10 md:p-12 lg:p-16 bg-[#fafafa]/70 overflow-hidden min-h-[40vh] md:min-h-[82vh]">
               {/* Micro badge superior izquierdo */}
               <div className="absolute top-6 left-6 flex items-center space-x-2 text-[10px] font-editorial-mono uppercase tracking-[0.25em] text-[#71717a] select-none">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#141518]" />

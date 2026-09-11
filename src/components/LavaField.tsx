@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * A lava lamp behind the passage: a few large soft masses that drift across
@@ -99,9 +100,12 @@ function blobPath(blob: Blob, t: number) {
 
 export function LavaField() {
   const reduceMotion = useReducedMotion();
+  const hostRef = useRef<HTMLDivElement>(null);
+  const onScreen = useOnScreen(hostRef);
   const blobRefs = useRef<(SVGPathElement | null)[]>([]);
 
   useAnimationFrame((elapsed) => {
+    if (!onScreen.current) return;
     const t = reduceMotion ? 0 : elapsed / 1000;
     BLOBS.forEach((blob, i) => {
       blobRefs.current[i]?.setAttribute('d', blobPath(blob, t));
@@ -109,7 +113,7 @@ export function LavaField() {
   });
 
   return (
-    <div className="lava-field pointer-events-none absolute inset-0 overflow-hidden">
+    <div ref={hostRef} className="lava-field pointer-events-none absolute inset-0 overflow-hidden">
       <svg
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
