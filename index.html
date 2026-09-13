@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ROTA</title>
-    <meta name="description" content="Una experiencia visual y editorial minimalista con transiciones fluidas al scroll." />
-    <meta property="og:title" content="ROTA" />
-    <meta property="og:description" content="Una experiencia visual y editorial minimalista con transiciones fluidas al scroll." />
+    <!--
+      Al hilo de texts.json: titulo, subtitulo y la frase de entrada. Estos
+      no pueden leerse del JSON como el resto de la copia — un buscador o un
+      chat lee el HTML tal y como llega, antes de que corra nada, asi que
+      tienen que venir escritos aqui. Si cambia el texto de la portada,
+      cambian estos tambien.
+    -->
+    <title>ROTA · Esto es sentir</title>
+    <meta
+      name="description"
+      content="Se caen los valores de mi vida cuando solo veo dolor. Un ensayo visual sobre lo que se quiebra por dentro."
+    />
+    <meta property="og:site_name" content="ROTA" />
+    <meta property="og:title" content="ROTA · Esto es sentir" />
+    <meta
+      property="og:description"
+      content="Se caen los valores de mi vida cuando solo veo dolor. Un ensayo visual sobre lo que se quiebra por dentro."
+    />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://petramika.github.io/" />
+    <meta property="og:locale" content="es_ES" />
+    <!--
+      Tarjeta pequena y sin imagen: las fotografias del ensayo se quedan
+      fuera de los buscadores, y compartir un enlace no deberia ser la
+      excepcion a eso.
+    -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="ROTA · Esto es sentir" />
+    <meta
+      name="twitter:description"
+      content="Se caen los valores de mi vida cuando solo veo dolor. Un ensayo visual sobre lo que se quiebra por dentro."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,900&family=Caveat:wght@500;600&family=Rubik+Glitch&family=Rubik+Moonrocks&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
