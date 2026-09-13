@@ -1,118 +1,111 @@
 {
   "meta": {
-    "title": "ROTA — Una autopsia del silencio",
-    "subtitle": "Manifiesto Editorial y Diario Visual",
+    "title": "ROTA",
+    "subtitle": "Esto es sentir",
     "year": "2026"
   },
   "hero": {
     "title": "ROTA",
     "status": "[ PROCESO ACTIVO ]",
-    "editorialTag": "MANIFIESTO EDITORIAL EXPERIMENTAL",
-    "archiveTag": "[ ARCHIVO 01 ]",
-    "leftRibbon": "[ MANIFIESTO DE LO QUE SE QUIEBRA ]",
-    "rightRibbon": "ROTA · DIARIO VISUAL · EDICIÓN 2026 [ + ]",
-    "introPhrase": "Lo que se quiebra por dentro no siempre hace ruido al caer.",
-    "introSubtext": "A veces el dolor solo aprende a esperar en silencio mientras intentamos recordar quiénes éramos antes de la grieta.",
-    "leftBadge": "[ FRACTURA ]",
-    "leftFooter": "ROTA LABS · MANIFIESTO 01",
-    "rightBadge": "[ REFLEXIÓN ]",
-    "rightPill": "SILENCIO",
-    "rightFooter": "DIARIO VISUAL · EDICIÓN SIN TIEMPO"
+    "editorialTag": "SENTIR DUELE",
+    "archiveTag": "[ QUIEN SOY ]",
+    "leftRibbon": "[ Y SIN SENTIR NO SE VIVIR ]",
+    "rightRibbon": "QUE HAY TAN DENTRO DE MI",
+    "introPhrase": "Se caen los valores de mi vida cuando solo veo dolor.",
+    "introSubtext": "He perdido el valor de las palabras, la confianza en las personas, de que sirve si luego solo quedan los hechos.",
+    "leftBadge": "[ QUEN ES ]",
+    "leftFooter": "CRECE, MADURA, DESPIERTA",
+    "rightBadge": "[ QUIENES SOMOS ]",
+    "rightPill": "PARA, NO, PARA. ESCUCHA, APRENDE, SIENTE",
+    "rightFooter": "POR QUE. STOP. NO TODO TIENE EXPLICACION"
   },
   "chapters": [
     {
       "id": "fragment-1",
       "chapter": "I",
-      "subtitle": "La quietud y el derrumbe",
-      "phrase": "A veces el dolor no hace ruido. Solo se sienta en la esquina de la habitación a esperar que todo el mundo se vaya.",
-      "subtext": "Nadie nota que estás conteniendo la respiración hasta que el silencio pesa más que la casa entera.",
-      "dateOrPlace": "3:17 AM — En el cuarto deshabitado",
-      "imageAlt": "Fotograma 01 — La quietud y el derrumbe",
+      "subtitle": "Todo",
+      "phrase": "Di tanto y seguia siendo poco. Pedi perdón por decir mi verdad. Hay agujeros que solo uno puede llenar, yo no soy la del proceso.",
+      "subtext": "El amor no es suficiente. ",
+      "imageAlt": "Fotograma 01 — La demolición lenta",
       "aspectRatio": "landscape"
     },
     {
       "id": "fragment-2",
       "chapter": "II",
-      "subtitle": "El eco de lo pronunciado",
-      "phrase": "Lo más difícil de soltar no fue tu nombre, sino el eco que todavía retumba en las paredes que una vez llamamos refugio.",
-      "subtext": "Quedan objetos que todavía te esperan, como si el tiempo se hubiera negado a creer tu partida.",
-      "dateOrPlace": "Domingo sin horas",
-      "imageAlt": "Fotograma 02 — El eco de lo pronunciado",
+      "subtitle": "Anatomía de la frialdad",
+      "phrase": "Duele el doble cuando tu dolor es analizado como un síntoma y no abrazado como una herida.",
+      "subtext": "Escuchar frases leídas y preguntas clínicas cuando solo buscaba refugio me dejó con la piel partida y una soledad helada en el pecho.",
+      "imageAlt": "Fotograma 02 — Anatomía de la frialdad",
       "aspectRatio": "portrait"
     },
     {
       "id": "fragment-3",
       "chapter": "III",
-      "subtitle": "La despedida muda",
-      "phrase": "Hay adioses que nunca tuvieron palabras: simplemente un día dejaste de mirar con la misma verdad.",
-      "subtext": "El duelo más cruel ocurre cuando la persona sigue frente a ti, pero ya hace semanas que se fue.",
-      "dateOrPlace": "La distancia entre dos miradas",
-      "imageAlt": "Fotograma 03 — La despedida muda",
+      "subtitle": "El miedo que se traga",
+      "phrase": "Hay bromas que queman por dentro y silencios que pesan como un derrumbe sobre la cabeza.",
+      "subtext": "Sostener la inestabilidad ajena, el miedo constante y la queja infinita terminó por vaciarme del todo. Ya no me quedaba nada que dar.",
+      "imageAlt": "Fotograma 03 — El miedo que se traga",
       "aspectRatio": "wide"
     },
     {
       "id": "fragment-4",
       "chapter": "IV",
-      "subtitle": "Kintsugi involuntario",
-      "phrase": "Llevo tantas grietas que a veces confundo la luz que entra con lo que se sigue quebrando por dentro.",
-      "subtext": "No todo lo que se rompe se vuelve más fuerte; a veces solo se vuelve más frágil y más lúcido.",
-      "dateOrPlace": "Cicatriz visible al trasluz",
+      "subtitle": "Las grietas de la mentira",
+      "phrase": "Se me partió el alma al descubrir que para el mundo había fiesta y para mí solo quedaban las sobras de tu aislamiento.",
+      "subtext": "Quedarte tiesa en medio de la calle entendiendo que tu cuidado fue en vano, que fuiste la única que se quedó a ciegas esperando.",
       "imageAlt": "Fotograma 04 — Secuencia flash",
       "aspectRatio": "square",
       "imageSequence": [
         {
-          "alt": "Fotograma 04.1 — Primera imagen de la secuencia"
+          "alt": "Fotograma 04.1 — La mentira del retiro"
         },
         {
-          "alt": "Fotograma 04.2 — Segunda imagen de la secuencia"
+          "alt": "Fotograma 04.2 — El impacto de la verdad"
         },
         {
-          "alt": "Fotograma 04.3 — Tercera imagen de la secuencia"
+          "alt": "Fotograma 04.3 — El cristal que se quiebra"
         }
       ]
     },
     {
       "id": "fragment-5",
       "chapter": "V",
-      "subtitle": "La mentira del tiempo",
-      "phrase": "El tiempo no borra nada; solo nos enseña a disimular la forma exacta en que nos falta el aire.",
-      "subtext": "Aprendes a reír en público, pero en los semáforos en rojo la memoria te vuelve a encontrar.",
-      "dateOrPlace": "Noviembre tardío",
-      "imageAlt": "Fotograma 05 — La mentira del tiempo",
+      "subtitle": "El desamparo absoluto",
+      "phrase": "Se murió parte de mi vida y tus palabras teóricas terminaron de destrozar lo poco que quedaba en pie.",
+      "subtext": "Sentirte una mierda cuando más necesitabas un abrazo. Ver que en tu luto solo recibiste un 'estoy en mi proceso' te deja rota para siempre.",
+      "imageAlt": "Fotograma 05 — El desamparo absoluto",
       "aspectRatio": "landscape"
     },
     {
       "id": "fragment-6",
       "chapter": "VI",
-      "subtitle": "La sombra persistente",
-      "phrase": "Te busco todavía en las esquinas de conversaciones que ya nadie tiene, en calles que prometí no volver a cruzar.",
-      "subtext": "La ciudad se vuelve un mapa de lugares prohibidos por el peso de lo que fuimos en ellos.",
-      "dateOrPlace": "Intersección sin retorno",
-      "imageAlt": "Fotograma 06 — La sombra persistente",
+      "subtitle": "El peso de haber dado todo",
+      "phrase": "Te di mi dignidad, mi compasión y mis hombros, y solo me quedé con las manos llenas de cristales rotos.",
+      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de si la que estaba mal era yo.",
+      "imageAlt": "Fotograma 06 — El peso de haber dado todo",
       "aspectRatio": "portrait",
       "imageSequence": [
         {
-          "alt": "Fotograma 06.1 — Primera imagen de la secuencia"
+          "alt": "Fotograma 06.1 — Cargar con lo ajeno"
         },
         {
-          "alt": "Fotograma 06.2 — Segunda imagen de la secuencia"
+          "alt": "Fotograma 06.2 — El vacío que queda"
         }
       ]
     },
     {
       "id": "fragment-7",
       "chapter": "VII",
-      "subtitle": "La rendición",
-      "phrase": "Al final comprendí que no te extrañaba a ti, sino a la versión de mí que aún no conocía el frío de perderte.",
-      "subtext": "La pérdida también es el entierro de quien éramos cuando fuimos amados con certeza.",
-      "dateOrPlace": "El último umbral",
-      "imageAlt": "Fotograma 07 — La rendición",
+      "subtitle": "Aprender a habitar las ruinas",
+      "phrase": "Estoy rota. Y no sé cuánto tiempo llevará volver a juntar los pedazos de la persona que era antes de ti.",
+      "subtext": "Aceptar el dolor sin anestesia. El mundo duele pero elijo paz. Mirar la herida abierta y saber que, aunque me duela hasta el aire, volvere a ser yo y mas.",
+      "imageAlt": "Fotograma 07 — Aprender a habitar las ruinas",
       "aspectRatio": "wide"
     }
   ],
   "epilogue": {
-    "backToTop": "↑ VOLVER AL INICIO [ TOP ]",
-    "credit": "Website developed by broken Anne"
+    "backToTop": "VOLVER AL INICIO [ ↑ ]",
+    "credit": "Desarrollado y diseñado por Anne"
   },
   "wordRain": [
     "amor",
@@ -140,7 +133,7 @@
     "queja": "queja"
   },
   "orrery": {
-    "wish": "te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño · te extraño"
+    "wish": "te extraño · me rompe · te extraño · por que · te extraño · te extraño · te extraño · te extraño"
   },
   "brain": {
     "head": "cabeza",
@@ -150,11 +143,11 @@
     "body": "cuerpo"
   },
   "labels": {
-    "photoEdge": "[ {n} // ARCHIVO VISUAL ] · {title} {year}",
-    "sequenceEdge": "[ {n} // SECUENCIA FLASH ] · CAPÍTULO {chapter}",
-    "gridEdge": "[ {n} // INVENTARIO ] · CAPÍTULO {chapter}",
-    "passageLeft": "[ {n} // MANIFIESTO ] · CAPÍTULO VISUAL",
-    "passageRight": "COORD. {n}.{total} · ARCHIVO PERMANENTE [ + ]"
+    "photoEdge": "[ {n} // ROTA ROTA ROTA ]",
+    "sequenceEdge": "[ {n} // ROTA ROTA]",
+    "gridEdge": "[ {n} // ROTA ROTA ROTA ROTA ROTA]",
+    "passageLeft": "[ {n} // ROTA ROTA ROTA ROTA ROTA ROTA]",
+    "passageRight": "[ {n} // ROTA ]"
   },
   "navigation": {
     "contrastToggleLabel": "+ / -",
