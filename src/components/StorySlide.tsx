@@ -192,7 +192,7 @@ export function StorySlide({
         >
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
-          className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mb-8 ${
+          className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mx-auto mb-8 ${
             isNeon ? 'text-[#f4f4f5]' : 'text-[#141518]'
           } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
         >
@@ -201,7 +201,7 @@ export function StorySlide({
 
         {item.subtext && (
           <p
-            className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl font-light mb-8 ${
+            className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-light mb-8 ${
               isNeon ? 'text-[#a1a1aa]' : 'text-[#52525b]'
             } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
           >

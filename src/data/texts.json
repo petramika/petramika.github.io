@@ -8,24 +8,24 @@
     "title": "ROTA",
     "status": "[ PROCESO ACTIVO ]",
     "editorialTag": "SENTIR DUELE",
-    "archiveTag": "[ QUIEN SOY ]",
-    "leftRibbon": "[ Y SIN SENTIR NO SE VIVIR ]",
-    "rightRibbon": "QUE HAY TAN DENTRO DE MI",
+    "archiveTag": "[ QUIÉN SOY ]",
+    "leftRibbon": "[ Y SIN SENTIR NO SÉ VIVIR ]",
+    "rightRibbon": "QUÉ HAY TAN DENTRO DE MÍ",
     "introPhrase": "Se caen los valores de mi vida cuando solo veo dolor.",
-    "introSubtext": "He perdido el valor de las palabras, la confianza en las personas, de que sirve si luego solo quedan los hechos.",
-    "leftBadge": "[ QUEN ES ]",
+    "introSubtext": "He perdido el valor de las palabras, la confianza en las personas, de qué sirve si luego solo quedan los hechos.",
+    "leftBadge": "[ QUIÉN ES ]",
     "leftFooter": "CRECE, MADURA, DESPIERTA",
-    "rightBadge": "[ QUIENES SOMOS ]",
+    "rightBadge": "[ QUIÉNES SOMOS ]",
     "rightPill": "PARA, NO, PARA. ESCUCHA, APRENDE, SIENTE",
-    "rightFooter": "POR QUE. STOP. NO TODO TIENE EXPLICACION"
+    "rightFooter": "POR QUÉ. STOP. NO TODO TIENE EXPLICACIÓN"
   },
   "chapters": [
     {
       "id": "fragment-1",
       "chapter": "I",
       "subtitle": "Todo",
-      "phrase": "Di tanto y seguia siendo poco. Pedi perdón por decir mi verdad. Hay agujeros que solo uno puede llenar, yo no soy la del proceso.",
-      "subtext": "El amor no es suficiente. ",
+      "phrase": "Di tanto y seguía siendo poco. Pedí perdón por decir mi verdad. Hay agujeros que solo uno puede llenar. Yo no soy la del proceso.",
+      "subtext": "El amor no es suficiente. Las decisiones, lo que hacemos, nuestros pilares, la escucha, el cambio. Es mucho, mucho más.",
       "imageAlt": "Fotograma 01 — La demolición lenta",
       "aspectRatio": "landscape"
     },
@@ -34,7 +34,7 @@
       "chapter": "II",
       "subtitle": "Anatomía de la frialdad",
       "phrase": "Duele el doble cuando tu dolor es analizado como un síntoma y no abrazado como una herida.",
-      "subtext": "Escuchar frases leídas y preguntas clínicas cuando solo buscaba refugio me dejó con la piel partida y una soledad helada en el pecho.",
+      "subtext": "Escuchar frases leídas y preguntas clínicas cuando solo buscaba refugio me dejó con nada. Palabras vacías, tan vacías...",
       "imageAlt": "Fotograma 02 — Anatomía de la frialdad",
       "aspectRatio": "portrait"
     },
@@ -51,8 +51,8 @@
       "id": "fragment-4",
       "chapter": "IV",
       "subtitle": "Las grietas de la mentira",
-      "phrase": "Se me partió el alma al descubrir que para el mundo había fiesta y para mí solo quedaban las sobras de tu aislamiento.",
-      "subtext": "Quedarte tiesa en medio de la calle entendiendo que tu cuidado fue en vano, que fuiste la única que se quedó a ciegas esperando.",
+      "phrase": "Ver a dos personas.",
+      "subtext": "Ver cómo con el resto es feliz, ayuda, escucha, respeta, pero luego... cuanto más me acerco, más me hiere.",
       "imageAlt": "Fotograma 04 — Secuencia flash",
       "aspectRatio": "square",
       "imageSequence": [
@@ -71,8 +71,8 @@
       "id": "fragment-5",
       "chapter": "V",
       "subtitle": "El desamparo absoluto",
-      "phrase": "Se murió parte de mi vida y tus palabras teóricas terminaron de destrozar lo poco que quedaba en pie.",
-      "subtext": "Sentirte una mierda cuando más necesitabas un abrazo. Ver que en tu luto solo recibiste un 'estoy en mi proceso' te deja rota para siempre.",
+      "phrase": "Huir. Esconderse. El desapego. El no saber qué querer. El entretenimiento en otros.",
+      "subtext": "Dejar de sentirte persona porque te tratan como a nada. No importas. Entonces para qué somos dos si solo uno tiene paz.",
       "imageAlt": "Fotograma 05 — El desamparo absoluto",
       "aspectRatio": "landscape"
     },
@@ -80,8 +80,8 @@
       "id": "fragment-6",
       "chapter": "VI",
       "subtitle": "El peso de haber dado todo",
-      "phrase": "Te di mi dignidad, mi compasión y mis hombros, y solo me quedé con las manos llenas de cristales rotos.",
-      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de si la que estaba mal era yo.",
+      "phrase": "Sobre empatizar. Ese ha sido siempre mi mochila. Y no puede ir más conmigo.",
+      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de si la que estaba mal era yo. Culparme, culparme, culparme de algo que es insaciable.",
       "imageAlt": "Fotograma 06 — El peso de haber dado todo",
       "aspectRatio": "portrait",
       "imageSequence": [
@@ -96,9 +96,9 @@
     {
       "id": "fragment-7",
       "chapter": "VII",
-      "subtitle": "Aprender a habitar las ruinas",
-      "phrase": "Estoy rota. Y no sé cuánto tiempo llevará volver a juntar los pedazos de la persona que era antes de ti.",
-      "subtext": "Aceptar el dolor sin anestesia. El mundo duele pero elijo paz. Mirar la herida abierta y saber que, aunque me duela hasta el aire, volvere a ser yo y mas.",
+      "subtitle": "Ahora yo quiero",
+      "phrase": "Ahora yo quiero. Se acabaron los mínimos.",
+      "subtext": "Quiero que me besen de los pies a la cabeza. Que me confronten y saquen lo que soy. Que me quieran por ello y lo cuiden. Risas, crecer, besos, lágrimas, flores, ayuda, acompañamiento, viajes, conversaciones, pasión, eroticidad, curiosidad... Me merezco más. Hay mucho, mucho más.",
       "imageAlt": "Fotograma 07 — Aprender a habitar las ruinas",
       "aspectRatio": "wide"
     }
@@ -130,10 +130,11 @@
     "mentiras": "mentiras",
     "miedo": "miedo",
     "rabia": "rabia",
-    "queja": "queja"
+    "queja": "queja",
+    "apegos": "apegos"
   },
   "orrery": {
-    "wish": "te extraño · me rompe · te extraño · por que · te extraño · te extraño · te extraño · te extraño"
+    "wish": "te extraño · me rompe · te extraño · por qué · te extraño · te extraño · te extraño · te extraño"
   },
   "brain": {
     "head": "cabeza",
