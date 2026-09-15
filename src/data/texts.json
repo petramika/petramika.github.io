@@ -42,8 +42,8 @@
       "id": "fragment-3",
       "chapter": "III",
       "subtitle": "El miedo que se traga",
-      "phrase": "No poder ser uno mismo, no poder fallar, equivocarse, tener tu propio mundo. No soy perfecta, soy yo en lo mejor que puedo ser.",
-      "subtext": "Sostener la inestabilidad ajena, el miedo constante y la queja infinita terminó por romperme de tanto sostener. La paz es también una elección. Los límites y los juicios son parte del vínculo; quiero crecer y no omitir. Quiero madurez. Vínculos reales y sanos.",
+      "phrase": "No poder ser uno mismo, no poder fallar, equivocarse, tener tu propio mundo. No soy perfecta, pero soy yo en lo mejor que puedo ser.",
+      "subtext": "Sostener la inestabilidad ajena, el miedo y la queja constante terminó por romperme de tanto sostener. La paz es también una elección. Los límites y los juicios son parte del vínculo; quiero crecer y no omitir. Quiero madurez. Personas que luchen por estar en paz con esta sociedad que se pudre. Vínculos reales y sanos.",
       "imageAlt": "Fotograma 03 — El miedo que se traga",
       "aspectRatio": "wide"
     },
@@ -80,8 +80,8 @@
       "id": "fragment-6",
       "chapter": "VI",
       "subtitle": "El peso de haber dado todo",
-      "phrase": "Sobre empatizar. Esa es mi mochila. Y no puede ir más conmigo. Soltar.",
-      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de mi propia realidad, de si la que estaba mal era yo. Culparme, culparme, culparme de algo que está fuera de mí.",
+      "phrase": "Sobre empatizar. Sobre cuidar. Perderme. Esas son mis mochilas. Y no pueden ir más conmigo. Soltar.",
+      "subtext": "Ponerme en su lugar, justificar sus traumas y asumir sus necesidades hasta dudar de mi propia realidad, de si la que estaba mal era yo. Culparme, culparme, culparme de algo que está fuera de mí.",
       "imageAlt": "Fotograma 06 — El peso de haber dado todo",
       "aspectRatio": "portrait",
       "imageSequence": [
@@ -98,7 +98,7 @@
       "chapter": "VII",
       "subtitle": "Ahora yo quiero",
       "phrase": "Ahora yo quiero. Se acabaron los mínimos.",
-      "subtext": "Quiero que me besen de los pies a la cabeza. Que me confronten y saquen lo que soy. Que me quieran por ello y lo cuiden. Risas, crecer, besos, lágrimas, flores, ayuda, acompañamiento, viajes, conversaciones, pasión, eroticidad, curiosidad... Me merezco más. Hay mucho, mucho más.",
+      "subtext": "Quiero que me besen de los pies a la cabeza. Que me confronten y saquen lo que soy. Que me quieran por ello y lo cuiden. Risas, crecer, besos, lágrimas, flores, ayuda, acompañamiento, viajes, conversaciones, pasión, eroticidad, caricias, crecer, curiosidad... Me merezco más. Hay mucho, mucho más.",
       "imageAlt": "Fotograma 07 — Aprender a habitar las ruinas",
       "aspectRatio": "wide"
     }
@@ -145,9 +145,9 @@
   },
   "labels": {
     "photoEdge": "[ {n} // ROTA ROTA ROTA ]",
-    "sequenceEdge": "[ {n} // ROTA ROTA]",
-    "gridEdge": "[ {n} // ROTA ROTA ROTA ROTA ROTA]",
-    "passageLeft": "[ {n} // ROTA ROTA ROTA ROTA ROTA ROTA]",
+    "sequenceEdge": "[ {n} // ROTA ROTA ]",
+    "gridEdge": "[ {n} // LO INTENTÉ PERO NO HAY MÁS ]",
+    "passageLeft": "[ {n} // MEREZCO MÁS ]",
     "passageRight": "[ {n} // ROTA ]"
   },
   "navigation": {
