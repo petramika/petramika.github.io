@@ -24,8 +24,8 @@
       "id": "fragment-1",
       "chapter": "I",
       "subtitle": "Todo",
-      "phrase": "Di tanto y seguía siendo poco. Pedí perdón por decir mi verdad. Hay agujeros que solo uno puede llenar. Yo no soy la del proceso.",
-      "subtext": "El amor no es suficiente. Las decisiones, lo que hacemos, nuestros pilares, la escucha, el cambio. Es mucho, mucho más.",
+      "phrase": "Di tanto y seguía siendo poco. Pedí perdón por expresar mis pensamientos y realidad. Sentí que mi intuición y mi cuerpo me mentían.",
+      "subtext": "Hay agujeros que solo uno puede llenar. Yo no soy la del proceso. El amor no es suficiente. Las decisiones, lo que hacemos, a lo que nos exponemos, nuestros pilares, la escucha, el cambio. Es mucho, mucho más.",
       "imageAlt": "Fotograma 01 — La demolición lenta",
       "aspectRatio": "landscape"
     },
@@ -42,8 +42,8 @@
       "id": "fragment-3",
       "chapter": "III",
       "subtitle": "El miedo que se traga",
-      "phrase": "Hay bromas que queman por dentro y silencios que pesan como un derrumbe sobre la cabeza.",
-      "subtext": "Sostener la inestabilidad ajena, el miedo constante y la queja infinita terminó por vaciarme del todo. Ya no me quedaba nada que dar.",
+      "phrase": "No poder ser uno mismo, no poder fallar, equivocarse, tener tu propio mundo. No soy perfecta, soy yo en lo mejor que puedo ser.",
+      "subtext": "Sostener la inestabilidad ajena, el miedo constante y la queja infinita terminó por romperme de tanto sostener. La paz es también una elección. Los límites y los juicios son parte del vínculo; quiero crecer y no omitir. Quiero madurez. Vínculos reales y sanos.",
       "imageAlt": "Fotograma 03 — El miedo que se traga",
       "aspectRatio": "wide"
     },
@@ -51,8 +51,8 @@
       "id": "fragment-4",
       "chapter": "IV",
       "subtitle": "Las grietas de la mentira",
-      "phrase": "Ver a dos personas.",
-      "subtext": "Ver cómo con el resto es feliz, ayuda, escucha, respeta, pero luego... cuanto más me acerco, más me hiere.",
+      "phrase": "¿Quién eres? Veo dos caras.",
+      "subtext": "Ver cómo con el resto es feliz, ayuda, escucha, respeta, pero luego... no te reconozco hacia mí. Cuanto más me acerco, más me hiere.",
       "imageAlt": "Fotograma 04 — Secuencia flash",
       "aspectRatio": "square",
       "imageSequence": [
@@ -71,8 +71,8 @@
       "id": "fragment-5",
       "chapter": "V",
       "subtitle": "El desamparo absoluto",
-      "phrase": "Huir. Esconderse. El desapego. El no saber qué querer. El entretenimiento en otros.",
-      "subtext": "Dejar de sentirte persona porque te tratan como a nada. No importas. Entonces para qué somos dos si solo uno tiene paz.",
+      "phrase": "Huir. Esconderse. El desapego. El no saber qué querer. Las faltas de respeto. El entretenimiento en otros.",
+      "subtext": "Dejar de sentirte persona cuando te tratan como medio. No importas. Para qué somos dos si solo uno tiene paz. Cuando incluso sientes miedo, miedo, miedo...",
       "imageAlt": "Fotograma 05 — El desamparo absoluto",
       "aspectRatio": "landscape"
     },
@@ -80,8 +80,8 @@
       "id": "fragment-6",
       "chapter": "VI",
       "subtitle": "El peso de haber dado todo",
-      "phrase": "Sobre empatizar. Ese ha sido siempre mi mochila. Y no puede ir más conmigo.",
-      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de si la que estaba mal era yo. Culparme, culparme, culparme de algo que es insaciable.",
+      "phrase": "Sobre empatizar. Esa es mi mochila. Y no puede ir más conmigo. Soltar.",
+      "subtext": "Ponerme en tu lugar, justificar tu mochila y asumir la culpa de tus necesidades hasta dudar de mi propia realidad, de si la que estaba mal era yo. Culparme, culparme, culparme de algo que está fuera de mí.",
       "imageAlt": "Fotograma 06 — El peso de haber dado todo",
       "aspectRatio": "portrait",
       "imageSequence": [
@@ -134,7 +134,7 @@
     "apegos": "apegos"
   },
   "orrery": {
-    "wish": "te extraño · me rompe · te extraño · por qué · te extraño · te extraño · te extraño · te extraño"
+    "wish": "te extraño · me rompe · te extraño · por qué · te extraño · te extraño · te extraño · estoy curando"
   },
   "brain": {
     "head": "cabeza",
