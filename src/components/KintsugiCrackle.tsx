@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
+import { canvasDpr } from '../data/device';
 
 /**
  * Crackled glaze with a gold seam running through it. The crackle is drawn
@@ -222,9 +223,9 @@ export function KintsugiCrackle() {
     };
 
     const resize = () => {
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
       width = host.clientWidth || 1200;
       height = host.clientHeight || 600;
+      dpr = canvasDpr(width);
       canvas.width = Math.round(width * dpr);
       canvas.height = Math.round(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);

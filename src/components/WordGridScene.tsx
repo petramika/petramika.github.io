@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useScroll } from 'motion/react';
 import { label, pad, texts } from '../data/labels';
 import { useOnScreen } from '../hooks/useOnScreen';
+import { canvasDpr } from '../data/device';
 
 interface WordGridSceneProps {
   chapter: string;
@@ -392,7 +393,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
     const resize = () => {
       width = host.clientWidth || 1200;
       height = host.clientHeight || 800;
-      dpr = Math.min(window.devicePixelRatio || 1, width < 768 ? 1.5 : 2);
+      dpr = canvasDpr(width);
       canvas.width = Math.round(width * dpr);
       canvas.height = Math.round(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
+import { canvasDpr } from '../data/device';
 
 const SAMPLES = 10;
 const COARSE_QUERY = '(pointer: coarse)';
@@ -119,9 +120,9 @@ export function CrochetTear() {
     const knotAt = (i: number, j: number) => knots[j * cols + i];
 
     const resize = () => {
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
       width = host.clientWidth || 1200;
       height = host.clientHeight || 800;
+      const dpr = canvasDpr(width);
       sx = width < 768 ? 54 : 74;
       sy = sx * 0.64;
       canvas.width = Math.round(width * dpr);
