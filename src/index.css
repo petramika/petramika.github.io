@@ -328,21 +328,6 @@ html.negative-mode .photo-treatment {
 }
 
 
-/* -------------------------------------------------------------
-   The drawn line that runs underneath the passage of chapter IV.
-   It is softened so the type sitting on top of it stays readable,
-   and its ink is the same near-black as the text, so the global
-   negative-mode invert flips it to white on black along with the
-   rest of the page — never a stroke that disappears into its own
-   background.
-   ------------------------------------------------------------- */
-.wave-line {
-  /* Softened and held well back: the passage is the thing being read, the
-     line is the thing moving behind it. Full-strength ink at this size
-     fought the type instead of sitting under it. */
-  opacity: 0.34;
-  filter: blur(3.2px);
-}
 
 /*
   Paper-coloured halo around the glyphs, for any passage with something
@@ -359,11 +344,6 @@ html.negative-mode .photo-treatment {
     0 0 48px rgba(251, 251, 251, 0.7);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .wave-line {
-    filter: blur(2.4px);
-  }
-}
 
 /* -------------------------------------------------------------
    ORRERY RIDERS
