@@ -291,7 +291,7 @@ export function ScribbleTangle() {
         }
         pace += (paceTo - pace) * 0.05;
         const tiring = 1.5 - (drawn / budget) * 1.1;
-        carry += (width < 768 ? 12 : 22) * pace * tiring;
+        carry += (width < 768 ? 5 : 9) * pace * tiring;
         for (; carry >= 1; carry -= 1) step();
       } else if (!settled) {
         // Out of pencil: the last of the gold dries where it lies
