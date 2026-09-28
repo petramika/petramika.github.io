@@ -1,15 +1,13 @@
 import { useRef, useState } from 'react';
 import { label, pad, texts } from '../data/labels';
 import { useMotionValueEvent, useScroll } from 'motion/react';
-import { WHEEL, throughTheNegative } from '../data/wheel';
+import { WHEEL } from '../data/wheel';
 
 interface WordGridSceneProps {
   chapter: string;
   index: number;
 }
 
-/** How many times the border pattern re-rolls across one pass of the scene */
-const STEPS = 5;
 
 interface WordSpec {
   /** Key into texts.wordGrid: the layout points at the copy, never holds it */
@@ -198,79 +196,46 @@ function hash(seed: number) {
   return x - Math.floor(x);
 }
 
-type Edge = 'top' | 'right' | 'bottom' | 'left';
-const EDGES: Edge[] = ['top', 'right', 'bottom', 'left'];
+/** Papers the wall has been hung with over the years */
+const PAPERS = ['stripes', 'dots', 'diamonds', 'flowers', 'checks', 'kraft'] as const;
+
+/** A word's colour: the dust's wheel, darkened so it reads as ink on paper */
+function ink(cellIndex: number, wordIndex: number): string {
+  const rgb = WHEEL[Math.floor(hash(cellIndex * 41 + wordIndex * 23) * WHEEL.length)];
+  const [r, g, b] = rgb.split(',').map((v) => Math.round(Number(v) * 0.72));
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+/** Where each paper lets go from, and which way it curls */
+const CORNERS = [
+  { origin: '0% 0%', axis: '1, -1, 0' },
+  { origin: '100% 0%', axis: '1, 1, 0' },
+  { origin: '0% 100%', axis: '-1, -1, 0' },
+  { origin: '100% 100%', axis: '-1, 1, 0' },
+];
 
 /**
- * Geometry for one side. Every side is always rendered — an earlier version
- * mounted and unmounted them, which meant the CSS transition never had two
- * states to move between and the lines snapped in and out.
- */
-function edgeState(cellIndex: number, edgeIndex: number, step: number) {
-  const seed = cellIndex * 31 + step * 7 + edgeIndex * 13;
-  const visible = hash(seed) >= 0.42;
-
-  // Mostly full sides, sometimes a short bracket
-  const partial = hash(seed + 101) < 0.45;
-  const length = partial ? 0.26 + hash(seed + 202) * 0.3 : 1;
-  const offset = partial ? hash(seed + 303) * (1 - length) : 0;
-
-  return { visible, length, offset };
-}
-
-/** The dust's own wheel, so the grid is lit by the same colours as the specks */
-const MOSAIC = WHEEL.map((rgb) => `rgb(${rgb})`);
-
-/** A word's colour, written for both sides of the page's negative */
-function tint(cellIndex: number, wordIndex: number, step: number): React.CSSProperties {
-  const rgb = WHEEL[Math.floor(hash(cellIndex * 41 + wordIndex * 23 + step * 3) * WHEEL.length)];
-  return { '--tint': rgb, '--tint-neg': throughTheNegative(rgb, true) } as React.CSSProperties;
-}
-
-/** The pieces one side is laid in: how many, how wide each, and what colour */
-function tiles(cellIndex: number, edgeIndex: number, step: number) {
-  const base = cellIndex * 97 + edgeIndex * 37;
-  // The count stays put, so pieces can resize and recolour instead of popping
-  const count = 2 + Math.floor(hash(base + 5) * 4);
-  return Array.from({ length: count }, (_, k) => ({
-    grow: 0.4 + hash(base + k * 11 + step * 3) * 2.2,
-    colour: MOSAIC[Math.floor(hash(base + k * 19 + step * 2) * MOSAIC.length)],
-  }));
-}
-
-function edgeStyle(edge: Edge, length: number, offset: number): React.CSSProperties {
-  const pct = (v: number) => `${(v * 100).toFixed(2)}%`;
-  const thickness = 3;
-
-  if (edge === 'top' || edge === 'bottom') {
-    return { [edge]: 0, left: pct(offset), width: pct(length), height: thickness };
-  }
-  return { [edge]: 0, top: pct(offset), height: pct(length), width: thickness };
-}
-
-/**
- * Chapter II's text slot: a disordered grid of the words the chapter is
- * made of, standing in for the written passage.
- *
- * Everything is drawn in the page's ink colour, so the negative-mode filter
- * flips the whole thing on its own — black on white becomes white on black
- * without a single conditional.
+ * Chapter II's text slot: an old wall hung with paper over paper. The newest
+ * layer comes away as the page is read, curling off its corner and falling,
+ * and the words are what was on the wall underneath. Scrolling back up
+ * pastes it back.
  */
 export function WordGridScene({ chapter, index }: WordGridSceneProps) {
   const sceneRef = useRef<HTMLElement>(null);
-  const [step, setStep] = useState(0);
+  const [progress, setProgress] = useState(0);
 
   const { scrollYProgress } = useScroll({
     target: sceneRef,
     offset: ['start end', 'end start'],
   });
 
-  // Discrete steps, so the pattern re-rolls a handful of times per pass
-  // instead of thrashing on every scroll event
   useMotionValueEvent(scrollYProgress, 'change', (p) => {
-    const next = Math.min(STEPS - 1, Math.max(0, Math.floor(p * STEPS)));
-    setStep((current) => (current === next ? current : next));
+    const rounded = Math.round(p * 100) / 100;
+    setProgress((current) => (current === rounded ? current : rounded));
   });
+
+  // Each paper has its own moment, in a scattered order across the wall
+  const order = CELLS.map((_, i) => i).sort((a, b) => hash(a * 7 + 3) - hash(b * 7 + 3));
 
   return (
     <section
@@ -280,80 +245,66 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
       aria-label={`Capítulo ${chapter}: miedo, mentiras, trauma, dolor, rabia, queja`}
     >
       <div className="w-full h-full min-h-0 max-w-6xl">
-        <div className="word-grid">
+        <div className="paper-wall word-grid">
           {CELLS.map((cell, i) => {
-            // Each cell settles at its own intensity, and lifts on hover
-            const emphasis = 0.42 + hash(i * 17 + step * 5) * 0.58;
+            const rank = order.indexOf(i);
+            const peeled = progress > 0.3 + rank * 0.03;
+            const under = PAPERS[(i * 5 + 1) % PAPERS.length];
+            const over = PAPERS[(i * 5 + 4) % PAPERS.length];
+            const corner = CORNERS[Math.floor(hash(i * 13 + 1) * CORNERS.length)];
 
             return (
               <div
                 key={cell.id}
-                className="word-grid-cell relative overflow-hidden p-2 sm:p-3"
+                className="word-grid-cell paper-cell relative"
                 style={
                   {
                     '--cell-col': `${cell.col[0]} / span ${cell.col[1]}`,
                     '--cell-row': `${cell.row[0]} / span ${cell.row[1]}`,
                     '--cell-col-mobile': `${cell.mCol[0]} / span ${cell.mCol[1]}`,
                     '--cell-row-mobile': `${cell.mRow[0]} / span ${cell.mRow[1]}`,
-                    '--cell-emphasis': emphasis.toFixed(3),
+                    '--peel-origin': corner.origin,
+                    '--peel-axis': corner.axis,
+                    '--peel-tilt': `${((hash(i * 29) - 0.5) * 40).toFixed(1)}deg`,
+                    '--peel-drift': `${((hash(i * 31) - 0.5) * 60).toFixed(0)}%`,
                   } as React.CSSProperties
                 }
               >
-                {EDGES.map((edge, e) => {
-                  const { visible, length, offset } = edgeState(i, e, step);
-                  const horizontal = edge === 'top' || edge === 'bottom';
+                <div className={`paper paper-${under} absolute inset-0 overflow-hidden p-2 sm:p-3`}>
+                  <div
+                    className={`relative h-full flex ${
+                      cell.words[0]?.vertical ? 'flex-row gap-1' : 'flex-col'
+                    } ${
+                      cell.align === 'start'
+                        ? 'items-start justify-start'
+                        : cell.align === 'end'
+                          ? 'items-end justify-end'
+                          : 'items-center justify-center'
+                    }`}
+                  >
+                    {cell.words.map((word, w) => (
+                      <span
+                        key={`${word.word}-${w}`}
+                        className={`paper-word font-editorial-display font-black leading-[0.94] whitespace-nowrap ${
+                          word.late ? 'opacity-70' : ''
+                        } ${word.vertical ? 'writing-vertical-270' : ''}`}
+                        style={{
+                          color: ink(i, w),
+                          fontSize: `max(9px, ${word.size}cqw)`,
+                          transform: word.rotate ? `rotate(${word.rotate}deg)` : undefined,
+                        }}
+                      >
+                        {setWord(word)}
+                      </span>
+                    ))}
+                  </div>
+                </div>
 
-                  return (
-                    <span
-                      key={edge}
-                      aria-hidden="true"
-                      data-visible={visible}
-                      className={`word-grid-edge ${
-                        horizontal ? 'word-grid-edge-h' : 'word-grid-edge-v'
-                      }`}
-                      style={{
-                        ...edgeStyle(edge, length, offset),
-                        // Staggered so a re-roll ripples rather than snaps
-                        transitionDelay: `${((i * 53 + e * 121) % 9) * 90}ms`,
-                      }}
-                    >
-                      {tiles(i, e, step).map((tile, k) => (
-                        <span
-                          key={k}
-                          className="word-grid-tile"
-                          style={{ flexGrow: tile.grow, backgroundColor: tile.colour }}
-                        />
-                      ))}
-                    </span>
-                  );
-                })}
-
-                <div
-                  className={`relative h-full flex ${
-                    cell.words[0]?.vertical ? 'flex-row gap-1' : 'flex-col'
-                  } ${
-                    cell.align === 'start'
-                      ? 'items-start justify-start'
-                      : cell.align === 'end'
-                        ? 'items-end justify-end'
-                        : 'items-center justify-center'
-                  }`}
-                >
-                  {cell.words.map((word, w) => (
-                    <span
-                      key={`${word.word}-${w}`}
-                      className={`word-grid-word font-editorial-display font-black leading-[0.94] whitespace-nowrap ${
-                        word.late ? 'word-grid-late' : ''
-                      } ${word.vertical ? 'writing-vertical-270' : ''}`}
-                      style={{
-                        ...tint(i, w, step),
-                        fontSize: `max(9px, ${word.size}cqw)`,
-                        transform: word.rotate ? `rotate(${word.rotate}deg)` : undefined,
-                      }}
-                    >
-                      {setWord(word)}
-                    </span>
-                  ))}
+                <div className="paper-flap" data-peeled={peeled} aria-hidden="true">
+                  <div className="paper-sheet">
+                    <div className={`paper paper-face paper-${over}`} />
+                    <div className="paper-back" />
+                  </div>
                 </div>
               </div>
             );
