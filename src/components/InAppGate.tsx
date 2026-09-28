@@ -44,7 +44,7 @@ export function InAppGate({ onStay }: { onStay: () => void }) {
       <p className="leading-relaxed">
         {tried || !target
           ? 'Si no se abre: toca ··· arriba y elige abrir en el navegador'
-          : 'Esta web se ve mejor en tu navegador'}
+          : 'Para una mejor experiencia usa el navegador'}
       </p>
       {target && (
         <a
