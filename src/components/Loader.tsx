@@ -70,6 +70,18 @@ const TEAR: [number, number][] = [
 
 const point = ([x, y]: [number, number]) => `${x}% ${y}%`;
 
+const GOLD = '#d2a347';
+const TEAR_POINTS = TEAR.map(([x, y]) => `${x},${y}`).join(' ');
+
+/** The gilded edge each half carries away with it */
+function GoldEdge() {
+  return (
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="absolute inset-0 h-full w-full" aria-hidden="true">
+      <polyline points={TEAR_POINTS} fill="none" stroke={GOLD} strokeWidth="3" vectorEffect="non-scaling-stroke" />
+    </svg>
+  );
+}
+
 /* Top half: across the top edge, then right-to-left back along the tear */
 const TOP_CLIP = `polygon(0% 0%, 100% 0%, ${[...TEAR].reverse().map(point).join(', ')})`;
 /* Bottom half: left-to-right along the tear, then around the bottom edge */
@@ -101,9 +113,10 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
     let holdId: number;
     const startedAt = Date.now();
 
-    const waitForImages = Promise.all(
-      [paperBall1, paperBall2, paperBall3, ...sources].map(preload),
-    );
+    const waitForImages = Promise.all([
+      ...[paperBall1, paperBall2, paperBall3, ...sources].map(preload),
+      document.fonts?.ready,
+    ]);
     const timeout = new Promise<void>((resolve) => {
       window.setTimeout(resolve, MAX_WAIT_MS);
     });
@@ -150,7 +163,9 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
         initial={{ y: '0%' }}
         animate={isOpening ? { y: ['0%', '-2.5%', '-100%'] } : { y: '0%' }}
         transition={veilTransition}
-      />
+      >
+        <GoldEdge />
+      </motion.div>
 
       {/* Lower half, parting the other way */}
       <motion.div
@@ -162,7 +177,9 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
         onAnimationComplete={() => {
           if (isOpening) onFinished();
         }}
-      />
+      >
+        <GoldEdge />
+      </motion.div>
 
       {/*
         The crack itself, while the curtains are still shut: a hairline of
@@ -174,14 +191,14 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
         preserveAspectRatio="none"
         className="absolute inset-0 w-full h-full"
         aria-hidden="true"
-        animate={{ opacity: isOpening ? 0 : 0.55 }}
+        animate={{ opacity: isOpening ? 0 : 0.9 }}
         transition={{ duration: isOpening ? 0.8 : 1.2, ease: 'easeOut' }}
       >
         <polyline
-          points={TEAR.map(([x, y]) => `${x},${y}`).join(' ')}
+          points={TEAR_POINTS}
           fill="none"
-          stroke="#9a9aa4"
-          strokeWidth="1.8"
+          stroke={GOLD}
+          strokeWidth="2.2"
           vectorEffect="non-scaling-stroke"
         />
       </motion.svg>

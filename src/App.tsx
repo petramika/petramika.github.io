@@ -46,7 +46,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fbfbfb] text-[#141518] relative selection:bg-[#18181b] selection:text-[#fbfbfb] font-sans-clean bg-grain">
+    <div className="min-h-screen bg-[#fbfbfb] text-[#141518] relative selection:bg-[#141518]/15 font-sans-clean bg-grain">
       {/* Torn curtain that holds until the first heavy photograph is in */}
       {isLoading && (
         <Loader

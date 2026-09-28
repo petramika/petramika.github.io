@@ -3,8 +3,7 @@ import { useOnScreen } from '../hooks/useOnScreen';
 import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
-const BRISTLES = 16;
-const SAMPLES = 28;
+const DABS = 48;
 const DRAW_S = 0.25;
 const HOLD_S = 0.6;
 const FADE_S = 2.8;
@@ -14,11 +13,11 @@ const SETTLED = 0.34;
 /* The canvas is re-inverted in negative mode, so each mode names what it shows */
 const PALETTES = {
   light: {
-    paint: ['#d9412b', '#e9a23b', '#2f62c9', '#23906f', '#a8479f', '#1d1d22'],
+    paint: ['#d9412b', '#e9a23b', '#2f62c9', '#23906f', '#a8479f', '#1f7fa8'],
     ink: '#141518',
   },
   dark: {
-    paint: ['#ff5a3c', '#ffb640', '#4f86ff', '#2fc08f', '#d45cc9', '#e9e6df'],
+    paint: ['#ff5a3c', '#ffb640', '#4f86ff', '#2fc08f', '#d45cc9', '#3fb6e8'],
     ink: '#f3f1ec',
   },
 };
@@ -50,7 +49,7 @@ function rng(seed: number) {
   };
 }
 
-/** One dry-brush stroke: bristles fanned across the spine, drawn as far as `reach` */
+/** One watercolour stroke: soft washes pooled along the spine, painted as far as `reach` */
 function paintStroke(
   ctx: CanvasRenderingContext2D,
   s: Stroke,
@@ -67,46 +66,68 @@ function paintStroke(
     ];
   };
 
-  ctx.lineCap = 'round';
-  ctx.strokeStyle = s.colour;
-  for (let b = 0; b < BRISTLES; b += 1) {
-    const across = (b / (BRISTLES - 1) - 0.5) * s.width;
-    const load = 0.35 + rand() * 0.65;
-    // Dry bristles run out early, which is what leaves the streaks
-    const runOut = 0.55 + rand() * 0.45;
-    ctx.globalAlpha = alpha * load;
-    ctx.lineWidth = (s.width / BRISTLES) * (1.4 + rand() * 1.6);
-    ctx.beginPath();
-    const end = Math.min(reach, runOut);
-    for (let i = 0; i <= SAMPLES; i += 1) {
-      const t = (i / SAMPLES) * end;
-      const [x, y] = at(t);
-      const [nx2, ny2] = at(Math.min(1, t + 0.01));
-      const dx = nx2 - x;
-      const dy = ny2 - y;
-      const len = Math.hypot(dx, dy) || 1;
-      // Pressure: the brush lands hard, lifts at the tail
-      const press = Math.sin(Math.PI * Math.min(1, t * 1.2 + 0.08)) * 0.5 + 0.5;
-      const off = across * press;
-      const px = x + (-dy / len) * off;
-      const py = y + (dx / len) * off;
-      if (i === 0) ctx.moveTo(px, py);
-      else ctx.lineTo(px, py);
-    }
-    ctx.stroke();
+  const dabs: [number, number, number, number][] = [];
+  for (let d = 0; d < DABS; d += 1) {
+    const t = d / (DABS - 1);
+    const [x, y] = at(t);
+    // The brush lands loaded and runs dry towards the tail
+    const load = 1 - t * 0.55;
+    const r = s.width * 0.55 * load * (0.8 + rand() * 0.45);
+    const off = (rand() - 0.5) * s.width * 0.35;
+    const [nx, ny] = [-Math.sin(s.angle), Math.cos(s.angle)];
+    dabs.push([x + nx * off, y + ny * off, r, t]);
   }
 
-  // Flecks thrown off the end of a stroke made in a hurry
-  if (reach > 0.8) {
-    ctx.fillStyle = s.colour;
-    const [ex, ey] = at(Math.min(reach, 1));
-    for (let f = 0; f < 9; f += 1) {
-      ctx.globalAlpha = alpha * (0.4 + rand() * 0.5);
-      const r = 1 + rand() * s.width * 0.06;
-      const d = s.width * (0.3 + rand() * 1.1);
-      const a = s.angle + (rand() - 0.5) * 1.6;
+  // A soft irregular blob, curved through the midpoints so no corner shows
+  const shape = (x: number, y: number, r: number) => {
+    const pts: [number, number][] = [];
+    for (let k = 0; k < 10; k += 1) {
+      const a = (k / 10) * Math.PI * 2;
+      const rr = r * (0.8 + rand() * 0.3);
+      pts.push([x + Math.cos(a) * rr, y + Math.sin(a) * rr]);
+    }
+    ctx.beginPath();
+    const mid = (a: [number, number], b: [number, number]) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    const start = mid(pts[9], pts[0]);
+    ctx.moveTo(start[0], start[1]);
+    for (let k = 0; k < 10; k += 1) {
+      const m = mid(pts[k], pts[(k + 1) % 10]);
+      ctx.quadraticCurveTo(pts[k][0], pts[k][1], m[0], m[1]);
+    }
+    ctx.closePath();
+  };
+
+  ctx.fillStyle = s.colour;
+  ctx.strokeStyle = s.colour;
+  ctx.lineJoin = 'round';
+  dabs.forEach(([x, y, r, t], d) => {
+    if (t > reach) return;
+    shape(x, y, r);
+    ctx.globalAlpha = alpha * 0.1;
+    ctx.fill();
+    // Pigment gathers where the wash dried first, at its head and tail
+    if (d === 0 || d === DABS - 1) {
+      ctx.globalAlpha = alpha * 0.25;
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+  });
+
+  // Pale blooms where the water ran further than the paint
+  if (reach >= 1) {
+    for (let b = 0; b < 3; b += 1) {
+      const [x, y, r] = dabs[Math.floor(rand() * dabs.length)];
+      shape(x + (rand() - 0.5) * r, y + (rand() - 0.5) * r, r * (1.1 + rand() * 0.6));
+      ctx.globalAlpha = alpha * 0.05;
+      ctx.fill();
+    }
+    for (let f = 0; f < 6; f += 1) {
+      const [x, y, r] = dabs[dabs.length - 1];
+      const a = s.angle + (rand() - 0.5) * 1.8;
+      const d = r * (1 + rand() * 1.6);
+      ctx.globalAlpha = alpha * (0.15 + rand() * 0.25);
       ctx.beginPath();
-      ctx.arc(ex + Math.cos(a) * d, ey + Math.sin(a) * d, r, 0, Math.PI * 2);
+      ctx.arc(x + Math.cos(a) * d, y + Math.sin(a) * d, 1 + rand() * s.width * 0.05, 0, Math.PI * 2);
       ctx.fill();
     }
   }
@@ -114,7 +135,7 @@ function paintStroke(
   if (reach > 0.35) {
     const [wx, wy] = at(0.5);
     ctx.save();
-    ctx.globalAlpha = alpha * Math.min(1, (reach - 0.35) * 3);
+    ctx.globalAlpha = alpha * 0.85 * Math.min(1, (reach - 0.35) * 3);
     ctx.translate(wx, wy);
     ctx.rotate(Math.max(-0.5, Math.min(0.5, s.angle)));
     ctx.font = `600 ${s.wordSize}px Caveat, 'Segoe Script', cursive`;

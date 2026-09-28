@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react';
 import { MotionValue } from 'motion/react';
+import { useOnScreen } from '../hooks/useOnScreen';
 
 /**
  * Paper giving way as you scroll. Down the middle of the opening spread the
@@ -106,6 +107,7 @@ export function PaperTear({
   const fibresRef = useRef<SVGGElement>(null);
 
   const edge = useMemo(tornEdge, []);
+  const onScreen = useOnScreen(hostRef);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -119,7 +121,9 @@ export function PaperTear({
 
     let width = host.clientWidth || 900;
     let height = host.clientHeight || 700;
+    let hidden = host.clientWidth === 0;
     const observer = new ResizeObserver(() => {
+      hidden = host.clientWidth === 0;
       width = host.clientWidth || width;
       height = host.clientHeight || height;
     });
@@ -130,12 +134,18 @@ export function PaperTear({
     let raf = 0;
     const start = performance.now();
 
+    let lastFront = -1;
     const frame = (now: number) => {
+      raf = requestAnimationFrame(frame);
+      // Off screen, hidden at this breakpoint, or still shut: nothing to redraw
+      if (!onScreen.current || hidden) return;
       const t = reduced ? 0 : (now - start) / 1000;
 
       // How far along the seam it has given way
       const p = progress.get();
       const front = Math.max(0, Math.min(1, (p - FROM) / (TO - FROM)));
+      if (front === 0 && lastFront === 0) return;
+      lastFront = front;
 
       const seam = placement === 'seam';
       const vertical = orientation === 'vertical';
@@ -226,8 +236,6 @@ export function PaperTear({
           `M${pt(along, mid - gap / 2)} Q${pt(along + sag, mid)} ${pt(along, mid + gap / 2)}`,
         );
       });
-
-      raf = requestAnimationFrame(frame);
     };
 
     raf = requestAnimationFrame(frame);
@@ -236,7 +244,7 @@ export function PaperTear({
       cancelAnimationFrame(raf);
       observer.disconnect();
     };
-  }, [edge, progress, placement, orientation, reachProp, seamAt]);
+  }, [edge, progress, placement, orientation, reachProp, seamAt, onScreen]);
 
   return (
     <div
