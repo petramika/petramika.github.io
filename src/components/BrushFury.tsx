@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
+import { canvasDpr } from '../data/device';
 import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
@@ -337,7 +338,7 @@ export function BrushFury() {
     const resize = () => {
       width = host.clientWidth || 1200;
       height = host.clientHeight || 800;
-      dpr = Math.min(window.devicePixelRatio || 1, width < 768 ? 1.5 : 2);
+      dpr = canvasDpr(width);
       for (const c of [canvas, ground]) {
         c.width = Math.round(width * dpr);
         c.height = Math.round(height * dpr);

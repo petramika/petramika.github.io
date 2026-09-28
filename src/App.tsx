@@ -9,6 +9,8 @@ import { StorySlide } from './components/StorySlide';
 import { Epilogue } from './components/Epilogue';
 import { ScrollProgress } from './components/ScrollProgress';
 import { DustParticles } from './components/DustParticles';
+import { InAppHint } from './components/InAppHint';
+import { IN_APP } from './data/device';
 
 export default function App() {
   const [items] = useState<EssayItem[]>(INITIAL_ESSAY_ITEMS);
@@ -56,7 +58,8 @@ export default function App() {
       )}
 
       {/* Floating atmospheric dust particles with cursor repulsion */}
-      <DustParticles negativeMode={negativeMode} />
+      {!IN_APP && <DustParticles negativeMode={negativeMode} />}
+      {IN_APP && !isLoading && <InAppHint />}
 
       {/* Scroll indicator bar */}
       <ScrollProgress />

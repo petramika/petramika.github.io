@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
+import { canvasDpr } from '../data/device';
 
 /* The canvas is re-inverted in negative mode, so each mode names what it shows */
 const PALETTES = {
@@ -254,7 +255,7 @@ export function ScribbleTangle() {
     const resize = () => {
       width = host.clientWidth || 1200;
       height = host.clientHeight || 800;
-      dpr = Math.min(window.devicePixelRatio || 1, width < 768 ? 1.5 : 2);
+      dpr = canvasDpr(width);
       for (const c of [canvas, paper]) {
         c.width = Math.round(width * dpr);
         c.height = Math.round(height * dpr);
