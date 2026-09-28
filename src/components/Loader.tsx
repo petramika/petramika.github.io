@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { motion, type Transition } from 'motion/react';
 import paperBall1 from '../assets/images/user_paper_ball_1.png';
 import paperBall2 from '../assets/images/user_paper_ball_2.png';
@@ -8,6 +8,8 @@ interface LoaderProps {
   /** Extra images to wait for, on top of the loader's own paper */
   sources?: string[];
   onFinished: () => void;
+  /** Keeps the curtain shut once ready, showing this until it lets the reader through */
+  gate?: (release: () => void) => ReactNode;
 }
 
 /** Long enough that the tear is a reveal and not a flicker */
@@ -85,8 +87,9 @@ function preload(src: string) {
   });
 }
 
-export function Loader({ sources = [], onFinished }: LoaderProps) {
+export function Loader({ sources = [], onFinished, gate }: LoaderProps) {
   const [isOpening, setIsOpening] = useState(false);
+  const [isReady, setIsReady] = useState(false);
 
   // Hold the page still while the veil is up
   useEffect(() => {
@@ -113,7 +116,9 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
       // Let the paper finish at least one slow pass before tearing open
       const remaining = Math.max(0, MIN_VISIBLE_MS - (Date.now() - startedAt));
       holdId = window.setTimeout(() => {
-        if (!cancelled) setIsOpening(true);
+        if (cancelled) return;
+        if (gate) setIsReady(true);
+        else setIsOpening(true);
       }, remaining);
     });
 
@@ -206,6 +211,17 @@ export function Loader({ sources = [], onFinished }: LoaderProps) {
           transition={{ duration: 11, ease: 'linear', repeat: Infinity }}
         />
       </motion.div>
+
+      {gate && isReady && (
+        <motion.div
+          className="pointer-events-auto absolute inset-x-0 top-1/2 mt-[92px] sm:mt-[112px] flex justify-center px-6"
+          initial={{ opacity: 0, y: 8 }}
+          animate={isOpening ? { opacity: 0 } : { opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+          {gate(() => setIsOpening(true))}
+        </motion.div>
+      )}
     </div>
   );
 }

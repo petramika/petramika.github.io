@@ -9,7 +9,7 @@ import { StorySlide } from './components/StorySlide';
 import { Epilogue } from './components/Epilogue';
 import { ScrollProgress } from './components/ScrollProgress';
 import { DustParticles } from './components/DustParticles';
-import { InAppHint } from './components/InAppHint';
+import { InAppGate, choseToStay } from './components/InAppGate';
 import { IN_APP } from './data/device';
 
 export default function App() {
@@ -54,12 +54,12 @@ export default function App() {
         <Loader
           sources={items[0] ? [items[0].imageSrc] : []}
           onFinished={() => setIsLoading(false)}
+          gate={IN_APP && !choseToStay() ? (release) => <InAppGate onStay={release} /> : undefined}
         />
       )}
 
       {/* Floating atmospheric dust particles with cursor repulsion */}
       {!IN_APP && <DustParticles negativeMode={negativeMode} />}
-      {IN_APP && !isLoading && <InAppHint />}
 
       {/* Scroll indicator bar */}
       <ScrollProgress />
