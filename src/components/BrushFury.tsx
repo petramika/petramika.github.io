@@ -142,19 +142,63 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
     fillShape(ctx, layer);
   }
 
-  // Pigment dries darker at the edge of the pool
-  ctx.strokeStyle = s.colour;
-  ctx.lineJoin = 'round';
-  for (let r = 0; r < 2; r += 1) {
-    const rim = deform(base, 1, 0.06, rand);
-    ctx.globalAlpha = 0.09;
-    ctx.lineWidth = 1.2 + r;
+  const trace = (pts: Point[]) => {
     ctx.beginPath();
-    ctx.moveTo(rim[0][0], rim[0][1]);
-    for (let i = 1; i < rim.length; i += 1) ctx.lineTo(rim[i][0], rim[i][1]);
+    ctx.moveTo(pts[0][0], pts[0][1]);
+    for (let i = 1; i < pts.length; i += 1) ctx.lineTo(pts[i][0], pts[i][1]);
     ctx.closePath();
+  };
+
+  // The brush runs out of water as it goes: pale and wet where it landed,
+  // even and fuller where it was drier
+  const c = Math.cos(s.angle);
+  const sn = Math.sin(s.angle);
+  const [r, g, b] = [1, 3, 5].map((o) => parseInt(s.colour.slice(o, o + 2), 16));
+  const body = ctx.createLinearGradient(s.cx - c * s.rx, s.cy - sn * s.rx, s.cx + c * s.rx, s.cy + sn * s.rx);
+  body.addColorStop(0, `rgba(${r}, ${g}, ${b}, 0.04)`);
+  body.addColorStop(0.55, `rgba(${r}, ${g}, ${b}, 0.16)`);
+  body.addColorStop(1, `rgba(${r}, ${g}, ${b}, 0.34)`);
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = body;
+  trace(deform(base, 1, 0.05, rand));
+  ctx.fill();
+
+  ctx.save();
+  trace(base);
+  ctx.clip();
+
+  // Back-runs on the wet side: water pushed the pigment out into a pale
+  // patch and left it piled at the patch's own edge
+  for (let k = 0; k < 3; k += 1) {
+    const t = -0.2 - rand() * 0.5;
+    const x = s.cx + c * s.rx * t + (rand() - 0.5) * s.ry * 0.6 * -sn;
+    const y = s.cy + sn * s.rx * t + (rand() - 0.5) * s.ry * 0.6 * c;
+    const patch = deform(poolOutline(x, y, s.ry * (0.25 + rand() * 0.25), s.ry * (0.2 + rand() * 0.2), rand() * Math.PI, rand), 3, 0.22, rand);
+    ctx.save();
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.globalAlpha = 0.35;
+    trace(patch);
+    ctx.fill();
+    ctx.restore();
+    ctx.strokeStyle = s.colour;
+    ctx.globalAlpha = 0.16;
+    ctx.lineWidth = 1.4;
+    trace(patch);
     ctx.stroke();
   }
+
+  // Pigment carried out to the rim as the pool dries: dark at the edge,
+  // bleeding back inwards. Clipped, so it only ever darkens the inside
+  ctx.strokeStyle = s.colour;
+  ctx.lineJoin = 'round';
+  const rings: [number, number][] = [[18, 0.03], [11, 0.05], [6, 0.08], [3, 0.14], [1.4, 0.26]];
+  for (const [w, a] of rings) {
+    ctx.globalAlpha = a;
+    ctx.lineWidth = w;
+    trace(base);
+    ctx.stroke();
+  }
+  ctx.restore();
 
   // Salt: little starbursts where the crystals drank the pigment back out
   ctx.save();
@@ -162,7 +206,7 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
   ctx.strokeStyle = '#000';
   ctx.fillStyle = '#000';
   ctx.lineCap = 'round';
-  const salt = Math.round(((s.rx * s.ry) / 450) * (0.6 + rand() * 0.6));
+  const salt = Math.round(((s.rx * s.ry) / 1400) * (0.6 + rand() * 0.6));
   for (let k = 0; k < salt; k += 1) {
     const x = s.cx + (rand() * 2 - 1) * s.rx;
     const y = s.cy + (rand() * 2 - 1) * s.rx;
