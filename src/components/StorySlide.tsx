@@ -8,7 +8,7 @@ import { WaveLine } from './WaveLine';
 import { Orrery } from './Orrery';
 import { BrainField } from './BrainField';
 import { WordRain } from './WordRain';
-import { AlbaTopography } from './AlbaTopography';
+import { KintsugiCrackle } from './KintsugiCrackle';
 import { StackPanel } from './StackPanel';
 import { label, pad, YEAR, texts } from '../data/labels';
 
@@ -99,9 +99,7 @@ export function StorySlide({
   const hasBrain = item.underlay === 'brain';
   // Words fall through the passage and break on the floor of the panel
   const hasRain = item.underlay === 'rain';
-  // A drawn dawn fills the panel below the passage, so the type moves up out
-  // of it instead of sitting in the middle of the range
-  const hasAlba = item.underlay === 'alba';
+  const hasKintsugi = item.underlay === 'kintsugi';
   // The chapter closes on a drawn scene rather than on white space
   const hasCoda = item.coda === 'orrery';
 
@@ -138,10 +136,9 @@ export function StorySlide({
       ref={textSlideRef}
       className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
     >
-      {/* The dawn, drawn in contour lines across the foot of the panel */}
-      {hasAlba && (
+      {hasKintsugi && (
         <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
-          <AlbaTopography />
+          <KintsugiCrackle />
         </div>
       )}
 
@@ -171,17 +168,13 @@ export function StorySlide({
 
       <motion.div
         style={{ y: textY, opacity: textOpacity, scale: textScale }}
-        className={`relative z-10 w-full will-change-transform flex flex-col items-center px-4 ${
-          hasAlba ? 'mt-[9vh] mb-auto' : 'my-auto'
-        }`}
+        className="relative z-10 w-full will-change-transform flex flex-col items-center px-4 my-auto"
       >
-        {/* Rotated vertical side text on desktop — the same mid grey reads
-            on paper and in the dark room, so it needs no variant */}
-        <div className="hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
+        <div className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageLeft, { n: pad(index + 1) })}
         </div>
 
-        <div className="hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] text-[#71717a] select-none pointer-events-none">
+        <div className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageRight, { n: pad(index + 1), total })}
         </div>
 
@@ -193,8 +186,8 @@ export function StorySlide({
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mx-auto mb-8 ${
-            isNeon ? 'text-[#f4f4f5]' : 'text-[#141518]'
-          } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
+            isNeon ? 'text-[#0b0b0a]' : 'text-[#141518]'
+          } ${hasWave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
         >
           {item.phrase}
         </blockquote>
@@ -202,8 +195,8 @@ export function StorySlide({
         {item.subtext && (
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-light mb-8 ${
-              isNeon ? 'text-[#a1a1aa]' : 'text-[#52525b]'
-            } ${hasWave || hasRain || hasAlba ? 'type-halo' : ''}`}
+              isNeon ? 'text-[#5e5e55]' : 'text-[#52525b]'
+            } ${hasWave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
           >
             {item.subtext}
           </p>
@@ -224,21 +217,14 @@ export function StorySlide({
   const passage = isTextScene ? (
     <WordGridScene chapter={item.chapter} index={index} />
   ) : isNeon ? (
-    <div className="neon-room absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden bg-[#040404]">
+    <div className="neon-room absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden bg-[#fbfbfb]">
       <NeonMorphFrames />
 
-      {/* Darkens the middle so the bloom never fights the type. Neutral
-          grey, not a warm black — a tinted scrim is what made the whole
-          room read brown. */}
-      <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(4,4,4,0.82)_0%,rgba(4,4,4,0.5)_38%,rgba(4,4,4,0.14)_68%,transparent_100%)]" />
+      {/* Room authored as its own negative: no per-frame invert layer */}
+      <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(251,251,251,0.82)_0%,rgba(251,251,251,0.5)_38%,rgba(251,251,251,0.14)_68%,transparent_100%)]" />
 
-      {/* The room ends where the page does. Fading both edges to the
-          page's own black means the glow never runs into the join, so
-          the section reads as neon floating in the same darkness rather
-          than as a panel dropped onto it. These invert with the room,
-          so they land on the paper colour on the light page too. */}
-      <div className="absolute inset-x-0 top-0 h-48 z-[2] pointer-events-none bg-gradient-to-b from-[#040404] via-[#040404]/72 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 h-48 z-[2] pointer-events-none bg-gradient-to-t from-[#040404] via-[#040404]/72 to-transparent" />
+      <div className="absolute inset-x-0 top-0 h-48 z-[2] pointer-events-none bg-gradient-to-b from-[#fbfbfb] via-[#fbfbfb]/72 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-48 z-[2] pointer-events-none bg-gradient-to-t from-[#fbfbfb] via-[#fbfbfb]/72 to-transparent" />
 
       {textSlide}
     </div>

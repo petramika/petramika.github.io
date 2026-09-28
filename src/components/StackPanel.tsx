@@ -69,6 +69,7 @@ export function StackPanel({
     <div
       ref={runwayRef}
       id={id}
+      data-stack-runway
       // `isolate` keeps each panel's inner z-indexes to itself: without it a
       // z-10 caption inside one panel outranks the panel stacked above it.
       className="relative isolate w-full"
@@ -101,10 +102,10 @@ export function StackPanel({
             photograph one pixel is nothing.
           */}
           <div
-            className={`pointer-events-none absolute inset-x-0 top-0 z-10 h-px ${panelClassName}`}
+            className={`stack-hairline pointer-events-none absolute inset-x-0 top-0 z-10 h-px ${panelClassName}`}
           />
           <div
-            className={`pointer-events-none absolute inset-x-0 bottom-0 z-10 h-px ${panelClassName}`}
+            className={`stack-hairline pointer-events-none absolute inset-x-0 bottom-0 z-10 h-px ${panelClassName}`}
           />
 
           {/* The lip of the arriving panel, shaded on its own top edge */}

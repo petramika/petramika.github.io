@@ -7,8 +7,16 @@ const anneImages = import.meta.glob('../assets/anne/*.{JPG,jpg,jpeg,png,webp,PNG
   import: 'default',
 }) as Record<string, string>;
 
+const anneImagesSmall = import.meta.glob('../assets/anne/m/*.{JPG,jpg,jpeg,png,webp,PNG}', {
+  eager: true,
+  import: 'default',
+}) as Record<string, string>;
+
+// Phones and tablets get the 2000px cut: the full 3400px ones stall decoding on iOS
+const useSmall = typeof window !== 'undefined' && window.matchMedia('(max-width: 1024px)').matches;
+
 function getAnnePhoto(name: string, fallback: string): string {
-  for (const [key, value] of Object.entries(anneImages)) {
+  for (const [key, value] of Object.entries(useSmall ? anneImagesSmall : anneImages)) {
     const fileName = key.split('/').pop();
     if (fileName && fileName.toLowerCase() === name.toLowerCase()) {
       return value;
@@ -72,7 +80,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
-      underlay: 'alba',
+      underlay: 'kintsugi',
       imageSrc: getAnnePhoto('5.JPG', 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1400&q=85'),
     };
   }
