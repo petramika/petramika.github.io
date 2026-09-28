@@ -241,6 +241,20 @@ export function CrochetTear() {
       ctx.lineWidth = 1.5;
       ctx.strokeStyle = `rgba(${ink}, 0.27)`;
       ctx.stroke();
+
+      // Thins the mesh behind the passage so the type reads over it
+      const hush = ctx.createRadialGradient(width / 2, height / 2, 0, width / 2, height / 2, Math.max(width * 0.42, height * 0.36));
+      hush.addColorStop(0, 'rgba(0, 0, 0, 0.82)');
+      hush.addColorStop(0.6, 'rgba(0, 0, 0, 0.6)');
+      hush.addColorStop(1, 'rgba(0, 0, 0, 0)');
+      ctx.save();
+      ctx.globalCompositeOperation = 'destination-out';
+      ctx.translate(width / 2, height / 2);
+      ctx.scale(1, 0.72);
+      ctx.translate(-width / 2, -height / 2);
+      ctx.fillStyle = hush;
+      ctx.fillRect(0, 0, width, height / 0.72);
+      ctx.restore();
     };
 
     let raf = 0;
