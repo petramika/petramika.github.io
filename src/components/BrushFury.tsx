@@ -4,7 +4,7 @@ import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
 /** Glazes stacked to build one wash; each is a slightly different deformation */
-const GLAZES = 36;
+const GLAZES = 40;
 const DRAW_S = 0.35;
 const HOLD_S = 0.8;
 const FADE_S = 3;
@@ -14,11 +14,11 @@ const SETTLED = 0.4;
 /* The canvas is re-inverted in negative mode, so each mode names what it shows */
 const PALETTES = {
   light: {
-    paint: ['#d9412b', '#e9a23b', '#2f62c9', '#23906f', '#a8479f', '#1f7fa8'],
+    paint: ['#c46a3c', '#d6a24a', '#4f73a6', '#6f9a86', '#94789f', '#4a8a9e'],
     ink: '#141518',
   },
   dark: {
-    paint: ['#ff5a3c', '#ffb640', '#4f86ff', '#2fc08f', '#d45cc9', '#3fb6e8'],
+    paint: ['#e08a5c', '#e8bd6a', '#7d9ed0', '#8fbca6', '#b99ac4', '#72b3c6'],
     ink: '#f3f1ec',
   },
 };
@@ -110,12 +110,45 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
 
   ctx.fillStyle = s.colour;
   for (let g = 0; g < GLAZES; g += 1) {
-    ctx.globalAlpha = 0.018 + rand() * 0.018;
-    fillShape(ctx, deform(base, 2, 0.2 + rand() * 0.14, rand));
+    ctx.globalAlpha = 0.009 + rand() * 0.012;
+    fillShape(ctx, deform(base, 2, 0.26 + rand() * 0.2, rand));
+  }
+
+  // Blooms: where more water ran in and pushed the pigment back out
+  ctx.save();
+  ctx.globalCompositeOperation = 'destination-out';
+  for (let b = 0; b < 3; b += 1) {
+    const t = 0.15 + rand() * 0.7;
+    const x = s.x0 + (s.x1 - s.x0) * t;
+    const y = s.y0 + (s.y1 - s.y0) * t + (rand() - 0.5) * s.width * 0.4;
+    const r = s.width * (0.18 + rand() * 0.25);
+    const blob: Point[] = [];
+    for (let k = 0; k < 7; k += 1) {
+      const a = (k / 7) * Math.PI * 2;
+      blob.push([x + Math.cos(a) * r * 1.6, y + Math.sin(a) * r]);
+    }
+    for (let g = 0; g < 6; g += 1) {
+      ctx.globalAlpha = 0.09;
+      fillShape(ctx, deform(blob, 2, 0.3, rand));
+    }
+  }
+  ctx.restore();
+
+  // A fine spatter flicked off the brush
+  const specks = 18 + Math.floor(rand() * 24);
+  for (let k = 0; k < specks; k += 1) {
+    const t = rand() * 1.2 - 0.1;
+    const off = (rand() - 0.5) * s.width * 5;
+    const x = s.x0 + (s.x1 - s.x0) * t - Math.sin(s.angle) * off;
+    const y = s.y0 + (s.y1 - s.y0) * t + Math.cos(s.angle) * off;
+    ctx.globalAlpha = 0.2 + rand() * 0.35;
+    ctx.beginPath();
+    ctx.arc(x, y, 0.5 + rand() * rand() * 2.2, 0, Math.PI * 2);
+    ctx.fill();
   }
 
   // Pigment settles along the edge of a wash as the water dries back
-  ctx.globalAlpha = 0.12;
+  ctx.globalAlpha = 0.06;
   ctx.strokeStyle = s.colour;
   ctx.lineWidth = 1.1;
   ctx.lineJoin = 'round';
@@ -141,8 +174,8 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
       blob.push([x + Math.cos(a) * r, y + Math.sin(a) * r]);
     }
     for (let g = 0; g < 8; g += 1) {
-      ctx.globalAlpha = 0.07;
-      fillShape(ctx, deform(blob, 2, 0.25, rand));
+      ctx.globalAlpha = 0.035;
+      fillShape(ctx, deform(blob, 2, 0.3, rand));
     }
   }
 
