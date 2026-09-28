@@ -3,13 +3,13 @@ import { useOnScreen } from '../hooks/useOnScreen';
 import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
-const TRACKS = 28;
-const SAMPLES = 40;
-const DRAW_S = 0.25;
-const HOLD_S = 0.6;
-const FADE_S = 2.8;
+/** Glazes stacked to build one wash; each is a slightly different deformation */
+const GLAZES = 36;
+const DRAW_S = 0.35;
+const HOLD_S = 0.8;
+const FADE_S = 3;
 /** How much of a stroke is left in the ground once it has settled */
-const SETTLED = 0.34;
+const SETTLED = 0.4;
 
 /* The canvas is re-inverted in negative mode, so each mode names what it shows */
 const PALETTES = {
@@ -23,6 +23,8 @@ const PALETTES = {
   },
 };
 
+type Point = [number, number];
+
 type Stroke = {
   born: number;
   colour: string;
@@ -30,14 +32,13 @@ type Stroke = {
   wordSize: number;
   x0: number;
   y0: number;
-  cx: number;
-  cy: number;
   x1: number;
   y1: number;
   width: number;
   seed: number;
   angle: number;
   layer?: HTMLCanvasElement;
+  settled?: boolean;
 };
 
 function rng(seed: number) {
@@ -50,106 +51,113 @@ function rng(seed: number) {
   };
 }
 
-/** One flat watercolour stroke: a band laid by a wide brush, painted as far as `reach` */
-function paintStroke(
-  ctx: CanvasRenderingContext2D,
-  s: Stroke,
-  reach: number,
-  alpha: number,
-  ink: string,
-) {
-  const rand = rng(s.seed);
-  const at = (t: number) => {
-    const u = 1 - t;
-    return [
-      u * u * s.x0 + 2 * u * t * s.cx + t * t * s.x1,
-      u * u * s.y0 + 2 * u * t * s.cy + t * t * s.y1,
-    ];
-  };
+/** Recursive midpoint displacement: what turns a polygon into a wet edge */
+function deform(points: Point[], depth: number, spread: number, rand: () => number): Point[] {
+  let pts = points;
+  for (let d = 0; d < depth; d += 1) {
+    const next: Point[] = [];
+    for (let i = 0; i < pts.length; i += 1) {
+      const a = pts[i];
+      const b = pts[(i + 1) % pts.length];
+      const len = Math.hypot(b[0] - a[0], b[1] - a[1]);
+      const g = (rand() + rand() + rand() - 1.5) * 0.8;
+      next.push(a, [
+        (a[0] + b[0]) / 2 + g * len * spread,
+        (a[1] + b[1]) / 2 + (rand() + rand() + rand() - 1.5) * 0.8 * len * spread,
+      ]);
+    }
+    pts = next;
+  }
+  return pts;
+}
+
+function fillShape(ctx: CanvasRenderingContext2D, pts: Point[]) {
+  ctx.beginPath();
+  ctx.moveTo(pts[0][0], pts[0][1]);
+  for (let i = 1; i < pts.length; i += 1) ctx.lineTo(pts[i][0], pts[i][1]);
+  ctx.closePath();
+  ctx.fill();
+}
+
+/** A band the brush lays down: straight-ish top and bottom, ragged at both ends */
+function bandOutline(s: Stroke, rand: () => number): Point[] {
   const nx = -Math.sin(s.angle);
   const ny = Math.cos(s.angle);
-  const along = (t: number, across: number) => {
-    const [x, y] = at(t);
-    return [x + nx * across, y + ny * across];
-  };
-
-  ctx.strokeStyle = s.colour;
-  ctx.fillStyle = s.colour;
-  ctx.lineCap = 'butt';
-  ctx.lineJoin = 'round';
-
-  // The body of the wash, uneven along its length
-  ctx.beginPath();
   const half = s.width / 2;
-  const bodyEnd = Math.min(reach, 0.84);
-  for (let i = 0; i <= SAMPLES; i += 1) {
-    const t = 0.06 + (i / SAMPLES) * (bodyEnd - 0.06);
-    const [x, y] = along(t, -half * (0.92 + 0.08 * Math.sin(t * 17 + s.seed * 9)));
-    if (i === 0) ctx.moveTo(x, y);
-    else ctx.lineTo(x, y);
+  const along = (t: number, k: number): Point => [
+    s.x0 + (s.x1 - s.x0) * t + nx * half * k,
+    s.y0 + (s.y1 - s.y0) * t + ny * half * k,
+  ];
+  const top: Point[] = [];
+  const bottom: Point[] = [];
+  const n = 8;
+  for (let i = 0; i <= n; i += 1) {
+    const t = i / n;
+    // The brush lifts at the tail, so the band narrows towards it
+    const taper = 1 - t * 0.25;
+    top.push(along(t, -taper * (0.9 + rand() * 0.15)));
+    bottom.push(along(t, taper * (0.9 + rand() * 0.15)));
   }
-  for (let i = SAMPLES; i >= 0; i -= 1) {
-    const t = 0.06 + (i / SAMPLES) * (bodyEnd - 0.06);
-    const [x, y] = along(t, half * (0.9 + 0.1 * Math.sin(t * 13 + s.seed * 5)));
-    ctx.lineTo(x, y);
+  const tail = along(1.03 + rand() * 0.04, 0);
+  const head = along(-0.02, 0);
+  return [head, ...top, tail, ...bottom.reverse()];
+}
+
+/** Paints the whole stroke once, into its own layer */
+function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
+  const rand = rng(s.seed);
+  const base = deform(bandOutline(s, rand), 3, 0.22, rand);
+
+  ctx.fillStyle = s.colour;
+  for (let g = 0; g < GLAZES; g += 1) {
+    ctx.globalAlpha = 0.018 + rand() * 0.018;
+    fillShape(ctx, deform(base, 2, 0.2 + rand() * 0.14, rand));
   }
+
+  // Pigment settles along the edge of a wash as the water dries back
+  ctx.globalAlpha = 0.12;
+  ctx.strokeStyle = s.colour;
+  ctx.lineWidth = 1.1;
+  ctx.lineJoin = 'round';
+  const rim = deform(base, 1, 0.08, rand);
+  ctx.beginPath();
+  ctx.moveTo(rim[0][0], rim[0][1]);
+  for (let i = 1; i < rim.length; i += 1) ctx.lineTo(rim[i][0], rim[i][1]);
   ctx.closePath();
-  ctx.globalAlpha = alpha * 0.2;
-  ctx.fill();
+  ctx.stroke();
 
-  // Bristle tracks: ragged at the ends, running dry towards the tail
-  for (let b = 0; b < TRACKS; b += 1) {
-    const f = b / (TRACKS - 1);
-    const across = (f - 0.5) * s.width;
-    // Pigment gathers along the two edges of the band
-    const edge = Math.abs(f - 0.5) * 2;
-    const start = rand() * rand() * 0.14;
-    const end = Math.min(reach, 0.78 + rand() * 0.22);
-    ctx.lineWidth = (s.width / TRACKS) * (1.3 + rand());
-    ctx.globalAlpha = alpha * (0.05 + rand() * 0.07 + edge ** 4 * 0.2);
-    ctx.beginPath();
-    let down = false;
-    for (let i = 0; i <= SAMPLES; i += 1) {
-      const t = start + (i / SAMPLES) * (end - start);
-      const dry = t > 0.62 && rand() < (t - 0.62) * 1.6;
-      if (dry) {
-        down = false;
-        continue;
-      }
-      const [x, y] = along(t, across);
-      if (!down) ctx.moveTo(x, y);
-      else ctx.lineTo(x, y);
-      down = true;
+  // Drops that fell off the brush, each a small wash of its own
+  const drops = 3 + Math.floor(rand() * 4);
+  for (let d = 0; d < drops; d += 1) {
+    const t = rand();
+    const side = rand() < 0.5 ? -1 : 1;
+    const off = s.width * (0.7 + rand() * 1.1) * side;
+    const x = s.x0 + (s.x1 - s.x0) * t - Math.sin(s.angle) * off;
+    const y = s.y0 + (s.y1 - s.y0) * t + Math.cos(s.angle) * off;
+    const r = 2 + rand() * s.width * 0.12;
+    const blob: Point[] = [];
+    for (let k = 0; k < 7; k += 1) {
+      const a = (k / 7) * Math.PI * 2;
+      blob.push([x + Math.cos(a) * r, y + Math.sin(a) * r]);
     }
-    ctx.stroke();
-  }
-
-  // Where water fell off the brush: a few drops and a pale bloom
-  if (reach >= 1) {
-    for (let d = 0; d < 7; d += 1) {
-      const t = rand();
-      const [x, y] = along(t, (rand() < 0.5 ? -1 : 1) * s.width * (0.65 + rand() * 0.9));
-      const r = 1.2 + rand() * s.width * (rand() < 0.2 ? 0.16 : 0.06);
-      ctx.globalAlpha = alpha * (0.12 + rand() * 0.22);
-      ctx.beginPath();
-      ctx.arc(x, y, r, 0, Math.PI * 2);
-      ctx.fill();
+    for (let g = 0; g < 8; g += 1) {
+      ctx.globalAlpha = 0.07;
+      fillShape(ctx, deform(blob, 2, 0.25, rand));
     }
   }
 
-  if (reach > 0.35) {
-    const [wx, wy] = at(0.5);
-    ctx.save();
-    ctx.globalAlpha = alpha * 0.85 * Math.min(1, (reach - 0.35) * 3);
-    ctx.translate(wx, wy);
-    ctx.rotate(Math.max(-0.5, Math.min(0.5, s.angle)));
-    ctx.font = `600 ${s.wordSize}px Caveat, 'Segoe Script', cursive`;
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillStyle = ink;
-    ctx.fillText(s.word, 0, 0);
-    ctx.restore();
-  }
+  const wx = (s.x0 + s.x1) / 2;
+  const wy = (s.y0 + s.y1) / 2;
+  ctx.save();
+  ctx.globalAlpha = 0.85;
+  ctx.translate(wx, wy);
+  ctx.rotate(s.angle);
+  ctx.font = `600 ${s.wordSize}px Caveat, 'Segoe Script', cursive`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = ink;
+  ctx.fillText(s.word, 0, 0);
+  ctx.restore();
   ctx.globalAlpha = 1;
 }
 
@@ -169,7 +177,7 @@ export function BrushFury() {
     if (!gctx) return;
 
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    // Canvas blur is missing on older Safari; there the fade is alpha alone
+    // Canvas blur is missing on older Safari; there the settling is alpha alone
     ctx.filter = 'blur(1px)';
     const canBlur = ctx.filter === 'blur(1px)';
     ctx.filter = 'none';
@@ -182,6 +190,7 @@ export function BrushFury() {
     let colourIndex = 0;
     let nextAt = 0;
     let mode: boolean | null = null;
+    const pool: HTMLCanvasElement[] = [];
 
     const tone = () =>
       document.documentElement.classList.contains('negative-mode') ? PALETTES.dark : PALETTES.light;
@@ -189,13 +198,12 @@ export function BrushFury() {
     const makeStroke = (now: number): Stroke => {
       const pal = tone().paint;
       const small = width < 768;
-      const len = width * (small ? 0.55 : 0.38) * (0.8 + Math.random() * 0.5);
-      const angle = (Math.random() - 0.5) * 0.5;
-      const mx = width * (0.12 + Math.random() * 0.76);
+      const len = width * (small ? 0.6 : 0.36) * (0.75 + Math.random() * 0.5);
+      const angle = (Math.random() - 0.5) * 0.45;
+      const mx = width * (0.15 + Math.random() * 0.7);
       const my = height * (0.15 + Math.random() * 0.7);
       const dx = (Math.cos(angle) * len) / 2;
       const dy = (Math.sin(angle) * len) / 2;
-      const bend = (Math.random() - 0.5) * len * 0.08;
       const stroke: Stroke = {
         born: now,
         colour: pal[colourIndex % pal.length],
@@ -203,33 +211,51 @@ export function BrushFury() {
         wordSize: small ? 30 : 44,
         x0: mx - dx,
         y0: my - dy,
-        cx: mx - Math.sin(angle) * bend,
-        cy: my + Math.cos(angle) * bend,
         x1: mx + dx,
         y1: my + dy,
-        width: (small ? 44 : 78) * (0.7 + Math.random() * 0.6),
+        width: (small ? 46 : 80) * (0.7 + Math.random() * 0.6),
         seed: Math.random(),
-        angle: angle > Math.PI / 4 ? angle - Math.PI / 2 : angle,
+        angle,
       };
       wordIndex += 1;
       colourIndex += 1 + Math.floor(Math.random() * 2);
+
+      // Painted once, up front; the animation only uncovers it
+      const layer = pool.pop() ?? document.createElement('canvas');
+      layer.width = canvas.width;
+      layer.height = canvas.height;
+      const lctx = layer.getContext('2d');
+      if (lctx) {
+        lctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        lctx.clearRect(0, 0, width, height);
+        paintStroke(lctx, stroke, tone().ink);
+        stroke.layer = layer;
+      }
       return stroke;
     };
 
     const settle = (s: Stroke) => {
+      if (!s.layer) return;
       // Older paint sinks a little further each time a new layer goes down
       gctx.globalCompositeOperation = 'destination-out';
       gctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
       gctx.fillRect(0, 0, width, height);
       gctx.globalCompositeOperation = 'source-over';
-      if (canBlur) gctx.filter = 'blur(5px)';
-      paintStroke(gctx, s, 1, SETTLED, tone().ink);
+      if (canBlur) gctx.filter = 'blur(4px)';
+      gctx.globalAlpha = SETTLED;
+      gctx.drawImage(s.layer, 0, 0, width, height);
+      gctx.globalAlpha = 1;
       gctx.filter = 'none';
+      s.settled = true;
     };
 
     const seedGround = () => {
       gctx.clearRect(0, 0, width, height);
-      for (let i = 0; i < 5; i += 1) settle(makeStroke(0));
+      for (let i = 0; i < 5; i += 1) {
+        const s = makeStroke(0);
+        settle(s);
+        if (s.layer) pool.push(s.layer);
+      }
     };
 
     const resize = () => {
@@ -249,20 +275,20 @@ export function BrushFury() {
     const observer = new ResizeObserver(resize);
     observer.observe(host);
 
-    // Finished strokes are sealed into a layer of their own, so fading one
-    // costs a single copy per frame rather than repainting its bristles
-    const pool: HTMLCanvasElement[] = [];
-    const seal = (s: Stroke) => {
-      const layer = pool.pop() ?? document.createElement('canvas');
-      layer.width = canvas.width;
-      layer.height = canvas.height;
-      const lctx = layer.getContext('2d');
-      if (!lctx) return;
-      lctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      paintStroke(lctx, s, 1, 1, tone().ink);
-      s.layer = layer;
-      // Its softened trace goes into the ground straight away, under the sharp one
-      settle(s);
+    /** Uncovers the stroke along its own direction, as if the brush were passing */
+    const reveal = (s: Stroke, reach: number) => {
+      if (!s.layer) return;
+      const len = Math.hypot(s.x1 - s.x0, s.y1 - s.y0);
+      ctx.save();
+      ctx.translate(s.x0, s.y0);
+      ctx.rotate(s.angle);
+      ctx.beginPath();
+      ctx.rect(-s.width, -s.width * 3, (len + s.width * 2) * reach, s.width * 6);
+      ctx.restore();
+      ctx.save();
+      ctx.clip();
+      ctx.drawImage(s.layer, 0, 0, width, height);
+      ctx.restore();
     };
 
     let raf = 0;
@@ -291,7 +317,7 @@ export function BrushFury() {
 
       if (now >= nextAt) {
         active.push(makeStroke(now));
-        nextAt = now + 1.2 + Math.random() * 1;
+        nextAt = now + 1.3 + Math.random();
         idle = false;
       }
       if (idle) return;
@@ -299,16 +325,17 @@ export function BrushFury() {
       ctx.clearRect(0, 0, width, height);
       ctx.drawImage(ground, 0, 0, width, height);
 
-      const ink = tone().ink;
       const kept: Stroke[] = [];
       for (const s of active) {
         const age = now - s.born;
         if (age < DRAW_S) {
-          paintStroke(ctx, s, age / DRAW_S, 1, ink);
+          const k = age / DRAW_S;
+          reveal(s, 1 - (1 - k) ** 3);
           kept.push(s);
           continue;
         }
-        if (!s.layer) seal(s);
+        // Its softened trace goes into the ground under the sharp one
+        if (!s.settled) settle(s);
         const fading = Math.max(0, age - DRAW_S - HOLD_S) / FADE_S;
         if (fading >= 1) {
           if (s.layer) pool.push(s.layer);
