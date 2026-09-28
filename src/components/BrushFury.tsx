@@ -3,7 +3,8 @@ import { useOnScreen } from '../hooks/useOnScreen';
 import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
-const DABS = 48;
+const TRACKS = 28;
+const SAMPLES = 40;
 const DRAW_S = 0.25;
 const HOLD_S = 0.6;
 const FADE_S = 2.8;
@@ -49,7 +50,7 @@ function rng(seed: number) {
   };
 }
 
-/** One watercolour stroke: soft washes pooled along the spine, painted as far as `reach` */
+/** One flat watercolour stroke: a band laid by a wide brush, painted as far as `reach` */
 function paintStroke(
   ctx: CanvasRenderingContext2D,
   s: Stroke,
@@ -65,69 +66,73 @@ function paintStroke(
       u * u * s.y0 + 2 * u * t * s.cy + t * t * s.y1,
     ];
   };
-
-  const dabs: [number, number, number, number][] = [];
-  for (let d = 0; d < DABS; d += 1) {
-    const t = d / (DABS - 1);
+  const nx = -Math.sin(s.angle);
+  const ny = Math.cos(s.angle);
+  const along = (t: number, across: number) => {
     const [x, y] = at(t);
-    // The brush lands loaded and runs dry towards the tail
-    const load = 1 - t * 0.55;
-    const r = s.width * 0.55 * load * (0.8 + rand() * 0.45);
-    const off = (rand() - 0.5) * s.width * 0.35;
-    const [nx, ny] = [-Math.sin(s.angle), Math.cos(s.angle)];
-    dabs.push([x + nx * off, y + ny * off, r, t]);
-  }
-
-  // A soft irregular blob, curved through the midpoints so no corner shows
-  const shape = (x: number, y: number, r: number) => {
-    const pts: [number, number][] = [];
-    for (let k = 0; k < 10; k += 1) {
-      const a = (k / 10) * Math.PI * 2;
-      const rr = r * (0.8 + rand() * 0.3);
-      pts.push([x + Math.cos(a) * rr, y + Math.sin(a) * rr]);
-    }
-    ctx.beginPath();
-    const mid = (a: [number, number], b: [number, number]) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
-    const start = mid(pts[9], pts[0]);
-    ctx.moveTo(start[0], start[1]);
-    for (let k = 0; k < 10; k += 1) {
-      const m = mid(pts[k], pts[(k + 1) % 10]);
-      ctx.quadraticCurveTo(pts[k][0], pts[k][1], m[0], m[1]);
-    }
-    ctx.closePath();
+    return [x + nx * across, y + ny * across];
   };
 
-  ctx.fillStyle = s.colour;
   ctx.strokeStyle = s.colour;
+  ctx.fillStyle = s.colour;
+  ctx.lineCap = 'butt';
   ctx.lineJoin = 'round';
-  dabs.forEach(([x, y, r, t], d) => {
-    if (t > reach) return;
-    shape(x, y, r);
-    ctx.globalAlpha = alpha * 0.1;
-    ctx.fill();
-    // Pigment gathers where the wash dried first, at its head and tail
-    if (d === 0 || d === DABS - 1) {
-      ctx.globalAlpha = alpha * 0.25;
-      ctx.lineWidth = 1;
-      ctx.stroke();
-    }
-  });
 
-  // Pale blooms where the water ran further than the paint
-  if (reach >= 1) {
-    for (let b = 0; b < 3; b += 1) {
-      const [x, y, r] = dabs[Math.floor(rand() * dabs.length)];
-      shape(x + (rand() - 0.5) * r, y + (rand() - 0.5) * r, r * (1.1 + rand() * 0.6));
-      ctx.globalAlpha = alpha * 0.05;
-      ctx.fill();
+  // The body of the wash, uneven along its length
+  ctx.beginPath();
+  const half = s.width / 2;
+  const bodyEnd = Math.min(reach, 0.84);
+  for (let i = 0; i <= SAMPLES; i += 1) {
+    const t = 0.06 + (i / SAMPLES) * (bodyEnd - 0.06);
+    const [x, y] = along(t, -half * (0.92 + 0.08 * Math.sin(t * 17 + s.seed * 9)));
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+  for (let i = SAMPLES; i >= 0; i -= 1) {
+    const t = 0.06 + (i / SAMPLES) * (bodyEnd - 0.06);
+    const [x, y] = along(t, half * (0.9 + 0.1 * Math.sin(t * 13 + s.seed * 5)));
+    ctx.lineTo(x, y);
+  }
+  ctx.closePath();
+  ctx.globalAlpha = alpha * 0.2;
+  ctx.fill();
+
+  // Bristle tracks: ragged at the ends, running dry towards the tail
+  for (let b = 0; b < TRACKS; b += 1) {
+    const f = b / (TRACKS - 1);
+    const across = (f - 0.5) * s.width;
+    // Pigment gathers along the two edges of the band
+    const edge = Math.abs(f - 0.5) * 2;
+    const start = rand() * rand() * 0.14;
+    const end = Math.min(reach, 0.78 + rand() * 0.22);
+    ctx.lineWidth = (s.width / TRACKS) * (1.3 + rand());
+    ctx.globalAlpha = alpha * (0.05 + rand() * 0.07 + edge ** 4 * 0.2);
+    ctx.beginPath();
+    let down = false;
+    for (let i = 0; i <= SAMPLES; i += 1) {
+      const t = start + (i / SAMPLES) * (end - start);
+      const dry = t > 0.62 && rand() < (t - 0.62) * 1.6;
+      if (dry) {
+        down = false;
+        continue;
+      }
+      const [x, y] = along(t, across);
+      if (!down) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+      down = true;
     }
-    for (let f = 0; f < 6; f += 1) {
-      const [x, y, r] = dabs[dabs.length - 1];
-      const a = s.angle + (rand() - 0.5) * 1.8;
-      const d = r * (1 + rand() * 1.6);
-      ctx.globalAlpha = alpha * (0.15 + rand() * 0.25);
+    ctx.stroke();
+  }
+
+  // Where water fell off the brush: a few drops and a pale bloom
+  if (reach >= 1) {
+    for (let d = 0; d < 7; d += 1) {
+      const t = rand();
+      const [x, y] = along(t, (rand() < 0.5 ? -1 : 1) * s.width * (0.65 + rand() * 0.9));
+      const r = 1.2 + rand() * s.width * (rand() < 0.2 ? 0.16 : 0.06);
+      ctx.globalAlpha = alpha * (0.12 + rand() * 0.22);
       ctx.beginPath();
-      ctx.arc(x + Math.cos(a) * d, y + Math.sin(a) * d, 1 + rand() * s.width * 0.05, 0, Math.PI * 2);
+      ctx.arc(x, y, r, 0, Math.PI * 2);
       ctx.fill();
     }
   }
@@ -142,7 +147,7 @@ function paintStroke(
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle = ink;
-    ctx.fillText(s.word, 0, s.width * 0.05);
+    ctx.fillText(s.word, 0, 0);
     ctx.restore();
   }
   ctx.globalAlpha = 1;
@@ -185,12 +190,12 @@ export function BrushFury() {
       const pal = tone().paint;
       const small = width < 768;
       const len = width * (small ? 0.55 : 0.38) * (0.8 + Math.random() * 0.5);
-      const angle = (Math.random() - 0.5) * 1.1 + (Math.random() < 0.25 ? Math.PI / 2 : 0);
+      const angle = (Math.random() - 0.5) * 0.5;
       const mx = width * (0.12 + Math.random() * 0.76);
       const my = height * (0.15 + Math.random() * 0.7);
       const dx = (Math.cos(angle) * len) / 2;
       const dy = (Math.sin(angle) * len) / 2;
-      const bend = (Math.random() - 0.5) * len * 0.5;
+      const bend = (Math.random() - 0.5) * len * 0.08;
       const stroke: Stroke = {
         born: now,
         colour: pal[colourIndex % pal.length],
@@ -202,7 +207,7 @@ export function BrushFury() {
         cy: my + Math.cos(angle) * bend,
         x1: mx + dx,
         y1: my + dy,
-        width: (small ? 34 : 56) * (0.7 + Math.random() * 0.8),
+        width: (small ? 44 : 78) * (0.7 + Math.random() * 0.6),
         seed: Math.random(),
         angle: angle > Math.PI / 4 ? angle - Math.PI / 2 : angle,
       };

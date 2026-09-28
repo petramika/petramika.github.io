@@ -9,12 +9,10 @@ export interface EssayItem {
   imageSrc: string;
   imageAlt: string;
   aspectRatio: AspectRatio;
-  /** Renders the text slide inside the dark neon room instead of on paper */
-  backdrop?: 'neon';
   /** Replaces the written passage with a drawn scene, keeping the photo */
   textScene?: 'grid';
   /** Runs a drawn scene under the passage: a line, a field of colour, or rain */
-  underlay?: 'crochet' | 'lava' | 'rain' | 'kintsugi' | 'brain';
+  underlay?: 'tangle' | 'crochet' | 'lava' | 'rain' | 'kintsugi' | 'brain';
   /** Closes the chapter with a drawn scene after the written passage */
   coda?: 'orrery';
   imageSequence?: {
