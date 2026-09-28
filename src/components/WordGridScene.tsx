@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { label, pad, texts } from '../data/labels';
 import { useMotionValueEvent, useScroll } from 'motion/react';
+import { WHEEL, throughTheNegative } from '../data/wheel';
 
 interface WordGridSceneProps {
   chapter: string;
@@ -217,8 +218,14 @@ function edgeState(cellIndex: number, edgeIndex: number, step: number) {
   return { visible, length, offset };
 }
 
-/** Warm tesserae with a cool one among them, as in a painted mosaic */
-const MOSAIC = ['#7a1414', '#b3261e', '#e0782c', '#e3b33c', '#e9a07f', '#8a96a8', '#5a1f1f', '#c9643a'];
+/** The dust's own wheel, so the grid is lit by the same colours as the specks */
+const MOSAIC = WHEEL.map((rgb) => `rgb(${rgb})`);
+
+/** A word's colour, written for both sides of the page's negative */
+function tint(cellIndex: number, wordIndex: number, step: number): React.CSSProperties {
+  const rgb = WHEEL[Math.floor(hash(cellIndex * 41 + wordIndex * 23 + step * 3) * WHEEL.length)];
+  return { '--tint': rgb, '--tint-neg': throughTheNegative(rgb, true) } as React.CSSProperties;
+}
 
 /** The pieces one side is laid in: how many, how wide each, and what colour */
 function tiles(cellIndex: number, edgeIndex: number, step: number) {
@@ -335,10 +342,11 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
                   {cell.words.map((word, w) => (
                     <span
                       key={`${word.word}-${w}`}
-                      className={`word-grid-word font-editorial-display font-black text-[#141518] leading-[0.94] whitespace-nowrap ${
+                      className={`word-grid-word font-editorial-display font-black leading-[0.94] whitespace-nowrap ${
                         word.late ? 'word-grid-late' : ''
                       } ${word.vertical ? 'writing-vertical-270' : ''}`}
                       style={{
+                        ...tint(i, w, step),
                         fontSize: `max(9px, ${word.size}cqw)`,
                         transform: word.rotate ? `rotate(${word.rotate}deg)` : undefined,
                       }}
