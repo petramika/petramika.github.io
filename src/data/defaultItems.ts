@@ -58,7 +58,7 @@ export const INITIAL_ESSAY_ITEMS: EssayItem[] = texts.chapters.map((ch) => {
     return {
       ...restCh,
       aspectRatio,
-      underlay: 'weave',
+      underlay: 'crochet',
       imageSrc: getAnnePhoto('4-1.JPG', 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=85'),
       imageSequence: [
         {

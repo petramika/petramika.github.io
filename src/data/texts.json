@@ -12,7 +12,7 @@
     "leftRibbon": "[ Y SIN SENTIR NO SÉ VIVIR ]",
     "rightRibbon": "QUÉ HAY TAN DENTRO DE MÍ",
     "introPhrase": "Broken. Rota. Cassée. Rotta. Partida. Trencada. Zerbrochen.",
-    "introSubtext": "Broken. Rota. Gebroken. Złamana. Сломанная. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. مكسورة. שבורה. Trasig. Knust. Rikki.",
+    "introSubtext": "Broken. Rota. Gebroken. Złamana. Rozbitá. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. Gebreek. שבורה. Trasig. Knust. Rikki.",
     "leftBadge": "[ QUIÉN ES ]",
     "leftFooter": "CRECE, MADURA, DESPIERTA",
     "rightBadge": "[ QUIÉNES SOMOS ]",
@@ -25,7 +25,7 @@
       "chapter": "I",
       "subtitle": "Todo",
       "phrase": "Broken. Rota. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ.",
-      "subtext": "Broken. Rota. Sulaužyta. Slomljena. Счупена. Зламана. شکسته. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Сломанная. Σπασμένη. Kırık.",
+      "subtext": "Broken. Rota. Sulaužyta. Slomljena. Счупена. Зламана. Basag. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Rozbitá. Σπασμένη. Kırık.",
       "imageAlt": "Fotograma 01 — La demolición lenta",
       "aspectRatio": "landscape"
     },
@@ -33,7 +33,7 @@
       "id": "fragment-2",
       "chapter": "II",
       "subtitle": "Anatomía de la frialdad",
-      "phrase": "Broken. Rota. 割れた. 破碎. 부서진. टूटी. مكسورة. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená.",
+      "phrase": "Broken. Rota. 割れた. 破碎. 부서진. टूटी. Gebreek. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená.",
       "subtext": "Broken. Rota. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki. Salauzta. Sulaužyta.",
       "imageAlt": "Fotograma 02 — Anatomía de la frialdad",
       "aspectRatio": "portrait"
@@ -42,8 +42,8 @@
       "id": "fragment-3",
       "chapter": "III",
       "subtitle": "El miedo que se traga",
-      "phrase": "Broken. Rota. Slomljena. Счупена. Зламана. شکسته. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada.",
-      "subtext": "Broken. Rota. Zerbrochen. Gebroken. Złamana. Сломанная. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. مكسورة. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. شکسته. ভাঙা. แตก. Կոտրված. გატეხილი.",
+      "phrase": "Broken. Rota. Slomljena. Счупена. Зламана. Basag. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada.",
+      "subtext": "Broken. Rota. Zerbrochen. Gebroken. Złamana. Rozbitá. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. Gebreek. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. Basag. ভাঙা. แตก. Կոտրված. გატეხილი.",
       "imageAlt": "Fotograma 03 — El miedo que se traga",
       "aspectRatio": "wide"
     },
@@ -52,7 +52,7 @@
       "chapter": "IV",
       "subtitle": "Las grietas de la mentira",
       "phrase": "Broken. Rota. Miksura. Rompita. 割れた. Kırık. Trasig.",
-      "subtext": "Broken. Rota. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Сломанная. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी.",
+      "subtext": "Broken. Rota. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Rozbitá. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी.",
       "imageAlt": "Fotograma 04 — Secuencia flash",
       "aspectRatio": "square",
       "imageSequence": [
@@ -71,8 +71,8 @@
       "id": "fragment-5",
       "chapter": "V",
       "subtitle": "El desamparo absoluto",
-      "phrase": "Broken. Rota. مكسورة. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada.",
-      "subtext": "Broken. Rota. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. شکسته. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura.",
+      "phrase": "Broken. Rota. Gebreek. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada.",
+      "subtext": "Broken. Rota. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. Basag. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura.",
       "imageAlt": "Fotograma 05 — El desamparo absoluto",
       "aspectRatio": "landscape"
     },
@@ -81,7 +81,7 @@
       "chapter": "VI",
       "subtitle": "El peso de haber dado todo",
       "phrase": "Broken. Rota. Rompita. E thyer. Cassée. Rotta. Partida. Trencada.",
-      "subtext": "Broken. Rota. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. مكسورة. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki.",
+      "subtext": "Broken. Rota. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. Gebreek. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah. Sira. Imevunjika. Brotin. Katki.",
       "imageAlt": "Fotograma 06 — El peso de haber dado todo",
       "aspectRatio": "portrait",
       "imageSequence": [
@@ -97,8 +97,8 @@
       "id": "fragment-7",
       "chapter": "VII",
       "subtitle": "Ahora yo quiero",
-      "phrase": "Broken. Rota. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. شکسته.",
-      "subtext": "Broken. Rota. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Сломанная. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. مكسورة. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah.",
+      "phrase": "Broken. Rota. Salauzta. Sulaužyta. Slomljena. Счупена. Зламана. Basag.",
+      "subtext": "Broken. Rota. ভাঙা. แตก. Կոտրված. გატეხილი. Miksura. Rompita. E thyer. Cassée. Rotta. Partida. Trencada. Zerbrochen. Gebroken. Złamana. Rozbitá. Σπασμένη. Kırık. 割れた. 破碎. 부서진. टूटी. Gebreek. שבורה. Trasig. Knust. Rikki. Törött. Frântă. Zlomená. Briste. Toredig. Hautsita. Crebada. Fracta. Vỡ. Patah.",
       "imageAlt": "Fotograma 07 — Aprender a habitar las ruinas",
       "aspectRatio": "wide"
     }
