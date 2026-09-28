@@ -43,12 +43,12 @@ const TALL: Hole[] = [
   { c: [0.3, 0.87], r: [0.2, 0.045], word: 'queja', depth: 2, scale: 0.7, upper: false },
 ];
 
-/** One colour range per layer, from the surface down to the deepest */
-const GRADIENTS = [
-  ['#f3c9b0', '#f0a7a0', '#f6dcb4', '#e9b7c9'],
-  ['#9fd3c7', '#7fb3d9', '#b8a6e0', '#c7e2b2'],
-  ['#f2e6d0', '#e8d6f0', '#d9ecf2', '#f7ddc9'],
-  ['#3b2a6b', '#7a2e6e', '#1f4f7a', '#a13d5a'],
+/** Colour blocks per layer, from the surface down to the deepest */
+const PALETTES = [
+  ['#9a86d8', '#e8d77a', '#9a6a2e', '#efdcdc'],
+  ['#5cc2c0', '#d9625e', '#1f4a8a', '#e8d77a'],
+  ['#efdcdc', '#b9a6e6', '#e8d77a', '#5cc2c0'],
+  ['#4d5a1f', '#b5471f', '#7d5bc0', '#1f4a8a'],
 ];
 
 function rng(seed: number) {
@@ -152,30 +152,53 @@ function grainy(g: CanvasRenderingContext2D, w: number, h: number, alpha: number
   g.restore();
 }
 
-/** A layer of soft colour: a few large washes laid over each other */
-function gradientLayer(w: number, h: number, dpr: number, rand: () => number, colours: string[]) {
+/** A layer of coloured blocks, laid in with crossed strokes like crayon on cloth */
+function blockLayer(w: number, h: number, dpr: number, rand: () => number, colours: string[]) {
   const { c, g } = surface(w, h, dpr);
-  const base = g.createLinearGradient(0, 0, w, h);
-  colours.forEach((col, k) => base.addColorStop(k / (colours.length - 1), col));
-  g.fillStyle = base;
+  g.fillStyle = colours[0];
   g.fillRect(0, 0, w, h);
-  g.filter = 'blur(30px)';
-  for (let k = 0; k < 7; k += 1) {
+  const unit = Math.max(w, h);
+  for (let k = 0; k < 9; k += 1) {
+    g.fillStyle = colours[1 + Math.floor(rand() * (colours.length - 1))];
     const x = rand() * w;
     const y = rand() * h;
-    const r = Math.max(w, h) * (0.15 + rand() * 0.35);
-    const wash = g.createRadialGradient(x, y, 0, x, y, r);
-    wash.addColorStop(0, colours[Math.floor(rand() * colours.length)]);
-    wash.addColorStop(1, 'rgba(255, 255, 255, 0)');
-    g.globalAlpha = 0.55 + rand() * 0.35;
-    g.fillStyle = wash;
-    g.fillRect(x - r, y - r, r * 2, r * 2);
+    const bw = unit * (0.12 + rand() * 0.3);
+    const bh = unit * (0.1 + rand() * 0.3);
+    g.beginPath();
+    if (rand() < 0.35) g.arc(x, y, Math.min(bw, bh) * 0.6, 0, Math.PI * 2);
+    else g.roundRect(x - bw / 2, y - bh / 2, bw, bh, Math.min(bw, bh) * (rand() < 0.5 ? 0.5 : 0.05));
+    g.fill();
   }
-  g.globalAlpha = 1;
-  g.filter = 'none';
-  mottle(g, w, h, 70, 0.18, rand);
-  grainy(g, w, h, 0.12, rand);
+  // Crossed strokes, each a little lighter or darker than what it lies on
+  const hatch = (angle: number, gap: number) => {
+    const ca = Math.cos(angle);
+    const sa = Math.sin(angle);
+    const reach = Math.hypot(w, h);
+    g.lineWidth = 0.7;
+    for (let d = -reach; d < reach; d += gap * (0.6 + rand() * 0.8)) {
+      g.strokeStyle = rand() < 0.5 ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)';
+      g.globalAlpha = 0.04 + rand() * 0.1;
+      const ox = w / 2 - sa * d;
+      const oy = h / 2 + ca * d;
+      g.beginPath();
+      g.moveTo(ox - ca * reach, oy - sa * reach);
+      g.lineTo(ox + ca * reach, oy + sa * reach);
+      g.stroke();
+    }
+    g.globalAlpha = 1;
+  };
+  const base = rand() * Math.PI;
+  hatch(base, 2.4);
+  hatch(base + 1.1 + rand() * 0.6, 3);
+  mottle(g, w, h, 50, 0.16, rand);
+  grainy(g, w, h, 0.1, rand);
   return c;
+}
+
+/** Whether ink on this spot of a layer should be light */
+function isDark(layer: HTMLCanvasElement, x: number, y: number, dpr: number) {
+  const px = layer.getContext('2d')!.getImageData(Math.round(x * dpr), Math.round(y * dpr), 1, 1).data;
+  return 0.299 * px[0] + 0.587 * px[1] + 0.114 * px[2] < 140;
 }
 
 /** A lifted piece of the edge, hanging off a tear */
@@ -219,7 +242,7 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
     const build = () => {
       const rand = rng(0.2026);
       const { c, g } = surface(width, height, dpr);
-      const layers = GRADIENTS.map((colours) => gradientLayer(width, height, dpr, rand, colours));
+      const layers = PALETTES.map((colours) => blockLayer(width, height, dpr, rand, colours));
       // The ground everything else is torn from
       g.drawImage(layers[2], 0, 0, width, height);
 
@@ -330,8 +353,10 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
         const size = Math.min((rx * 1.2) / (line.length * 0.62), ry * 0.7, small ? 22 : 34) * h.scale;
         const x = cx + (rand() - 0.5) * size * 0.4;
         const tw = line.length * size * 0.62;
-        // On the deepest layer the ink would vanish, so it is written light there
-        const ink = h.depth === 3 ? 'rgba(250, 244, 236, 0.9)' : 'rgba(30, 25, 22, 0.85)';
+        // Light or dark ink, whichever the ground under it needs
+        const ink = isDark(layers[h.depth === 1 ? 1 : h.depth === 2 ? 2 : 3], x, cy, dpr)
+          ? 'rgba(250, 244, 236, 0.92)'
+          : 'rgba(30, 25, 22, 0.85)';
         const { c: word, g: wg } = surface(width, height, dpr);
         wg.translate(x, cy);
         wg.rotate((rand() - 0.5) * 0.08);
