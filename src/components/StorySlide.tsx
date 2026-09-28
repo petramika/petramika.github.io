@@ -4,7 +4,7 @@ import { EssayItem } from '../types';
 import { ImageSequenceSlide } from './ImageSequenceSlide';
 import { NeonMorphFrames } from './NeonMorphFrames';
 import { WordGridScene } from './WordGridScene';
-import { WaveLine } from './WaveLine';
+import { WeaveTear } from './WeaveTear';
 import { Orrery } from './Orrery';
 import { BrainField } from './BrainField';
 import { WordRain } from './WordRain';
@@ -92,9 +92,7 @@ export function StorySlide({
   // the essay alternates image and text, so the chapter keeps its picture
   // and the grid takes the place of the prose
   const isTextScene = item.textScene === 'grid';
-  // A drawn line runs under the passage, so the type steps back to let it
-  // show through from below
-  const hasWave = item.underlay === 'wave';
+  const hasWeave = item.underlay === 'weave';
   // The chapter is about looking for someone in the corners of memory
   const hasBrain = item.underlay === 'brain';
   // Words fall through the passage and break on the floor of the panel
@@ -159,10 +157,9 @@ export function StorySlide({
         </motion.div>
       )}
 
-      {/* Full-bleed drawn line, blurred and running below the type */}
-      {hasWave && (
-        <div className="pointer-events-none absolute left-1/2 top-[52%] z-0 w-screen -translate-x-1/2 -translate-y-1/2">
-          <WaveLine />
+      {hasWeave && (
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
+          <WeaveTear />
         </div>
       )}
 
@@ -187,7 +184,7 @@ export function StorySlide({
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mx-auto mb-8 ${
             isNeon ? 'text-[#0b0b0a]' : 'text-[#141518]'
-          } ${hasWave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
+          } ${hasWeave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
         >
           {item.phrase}
         </blockquote>
@@ -196,7 +193,7 @@ export function StorySlide({
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-light mb-8 ${
               isNeon ? 'text-[#5e5e55]' : 'text-[#52525b]'
-            } ${hasWave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
+            } ${hasWeave || hasRain || hasKintsugi ? 'type-halo' : ''}`}
           >
             {item.subtext}
           </p>
