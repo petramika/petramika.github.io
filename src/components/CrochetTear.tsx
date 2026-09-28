@@ -258,11 +258,15 @@ export function CrochetTear() {
     };
 
     let raf = 0;
-    const loop = () => {
+    let lastDraw = 0;
+    const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
       if (!onScreen.current) return;
       const negative = document.documentElement.classList.contains('negative-mode');
       if (!dirty && negative === drawnNegative) return;
+      // Tears land in bursts while scrolling; ten redraws a second is plenty
+      if (negative === drawnNegative && now - lastDraw < 100) return;
+      lastDraw = now;
       dirty = false;
       drawnNegative = negative;
       draw(negative);
