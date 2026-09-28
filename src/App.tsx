@@ -10,7 +10,7 @@ import { Epilogue } from './components/Epilogue';
 import { ScrollProgress } from './components/ScrollProgress';
 import { DustParticles } from './components/DustParticles';
 import { InAppGate, choseToStay } from './components/InAppGate';
-import { IN_APP } from './data/device';
+import { IN_APP, FORCE_IN_APP } from './data/device';
 
 export default function App() {
   const [items] = useState<EssayItem[]>(INITIAL_ESSAY_ITEMS);
@@ -54,7 +54,7 @@ export default function App() {
         <Loader
           sources={items[0] ? [items[0].imageSrc] : []}
           onFinished={() => setIsLoading(false)}
-          gate={IN_APP && !choseToStay() ? (release) => <InAppGate onStay={release} /> : undefined}
+          gate={IN_APP && (FORCE_IN_APP || !choseToStay()) ? (release) => <InAppGate onStay={release} /> : undefined}
         />
       )}
 
