@@ -99,7 +99,7 @@ export function ScribbleTangle() {
       // The turn drifts, so loops tighten, open out and spiral rather than repeat
       turn += (Math.random() - 0.5) * 0.08;
       const size = Math.abs(turn);
-      if (size < 0.04 || size > 0.45) turn = Math.sign(turn || 1) * (0.06 + Math.random() * 0.3);
+      if (size < 0.03 || size > 0.3) turn = Math.sign(turn || 1) * (0.04 + Math.random() * 0.22);
       if (Math.random() < 0.005) turn = -turn;
       heading += turn;
 
@@ -108,7 +108,7 @@ export function ScribbleTangle() {
       const tx = target.x - pen.x;
       const ty = target.y - pen.y;
       const td = Math.hypot(tx, ty) || 1;
-      const drift = 0.9;
+      const drift = 1.3;
       let x = pen.x + Math.cos(heading) * len + (tx / td) * drift + (Math.random() - 0.5) * 0.5;
       let y = pen.y + Math.sin(heading) * len + (ty / td) * drift + (Math.random() - 0.5) * 0.5;
 
@@ -238,7 +238,7 @@ export function ScribbleTangle() {
 
       cols = Math.ceil(width / CELL);
       density = new Uint16Array(cols * Math.ceil(height / CELL) + 1);
-      budget = Math.round((width * height) / 26);
+      budget = Math.round((width * height) / 55);
       drawn = 0;
       pen = { x: Math.random() * width, y: height * (Math.random() < 0.5 ? 0.12 : 0.9) };
       trail = [];
@@ -285,13 +285,15 @@ export function ScribbleTangle() {
 
       if (!reduced && drawn < budget) {
         // Bursts and pauses, and the hand tiring as the tangle fills
+        // Mostly slow, now and then a little quicker, then slow again
         if (now > paceUntil) {
-          paceTo = 0.2 + Math.random() * 1.8;
-          paceUntil = now + 400 + Math.random() * 1600;
+          const quick = Math.random() < 0.3;
+          paceTo = quick ? 1 + Math.random() * 0.5 : 0.3 + Math.random() * 0.35;
+          paceUntil = now + (quick ? 700 + Math.random() * 900 : 1800 + Math.random() * 2600);
         }
-        pace += (paceTo - pace) * 0.05;
-        const tiring = 1.5 - (drawn / budget) * 1.1;
-        carry += (width < 768 ? 5 : 9) * pace * tiring;
+        pace += (paceTo - pace) * 0.03;
+        const tiring = 1.2 - (drawn / budget) * 0.6;
+        carry += (width < 768 ? 1.4 : 2) * pace * tiring;
         for (; carry >= 1; carry -= 1) step();
       } else if (!settled) {
         // Out of pencil: the last of the gold dries where it lies
