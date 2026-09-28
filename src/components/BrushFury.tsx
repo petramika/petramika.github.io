@@ -131,6 +131,13 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
   const shift = s.rx * 0.28;
   const ox = Math.cos(s.angle) * shift;
   const oy = Math.sin(s.angle) * shift;
+  // The pool holds its water: glazes stay inside its edge instead of hazing past it
+  ctx.save();
+  ctx.beginPath();
+  ctx.moveTo(base[0][0], base[0][1]);
+  for (let i = 1; i < base.length; i += 1) ctx.lineTo(base[i][0], base[i][1]);
+  ctx.closePath();
+  ctx.clip();
   for (let g = 0; g < GLAZES; g += 1) {
     const first = g % 2 === 0;
     ctx.fillStyle = first ? s.colour : s.second;
@@ -141,6 +148,7 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
     ctx.globalAlpha = 0.012 + rand() * 0.014;
     fillShape(ctx, layer);
   }
+  ctx.restore();
 
   const trace = (pts: Point[]) => {
     ctx.beginPath();
@@ -314,7 +322,7 @@ export function BrushFury() {
       gctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
       gctx.fillRect(0, 0, width, height);
       gctx.globalCompositeOperation = 'source-over';
-      if (canBlur) gctx.filter = 'blur(4px)';
+      if (canBlur) gctx.filter = 'blur(1.5px)';
       gctx.globalAlpha = SETTLED;
       gctx.drawImage(s.layer, 0, 0, width, height);
       gctx.globalAlpha = 1;

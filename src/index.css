@@ -315,10 +315,17 @@ html.negative-mode .word-grid-edge {
    values.
    ------------------------------------------------------------- */
 .word-grid-word {
+  color: rgb(var(--tint, 20, 21, 24));
   opacity: calc(0.26 + var(--cell-emphasis, 0.5) * 0.62);
   transition:
+    color 1800ms ease,
     opacity 900ms ease-out,
     letter-spacing 900ms ease-out;
+}
+
+/* Written as its own complement, so the page's negative brings it back */
+html.negative-mode .word-grid-word {
+  color: rgb(var(--tint-neg, 235, 234, 231));
 }
 
 /* Repeats and echoes: present, but hanging further back */
