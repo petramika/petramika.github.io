@@ -212,6 +212,17 @@ export function Loader({ sources = [], onFinished, gate }: LoaderProps) {
         />
       </motion.div>
 
+      {!gate && (
+        <motion.p
+          className="absolute inset-x-0 top-1/2 mt-[92px] sm:mt-[112px] text-center font-editorial-mono text-[11px] uppercase tracking-[0.2em] text-[#8a8a93] select-none"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isOpening ? 0 : 1 }}
+          transition={{ duration: 0.6, delay: isOpening ? 0 : 0.4, ease: 'easeOut' }}
+        >
+          busca los easter eggs ;)
+        </motion.p>
+      )}
+
       {gate && isReady && (
         <motion.div
           className="pointer-events-auto absolute inset-x-0 top-1/2 mt-[92px] sm:mt-[112px] flex justify-center px-6"
