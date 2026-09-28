@@ -4,10 +4,10 @@ import texts from '../data/texts.json';
 
 const WORDS = Object.values(texts.brain);
 const BRISTLES = 16;
-const SAMPLES = 36;
-const DRAW_S = 0.45;
-const HOLD_S = 0.9;
-const FADE_S = 3.2;
+const SAMPLES = 28;
+const DRAW_S = 0.25;
+const HOLD_S = 0.6;
+const FADE_S = 2.8;
 /** How much of a stroke is left in the ground once it has settled */
 const SETTLED = 0.34;
 
@@ -37,6 +37,7 @@ type Stroke = {
   width: number;
   seed: number;
   angle: number;
+  layer?: HTMLCanvasElement;
 };
 
 function rng(seed: number) {
@@ -55,7 +56,6 @@ function paintStroke(
   s: Stroke,
   reach: number,
   alpha: number,
-  shake: number,
   ink: string,
 ) {
   const rand = rng(s.seed);
@@ -74,7 +74,6 @@ function paintStroke(
     const load = 0.35 + rand() * 0.65;
     // Dry bristles run out early, which is what leaves the streaks
     const runOut = 0.55 + rand() * 0.45;
-    const jag = rand() * 10;
     ctx.globalAlpha = alpha * load;
     ctx.lineWidth = (s.width / BRISTLES) * (1.4 + rand() * 1.6);
     ctx.beginPath();
@@ -88,8 +87,7 @@ function paintStroke(
       const len = Math.hypot(dx, dy) || 1;
       // Pressure: the brush lands hard, lifts at the tail
       const press = Math.sin(Math.PI * Math.min(1, t * 1.2 + 0.08)) * 0.5 + 0.5;
-      const wobble = Math.sin(t * 38 + jag) * shake + Math.sin(t * 91 + jag * 2) * shake * 0.4;
-      const off = across * press + wobble;
+      const off = across * press;
       const px = x + (-dy / len) * off;
       const py = y + (dx / len) * off;
       if (i === 0) ctx.moveTo(px, py);
@@ -123,7 +121,7 @@ function paintStroke(
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle = ink;
-    ctx.fillText(s.word, shake * 0.3, s.width * 0.05);
+    ctx.fillText(s.word, 0, s.width * 0.05);
     ctx.restore();
   }
   ctx.globalAlpha = 1;
@@ -195,11 +193,11 @@ export function BrushFury() {
     const settle = (s: Stroke) => {
       // Older paint sinks a little further each time a new layer goes down
       gctx.globalCompositeOperation = 'destination-out';
-      gctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+      gctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
       gctx.fillRect(0, 0, width, height);
       gctx.globalCompositeOperation = 'source-over';
       if (canBlur) gctx.filter = 'blur(5px)';
-      paintStroke(gctx, s, 1, SETTLED, 0, tone().ink);
+      paintStroke(gctx, s, 1, SETTLED, tone().ink);
       gctx.filter = 'none';
     };
 
@@ -225,7 +223,24 @@ export function BrushFury() {
     const observer = new ResizeObserver(resize);
     observer.observe(host);
 
+    // Finished strokes are sealed into a layer of their own, so fading one
+    // costs a single copy per frame rather than repainting its bristles
+    const pool: HTMLCanvasElement[] = [];
+    const seal = (s: Stroke) => {
+      const layer = pool.pop() ?? document.createElement('canvas');
+      layer.width = canvas.width;
+      layer.height = canvas.height;
+      const lctx = layer.getContext('2d');
+      if (!lctx) return;
+      lctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      paintStroke(lctx, s, 1, 1, tone().ink);
+      s.layer = layer;
+      // Its softened trace goes into the ground straight away, under the sharp one
+      settle(s);
+    };
+
     let raf = 0;
+    let idle = false;
     const loop = (ms: number) => {
       raf = requestAnimationFrame(loop);
       if (!onScreen.current) return;
@@ -233,44 +248,53 @@ export function BrushFury() {
       const negative = document.documentElement.classList.contains('negative-mode');
       if (negative !== mode) {
         mode = negative;
+        for (const s of active) if (s.layer) pool.push(s.layer);
         active = [];
         seedGround();
         nextAt = now + 0.3;
-        if (reduced) {
+        idle = false;
+      }
+      if (reduced) {
+        if (!idle) {
           ctx.clearRect(0, 0, width, height);
           ctx.drawImage(ground, 0, 0, width, height);
+          idle = true;
         }
+        return;
       }
-      if (reduced) return;
 
       if (now >= nextAt) {
         active.push(makeStroke(now));
-        nextAt = now + 1 + Math.random() * 0.9;
+        nextAt = now + 1.2 + Math.random() * 1;
+        idle = false;
       }
+      if (idle) return;
 
       ctx.clearRect(0, 0, width, height);
       ctx.drawImage(ground, 0, 0, width, height);
 
       const ink = tone().ink;
-      const done: Stroke[] = [];
+      const kept: Stroke[] = [];
       for (const s of active) {
         const age = now - s.born;
-        const reach = Math.min(1, age / DRAW_S);
-        const fading = Math.max(0, age - DRAW_S - HOLD_S) / FADE_S;
-        if (fading >= 1) {
-          done.push(s);
+        if (age < DRAW_S) {
+          paintStroke(ctx, s, age / DRAW_S, 1, ink);
+          kept.push(s);
           continue;
         }
-        const ease = fading * fading * (3 - 2 * fading);
-        const alpha = 1 - (1 - SETTLED) * ease;
-        // The shaking dies down as the paint settles
-        const shake = (s.width * 0.12) * (1 - ease) * (0.6 + 0.4 * Math.sin(now * 23 + s.seed * 9));
-        if (canBlur && ease > 0.02) ctx.filter = `blur(${(ease * 5).toFixed(1)}px)`;
-        paintStroke(ctx, s, reach, alpha, shake, ink);
-        ctx.filter = 'none';
+        if (!s.layer) seal(s);
+        const fading = Math.max(0, age - DRAW_S - HOLD_S) / FADE_S;
+        if (fading >= 1) {
+          if (s.layer) pool.push(s.layer);
+          continue;
+        }
+        ctx.globalAlpha = 1 - fading * fading * (3 - 2 * fading);
+        if (s.layer) ctx.drawImage(s.layer, 0, 0, width, height);
+        ctx.globalAlpha = 1;
+        kept.push(s);
       }
-      for (const s of done) settle(s);
-      if (done.length) active = active.filter((s) => !done.includes(s));
+      active = kept;
+      if (!active.length) idle = true;
     };
     raf = requestAnimationFrame(loop);
 
