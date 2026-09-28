@@ -226,8 +226,8 @@ export function Loader({ sources = [], onFinished, gate }: LoaderProps) {
       {gate && isReady && (
         <motion.div
           className="pointer-events-auto absolute inset-x-0 top-1/2 mt-[92px] sm:mt-[112px] flex justify-center px-6"
-          initial={{ opacity: 0, y: 8 }}
-          animate={isOpening ? { opacity: 0 } : { opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isOpening ? 0 : 1 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
           {gate(() => setIsOpening(true))}
