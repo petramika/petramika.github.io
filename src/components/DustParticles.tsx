@@ -79,10 +79,15 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
     }
 
     // Resize handler
+    // iOS fires resize as the address bar slides away mid-scroll; reallocating
+    // the canvas for that is a stall, so only a real change of size counts
     const handleResize = () => {
       if (!canvas) return;
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      if (w === width && Math.abs(h - height) < 140) return;
+      width = canvas.width = w;
+      height = canvas.height = h;
     };
 
     // Mouse move handler (repels dust motes)
@@ -131,7 +136,15 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
     let lastFrame = performance.now();
 
     // Physics & render animation loop
+    // Specks drifting at 30fps read the same as at 60, at half the cost on a phone
+    const frameGap = isMobile ? 1000 / 30 : 0;
+    const pace = isMobile ? 2 : 1;
+    let lastPaint = 0;
     const render = () => {
+      animationFrameId = requestAnimationFrame(render);
+      const tick = performance.now();
+      if (document.hidden || tick - lastPaint < frameGap - 1) return;
+      lastPaint = tick;
       ctx.clearRect(0, 0, width, height);
 
       /*
@@ -152,7 +165,7 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         const p = particles[i];
 
         // 1. Shimmer / breathing alpha
-        p.phase += p.phaseSpeed;
+        p.phase += p.phaseSpeed * pace;
         p.alpha = p.baseAlpha + Math.sin(p.phase) * 0.15;
 
         // 2. Mouse Repulsion Physics ("alejan de él")
@@ -180,8 +193,8 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         p.vy = p.vy * 0.94 + p.baseVy * 0.06;
 
         // Add subtle Brownian air fluctuation
-        p.x += p.vx + Math.sin(p.phase * 0.7) * 0.2;
-        p.y += p.vy;
+        p.x += (p.vx + Math.sin(p.phase * 0.7) * 0.2) * pace;
+        p.y += p.vy * pace;
 
         // 4. Wrap around boundaries smoothly
         if (p.x < -10) p.x = width + 10;
@@ -197,11 +210,9 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         ctx.fillStyle = `rgba(${shade}, ${Math.max(0.05, Math.min(1, p.alpha))})`;
         ctx.fill();
       }
-
-      animationFrameId = requestAnimationFrame(render);
     };
 
-    render();
+    animationFrameId = requestAnimationFrame(render);
 
     return () => {
       cancelAnimationFrame(animationFrameId);
