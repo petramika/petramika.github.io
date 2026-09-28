@@ -317,11 +317,6 @@ export function BrushFury() {
 
     const settle = (s: Stroke) => {
       if (!s.layer) return;
-      // Older paint sinks a little further each time a new layer goes down
-      gctx.globalCompositeOperation = 'destination-out';
-      gctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
-      gctx.fillRect(0, 0, width, height);
-      gctx.globalCompositeOperation = 'source-over';
       if (canBlur) gctx.filter = 'blur(1.5px)';
       gctx.globalAlpha = SETTLED;
       gctx.drawImage(s.layer, 0, 0, width, height);
@@ -370,7 +365,7 @@ export function BrushFury() {
       sctx.clearRect(0, 0, scratch.width, scratch.height);
       sctx.drawImage(s.layer, 0, 0);
       sctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const r = Math.max(1, s.rx * 3.6 * reach);
+      const r = Math.max(1, s.rx * 5 * reach);
       const front = sctx.createRadialGradient(s.cx, s.cy, r * 0.62, s.cx, s.cy, r);
       front.addColorStop(0, 'rgba(0, 0, 0, 1)');
       front.addColorStop(1, 'rgba(0, 0, 0, 0)');
@@ -413,6 +408,12 @@ export function BrushFury() {
       }
       if (idle) return;
 
+      // Older paint sinks back a little at a time, never in a step
+      gctx.globalCompositeOperation = 'destination-out';
+      gctx.fillStyle = 'rgba(0, 0, 0, 0.0004)';
+      gctx.fillRect(0, 0, width, height);
+      gctx.globalCompositeOperation = 'source-over';
+
       ctx.clearRect(0, 0, width, height);
       ctx.drawImage(ground, 0, 0, width, height);
 
@@ -425,14 +426,20 @@ export function BrushFury() {
           kept.push(s);
           continue;
         }
-        // Its softened trace goes into the ground under the sharp one
-        if (!s.settled) settle(s);
         const fading = Math.max(0, age - DRAW_S - HOLD_S) / FADE_S;
         if (fading >= 1) {
-          if (s.layer) pool.push(s.layer);
+          // Faded to exactly what the ground keeps, so handing it over shows no seam
+          settle(s);
+          // This frame's ground was laid before the handover, so it still needs drawing once
+          if (s.layer) {
+            ctx.globalAlpha = SETTLED;
+            ctx.drawImage(s.layer, 0, 0, width, height);
+            ctx.globalAlpha = 1;
+            pool.push(s.layer);
+          }
           continue;
         }
-        ctx.globalAlpha = 1 - fading * fading * (3 - 2 * fading);
+        ctx.globalAlpha = 1 - (1 - SETTLED) * fading * fading * (3 - 2 * fading);
         if (s.layer) ctx.drawImage(s.layer, 0, 0, width, height);
         ctx.globalAlpha = 1;
         kept.push(s);
