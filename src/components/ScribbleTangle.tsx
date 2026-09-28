@@ -63,25 +63,6 @@ export function ScribbleTangle() {
     const cellAt = (x: number, y: number) =>
       Math.max(0, Math.floor(y / CELL)) * cols + Math.max(0, Math.min(cols - 1, Math.floor(x / CELL)));
 
-    /** Lift the pencil and put it down wherever the tangle is thinnest */
-    const jump = () => {
-      let best: Point = { x: Math.random() * width, y: Math.random() * height };
-      let bestScore = Infinity;
-      for (let k = 0; k < 10; k += 1) {
-        const x = Math.random() * width;
-        const y = Math.random() * height;
-        if (inOval(x, y) < 1.1) continue;
-        const score = density[cellAt(x, y)] ?? 0;
-        if (score < bestScore) {
-          bestScore = score;
-          best = { x, y };
-        }
-      }
-      pen = best;
-      heading = Math.random() * Math.PI * 2;
-      trail = [];
-    };
-
     // Dried line goes down as one polyline, so no joins bead up where it overlaps
     const commit = (pts: Point[]) => {
       if (pts.length < 2) return;
@@ -93,38 +74,60 @@ export function ScribbleTangle() {
       if (trail.length) trail.unshift(pts[pts.length - 1]);
     };
 
-    /** One small move of the pencil: loops that wander, kept out of the light */
+    // Where the hand is drifting to: somewhere the tangle is still thin
+    let target: Point = { x: 0, y: 0 };
+    let targetAge = 0;
+    let stretch = 0;
+    const pickTarget = () => {
+      let bestScore = Infinity;
+      for (let k = 0; k < 12; k += 1) {
+        const x = Math.random() * width;
+        const y = Math.random() * height;
+        if (inOval(x, y) < 1.15) continue;
+        const score = (density[cellAt(x, y)] ?? 0) + Math.hypot(x - pen.x, y - pen.y) / 60;
+        if (score < bestScore) {
+          bestScore = score;
+          target = { x, y };
+        }
+      }
+      targetAge = 0;
+      stretch = Math.random() * Math.PI;
+    };
+
+    /** One small move of the pencil: never lifted, looping as it drifts */
     const step = () => {
       // The turn drifts, so loops tighten, open out and spiral rather than repeat
-      turn += (Math.random() - 0.5) * 0.07;
+      turn += (Math.random() - 0.5) * 0.08;
       const size = Math.abs(turn);
-      if (size < 0.03 || size > 0.42) turn = Math.sign(turn || 1) * (0.05 + Math.random() * 0.3);
-      if (Math.random() < 0.006) turn = -turn;
+      if (size < 0.04 || size > 0.45) turn = Math.sign(turn || 1) * (0.06 + Math.random() * 0.3);
+      if (Math.random() < 0.005) turn = -turn;
       heading += turn;
-      let x = pen.x + Math.cos(heading) * STEP;
-      let y = pen.y + Math.sin(heading) * STEP;
-      if (inOval(x, y) < 0.92 || x < -20 || y < -20 || x > width + 20 || y > height + 20) {
-        // Steer back out, away from the figure and into the frame
-        const out = inOval(x, y) < 0.92
-          ? Math.atan2((y - oval.cy) / oval.ry, (x - oval.cx) / oval.rx)
-          : Math.atan2(height / 2 - y, width / 2 - x);
-        heading = out + (Math.random() - 0.5) * 0.8;
-        x = pen.x + Math.cos(heading) * STEP;
-        y = pen.y + Math.sin(heading) * STEP;
+
+      // A hand draws ovals, not circles: the stroke runs longer one way round
+      const len = STEP * (1 + 0.45 * Math.sin(2 * heading + stretch));
+      const tx = target.x - pen.x;
+      const ty = target.y - pen.y;
+      const td = Math.hypot(tx, ty) || 1;
+      const drift = 0.9;
+      let x = pen.x + Math.cos(heading) * len + (tx / td) * drift + (Math.random() - 0.5) * 0.5;
+      let y = pen.y + Math.sin(heading) * len + (ty / td) * drift + (Math.random() - 0.5) * 0.5;
+
+      if (inOval(x, y) < 0.92) {
+        // Pushed back out of the light, still on the same line
+        const out = Math.atan2((y - oval.cy) / oval.ry, (x - oval.cx) / oval.rx);
+        x = pen.x + Math.cos(out) * STEP;
+        y = pen.y + Math.sin(out) * STEP;
+        if (targetAge > 60) pickTarget();
       }
+
       const next = { x, y };
       trail.push(next);
       if (trail.length > TRAIL + DRY) commit(trail.splice(0, DRY));
       pen = next;
       drawn += 1;
-      const c = cellAt(x, y);
-      density[c] += 1;
-      if (density[c] > 90 && Math.random() < 0.05) {
-        const rest = trail;
-        trail = [];
-        commit(rest);
-        jump();
-      }
+      density[cellAt(x, y)] += 1;
+      targetAge += 1;
+      if (td < 30 || targetAge > 700 || density[cellAt(x, y)] > 110) pickTarget();
     };
 
     const drawFigure = (t: typeof PALETTES.light) => {
@@ -237,7 +240,9 @@ export function ScribbleTangle() {
       density = new Uint16Array(cols * Math.ceil(height / CELL) + 1);
       budget = Math.round((width * height) / 26);
       drawn = 0;
-      jump();
+      pen = { x: Math.random() * width, y: height * (Math.random() < 0.5 ? 0.12 : 0.9) };
+      trail = [];
+      pickTarget();
       // A little of it is already there when the chapter arrives
       const head = Math.round(budget * (reduced ? 0.6 : 0.06));
       for (let i = 0; i < head; i += 1) step();
@@ -263,7 +268,11 @@ export function ScribbleTangle() {
 
     let raf = 0;
     let settled = false;
-    const loop = () => {
+    let pace = 1;
+    let paceTo = 1;
+    let paceUntil = 0;
+    let carry = 0;
+    const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
       if (!onScreen.current) return;
       const negative = document.documentElement.classList.contains('negative-mode');
@@ -275,8 +284,15 @@ export function ScribbleTangle() {
       const t = tone();
 
       if (!reduced && drawn < budget) {
-        const steps = width < 768 ? 12 : 22;
-        for (let i = 0; i < steps; i += 1) step();
+        // Bursts and pauses, and the hand tiring as the tangle fills
+        if (now > paceUntil) {
+          paceTo = 0.2 + Math.random() * 1.8;
+          paceUntil = now + 400 + Math.random() * 1600;
+        }
+        pace += (paceTo - pace) * 0.05;
+        const tiring = 1.5 - (drawn / budget) * 1.1;
+        carry += (width < 768 ? 12 : 22) * pace * tiring;
+        for (; carry >= 1; carry -= 1) step();
       } else if (!settled) {
         // Out of pencil: the last of the gold dries where it lies
         const rest = trail;
