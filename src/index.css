@@ -369,48 +369,6 @@ html.negative-mode .photo-treatment {
 }
 
 /* -------------------------------------------------------------
-   THE BRAIN (chapter VI)
-
-   One hue per part, and the drift laid over all of them keeps them
-   bleeding into one another. Written twice, because this is the
-   one place in the essay with colour of its own and the root
-   invert would hand the dark page a set of complements.
-
-   Its focus and its opacity are not here: those are written from
-   the scroll, in StorySlide, so the passage and the brain can
-   trade places as the page is read.
-   ------------------------------------------------------------- */
-.brain-field {
-  --brain-head: #b6a2ef;
-  --brain-intuition: #9cb1f2;
-  --brain-soul: #8ed0c6;
-  --brain-heart: #efa6bd;
-  --brain-body: #f0c28e;
-  --brain-drift: #ffffff;
-  --brain-fold: #4a3c78;
-  color: #141518;
-}
-
-html.negative-mode .brain-field {
-  filter: invert(1);
-  --brain-head: #452a86;
-  --brain-intuition: #2f3b78;
-  --brain-soul: #1f6259;
-  --brain-heart: #74304a;
-  --brain-body: #7a5327;
-  --brain-drift: #000000;
-  --brain-fold: #b6a6e2;
-  color: #e6e6e3;
-}
-
-.brain-labels {
-  font-family: var(--font-hand);
-  /* It carries less weight than a printed face at the same size, and it is
-     sitting on a drawing: without this the names go to thread */
-  font-weight: 600;
-}
-
-/* -------------------------------------------------------------
    STACKED PANELS
 
    Both of these are authored twice, because the root invert flips
