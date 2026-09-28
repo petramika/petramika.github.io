@@ -1,14 +1,13 @@
 import { useEffect, useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
 
-const STRANDS = 5;
 const SAMPLES = 10;
 const COARSE_QUERY = '(pointer: coarse)';
 
-type Tile = { damage: number; seed: number };
+type Point = { x: number; y: number };
 
-function hash(i: number, j: number) {
-  let h = (i * 374761393 + j * 668265263) | 0;
+function hash(i: number, j: number, k = 0) {
+  let h = (i * 374761393 + j * 668265263 + k * 2147483647) | 0;
   h = Math.imul(h ^ (h >>> 13), 1274126177);
   return ((h ^ (h >>> 16)) >>> 0) / 4294967296;
 }
@@ -23,7 +22,7 @@ function rng(seed: number) {
   };
 }
 
-/** Draws one strand, cut and frayed in proportion to the tile's damage */
+/** Draws one strand, cut and frayed in proportion to its damage */
 function strand(
   ctx: CanvasRenderingContext2D,
   at: (t: number) => [number, number],
@@ -46,7 +45,7 @@ function strand(
       const k = atStart ? 1 - s / SAMPLES : s / SAMPLES;
       if (gap > 0) {
         x += droop * k * k;
-        y += droop * k * k;
+        y += droop * k * k * 1.6;
       }
       if (s === 0) ctx.moveTo(x, y);
       else ctx.lineTo(x, y);
@@ -61,7 +60,39 @@ function strand(
   run(cut + gap, 1, droopB, true);
 }
 
-export function WeaveTear() {
+/** A yarn between two knots: a few loosely twisted plies with a slight sag */
+function thread(
+  ctx: CanvasRenderingContext2D,
+  a: Point,
+  b: Point,
+  plies: number,
+  damage: number,
+  rand: () => number,
+  fray: number,
+) {
+  const dx = b.x - a.x;
+  const dy = b.y - a.y;
+  const len = Math.hypot(dx, dy) || 1;
+  const nx = -dy / len;
+  const ny = dx / len;
+  const sag = (rand() - 0.5) * len * 0.12;
+  for (let p = 0; p < plies; p += 1) {
+    const off = (p - (plies - 1) / 2) * 1.3;
+    const twist = rand() * Math.PI * 2;
+    strand(
+      ctx,
+      (t) => {
+        const w = off * Math.cos(t * Math.PI * 3 + twist) + sag * 4 * t * (1 - t);
+        return [a.x + dx * t + nx * w, a.y + dy * t + ny * w];
+      },
+      damage,
+      rand,
+      fray,
+    );
+  }
+}
+
+export function CrochetTear() {
   const hostRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const onScreen = useOnScreen(hostRef);
@@ -76,32 +107,43 @@ export function WeaveTear() {
     const coarse = window.matchMedia(COARSE_QUERY).matches;
     let width = 0;
     let height = 0;
-    let size = 56;
+    let sx = 70;
+    let sy = 46;
     let cols = 0;
     let rows = 0;
-    let tiles: Tile[] = [];
+    let knots: Point[] = [];
+    let damage: number[] = [];
     let dirty = true;
     let drawnNegative: boolean | null = null;
+
+    const knotAt = (i: number, j: number) => knots[j * cols + i];
 
     const resize = () => {
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
       width = host.clientWidth || 1200;
       height = host.clientHeight || 800;
-      size = width < 768 ? 42 : 58;
+      sx = width < 768 ? 54 : 74;
+      sy = sx * 0.64;
       canvas.width = Math.round(width * dpr);
       canvas.height = Math.round(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const nextCols = Math.ceil(width / size) + 1;
-      const nextRows = Math.ceil(height / size) + 1;
-      // What is already torn stays torn through a resize
-      const next: Tile[] = [];
+      const nextCols = Math.ceil(width / sx) + 2;
+      const nextRows = Math.ceil(height / sy) + 2;
+      const nextKnots: Point[] = [];
+      const nextDamage: number[] = [];
       for (let j = 0; j < nextRows; j += 1) {
         for (let i = 0; i < nextCols; i += 1) {
-          const old = i < cols && j < rows ? tiles[j * cols + i] : undefined;
-          next.push({ damage: old?.damage ?? 0, seed: hash(i, j) });
+          // Honeycomb: every other row sits half a stitch over
+          nextKnots.push({
+            x: (i - 0.5 + (j % 2) * 0.5) * sx + (hash(i, j, 1) - 0.5) * sx * 0.12,
+            y: (j - 0.5) * sy + (hash(i, j, 2) - 0.5) * sy * 0.14,
+          });
+          // What is already torn stays torn through a resize
+          nextDamage.push(i < cols && j < rows ? damage[j * cols + i] : 0);
         }
       }
-      tiles = next;
+      knots = nextKnots;
+      damage = nextDamage;
       cols = nextCols;
       rows = nextRows;
       dirty = true;
@@ -111,20 +153,13 @@ export function WeaveTear() {
     observer.observe(host);
 
     const tear = (x: number, y: number, radius: number, strength: number) => {
-      const i0 = Math.max(0, Math.floor((x - radius) / size));
-      const i1 = Math.min(cols - 1, Math.floor((x + radius) / size));
-      const j0 = Math.max(0, Math.floor((y - radius) / size));
-      const j1 = Math.min(rows - 1, Math.floor((y + radius) / size));
-      for (let j = j0; j <= j1; j += 1) {
-        for (let i = i0; i <= i1; i += 1) {
-          const d = Math.hypot((i + 0.5) * size - x, (j + 0.5) * size - y);
-          if (d > radius) continue;
-          const tile = tiles[j * cols + i];
-          const next = Math.min(1, tile.damage + (1 - d / radius) * strength);
-          if (next !== tile.damage) {
-            tile.damage = next;
-            dirty = true;
-          }
+      for (let n = 0; n < knots.length; n += 1) {
+        const d = Math.hypot(knots[n].x - x, knots[n].y - y);
+        if (d > radius) continue;
+        const next = Math.min(1, damage[n] + (1 - d / radius) * strength);
+        if (next !== damage[n]) {
+          damage[n] = next;
+          dirty = true;
         }
       }
     };
@@ -135,7 +170,7 @@ export function WeaveTear() {
       const x = event.clientX - box.left;
       const y = event.clientY - box.top;
       if (x < 0 || y < 0 || x > box.width || y > box.height) return;
-      tear(x, y, size * 1.1, 0.22);
+      tear(x, y, sx * 0.9, 0.22);
     };
 
     let lastScroll = window.scrollY;
@@ -147,7 +182,7 @@ export function WeaveTear() {
       travelled += delta;
       while (travelled > 36) {
         travelled -= 36;
-        tear(Math.random() * width, Math.random() * height, size * (0.8 + Math.random() * 0.9), 0.55);
+        tear(Math.random() * width, Math.random() * height, sx * (0.7 + Math.random() * 0.8), 0.55);
       }
     };
 
@@ -155,47 +190,56 @@ export function WeaveTear() {
     if (coarse) window.addEventListener('scroll', onScroll, { passive: true });
 
     const draw = (negative: boolean) => {
+      const ink = negative ? '235, 234, 231' : '20, 21, 24';
+      const fray = sx * 0.3;
       ctx.clearRect(0, 0, width, height);
-      ctx.lineWidth = 1;
       ctx.lineCap = 'round';
-      ctx.strokeStyle = negative ? 'rgba(235, 234, 231, 0.3)' : 'rgba(20, 21, 24, 0.26)';
+      ctx.lineJoin = 'round';
+
+      // The open mesh: chains along the row and legs out to the rows either side
       ctx.beginPath();
-
-      const bow = size * 0.16;
-      const sag = size * 0.05;
-      const fray = size * 0.35;
-
       for (let j = 0; j < rows; j += 1) {
-        // Vertical bands in a row all lean the same way, and the next row leans back
-        const b = j % 2 === 0 ? bow : -bow;
         for (let i = 0; i < cols; i += 1) {
-          const tile = tiles[j * cols + i];
-          const rand = rng(tile.seed);
-          const x0 = i * size;
-          const y0 = j * size;
-          const vertical = (i + j) % 2 === 0;
+          const here = knotAt(i, j);
+          const dHere = damage[j * cols + i];
+          const rand = rng(hash(i, j, 3));
+          const link = (ii: number, jj: number, plies: number) => {
+            if (ii < 0 || ii >= cols || jj >= rows) return;
+            const d = Math.max(dHere, damage[jj * cols + ii]);
+            thread(ctx, here, knotAt(ii, jj), plies, d, rand, fray);
+          };
+          link(i + 1, j, 2);
+          const shift = j % 2;
+          link(i - 1 + shift, j + 1, 3);
+          link(i + shift, j + 1, 3);
+        }
+      }
+      ctx.lineWidth = 0.8;
+      ctx.strokeStyle = `rgba(${ink}, 0.22)`;
+      ctx.stroke();
 
-          for (let k = 0; k < STRANDS; k += 1) {
-            const f = k / (STRANDS - 1);
-            if (vertical) {
-              const x = x0 + f * size;
-              strand(ctx, (t) => [x + 2 * t * (1 - t) * b, y0 + t * size], tile.damage, rand, fray);
-            } else {
-              const y = y0 + f * size;
-              // Ends follow the lean of the vertical bands either side
-              const shift = 2 * f * (1 - f) * b;
-              const s = i % 2 === 0 ? sag : -sag;
-              strand(
-                ctx,
-                (t) => [x0 + shift + t * size, y + Math.sin(Math.PI * t) * s],
-                tile.damage,
-                rand,
-                fray,
-              );
-            }
+      // The clusters: a tight fan of stitches bunched at each knot
+      ctx.beginPath();
+      for (let j = 0; j < rows; j += 1) {
+        for (let i = 0; i < cols; i += 1) {
+          const k = knotAt(i, j);
+          const d = damage[j * cols + i];
+          const rand = rng(hash(i, j, 4));
+          const up = (i + j) % 2 === 0 ? -1 : 1;
+          for (let s = 0; s < 5; s += 1) {
+            const spread = (s - 2) * 0.22;
+            const reach = sy * (0.26 + rand() * 0.08);
+            const tip = {
+              x: k.x + Math.sin(spread) * reach,
+              y: k.y + up * Math.cos(spread) * reach,
+            };
+            const base = { x: k.x + (s - 2) * 0.8, y: k.y - up * sy * 0.06 };
+            strand(ctx, (t) => [base.x + (tip.x - base.x) * t, base.y + (tip.y - base.y) * t], d, rand, fray * 0.6);
           }
         }
       }
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = `rgba(${ink}, 0.27)`;
       ctx.stroke();
     };
 
