@@ -5,7 +5,7 @@ import texts from '../data/texts.json';
 const WORDS = Object.values(texts.brain);
 /** Glazes stacked to build one wash; each is a slightly different deformation */
 const GLAZES = 40;
-const DRAW_S = 0.55;
+const DRAW_S = 1.2;
 const HOLD_S = 0.8;
 const FADE_S = 3;
 /** How much of a stroke is left in the ground once it has settled */
@@ -200,35 +200,7 @@ function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke, ink: string) {
   }
   ctx.restore();
 
-  // Salt: little starbursts where the crystals drank the pigment back out
-  ctx.save();
-  ctx.globalCompositeOperation = 'destination-out';
-  ctx.strokeStyle = '#000';
-  ctx.fillStyle = '#000';
-  ctx.lineCap = 'round';
-  const salt = Math.round(((s.rx * s.ry) / 1400) * (0.6 + rand() * 0.6));
-  for (let k = 0; k < salt; k += 1) {
-    const x = s.cx + (rand() * 2 - 1) * s.rx;
-    const y = s.cy + (rand() * 2 - 1) * s.rx;
-    const d = insidePool(s, x, y);
-    if (d > 0.8) continue;
-    const size = 2 + rand() * 6 * (1 - d * 0.5);
-    ctx.globalAlpha = 0.4 + rand() * 0.35;
-    ctx.lineWidth = 0.7;
-    ctx.beginPath();
-    const arms = 6 + Math.floor(rand() * 4);
-    for (let a = 0; a < arms; a += 1) {
-      const t = (a / arms) * Math.PI * 2 + rand() * 0.4;
-      const l = size * (0.6 + rand() * 0.6);
-      ctx.moveTo(x, y);
-      ctx.lineTo(x + Math.cos(t) * l, y + Math.sin(t) * l);
-    }
-    ctx.stroke();
-    ctx.beginPath();
-    ctx.arc(x, y, size * 0.35, 0, Math.PI * 2);
-    ctx.fill();
-  }
-  ctx.restore();
+  const salt = Math.round((s.rx * s.ry) / 1400);
 
   // Granulation: pigment that settled into the tooth of the paper
   ctx.fillStyle = s.second;
@@ -376,15 +348,30 @@ export function BrushFury() {
     const observer = new ResizeObserver(resize);
     observer.observe(host);
 
-    /** Uncovers the wash from its middle outwards, the way water spreads */
+    // The wash spreads out with a soft wet front, not a hard edge
+    const scratch = document.createElement('canvas');
+    const sctx = scratch.getContext('2d');
     const reveal = (s: Stroke, reach: number) => {
-      if (!s.layer) return;
-      ctx.save();
-      ctx.beginPath();
-      ctx.arc(s.cx, s.cy, s.rx * 2.4 * reach, 0, Math.PI * 2);
-      ctx.clip();
-      ctx.drawImage(s.layer, 0, 0, width, height);
-      ctx.restore();
+      if (!s.layer || !sctx) return;
+      if (scratch.width !== canvas.width || scratch.height !== canvas.height) {
+        scratch.width = canvas.width;
+        scratch.height = canvas.height;
+      }
+      sctx.setTransform(1, 0, 0, 1, 0, 0);
+      sctx.globalCompositeOperation = 'source-over';
+      sctx.clearRect(0, 0, scratch.width, scratch.height);
+      sctx.drawImage(s.layer, 0, 0);
+      sctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      const r = Math.max(1, s.rx * 3.6 * reach);
+      const front = sctx.createRadialGradient(s.cx, s.cy, r * 0.62, s.cx, s.cy, r);
+      front.addColorStop(0, 'rgba(0, 0, 0, 1)');
+      front.addColorStop(1, 'rgba(0, 0, 0, 0)');
+      sctx.globalCompositeOperation = 'destination-in';
+      sctx.fillStyle = front;
+      sctx.fillRect(0, 0, width, height);
+      ctx.globalAlpha = Math.min(1, reach * 1.6);
+      ctx.drawImage(scratch, 0, 0, width, height);
+      ctx.globalAlpha = 1;
     };
 
     let raf = 0;
@@ -426,7 +413,7 @@ export function BrushFury() {
         const age = now - s.born;
         if (age < DRAW_S) {
           const k = age / DRAW_S;
-          reveal(s, 1 - (1 - k) ** 3);
+          reveal(s, 1 - (1 - k) ** 2);
           kept.push(s);
           continue;
         }

@@ -217,9 +217,23 @@ function edgeState(cellIndex: number, edgeIndex: number, step: number) {
   return { visible, length, offset };
 }
 
+/** Warm tesserae with a cool one among them, as in a painted mosaic */
+const MOSAIC = ['#7a1414', '#b3261e', '#e0782c', '#e3b33c', '#e9a07f', '#8a96a8', '#5a1f1f', '#c9643a'];
+
+/** The pieces one side is laid in: how many, how wide each, and what colour */
+function tiles(cellIndex: number, edgeIndex: number, step: number) {
+  const base = cellIndex * 97 + edgeIndex * 37;
+  // The count stays put, so pieces can resize and recolour instead of popping
+  const count = 2 + Math.floor(hash(base + 5) * 4);
+  return Array.from({ length: count }, (_, k) => ({
+    grow: 0.4 + hash(base + k * 11 + step * 3) * 2.2,
+    colour: MOSAIC[Math.floor(hash(base + k * 19 + step * 2) * MOSAIC.length)],
+  }));
+}
+
 function edgeStyle(edge: Edge, length: number, offset: number): React.CSSProperties {
   const pct = (v: number) => `${(v * 100).toFixed(2)}%`;
-  const thickness = 2;
+  const thickness = 3;
 
   if (edge === 'top' || edge === 'bottom') {
     return { [edge]: 0, left: pct(offset), width: pct(length), height: thickness };
@@ -293,9 +307,17 @@ export function WordGridScene({ chapter, index }: WordGridSceneProps) {
                       style={{
                         ...edgeStyle(edge, length, offset),
                         // Staggered so a re-roll ripples rather than snaps
-                        transitionDelay: `${((i * 53 + e * 121) % 9) * 45}ms`,
+                        transitionDelay: `${((i * 53 + e * 121) % 9) * 90}ms`,
                       }}
-                    />
+                    >
+                      {tiles(i, e, step).map((tile, k) => (
+                        <span
+                          key={k}
+                          className="word-grid-tile"
+                          style={{ flexGrow: tile.grow, backgroundColor: tile.colour }}
+                        />
+                      ))}
+                    </span>
                   );
                 })}
 
