@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { EssayItem } from '../types';
 import { ImageSequenceSlide } from './ImageSequenceSlide';
-import { NeonMorphFrames } from './NeonMorphFrames';
+import { ScribbleTangle } from './ScribbleTangle';
 import { WordGridScene } from './WordGridScene';
 import { CrochetTear } from './CrochetTear';
 import { Orrery } from './Orrery';
@@ -86,8 +86,7 @@ export function StorySlide({
     item.imageSequence && item.imageSequence.length >= 2
   );
 
-  // The neon room is a dark space, so the type has to flip with it
-  const isNeon = item.backdrop === 'neon';
+  const hasTangle = item.underlay === 'tangle';
   // The grid stands in for the WRITTEN passage, not for the photograph:
   // the essay alternates image and text, so the chapter keeps its picture
   // and the grid takes the place of the prose
@@ -115,6 +114,12 @@ export function StorySlide({
       ref={textSlideRef}
       className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-12 py-16 sm:py-24 max-w-5xl mx-auto text-center"
     >
+      {hasTangle && (
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
+          <ScribbleTangle />
+        </div>
+      )}
+
       {hasKintsugi && (
         <div className="pointer-events-none absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
           <KintsugiCrackle />
@@ -144,19 +149,19 @@ export function StorySlide({
         style={{ y: textY, opacity: textOpacity, scale: textScale }}
         className="relative z-10 w-full will-change-transform flex flex-col items-center px-4 my-auto"
       >
-        <div className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : hasCrochet ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
+        <div className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${hasCrochet || hasTangle ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageLeft, { n: pad(index + 1) })}
         </div>
 
-        <div className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : hasCrochet ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
+        <div className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${hasCrochet || hasTangle ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageRight, { n: pad(index + 1), total })}
         </div>
 
         {/* High-impact phrase with bold Swiss Grotesque typography */}
         <blockquote
           className={`font-editorial-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] md:leading-[1.04] tracking-[-0.04em] max-w-4xl mx-auto mb-8 ${
-            isNeon ? 'text-[#0b0b0a]' : 'text-[#141518]'
-          } ${hasCrochet || hasRain || hasKintsugi || hasBrain ? 'type-halo' : ''}`}
+            'text-[#141518]'
+          } ${hasCrochet || hasRain || hasKintsugi || hasBrain || hasTangle ? 'type-halo' : ''}`}
         >
           {item.phrase}
         </blockquote>
@@ -164,8 +169,8 @@ export function StorySlide({
         {item.subtext && (
           <p
             className={`font-sans-clean text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-light mb-8 ${
-              isNeon ? 'text-[#5e5e55]' : 'text-[#52525b]'
-            } ${hasCrochet || hasRain || hasKintsugi || hasBrain ? 'type-halo' : ''}`}
+              'text-[#52525b]'
+            } ${hasCrochet || hasRain || hasKintsugi || hasBrain || hasTangle ? 'type-halo' : ''}`}
           >
             {item.subtext}
           </p>
@@ -183,18 +188,6 @@ export function StorySlide({
 
   const passage = isTextScene ? (
     <WordGridScene chapter={item.chapter} index={index} />
-  ) : isNeon ? (
-    <div className="neon-room absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden bg-[#fbfbfb]">
-      <NeonMorphFrames />
-
-      {/* Room authored as its own negative: no per-frame invert layer */}
-      <div className="absolute inset-0 z-[1] pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(251,251,251,0.82)_0%,rgba(251,251,251,0.5)_38%,rgba(251,251,251,0.14)_68%,transparent_100%)]" />
-
-      <div className="absolute inset-x-0 top-0 h-48 z-[2] pointer-events-none bg-gradient-to-b from-[#fbfbfb] via-[#fbfbfb]/72 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 h-48 z-[2] pointer-events-none bg-gradient-to-t from-[#fbfbfb] via-[#fbfbfb]/72 to-transparent" />
-
-      {textSlide}
-    </div>
   ) : (
     textSlide
   );
@@ -223,8 +216,6 @@ export function StorySlide({
 
       {/* ------------------------------------------------------------- */}
       {/* 2. DIAPOSITIVA: BLOQUE DE TEXTO CON EFECTO PARALLAX FLOTANTE  */}
-      {/* El capítulo marcado como 'neon' se lee dentro de una sala     */}
-      {/* oscura con marcos de luz que giran y se transforman.          */}
       {/* ------------------------------------------------------------- */}
       <StackPanel
         order={order + 1}
