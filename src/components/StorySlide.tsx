@@ -167,11 +167,11 @@ export function StorySlide({
         style={{ y: textY, opacity: textOpacity, scale: textScale }}
         className="relative z-10 w-full will-change-transform flex flex-col items-center px-4 my-auto"
       >
-        <div className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : 'text-[#71717a]'} select-none pointer-events-none`}>
+        <div className={`hidden lg:flex absolute -left-12 xl:-left-20 top-1/2 -translate-y-1/2 writing-vertical-left text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : hasCrochet ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageLeft, { n: pad(index + 1) })}
         </div>
 
-        <div className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : 'text-[#71717a]'} select-none pointer-events-none`}>
+        <div className={`hidden lg:flex absolute -right-12 xl:-right-20 top-1/2 -translate-y-1/2 writing-vertical-right text-[11px] font-editorial-mono uppercase tracking-[0.3em] ${isNeon ? 'text-[#8e8e85]' : hasCrochet ? 'text-[#3f3f46] type-halo' : 'text-[#71717a]'} select-none pointer-events-none`}>
           {label(texts.labels.passageRight, { n: pad(index + 1), total })}
         </div>
 
