@@ -266,6 +266,49 @@ export function ScribbleTangle() {
     const observer = new ResizeObserver(resize);
     observer.observe(host);
 
+    // The cursor takes the pencil; two seconds of stillness hands it back
+    const HANDBACK_MS = 2000;
+    const hand = { x: 0, y: 0, at: -Infinity, fresh: false };
+    const onPointer = (event: PointerEvent) => {
+      if (event.pointerType === 'touch' || !onScreen.current) return;
+      const box = host.getBoundingClientRect();
+      const x = event.clientX - box.left;
+      const y = event.clientY - box.top;
+      if (x < 0 || y < 0 || x > box.width || y > box.height) return;
+      const now = performance.now();
+      // Taking the pencil up again: it goes to the hand, it does not draw its way there
+      if (now - hand.at >= HANDBACK_MS) hand.fresh = true;
+      hand.x = x;
+      hand.y = y;
+      hand.at = now;
+    };
+    window.addEventListener('pointermove', onPointer, { passive: true });
+
+    const follow = () => {
+      if (hand.fresh) {
+        hand.fresh = false;
+        const rest = trail;
+        trail = [];
+        commit(rest);
+        pen = { x: hand.x, y: hand.y };
+        trail.push(pen);
+        return;
+      }
+      const dx = hand.x - pen.x;
+      const dy = hand.y - pen.y;
+      const dist = Math.hypot(dx, dy);
+      const n = Math.floor(dist / STEP);
+      for (let i = 1; i <= n; i += 1) {
+        const next = { x: pen.x + (dx / dist) * STEP, y: pen.y + (dy / dist) * STEP };
+        trail.push(next);
+        if (trail.length > TRAIL + DRY) commit(trail.splice(0, DRY));
+        pen = next;
+        density[cellAt(next.x, next.y)] += 1;
+      }
+      // Back under its own steam, it carries on the way the hand was going
+      if (n > 0) heading = Math.atan2(dy, dx);
+    };
+
     let raf = 0;
     let settled = false;
     let pace = 1;
@@ -283,7 +326,11 @@ export function ScribbleTangle() {
       }
       const t = tone();
 
-      if (!reduced && drawn < budget) {
+      if (now - hand.at < HANDBACK_MS) {
+        follow();
+        settled = false;
+        targetAge = 1e9;
+      } else if (!reduced && drawn < budget) {
         // Bursts and pauses, and the hand tiring as the tangle fills
         // Mostly slow, now and then a little quicker, then slow again
         if (now > paceUntil) {
@@ -328,6 +375,7 @@ export function ScribbleTangle() {
     return () => {
       cancelAnimationFrame(raf);
       observer.disconnect();
+      window.removeEventListener('pointermove', onPointer);
     };
   }, [onScreen]);
 
