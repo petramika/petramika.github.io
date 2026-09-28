@@ -6,9 +6,8 @@ import { WHEEL, mix, throughTheNegative, RESTING_INK } from '../data/wheel';
 
 /**
  * A very small planetarium. Concentric rings turn around a dark core, and
- * where an orrery would carry planets this one carries a dragonfly, a
- * butterfly, a beetle, a mantis, a sneaker and a piece of nigiri — each
- * riding its own ring.
+ * where an orrery would carry planets this one carries a laptop, a brain,
+ * a book, a lemon, a camera and a kiss — each riding its own ring.
  *
  * Nothing here is drawn true. The rings are slightly out of round and each
  * one sits a little off the centre, so their slow precession is visible as a
@@ -66,7 +65,7 @@ interface Orbit {
   riderScale?: number;
 }
 
-type Rider = 'dragonfly' | 'butterfly' | 'beetle' | 'mantis' | 'sneaker' | 'sushi';
+type Rider = 'laptop' | 'brain' | 'book' | 'lemon' | 'camera' | 'kiss';
 
 /**
  * Inner rings run faster, the way they would in a real orrery, but every
@@ -75,12 +74,12 @@ type Rider = 'dragonfly' | 'butterfly' | 'beetle' | 'mantis' | 'sneaker' | 'sush
  * into one rigid shape.
  */
 const ORBITS: Orbit[] = [
-  { r: 24, cx: 1.5, cy: -1, wobble: 0.4, speed: TAU / 52, precess: 0.9, phase: 2.1, strokeWidth: 1.3, rider: 'beetle', riderScale: 0.82 },
-  { r: 39, cx: -2, cy: 1.5, wobble: 1.9, speed: TAU / 71, precess: -0.65, phase: 0.6, strokeWidth: 1.4, rider: 'sushi', riderScale: 0.86 },
-  { r: 54, cx: 2.5, cy: 2, wobble: 3.3, speed: TAU / 92, precess: 0.48, phase: 3.9, strokeWidth: 1.45, rider: 'dragonfly', riderScale: 0.92 },
-  { r: 69, cx: -1.5, cy: -2.5, wobble: 4.8, speed: TAU / 116, precess: -0.34, phase: 1.4, strokeWidth: 1.55, rider: 'mantis', riderScale: 0.9 },
-  { r: 84, cx: 1, cy: 1, wobble: 5.9, speed: TAU / 143, precess: 0.24, phase: 5.2, strokeWidth: 1.6, rider: 'sneaker', riderScale: 0.88 },
-  { r: 98, cx: -1, cy: 2, wobble: 2.6, speed: TAU / 176, precess: -0.17, phase: 3.1, strokeWidth: 1.7, rider: 'butterfly', riderScale: 0.96 },
+  { r: 24, cx: 1.5, cy: -1, wobble: 0.4, speed: TAU / 52, precess: 0.9, phase: 2.1, strokeWidth: 1.3, rider: 'laptop', riderScale: 0.82 },
+  { r: 39, cx: -2, cy: 1.5, wobble: 1.9, speed: TAU / 71, precess: -0.65, phase: 0.6, strokeWidth: 1.4, rider: 'brain', riderScale: 0.86 },
+  { r: 54, cx: 2.5, cy: 2, wobble: 3.3, speed: TAU / 92, precess: 0.48, phase: 3.9, strokeWidth: 1.45, rider: 'book', riderScale: 0.92 },
+  { r: 69, cx: -1.5, cy: -2.5, wobble: 4.8, speed: TAU / 116, precess: -0.34, phase: 1.4, strokeWidth: 1.55, rider: 'lemon', riderScale: 0.9 },
+  { r: 84, cx: 1, cy: 1, wobble: 5.9, speed: TAU / 143, precess: 0.24, phase: 5.2, strokeWidth: 1.6, rider: 'camera', riderScale: 0.88 },
+  { r: 98, cx: -1, cy: 2, wobble: 2.6, speed: TAU / 176, precess: -0.17, phase: 3.1, strokeWidth: 1.7, rider: 'kiss', riderScale: 0.96 },
 ];
 
 /** The ring's radius at one angle: round, but never quite */
@@ -119,131 +118,96 @@ function ringPath(orbit: Orbit) {
    so the bodies are solid and only the antennae and legs are strokes.
    ------------------------------------------------------------- */
 
-function Dragonfly() {
+function Laptop() {
   return (
     <g fill="currentColor">
-      {/* Two pairs of long, near-flat wings — the whole tell of the animal */}
-      <ellipse cx="-5.6" cy="-3.6" rx="5.5" ry="1.55" transform="rotate(-13 -5.6 -3.6)" />
-      <ellipse cx="5.6" cy="-3.6" rx="5.5" ry="1.55" transform="rotate(13 5.6 -3.6)" />
-      <ellipse cx="-4.9" cy="-0.5" rx="4.8" ry="1.35" transform="rotate(11 -4.9 -0.5)" />
-      <ellipse cx="4.9" cy="-0.5" rx="4.8" ry="1.35" transform="rotate(-11 4.9 -0.5)" />
-      <circle cx="0" cy="-5.6" r="1.5" />
-      <ellipse cx="0" cy="-3.1" rx="1.35" ry="2" />
-      {/* Abdomen, tapering to a point */}
-      <path d="M-0.75 -1.5 L0.75 -1.5 L0.4 8.3 Q0 9.2 -0.4 8.3 Z" />
+      {/* Open lid with the screen knocked out, then the base in front */}
+      <path fillRule="evenodd" d="M-6.6 -6.4 L6.6 -6.4 Q7.4 -6.4 7.4 -5.6 L7.4 2.6 L-7.4 2.6 L-7.4 -5.6 Q-7.4 -6.4 -6.6 -6.4 Z M-6 -5 L6 -5 L6 1.4 L-6 1.4 Z" />
+      <path d="M-9.4 3.4 L9.4 3.4 L8.4 5.6 Q8.1 6.1 7.4 6.1 L-7.4 6.1 Q-8.1 6.1 -8.4 5.6 Z" />
     </g>
   );
 }
 
-function Butterfly() {
-  const wings = (
-    <>
-      <path d="M-0.9 -2.6 C-4.6 -8.4 -9.6 -7.6 -8.7 -2.5 C-8.2 0.6 -4.2 1.4 -0.9 -0.2 Z" />
-      <path d="M-0.9 0.6 C-4.7 1.5 -7.5 4.3 -5.4 6.9 C-3.8 8.8 -1.2 6.3 -0.9 2.6 Z" />
-    </>
-  );
-  return (
-    <g fill="currentColor">
-      {wings}
-      <g transform="scale(-1 1)">{wings}</g>
-      <ellipse cx="0" cy="0.4" rx="0.85" ry="4.3" />
-      <g fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round">
-        <path d="M-0.4 -3.7 C-1.7 -6.1 -2.9 -7.3 -4.2 -8" />
-        <path d="M0.4 -3.7 C1.7 -6.1 2.9 -7.3 4.2 -8" />
-      </g>
-    </g>
-  );
-}
-
-function Beetle() {
-  return (
-    <g fill="currentColor">
-      <g fill="none" stroke="currentColor" strokeWidth="1.05" strokeLinecap="round">
-        {/* Legs, three a side, and the short clubbed antennae */}
-        <path d="M-2.8 -2.4 L-6.2 -4.4" />
-        <path d="M2.8 -2.4 L6.2 -4.4" />
-        <path d="M-3.6 0.4 L-7 0.2" />
-        <path d="M3.6 0.4 L7 0.2" />
-        <path d="M-3.4 3.4 L-6.2 5.4" />
-        <path d="M3.4 3.4 L6.2 5.4" />
-        <path d="M-1 -6 L-2.6 -8.2" />
-        <path d="M1 -6 L2.6 -8.2" />
-      </g>
-      <ellipse cx="0" cy="-5.1" rx="1.7" ry="1.3" />
-      <ellipse cx="0" cy="-2.9" rx="3" ry="2" />
-      {/* Elytra as two halves, so the seam is a gap and not a drawn line */}
-      <path d="M-0.35 -1.2 C-4.4 -0.8 -4.7 3.6 -2.5 6.7 C-1.5 8 -0.35 7.8 -0.35 6.5 Z" />
-      <path d="M0.35 -1.2 C4.4 -0.8 4.7 3.6 2.5 6.7 C1.5 8 0.35 7.8 0.35 6.5 Z" />
-    </g>
-  );
-}
-
-function Mantis() {
-  return (
-    <g fill="currentColor">
-      <g fill="none" stroke="currentColor" strokeWidth="1.15" strokeLinecap="round" strokeLinejoin="round">
-        {/* The folded raptorial forelegs: the shape that names the animal */}
-        <path d="M-1.9 -4.4 L-6.4 -3 L-4.2 -0.4" />
-        <path d="M1.9 -4.4 L6.4 -3 L4.2 -0.4" />
-        {/* Hind legs, angled back */}
-        <path d="M-1.6 0.6 L-5.6 2.6 L-4.6 5.4" />
-        <path d="M1.6 0.6 L5.6 2.6 L4.6 5.4" />
-        {/* Antennae */}
-        <path d="M-1.2 -7.2 C-2.4 -8.6 -3.6 -9.2 -4.8 -9.4" />
-        <path d="M1.2 -7.2 C2.4 -8.6 3.6 -9.2 4.8 -9.4" />
-      </g>
-      {/* Triangular head, cocked slightly, then the long neck */}
-      <path d="M-2.3 -7.5 L2.3 -7.5 L1.1 -5.2 L-1.1 -5.2 Z" />
-      <path d="M-1.05 -5.2 L1.05 -5.2 L1.35 -0.6 L-1.35 -0.6 Z" />
-      <path d="M-1.5 -0.8 C1.7 0.4 3 3.6 2.1 7.4 C1.8 8.7 0.2 8.9 -0.4 7.7 C-1.5 5.4 -2.2 2.6 -1.5 -0.8 Z" />
-    </g>
-  );
-}
-
-function Sneaker() {
-  return (
-    <g fill="currentColor">
-      {/* Side profile: sole, upper, laces. The toe lifts, which is most of
-          what separates a sneaker from a slipper at this size. */}
-      <path d="M-8.2 3.4 C-8.4 5.3 -7 6.2 -5.1 6.2 L6.6 6.2 C8.1 6.2 8.7 5.4 8.7 4.2 C8.7 3.4 8.2 3 7.2 2.9 L-7.2 2.9 C-7.9 2.95 -8.15 2.9 -8.2 3.4 Z" />
-      <path d="M-7.7 2.7 C-8 -0.7 -6.7 -2.7 -4.4 -2.9 C-2.1 -3.1 -0.5 -1.5 1.4 -0.2 C3.3 1.1 5.7 1.6 7.5 2 C8.2 2.15 8.5 2.4 8.5 2.7 Z" />
-      <g fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round">
-        <path d="M-4.4 -1.9 L-2.6 -0.6" />
-        <path d="M-2.6 -2.4 L-0.6 -0.9" />
-        <path d="M-0.7 -2.2 L1.4 -0.6" />
-      </g>
-    </g>
-  );
-}
-
-function Sushi() {
+function Brain() {
   return (
     <g>
-      {/* Nigiri seen from the side: the slab of fish reads solid, the rice
-          reads as an outline, so the two never merge into one blob. */}
       <path
-        d="M-6.6 1 C-6.6 4.6 -4.5 5.9 0 5.9 C4.5 5.9 6.6 4.6 6.6 1 C6.6 -0.5 4.7 -1.1 0 -1.1 C-4.7 -1.1 -6.6 -0.5 -6.6 1 Z"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.15"
-      />
-      <path
-        d="M-7.4 -1.4 C-7.4 -4.6 -4.7 -5.8 0 -5.8 C4.7 -5.8 7.4 -4.6 7.4 -1.5 C7.4 -0.2 4.7 0.4 0 0.4 C-4.7 0.4 -7.4 -0.2 -7.4 -1.4 Z"
+        d="M-0.4 -7.4 C-2.4 -8.6 -5.2 -7.8 -5.6 -5.6 C-7.8 -5.4 -8.8 -3 -7.8 -1.2 C-9.2 0.2 -8.8 3 -6.8 3.6 C-6.8 5.8 -4.6 7.2 -2.6 6.4 C-1.8 7.6 -0.4 7.4 -0.4 6.6 Z"
         fill="currentColor"
       />
-      {/* Band of nori holding the two together */}
-      <path d="M-1.7 -0.9 L1.7 -0.9 L1.7 5.75 C0.55 5.9 -0.55 5.9 -1.7 5.75 Z" fill="currentColor" />
+      <path
+        d="M0.4 -7.4 C2.4 -8.6 5.2 -7.8 5.6 -5.6 C7.8 -5.4 8.8 -3 7.8 -1.2 C9.2 0.2 8.8 3 6.8 3.6 C6.8 5.8 4.6 7.2 2.6 6.4 C1.8 7.6 0.4 7.4 0.4 6.6 Z"
+        fill="currentColor"
+      />
+      {/* Folds cut in with the page colour */}
+      <g fill="none" stroke="#fbfbfb" strokeWidth="0.75" strokeLinecap="round">
+        <path d="M-5.4 -3.4 C-4 -3.8 -3 -2.8 -3.2 -1.4" />
+        <path d="M-6 1.2 C-4.6 0.6 -3.2 1.4 -3.2 2.8" />
+        <path d="M5.4 -3.4 C4 -3.8 3 -2.8 3.2 -1.4" />
+        <path d="M6 1.2 C4.6 0.6 3.2 1.4 3.2 2.8" />
+      </g>
+    </g>
+  );
+}
+
+function Book() {
+  return (
+    <g fill="currentColor">
+      {/* Open, seen from above: two pages dipping to the spine */}
+      <path d="M-0.6 -4.6 C-3 -6.4 -6.2 -6.6 -9 -5.6 L-9 5.2 C-6.2 4.2 -3 4.4 -0.6 6.2 Z" />
+      <path d="M0.6 -4.6 C3 -6.4 6.2 -6.6 9 -5.6 L9 5.2 C6.2 4.2 3 4.4 0.6 6.2 Z" />
+      <g fill="none" stroke="#fbfbfb" strokeWidth="0.6" strokeLinecap="round">
+        <path d="M-7.4 -2.6 C-5.6 -3.2 -3.8 -3 -2.2 -2.2" />
+        <path d="M-7.4 0 C-5.6 -0.6 -3.8 -0.4 -2.2 0.4" />
+        <path d="M7.4 -2.6 C5.6 -3.2 3.8 -3 2.2 -2.2" />
+        <path d="M7.4 0 C5.6 -0.6 3.8 -0.4 2.2 0.4" />
+      </g>
+    </g>
+  );
+}
+
+function Lemon() {
+  return (
+    <g fill="currentColor">
+      {/* The pointed ends are what keep it from reading as an egg */}
+      <path d="M-8.6 0 C-7.4 -1.2 -6.4 -5.4 0 -5.4 C6.4 -5.4 7.4 -1.2 8.6 0 C7.4 1.2 6.4 5.4 0 5.4 C-6.4 5.4 -7.4 1.2 -8.6 0 Z" />
+      <path d="M5.2 -5.2 C6.6 -8.2 9 -8.6 9.6 -7.8 C9 -6.2 7.4 -5 5.2 -5.2 Z" />
+      <ellipse cx="-2.6" cy="-2.2" rx="2.2" ry="0.8" fill="#fbfbfb" opacity="0.7" />
+    </g>
+  );
+}
+
+function Camera() {
+  return (
+    <g>
+      <path
+        fillRule="evenodd"
+        d="M-8.2 -3.8 L-3.4 -3.8 L-2.2 -6 L2.2 -6 L3.4 -3.8 L8.2 -3.8 Q9 -3.8 9 -3 L9 5.2 Q9 6 8.2 6 L-8.2 6 Q-9 6 -9 5.2 L-9 -3 Q-9 -3.8 -8.2 -3.8 Z M-3.4 1.5 A3.4 3.4 0 1 0 3.4 1.5 A3.4 3.4 0 1 0 -3.4 1.5 Z"
+        fill="currentColor"
+      />
+      <circle cx="0" cy="1.5" r="1.7" fill="currentColor" />
+      <rect x="5.2" y="-2.6" width="2" height="1.1" rx="0.3" fill="#fbfbfb" />
+    </g>
+  );
+}
+
+function Kiss() {
+  return (
+    <g fill="currentColor">
+      {/* Lips: the cupid's bow on top, a fuller lower lip, a seam between */}
+      <path d="M-9 0 C-6.6 -2.4 -4.2 -5.2 -1.8 -4.6 C-1 -4.4 -0.5 -3.8 0 -3.2 C0.5 -3.8 1 -4.4 1.8 -4.6 C4.2 -5.2 6.6 -2.4 9 0 C6 0.4 3 -0.4 0 0.2 C-3 -0.4 -6 0.4 -9 0 Z" />
+      <path d="M-9 0.8 C-6 1.2 -3 0.8 0 1.1 C3 0.8 6 1.2 9 0.8 C7 3.8 4 5.6 0 5.6 C-4 5.6 -7 3.8 -9 0.8 Z" />
     </g>
   );
 }
 
 const RIDERS: Record<Rider, () => ReactElement> = {
-  dragonfly: Dragonfly,
-  butterfly: Butterfly,
-  beetle: Beetle,
-  mantis: Mantis,
-  sneaker: Sneaker,
-  sushi: Sushi,
+  laptop: Laptop,
+  brain: Brain,
+  book: Book,
+  lemon: Lemon,
+  camera: Camera,
+  kiss: Kiss,
 };
 
 export function Orrery() {
@@ -381,7 +345,6 @@ export function Orrery() {
 
       const here = pointAt(orbit, st.angle);
       const ahead = pointAt(orbit, st.angle + 0.02);
-      // Seen from above, an insect faces the way it is travelling
       const heading =
         (Math.atan2(ahead.y - here.y, ahead.x - here.x) * 180) / Math.PI + 90;
 

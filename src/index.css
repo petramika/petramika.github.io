@@ -70,6 +70,10 @@ html.negative-mode .loader-veil img {
   filter: none !important;
 }
 
+html.negative-mode .dust-particles-canvas {
+  filter: none !important;
+}
+
 /* -------------------------------------------------------------
    PHOTOGRAPHS: same colour treatment in negative and positive.
 
@@ -90,24 +94,6 @@ html.negative-mode .photo-treatment {
   filter: contrast(1.1) brightness(0.88) invert(1);
 }
 
-/* -------------------------------------------------------------
-   THE NEON ROOM FOLLOWS THE PAGE.
-
-   The room is authored dark, so it needs an invert of its own — and
-   the same one in both modes, which is why this rule is not scoped
-   to negative-mode. On the light page it is the only invert running,
-   so the room turns light; on the dark page it cancels the root
-   invert exactly, so the room stays the dark room it was drawn as.
-   Scoping it to one mode is what pinned it to black in both.
-
-   The background is the page's own inverted paper (#fbfbfb -> #040404)
-   rather than a near-black of its own, so the room meets the page on
-   the same value and there is no seam where the section starts — only
-   the neon, floating.
-   ------------------------------------------------------------- */
-.neon-room {
-  filter: invert(1);
-}
 
 
 /* Flash overlay: in positive mode it is pure white; in negative mode (inverted by root html) it becomes pure black */
@@ -499,6 +485,11 @@ html.negative-mode .stack-recede {
    ------------------------------------------------------------- */
 .stack-ground-paper {
   background-color: #fbfbfb;
+}
+
+/* The hairline only covers the invert fringe; on the positive page it is a visible line */
+html:not(.negative-mode) .stack-hairline {
+  display: none;
 }
 
 .stack-ground-photo {

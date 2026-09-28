@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { WHEEL, mix } from '../data/wheel';
+import { WHEEL, mix, throughTheNegative } from '../data/wheel';
 
 interface DustParticlesProps {
   negativeMode?: boolean;
@@ -126,6 +126,8 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
     // Eased rather than switched: the colour has to arrive with the section,
     // not the instant a threshold is crossed
     let colourful = 0;
+    // Drawn pre-inverted, so the canvas needs no invert layer of its own
+    const inkColor = throughTheNegative(rgbColor, negativeMode);
     let lastFrame = performance.now();
 
     // Physics & render animation loop
@@ -191,7 +193,7 @@ export function DustParticles({ negativeMode = true, density = 75 }: DustParticl
         // 5. Render particle
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        const shade = colourful > 0.004 ? mix(rgbColor, p.hue, colourful) : rgbColor;
+        const shade = colourful > 0.004 ? throughTheNegative(mix(rgbColor, p.hue, colourful), negativeMode) : inkColor;
         ctx.fillStyle = `rgba(${shade}, ${Math.max(0.05, Math.min(1, p.alpha))})`;
         ctx.fill();
       }

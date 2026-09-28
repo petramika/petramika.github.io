@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useAnimationFrame, useReducedMotion } from 'motion/react';
 import { useOnScreen } from '../hooks/useOnScreen';
 
@@ -49,11 +49,12 @@ function buildRingPath(
   waveAmp: number,
   wavePhase: number,
   rotation: number,
+  points: number,
 ): string {
   let d = '';
 
-  for (let i = 0; i <= POINTS; i++) {
-    const angle = (i / POINTS) * TAU;
+  for (let i = 0; i <= points; i++) {
+    const angle = (i / points) * TAU;
     // Sample the shape in its own unrotated frame, then place the point
     // at the rotated angle.
     const shapeAngle = angle - rotation;
@@ -88,8 +89,16 @@ function ringStateAt(ring: RingConfig, t: number) {
   };
 }
 
+/* SVG blur is rasterised on the CPU in mobile WebKit, so phones fake the bloom with plain strokes */
+const LITE_QUERY = '(max-width: 767px), (pointer: coarse)';
+const LITE_POINTS = 60;
+const LITE_FRAME_MS = 1000 / 30;
+
 export function NeonMorphFrames() {
   const reduceMotion = useReducedMotion();
+  const lite = useMemo(() => window.matchMedia(LITE_QUERY).matches, []);
+  const lastPaint = useRef(-Infinity);
+  const glowRefs = useRef<(SVGPathElement | null)[]>([]);
   const svgRef = useRef<SVGSVGElement>(null);
   const onScreen = useOnScreen(svgRef);
   // Halo and core share one path string, so the glow tracks the shape exactly
@@ -106,10 +115,11 @@ export function NeonMorphFrames() {
       if (!halo || !core) return;
 
       const { exponent, waveAmp, wavePhase, rotation } = ringStateAt(ring, t);
-      const d = buildRingPath(ring.scale * 100, exponent, waveAmp, wavePhase, rotation);
+      const d = buildRingPath(ring.scale * 100, exponent, waveAmp, wavePhase, rotation, lite ? LITE_POINTS : POINTS);
 
       halo.setAttribute('d', d);
       core.setAttribute('d', d);
+      glowRefs.current[i]?.setAttribute('d', d);
     });
   };
 
@@ -138,6 +148,8 @@ export function NeonMorphFrames() {
   useAnimationFrame((elapsed) => {
     if (!onScreen.current) return;
     if (reduceMotion || !isVisibleRef.current) return;
+    if (lite && elapsed - lastPaint.current < LITE_FRAME_MS) return;
+    lastPaint.current = elapsed;
     paint(elapsed / 1000);
   });
 
@@ -149,6 +161,7 @@ export function NeonMorphFrames() {
       className="absolute inset-0 w-full h-full overflow-visible"
       aria-hidden="true"
     >
+      {!lite && (
       <defs>
         {/*
           Two-pass neon: a wide amber bloom under a thin near-white core.
@@ -201,13 +214,9 @@ export function NeonMorphFrames() {
           </feMerge>
         </filter>
       </defs>
+      )}
 
-      {/*
-        Bloom is the only place colour lives: a muted dark orange, kept low
-        enough that it reads as a warm glow hugging the tube rather than a
-        wash that turns the whole room brown.
-      */}
-      <g filter="url(#neonBloom)" opacity="0.34">
+      <g filter={lite ? undefined : 'url(#neonBloom)'} opacity={lite ? 0.16 : 0.34}>
         {RINGS.map((ring, i) => (
           <path
             key={`halo-${ring.scale}`}
@@ -215,15 +224,32 @@ export function NeonMorphFrames() {
               haloRefs.current[i] = el;
             }}
             fill="none"
-            stroke="#b35e12"
-            strokeWidth={ring.strokeWidth * 2.8}
+            stroke="#4ca1ed"
+            strokeWidth={ring.strokeWidth * (lite ? 7 : 2.8)}
             strokeLinejoin="round"
           />
         ))}
       </g>
 
-      {/* Neutral white tube, dimming with depth */}
-      <g filter="url(#neonCore)">
+      {lite && (
+        <g opacity="0.3">
+          {RINGS.map((ring, i) => (
+            <path
+              key={`glow-${ring.scale}`}
+              ref={(el) => {
+                glowRefs.current[i] = el;
+              }}
+              fill="none"
+              stroke="#4ca1ed"
+              strokeWidth={ring.strokeWidth * 2.6}
+              strokeLinejoin="round"
+            />
+          ))}
+        </g>
+      )}
+
+      {/* Colours are complements: the room is drawn in its own negative */}
+      <g filter={lite ? undefined : 'url(#neonCore)'}>
         {RINGS.map((ring, i) => (
           <path
             key={`core-${ring.scale}`}
@@ -231,7 +257,7 @@ export function NeonMorphFrames() {
               coreRefs.current[i] = el;
             }}
             fill="none"
-            stroke="#f4f4f5"
+            stroke="#0b0b0a"
             strokeWidth={ring.strokeWidth}
             strokeLinejoin="round"
             opacity={1 - i * 0.13}
