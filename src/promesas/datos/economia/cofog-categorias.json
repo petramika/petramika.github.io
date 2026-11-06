@@ -1,0 +1,47 @@
+[
+  [
+    "pens",
+    "Pensiones",
+    "#3B5BDB"
+  ],
+  [
+    "prot",
+    "Paro, familia y otras ayudas",
+    "#74A9F0"
+  ],
+  [
+    "san",
+    "Sanidad",
+    "#2F9E44"
+  ],
+  [
+    "edu",
+    "Educación",
+    "#F59F00"
+  ],
+  [
+    "int",
+    "Intereses de la deuda",
+    "#E03131"
+  ],
+  [
+    "gen",
+    "Administración general",
+    "#868E96"
+  ],
+  [
+    "eco",
+    "Economía e infraestructuras",
+    "#AE3EC9"
+  ],
+  [
+    "seg",
+    "Seguridad y defensa",
+    "#495057"
+  ],
+  [
+    "otr",
+    "Vivienda, cultura y medio ambiente",
+    "#C08A5B"
+  ]
+]

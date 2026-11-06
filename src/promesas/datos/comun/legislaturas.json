@@ -1,0 +1,5032 @@
+[
+  {
+    "id": "1986",
+    "num": "III",
+    "a": "1986-06-22",
+    "b": "1989-10-29",
+    "s": "1986",
+    "e": "1989",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "pres": "Felipe González",
+    "form": "Mayoría absoluta",
+    "res": [
+      [
+        "PSOE",
+        184,
+        44.1
+      ],
+      [
+        "AP",
+        105,
+        26
+      ],
+      [
+        "CDS",
+        19,
+        9.2
+      ],
+      [
+        "CiU",
+        18,
+        5
+      ],
+      [
+        "IU",
+        7,
+        4.6
+      ],
+      [
+        "PNV",
+        6,
+        1.5
+      ],
+      [
+        "HB",
+        5,
+        1.1
+      ],
+      [
+        "OT",
+        6,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "i",
+        "Economía e impuestos",
+        "Inflación en torno al 3% en dos años",
+        "Bajar la inflación hasta cerca del 3% en dos años, en línea con la media de la CEE.",
+        "El IPC cerró 1988 en el 5,8% interanual (dic. 1988) y subió al 6,9% en 1989, según el INE.",
+        {
+          "m": "≈3% en 1988",
+          "g": "5,8% (dic. 1988)",
+          "pct": 47
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.ine.es/jaxiT3/Tabla.htm?t=50911",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Ratificar el Acta Única Europea",
+        "Ratificar pronto en las Cortes el Acta Única Europea y avanzar hacia el mercado interior de 1992.",
+        "La Ley Orgánica 4/1986, de 26 de noviembre, autorizó la ratificación del Acta Única Europea.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1986/11/26/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Sanidad",
+        "Sanidad pública para quien aún no la tiene",
+        "Extender la asistencia sanitaria pública, desarrollando la Ley General de Sanidad, a los sectores que todavía carecen de ella.",
+        "El Real Decreto 1088/1989 extendió la asistencia sanitaria de la Seguridad Social a las personas sin recursos económicos suficientes.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rd/1989/09/08/1088",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Cobertura a parados de larga duración y con cargas familiares",
+        "Dar protección económica a los parados con cargas familiares que no tienen cobertura y reincorporar a los parados de larga duración.",
+        "El Real Decreto-ley 3/1989 creó y amplió subsidios para parados de larga duración, sobre todo mayores de 45 años y con responsabilidades familiares.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/1989/03/31/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Mantener el poder adquisitivo de las pensiones",
+        "Garantizar que las pensiones conservan su capacidad adquisitiva.",
+        "Tras la desviación de la inflación de 1988, el RD-ley 3/1989 aprobó una revalorización adicional que compensó la pérdida y la consolidó para 1989.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/1989/03/31/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Acercar las pensiones mínimas al salario mínimo",
+        "Acercar las pensiones más bajas al salario mínimo interprofesional (SMI).",
+        "El RD-ley 3/1989 subió un 11,9% la mínima con cónyuge a cargo para acercarla al SMI; la equiparación plena llegó en 1990 (RD 863/1990).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/1989/03/31/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Pensiones",
+        "Pensiones para quien no cotizó",
+        "Integrar en el sistema de pensiones a quienes no han cotizado y hoy están desasistidos (pensiones no contributivas).",
+        "El proyecto entró en el Congreso pero decayó al disolverse las Cortes en 1989; se aprobó en la IV legislatura como Ley 26/1990.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Autonomías",
+        "Completar las transferencias a las CCAA",
+        "Completar en cuatro años los traspasos pendientes a las comunidades autónomas que no han terminado el ciclo de transferencias.",
+        "La ampliación de competencias de las comunidades del artículo 143 no llegó hasta la Ley Orgánica 9/1992, ya en la IV legislatura.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1992/12/23/9",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Autonomías",
+        "Estatutos de Ceuta y Melilla",
+        "Aprobar en la legislatura los Estatutos de Autonomía de Ceuta y Melilla.",
+        "No se aprobaron en la III legislatura; los Estatutos llegaron con las Leyes Orgánicas 1/1995 y 2/1995, de 13 de marzo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1995/03/13/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Autonomías",
+        "Sistema definitivo de financiación autonómica",
+        "Pactar en el Consejo de Política Fiscal y Financiera un sistema de financiación definitivo para las comunidades autónomas.",
+        "El CPFF aprobó el 7-11-1986 un método de financiación, pero solo para el quinquenio 1987-1991, no definitivo; lo aplicó la Ley 21/1986 de Presupuestos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1986/12/23/21",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Nueva financiación de los ayuntamientos",
+        "Aprobar en la legislatura un nuevo sistema de financiación de las corporaciones locales.",
+        "La Ley 39/1988, de 28 de diciembre, reguladora de las Haciendas Locales, estableció el nuevo sistema de tributos y participación de los municipios.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1988/12/28/39",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Derechos y sociedad",
+        "Ley de justicia gratuita",
+        "Aprobar la ley de justicia gratuita que estaba casi lista al acabar la legislatura anterior.",
+        "No se aprobó en la III legislatura; la Ley 1/1996, de 10 de enero, de asistencia jurídica gratuita llegó siete años después.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1996/01/10/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Fiscalía especial antidroga",
+        "Institucionalizar la fiscalía antidroga prevista en el Plan Nacional sobre Drogas.",
+        "La Ley 5/1988, de 24 de marzo, creó la Fiscalía Especial para la Prevención y Represión del Tráfico Ilegal de Drogas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1988/03/24/5",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Más penas para el narcotráfico",
+        "Endurecer las penas, multas y decomisos para los traficantes de drogas.",
+        "La Ley Orgánica 1/1988 reformó el Código Penal y elevó penas y multas por tráfico ilegal de drogas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1988/03/24/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Menos presencia militar de EE UU",
+        "Negociar con Estados Unidos la reducción de sus efectivos e instalaciones en España y cambiar la relación defensiva bilateral.",
+        "El Convenio de Cooperación para la Defensa de 1-12-1988 sustituyó al de 1982 y redujo la presencia militar estadounidense en España.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/ai/1988/12/01/(1)",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Europa y exterior",
+        "Solución para Gibraltar",
+        "Avanzar o llegar en la legislatura a una solución definitiva para la descolonización de Gibraltar.",
+        "No hubo solución: Gibraltar sigue siendo colonia británica y España mantiene la reclamación ante la ONU.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.exteriores.gob.es/es/PoliticaExterior/Paginas/Gibraltar.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Entrar en la Unión Europea Occidental",
+        "Integrar a España en la Unión Europea Occidental (UEO).",
+        "España firmó el Protocolo de Adhesión a la UEO el 14-11-1988 y lo ratificó (BOE de 8-5-1990).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/ai/1988/11/14/(1)",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Adherirse al Tratado de No Proliferación",
+        "Avanzar hacia la adhesión al Tratado de No Proliferación de armas nucleares.",
+        "España se adhirió al TNP en 1987 (instrumento publicado en el BOE de 31-12-1987).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/ai/1968/07/01/(1)",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Rehabilitar a los militares de la UMD",
+        "Resolver en esta fase la situación de los militares de la extinguida Unión Militar Democrática.",
+        "La Ley 24/1986, de 24 de diciembre, de rehabilitación de militares profesionales, permitió su reincorporación.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1986/12/24/24",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "AP",
+        "Rebajar impuestos y gasto público",
+        "Privatizar empresas públicas"
+      ],
+      [
+        "CDS",
+        "Lucha contra el paro desde el centro"
+      ]
+    ],
+    "prog": {
+      "url": "",
+      "estado": "no disponible",
+      "nota": "No se ha localizado el programa electoral del PSOE en PDF. Las promesas salen del discurso de investidura de Felipe González (Diario de Sesiones del Congreso), donde se compromete a aplicar el programa. Investidura del 22-7-1986 (DS núm. 2, III legislatura)."
+    }
+  },
+  {
+    "id": "1989",
+    "num": "IV",
+    "a": "1989-10-29",
+    "b": "1993-06-06",
+    "s": "1989",
+    "e": "1993",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "pres": "Felipe González",
+    "form": "Mayoría absoluta (175 escaños)",
+    "res": [
+      [
+        "PSOE",
+        175,
+        39.6
+      ],
+      [
+        "PP",
+        107,
+        25.8
+      ],
+      [
+        "CiU",
+        18,
+        5
+      ],
+      [
+        "IU",
+        17,
+        9.1
+      ],
+      [
+        "CDS",
+        14,
+        7.9
+      ],
+      [
+        "PNV",
+        5,
+        1.2
+      ],
+      [
+        "HB",
+        4,
+        1.1
+      ],
+      [
+        "OT",
+        10,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Economía e impuestos",
+        "Reforma del IRPF",
+        "Reformar el impuesto sobre la renta manteniendo la progresividad, favoreciendo las rentas bajas y estimulando el ahorro.",
+        "La Ley 18/1991, de 6 de junio, aprobó un nuevo IRPF, en vigor desde 1992.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1991/06/06/18",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Ley de pensiones no contributivas",
+        "Aprobar la ley de pensiones no contributivas para universalizar el derecho a una pensión.",
+        "La Ley 26/1990, de 20 de diciembre, creó las pensiones no contributivas de jubilación e invalidez en la Seguridad Social.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1990/12/20/26",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Pensión mínima familiar igual al SMI en 1990",
+        "Equiparar en 1990 la pensión mínima con cónyuge a cargo al salario mínimo y subir en proporción las demás mínimas.",
+        "El RD 863/1990 subió un 10,54% las mínimas y declaró cumplida la equiparación de la mínima familiar al SMI neto.",
+        {
+          "m": "Mínima familiar = SMI neto en 1990",
+          "g": "Equiparada en 1990",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rd/1990/07/06/863",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Catorce pagas para todos los pensionistas",
+        "Establecer catorce pagas anuales para todos los pensionistas.",
+        "La Ley 4/1990 fijó dos pagas extraordinarias para las pensiones asistenciales y el RD 863/1990 las extendió a los subsidios de la LISMI.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1990/06/29/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Escolarización obligatoria hasta los 16",
+        "Reformar la enseñanza no universitaria con escolarización obligatoria y gratuita hasta los dieciséis años.",
+        "La LOGSE (Ley Orgánica 1/1990) llevó la enseñanza básica obligatoria y gratuita hasta los 16 años.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1990/10/03/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Reforma de la Ley del Suelo",
+        "Reformar la Ley del Suelo para aumentar la oferta de vivienda y combatir la especulación.",
+        "La Ley 8/1990, de 25 de julio, reformó el régimen urbanístico y las valoraciones del suelo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1990/07/25/8",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Vivienda",
+        "Nueva Ley de Arrendamientos Urbanos",
+        "Reformar la Ley de Arrendamientos Urbanos para fomentar el alquiler.",
+        "El proyecto se remitió a las Cortes en 1992, pero su tramitación quedó interrumpida en abril de 1993 por el adelanto electoral.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/CO/CO_068.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Mili de nueve meses",
+        "Reducir el servicio militar obligatorio a nueve meses dentro de la legislatura.",
+        "La Ley Orgánica 13/1991 fijó la mili en nueve meses desde el reemplazo de 1992.",
+        {
+          "m": "9 meses",
+          "g": "9 meses desde 1992",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1991/12/20/13",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Derechos y sociedad",
+        "Nuevo Código Penal",
+        "Elaborar un nuevo Código Penal con amplio consenso.",
+        "El proyecto de Código Penal entró en el Congreso en septiembre de 1992 y caducó con la disolución de las Cortes en 1993.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L4/CONG/BOCG/A/A_102-01.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Cumplimiento íntegro de penas por terrorismo",
+        "Proponer reformas legales para que las condenas por terrorismo y crimen organizado se cumplan íntegras.",
+        "No se aprobó en la legislatura; el cumplimiento íntegro llegó con la Ley Orgánica 7/2003, con Gobierno del PP.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2003/06/30/7",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Infraestructuras",
+        "Tren de alta velocidad y ancho europeo",
+        "Poner en marcha el tren de alta velocidad y el ancho de vía europeo.",
+        "La línea AVE Madrid-Sevilla, en ancho internacional, entró en servicio comercial el 21 de abril de 1992.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://theobjective.com/cultura/2022-04-21/el-ave-cumple-30-anos-hasta-465-millones-de-pasarejos-transportados-desde-el-primer-madrid-sevilla/",
+          "rmedio": "The Objective"
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Acuerdo de formación profesional con los agentes sociales",
+        "Ofrecer a sindicatos y empresarios un acuerdo para desarrollar la formación profesional.",
+        "Se aprobó el Programa Nacional de FP 1993-1996 (500.000 millones) y un acuerdo de formación continua con los agentes sociales (200.000 millones).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Más competencias para las CCAA del 143",
+        "Pactar con las fuerzas políticas el ámbito competencial de las comunidades autónomas del artículo 143.",
+        "Tras los pactos autonómicos de 1992, la Ley Orgánica 9/1992 transfirió nuevas competencias a esas comunidades.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1992/12/23/9",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Nuevo acuerdo de financiación autonómica",
+        "Negociar, por calendario, la financiación de las comunidades autónomas.",
+        "El Consejo de Política Fiscal y Financiera aprobó el 20-1-1992 el método de financiación del quinquenio 1992-1996, aplicado en los Presupuestos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1993/12/29/21",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Apoyo a la Unión Económica y Monetaria",
+        "Apoyar una mayor celeridad en la Unión Económica y Monetaria y la conferencia intergubernamental.",
+        "España firmó el Tratado de Maastricht y la Ley Orgánica 10/1992 autorizó su ratificación.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L4/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1992/12/28/10",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Bajar impuestos",
+        "Reducir déficit y paro"
+      ],
+      [
+        "IU",
+        "Más gasto social"
+      ]
+    ],
+    "prog": {
+      "url": "",
+      "estado": "no disponible",
+      "nota": "No se ha localizado el programa electoral del PSOE en PDF. Las promesas salen del discurso de investidura de Felipe González (Diario de Sesiones del Congreso), donde se compromete a aplicar el programa. Investidura del 4-12-1989 (DS núm. 2, IV legislatura)."
+    }
+  },
+  {
+    "id": "1993",
+    "num": "V",
+    "a": "1993-06-06",
+    "b": "1996-03-03",
+    "s": "1993",
+    "e": "1996",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "apoyos": "CiU y PNV",
+    "pres": "Felipe González",
+    "form": "En minoría",
+    "res": [
+      [
+        "PSOE",
+        159,
+        38.8
+      ],
+      [
+        "PP",
+        141,
+        34.8
+      ],
+      [
+        "IU",
+        18,
+        9.6
+      ],
+      [
+        "CiU",
+        17,
+        4.9
+      ],
+      [
+        "PNV",
+        5,
+        1.2
+      ],
+      [
+        "CC",
+        4,
+        0.9
+      ],
+      [
+        "OT",
+        6,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Economía e impuestos",
+        "Reforma del Impuesto de Sociedades",
+        "Reformar el Impuesto de Sociedades (doble imposición, ajustes contables, amortizaciones).",
+        "La Ley 43/1995, de 27 de diciembre, aprobó un nuevo Impuesto sobre Sociedades.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1995/12/27/43",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Ley de Arrendamientos Urbanos",
+        "Aprobar la Ley de Arrendamientos Urbanos como reforma estructural.",
+        "La Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos, sustituyó a la ley de 1964.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1994/11/24/29",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Medio ambiente",
+        "Plan Hidrológico Nacional",
+        "Aprobar el Plan Hidrológico Nacional para aprovechar mejor los recursos hídricos.",
+        "El Plan no se aprobó en la legislatura; llegó con la Ley 10/2001, de 5 de julio, bajo Gobierno del PP.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2001/07/05/10",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Trabajo",
+        "Pacto social por el empleo",
+        "Cerrar con sindicatos y empresarios un pacto global de rentas y reformas para crear empleo.",
+        "No hubo acuerdo: el Gobierno aprobó la reforma por el RD-ley 18/1993 y el ministro Griñán admitió en el Congreso que las negociaciones fracasaron.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_041.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Recuperar el contrato de aprendizaje",
+        "Fomentar los contratos a tiempo parcial y de relevo y recuperar el contrato de aprendizaje.",
+        "La Ley 10/1994, de 19 de mayo, de medidas urgentes de fomento de la ocupación, reguló el aprendizaje y el tiempo parcial.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1994/05/19/10",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Reforma de la contratación y la movilidad",
+        "Reformar las modalidades de contratación y facilitar la movilidad funcional y geográfica en las empresas.",
+        "La Ley 11/1994, de 19 de mayo, reformó el Estatuto de los Trabajadores en contratación y movilidad.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1994/05/19/11",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Ley de partidos y financiación",
+        "Aprobar una ley de partidos que limite su financiación a la pública y a donaciones de personas físicas.",
+        "No se aprobó en la legislatura; la financiación de los partidos no se reformó hasta la Ley Orgánica 8/2007.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2007/07/04/8",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Senado como cámara territorial",
+        "Reformar el Reglamento del Senado para acercarlo a una cámara de representación territorial.",
+        "La reforma del Reglamento de enero de 1994 creó la Comisión General de las Comunidades Autónomas en el Senado.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/boe/dias/1994/01/19/pdfs/A01536-01540.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Más poderes para el CGPJ",
+        "Reformar la ley para que el Consejo General del Poder Judicial pueda ejercer sus poderes, como pedía el propio Consejo.",
+        "La Ley Orgánica 16/1994, de 8 de noviembre, reformó la Ley Orgánica del Poder Judicial.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1994/11/08/16",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Corresponsabilidad fiscal antes de octubre",
+        "Cerrar en el CPFF antes de octubre un acuerdo de corresponsabilidad fiscal y llevarlo a los Presupuestos de 1994.",
+        "El CPFF aprobó el 7-10-1993 la corresponsabilidad fiscal (tramo de IRPF), recogida en la Ley 21/1993 de Presupuestos para 1994.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1993/12/29/21",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Reforma de los estatutos del artículo 143",
+        "Plasmar la ampliación de competencias en la reforma de los estatutos de las diez comunidades del artículo 143.",
+        "Las Leyes Orgánicas 1/1994 a 11/1994, de 24 de marzo, reformaron esos estatutos de autonomía.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1994/03/24/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Estatutos de Ceuta y Melilla",
+        "Aprobar en la legislatura los estatutos de autonomía de Ceuta y Melilla.",
+        "Se aprobaron por las Leyes Orgánicas 1/1995 y 2/1995, de 13 de marzo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1995/03/13/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Régimen fiscal de Canarias y zona especial",
+        "Completar el régimen económico-fiscal de Canarias con una zona económica especial.",
+        "La Ley 19/1994, de 6 de julio, modificó el REF de Canarias y creó la Zona Especial Canaria.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/1994/07/06/19",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Reforma del régimen local de las grandes ciudades",
+        "Preparar un Libro Blanco y modificar el régimen local básico de las grandes ciudades.",
+        "No se reformó en la legislatura; el régimen de los municipios de gran población llegó con la Ley 57/2003.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2003/12/16/57",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Instituciones",
+        "Ley de organización de la Administración del Estado",
+        "Aprobar una nueva ley de organización de la Administración General del Estado, también de su organización territorial.",
+        "El proyecto llegó al Congreso en octubre de 1995 y decayó con la disolución; el PP lo aprobó como Ley 6/1997.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L5/CONG/BOCG/A/A_138-01.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Ampliación de la UE a Suecia, Austria, Finlandia y Noruega",
+        "Apoyar la ampliación de la Unión Europea a Suecia, Austria, Noruega y Finlandia.",
+        "La Ley Orgánica 20/1994 autorizó ratificar el Tratado de Adhesión; Austria, Finlandia y Suecia entraron en 1995 (Noruega lo rechazó en referéndum).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L5/CONG/DS/PL/PL_002.PDF",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/1994/12/29/20",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Regeneración democrática",
+        "Rebaja fiscal y control del gasto"
+      ],
+      [
+        "IU",
+        "Más empleo público"
+      ]
+    ],
+    "prog": {
+      "url": "",
+      "estado": "no disponible",
+      "nota": "No se ha localizado el programa electoral del PSOE en PDF. Las promesas salen del discurso de investidura de Felipe González (Diario de Sesiones del Congreso), donde se compromete a aplicar el programa. Investidura del 8-7-1993 (DS núm. 2, V legislatura)."
+    }
+  },
+  {
+    "id": "1996",
+    "num": "VI",
+    "a": "1996-03-03",
+    "b": "2000-03-12",
+    "s": "1996",
+    "e": "2000",
+    "gov": "PP",
+    "mandato": [
+      "PP"
+    ],
+    "apoyos": "CiU, PNV y CC",
+    "pres": "José María Aznar",
+    "form": "En minoría (Pacto del Majestic)",
+    "res": [
+      [
+        "PP",
+        156,
+        38.8
+      ],
+      [
+        "PSOE",
+        141,
+        37.6
+      ],
+      [
+        "IU",
+        21,
+        10.5
+      ],
+      [
+        "CiU",
+        16,
+        4.6
+      ],
+      [
+        "PNV",
+        5,
+        1.3
+      ],
+      [
+        "CC",
+        4,
+        0.9
+      ],
+      [
+        "OT",
+        7,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Europa y exterior",
+        "Entrar en el euro en 1999",
+        "Cumplir los criterios de Maastricht (déficit del 3% del PIB en 1997) para entrar en la tercera fase de la Unión Monetaria en 1999.",
+        "El Consejo de la UE decidió el 2-5-1998 que España cumplía las condiciones para adoptar el euro el 1-1-1999; lo recoge la Ley 46/1998 de introducción del euro.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=13",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1998-29216",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Pacto de Toledo y poder adquisitivo de las pensiones",
+        "Aplicar las recomendaciones del Pacto de Toledo y garantizar por ley el poder adquisitivo de las pensiones.",
+        "La Ley 24/1997 de Consolidación y Racionalización de la Seguridad Social fijó la revalorización anual de las pensiones, incluidas las mínimas, según el IPC previsto.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=16",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1997-15810",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Gobierno de 14 ministerios",
+        "Reducir la Administración del Estado con un Gobierno de catorce ministerios y menos altos cargos.",
+        "El Real Decreto 758/1996, de 5 de mayo, estructuró el Gobierno en 14 departamentos ministeriales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=20",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-9943",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Fusionar Educación y Cultura",
+        "Integrar los Ministerios de Educación y Ciencia y de Cultura en un único departamento.",
+        "El Real Decreto 758/1996 creó el Ministerio de Educación y Cultura con las competencias de ambos ministerios.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-9943",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Crear el Ministerio de Medio Ambiente",
+        "Crear un Ministerio de Medio Ambiente para impulsar la política ambiental del Estado.",
+        "El Real Decreto 758/1996 creó el Ministerio de Medio Ambiente, separado de Obras Públicas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-9943",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Educación",
+        "Gratuidad de la enseñanza de 3 a 16 años",
+        "Extender durante la legislatura la gratuidad de la enseñanza desde los tres hasta los dieciséis años.",
+        "No se aprobó en la VI legislatura; la gratuidad de la Educación Infantil (3-6 años) llegó con la LOCE en diciembre de 2002.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-25037",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Regulador independiente de telecomunicaciones",
+        "Crear un consejo regulador de las telecomunicaciones, independiente, que garantice la competencia en el sector.",
+        "El Real Decreto-ley 6/1996 creó la Comisión del Mercado de las Telecomunicaciones como órgano independiente.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-13001",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Estatuto del contribuyente",
+        "Aprobar un estatuto del contribuyente con los derechos y garantías de los ciudadanos ante Hacienda.",
+        "Se aprobó la Ley 1/1998, de 26 de febrero, de Derechos y Garantías de los Contribuyentes.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1998-4618",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Reforma del IRPF",
+        "Reformar la tarifa del IRPF para adaptarla a las circunstancias personales y familiares y fomentar el ahorro.",
+        "La Ley 40/1998 aprobó un nuevo IRPF, con mínimos personales y familiares y nueva tarifa, vigente desde 1999.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1998-28472",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Reforma de la ley del suelo",
+        "Reformar la legislación del suelo para abaratar el acceso a la vivienda.",
+        "Se aprobó la Ley 6/1998, de 13 de abril, sobre régimen del suelo y valoraciones.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1998-8788",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Corresponsabilidad fiscal de las CCAA",
+        "Ceder a las comunidades un tramo del IRPF con capacidad normativa sobre tarifa y deducciones, para el quinquenio 1997-2001.",
+        "La Ley 14/1996 de cesión de tributos dividió el IRPF en parte estatal y autonómica y permitió a las CCAA fijar tarifa y deducciones propias.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=18",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-29118",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Reformas de los Estatutos de Canarias y Aragón",
+        "Impulsar la tramitación consensuada de las reformas de los Estatutos de Canarias y Aragón.",
+        "Se aprobaron las Leyes Orgánicas 4/1996 (Canarias) y 5/1996 (Aragón), de 30 de diciembre.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=18",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-29114",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Subdelegados del Gobierno",
+        "Reformar la Administración periférica: un delegado por comunidad y subdelegados en cada provincia, suprimiendo duplicidades.",
+        "La Ley 6/1997 (LOFAGE) creó los subdelegados del Gobierno dependientes de los delegados en cada comunidad.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=19",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1997-7878",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Ley del Gobierno",
+        "Presentar un proyecto de ley sobre el Gobierno y la Administración del Estado.",
+        "Se aprobó la Ley 50/1997, de 27 de noviembre, del Gobierno.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=20",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1997-25336",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Pacto local",
+        "Proponer a los grupos y a la FEMP un pacto local que refuerce las competencias de los ayuntamientos.",
+        "La Ley 11/1999 reformó la Ley de Bases de Régimen Local con medidas para el desarrollo del Gobierno Local, fruto del pacto local.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=19",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1999-8932",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Reforma del Senado",
+        "Continuar la reforma del Senado para convertirlo en Cámara de representación territorial.",
+        "No hubo reforma; en 2006 el Consejo de Estado seguía informando sobre cómo reformar el Senado a petición del Gobierno.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=19",
+          "pmedio": "",
+          "rurl": "https://www.consejo-estado.es/wp-content/uploads/2021/02/MODIFICACIONES-CONSTITUCION-ESP-1.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Fiscal General de la carrera fiscal",
+        "Nombrar Fiscal General del Estado a un miembro de la carrera fiscal.",
+        "El Real Decreto 2036/1996 nombró Fiscal General a Juan Cesáreo Ortiz Úrculo, fiscal de carrera.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=20",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-20326",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Instituciones",
+        "Nuevas leyes de enjuiciamiento",
+        "Reformar las Leyes de Enjuiciamiento Civil y Criminal para reducir procedimientos y agilizar la justicia.",
+        "Se aprobó la nueva Ley de Enjuiciamiento Civil (Ley 1/2000), pero la de Enjuiciamiento Criminal no se reformó en la legislatura.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=20",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-323",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Saneamiento de RTVE",
+        "Un modelo viable de RTVE con financiación mixta y controles que eviten el endeudamiento.",
+        "No se reformó; la Ley 17/2006, ya con el PSOE, fue la que prohibió financiar el déficit de RTVE con deuda.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=20",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-9958",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Fin del servicio militar obligatorio",
+        "Sustituir el modelo mixto por unas Fuerzas Armadas profesionales y suprimir el servicio militar obligatorio.",
+        "La Ley 17/1999 fijó el modelo profesional y el Real Decreto 247/2001 suspendió la mili el 31-12-2001.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF#page=22",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-4711",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PSOE",
+        "Defender el Estado del bienestar",
+        "Sistema público de pensiones"
+      ],
+      [
+        "IU",
+        "Semana laboral de 35 horas"
+      ]
+    ],
+    "prog": {
+      "url": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF",
+      "estado": "no disponible",
+      "nota": "No se ha localizado en línea el programa electoral del PP de 1996. Las promesas proceden del discurso de investidura de Aznar (DS Congreso, VI Legislatura, núm. 2, 3-5-1996), documento oficial."
+    }
+  },
+  {
+    "id": "2000",
+    "num": "VII",
+    "a": "2000-03-12",
+    "b": "2004-03-14",
+    "s": "2000",
+    "e": "2004",
+    "gov": "PP",
+    "mandato": [
+      "PP"
+    ],
+    "pres": "José María Aznar",
+    "form": "Mayoría absoluta",
+    "res": [
+      [
+        "PP",
+        183,
+        44.5
+      ],
+      [
+        "PSOE",
+        125,
+        34.2
+      ],
+      [
+        "CiU",
+        15,
+        4.2
+      ],
+      [
+        "IU",
+        8,
+        5.5
+      ],
+      [
+        "PNV",
+        7,
+        1.5
+      ],
+      [
+        "CC",
+        4,
+        1.1
+      ],
+      [
+        "BNG",
+        3,
+        1.3
+      ],
+      [
+        "OT",
+        5,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Economía e impuestos",
+        "Ley de Estabilidad Presupuestaria",
+        "Adelantar el equilibrio presupuestario a 2001 y aprobar una nueva ley general de estabilidad presupuestaria.",
+        "Se aprobó la Ley 18/2001, de 12 de diciembre, General de Estabilidad Presupuestaria, que impuso el equilibrio a todas las administraciones.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=11",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-23523",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Suprimir el IAE al 90% de negocios",
+        "Eliminar el Impuesto de Actividades Económicas para el 90% de pequeñas empresas y autónomos, con una nueva Ley de Haciendas Locales.",
+        "La Ley 51/2002 eximió del IAE a personas físicas y empresas con cifra de negocio inferior a 1 millón de euros.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-25286",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Nueva rebaja del IRPF",
+        "Rebaja adicional de los tipos del IRPF, mejor trato a familias e incentivos al ahorro.",
+        "La Ley 46/2002 redujo los tipos y el número de tramos de la tarifa del IRPF desde 2003.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-24711",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Liberalizar el gas",
+        "Romper el monopolio del sector del gas y abrirlo a la competencia durante la legislatura.",
+        "El Real Decreto-ley 6/2000 aceleró el calendario de liberalización del gas natural y facilitó la entrada de nuevos comercializadores.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=13",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-11836",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Reformar la ley de extranjería",
+        "Adaptar la legislación de extranjería a los compromisos del Consejo Europeo de Tampere.",
+        "Se aprobó la Ley Orgánica 8/2000, que reformó la Ley Orgánica 4/2000 de extranjería.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-23660",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Jubilación flexible",
+        "Permitir retrasar voluntariamente la edad de jubilación, en el marco del Pacto de Toledo.",
+        "La Ley 35/2002 estableció un sistema de jubilación gradual y flexible con incentivos a seguir trabajando.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-13972",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Ley de Universidades",
+        "Aprobar una ley de universidades que vertebre la enseñanza superior y mejore su calidad.",
+        "Se aprobó la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades (LOU).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-24515",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Nuevo sistema de Formación Profesional",
+        "Desarrollar un nuevo sistema nacional de Formación Profesional con los agentes sociales.",
+        "Se aprobó la Ley Orgánica 5/2002, de las Cualificaciones y de la Formación Profesional.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-12018",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Economía e impuestos",
+        "I+D al 2% del PIB",
+        "Dedicar a investigación, desarrollo e innovación el 2% del PIB al acabar la legislatura.",
+        "El gasto en I+D fue del 1,10% del PIB en 2003 según el INE, lejos del 2% prometido.",
+        {
+          "m": "2% del PIB",
+          "g": "1,10% del PIB (2003)",
+          "pct": null
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.ine.es/prensa/np349.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Ministerio de Ciencia y Tecnología",
+        "Crear un ministerio de ciencia y tecnología responsable de investigación, telecomunicaciones y sociedad de la información.",
+        "El Real Decreto 557/2000, de 27 de abril, creó el Ministerio de Ciencia y Tecnología.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-7860",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Plan Hidrológico Nacional",
+        "Presentar de inmediato un Plan Hidrológico Nacional basado en criterios racionales y solidarios.",
+        "Se aprobó la Ley 10/2001 del Plan Hidrológico Nacional, con el trasvase del Ebro, que el siguiente Gobierno derogó en 2004.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-13042",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Adelantar el fin de la mili a 2001",
+        "Adelantar al año siguiente el fin del servicio militar obligatorio.",
+        "El Real Decreto 247/2001 adelantó al 31 de diciembre de 2001 la suspensión del servicio militar.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=16",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-4711",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Ratificar la Corte Penal Internacional",
+        "Someter de inmediato a las Cortes la ratificación del Estatuto del Tribunal Penal Internacional.",
+        "La Ley Orgánica 6/2000, de 4 de octubre, autorizó la ratificación del Estatuto de la Corte Penal Internacional.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-17944",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Nueva Ley Concursal",
+        "Una nueva ley concursal que modernice suspensiones de pagos y quiebras.",
+        "Se aprobó la Ley 22/2003, de 9 de julio, Concursal.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf#page=171",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-13813",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Reforma de la Ley de Arbitraje",
+        "Reformar la Ley de Arbitraje para dar seguridad al tráfico mercantil.",
+        "Se aprobó la Ley 60/2003, de 23 de diciembre, de Arbitraje.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-23646",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Ley de Jurisdicción Voluntaria",
+        "Aprobar una nueva Ley de Jurisdicción Voluntaria que complete la reforma procesal civil.",
+        "No se aprobó; la Ley de la Jurisdicción Voluntaria no llegó hasta la Ley 15/2015.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf#page=171",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7391",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Leyes de asociación, petición y fundaciones",
+        "Nueva regulación de los derechos de petición, de asociación y de fundación.",
+        "Se aprobaron la LO 4/2001 del Derecho de Petición, la LO 1/2002 del Derecho de Asociación y la Ley 50/2002 de Fundaciones.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-5852",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Instituciones",
+        "Reforma del proceso penal",
+        "Reformar el proceso penal y la Ley de Enjuiciamiento Criminal.",
+        "Solo hubo reformas parciales, como los juicios rápidos (Ley 38/2002); no se aprobó una nueva Ley de Enjuiciamiento Criminal.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-20823",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Revisión del sistema de penas",
+        "Revisar el sistema de penas del Código Penal y el control de su cumplimiento.",
+        "Se aprobaron la LO 7/2003 de cumplimiento íntegro de las penas y la LO 15/2003 de reforma del Código Penal.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-13022",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Nueva financiación de partidos",
+        "Acuerdo para reformar la financiación de los partidos y delimitar los gastos electorales.",
+        "No se reformó en la legislatura; la nueva Ley Orgánica de financiación de partidos fue la 8/2007, ya con el PSOE.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=9",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-13022",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Ley del Audiovisual",
+        "Una Ley de lo Audiovisual que unifique las modalidades audiovisuales y nueva regulación de las televisiones públicas.",
+        "No se aprobó; la Ley General de la Comunicación Audiovisual llegó en 2010 (Ley 7/2010) y la de RTVE en 2006.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf#page=80",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-5292",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Consejo de Política Exterior",
+        "Crear un consejo de política exterior presidido por el presidente del Gobierno.",
+        "El Real Decreto 1412/2000, de 21 de julio, creó el Consejo de Política Exterior.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-13864",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Modelo estable de financiación autonómica",
+        "Pactar un modelo de financiación autonómica estable y con más corresponsabilidad fiscal.",
+        "La Ley 21/2001 reguló el nuevo sistema de financiación autonómica de régimen común, aplicado desde 2002 con acuerdo de todas las CCAA de régimen común.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L7/CONG/DS/PL/PL_002.PDF#page=11",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-24962",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Servicios sociales",
+        "Ley de familias numerosas",
+        "Elaborar una nueva ley de familias numerosas con incentivos y beneficios de ámbito nacional.",
+        "Se aprobó la Ley 40/2003, de 18 de noviembre, de Protección a las Familias Numerosas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf#page=109",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-21052",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Nueva Ley General Tributaria",
+        "Aprobar una nueva Ley General Tributaria adaptada a las nuevas tecnologías y con nuevo régimen sancionador.",
+        "Se aprobó la Ley 58/2003, de 17 de diciembre, General Tributaria.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf#page=25",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-23186",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PSOE",
+        "Acuerdo de gobierno con IU",
+        "Mejores pensiones y servicios públicos"
+      ]
+    ],
+    "hitos": [
+      "Apoyo a la invasión de Irak (2003), que no estaba en el programa."
+    ],
+    "prog": {
+      "url": "https://www.pp.es/sites/default/files/documentos/1151-20090908162133.pdf",
+      "estado": "disponible",
+      "nota": "Programa «El compromiso del centro» (PDF escaneado en pp.es, con OCR imperfecto). Se completa con el discurso de investidura de Aznar (DS Congreso, VII Legislatura, núm. 2, 25-4-2000)."
+    }
+  },
+  {
+    "id": "2004",
+    "num": "VIII",
+    "a": "2004-03-14",
+    "b": "2008-03-09",
+    "s": "2004",
+    "e": "2008",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "apoyos": "IU, ERC y otros",
+    "pres": "José Luis Rodríguez Zapatero",
+    "form": "En minoría",
+    "res": [
+      [
+        "PSOE",
+        164,
+        42.6
+      ],
+      [
+        "PP",
+        148,
+        37.7
+      ],
+      [
+        "CiU",
+        10,
+        3.2
+      ],
+      [
+        "ERC",
+        8,
+        2.5
+      ],
+      [
+        "PNV",
+        7,
+        1.6
+      ],
+      [
+        "IU",
+        5,
+        5
+      ],
+      [
+        "CC",
+        3,
+        0.9
+      ],
+      [
+        "BNG",
+        2,
+        0.8
+      ],
+      [
+        "OT",
+        3,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley integral contra la violencia de género",
+        "Aprobar como primer proyecto de ley una ley orgánica integral contra la violencia de género, con recursos y un observatorio.",
+        "Se aprobó la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=95",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-21760",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Matrimonio entre personas del mismo sexo",
+        "Modificar el Código Civil para permitir el matrimonio entre personas del mismo sexo con plena igualdad de derechos.",
+        "La Ley 13/2005, de 1 de julio, modificó el Código Civil y legalizó el matrimonio entre personas del mismo sexo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=33",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-11364",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Rectificación registral del sexo",
+        "Regular el derecho de las personas transexuales a rectificar el sexo en el Registro Civil.",
+        "Se aprobó la Ley 3/2007, de 15 de marzo, reguladora de la rectificación registral de la mención relativa al sexo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=33",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-5585",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Divorcio sin separación previa",
+        "Agilizar separación y divorcio, suprimiendo el divorcio causal y permitiendo divorciarse sin separación previa.",
+        "La Ley 15/2005, de 8 de julio, permitió el divorcio directo sin alegar causa ni separación previa.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=34",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-11864",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Derechos y sociedad",
+        "Ley de parejas de hecho",
+        "Elaborar una ley estatal de parejas de hecho y reconocer prestaciones de la Seguridad Social a las parejas registradas.",
+        "No hubo ley estatal de parejas de hecho; la Ley 40/2007 sí reconoció la pensión de viudedad a parejas de hecho con cinco años de convivencia.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=76",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-20910",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Sanidad",
+        "Nueva ley de reproducción asistida",
+        "Elaborar una nueva ley sobre reproducción asistida.",
+        "Se aprobó la Ley 14/2006, de 26 de mayo, sobre técnicas de reproducción humana asistida.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=76",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-9292",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Servicios sociales",
+        "Sistema Nacional de Dependencia",
+        "Crear un Sistema Nacional de Atención a las Personas Dependientes, completado a lo largo de dos legislaturas.",
+        "Se aprobó la Ley 39/2006 de Promoción de la Autonomía Personal y Atención a la Dependencia, con implantación gradual hasta 2015.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=77",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-21990",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Salario mínimo de 600 euros",
+        "Subir el SMI hasta 600 euros mensuales al final de la legislatura y desvincularlo de otras prestaciones.",
+        "El RD 1763/2007 fijó el SMI de 2008 en 600 euros/mes; el RDL 3/2004 lo había desvinculado creando el IPREM.",
+        {
+          "m": "600 €/mes",
+          "g": "600 €/mes (2008)",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=122",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-22451",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Europa y exterior",
+        "Ayuda al desarrollo del 0,5%",
+        "Elevar la ayuda oficial al desarrollo al 0,33% en 2006 y al menos al 0,5% de la renta al final de la legislatura.",
+        "La AOD neta alcanzó el 0,45% de la RNB en 2008 (4.761 millones de euros), cerca pero por debajo del 0,5%.",
+        {
+          "m": "0,5% de la RNB",
+          "g": "0,45% de la RNB (2008)",
+          "pct": null
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=17",
+          "pmedio": "",
+          "rurl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Documents/Cooperacion/Seguimiento-y-transparencia/Seguimiento/Seguimiento-PACI-2008.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Retirada de las tropas de Irak",
+        "Mantener las tropas en Irak solo si la ONU asumía el control político; si no, retirarlas.",
+        "Zapatero ordenó el regreso de las tropas el 18 de abril de 2004, al día siguiente de formar Gobierno; la retirada se completó en mayo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=25",
+          "pmedio": "",
+          "rurl": "https://cooperativa.cl/noticias/mundo/irak/tropas/espana-confirmo-que-su-retirada-militar-de-irak-sera-total-hoy/2004-05-21/094230.html",
+          "rmedio": "Cooperativa.cl"
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "El Congreso autoriza las misiones militares",
+        "Que el Parlamento se pronuncie sobre la participación de las Fuerzas Armadas en operaciones en el exterior.",
+        "La Ley Orgánica 5/2005 de la Defensa Nacional exige consulta previa y autorización del Congreso para las misiones en el exterior.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=37",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-18933",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "RTVE elegida por dos tercios",
+        "Elegir al director de RTVE por mayoría de dos tercios del Congreso, con mandato de cinco años.",
+        "La Ley 17/2006 estableció que el presidente de la Corporación RTVE lo designa el Congreso por mayoría de dos tercios.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=40",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-9958",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Conferencia de Presidentes",
+        "Crear la Conferencia de Presidentes autonómicos con el presidente del Gobierno, con sede en el Senado.",
+        "La primera Conferencia de Presidentes se celebró en octubre de 2004 en el Senado; hubo otras en 2005, 2007 y 2009.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=61",
+          "pmedio": "",
+          "rurl": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2009/141209conferencia.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Reforma constitucional en cuatro puntos",
+        "Reformar la Constitución: Senado, nombres de las CCAA, Constitución Europea e igualdad en la sucesión a la Corona.",
+        "El Consejo de Estado emitió su informe el 16-2-2006, pero el Gobierno nunca presentó la reforma constitucional en las Cortes.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=65",
+          "pmedio": "",
+          "rurl": "https://www.consejo-estado.es/wp-content/uploads/2021/02/MODIFICACIONES-CONSTITUCION-ESP-1.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Servicios sociales",
+        "Fondo de garantía de pensiones de alimentos",
+        "Crear un Fondo de Garantía de Pago de Alimentos que adelante las pensiones impagadas a hijos menores tras una separación.",
+        "El Real Decreto 1618/2007 organizó el Fondo de Garantía del Pago de Alimentos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=96",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-21500",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Desaladoras en lugar del trasvase del Ebro",
+        "Potenciar la desalación, declarar las desaladoras obras de interés general y priorizar alternativas al trasvase del Ebro.",
+        "El Real Decreto-ley 2/2004 derogó el trasvase del Ebro y lo sustituyó por nuevas actuaciones de interés general basadas en desaladoras y reutilización.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=118",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-11438",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Nueva ley del suelo",
+        "Reformar la valoración legal del suelo para que no incorpore expectativas especulativas.",
+        "La Ley 8/2007, de 28 de mayo, de suelo, valoró el suelo según su situación real y no según expectativas urbanísticas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=129",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-10701",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Nueva financiación de partidos",
+        "Nuevo modelo de financiación de partidos con más transparencia y control del Tribunal de Cuentas.",
+        "Se aprobó la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=35",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-13022",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Autoridad de competencia independiente",
+        "Integrar el Servicio de Defensa de la Competencia en el Tribunal para reforzar su independencia.",
+        "La Ley 15/2007 sustituyó al Servicio y al Tribunal de Defensa de la Competencia por una única Comisión Nacional de la Competencia independiente.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=113",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-12946",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Estatuto de los españoles en el exterior",
+        "Garantizar con una ley específica los derechos de los ciudadanos españoles que residen fuera.",
+        "Se aprobó la Ley 40/2006, de 14 de diciembre, del Estatuto de la ciudadanía española en el exterior.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=26",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-21991",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Asociación profesional en la Guardia Civil",
+        "Regular el derecho de asociación profesional de los guardias civiles.",
+        "La Ley Orgánica 11/2007 de derechos y deberes de los miembros de la Guardia Civil reconoció las asociaciones profesionales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=51",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-18391",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Ministerio de la Seguridad",
+        "Renombrar el Ministerio del Interior como Ministerio de la Seguridad.",
+        "El Real Decreto 553/2004 mantuvo el nombre de Ministerio del Interior.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=48",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-6888",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Ley de igualdad entre hombres y mujeres",
+        "Aprobar una ley de igualdad de trato de hombres y mujeres en el empleo que transponga la directiva europea.",
+        "Se aprobó la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=98",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-6115",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Educación",
+        "Religión voluntaria y no evaluable",
+        "Restablecer el carácter voluntario y no evaluable de la religión en la escuela.",
+        "La LOE la hizo voluntaria para el alumno, pero el RD 1631/2006 mantuvo su evaluación como las demás materias, aunque sin contar para la nota media.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=169",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-238",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Educación",
+        "300.000 plazas públicas de 0 a 3 años",
+        "Plazas públicas de 0 a 3 años para 300.000 familias en la legislatura, con 1.000 millones iniciales del Gobierno.",
+        "No hubo plan estatal en la VIII; el Plan Educa3 de plazas de 0 a 3 años empezó en 2008, ya en la IX legislatura.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=74",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-2307",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Infraestructuras",
+        "Apagón analógico en cuatro años",
+        "Plan de transición a la televisión digital para llegar al apagón analógico en un máximo de cuatro años.",
+        "El Plan Técnico de la TDT (RD 944/2005) fijó el apagón para el 3 de abril de 2010, seis años después.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=41",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-13113",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Consejo Audiovisual estatal",
+        "Crear un Consejo Audiovisual independiente, elegido por mayoría cualificada del Parlamento.",
+        "No se creó en la VIII legislatura; la Ley 7/2010 previó un Consejo Estatal de Medios Audiovisuales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=39",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-5292",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Oficina Presupuestaria de las Cortes",
+        "Crear en el Congreso una Oficina Presupuestaria de asesoramiento técnico sobre los presupuestos.",
+        "No se creó en la legislatura; la Oficina Presupuestaria de las Cortes nació con la Ley 37/2010.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf#page=38",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-17568",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Vivienda",
+        "180.000 viviendas al año a precio razonable",
+        "El programa prometía «asegurar 180.000 viviendas al año» en compra o alquiler a precio razonable, con un nuevo Plan de Vivienda.",
+        "Se calificaron entre 55.000 y 69.000 viviendas protegidas al año (media de unas 62.000), según la serie del Ministerio de Vivienda.",
+        {
+          "m": "180.000 al año",
+          "g": "≈62.000 al año",
+          "pct": 34
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf",
+          "pmedio": "",
+          "rurl": "https://apps.fomento.gob.es/BoletinOnline2/sedal/31306000.XLS",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Estabilidad presupuestaria",
+        "Mantener el Plan Hidrológico"
+      ]
+    ],
+    "prog": {
+      "url": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf",
+      "estado": "disponible",
+      "nota": "Programa electoral del PSOE 2004 «Merecemos una España mejor». Los números de página (#page) son del PDF."
+    }
+  },
+  {
+    "id": "2008",
+    "num": "IX",
+    "a": "2008-03-09",
+    "b": "2011-11-20",
+    "s": "2008",
+    "e": "2011",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "pres": "José Luis Rodríguez Zapatero",
+    "form": "En minoría",
+    "res": [
+      [
+        "PSOE",
+        169,
+        43.9
+      ],
+      [
+        "PP",
+        154,
+        39.9
+      ],
+      [
+        "CiU",
+        10,
+        3
+      ],
+      [
+        "PNV",
+        6,
+        1.2
+      ],
+      [
+        "ERC",
+        3,
+        1.2
+      ],
+      [
+        "IU",
+        2,
+        3.8
+      ],
+      [
+        "CC",
+        2,
+        0.7
+      ],
+      [
+        "BNG",
+        2,
+        0.8
+      ],
+      [
+        "UPyD",
+        1,
+        1.2
+      ],
+      [
+        "OT",
+        1,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "i",
+        "Trabajo",
+        "Salario mínimo de 800 euros",
+        "Subir el SMI de forma gradual hasta al menos 800 euros mensuales en 2012.",
+        "El SMI quedó en 641,40 euros/mes en 2011 (RD 1795/2010), muy lejos de los 800 prometidos.",
+        {
+          "m": "800 €/mes en 2012",
+          "g": "641,40 €/mes (2011)",
+          "pct": 21
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=23",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-20150",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Pensiones",
+        "Pensiones mínimas de 850 y 700 euros",
+        "Subir las pensiones mínimas por encima de la inflación, hasta 850 euros con cónyuge a cargo y 700 sin cónyuge.",
+        "En 2011 la mínima de jubilación (65 años) era de 742 €/mes con cónyuge y 601,40 sin cónyuge (14 pagas); los mínimos subieron solo un 1% ese año.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-20149",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Deducción de 400 euros en el IRPF",
+        "Deducción de 400 euros en la cuota del IRPF para asalariados y pensionistas.",
+        "El Real Decreto-ley 2/2008 la aprobó; la Ley 26/2009 de Presupuestos la suprimió desde 2010 salvo para rentas bajas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=105",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-20765",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Trabajo",
+        "Permiso de paternidad de cuatro semanas",
+        "Ampliar el permiso de paternidad de 2 a 4 semanas en la legislatura.",
+        "La Ley 9/2009 lo aprobó para 2011, pero la Ley 39/2010 de Presupuestos aplazó su entrada en vigor a 2012; no se aplicó en la legislatura.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-19703",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Trabajo",
+        "Reducción de jornada hasta los 12 años",
+        "Elevar de 8 a 12 años la edad del hijo para tener derecho a reducción de jornada.",
+        "No se hizo en la IX legislatura; el límite pasó a 12 años con el Real Decreto-ley 16/2013 del Gobierno del PP.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-13426",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Economía e impuestos",
+        "Eliminar el Impuesto sobre el Patrimonio",
+        "Eliminar el Impuesto sobre el Patrimonio durante la legislatura.",
+        "La Ley 4/2008 aplicó una bonificación del 100%, pero el Real Decreto-ley 13/2011 lo restableció temporalmente en septiembre de 2011.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=107",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-14809",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Reforma de la ley del aborto",
+        "Revisar la Ley de Interrupción Voluntaria del Embarazo para garantizar la equidad en el acceso a esta prestación.",
+        "Se aprobó la Ley Orgánica 2/2010 de salud sexual y reproductiva, que introdujo un sistema de plazos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=224",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-3514",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Derechos y sociedad",
+        "Ley integral de igualdad de trato",
+        "Aprobar una Ley integral de Igualdad de Trato contra cualquier discriminación por nacimiento, edad, religión u orientación sexual.",
+        "El proyecto de ley (121/000130) entró en el Congreso en junio de 2011 y decayó con la disolución de las Cortes ese año.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=13",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L9/CONG/BOCG/A/A_130-01.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Ley de acceso a la información",
+        "Impulsar una ley del derecho de acceso a la información pública y una institución que lo garantice.",
+        "No se aprobó; la primera ley de transparencia y acceso a la información fue la Ley 19/2013, del Gobierno del PP.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=259",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-12887",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Ley de la Ciencia",
+        "Nueva Ley de la Ciencia, la Tecnología y la Innovación.",
+        "Se aprobó la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=123",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-9617",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Sanidad",
+        "Ley de Salud Pública",
+        "Elaborar una Ley de Salud Pública que coordine a las administraciones sanitarias.",
+        "Se aprobó la Ley 33/2011, de 4 de octubre, General de Salud Pública.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=57",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-15623",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Nueva financiación autonómica",
+        "Reformar el sistema de financiación autonómica de régimen común conforme a los nuevos estatutos.",
+        "La Ley 22/2009, de 18 de diciembre, reguló el nuevo sistema de financiación de las CCAA de régimen común.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=110",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-20375",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Nueva Oficina judicial",
+        "Culminar la reforma de la Oficina judicial con servicios comunes.",
+        "La Ley 13/2009 reformó la legislación procesal para implantar la nueva Oficina judicial.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=275",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-17493",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Circunscripción para españoles en el exterior",
+        "Reforma constitucional para crear una circunscripción electoral exterior.",
+        "No hubo reforma; la LO 2/2011 hizo lo contrario para el voto exterior al exigir solicitarlo previamente (voto rogado).",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=216",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-1639",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Europa y exterior",
+        "Nueva Ley de Cooperación Internacional",
+        "Elaborar con todas las fuerzas políticas una nueva Ley de Cooperación Internacional.",
+        "No se aprobó; la nueva ley de cooperación llegó con la Ley 1/2023.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=283",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-4512",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Trabajo",
+        "Pleno empleo",
+        "Alcanzar el pleno empleo en la legislatura.",
+        "La tasa de paro de la EPA subió hasta el 22,85% en el cuarto trimestre de 2011.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=10",
+          "pmedio": "",
+          "rurl": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/mineco/paginas/2012/270112EPA.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Medio ambiente",
+        "Cierre de nucleares al final de su vida útil",
+        "Sustitución gradual de la energía nuclear, cerrando las centrales al final de su vida útil.",
+        "La Orden ITC/1785/2009 fijó el cierre de Garoña para julio de 2013; ninguna otra central cerró en la legislatura.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=190",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-11115",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Ley General Audiovisual",
+        "Aprobar una Ley General Audiovisual y Multimedia que dé estabilidad al sector.",
+        "Se aprobó la Ley 7/2010, de 31 de marzo, General de la Comunicación Audiovisual.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=213",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-5292",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Servicios sociales",
+        "Ley de cooperación en Protección Civil",
+        "Aprobar una ley de cooperación entre administraciones en materia de protección civil.",
+        "No se aprobó; la nueva ley llegó con la Ley 17/2015 del Sistema Nacional de Protección Civil.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=246",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7730",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Servicios sociales",
+        "Dependencia en los plazos previstos",
+        "Aplicar la Ley de Dependencia en toda su extensión y en los plazos previstos.",
+        "El Real Decreto-ley 8/2010 suprimió la retroactividad de las prestaciones para nuevos solicitantes y fijó un plazo de seis meses para resolver.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-8228",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Rentas de menos de 16.000 € sin IRPF",
+        "Contrato de integración para inmigrantes"
+      ]
+    ],
+    "hitos": [
+      "Reforma del artículo 135 de la Constitución (2011) para dar prioridad al pago de la deuda. No estaba en el programa."
+    ],
+    "prog": {
+      "url": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf",
+      "estado": "disponible",
+      "nota": "Programa electoral del PSOE 2008. Los números de página (#page) son del PDF."
+    }
+  },
+  {
+    "id": "2011",
+    "num": "X",
+    "a": "2011-11-20",
+    "b": "2015-12-20",
+    "s": "2011",
+    "e": "2015",
+    "gov": "PP",
+    "mandato": [
+      "PP"
+    ],
+    "pres": "Mariano Rajoy",
+    "form": "Mayoría absoluta",
+    "res": [
+      [
+        "PP",
+        186,
+        44.6
+      ],
+      [
+        "PSOE",
+        110,
+        28.8
+      ],
+      [
+        "CiU",
+        16,
+        4.2
+      ],
+      [
+        "IU",
+        11,
+        6.9
+      ],
+      [
+        "Amaiur",
+        7,
+        1.4
+      ],
+      [
+        "UPyD",
+        5,
+        4.7
+      ],
+      [
+        "PNV",
+        5,
+        1.3
+      ],
+      [
+        "ERC",
+        3,
+        1.1
+      ],
+      [
+        "BNG",
+        2,
+        0.8
+      ],
+      [
+        "CC",
+        2,
+        0.6
+      ],
+      [
+        "OT",
+        3,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Economía e impuestos",
+        "Ley orgánica de estabilidad presupuestaria",
+        "Aprobar una nueva ley orgánica de estabilidad presupuestaria que desarrolle la reforma del artículo 135 de la Constitución.",
+        "Aprobada la Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2012/04/27/2",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Ley de transparencia",
+        "Aprobar de inmediato una ley de transparencia, acceso a la información pública y buen gobierno.",
+        "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, aprobada dos años después de llegar al Gobierno.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=146",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/12/09/19",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "IVA de caja para autónomos y pymes",
+        "Que autónomos y pymes no tengan que ingresar el IVA hasta haber cobrado sus facturas.",
+        "La Ley 14/2013, de apoyo a los emprendedores, creó el régimen especial del criterio de caja del IVA, vigente desde enero de 2014.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=40",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/09/27/14",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Ley de apoyo a los emprendedores",
+        "Aprobar una nueva ley de apoyo a los emprendedores, pymes y autónomos.",
+        "Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=40",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/09/27/14",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Suprimir el canon digital",
+        "Suprimir el canon digital y sustituirlo por un modelo de compensación basado en el uso efectivo de las obras.",
+        "El Real Decreto-ley 20/2011, de 30 de diciembre, suprimió el canon digital; la compensación por copia privada pasó a pagarse con cargo a los Presupuestos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=52",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2011/12/30/20",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Vivienda",
+        "Recuperar la deducción por compra de vivienda",
+        "Recuperar y actualizar la deducción del IRPF por adquisición de vivienda habitual.",
+        "Se recuperó para 2011 y 2012 (RDL 20/2011), pero la Ley 16/2012 la suprimió para las compras desde el 1 de enero de 2013.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L10/CONG/DS/PL/PL_002.PDF#page=13",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2012/12/27/16",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "IVA superreducido para la compra de vivienda",
+        "Aplicar de forma transitoria el IVA superreducido (4 %) a la compraventa de vivienda habitual.",
+        "El Real Decreto-ley 20/2011 prorrogó el tipo del 4 % en la entrega de viviendas hasta el 31 de diciembre de 2012.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=59",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2011/12/30/20",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Flexibilizar el alquiler",
+        "Dar más flexibilidad y libertad de pactos al contrato de arrendamiento y agilizar la resolución de conflictos.",
+        "Ley 4/2013, de 4 de junio, de flexibilización y fomento del mercado del alquiler: prórroga obligatoria reducida a 3 años y desahucio más rápido.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=59",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/06/04/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Segunda oportunidad para particulares",
+        "Reformar la ley concursal para liberar de sus deudas a las personas físicas tras ejecutar su patrimonio embargable.",
+        "El RDL 1/2015 y la Ley 25/2015, de 28 de julio, crearon el mecanismo de segunda oportunidad con exoneración del pasivo insatisfecho.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=109",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2015/07/28/25",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Derechos y sociedad",
+        "Cambiar la ley del aborto",
+        "Cambiar el modelo de la ley del aborto para reforzar la protección del derecho a la vida y de las menores.",
+        "El anteproyecto de 2013 se retiró en 2014; solo se aprobó la LO 11/2015, que exige consentimiento paterno a las menores de 16 y 17 años.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=108",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2015/09/21/11",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Prisión permanente revisable",
+        "Introducir en el Código Penal la pena de prisión permanente revisable.",
+        "Incluida en la reforma del Código Penal aprobada por la Ley Orgánica 1/2015, de 30 de marzo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=179",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2015/03/30/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Estatuto de la víctima",
+        "Aprobar un estatuto de la víctima con sus derechos de información, protección jurídica y asistencia.",
+        "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=179",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2015/04/27/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Que los jueces elijan 12 vocales del CGPJ",
+        "Reformar la elección del CGPJ para que 12 de sus 20 vocales sean elegidos por y entre jueces y magistrados.",
+        "La LO 4/2013 mantuvo la elección de los 20 vocales por las Cortes; los jueces solo presentan candidaturas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=179",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2013/06/28/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Educación",
+        "Bachillerato de tres cursos",
+        "Ampliar el bachillerato a 3 cursos, el primero de iniciación.",
+        "La LOMCE (Ley Orgánica 8/2013) mantuvo el bachillerato en dos cursos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=84",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2013/12/09/8",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Instituciones",
+        "Nueva Ley de Enjuiciamiento Criminal",
+        "Promover una nueva ley de enjuiciamiento criminal que agilice la instrucción con plazos tasados.",
+        "No hubo nueva LECrim; la Ley 41/2015 reformó la vigente e introdujo plazos máximos de instrucción.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=177",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2015/10/05/41",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Autonomías",
+        "Nueva ley de gobierno local",
+        "Aprobar una nueva ley básica del gobierno y la administración local.",
+        "Ley 27/2013, de 27 de diciembre, de racionalización y sostenibilidad de la Administración Local; el nuevo modelo de financiación local prometido no llegó.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=161",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/12/27/27",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Prioridad del convenio de empresa",
+        "Dar prevalencia a los convenios de empresa en salarios y condiciones de trabajo.",
+        "La reforma laboral (RDL 3/2012 y Ley 3/2012) dio prioridad aplicativa al convenio de empresa.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=38",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2012/07/06/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "3.000 euros por el primer trabajador",
+        "Apoyo fiscal de 3.000 euros por contratar al primer trabajador en empresas de nueva creación.",
+        "La Ley 3/2012 creó el contrato de apoyo a emprendedores con deducción fiscal de 3.000 euros por el primer contrato a un menor de 30 años.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=40",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2012/07/06/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Pensiones",
+        "Mantener el poder adquisitivo de las pensiones",
+        "Actualizar las pensiones según el IPC desde 2012; fue el único aumento de gasto comprometido en la investidura.",
+        "Subieron un 1 % en 2012 con un IPC del 2,9 %; el RDL 28/2012 no compensó la desviación y la Ley 23/2013 desligó las pensiones del IPC.",
+        {
+          "m": "Revalorización según IPC (2,9 % en 2012)",
+          "g": "1 % en 2012",
+          "pct": 34
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L10/CONG/DS/PL/PL_002.PDF#page=11",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2012/11/30/28",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Economía e impuestos",
+        "Unidad de mercado y licencia única",
+        "Garantizar la unidad de mercado: lo producido legalmente en una comunidad podrá venderse en toda España con licencia única.",
+        "Ley 20/2013, de garantía de la unidad de mercado; el Tribunal Constitucional (STC 79/2017) anuló buena parte del principio de eficacia nacional.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=159",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/12/09/20",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Un único regulador de la competencia",
+        "Reformar la Comisión Nacional de la Competencia para que agrupe la regulación sectorial.",
+        "La Ley 3/2013 creó la CNMC, que fusionó Competencia con los reguladores de energía, telecomunicaciones, postal y audiovisual.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=155",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/06/04/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Subir los mínimos familiares del IRPF",
+        "Elevar los mínimos personales y familiares del IRPF, sobre todo para familias numerosas.",
+        "La reforma fiscal de 2014 (Ley 26/2014) elevó los mínimos personal y familiar y creó deducciones para familias numerosas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=43",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2014/11/27/26",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Economía e impuestos",
+        "Impuesto de sociedades al 20 % para pymes",
+        "Generalizar el tipo del 20 % del impuesto de sociedades a las empresas de reducida dimensión.",
+        "La Ley 27/2014 fijó un tipo general del 25 % también para pymes; solo las empresas de nueva creación tributan al 15 %.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=40",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2014/11/27/27",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Gestión privada de las televisiones autonómicas",
+        "Permitir a comunidades y ayuntamientos nuevos modelos de gestión de sus televisiones públicas con participación privada.",
+        "La Ley 6/2012, de 1 de agosto, flexibilizó los modos de gestión de los servicios públicos de comunicación audiovisual autonómicos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=52",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2012/08/01/6",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Acabar con el déficit de tarifa eléctrica",
+        "Promover un marco regulatorio que elimine el déficit de tarifa del sistema eléctrico.",
+        "La Ley 24/2013 del Sector Eléctrico impuso el equilibrio económico del sistema; desde 2014 no se generó nuevo déficit de tarifa.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=46",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2013/12/26/24",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Puesto en el Consejo de Seguridad",
+        "Impulsar la candidatura de España al Consejo de Seguridad de la ONU para 2015-2016.",
+        "La Asamblea General eligió a España miembro no permanente del Consejo de Seguridad para 2015-2016 el 16 de octubre de 2014.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=204",
+          "pmedio": "",
+          "rurl": "https://digitallibrary.un.org/record/785933/files/S_2014_959-ES.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Defensa",
+        "Revisar la ley de la carrera militar",
+        "Revisar la Ley de la carrera militar para dar seguridad jurídica y futuro profesional a las Fuerzas Armadas.",
+        "La Ley 46/2015, de 14 de octubre, modificó la Ley 39/2007 de la carrera militar.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf#page=211",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2015/10/14/46",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PSOE",
+        "Impuesto a grandes fortunas y a la banca",
+        "Defender sanidad y educación públicas"
+      ]
+    ],
+    "prog": {
+      "url": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf",
+      "estado": "disponible",
+      "nota": "Programa electoral del PP 2011 «Lo que España necesita» (PDF en pp.es). Se usa además el discurso de investidura de Rajoy, Diario de Sesiones del Congreso núm. 2, 19-12-2011. Las páginas citadas (#page) son las del PDF."
+    }
+  },
+  {
+    "id": "2015",
+    "num": "XI",
+    "a": "2015-12-20",
+    "b": "2016-06-26",
+    "s": "2015",
+    "e": "2016",
+    "gov": "PP",
+    "mandato": [
+      "PP"
+    ],
+    "failed": true,
+    "pres": "Mariano Rajoy (en funciones)",
+    "form": "Sin investidura",
+    "res": [
+      [
+        "PP",
+        123,
+        28.7
+      ],
+      [
+        "PSOE",
+        90,
+        22
+      ],
+      [
+        "Podemos",
+        69,
+        20.7
+      ],
+      [
+        "Cs",
+        40,
+        13.9
+      ],
+      [
+        "ERC",
+        9,
+        2.4
+      ],
+      [
+        "DL",
+        8,
+        2.3
+      ],
+      [
+        "PNV",
+        6,
+        1.2
+      ],
+      [
+        "IU",
+        2,
+        3.7
+      ],
+      [
+        "Bildu",
+        2,
+        0.9
+      ],
+      [
+        "OT",
+        1,
+        null
+      ]
+    ],
+    "prom": [],
+    "opp": [
+      [
+        "Podemos",
+        "Renta garantizada",
+        "Auditoría de la deuda"
+      ],
+      [
+        "Ciudadanos",
+        "Contrato único",
+        "Complemento salarial"
+      ]
+    ],
+    "enf": {
+      "who": "Mariano Rajoy",
+      "p": "PP",
+      "desde": "21 dic 2015",
+      "hasta": "4 nov 2016",
+      "dias": 319,
+      "nota": "Rajoy siguió en funciones también durante los primeros meses de la legislatura siguiente, hasta que fue investido en octubre de 2016 gracias a la abstención del PSOE."
+    },
+    "votes": [
+      {
+        "who": "Pedro Sánchez (PSOE)",
+        "d": "2 mar 2016",
+        "si": 130,
+        "no": 219,
+        "abs": 1,
+        "need": "Necesitaba mayoría absoluta: 176 síes"
+      },
+      {
+        "who": "Pedro Sánchez (PSOE)",
+        "d": "4 mar 2016",
+        "si": 131,
+        "no": 219,
+        "abs": 0,
+        "need": "Necesitaba más síes que noes"
+      }
+    ],
+    "events": [
+      [
+        "20 dic 2015",
+        "Elecciones",
+        "El PP gana con 123 escaños, lejos de los 176. Podemos y Ciudadanos entran con fuerza y se acaba el bipartidismo."
+      ],
+      [
+        "13 ene 2016",
+        "Cortes",
+        "Se constituye el Congreso. Patxi López (PSOE) es elegido presidente gracias a un acuerdo con Ciudadanos."
+      ],
+      [
+        "22 ene 2016",
+        "Investidura",
+        "Rajoy rechaza presentarse a la investidura aunque el Rey se lo propone: no tiene apoyos suficientes."
+      ],
+      [
+        "24 feb 2016",
+        "Pacto",
+        "PSOE y Ciudadanos firman un acuerdo de gobierno con unas 200 medidas. Suman 130 escaños, insuficientes."
+      ],
+      [
+        "2–4 mar 2016",
+        "Investidura",
+        "Sánchez pierde las dos votaciones. Es la primera investidura fallida de la democracia."
+      ],
+      [
+        "abr 2016",
+        "Control",
+        "El Gobierno en funciones se niega a comparecer ante el Congreso. En 2018 el Tribunal Constitucional dio la razón al Congreso."
+      ],
+      [
+        "15 abr 2016",
+        "Dimisión",
+        "Papeles de Panamá: dimite el ministro de Industria, José Manuel Soria."
+      ],
+      [
+        "3 may 2016",
+        "Disolución",
+        "Pasados dos meses sin investidura, las Cortes se disuelven solas (artículo 99.5 de la Constitución) por primera vez. Elecciones el 26 de junio."
+      ]
+    ],
+    "hitos": [
+      "Fin del bipartidismo: cuatro partidos por encima del 13 %. Nadie logró la investidura y se repitieron las elecciones."
+    ]
+  },
+  {
+    "id": "2016",
+    "num": "XII",
+    "a": "2016-06-26",
+    "b": "2019-04-28",
+    "s": "2016",
+    "e": "2019A",
+    "gov": "PP",
+    "split": "2018-06-01",
+    "mandato": [
+      "PP"
+    ],
+    "apoyos": "Cs, PNV y CC",
+    "pres": "Mariano Rajoy → Pedro Sánchez (PSOE, jun 2018)",
+    "form": "En minoría; moción de censura en 2018",
+    "res": [
+      [
+        "PP",
+        137,
+        33
+      ],
+      [
+        "PSOE",
+        85,
+        22.6
+      ],
+      [
+        "UP",
+        71,
+        21.2
+      ],
+      [
+        "Cs",
+        32,
+        13.1
+      ],
+      [
+        "ERC",
+        9,
+        2.6
+      ],
+      [
+        "CDC",
+        8,
+        2
+      ],
+      [
+        "PNV",
+        5,
+        1.2
+      ],
+      [
+        "Bildu",
+        2,
+        0.8
+      ],
+      [
+        "OT",
+        1,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "i",
+        "Trabajo",
+        "20 millones de ocupados en 2020",
+        "Alcanzar 20 millones de personas trabajando en 2020, dos millones más que al empezar la legislatura.",
+        "Al caer el Gobierno (2.º trimestre de 2018) había unos 19,3 millones de ocupados según la EPA; los 20 millones no se superaron hasta 2022.",
+        {
+          "m": "20 millones de ocupados en 2020",
+          "g": "≈19,3 millones (EPA 2T 2018)",
+          "pct": 55
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=9",
+          "pmedio": "",
+          "rurl": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=ultiDatos&idp=1254735976595",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Tarifa plana de autónomos de un año",
+        "Ampliar la tarifa plana de 50 euros para nuevos autónomos de seis meses a un año.",
+        "La Ley 6/2017, de Reformas Urgentes del Trabajo Autónomo, extendió la cuota reducida de 50 euros a 12 meses.",
+        {
+          "m": "12 meses",
+          "g": "12 meses",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=9",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2017/10/24/6",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Trabajo",
+        "Cotización más flexible para autónomos",
+        "Reformar la cotización de los autónomos para hacerla más flexible y permitir compatibilizar plenamente empleo y pensión.",
+        "La Ley 6/2017 permitió cambiar de base cuatro veces al año, altas por días y jubilación activa al 100 % con asalariados; la cotización por ingresos reales llegó en 2023.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=9",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2017/10/24/6",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Economía e impuestos",
+        "Pacto por la I+D: 2 % del PIB en 2020",
+        "Pacto nacional por la I+D+i para alcanzar en 2020 una inversión del 2 % del PIB en el sector.",
+        "No hubo pacto; el gasto total en I+D fue del 1,24 % del PIB en 2018, según el INE.",
+        {
+          "m": "2 % del PIB",
+          "g": "1,24 % (2018)",
+          "pct": 6
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.ine.es/prensa/imasd_2018_p.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Economía e impuestos",
+        "Rebajar 2 puntos el IRPF",
+        "Bajar dos puntos el IRPF (tipos entre el 18 % y el 43,5 %) en cuanto el déficit cayera por debajo del 3 %.",
+        "No se aprobó; los Presupuestos de 2018 (Ley 6/2018) solo ampliaron la reducción por rendimientos del trabajo para rentas bajas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2018/07/03/6",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Déficit por debajo del 3 %",
+        "Reducir el déficit público por debajo del 3 % del PIB, como exige el Pacto de Estabilidad.",
+        "El déficit de 2018 cerró en el 2,48 % del PIB y España salió en 2019 del procedimiento de déficit excesivo.",
+        {
+          "m": "< 3 % del PIB",
+          "g": "2,48 % (2018)",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=10",
+          "pmedio": "",
+          "rurl": "https://www.hacienda.gob.es/es-ES/Prensa/En%20Portada/2019/Paginas/20190423_EJECUCION_PRESUPUESTARIA_2018.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Presupuestos de 2017",
+        "Remitir a las Cortes y aprobar los Presupuestos Generales del Estado para 2017.",
+        "Ley 3/2017, de 27 de junio, de Presupuestos Generales del Estado para 2017; también se aprobaron los de 2018.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=6",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2017/06/27/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Autonomías",
+        "Nuevo modelo de financiación autonómica",
+        "Negociar con todos los partidos un modelo de financiación autonómica estable y suficiente.",
+        "Una comisión de expertos entregó su informe en julio de 2017, pero el Gobierno no llegó a proponer ni aprobar un nuevo modelo.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=11",
+          "pmedio": "",
+          "rurl": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/InformacionCCAAs/Reforma%5FSFA.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Educación",
+        "Pacto nacional por la educación",
+        "Abrir un diálogo con todas las fuerzas políticas para lograr un pacto nacional por la educación.",
+        "La subcomisión del Congreso fracasó en marzo de 2018, cuando PSOE y Unidos Podemos la abandonaron por desacuerdo en la financiación.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=11",
+          "pmedio": "",
+          "rurl": "https://www.elindependiente.com/politica/2018/03/06/pacto-educativo-se-rompe-tras-levantarse-psoe-la-mesa-negociacion/",
+          "rmedio": "El Independiente"
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Pacto de Estado contra la violencia de género",
+        "Alcanzar un pacto de Estado contra la violencia de género con todos los partidos y administraciones.",
+        "El Congreso aprobó el Pacto de Estado el 28 de septiembre de 2017 sin votos en contra, con más de 200 medidas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-3.PDF#page=12",
+          "pmedio": "",
+          "rurl": "https://violenciagenero.igualdad.gob.es/pactoEstado/docs/Documento_Refundido_PEVG_2.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Congelar la parte regulada de la luz",
+        "Congelar la parte de la factura eléctrica que depende del Gobierno.",
+        "Los peajes de acceso eléctricos no subieron en 2017 (Orden ETU/1976/2016) ni en 2018.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2016/06/16.06.04_rajoy_presentacion_programa_electoral_barcelona.pdf#page=8",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/o/2016/12/23/etu1976",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Servicios sociales",
+        "Reforzar el bono social eléctrico",
+        "Reforzar el bono social de la energía para quienes peor lo están pasando.",
+        "El Real Decreto 897/2017 rehízo el bono social: descuentos del 25 % y del 40 % según renta y nueva figura de consumidor en riesgo de exclusión.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.pp.es/storage/2016/06/16.06.04_rajoy_presentacion_programa_electoral_barcelona.pdf#page=9",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rd/2017/10/06/897",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "prom2": {
+      "t": "Gobierno de Pedro Sánchez tras la moción de censura (junio 2018 – abril 2019)",
+      "l": [
+        [
+          "c",
+          "Trabajo",
+          "Salario mínimo de 900 euros",
+          "Subir el salario mínimo interprofesional a 900 euros al mes en 2019.",
+          "El Real Decreto 1462/2018 fijó el SMI de 2019 en 900 euros mensuales, un 22,3 % más.",
+          {
+            "m": "900 €/mes",
+            "g": "900 €/mes",
+            "pct": 100
+          },
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=19",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rd/2018/12/21/1462",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Pensiones",
+          "Pensiones según el IPC",
+          "Mantener el poder adquisitivo de las pensiones conforme al IPC y subir más las mínimas y no contributivas.",
+          "El RDL 28/2018 subió las pensiones un 1,6 % en 2019 y un 3 % las mínimas y no contributivas.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=7",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2018/12/28/28",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Trabajo",
+          "Subsidio por desempleo desde los 52 años",
+          "Recuperar el subsidio por desempleo para mayores de 52 años.",
+          "El Real Decreto-ley 8/2019, de 8 de marzo, devolvió a los 52 años la edad de acceso al subsidio.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=19",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2019/03/08/8",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Trabajo",
+          "Registro diario de jornada",
+          "Obligar a registrar diariamente la hora de entrada y salida de cada trabajador.",
+          "El RDL 8/2019 modificó el artículo 34 del Estatuto de los Trabajadores e impuso el registro de jornada desde mayo de 2019.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=21",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2019/03/08/8",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Derechos y sociedad",
+          "Permisos de maternidad y paternidad iguales",
+          "Equiparar los permisos de paternidad y maternidad.",
+          "El RDL 6/2019 amplió el permiso del otro progenitor a 8 semanas en 2019 hasta igualarlo en 16 semanas en 2021.",
+          {
+            "m": "16 semanas para cada progenitor",
+            "g": "16 semanas (2021)",
+            "pct": 100
+          },
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=27",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2019/03/01/6",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Servicios sociales",
+          "Cotización de las cuidadoras familiares",
+          "Recuperar la cotización a la Seguridad Social de las cuidadoras no profesionales de personas dependientes, pagada por el Estado.",
+          "El RDL 6/2019 restableció desde abril de 2019 el convenio especial de cuidadores no profesionales con cuotas a cargo de la Administración del Estado.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=14",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2019/03/01/6",
+            "rmedio": ""
+          }
+        ],
+        [
+          "p",
+          "Vivienda",
+          "Reformar el alquiler y poner techo a las subidas",
+          "Modificar la ley de alquiler y poner techo a las subidas abusivas en zonas tensionadas.",
+          "El RDL 7/2019 alargó los contratos a 5 años (7 si el casero es empresa) y limitó fianzas, pero no topó los precios.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=16",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2019/03/01/7",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Sanidad",
+          "Recuperar la sanidad universal",
+          "Devolver la atención sanitaria a las personas excluidas en abril de 2012.",
+          "El Real Decreto-ley 7/2018, de 27 de julio, restableció el acceso universal al Sistema Nacional de Salud.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-126.PDF#page=24",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2018/07/27/7",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Medio ambiente",
+          "Fin del «impuesto al sol» y fomento del autoconsumo",
+          "Derogar el llamado impuesto al sol y fomentar el autoconsumo eléctrico, retribuyendo la energía vertida a la red.",
+          "El RDL 15/2018 eliminó el cargo al autoconsumo y el Real Decreto 244/2019 reguló la compensación de excedentes.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=36",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rd/2019/04/05/244",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Educación",
+          "Revertir los recortes a los docentes",
+          "Suprimir el aumento obligatorio de horas lectivas, la subida de ratios del 20 % y la espera para nombrar interinos.",
+          "Ley 4/2019, de 7 de marzo, de mejora de las condiciones para el desempeño de la docencia.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=12",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/l/2019/03/07/4",
+            "rmedio": ""
+          }
+        ],
+        [
+          "n",
+          "Economía e impuestos",
+          "Impuesto sobre transacciones financieras",
+          "Crear un impuesto sobre las transacciones financieras («tasa Tobin»).",
+          "El proyecto de ley de enero de 2019 decayó con la disolución de marzo; se aprobó después como Ley 5/2020.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=47",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/l/2020/10/15/5",
+            "rmedio": ""
+          }
+        ],
+        [
+          "n",
+          "Economía e impuestos",
+          "Impuesto sobre servicios digitales",
+          "Crear un impuesto sobre determinados servicios digitales («tasa Google»).",
+          "El proyecto de ley de enero de 2019 decayó con la disolución de las Cortes; se aprobó en la siguiente legislatura como Ley 4/2020.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=47",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/l/2020/10/15/4",
+            "rmedio": ""
+          }
+        ],
+        [
+          "n",
+          "Economía e impuestos",
+          "Tipo mínimo del 15 % en Sociedades",
+          "Exigir una tributación mínima del 15 % en el impuesto de sociedades a grandes empresas.",
+          "Iba en los Presupuestos de 2019, que el Congreso devolvió al Gobierno el 13 de febrero de 2019.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=45",
+            "pmedio": "",
+            "rurl": "https://www.congreso.es/public_oficiales/L12/CONG/BOCG/A/BOCG-12-A-38-5.PDF",
+            "rmedio": ""
+          }
+        ],
+        [
+          "n",
+          "Economía e impuestos",
+          "Presupuestos de 2019",
+          "Aprobar unos Presupuestos Generales del Estado para 2019 que recogieran el acuerdo.",
+          "El Pleno aprobó el 13 de febrero de 2019 las enmiendas a la totalidad y devolvió el proyecto; siguieron prorrogados los de 2018.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=2",
+            "pmedio": "",
+            "rurl": "https://www.congreso.es/public_oficiales/L12/CONG/BOCG/A/BOCG-12-A-38-5.PDF",
+            "rmedio": ""
+          }
+        ],
+        [
+          "i",
+          "Trabajo",
+          "Derogar lo más lesivo de la reforma laboral",
+          "Derogar los aspectos más lesivos de la reforma laboral de 2012.",
+          "No se hizo en este periodo; la reforma llegó con el RDL 32/2021, ya en la XIV legislatura.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2018/4_5906908181916812206.pdf#page=20",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rdl/2021/12/28/32",
+            "rmedio": ""
+          }
+        ],
+        [
+          "c",
+          "Instituciones",
+          "Convocar elecciones",
+          "Tras recuperar la normalidad y atender las urgencias, convocar elecciones generales.",
+          "El Real Decreto 129/2019 disolvió las Cortes y convocó elecciones generales para el 28 de abril de 2019.",
+          null,
+          {
+            "psrc": "p",
+            "purl": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-126.PDF#page=21",
+            "pmedio": "",
+            "rurl": "https://www.boe.es/eli/es/rd/2019/03/04/129",
+            "rmedio": ""
+          }
+        ]
+      ]
+    },
+    "opp": [
+      [
+        "PSOE",
+        "Derogar la reforma laboral",
+        "Subir el salario mínimo"
+      ],
+      [
+        "Unidos Podemos",
+        "Renta garantizada",
+        "Más impuestos a rentas altas"
+      ]
+    ],
+    "hitos": [
+      "Primera moción de censura que sale adelante en democracia (1 de junio de 2018)."
+    ],
+    "prog": {
+      "url": "https://www.pp.es/storage/2016/06/16.06.04_rajoy_presentacion_programa_electoral_barcelona.pdf",
+      "estado": "no disponible",
+      "nota": "No se localizó el PDF del programa del PP de 2016 ni en pp.es ni en web.archive.org. Promesas del PP tomadas del discurso de investidura de Rajoy (DSCD-12-PL-3, 30-8-2016) y de su presentación del programa (pp.es, 4-6-2016). Las del Gobierno Sánchez (sub) salen del acuerdo de Presupuestos 2019 Gobierno–Unidos Podemos (Moncloa, 11-10-2018) y del discurso de la moción de censura (DSCD-12-PL-126, 31-5-2018)."
+    }
+  },
+  {
+    "id": "2019A",
+    "num": "XIII",
+    "a": "2019-04-28",
+    "b": "2019-11-10",
+    "s": "2019A",
+    "e": "2019N",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE"
+    ],
+    "failed": true,
+    "pres": "Pedro Sánchez (en funciones)",
+    "form": "Sin investidura",
+    "res": [
+      [
+        "PSOE",
+        123,
+        28.7
+      ],
+      [
+        "PP",
+        66,
+        16.7
+      ],
+      [
+        "Cs",
+        57,
+        15.9
+      ],
+      [
+        "UP",
+        42,
+        14.3
+      ],
+      [
+        "Vox",
+        24,
+        10.3
+      ],
+      [
+        "ERC",
+        15,
+        3.9
+      ],
+      [
+        "JxCat",
+        7,
+        1.9
+      ],
+      [
+        "PNV",
+        6,
+        1.5
+      ],
+      [
+        "Bildu",
+        4,
+        1
+      ],
+      [
+        "OT",
+        6,
+        null
+      ]
+    ],
+    "prom": [],
+    "opp": [
+      [
+        "PP",
+        "Bajada general de impuestos"
+      ],
+      [
+        "Ciudadanos",
+        "Rebaja fiscal a clases medias"
+      ],
+      [
+        "Vox",
+        "Recentralizar competencias"
+      ]
+    ],
+    "enf": {
+      "who": "Pedro Sánchez",
+      "p": "PSOE",
+      "desde": "29 abr 2019",
+      "hasta": "13 ene 2020",
+      "dias": 259,
+      "nota": "Sánchez gobernaba desde la moción de censura de 2018 y siguió en funciones hasta formar el Gobierno de coalición con Unidas Podemos en enero de 2020."
+    },
+    "votes": [
+      {
+        "who": "Pedro Sánchez (PSOE)",
+        "d": "23 jul 2019",
+        "si": 124,
+        "no": 170,
+        "abs": 52,
+        "need": "Necesitaba mayoría absoluta: 176 síes"
+      },
+      {
+        "who": "Pedro Sánchez (PSOE)",
+        "d": "25 jul 2019",
+        "si": 124,
+        "no": 155,
+        "abs": 67,
+        "need": "Necesitaba más síes que noes"
+      }
+    ],
+    "events": [
+      [
+        "28 abr 2019",
+        "Elecciones",
+        "Gana el PSOE con 123 escaños. Vox entra en el Congreso con 24."
+      ],
+      [
+        "26 may 2019",
+        "Elecciones",
+        "Elecciones municipales, autonómicas y europeas."
+      ],
+      [
+        "jul 2019",
+        "Pacto",
+        "PSOE y Unidas Podemos negocian un Gobierno de coalición. Unidas Podemos rechaza la oferta de una vicepresidencia y tres ministerios."
+      ],
+      [
+        "23–25 jul 2019",
+        "Investidura",
+        "Sánchez pierde las dos votaciones: Unidas Podemos se abstiene."
+      ],
+      [
+        "24 sep 2019",
+        "Disolución",
+        "Segunda vez que las Cortes se disuelven solas por falta de investidura. Elecciones el 10 de noviembre."
+      ],
+      [
+        "14 oct 2019",
+        "Contexto",
+        "El Tribunal Supremo condena a los líderes del procés a penas de 9 a 13 años. Hay disturbios en Cataluña."
+      ],
+      [
+        "oct 2019",
+        "Decreto",
+        "El Gobierno en funciones aprueba por decreto-ley el pago pendiente a las comunidades autónomas (entregas a cuenta)."
+      ],
+      [
+        "24 oct 2019",
+        "Decisión",
+        "Exhumación de Franco del Valle de los Caídos, tras el aval del Tribunal Supremo."
+      ]
+    ],
+    "hitos": [
+      "PSOE y Unidas Podemos no llegaron a un acuerdo y se repitieron las elecciones."
+    ]
+  },
+  {
+    "id": "2019N",
+    "num": "XIV",
+    "a": "2019-11-10",
+    "b": "2023-07-23",
+    "s": "2019N",
+    "e": "2023",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE",
+      "UP"
+    ],
+    "pres": "Pedro Sánchez",
+    "form": "Gobierno de coalición",
+    "res": [
+      [
+        "PSOE",
+        120,
+        28
+      ],
+      [
+        "PP",
+        89,
+        20.8
+      ],
+      [
+        "Vox",
+        52,
+        15.1
+      ],
+      [
+        "UP",
+        35,
+        12.9
+      ],
+      [
+        "ERC",
+        13,
+        3.6
+      ],
+      [
+        "Cs",
+        10,
+        6.8
+      ],
+      [
+        "JxCat",
+        8,
+        2.2
+      ],
+      [
+        "PNV",
+        6,
+        1.6
+      ],
+      [
+        "Bildu",
+        5,
+        1.1
+      ],
+      [
+        "MP",
+        3,
+        2.4
+      ],
+      [
+        "OT",
+        9,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "p",
+        "Trabajo",
+        "Derogar la reforma laboral",
+        "Derogar la reforma laboral de 2012 y recuperar los derechos laborales y el papel de los convenios colectivos.",
+        "El RDL 32/2021 recuperó la ultraactividad y la prioridad del convenio sectorial en salarios y limitó la temporalidad, pero no tocó el coste del despido.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=4",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2021/12/28/32",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Trabajo",
+        "Salario mínimo al 60 % del salario medio",
+        "Subir progresivamente el SMI hasta el 60 % del salario medio, como recomienda la Carta Social Europea.",
+        "El SMI pasó de 900 euros en 2019 a 1.080 euros en 2023 (Real Decreto 99/2023), cifra que el comité de expertos situó en el 60 %.",
+        {
+          "m": "60 % del salario medio",
+          "g": "1.080 €/mes en 2023",
+          "pct": 100
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=5",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rd/2023/02/14/99",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Trabajo",
+        "Estatuto del Becario",
+        "Aprobar un Estatuto del Becario que limite las prácticas no laborales a fines formativos.",
+        "No se aprobó en la legislatura; el Gobierno no envió el proyecto al Congreso hasta marzo de 2026.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=5",
+          "pmedio": "",
+          "rurl": "https://www.eldebate.com/economia/20260303/gobierno-da-luz-verde-estatuto-becario-manda-congreso-aprobacion-definitiva-cambia_391589.html",
+          "rmedio": "El Debate"
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Pensiones ligadas al IPC por ley",
+        "Actualizar por ley y de forma permanente las pensiones conforme al IPC real.",
+        "La Ley 21/2021, de 28 de diciembre, fijó la revalorización anual según el IPC medio.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=15",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2021/12/28/21",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Eliminar el factor de sostenibilidad",
+        "Eliminar el factor de sostenibilidad y el índice de revalorización de 2013.",
+        "La Ley 21/2021 derogó ambos y los sustituyó por el mecanismo de equidad intergeneracional.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=16",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2021/12/28/21",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Servicios sociales",
+        "Ingreso mínimo vital",
+        "Desarrollar el ingreso mínimo vital como prestación de la Seguridad Social.",
+        "El Real Decreto-ley 20/2020, de 29 de mayo, creó el ingreso mínimo vital; luego se tramitó como Ley 19/2021.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=16",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2020/05/29/20",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Derogar la LOMCE",
+        "Aprobar una ley de educación que derogue la LOMCE.",
+        "Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), que modificó la LOE y derogó la LOMCE.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=10",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2020/12/29/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Nueva ley de Formación Profesional",
+        "Impulsar una nueva ley de ordenación de la Formación Profesional.",
+        "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=8",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2022/03/31/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Nueva ley de universidades",
+        "Aprobar una nueva ley de universidades con un estatuto del personal docente e investigador.",
+        "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario (LOSU); el estatuto del PDI no se aprobó.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/10/Ahora-progreso-programa-PSOE-10N-31102019.pdf#page=8",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2023/03/22/2",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Sanidad",
+        "Eliminar los copagos de 2012",
+        "Eliminar progresivamente los copagos sanitarios introducidos en 2012, empezando por pensionistas y hogares vulnerables.",
+        "Los Presupuestos de 2021 (Ley 11/2020) eximieron del copago farmacéutico a pensionistas de rentas bajas, perceptores del IMV y algunos menores; el resto siguió.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2020/12/30/11",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Freno a las subidas del alquiler",
+        "Poner techo a las subidas abusivas del alquiler en zonas de mercado tensionado.",
+        "La Ley 12/2023, por el derecho a la vivienda, permite declarar zonas tensionadas y limitar allí las rentas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=18",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2023/05/24/12",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley de eutanasia",
+        "Regular el derecho a una muerte digna y la eutanasia.",
+        "Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2021/03/24/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley «solo sí es sí»",
+        "Aprobar una ley integral de protección de la libertad sexual y contra las violencias sexuales.",
+        "Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=37",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2022/09/06/10",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Derechos y sociedad",
+        "Ley de familias",
+        "Aprobar una ley que proteja las diferentes estructuras familiares.",
+        "El proyecto de Ley de Familias (121/000151) llegó al Congreso en 2023 y decayó con la disolución de las Cortes.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.ondavasca.com/el-adelanto-electoral-deja-fuera-leyes-clave-como-familias-mecenazgo-o-funcion-publica/",
+          "rmedio": "Onda Vasca (Europa Press)"
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley de memoria democrática",
+        "Desarrollar actuaciones de reconocimiento y reparación de las víctimas de la Guerra Civil y la dictadura.",
+        "Ley 20/2022, de 19 de octubre, de Memoria Democrática.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2022/10/19/20",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley trans y LGTBI",
+        "Aprobar una ley de igualdad LGTBI y reformar la ley de identidad de género.",
+        "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y de los derechos LGTBI.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/10/Ahora-progreso-programa-PSOE-10N-31102019.pdf#page=34",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2023/02/28/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Instituciones",
+        "Sustituir la «ley mordaza»",
+        "Aprobar una nueva ley de seguridad ciudadana que sustituya a la llamada ley mordaza.",
+        "La reforma decayó en la Comisión de Interior en marzo de 2023 por el voto en contra de ERC y EH Bildu.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=32",
+          "pmedio": "",
+          "rurl": "https://www.vozpopuli.com/espana/erc-eh-bildu-tumban-reforma-ley-mordaza-gobierno.html",
+          "rmedio": "Vozpópuli"
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Limitar los aforamientos",
+        "Reformar la Constitución para limitar los aforamientos al ejercicio del cargo.",
+        "No se presentó la reforma; los artículos 71.3 y 102.1 de la Constitución siguen sin cambios.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=22",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Instituciones",
+        "Renovar el CGPJ",
+        "Promover acuerdos para renovar los órganos constitucionales, como el Consejo General del Poder Judicial.",
+        "El CGPJ siguió con el mandato caducado toda la legislatura; no se renovó hasta julio de 2024, junto a la LO 3/2024.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=21",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2024/08/02/3",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Instituciones",
+        "Eliminar el voto rogado",
+        "Eliminar el voto rogado de los españoles en el exterior.",
+        "La Ley Orgánica 12/2022, de 30 de septiembre, reformó la LOREG y suprimió el voto rogado.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/10/Ahora-progreso-programa-PSOE-10N-31102019.pdf#page=5",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2022/09/30/12",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Ley de cambio climático",
+        "Aprobar la ley de cambio climático y transición energética con objetivos de emisiones.",
+        "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=23",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2021/05/20/7",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Ley de bienestar animal",
+        "Impulsar una ley de bienestar animal.",
+        "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=26",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2023/03/28/7",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Tasa Google",
+        "Aprobar el impuesto sobre determinados servicios digitales.",
+        "Ley 4/2020, de 15 de octubre, del Impuesto sobre Determinados Servicios Digitales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=46",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2020/10/15/4",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Tasa Tobin",
+        "Aprobar el impuesto sobre las transacciones financieras.",
+        "Ley 5/2020, de 15 de octubre, del Impuesto sobre las Transacciones Financieras.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=46",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2020/10/15/5",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Economía e impuestos",
+        "Más IRPF a las rentas altas",
+        "Subir dos puntos el IRPF a rentas de más de 130.000 euros y cuatro a la parte que pase de 300.000.",
+        "Los Presupuestos de 2021 (Ley 11/2020) subieron solo dos puntos a la base general de más de 300.000 euros y tres al ahorro de más de 200.000.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=45",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2020/12/30/11",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Tipo mínimo del 15 % en Sociedades",
+        "Garantizar una tributación mínima del 15 % a las grandes empresas (18 % a banca y petroleras).",
+        "Los Presupuestos de 2022 (Ley 22/2021) fijaron una tributación mínima del 15 % para empresas con más de 20 millones de cifra de negocios.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=45",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2021/12/28/22",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Ley contra el fraude fiscal",
+        "Aprobar una ley de prevención y lucha contra el fraude fiscal.",
+        "Ley 11/2021, de 9 de julio, de medidas de prevención y lucha contra el fraude fiscal.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=45",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2021/07/09/11",
+          "rmedio": ""
+        }
+      ],
+      [
+        "i",
+        "Autonomías",
+        "Nuevo sistema de financiación autonómica",
+        "Aprobar un nuevo sistema de financiación de las comunidades autónomas.",
+        "No se presentó en la legislatura; el Consejo de Política Fiscal y Financiera no aprobó una reforma hasta septiembre de 2026.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=43",
+          "pmedio": "",
+          "rurl": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260904-NP-CPFF-DIRECTO.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Salario mínimo europeo",
+        "Promover un marco europeo de salarios mínimos.",
+        "La UE aprobó la Directiva (UE) 2022/2041 sobre salarios mínimos adecuados.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf#page=48",
+          "pmedio": "",
+          "rurl": "https://eur-lex.europa.eu/eli/dir/2022/2041/oj",
+          "rmedio": ""
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Bajada de impuestos",
+        "Rechazo a la reforma laboral"
+      ],
+      [
+        "Vox",
+        "Ilegalizar partidos separatistas"
+      ]
+    ],
+    "hitos": [
+      "Pandemia de COVID-19 (2020): estado de alarma, ERTE y fondos europeos Next Generation."
+    ],
+    "prog": {
+      "url": "https://www.psoe.es/media-content/2019/12/30122019-Coalici%C3%B3n-progresista.pdf",
+      "estado": "disponible",
+      "nota": "Acuerdo «Coalición progresista» PSOE–UP de 30-12-2019 (psoe.es; copia en web.archive.org) y programa del PSOE 10N «Ahora, progreso» (https://www.psoe.es/media-content/2019/10/Ahora-progreso-programa-PSOE-10N-31102019.pdf). psoe.es puede bloquear descargas automáticas; ambos PDF están archivados en web.archive.org."
+    }
+  },
+  {
+    "id": "2023",
+    "num": "XV",
+    "a": "2023-07-23",
+    "b": "2026-11-03",
+    "s": "2023",
+    "e": "hoy",
+    "gov": "PSOE",
+    "mandato": [
+      "PSOE",
+      "Sumar"
+    ],
+    "current": true,
+    "ended": "Cortes disueltas el 6 oct 2026 · elecciones el 29 nov 2026",
+    "pres": "Pedro Sánchez",
+    "form": "Gobierno de coalición · Cortes disueltas",
+    "res": [
+      [
+        "PP",
+        137,
+        33.1
+      ],
+      [
+        "PSOE",
+        121,
+        31.7
+      ],
+      [
+        "Vox",
+        33,
+        12.4
+      ],
+      [
+        "Sumar",
+        31,
+        12.3
+      ],
+      [
+        "ERC",
+        7,
+        1.9
+      ],
+      [
+        "Junts",
+        7,
+        1.6
+      ],
+      [
+        "Bildu",
+        6,
+        1.4
+      ],
+      [
+        "PNV",
+        5,
+        1.1
+      ],
+      [
+        "OT",
+        3,
+        null
+      ]
+    ],
+    "prom": [
+      [
+        "c",
+        "Instituciones",
+        "Ley de amnistía",
+        "Conceder una amnistía a las personas encausadas por el procés catalán.",
+        "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=18",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2024/06/10/1",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Derechos y sociedad",
+        "Ley de paridad",
+        "Aprobar una ley de representación paritaria de mujeres y hombres en los órganos de decisión.",
+        "Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf#page=146",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/lo/2024/08/01/2",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Derechos y sociedad",
+        "Permiso por nacimiento de 20 semanas",
+        "Extender el permiso de maternidad y paternidad hasta las 20 semanas.",
+        "El RDL 9/2025 lo amplió de 16 a 19 semanas por progenitor (32 en familias monoparentales).",
+        {
+          "m": "20 semanas",
+          "g": "19 semanas",
+          "pct": 75
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=22",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15741",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Educación",
+        "Educación gratuita universal desde los 2 años",
+        "Universalizar el acceso a la educación pública para los niños de 2 años al final de la legislatura.",
+        "No se universalizó por ley; el Gobierno cifra en más de 45.000 las nuevas plazas públicas y gratuitas de 0 a 3 años financiadas.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=26",
+          "pmedio": "",
+          "rurl": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/110926-sanchez-plataforma-escuelas-infantiles.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Trabajo",
+        "Salario mínimo al 60 % por ley",
+        "Garantizar por ley en el Estatuto de los Trabajadores que el SMI suba cada año hasta el 60 % del salario medio.",
+        "El SMI subió cada año hasta 1.221 euros en 2026 (Real Decreto 126/2026), pero no se reformó el Estatuto para fijar el 60 %.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=12",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Trabajo",
+        "Jornada laboral de 37,5 horas",
+        "Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial, de forma progresiva hasta 2025.",
+        "El Congreso tumbó el proyecto de ley el 10 de septiembre de 2025 al aprobar las enmiendas a la totalidad de PP, Vox y Junts.",
+        {
+          "m": "37,5 h semanales",
+          "g": "40 h (sin cambios)",
+          "pct": 0
+        },
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=11",
+          "pmedio": "",
+          "rurl": "https://www.elsaltodiario.com/reduccion-jornada/congreso-rechaza-reduccion-jornada-laboral-diaz-promete-volver-intentarlo",
+          "rmedio": "El Salto"
+        }
+      ],
+      [
+        "n",
+        "Trabajo",
+        "Estatuto del Becario",
+        "Aprobar el estatuto del becario.",
+        "El Gobierno remitió el proyecto al Congreso en marzo de 2026; no se aprobó antes de la disolución de octubre.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=11",
+          "pmedio": "",
+          "rurl": "https://www.eldebate.com/economia/20260303/gobierno-da-luz-verde-estatuto-becario-manda-congreso-aprobacion-definitiva-cambia_391589.html",
+          "rmedio": "El Debate"
+        }
+      ],
+      [
+        "p",
+        "Sanidad",
+        "Dentista y oftalmología para jóvenes",
+        "Ampliar la cartera pública con salud bucodental, visual y audífonos para niños y jóvenes.",
+        "La Orden SND/606/2024 amplió la atención bucodental del SNS (infancia, embarazadas, discapacidad); la cobertura de gafas no consta aprobada.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=13",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/boe/dias/2024/06/18/pdfs/BOE-A-2024-12290.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Sanidad",
+        "Agencia Estatal de Salud Pública",
+        "Crear una Agencia Estatal de Salud Pública.",
+        "Ley 7/2025, de 28 de julio, por la que se crea la Agencia Estatal de Salud Pública.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf#page=166",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/boe/dias/2025/07/29/pdfs/BOE-A-2025-15652.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Autonomías",
+        "Nuevo modelo de financiación autonómica",
+        "Impulsar un nuevo modelo de financiación autonómica basado en equidad, autonomía y corresponsabilidad fiscal.",
+        "El Consejo de Política Fiscal y Financiera aprobó la reforma el 4 de septiembre de 2026, pero la ley no llegó a aprobarse antes de la disolución.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260904-NP-CPFF-DIRECTO.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Autonomías",
+        "Asumir parte de la deuda autonómica",
+        "Que el Estado asuma parte de la deuda de las comunidades autónomas, extensible a todas.",
+        "El proyecto de ley orgánica para condonar 83.252 millones llegó al Congreso en diciembre de 2025 y quedó sin aprobar al disolverse las Cortes.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=17",
+          "pmedio": "",
+          "rurl": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-congreso-reactiva-la-ley-para-condonar-deuda-a-las-comunidades-autonomas-tras-casi-un-ano-guardada-en-un-cajon-2026-09-29/",
+          "rmedio": "LegalToday"
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "IVA cero en alimentos hasta junio de 2024",
+        "Extender la rebaja del IVA de los alimentos hasta junio de 2024.",
+        "El Real Decreto-ley 8/2023, de 27 de diciembre, prorrogó el IVA del 0 % y del 5 % en alimentos durante el primer semestre de 2024.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=13",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/rdl/2023/12/27/8",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Economía e impuestos",
+        "Mantener los impuestos a banca y energéticas",
+        "Readaptar y mantener los gravámenes temporales a la banca y a las energéticas cuando expiren.",
+        "La Ley 7/2024 convirtió el de la banca en un impuesto permanente sobre el margen de intereses; el gravamen energético expiró sin prórroga.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=38",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2024/12/20/7",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Economía e impuestos",
+        "Ley de atención a la clientela",
+        "Aprobar una Ley de Servicios de Atención a la Clientela.",
+        "Ley 10/2025, de 26 de diciembre, por la que se regulan los servicios de atención a la clientela.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=8",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/eli/es/l/2025/12/26/10",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Economía e impuestos",
+        "Nueva Ley de Industria",
+        "Reformar y aprobar cuanto antes una nueva Ley de Industria que sustituya a la de 1992.",
+        "El proyecto de Ley de Industria y Autonomía Estratégica (121/000043) quedó encallado en el Congreso desde diciembre de 2024 y no se aprobó.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf#page=49",
+          "pmedio": "",
+          "rurl": "https://forbes.es/economia/906195/el-gobierno-admite-que-la-ley-de-industria-ha-quedado-desactualizada-tras-dos-anos-encallada-en-el-congreso/",
+          "rmedio": "Forbes"
+        }
+      ],
+      [
+        "n",
+        "Derechos y sociedad",
+        "Ley de familias",
+        "Aprobar una Ley de Familias que reconozca y proteja las distintas modalidades de familia.",
+        "El proyecto, aprobado por el Gobierno en febrero de 2024, quedó paralizado en el Congreso con decenas de prórrogas de enmiendas y no se aprobó.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=23",
+          "pmedio": "",
+          "rurl": "https://elderecho.com/la-ley-de-familias-cumple-ano-y-medio-paralizada-en-el-congreso",
+          "rmedio": "El Derecho"
+        }
+      ],
+      [
+        "n",
+        "Derechos y sociedad",
+        "Abolir la prostitución",
+        "Abolir la prostitución y erradicar la trata, con medidas penales contra el proxenetismo.",
+        "La proposición de ley del PSOE para prohibir el proxenetismo en todas sus formas (122/000077) fue rechazada por el Pleno en mayo de 2024.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf#page=157",
+          "pmedio": "",
+          "rurl": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-89-2.PDF",
+          "rmedio": ""
+        }
+      ],
+      [
+        "n",
+        "Instituciones",
+        "Reformar la «ley mordaza»",
+        "Reformar y derogar los aspectos de la ley de seguridad ciudadana que limitan los derechos de reunión y expresión.",
+        "La proposición de ley registrada en 2024 siguió varada en el Congreso; la ponencia ni se reunió en 2026.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=43",
+          "pmedio": "",
+          "rurl": "https://www.eldiario.es/1_caa1d7",
+          "rmedio": "elDiario.es"
+        }
+      ],
+      [
+        "c",
+        "Europa y exterior",
+        "Reconocer el Estado palestino",
+        "Reconocer el Estado de Palestina conforme a la resolución del Congreso de 2014.",
+        "El Consejo de Ministros aprobó el reconocimiento del Estado de Palestina el 28 de mayo de 2024.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=48",
+          "pmedio": "",
+          "rurl": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2024/280524-rueda-de-prensa-ministros.aspx",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Pensiones",
+        "Pensiones según el IPC",
+        "Seguir actualizando las pensiones conforme al IPC y subir las mínimas.",
+        "Subieron un 3,8 % en 2024, un 2,8 % en 2025 y un 2,7 % en 2026, este último por el RDL 3/2026.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=24",
+          "pmedio": "",
+          "rurl": "https://elderecho.com/el-congreso-convalida-el-real-decreto-ley-de-revalorizacion-de-las-pensiones",
+          "rmedio": "El Derecho"
+        }
+      ],
+      [
+        "c",
+        "Educación",
+        "Menús escolares saludables",
+        "Aprobar una norma estatal sobre la calidad nutricional de los comedores escolares y las máquinas expendedoras.",
+        "Real Decreto 315/2025, de 15 de abril, para el fomento de una alimentación saludable y sostenible en centros educativos.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=26",
+          "pmedio": "",
+          "rurl": "https://www.boe.es/boe/dias/2025/04/16/pdfs/BOE-A-2025-7659.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "p",
+        "Infraestructuras",
+        "Abonos de transporte rebajados",
+        "Mantener en 2024 la rebaja de los abonos de transporte y convertirla después en política permanente para algunos colectivos.",
+        "Los descuentos se prorrogaron cada año y en enero de 2026 llegó un abono único estatal de 60 euros (30 para jóvenes), siempre por decretos anuales.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=31",
+          "pmedio": "",
+          "rurl": "https://valenciaplaza.com/valenciaplaza/nacional/el-abono-unico-de-transporte-arrancara-el-19-de-enero-y-no-sustituira-al-resto-de-billetes-y-bonos",
+          "rmedio": "Valencia Plaza"
+        }
+      ],
+      [
+        "c",
+        "Medio ambiente",
+        "Más ambición climática: 48 % de renovables",
+        "Revisar al alza los objetivos climáticos y alcanzar en 2030 un 48 % de renovables sobre el uso final de energía.",
+        "El Real Decreto 986/2024 aprobó el nuevo PNIEC 2023-2030: 48 % de renovables en uso final y 32 % menos de emisiones que en 1990.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf#page=15",
+          "pmedio": "",
+          "rurl": "https://boe.es/boe/dias/2024/09/25/pdfs/BOE-A-2024-19278.pdf",
+          "rmedio": ""
+        }
+      ],
+      [
+        "c",
+        "Vivienda",
+        "Avales para la hipoteca de jóvenes",
+        "Crear una línea de avales públicos que cubra hasta el 20 % de la hipoteca de la primera vivienda.",
+        "La línea ICO de 2.500 millones avala hasta el 20 % del préstamo; a octubre de 2025 sumaba 8.549 operaciones y se prorrogó hasta 2027.",
+        null,
+        {
+          "psrc": "p",
+          "purl": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-7.PDF#page=14",
+          "pmedio": "",
+          "rurl": "https://diariodeavisos.elespanol.com/2026/07/boe-prorroga-avales-ico-comprar-primera-vivienda-2027/",
+          "rmedio": "Diario de Avisos"
+        }
+      ]
+    ],
+    "opp": [
+      [
+        "PP",
+        "Bajar el IRPF",
+        "Derogar la ley de vivienda"
+      ],
+      [
+        "Vox",
+        "Más control de la inmigración"
+      ]
+    ],
+    "hitos": [
+      "Ley de Amnistía (Ley Orgánica 1/2024): no estaba en el programa electoral.",
+      "El 2 de octubre de 2026 el Congreso tumbó los decretos de vivienda y el 6 de octubre Sánchez disolvió las Cortes (Real Decreto 806/2026). Las elecciones son el 29 de noviembre de 2026."
+    ],
+    "prog": {
+      "url": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+      "estado": "disponible",
+      "nota": "Programa del PSOE 23J 2023, acuerdo de coalición PSOE–Sumar de 24-10-2023 (https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf) y discurso de investidura de Sánchez (DSCD-15-PL-7, 15-11-2023). Resultados a 3-11-2026, con las Cortes disueltas el 6-10-2026: lo no aprobado se marca como decaído o incumplido."
+    }
+  }
+]

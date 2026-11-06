@@ -1,0 +1,118 @@
+{
+  "legislatura": {
+    "t": "Legislatura",
+    "d": "El tiempo entre unas elecciones generales y las siguientes: como mucho cuatro años. Cada una tiene su número (la XV es la de 2023)."
+  },
+  "pib": {
+    "t": "PIB (producto interior bruto)",
+    "d": "El valor de todo lo que se produce y se vende en el país en un año: pan, coches, cortes de pelo, consultas médicas… Sirve para medir el tamaño de la economía."
+  },
+  "pib-per-capita": {
+    "t": "PIB por habitante",
+    "d": "El PIB repartido entre toda la población. Es una media: dice cuánto se produce por persona, no cuánto gana cada uno."
+  },
+  "renta-per-capita": {
+    "t": "Renta per cápita",
+    "d": "Lo que se ingresa en total repartido entre todos los habitantes. Es una media: si uno gana mucho y otro poco, sale un término medio."
+  },
+  "ipc": {
+    "t": "IPC (índice de precios de consumo)",
+    "d": "La cifra oficial que mide cuánto suben los precios. Se mira lo que cuesta una cesta de compra típica (comida, luz, alquiler, ropa…) y se compara con un año antes."
+  },
+  "inflacion": {
+    "t": "Inflación",
+    "d": "La subida general de los precios. Si la inflación es del 3 %, lo que el año pasado costaba 100 € ahora cuesta unos 103 €."
+  },
+  "deficit": {
+    "t": "Déficit público",
+    "d": "Cuando el Estado gasta más de lo que ingresa en un año. Como una familia que gasta 1.100 € al mes y solo gana 1.000: los 100 que faltan los pide prestados."
+  },
+  "deuda-publica": {
+    "t": "Deuda pública",
+    "d": "Todo lo que el Estado debe, sumado año tras año. El déficit es lo que se pide prestado en un año; la deuda es todo lo prestado que aún no se ha devuelto."
+  },
+  "presion-fiscal": {
+    "t": "Presión fiscal",
+    "d": "Cuánto se paga en impuestos y cotizaciones comparado con el tamaño de la economía. Si es del 37 %, de cada 100 € que se producen, 37 van a Hacienda y a la Seguridad Social."
+  },
+  "cotizaciones": {
+    "t": "Cotizaciones sociales",
+    "d": "Lo que trabajadores y empresas pagan cada mes a la Seguridad Social, sacado de la nómina. Con eso se pagan pensiones, bajas y paro."
+  },
+  "salario-minimo": {
+    "t": "Salario mínimo interprofesional (SMI)",
+    "d": "Lo menos que se puede pagar por ley a alguien que trabaja a jornada completa. Lo fija el Gobierno cada año."
+  },
+  "tasa-de-paro": {
+    "t": "Tasa de paro",
+    "d": "De cada 100 personas que quieren trabajar y buscan empleo, cuántas no lo encuentran. Quien no busca (estudiantes, jubilados) no cuenta."
+  },
+  "epa": {
+    "t": "EPA (Encuesta de Población Activa)",
+    "d": "Encuesta del INE a unas 65.000 viviendas cada tres meses para saber quién trabaja, quién busca empleo y quién no. De ahí sale la cifra oficial de paro."
+  },
+  "ine": {
+    "t": "INE (Instituto Nacional de Estadística)",
+    "d": "El organismo público que cuenta y mide el país: población, precios, paro, salarios… La mayoría de cifras oficiales salen de ahí."
+  },
+  "boe": {
+    "t": "BOE (Boletín Oficial del Estado)",
+    "d": "El periódico oficial donde se publican las leyes y las decisiones del Gobierno. Una ley no vale hasta que sale en el BOE."
+  },
+  "mayoria-absoluta": {
+    "t": "Mayoría absoluta",
+    "d": "Tener más de la mitad de los escaños: en el Congreso, 176 de 350. Con ella, un partido puede aprobar leyes sin pedir apoyo a nadie."
+  },
+  "investidura": {
+    "t": "Investidura",
+    "d": "La votación del Congreso que elige al presidente del Gobierno. Tras unas elecciones, el candidato necesita el apoyo de suficientes diputados."
+  },
+  "mocion-de-censura": {
+    "t": "Moción de censura",
+    "d": "La forma de echar al presidente del Gobierno a mitad de legislatura. Hay que proponer a otro candidato y que lo apoyen al menos 176 diputados."
+  },
+  "coalicion": {
+    "t": "Gobierno de coalición",
+    "d": "Un Gobierno formado por dos o más partidos que se reparten los ministerios, porque ninguno tiene mayoría por sí solo."
+  },
+  "en-funciones": {
+    "t": "Gobierno en funciones",
+    "d": "El Gobierno que sigue mientras no hay otro nuevo, por ejemplo tras unas elecciones. Solo puede ocuparse del día a día, no aprobar grandes cambios."
+  },
+  "escano": {
+    "t": "Escaño",
+    "d": "El asiento de un diputado o senador. Decir que un partido tiene 120 escaños es decir que tiene 120 diputados."
+  },
+  "real-decreto-ley": {
+    "t": "Real decreto-ley",
+    "d": "Una norma que aprueba el Gobierno por su cuenta en casos urgentes. Vale desde el primer día, pero el Congreso tiene que confirmarla en un mes o deja de valer."
+  },
+  "presupuestos": {
+    "t": "Presupuestos Generales del Estado",
+    "d": "La ley que dice cuánto va a ingresar y gastar el Estado cada año y en qué. Si no se aprueban unos nuevos, siguen valiendo los anteriores (se «prorrogan»)."
+  },
+  "iva": {
+    "t": "IVA (impuesto sobre el valor añadido)",
+    "d": "El impuesto que va incluido en el precio de casi todo lo que compras. Con un IVA del 21 %, de una camiseta de 12,10 €, 2,10 € son para Hacienda."
+  },
+  "irpf": {
+    "t": "IRPF (impuesto sobre la renta)",
+    "d": "El impuesto que se paga por lo que se gana: sueldo, pensión, alquileres… Se descuenta de la nómina cada mes y se ajusta en la declaración de la renta."
+  },
+  "autonomo": {
+    "t": "Autónomo",
+    "d": "Quien trabaja por su cuenta, sin un jefe que le haga contrato: un fontanero con su furgoneta, una dueña de un bar, un diseñador que factura a clientes."
+  },
+  "prima-de-riesgo": {
+    "t": "Prima de riesgo",
+    "d": "Cuánto más interés paga España que Alemania cuando pide dinero prestado. Si sube, los prestamistas ven más riesgo y a España le sale más caro."
+  },
+  "democracia": {
+    "t": "Democracia",
+    "d": "La gente elige votando a quien gobierna. Ojo: el programa de un partido es una promesa, no un contrato; si no lo cumple, no se le puede llevar a juicio. Se le castiga en las urnas."
+  },
+  "participacion-electoral": {
+    "t": "Participación electoral",
+    "d": "De cada 100 personas que pueden votar, cuántas votan de verdad. Si es del 66 %, de cada 3 personas con derecho a voto, 2 votaron y 1 se quedó en casa."
+  }
+}

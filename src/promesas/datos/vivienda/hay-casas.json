@@ -1,0 +1,40 @@
+{
+  "_nota": "Datos para «¿Hay casas para todos?». hoy: INE, Estadistica Continua de Poblacion a 1 de julio de 2026 (provisional): personas en viviendas familiares por edad (tabla 60124) y hogares por tamaño (tablas 60131 y 60132). viviendas: estimacion del parque del Ministerio de Vivienda a final de 2025. censo2021: ultimo recuento de viviendas vacias y de uso esporadico (por consumo electrico).",
+  "hoy": {
+    "fecha": "1 de julio de 2026",
+    "provisional": true,
+    "personasEnViviendas": 49409876,
+    "menores": 7764106,
+    "adultos": 41645770,
+    "hogares": 19874860,
+    "hogaresUnipersonales": 5678769,
+    "tamanoMedioHogar": 2.49
+  },
+  "viviendas": {
+    "anio": 2025,
+    "total": 27100000
+  },
+  "censo2021": {
+    "viviendas": 26623708,
+    "principales": 18536616,
+    "vacias": 3837328,
+    "esporadicas": 2514511,
+    "restoNoPrincipales": 1735253,
+    "hogares": 18536616,
+    "hogaresUnipersonales": 5001166,
+    "poblacion": 47400798,
+    "personasEnViviendas": 47066972,
+    "menores": 8161138,
+    "adultos": 38905834,
+    "vaciasPorTamano": {
+      "menos10000": {
+        "poblacion": 20.3,
+        "vacias": 45
+      },
+      "mas250000": {
+        "poblacion": 23.8,
+        "vacias": 10.5
+      }
+    }
+  }
+}

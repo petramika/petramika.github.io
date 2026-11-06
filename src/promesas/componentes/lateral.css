@@ -1,0 +1,16 @@
+/* Panel lateral (Lateral.tsx), compartido por la web y sus paginas (fuentes, autora) */
+.lat-fondo{position:fixed;inset:0;z-index:60;background:rgba(20,22,26,.35);display:flex;justify-content:flex-end;animation:lat-fondo .2s ease-out}
+.lat{width:min(640px,100%);height:100%;overflow-y:auto;overscroll-behavior:contain;background:var(--bg);border-left:5px solid var(--ink);padding:26px 30px 40px;box-shadow:-10px 0 40px rgba(0,0,0,.15);animation:lat-entra .28s cubic-bezier(.2,.8,.2,1)}
+.lat-cerrar{position:sticky;top:0;float:right;margin:-6px -10px 0 12px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--bg);cursor:pointer;font-size:15px;color:var(--ink);z-index:2}
+.lat-cerrar:hover{border-color:var(--ink)}
+.lat-ante{margin:0;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.lat-titulo{margin:4px 0 14px;font-size:clamp(22px,3vw,28px);line-height:1.15}
+.lat-cuerpo{clear:both}
+@keyframes lat-fondo{from{opacity:0}}
+@keyframes lat-entra{from{transform:translateX(40px);opacity:0}}
+@media (max-width:600px){.lat{padding:18px 16px 32px;border-left-width:4px}}
+@media (prefers-reduced-motion:reduce){.lat,.lat-fondo{animation:none}}
+.lat-info{font-size:15.5px;line-height:1.65}
+.lat-info p{margin:0 0 14px}
+.lat-info .srcl{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted)}
+.lat-info a{color:inherit}

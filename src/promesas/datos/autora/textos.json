@@ -1,0 +1,85 @@
+{
+  "intro": [
+    "No sé dónde encontrar la verdad. Descartes decía que debíamos descartar (válgame la redundancia) todo aquello que generase la más mínima incertidumbre hasta hallar una verdad absoluta que sirviera de cimiento para toda la filosofía.",
+    "Bueno, pues en un mundo con tanta incertidumbre yo también quiero encontrar algo cercano a ese cimiento. Para alcanzarlo con mis conocimientos en informática, lo que voy aprendiendo de filosofía, psicología, historia y política, y mi corta experiencia en la vida, creo que puedo guiarme y guiar por lo que me dicta la intuición: el uso de los números. No solo este es un formato adecuado, puesto que…",
+    "¿De dónde salen esos números? Intento que sean de sitios oficiales, que estén lo mínimo influenciados por nuestro bipartidismo y juicio. No puedo poner la mano en el fuego y asegurar que sean cien por cien verídicos e independientes, pero no me importa: he aprendido en este camino a abandonar mi juicio en favor de pedir que dejemos el odio y que entendamos la realidad.",
+    "Para el resto de los formatos que no sean el que encuentre en esta web, usted tendrá que aprender a preguntar, a leer entendiendo a quién y qué está leyendo, a limpiar la información y a desglosar. Es una técnica muy difícil que yo nunca dominaré, pero sí mejoraré, y le animo a hacer lo mismo.",
+    "Hay mucho más allá de «facha», «rojo», «perro», «Franco». ¿Serás capaz de verlo y plantearte preguntas?"
+  ],
+  "preguntasTitulo": "Antes de votar, o de decidir no hacerlo, merece la pena pararse a pensar",
+  "preguntas": [
+    "¿Qué prometió cada uno, y qué podía cumplir de verdad?",
+    "¿Qué estaba pasando en España y en el mundo mientras gobernaba?",
+    "¿Qué cambió en mi vida, y en la de la gente que me rodea, en esos años?",
+    "¿De dónde saco la información, y quién gana si me la creo?",
+    "¿Qué quiero yo, de verdad, para los próximos cuatro años?",
+    {
+      "texto": "¿Cuál es la verdad absoluta?",
+      "infoEtiqueta": "Karl Popper y la verdad",
+      "infoTitulo": "Karl Popper: nadie tiene la verdad absoluta",
+      "info": [
+        "Karl Popper (1902–1994), filósofo austriaco y británico, sostenía que nunca podemos demostrar que una idea es verdadera del todo: solo podemos intentar demostrar que es falsa.",
+        "Por muchos cisnes blancos que veas, no puedes probar que «todos los cisnes son blancos»; basta un cisne negro para tumbarlo. A esto lo llamó falsabilidad: una idea vale como científica si se puede poner a prueba y podría resultar falsa.",
+        "Así avanza el conocimiento, por ensayo y error: proponemos ideas, buscamos sus fallos y nos quedamos con las que resisten, sabiendo que mañana pueden caer. No llegamos a la verdad absoluta, pero nos acercamos a ella corrigiendo errores.",
+        "Lo llevó también a la política en «La sociedad abierta y sus enemigos» (1945): desconfiar de quien dice tener la verdad absoluta y preferir las sociedades donde las ideas se pueden criticar y los gobiernos se pueden cambiar sin violencia, votando."
+      ],
+      "infoEnlace": {
+        "texto": "Karl Popper en Filosofía comprimida",
+        "url": "/historia-filosofia-tldr/#karl-popper"
+      }
+    },
+    {
+      "texto": "¿Crees que existe una solución perfecta para todo?",
+      "infoEtiqueta": "Karl Popper y las soluciones perfectas",
+      "infoTitulo": "Karl Popper: no hay soluciones perfectas",
+      "info": [
+        "Popper desconfiaba de quien promete arreglarlo todo de golpe con un plan perfecto. Lo llamaba «ingeniería utópica» y le oponía la «ingeniería gradual»: cambiar las cosas poco a poco, probar, mirar qué pasa y corregir los errores («La miseria del historicismo» y «La sociedad abierta y sus enemigos», 1945).",
+        "Su razón: no todos estamos de acuerdo sobre cómo sería el mundo ideal. Una solución «perfecta» siempre deja fuera a alguien: a minorías que piensan distinto o a las que perjudica. Para imponerla a todos, al final hay que callar a quien discrepa. Por eso, decía, la utopía acaba llevando a la violencia (conferencia «Utopía y violencia», 1947).",
+        "Proponía algo más modesto: en vez de buscar la felicidad perfecta para todos, luchar contra males concretos que se pueden ver, como la pobreza, el paro o la enfermedad, y hacerlo de forma que se pueda criticar y rectificar.",
+        "Y por eso la democracia, para Popper, no consiste en que la mayoría lo decida todo, sino en poder cambiar a un mal gobierno sin violencia, votando, y seguir corrigiendo."
+      ],
+      "infoEnlace": {
+        "texto": "Karl Popper en Filosofía comprimida",
+        "url": "/historia-filosofia-tldr/#karl-popper"
+      }
+    },
+    "¿Crees que las propuestas de los gobiernos son, a veces, demasiado simples para problemas tan complejos?",
+    "¿Crees que algún sistema político de los de hoy sirve para todos?",
+    {
+      "texto": "¿Crees que la Constitución y el sistema democrático han cambiado lo suficiente en estos 40 años para adaptarse a nuestras necesidades?",
+      "infoEtiqueta": "Cuánto ha cambiado la Constitución",
+      "infoTitulo": "La Constitución de 1978 y sus cambios",
+      "info": [
+        "La Constitución española es de 1978 y en casi 50 años solo se ha reformado cuatro veces:",
+        "1992: para que los ciudadanos de la Unión Europea que viven en España pudieran presentarse a las elecciones municipales (artículo 13). 2011: para poner un límite al déficit y que pagar la deuda pública vaya primero (artículo 135). 2024: para cambiar «disminuidos» por «personas con discapacidad» (artículo 49). 2026: para que Formentera elija su propio senador, separada de Ibiza (artículo 69).",
+        "Para comparar, en la gráfica: la Ley Fundamental de Alemania, de 1949, se ha reformado 69 veces (la última, en 2025); la Constitución francesa de 1958, 25 veces; la italiana de 1948, 20; la portuguesa de 1976, 7. Cambiar mucho o poco no es bueno ni malo por sí mismo: una constitución estable da seguridad, pero el mundo de 1978 no tenía internet, ni euro, ni la población de hoy.",
+        "Las grandes reformas (la Corona, los derechos fundamentales, el título preliminar) exigen dos tercios de cada cámara, elecciones nuevas, volver a aprobarla y un referéndum. Por eso casi nunca se tocan."
+      ],
+      "infoEnlace": {
+        "texto": "Constitución española en el BOE",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+      },
+      "grafica": "reformas"
+    }
+  ],
+  "consejosTitulo": "Lo que te diría",
+  "consejos": [
+    "Aprende sobre la historia de la política.",
+    "Aprende cómo funciona una [[democracia]] y otras formas de gobernar.",
+    "Aprende qué son los estados capitalistas, socialistas, comunistas, socialdemócratas, liberales y conservadores, y en qué se diferencian.",
+    "Entiende que no existe una solución fácil para problemas tan complejos.",
+    "Entiende que no existe una sola forma de ver las cosas: respeta las opiniones y aprende a escuchar.",
+    "Contrasta, duda, lee fuentes distintas y decide con calma. La decisión es tuya.",
+    "Internet no se puede gobernar, pero sí se puede orientar. Te lo dice una Geek Girl.",
+    "La IA no siempre contiene la verdad: se basa en lo que lee en internet, no tiene inteligencia ni capacidad de razonar, y tú sí.",
+    "Mira quién escribe los artículos, juicios, opiniones, frases…: todos tenemos sesgos y juicios. Lee desde fuera.",
+    "Pregunta ante el desconocimiento y déjate llevar por quien no quiere imponer, sino compartir.",
+    "Deja de perder el tiempo odiando y viendo cómo otros se pelean.",
+    "Mira lo mejor para ti y para los demás, pero recuerda: «mi libertad termina donde acaba la del otro» y, como consecuencia, mi libertad empieza donde acaba la del otro.",
+    "Toda decisión tiene consecuencias, para mal y para bien."
+  ],
+  "cierre": [
+    "La Tierra tiene unos 4.500 millones de años. Los dinosaurios la habitaron durante unos 165 millones de años, mucho más tiempo (y más pacíficamente) que el ser humano, que apareció hace apenas unos 300.000 años. Hace unos 500 años, en plena Inquisición, se quemaba en la hoguera a quien iba en contra de la religión. Hace 93 años las mujeres votaron por primera vez en España. Hace 40 comenzó el bipartidismo.",
+    "El tiempo pasa muy rápido y los cambios, aún más. El futuro hoy es tuyo. Échale un ratito, anda, y piénsatelo aunque sea un poco."
+  ]
+}

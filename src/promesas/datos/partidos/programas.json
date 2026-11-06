@@ -1,0 +1,1864 @@
+{
+  "PSOE": {
+    "w": [
+      [
+        "psoe.es",
+        "https://www.psoe.es/"
+      ]
+    ],
+    "n": "PSOE",
+    "c": "#D9262E",
+    "d": "Partido Socialista Obrero Español. Centroizquierda. Se ha presentado a todas las elecciones.",
+    "e": [
+      {
+        "e": "1986",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Europa y exterior",
+            "Consolidar la entrada en la CEE (en vigor desde enero de 1986)",
+            "cee"
+          ],
+          [
+            "Sanidad",
+            "Desplegar la Ley General de Sanidad, aprobada en abril de 1986",
+            "sanidad_univ"
+          ],
+          [
+            "Trabajo",
+            "Crear empleo (lema de campaña: «Por buen camino»)",
+            "empleo"
+          ]
+        ]
+      },
+      {
+        "e": "1989",
+        "r": "PSOE",
+        "s": "n",
+        "i": [
+          [
+            "Pensiones",
+            "Pensiones no contributivas para quien no ha cotizado",
+            "pnc"
+          ],
+          [
+            "Educación",
+            "Enseñanza obligatoria hasta los 16 años",
+            "edu_oblig"
+          ],
+          [
+            "Infraestructuras",
+            "AVE y autovías para 1992",
+            "infra"
+          ],
+          [
+            "Economía e impuestos",
+            "Converger con Europa",
+            "converg"
+          ]
+        ]
+      },
+      {
+        "e": "1993",
+        "r": "PSOE",
+        "s": "n",
+        "i": [
+          [
+            "Instituciones",
+            "«El cambio sobre el cambio»: regeneración tras el caso Filesa",
+            "regeneracion"
+          ],
+          [
+            "Trabajo",
+            "Salir de la crisis y crear empleo",
+            "empleo"
+          ],
+          [
+            "Pensiones",
+            "Gran acuerdo para garantizar las pensiones",
+            "pacto_pensiones"
+          ],
+          [
+            "Economía e impuestos",
+            "Cumplir los criterios de Maastricht",
+            "converg"
+          ]
+        ]
+      },
+      {
+        "e": "1996",
+        "r": "PSOE",
+        "s": "n",
+        "i": [
+          [
+            "Servicios sociales",
+            "Defender el Estado del bienestar",
+            "bienestar"
+          ],
+          [
+            "Pensiones",
+            "Mantener el sistema público de pensiones (Pacto de Toledo)",
+            "pacto_pensiones"
+          ],
+          [
+            "Europa y exterior",
+            "Entrar en el euro",
+            "euro"
+          ]
+        ]
+      },
+      {
+        "e": "2000",
+        "r": "PSOE",
+        "as": "PSOE-Progresistas",
+        "s": "m",
+        "i": [
+          [
+            "Instituciones",
+            "Acuerdo programático con IU",
+            "coalicion"
+          ],
+          [
+            "Pensiones",
+            "Subir las pensiones mínimas (plan de los 100 días de Almunia)",
+            "pensiones_min"
+          ]
+        ]
+      },
+      {
+        "e": "2004",
+        "r": "PSOE",
+        "s": "p",
+        "i": [
+          [
+            "Europa y exterior",
+            "Retirar las tropas de Irak si la ONU no asumía el control",
+            "irak"
+          ],
+          [
+            "Derechos y sociedad",
+            "Matrimonio entre personas del mismo sexo",
+            "matrimonio"
+          ],
+          [
+            "Servicios sociales",
+            "Sistema Nacional de Atención a la Dependencia",
+            "dependencia"
+          ],
+          [
+            "Trabajo",
+            "Salario mínimo de 600 € al final de la legislatura",
+            "smi"
+          ],
+          [
+            "Vivienda",
+            "180.000 viviendas al año en compra o alquiler a precio razonable",
+            "vivienda_publica"
+          ]
+        ]
+      },
+      {
+        "e": "2008",
+        "r": "PSOE",
+        "s": "p",
+        "i": [
+          [
+            "Trabajo",
+            "«Hacia el pleno empleo»",
+            "empleo"
+          ],
+          [
+            "Economía e impuestos",
+            "Deducción de 400 € en el IRPF para asalariados y pensionistas",
+            "ded400"
+          ],
+          [
+            "Trabajo",
+            "Subir el salario mínimo hasta 800 €",
+            "smi"
+          ],
+          [
+            "Vivienda",
+            "1,5 millones de viviendas protegidas en 10 años y renta de emancipación de 210 €/mes",
+            "vivienda_publica"
+          ]
+        ]
+      },
+      {
+        "e": "2011",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Recuperar el impuesto sobre el patrimonio de las grandes fortunas",
+            "grandes_fortunas"
+          ],
+          [
+            "Economía e impuestos",
+            "Tasa a la banca",
+            "impuesto_banca"
+          ],
+          [
+            "Trabajo",
+            "Plan de empleo para jóvenes",
+            "empleo_joven"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Derogar los aspectos más lesivos de la reforma laboral y un nuevo Estatuto de los Trabajadores",
+            "derogar_reforma_laboral"
+          ],
+          [
+            "Servicios sociales",
+            "Ingreso mínimo vital",
+            "imv"
+          ],
+          [
+            "Instituciones",
+            "Reforma de la Constitución hacia un Estado federal",
+            "federal"
+          ],
+          [
+            "Educación",
+            "Derogar la LOMCE",
+            "ley_educativa"
+          ],
+          [
+            "Trabajo",
+            "Salario mínimo al 60 % del salario medio en dos legislaturas",
+            "smi"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": "PSOE",
+        "s": "n",
+        "i": [
+          [
+            "Trabajo",
+            "Derogar la reforma laboral y subir el salario mínimo",
+            "derogar_reforma_laboral"
+          ],
+          [
+            "Servicios sociales",
+            "Ingreso mínimo vital",
+            "imv"
+          ],
+          [
+            "Educación",
+            "Derogar la LOMCE",
+            "ley_educativa"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Salario mínimo de unos 1.000 €",
+            "smi"
+          ],
+          [
+            "Derechos y sociedad",
+            "Sacar a Franco del Valle de los Caídos",
+            "franco"
+          ],
+          [
+            "Derechos y sociedad",
+            "Ley de eutanasia (compromiso de Sánchez)",
+            "eutanasia"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Salario mínimo al 60 % del salario medio",
+            "smi"
+          ],
+          [
+            "Derechos y sociedad",
+            "Ley de eutanasia",
+            "eutanasia"
+          ],
+          [
+            "Pensiones",
+            "Subir las pensiones según el IPC",
+            "pensiones_ipc"
+          ],
+          [
+            "Vivienda",
+            "Ley de vivienda",
+            "ley_vivienda"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "PSOE",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Que el salario mínimo nunca baje del 60 % del salario medio",
+            "smi"
+          ],
+          [
+            "Vivienda",
+            "183.000 viviendas públicas de alquiler, la mitad para jóvenes",
+            "vivienda_publica"
+          ],
+          [
+            "Infraestructuras",
+            "Transporte público urbano gratis para niños y estudiantes hasta 24 años",
+            "transporte"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 34,
+        "s": "m",
+        "i": [
+          [
+            "Vivienda",
+            "Préstamos ICO sin intereses de hasta 50.000 € para la primera vivienda (decretos del 6-10-2026)",
+            "avales"
+          ],
+          [
+            "Pensiones",
+            "Cuatro años más de subida de las pensiones con el IPC",
+            "pensiones_ipc"
+          ],
+          [
+            "Trabajo",
+            "Jornada de 36 horas en 2030 (aprobado en su congreso de 2024)",
+            "jornada"
+          ]
+        ]
+      }
+    ]
+  },
+  "PP": {
+    "w": [
+      [
+        "pp.es",
+        "https://www.pp.es/"
+      ]
+    ],
+    "n": "PP (antes AP)",
+    "c": "#1E6FB8",
+    "d": "Partido Popular. Centroderecha. Hasta 1989 se llamaba Alianza Popular (AP) y en 1986 se presentó como Coalición Popular.",
+    "e": [
+      {
+        "e": "1986",
+        "r": "AP",
+        "as": "Coalición Popular (AP-PDP-PL)",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Programa económico liberal; Fraga dijo que era «el más cercano a las ideas de la CEOE»",
+            "liberalizar"
+          ]
+        ]
+      },
+      {
+        "e": "1989",
+        "r": "PP",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Bajar impuestos",
+            "bajar_impuestos"
+          ],
+          [
+            "Economía e impuestos",
+            "Reducir el déficit",
+            "deficit"
+          ]
+        ]
+      },
+      {
+        "e": "1993",
+        "r": "PP",
+        "s": "n",
+        "i": [
+          [
+            "Instituciones",
+            "Regeneración democrática y lucha contra la corrupción",
+            "regeneracion"
+          ],
+          [
+            "Economía e impuestos",
+            "Rebaja fiscal y control del gasto",
+            "bajar_impuestos"
+          ]
+        ]
+      },
+      {
+        "e": "1996",
+        "r": "PP",
+        "s": "n",
+        "i": [
+          [
+            "Europa y exterior",
+            "Entrar en el euro desde el principio",
+            "euro"
+          ],
+          [
+            "Economía e impuestos",
+            "Bajar el IRPF",
+            "bajar_irpf"
+          ],
+          [
+            "Economía e impuestos",
+            "Privatizar empresas públicas",
+            "privatizar"
+          ]
+        ]
+      },
+      {
+        "e": "2000",
+        "r": "PP",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Déficit cero",
+            "deficit"
+          ],
+          [
+            "Economía e impuestos",
+            "Segunda rebaja del IRPF",
+            "bajar_irpf"
+          ],
+          [
+            "Infraestructuras",
+            "Plan Hidrológico Nacional (trasvase del Ebro)",
+            "trasvase"
+          ]
+        ]
+      },
+      {
+        "e": "2004",
+        "r": "PP",
+        "s": "m",
+        "i": [
+          [
+            "Infraestructuras",
+            "Recuperar el Plan Hidrológico Nacional (promesa de campaña de Rajoy)",
+            "trasvase"
+          ]
+        ]
+      },
+      {
+        "e": "2008",
+        "r": "PP",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Trabajadores y pensionistas con rentas de menos de 16.000 € sin IRPF",
+            "bajar_irpf"
+          ],
+          [
+            "Derechos y sociedad",
+            "Contrato de integración para inmigrantes",
+            "contrato_integracion"
+          ]
+        ]
+      },
+      {
+        "e": "2011",
+        "r": "PP",
+        "s": "p",
+        "i": [
+          [
+            "Trabajo",
+            "Reforma laboral que acabe con la dualidad entre fijos y temporales",
+            "reforma_laboral"
+          ],
+          [
+            "Pensiones",
+            "Mantener el poder adquisitivo de las pensiones",
+            "pensiones_ipc"
+          ],
+          [
+            "Sanidad",
+            "Preservar el carácter universal de la sanidad",
+            "sanidad_univ"
+          ],
+          [
+            "Economía e impuestos",
+            "«No subiré los impuestos» (frase de campaña de Rajoy)",
+            "bajar_impuestos"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "PP",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "20 millones de personas trabajando en 2020",
+            "empleo"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": "PP",
+        "s": "p",
+        "i": [
+          [
+            "Trabajo",
+            "Objetivo 20-20: dos millones más de personas trabajando",
+            "empleo"
+          ],
+          [
+            "Educación",
+            "Pacto Nacional de Educación (en el acuerdo PP–Cs de agosto de 2016)",
+            "pacto_educativo"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "PP",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "IRPF máximo por debajo del 40 % y Sociedades por debajo del 20 %",
+            "bajar_irpf"
+          ],
+          [
+            "Autonomías",
+            "Aplicar el artículo 155 en Cataluña el tiempo necesario",
+            "art155"
+          ],
+          [
+            "Servicios sociales",
+            "Ley de apoyo a la maternidad",
+            "maternidad"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "PP",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Bajar impuestos",
+            "bajar_impuestos"
+          ],
+          [
+            "Trabajo",
+            "Mantener la reforma laboral",
+            "reforma_laboral"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "PP",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Bajar el IRPF a quien gane menos de 40.000 €",
+            "bajar_irpf"
+          ],
+          [
+            "Vivienda",
+            "Derogar la ley de vivienda",
+            "derogar_ley_vivienda"
+          ],
+          [
+            "Vivienda",
+            "Avales para que los menores de 35 años consigan hipotecas de hasta el 95 %",
+            "avales"
+          ],
+          [
+            "Derechos y sociedad",
+            "Derogar la ley de memoria democrática y la ley trans",
+            "derogar_memoria_trans"
+          ],
+          [
+            "Economía e impuestos",
+            "Eliminar el impuesto a las grandes fortunas",
+            "quitar_grandes_fortunas"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 22.2,
+        "s": "w",
+        "i": [
+          [
+            "Vivienda",
+            "Al menos un millón de viviendas («Contrato con España»)",
+            "construir_vivienda"
+          ],
+          [
+            "Pensiones",
+            "Subida anual de las pensiones con el IPC",
+            "pensiones_ipc"
+          ],
+          [
+            "Economía e impuestos",
+            "Autónomos que facturen menos de 85.000 € sin tributar e IVA más bajo en alimentos y luz",
+            "bajar_impuestos"
+          ],
+          [
+            "Autonomías",
+            "Nueva financiación autonómica",
+            "financiacion_autonomica"
+          ]
+        ]
+      }
+    ]
+  },
+  "IZQ": {
+    "w": [
+      [
+        "Izquierda Unida",
+        "https://izquierdaunida.org/"
+      ],
+      [
+        "Movimiento Sumar",
+        "https://movimientosumar.es/"
+      ],
+      [
+        "Más Madrid",
+        "https://masmadrid.org/"
+      ]
+    ],
+    "n": "IU · Podemos · Sumar",
+    "c": "#6B2C91",
+    "d": "El espacio a la izquierda del PSOE. Izquierda Unida (desde 1986), Podemos y sus confluencias (2015), Unidas Podemos (2016–2019) y Sumar (2023). En 2026 se divide: ver «Frente Amplio» y «Podemos».",
+    "e": [
+      {
+        "e": "1986",
+        "r": "IU",
+        "as": "Izquierda Unida",
+        "s": "m",
+        "i": [
+          [
+            "Europa y exterior",
+            "Salir de la OTAN y desmantelar las bases",
+            "otan"
+          ]
+        ]
+      },
+      {
+        "e": "1989",
+        "r": "IU",
+        "as": "Izquierda Unida",
+        "s": "n",
+        "i": [
+          [
+            "Trabajo",
+            "Oponerse a la política económica del PSOE (huelga del 14-D)",
+            "empleo"
+          ],
+          [
+            "Trabajo",
+            "Reducir la jornada laboral",
+            "jornada"
+          ]
+        ]
+      },
+      {
+        "e": "1993",
+        "r": "IU",
+        "as": "Izquierda Unida",
+        "s": "n",
+        "i": [
+          [
+            "Europa y exterior",
+            "Rechazo al Tratado de Maastricht",
+            "converg"
+          ]
+        ]
+      },
+      {
+        "e": "2000",
+        "r": "IU",
+        "as": "Izquierda Unida",
+        "s": "m",
+        "i": [
+          [
+            "Instituciones",
+            "Acuerdo programático con el PSOE",
+            "coalicion"
+          ],
+          [
+            "Trabajo",
+            "Semana laboral de 35 horas (ILP de 1999)",
+            "jornada"
+          ]
+        ]
+      },
+      {
+        "e": "2004",
+        "r": "IU",
+        "as": "Izquierda Unida",
+        "s": "n",
+        "i": [
+          [
+            "Europa y exterior",
+            "Retirar las tropas de Irak",
+            "irak"
+          ],
+          [
+            "Vivienda",
+            "Más vivienda pública en alquiler",
+            "vivienda_publica"
+          ]
+        ]
+      },
+      {
+        "e": "2011",
+        "r": "IU",
+        "as": "IU-Los Verdes",
+        "s": "p",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Banca pública",
+            "banca_publica"
+          ],
+          [
+            "Economía e impuestos",
+            "Impuesto a las grandes fortunas",
+            "grandes_fortunas"
+          ],
+          [
+            "Instituciones",
+            "Reforma de la ley electoral",
+            "ley_electoral"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "Podemos",
+        "as": "Podemos y confluencias",
+        "s": "m",
+        "i": [
+          [
+            "Servicios sociales",
+            "Renta garantizada desde 600 € al mes",
+            "imv"
+          ],
+          [
+            "Economía e impuestos",
+            "Auditoría y reestructuración de la deuda",
+            "auditoria_deuda"
+          ],
+          [
+            "Autonomías",
+            "Referéndum con garantías en Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": "UP",
+        "as": "Unidos Podemos",
+        "s": "n",
+        "i": [
+          [
+            "Servicios sociales",
+            "Renta garantizada",
+            "imv"
+          ],
+          [
+            "Economía e impuestos",
+            "Más impuestos a las rentas altas",
+            "grandes_fortunas"
+          ],
+          [
+            "Autonomías",
+            "Referéndum pactado en Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "UP",
+        "as": "Unidas Podemos",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Quedarse con Bankia como banca pública",
+            "banca_publica"
+          ],
+          [
+            "Vivienda",
+            "Limitar el precio del alquiler",
+            "tope_alquiler"
+          ],
+          [
+            "Derechos y sociedad",
+            "Derogar la «ley mordaza»",
+            "mordaza"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "UP",
+        "as": "Unidas Podemos",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Salario mínimo de 1.200 € en la legislatura",
+            "smi"
+          ],
+          [
+            "Instituciones",
+            "Gobierno de coalición con el PSOE",
+            "coalicion"
+          ],
+          [
+            "Vivienda",
+            "Limitar el precio del alquiler",
+            "tope_alquiler"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "Sumar",
+        "as": "Sumar",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Jornada de 37,5 horas por ley en 2024 y avanzar hasta 32",
+            "jornada"
+          ],
+          [
+            "Servicios sociales",
+            "Herencia universal: 20.000 € a los 18 años",
+            "herencia"
+          ],
+          [
+            "Economía e impuestos",
+            "Impuesto permanente a las grandes fortunas (al menos un 4 %)",
+            "grandes_fortunas"
+          ]
+        ]
+      }
+    ]
+  },
+  "CDS": {
+    "w": [],
+    "n": "CDS",
+    "c": "#5E9E3A",
+    "d": "Centro Democrático y Social, el partido de Adolfo Suárez. Centro. Desapareció del Congreso en 1993.",
+    "e": [
+      {
+        "e": "1986",
+        "r": "CDS",
+        "s": "n",
+        "i": [
+          [
+            "Defensa",
+            "Reducir la mili a tres meses",
+            "mili"
+          ],
+          [
+            "Instituciones",
+            "Reformar la ley electoral",
+            "ley_electoral"
+          ]
+        ]
+      },
+      {
+        "e": "1989",
+        "r": "CDS",
+        "s": "n",
+        "i": [
+          [
+            "Instituciones",
+            "Política de centro y consenso",
+            "consenso"
+          ]
+        ]
+      },
+      {
+        "e": "1993",
+        "r": null,
+        "v": 1.8,
+        "s": "n",
+        "i": [
+          [
+            "Instituciones",
+            "Recuperar el centro político",
+            "consenso"
+          ]
+        ]
+      }
+    ]
+  },
+  "CS": {
+    "w": [
+      [
+        "ciudadanos-cs.org",
+        "https://www.ciudadanos-cs.org/"
+      ]
+    ],
+    "n": "Ciudadanos",
+    "c": "#F07A21",
+    "d": "Ciudadanos. Liberal, nacido en Cataluña. Entró en el Congreso en 2015 y no se presentó a las elecciones de 2023.",
+    "e": [
+      {
+        "e": "2015",
+        "r": "Cs",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Contrato único para acabar con la temporalidad",
+            "contrato_unico"
+          ],
+          [
+            "Trabajo",
+            "Complemento salarial para sueldos bajos",
+            "complemento_salarial"
+          ],
+          [
+            "Instituciones",
+            "Suprimir las diputaciones",
+            "suprimir_diputaciones"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": "Cs",
+        "s": "n",
+        "i": [
+          [
+            "Trabajo",
+            "Contrato único",
+            "contrato_unico"
+          ],
+          [
+            "Educación",
+            "Pacto educativo",
+            "pacto_educativo"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "Cs",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Bajar impuestos a las clases medias",
+            "bajar_irpf"
+          ],
+          [
+            "Autonomías",
+            "Aplicar el artículo 155 en Cataluña",
+            "art155"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "Cs",
+        "s": "n",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Bajar impuestos",
+            "bajar_impuestos"
+          ],
+          [
+            "Instituciones",
+            "Pactos de Estado para desbloquear la política",
+            "consenso"
+          ]
+        ]
+      }
+    ]
+  },
+  "UPYD": {
+    "w": [
+      [
+        "Web histórica (archivo)",
+        "http://web.archive.org/web/2016/http://www.upyd.es/"
+      ]
+    ],
+    "n": "UPyD",
+    "c": "#E4007C",
+    "d": "Unión Progreso y Democracia, de Rosa Díez. Centro. Estuvo en el Congreso de 2008 a 2015.",
+    "e": [
+      {
+        "e": "2008",
+        "r": "UPyD",
+        "s": "m",
+        "i": [
+          [
+            "Instituciones",
+            "Reforma de la ley electoral",
+            "ley_electoral"
+          ],
+          [
+            "Autonomías",
+            "Devolver al Estado las competencias de educación y sanidad",
+            "recentralizar"
+          ]
+        ]
+      },
+      {
+        "e": "2011",
+        "r": "UPyD",
+        "s": "n",
+        "i": [
+          [
+            "Instituciones",
+            "Reforma de la ley electoral",
+            "ley_electoral"
+          ],
+          [
+            "Autonomías",
+            "Revisar el concierto económico vasco y navarro",
+            "concierto"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": null,
+        "v": 0.6,
+        "s": "p",
+        "i": [
+          [
+            "Instituciones",
+            "Suprimir las diputaciones",
+            "suprimir_diputaciones"
+          ],
+          [
+            "Instituciones",
+            "Regeneración y lucha contra la corrupción",
+            "regeneracion"
+          ]
+        ]
+      }
+    ]
+  },
+  "VOX": {
+    "w": [
+      [
+        "voxespana.es",
+        "https://www.voxespana.es/"
+      ]
+    ],
+    "n": "Vox",
+    "c": "#5DA529",
+    "d": "Vox. Derecha radical. Fundado en 2013, entró en el Congreso en abril de 2019.",
+    "e": [
+      {
+        "e": "2015",
+        "r": null,
+        "v": 0.2,
+        "s": "p",
+        "i": [
+          [
+            "Autonomías",
+            "Estado unitario: suprimir las comunidades autónomas reformando la Constitución",
+            "suprimir_autonomias"
+          ],
+          [
+            "Instituciones",
+            "Defender la unidad de España",
+            "unidad"
+          ],
+          [
+            "Economía e impuestos",
+            "Bajar impuestos",
+            "bajar_impuestos"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": null,
+        "v": 0.2,
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Suprimir las comunidades autónomas",
+            "suprimir_autonomias"
+          ],
+          [
+            "Economía e impuestos",
+            "Bajar impuestos",
+            "bajar_impuestos"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "Vox",
+        "s": "p",
+        "i": [
+          [
+            "Autonomías",
+            "Suspender la autonomía de Cataluña y pasar a un Estado unitario",
+            "suprimir_autonomias"
+          ],
+          [
+            "Instituciones",
+            "Ilegalizar partidos separatistas",
+            "ilegalizar_partidos"
+          ],
+          [
+            "Derechos y sociedad",
+            "Sustituir la ley de violencia de género por una de violencia intrafamiliar",
+            "violencia_intrafamiliar"
+          ],
+          [
+            "Derechos y sociedad",
+            "Muro en Ceuta y Melilla",
+            "muro"
+          ],
+          [
+            "Derechos y sociedad",
+            "Derogar la Ley de Memoria Histórica",
+            "derogar_memoria_trans"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "Vox",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Recentralizar competencias",
+            "recentralizar"
+          ],
+          [
+            "Derechos y sociedad",
+            "Expulsar a los inmigrantes en situación irregular",
+            "expulsar_irregulares"
+          ],
+          [
+            "Economía e impuestos",
+            "Fuerte rebaja del IRPF",
+            "bajar_irpf"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "Vox",
+        "s": "m",
+        "i": [
+          [
+            "Derechos y sociedad",
+            "Derogar la ley de memoria democrática y la ley trans",
+            "derogar_memoria_trans"
+          ],
+          [
+            "Derechos y sociedad",
+            "Más control de la inmigración",
+            "expulsar_irregulares"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 17.1,
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "IRPF con dos tipos (15 % y 25 %) y mínimo exento de 22.000 €",
+            "bajar_irpf"
+          ],
+          [
+            "Vivienda",
+            "Sin IVA en la compra de la primera vivienda",
+            "ayudas_compra"
+          ],
+          [
+            "Derechos y sociedad",
+            "«Prioridad nacional» y expulsiones de inmigrantes",
+            "expulsar_irregulares"
+          ]
+        ]
+      }
+    ]
+  },
+  "CAT": {
+    "w": [
+      [
+        "junts.cat",
+        "https://junts.cat/"
+      ],
+      [
+        "CiU (archivo)",
+        "http://web.archive.org/web/2015/http://www.ciu.cat/"
+      ]
+    ],
+    "n": "CiU · Junts",
+    "c": "#E59400",
+    "d": "El espacio nacionalista catalán de centroderecha: CiU (hasta 2015), Democràcia i Llibertat, CDC, JxCat y Junts.",
+    "e": [
+      {
+        "e": "1986",
+        "r": "CiU",
+        "as": "CiU",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Desarrollar el Estatuto de Cataluña",
+            "autonomia"
+          ]
+        ]
+      },
+      {
+        "e": "1993",
+        "r": "CiU",
+        "as": "CiU",
+        "s": "m",
+        "i": [
+          [
+            "Autonomías",
+            "Condición para apoyar a González: ceder el 15 % del IRPF a las comunidades",
+            "cesion_irpf"
+          ]
+        ]
+      },
+      {
+        "e": "1996",
+        "r": "CiU",
+        "as": "CiU",
+        "s": "m",
+        "i": [
+          [
+            "Autonomías",
+            "Pacto del Majestic con Aznar: ceder el 30 % del IRPF y suprimir los gobernadores civiles",
+            "cesion_irpf"
+          ]
+        ]
+      },
+      {
+        "e": "2011",
+        "r": "CiU",
+        "as": "CiU",
+        "s": "m",
+        "i": [
+          [
+            "Autonomías",
+            "Pacto fiscal para Cataluña",
+            "pacto_fiscal"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "DL",
+        "as": "Democràcia i Llibertat",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Derecho a decidir de Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "JxCat",
+        "as": "Junts per Catalunya",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Referéndum de autodeterminación",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "Junts",
+        "as": "Junts",
+        "s": "m",
+        "i": [
+          [
+            "Derechos y sociedad",
+            "Amnistía (condición para la investidura, planteada tras el 23J)",
+            "amnistia"
+          ],
+          [
+            "Autonomías",
+            "Referéndum de autodeterminación",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "as": "Junts per Catalunya",
+        "cis": 1.1,
+        "s": "m",
+        "i": [
+          [
+            "Vivienda",
+            "Deducción del 15 % en el IRPF por alquiler o hipoteca",
+            "ayudas_compra"
+          ],
+          [
+            "Economía e impuestos",
+            "IVA franquiciado para autónomos que facturen menos de 85.000 €",
+            "iva_franquiciado"
+          ]
+        ]
+      }
+    ]
+  },
+  "ERC": {
+    "w": [
+      [
+        "esquerra.cat",
+        "https://www.esquerra.cat/"
+      ]
+    ],
+    "n": "ERC",
+    "c": "#F2B705",
+    "d": "Esquerra Republicana de Catalunya. Izquierda independentista.",
+    "e": [
+      {
+        "e": "2004",
+        "r": "ERC",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Nuevo Estatuto de Cataluña",
+            "autonomia"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "ERC",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Independencia de Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "ERC",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Diálogo y referéndum de autodeterminación",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "ERC",
+        "s": "n",
+        "i": [
+          [
+            "Derechos y sociedad",
+            "Amnistía",
+            "amnistia"
+          ],
+          [
+            "Autonomías",
+            "Financiación singular para Cataluña",
+            "pacto_fiscal"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 3,
+        "s": "m",
+        "i": [
+          [
+            "Vivienda",
+            "Impuesto del 4 % al 12 % a quien tenga tres o más viviendas (proposición de ley)",
+            "impuesto_multipropiedad"
+          ],
+          [
+            "Vivienda",
+            "IVA del 21 % a los pisos turísticos",
+            "pisos_turisticos"
+          ]
+        ]
+      }
+    ]
+  },
+  "PNV": {
+    "w": [
+      [
+        "eaj-pnv.eus",
+        "https://www.eaj-pnv.eus/"
+      ]
+    ],
+    "n": "PNV",
+    "c": "#2E7D46",
+    "d": "Partido Nacionalista Vasco. Centroderecha nacionalista. Presente en todas las legislaturas.",
+    "e": [
+      {
+        "e": "1986",
+        "r": "PNV",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Completar el traspaso de competencias del Estatuto de Gernika",
+            "autonomia"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "PNV",
+        "s": "m",
+        "i": [
+          [
+            "Autonomías",
+            "Transferir la gestión del régimen económico de la Seguridad Social, respetando la caja única",
+            "ss_autonomica"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 0.6,
+        "s": "m",
+        "i": [
+          [
+            "Autonomías",
+            "Traspaso a Euskadi de la gestión económica de la Seguridad Social",
+            "ss_autonomica"
+          ]
+        ]
+      }
+    ]
+  },
+  "BILDU": {
+    "w": [
+      [
+        "ehbildu.eus",
+        "https://ehbildu.eus/"
+      ]
+    ],
+    "n": "Amaiur · EH Bildu",
+    "c": "#3E9C8F",
+    "d": "Izquierda abertzale. Amaiur en 2011 y EH Bildu desde 2015.",
+    "e": [
+      {
+        "e": "2011",
+        "r": "Amaiur",
+        "as": "Amaiur",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Derecho a decidir del País Vasco",
+            "referendum"
+          ],
+          [
+            "Derechos y sociedad",
+            "Acercar a los presos de ETA a cárceles vascas",
+            "presos"
+          ]
+        ]
+      },
+      {
+        "e": "2015",
+        "r": "Bildu",
+        "s": "n",
+        "i": [
+          [
+            "Autonomías",
+            "Derecho a decidir",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "Bildu",
+        "s": "p",
+        "i": [
+          [
+            "Pensiones",
+            "Subir las pensiones mínimas hasta 1.080 €",
+            "pensiones_min"
+          ],
+          [
+            "Autonomías",
+            "Transferir la Seguridad Social a las instituciones vascas y navarras",
+            "ss_autonomica"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 1.6,
+        "s": "m",
+        "i": [
+          [
+            "Vivienda",
+            "Recargo del IRPF a los pisos turísticos (propuesta foral)",
+            "pisos_turisticos"
+          ]
+        ]
+      }
+    ]
+  },
+  "FA": {
+    "w": [
+      [
+        "Movimiento Sumar",
+        "https://movimientosumar.es/"
+      ],
+      [
+        "Izquierda Unida",
+        "https://izquierdaunida.org/"
+      ],
+      [
+        "Más Madrid",
+        "https://masmadrid.org/"
+      ],
+      [
+        "Comuns",
+        "https://comuns.cat/"
+      ]
+    ],
+    "n": "Frente Amplio",
+    "c": "#E5487D",
+    "d": "Coalición inscrita en octubre de 2026 por IU, Movimiento Sumar, Catalunya en Comú, Más Madrid, Chunta Aragonesista y otros partidos, con Ada Colau como candidata. Continúa el espacio de Sumar (ver «IU · Podemos · Sumar»). Va por separado de Podemos salvo en la Comunidad Valenciana y Canarias.",
+    "e": [
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 6.1,
+        "s": "m",
+        "i": [
+          [
+            "Vivienda",
+            "Dedicar el 1 % del PIB al año a vivienda pública y alquileres indefinidos",
+            "vivienda_publica"
+          ],
+          [
+            "Trabajo",
+            "Jornada de 32 horas",
+            "jornada"
+          ],
+          [
+            "Economía e impuestos",
+            "Impuesto a los beneficios extraordinarios de la inteligencia artificial",
+            "impuesto_ia"
+          ]
+        ]
+      }
+    ]
+  },
+  "POD": {
+    "w": [
+      [
+        "podemos.info",
+        "https://podemos.info/"
+      ],
+      [
+        "Campaña 2026",
+        "https://pazcasaytrabajo.es/"
+      ]
+    ],
+    "n": "Podemos",
+    "c": "#6B2C91",
+    "d": "Fundado en 2014. Se presentó con sus confluencias en 2015, como Unidos/Unidas Podemos junto a IU en 2016 y 2019, y dentro de Sumar en 2023. En 2026 va por separado del Frente Amplio, con Irene Montero como cabeza de lista en Madrid.",
+    "e": [
+      {
+        "e": "2015",
+        "r": "Podemos",
+        "as": "Podemos y confluencias",
+        "s": "m",
+        "i": [
+          [
+            "Servicios sociales",
+            "Renta garantizada desde 600 € al mes",
+            "imv"
+          ],
+          [
+            "Economía e impuestos",
+            "Auditoría y reestructuración de la deuda",
+            "auditoria_deuda"
+          ],
+          [
+            "Autonomías",
+            "Referéndum con garantías en Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2016",
+        "r": "UP",
+        "as": "Unidos Podemos (con IU)",
+        "s": "n",
+        "i": [
+          [
+            "Servicios sociales",
+            "Renta garantizada",
+            "imv"
+          ],
+          [
+            "Economía e impuestos",
+            "Más impuestos a las rentas altas",
+            "grandes_fortunas"
+          ],
+          [
+            "Autonomías",
+            "Referéndum pactado en Cataluña",
+            "referendum"
+          ]
+        ]
+      },
+      {
+        "e": "2019A",
+        "r": "UP",
+        "as": "Unidas Podemos (con IU)",
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "Quedarse con Bankia como banca pública",
+            "banca_publica"
+          ],
+          [
+            "Vivienda",
+            "Limitar el precio del alquiler",
+            "tope_alquiler"
+          ],
+          [
+            "Derechos y sociedad",
+            "Derogar la «ley mordaza»",
+            "mordaza"
+          ]
+        ]
+      },
+      {
+        "e": "2019N",
+        "r": "UP",
+        "as": "Unidas Podemos (con IU)",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Salario mínimo de 1.200 € en la legislatura",
+            "smi"
+          ],
+          [
+            "Instituciones",
+            "Gobierno de coalición con el PSOE",
+            "coalicion"
+          ],
+          [
+            "Vivienda",
+            "Limitar el precio del alquiler",
+            "tope_alquiler"
+          ]
+        ]
+      },
+      {
+        "e": "2023",
+        "r": "Sumar",
+        "as": "Dentro de Sumar",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Jornada de 37,5 horas por ley en 2024 y avanzar hasta 32",
+            "jornada"
+          ],
+          [
+            "Servicios sociales",
+            "Herencia universal: 20.000 € a los 18 años",
+            "herencia"
+          ]
+        ]
+      },
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 3.1,
+        "s": "w",
+        "i": [
+          [
+            "Trabajo",
+            "Salario mínimo de 1.800 € y semana de 30 horas",
+            "smi"
+          ],
+          [
+            "Vivienda",
+            "«La vivienda no puede ser un negocio»: veto a los especuladores",
+            "impuesto_multipropiedad"
+          ],
+          [
+            "Defensa",
+            "Menos gasto militar y no a la OTAN junto a EE. UU.",
+            "otan"
+          ]
+        ]
+      }
+    ]
+  },
+  "D21": {
+    "w": [],
+    "n": "Democracia 21",
+    "c": "#1C7C8C",
+    "d": "Democracia para el Siglo 21, partido nuevo encabezado por Miriam González Durántez. En 2026 solo se presenta en Madrid y Barcelona. No aparece en la encuesta del CIS.",
+    "e": [
+      {
+        "e": "2026",
+        "up": true,
+        "s": "m",
+        "i": [
+          [
+            "Instituciones",
+            "Regeneración: menos control de los partidos sobre los organismos públicos",
+            "regeneracion"
+          ]
+        ]
+      }
+    ]
+  },
+  "SALF": {
+    "w": [
+      [
+        "seacabolafiesta.com",
+        "https://seacabolafiesta.com/"
+      ]
+    ],
+    "n": "Se Acabó La Fiesta (SALF)",
+    "c": "#7A4FD0",
+    "d": "Partido de Luis «Alvise» Pérez, fundado en 2024. En las europeas de 2024 sacó 800.763 votos (4,59 %) y 3 eurodiputados. En 2026 se presenta al Congreso en 46 de las 52 circunscripciones. Aún no ha publicado programa nacional: sus propuestas salen del programa de Aragón 2026 y de sus mítines.",
+    "e": [
+      {
+        "e": "2026",
+        "up": true,
+        "cis": 1.8,
+        "s": "m",
+        "i": [
+          [
+            "Economía e impuestos",
+            "IRPF del 0 % para rentas de menos de 35.000 € (lo propuso para el tramo autonómico de Aragón)",
+            "bajar_irpf"
+          ],
+          [
+            "Vivienda",
+            "Desalojo de okupas en 24 horas",
+            "okupacion"
+          ],
+          [
+            "Derechos y sociedad",
+            "Expulsión rápida de inmigrantes en situación irregular",
+            "expulsar_irregulares"
+          ],
+          [
+            "Defensa",
+            "Megaprisión para multirreincidentes",
+            "endurecer_penas"
+          ]
+        ]
+      }
+    ]
+  },
+  "MP": {
+    "w": [
+      [
+        "Más Madrid",
+        "https://masmadrid.org/"
+      ]
+    ],
+    "n": "Más País",
+    "c": "#0FC1A2",
+    "d": "Partido de Íñigo Errejón. Se presentó en noviembre de 2019 y en 2023 se integró en Sumar.",
+    "e": [
+      {
+        "e": "2019N",
+        "r": "MP",
+        "s": "m",
+        "i": [
+          [
+            "Trabajo",
+            "Jornada de 32 horas o cuatro días sin bajar el sueldo en la próxima década",
+            "jornada"
+          ],
+          [
+            "Derechos y sociedad",
+            "Transición ecológica",
+            "transicion"
+          ]
+        ]
+      }
+    ]
+  }
+}

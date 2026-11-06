@@ -1,0 +1,23 @@
+{
+  "_nota": "Encuesta a las personas sin hogar del INE: adultos atendidos en centros de alojamiento y comedores de municipios de mas de 20.000 habitantes. No cuenta a quien no usa esos servicios.",
+  "personas": {
+    "2005": 21900,
+    "2012": 22938,
+    "2022": 28552
+  },
+  "enLaCalle2022": 7277,
+  "porCadaCienMil2022": 86.6,
+  "_notaCentros": "Encuesta de centros y servicios de atencion a las personas sin hogar (INE, cada dos años): numero medio de plazas de alojamiento ocupadas por mayores de 18 años (media de dos dias del año: junio y diciembre; en 2020, abril y diciembre). Todos los municipios. El salto de 2024 viene sobre todo de centros solo para inmigrantes (18.173 plazas ocupadas, +125,9 % sobre 2022, segun la nota de prensa). Tablas INE: 2006-2010 px 01011, 2012 tpx 9743, 2014 tpx 14049, 2016 tpx 25830, 2018 tpx 32388, 2020 tpx 49469, 2022 tpx 59713, 2024 tpx 75652.",
+  "alojadosMediaDiaria": {
+    "2006": 10829,
+    "2008": 11844,
+    "2010": 13701,
+    "2012": 13991,
+    "2014": 13645,
+    "2016": 16437,
+    "2018": 18001,
+    "2020": 17772,
+    "2022": 21684,
+    "2024": 34145
+  }
+}

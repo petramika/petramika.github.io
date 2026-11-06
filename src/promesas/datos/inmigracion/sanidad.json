@@ -1,0 +1,252 @@
+{
+  "encuesta": "INE / Ministerio de Sanidad – Encuesta de Salud de España (ESdE) 2025, publicada 20-10-2026; trabajo de campo abril 2025–marzo 2026; ~21.000 hogares; población residente en hogares, todas las edades (0-14 por informante proxy). Desglose por PAÍS DE NACIMIENTO (España / extranjero), no por nacionalidad.",
+  "indicadores": [
+    {
+      "indicador": "Consultó al médico de familia o pediatra en las últimas 4 semanas (%)",
+      "periodo": "4 semanas",
+      "espanoles": 27.57,
+      "extranjeros": 22.45,
+      "extranjerosEstandarizadoPorEdad": 24.02,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 28.42,
+          "extranjeros": 17.96
+        },
+        "15 a 24": {
+          "espanoles": 16.9,
+          "extranjeros": 19.86
+        },
+        "25 a 64": {
+          "espanoles": 24.79,
+          "extranjeros": 21.89
+        },
+        "65 y más": {
+          "espanoles": 38.33,
+          "extranjeros": 34.22
+        }
+      },
+      "tablaINE": "81359"
+    },
+    {
+      "indicador": "Consultó al médico especialista en las últimas 4 semanas (%)",
+      "periodo": "4 semanas",
+      "espanoles": 17.97,
+      "extranjeros": 13.32,
+      "extranjerosEstandarizadoPorEdad": 14.15,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 12.19,
+          "extranjeros": 10.64
+        },
+        "15 a 24": {
+          "espanoles": 15.59,
+          "extranjeros": 11.98
+        },
+        "25 a 64": {
+          "espanoles": 18.23,
+          "extranjeros": 13.03
+        },
+        "65 y más": {
+          "espanoles": 21.98,
+          "extranjeros": 19.7
+        }
+      },
+      "tablaINE": "81365"
+    },
+    {
+      "indicador": "Hospitalizado (ingreso de al menos una noche) en los últimos 12 meses (%)",
+      "periodo": "12 meses",
+      "espanoles": 7.94,
+      "extranjeros": 7.19,
+      "extranjerosEstandarizadoPorEdad": 8.24,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 3.61,
+          "extranjeros": 3.7
+        },
+        "15 a 24": {
+          "espanoles": 3.9,
+          "extranjeros": 5.81
+        },
+        "25 a 64": {
+          "espanoles": 7.19,
+          "extranjeros": 6.82
+        },
+        "65 y más": {
+          "espanoles": 14.1,
+          "extranjeros": 15.15
+        }
+      },
+      "tablaINE": "81436"
+    },
+    {
+      "indicador": "Usó algún servicio de urgencias en los últimos 12 meses (%)",
+      "periodo": "12 meses",
+      "espanoles": 32.16,
+      "extranjeros": 31.7,
+      "extranjerosEstandarizadoPorEdad": 32.63,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 36.36,
+          "extranjeros": 34.83
+        },
+        "15 a 24": {
+          "espanoles": 34.36,
+          "extranjeros": 37.02
+        },
+        "25 a 64": {
+          "espanoles": 31.04,
+          "extranjeros": 30.55
+        },
+        "65 y más": {
+          "espanoles": 31.0,
+          "extranjeros": 33.66
+        }
+      },
+      "tablaINE": "81453"
+    },
+    {
+      "indicador": "Última consulta médica hace un año o más (%)",
+      "periodo": "—",
+      "espanoles": 11.67,
+      "extranjeros": 17.59,
+      "extranjerosEstandarizadoPorEdad": 15.42,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 10.03,
+          "extranjeros": 16.75
+        },
+        "15 a 24": {
+          "espanoles": 18.61,
+          "extranjeros": 21.29
+        },
+        "25 a 64": {
+          "espanoles": 13.93,
+          "extranjeros": 18.72
+        },
+        "65 y más": {
+          "espanoles": 4.36,
+          "extranjeros": 4.66
+        }
+      },
+      "tablaINE": "81353"
+    },
+    {
+      "indicador": "Consultó a algún médico en los últimos 12 meses (%)",
+      "periodo": "12 meses",
+      "espanoles": 87.97,
+      "extranjeros": 81.54,
+      "extranjerosEstandarizadoPorEdad": 83.59,
+      "porEdad": {
+        "0 a 14": {
+          "espanoles": 89.5,
+          "extranjeros": 81.64
+        },
+        "15 a 24": {
+          "espanoles": 80.6,
+          "extranjeros": 78.72
+        },
+        "25 a 64": {
+          "espanoles": 85.78,
+          "extranjeros": 80.46
+        },
+        "65 y más": {
+          "espanoles": 95.4,
+          "extranjeros": 93.87
+        }
+      },
+      "tablaINE": "81353 (suma \"hace cuatro semanas\" + \"más de cuatro semanas y menos de un año\")"
+    }
+  ],
+  "estructuraEdadPct": {
+    "nacidosEspana": {
+      "De 0 a 14 años": 13.9,
+      "De 15 a 24 años": 11.7,
+      "De 25 a 64 años": 50.8,
+      "De 65 y más años": 23.6
+    },
+    "nacidosExtranjero": {
+      "De 0 a 14 años": 7.9,
+      "De 15 a 24 años": 8.5,
+      "De 25 a 64 años": 75.1,
+      "De 65 y más años": 8.5
+    }
+  },
+  "eese2020": {
+    "encuesta": "INE – Encuesta Europea de Salud en España (EESE) 2020; campo julio 2019–julio 2020 (parte durante COVID); población 15+; por país de nacimiento.",
+    "indicadores": [
+      {
+        "indicador": "Médico de familia últimas 4 semanas (%)",
+        "espanoles": 21.31,
+        "extranjeros": 19.05,
+        "tablaINE": "t15/p420/a2019/p05/l0/01009.px"
+      },
+      {
+        "indicador": "Médico especialista últimas 4 semanas (%)",
+        "espanoles": 9.88,
+        "extranjeros": 7.56,
+        "tablaINE": "t15/p420/a2019/p05/l0/01015.px"
+      },
+      {
+        "indicador": "Hospitalización últimos 12 meses (%)",
+        "espanoles": 8.04,
+        "extranjeros": 7.55,
+        "tablaINE": "t15/p420/a2019/p05/l0/03003.px",
+        "porEdad": {
+          "15 a 24": {
+            "espanoles": 4.14,
+            "extranjeros": 5.19
+          },
+          "25 a 64": {
+            "espanoles": 6.8,
+            "extranjeros": 7.7
+          },
+          "65 y más": {
+            "espanoles": 13.06,
+            "extranjeros": 9.65
+          }
+        }
+      },
+      {
+        "indicador": "Urgencias últimos 12 meses (%)",
+        "espanoles": 23.55,
+        "extranjeros": 27.04,
+        "tablaINE": "t15/p420/a2019/p05/l0/04003.px",
+        "porEdad": {
+          "15 a 24": {
+            "espanoles": 28.43,
+            "extranjeros": 33.56
+          },
+          "25 a 64": {
+            "espanoles": 22.45,
+            "extranjeros": 26.63
+          },
+          "65 y más": {
+            "espanoles": 24.01,
+            "extranjeros": 21.35
+          }
+        }
+      },
+      {
+        "indicador": "Cualquier consulta médica últimas 4 semanas (%)",
+        "espanoles": 25.69,
+        "extranjeros": 22.18,
+        "tablaINE": "t15/p420/a2019/p05/l0/01003.px",
+        "porEdad": {
+          "15 a 24": {
+            "espanoles": 18.32,
+            "extranjeros": 17.01
+          },
+          "25 a 64": {
+            "espanoles": 22.74,
+            "extranjeros": 22.56
+          },
+          "65 y más": {
+            "espanoles": 36.7,
+            "extranjeros": 26.04
+          }
+        }
+      }
+    ]
+  }
+}

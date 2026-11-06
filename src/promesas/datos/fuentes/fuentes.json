@@ -1,0 +1,1966 @@
+{
+  "titulo": "España política en datos — fuentes de los datos",
+  "actualizado": "2026-11-06",
+  "metodo": [
+    "Las cifras están redondeadas. Cuando un dato se toma «en una elección», es el último disponible antes de votar: el mes de la elección para el IPC, el trimestre de la elección para el paro y los años de sueldo para comprar un piso y el último cierre anual para deuda, gasto, impuestos, viviendas y edad de emancipación.",
+    "«% conseguido» de cada Gobierno = promesas cumplidas + la mitad de las «a medias», entre todas las evaluadas. Las que siguen en curso no cuentan. Las «presentadas, no aprobadas» cuentan como no cumplidas.",
+    "En las barras «Prometido / Logrado», el % mide cuánto se avanzó desde el punto de partida hasta la meta prometida.",
+    "La selección de promesas y su valoración (cumplida, a medias, incumplida) es un criterio propio, explicado en cada tarjeta. Otra persona podría valorarlas de otra manera.",
+    "Los «argumentos a favor y en contra» de cada propuesta son un resumen propio de los argumentos habituales de defensores y críticos. No son una fuente ni una opinión de la web."
+  ],
+  "secciones": [
+    {
+      "seccion": "Global",
+      "bloques": [
+        {
+          "dato": "Resultados electorales (escaños y % de voto) y participación",
+          "detalle": "Cuadro I «Resumen general» de la Junta Electoral Central en el BOE para el censo y los votantes; escaños y votos coinciden con los datos conocidos, pero la web del Ministerio del Interior no se pudo consultar (error 403).",
+          "verificado": "parcial",
+          "fuentes": [
+            {
+              "nombre": "BOE 1986 (JEC)",
+              "url": "https://www.boe.es/boe/dias/1986/08/02/pdfs/A27470-27492.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 1989 (totales, 25-5-1990)",
+              "url": "https://www.boe.es/boe/dias/1990/05/25/pdfs/A14457-14458.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 1993",
+              "url": "https://www.boe.es/boe/dias/1993/07/16/pdfs/A21822-21843.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 1996",
+              "url": "https://www.boe.es/boe/dias/1996/03/27/pdfs/A11749-11774.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2000",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-6480",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2004",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-8358",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2008",
+              "url": "https://www.boe.es/boe/dias/2008/04/17/pdfs/A20322-20377.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2011",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19391",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2015",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-867",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2016",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-7133",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE abril 2019",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-8070",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE noviembre 2019",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-17344",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE 2023",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18907",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Infoelectoral, Ministerio del Interior",
+              "url": "https://infoelectoral.interior.gob.es",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Investiduras, disoluciones y Gobierno en funciones",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "RD 184/2016 de disolución",
+              "url": "https://www.boe.es/eli/es/rd/2016/05/02/184",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 551/2019 de disolución",
+              "url": "https://www.boe.es/eli/es/rd/2019/09/24/551",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 806/2026 de disolución y convocatoria (29-N)",
+              "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2026/051026-sanchez-convocatoria-elecciones.aspx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 50/1997 del Gobierno, art. 21",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Promesas de cada Gobierno (unas 250) y su resultado",
+          "verificado": "sí; cada promesa enlaza a su fuente",
+          "detalle": "Promesas tomadas del programa electoral o del discurso de investidura del presidente (Diario de Sesiones del Congreso). Resultados comprobados en el BOE, el INE, el Congreso o La Moncloa, y en prensa solo cuando no había otra fuente.",
+          "fuentes": [
+            {
+              "nombre": "Discursos de investidura de Felipe González (1986, 1989, 1993)",
+              "url": "https://www.congreso.es/public_oficiales/L3/CONG/DS/PL/PL_002.PDF",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Discursos de investidura de José María Aznar (1996)",
+              "url": "https://www.congreso.es/public_oficiales/L6/CONG/DS/PL/PL_002.PDF",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Programa electoral del PSOE 2004",
+              "url": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf",
+              "tipo": "oficial",
+              "nota": "documento del partido"
+            },
+            {
+              "nombre": "Programa electoral del PSOE 2008",
+              "url": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf",
+              "tipo": "oficial",
+              "nota": "documento del partido"
+            },
+            {
+              "nombre": "Programa electoral del PP 2011",
+              "url": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf",
+              "tipo": "oficial",
+              "nota": "documento del partido"
+            },
+            {
+              "nombre": "Buscador de legislación del BOE",
+              "url": "https://www.boe.es/buscar/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Promesas de los Gobiernos y leyes citadas",
+          "detalle": "Cada ley se cita por su número en la tarjeta (BOE). Los hechos sin ley (dimisiones, votaciones) vienen de prensa.",
+          "verificado": "sí, salvo donde se indica",
+          "fuentes": [
+            {
+              "nombre": "Buscador del BOE",
+              "url": "https://www.boe.es/buscar/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Programa PSOE 2004 (PDF)",
+              "url": "https://www.jse.org/wp-content/uploads/2017/02/GENERALES_2004.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Programa PSOE 2008 (PDF)",
+              "url": "https://www.jse.org/wp-content/uploads/2017/02/Generales_2008.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Programa PP 2011 (PDF)",
+              "url": "https://www.pp.es/storage/2013/11/5742-20111031195458.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Rescate bancario, Mecanismo Europeo de Estabilidad",
+              "url": "https://www.esm.europa.eu/assistance/spain",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Casa 47, RD 1123/2025",
+              "url": "https://www.boe.es/eli/es/rd/2025/12/10/1123",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Viviendas protegidas 2004–2008 (cita la serie del Ministerio de Vivienda)",
+              "url": "https://electomania.es/viviendas-de-proteccion-oficial-terminadas-por-cada-gobierno-desde-1981/",
+              "tipo": "prensa"
+            }
+          ]
+        },
+        {
+          "dato": "Paro (EPA)",
+          "detalle": "Media anual de los cuatro trimestres. 1986–1995: serie 1976–1995 del INE (definición antigua); 1996–2001: serie 1996–2001; desde 2002: serie vigente. En cada elección, el trimestre de la elección.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, serie EPA vigente",
+              "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_SERIE/EPA452434?nult=200",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, serie 1976–1995",
+              "url": "https://www.ine.es/jaxi/files/_px/es/csv_bdsc/t22/e308/meto_02/pae/px/l0/01011.csv_bdsc",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, serie 1996–2001",
+              "url": "https://www.ine.es/jaxi/files/_px/es/csv_bdsc/t22/e308/meto_05/meto_05_bis/pae/px/l0/01011.csv_bdsc",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, EPA tercer trimestre 2026",
+              "url": "https://www.ine.es/dyngs/Prensa/EPA3T26.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Salario mínimo interprofesional",
+          "detalle": "Cuantía mensual en 14 pagas vigente el 1 de enero. Pesetas convertidas a 166,386 por euro.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "RD 126/2026, SMI 2026",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 87/2025",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 145/2024",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 99/2023",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Serie 2002–2022 (Anuario MAPA, que cita al Ministerio de Trabajo)",
+              "url": "https://servicio.mapama.gob.es/estadistica/pags/anuario/2022/FORMATO%20PDF/AE22-C10/10.1.5.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Precio de la vivienda",
+          "detalle": "Valor tasado medio de la vivienda libre, €/m², media anual. 2026 = media del 1.º y 2.º trimestre. No hay serie oficial antes de 1995.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Vivienda (MIVAU), valor tasado",
+              "url": "https://apps.fomento.gob.es/BoletinOnline2/sedal/35101000.XLS",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Índice de Precios de Vivienda",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=80271",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Decretos-ley de cada legislatura (tabla «De un vistazo»)",
+          "detalle": "Reales decretos-ley publicados en el BOE desde las elecciones de 1986, contados por fecha de publicación y asignados a cada legislatura de elección a elección (los de un Gobierno en funciones cuentan en la legislatura en que se publican). «Al año» = número entre la duración real de la legislatura. La numeración del BOE empieza cada año en 1 y no tiene huecos: el recuento de cada año coincide con el último número. Contraste: Maldita.es (datos del Congreso) da 90 en la XIV hasta el 7-11-2022 y 132 de Sánchez desde junio de 2018, igual que aquí; Economist & Jurist (31-10-2026) da 129 de González, 85 y 42 de Aznar, 76 y 31 de Rajoy y 35, 5, 99 y 57 de Sánchez, que salen iguales con sus mismos cortes (por Gobierno o por Cortes, no por elecciones; sus 57 de la XV llegan al 26/2026). La API de legislación consolidada del BOE no sirve para contar: solo trae los que se han consolidado (318 de todos los años).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "BOE, buscador de legislación: rango «Real Decreto-ley», ámbito estatal, 1986–2026",
+              "url": "https://www.boe.es/buscar/legislacion_ava.php?campo%5B0%5D=ID_SRC&dato%5B0%5D=1&operador%5B0%5D=and&campo%5B4%5D=ID_RNGS&dato%5B4%5D=1320&operador%5B4%5D=and&campo%5B11%5D=FPU&dato%5B11%5D%5B0%5D=1986-01-01&dato%5B11%5D%5B1%5D=2026-11-06&operador%5B11%5D=and&page_hits=2000&sort_field%5B0%5D=FPU&sort_order%5B0%5D=asc&sort_field%5B1%5D=REF&sort_order%5B1%5D=asc&accion=Buscar",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE, datos abiertos",
+              "url": "https://www.boe.es/datosabiertos/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Maldita.es, los decretos del Gobierno en el Congreso (2022)",
+              "url": "https://maldita.es/malditodato/20221111/decretos-gobierno-votaciones-congreso-partidos/",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "Economist & Jurist, decretos-ley y leyes por legislatura (2026)",
+              "url": "https://www.economistjurist.es/?p=258588",
+              "tipo": "prensa"
+            }
+          ]
+        },
+        {
+          "dato": "Subida de precios en cada legislatura (IPC)",
+          "detalle": "Índice general nacional del IPC (base 2025) en el mes de cada elección; en la legislatura en curso, el último mes publicado (septiembre de 2026). Desde 2002, el índice oficial (serie IPC290751). Antes de 2002 el INE no publica el índice en esta base, solo las tasas desde 1961: el nivel se reconstruye con la tasa anual de diciembre y la tasa «en lo que va de año» de cada mes. Probado con 2002–2025, el error en la subida de un periodo de hasta 5 años es menor de 0,25 puntos.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, índice general nacional, series desde 1961 (tabla 24077)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=24077",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, tasas de variación del índice general desde 1961 (tabla 76134)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Años de sueldo para comprar un piso, en cada elección",
+          "detalle": "Precio medio de una vivienda libre de 93,75 m² construidos dividido por la renta bruta del hogar mediano (serie D_TKB57110_IPV, trimestral, desde 1987). Valor del trimestre de cada elección; hoy, el último trimestre (2.º de 2026).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Banco de España, indicadores del mercado de la vivienda (si_1_5.csv)",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/si_1_5.csv",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Edad de emancipación, en cada elección",
+          "detalle": "Edad media a la que los jóvenes dejan el hogar de sus padres, España, ambos sexos (desde 2000). En cada elección, el mismo año de referencia que la deuda y los impuestos (en-cada-eleccion-anio.json); hoy, 2025. Antes de 2004 la tabla dice «sin dato». Rupturas de serie marcadas por Eurostat en 2005 y 2021.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, yth_demo_030",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/yth_demo_030/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Número de viviendas y «¿Hay casas para todos?»",
+          "detalle": "Parque del MIVAU a 31 de diciembre desde 2001; antes, solo los censos.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "MIVAU, estimación del parque de viviendas",
+              "url": "https://apps.fomento.gob.es/BoletinOnline2/sedal/33100500.XLS",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censo de Población y Viviendas 2021",
+              "url": "https://ine.es/prensa/censo_2021_jun.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, metodología de los censos 1991–2021",
+              "url": "https://www.ine.es/inebaseDYN/proh30276/docs/meto_ph.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Población y % de españoles",
+          "detalle": "Estadística Continua de Población (1 de enero). % de nacionalidad española: ECP desde 2004, Padrón en 2000, permisos de residencia antes.",
+          "verificado": "sí, salvo 1986 y 1989",
+          "fuentes": [
+            {
+              "nombre": "INE, ECP población total",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56934",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, ECP por nacionalidad",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56936",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Padrón por nacionalidad 1998–2020",
+              "url": "https://www.ine.es/jaxi/files/_px/csv_bd/t20/e245/p08/l1_ant/01001.csv",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "OPI, Anuario de Extranjería 1996",
+              "url": "https://www.inclusion.gob.es/documents/d/opi/anuario1996-00.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Inmigración: permisos, irregulares y regularizaciones",
+          "detalle": "La cifra de inmigrantes en situación irregular no existe de forma oficial: son estimaciones con métodos distintos.",
+          "verificado": "oficial salvo estimaciones",
+          "fuentes": [
+            {
+              "nombre": "OPI, extranjeros con documentación de residencia",
+              "url": "https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/stock_documentacion",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "OPI, autorizaciones por arraigo",
+              "url": "https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/flujo_arraigo",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Inclusión, presentación de la regularización (abril 2026)",
+              "url": "https://fravm.org/documentos/1487/guias-de-apoyo-otras-entidades/215927/ministerio_informacion-regularizacion-final.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RD 316/2026, regularización extraordinaria",
+              "url": "https://www.boe.es/eli/es/rd/2026/04/14/316",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "La Moncloa, balance julio 2026",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2026/020726-balance-regularizacion-extraordinaria.aspx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Funcas, Nota de Coyuntura Social enero 2026 (estimación de irregulares)",
+              "url": "https://www.funcas.es/wp-content/uploads/2026/01/Nota-Coyuntura-Social_Enero-2026.pdf",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Proyecto CLANDESTINO, González-Enríquez (estimación 2001–2009)",
+              "url": "https://www.uni-bremen.de/fileadmin/user_upload/fachbereiche/fb12/fb12/irregular-migration/3.Database_on_IrregMig/3.2.Stock_Tables/Spain_Estimates_IrregularMigration_Nov09_2.pdf",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Pajares, Anuario CIDOB (regularización 2005)",
+              "url": "https://www.cidob.org/sites/default/files/2024-11/212_225_Miguel%20Pajares.pdf",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Grandes acontecimientos",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, IPC 2022",
+              "url": "https://www.ine.es",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "11-M: datos clave (Maldita.es)",
+              "url": "https://maldita.es/malditobulo/20240310/atentado-11-M-20-anos-historia-espana-datos-claves/",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "DANA: cifra del juzgado de Catarroja (vía prensa)",
+              "url": "https://www.esdiario.com/comunidad-valenciana/valencia/260902/196752/cifra-oficial-fallecidos-dana-valencia-aumenta-232-personas.html",
+              "tipo": "prensa"
+            }
+          ]
+        },
+        {
+          "dato": "Medio ambiente y energía",
+          "verificado": "sí",
+          "detalle": "Gasto público en protección del medio ambiente (COFOG 05), electricidad renovable (Red Eléctrica desde 2007; Eurostat 1990–2006, otro método), potencia solar y eólica (Red Eléctrica, sin autoconsumo) y emisiones de gases de efecto invernadero sin LULUCF.",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, gasto público por funciones (COFOG 05)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Red Eléctrica de España, generación renovable (REData)",
+              "url": "https://apidatos.ree.es/es/datos/generacion/evolucion-renovable-no-renovable?start_date=2024-01-01T00:00&end_date=2024-12-31T23:59&time_trunc=year",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Red Eléctrica, Informe del Sistema Eléctrico (potencia instalada)",
+              "url": "https://www.sistemaelectrico-ree.es/es/informe-del-sistema-electrico/potencia-instalada",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, producción eléctrica (1990–2006)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_peh/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio para la Transición Ecológica, Inventario de gases de efecto invernadero",
+              "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/temas/sistema-espanol-de-inventario-sei-/resumen-Inventario-GEI-2026.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, emisiones de gases de efecto invernadero",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/env_air_gge/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Tasa de empleo por sexo",
+          "verificado": "sí",
+          "detalle": "Ocupados sobre población de 16 a 64 años (edad de trabajar), media de los trimestres, 2002–2026 (2026: 1T–3T). Antes de 2002 el INE no da esta edad por sexo; Eurostat (15 a 64) da 1995: 62 % hombres, 32 % mujeres.",
+          "fuentes": [
+            {
+              "nombre": "INE, EPA, tasas de empleo por sexo (desde 2002)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65306",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, EPA serie 1976–1995",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?path=/t22/e308/meto_02/pae/px/l0/&file=01011.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, EPA serie 1996–2001",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?path=/t22/e308/meto_05/meto_05_bis/pae/px/l0/&file=01011.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, tasa de empleo de 15 a 64 años por sexo (lfsa_ergan)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergan/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Violencia de género, violencia doméstica y accidentes laborales",
+          "verificado": "sí",
+          "detalle": "Violencia de género según la Ley Orgánica 1/2004 (víctimas mujeres). El resto de muertes en la pareja (casi todas hombres) y la violencia doméstica por sexo, del CGPJ y el INE. Accidentes con baja en jornada y mortales, del Ministerio de Trabajo (cambios de método en 1988, 2006, 2016 y 2019).",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Igualdad, víctimas mortales de violencia de género",
+              "url": "https://violenciagenero.igualdad.gob.es/violenciaencifras/victimasmortales/fichamujeres/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "CGPJ, informe de víctimas mortales en la pareja 2025",
+              "url": "https://www.poderjudicial.es/stfls/SALA%20DE%20PRENSA/DOCUMENTOS%20DE%20INTERES/Informe%20Muertes%20Violencia%20de%20G%C3%A9nero%20y%20Dom%C3%A9stica%202025.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, violencia doméstica por sexo",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28195",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, víctimas de violencia de género",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=34967",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Trabajo, Estadística de Accidentes de Trabajo 2025",
+              "url": "https://www.mites.gob.es/es/estadisticas/monograficas_anuales/EAT/2025/index.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Trabajo, series de accidentes 1988–2025",
+              "url": "https://expinterweb.mites.gob.es/series/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Hombres y mujeres que trabajan, 1988–2001 (% de 16 a 64 años con empleo, por sexo)",
+          "detalle": "Calculado como ocupados de 16 a 64 años entre población de 16 a 64, media de los cuatro trimestres, con las series antiguas de la EPA: resultados detallados 1987–1995 (tablas de población y ocupados por grupo de edad y sexo) y serie 1996–2001 con metodología 2005. Ejemplo: 1988, hombres 67,88 % y mujeres 29,40 %; 2001, 73,49 % y 43,83 %. Saltos de método en 1996 y 2002; 1987 solo tiene tres trimestres y no se usa.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, EPA. Resultados detallados, serie 1987–1995 (población y ocupados por grupo de edad y sexo)",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?tpx=52844&L=0",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, EPA. Resultados detallados, serie 1996–2001 (metodología 2005)",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?path=/t22/e308/meto_05/meto_05_bis/rde/px/l0/&file=03001.px&L=0",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Mujeres asesinadas por su pareja o expareja en 2026 (hasta el 30 de octubre): 44",
+          "detalle": "Dato provisional de la Delegación del Gobierno contra la Violencia de Género, actualizado el 30 de octubre de 2026 (1.385 desde 2003).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Igualdad, ficha de víctimas mortales 2026",
+              "url": "https://violenciagenero.igualdad.gob.es/wp-content/uploads/VMortales_2026_10_30.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Potencia eólica 2003–2008 y 2011–2012, y fotovoltaica 2011–2012 (Red Eléctrica)",
+          "detalle": "Balance de potencia a 31 de diciembre, sistema eléctrico nacional, de los informes anuales de Red Eléctrica. Eólica: 5.491 MW (2003), 8.507 (2004), 9.928 (2005), 11.279 (2006), 14.058 (2007), 16.018 (2008), 21.239 (2011), 22.722 (2012). Fotovoltaica: 4.249 MW (2011), 4.538 (2012).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Red Eléctrica, El sistema eléctrico español (informes anuales 2003–2012)",
+              "url": "https://www.ree.es/es/datos/publicaciones/informe-anual-sistema",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Potencia eólica 1990–2002 y fotovoltaica 1990–2009 (Eurostat)",
+          "detalle": "Capacidad eléctrica neta máxima (MW), códigos RA300 y RA420. Método distinto al de Red Eléctrica; se dibuja como línea discontinua.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, nrg_inf_epcrw",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/nrg_inf_epcrw/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Economía",
+      "bloques": [
+        {
+          "dato": "Gasto público, ingresos e impuestos y cotizaciones",
+          "detalle": "Todas las administraciones públicas (S.13). 1986–1994: OCDE; 1995–2025: Eurostat con datos de la IGAE. En 1995 hay un pequeño salto de nivel entre ambas fuentes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat gov_10a_main",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_main/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat gov_10a_taxag",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "OCDE Economic Outlook (1986–1994)",
+              "url": "https://sdmx.oecd.org/public/rest/data/OECD.ECO.MAD,DSD_EO@DF_EO,/ESP.YPGT+YRGT+NLG+GDP+YPGTQ+YRGTQ+NLGQ.A?startPeriod=1970&endPeriod=2027",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "IGAE, Contabilidad Nacional de las AAPP",
+              "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/ianofinancierasTotal.aspx",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "En qué se gasta el dinero público (COFOG)",
+          "detalle": "2024 provisional; 2025 aún no publicado.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat gov_10a_exp",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Civio, ¿Dónde van mis impuestos? (presupuestos del Estado por política, contraste)",
+              "url": "https://dondevanmisimpuestos.es/",
+              "tipo": "sector"
+            }
+          ]
+        },
+        {
+          "dato": "Deuda pública",
+          "detalle": "Protocolo de déficit excesivo, % del PIB a diciembre. Serie oficial desde 1995; antes, aproximada.",
+          "verificado": "sí desde 1995",
+          "fuentes": [
+            {
+              "nombre": "Banco de España, Boletín Estadístico 11.7",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1107.csv",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat gov_10dd_edpt1",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Presión fiscal",
+          "detalle": "Impuestos más cotizaciones sociales, % del PIB.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "OCDE, Revenue Statistics",
+              "url": "https://sdmx.oecd.org/public/rest/data/OECD.CTP.TPS,DSD_REV_COMP_OECD@DF_RSOECD,/ESP......?startPeriod=1965",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "IVA general",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ley 30/1985 (12 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-16765",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 31/1991 (13 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1991-30903",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RDL 5/1992 (15 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1992-17364",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 41/1994 (16 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-28967",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 26/2009 (18 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-20765",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RDL 20/2012 (21 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-9364",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "IRPF, tipo máximo",
+          "detalle": "Suma del tramo estatal y el autonómico de referencia; cada comunidad puede variarlo.",
+          "verificado": "sí, salvo 1989–1991 y 1994–1997",
+          "fuentes": [
+            {
+              "nombre": "Ley 48/1985 (66 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-26892",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 33/1987 (56 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1987-28404",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 40/1998 (48 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-28472",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 46/2002 (45 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2002-24711",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 35/2006 (43 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-20764",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 39/2010 (45 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-19703",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "RDL 20/2011 (52 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-20638",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 26/2014 y RDL 9/2015",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-12327",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ley 11/2020 (47 %)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17339",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Recaudación tributaria (Agencia Tributaria)",
+          "detalle": "Total de ingresos tributarios, 1995–2025. 2025 = 325.356 M€ (provisional).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "AEAT, Cuadro 0, serie 1995–2025",
+              "url": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Anuales_de_Recaudacion_Tributaria/Ejercicio_2025/Cuadro_0_es_es.xlsx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "AEAT, Informe Anual de Recaudación 2025",
+              "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/recaudacion-tributaria/informe-anual/ejercicio-2025.html",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Pensiones: cuantías, revalorización, IPC y gasto",
+          "detalle": "Pensión media de jubilación (1986–2009 media anual; desde 2010 dato de diciembre, con SOVI), mínima con cónyuge a cargo y no contributiva según los decretos anuales. La calculadora aplica la subida efectiva de cada año (incluida la consolidación de desviaciones) y el IPC de diciembre.",
+          "verificado": "sí, salvo pensión media 2022–2023",
+          "fuentes": [
+            {
+              "nombre": "BOE, decretos anuales de revalorización (p. ej. RD 1058/2022, RDL 3/2026)",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, Libro de pensiones (octubre 2026)",
+              "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST23/e558ff85-1ef3-4c85-b609-8ffb8567c923",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, Informe Económico-Financiero 2023",
+              "url": "https://www.seg-social.es/descarga/es/Proy2023SNT3",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "La Moncloa, pensión media diciembre 2025",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/paginas/2025/261225-pensiones-diciembre.aspx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, IPC",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=76134",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Anuarios estadísticos del INE (pensión media 1986–2009, datos del Ministerio de Trabajo)",
+              "url": "https://www.ine.es/prodyser/pubweb/anuario09/anu09_07condi.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Cuota y número de autónomos",
+          "verificado": "sí; cuotas calculadas con bases y tipos oficiales",
+          "detalle": "Hasta 2022: base mínima × tipo de cada año (órdenes de cotización del BOE). Desde 2023: tramo más bajo y más alto del sistema por ingresos reales (RDL 13/2022), con el MEI. 2026 prorroga las tablas de 2025 (RDL 3/2026).",
+          "fuentes": [
+            {
+              "nombre": "RDL 13/2022, cotización por ingresos reales",
+              "url": "https://www.boe.es/eli/es/rdl/2022/07/26/13",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Orden PJC/297/2026 (cotización 2026)",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, cotización de autónomos",
+              "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/36537",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, afiliados medios (PX-Web)",
+              "url": "https://w6.seg-social.es/PXWeb/pxweb/es/Afiliados%20en%20alta%20laboral/Afiliados%20en%20alta%20laboral__Afiliados%20Medios/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Clase baja, media y alta según ingresos; riesgo de pobreza y pobreza severa (2008–2025)",
+          "detalle": "Cálculo propio con los microdatos de la Encuesta de Condiciones de Vida del INE (base 2013). Definición de la OCDE: clase media son las personas cuyo hogar ingresa entre el 75 % y el 200 % de la renta mediana equivalente; por debajo, baja; por encima, alta. Pobreza severa: menos del 40 % de la mediana. Cada año de la encuesta mide los ingresos del año anterior.",
+          "verificado": "sí: la tasa de riesgo de pobreza calculada coincide con la oficial del INE de 2010 a 2025; en 2008 y 2009 difiere 0,2 puntos y se usa la oficial",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta de Condiciones de Vida: microdatos",
+              "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=resultados&idp=1254735976608",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, ECV 2025: nota de prensa",
+              "url": "https://www.ine.es/dyngs/Prensa/es/ECV2025.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Personas sin hogar (2005, 2012 y 2022)",
+          "detalle": "Encuesta a las personas sin hogar del INE: adultos atendidos en centros de alojamiento y comedores de municipios de más de 20.000 habitantes. 2005: 21.900; 2012: 22.938; 2022: 28.552, de las que 7.277 dormían en la calle (86,6 por cada 100.000 habitantes).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta a las personas sin hogar 2022",
+              "url": "https://www.ine.es/prensa/epsh_2022.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Encuesta a las personas sin hogar 2012 (con la comparación con 2005)",
+              "url": "https://ine.es/en/prensa/np761_en.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Pobreza antes de 2004 (1980, 1988 y 1995–2001)",
+          "detalle": "1995–2001: tasa de riesgo de pobreza (<60 % de la mediana) y severa (<40 %) del Panel de Hogares de la UE (PHOGUE), Eurostat ilc_li02, misma definición que la ECV pero otra encuesta; Eurostat da enteros y se omite 2002 (ruptura). 1980 y 1988: % de personas en hogares con gasto por debajo del 50 % del gasto medio equivalente del país (EPF 1980-81 y ECPF 1988), otra medida. No hay dato oficial en línea de 1982 ni de 1989–1994; el estudio del INE de 1996 sobre las EPF de 1973-74, 1980-81 y 1990-91 no está publicado en internet. Aún no hay ECV 2026.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, ilc_li02 (PHOGUE/ECHP)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_li02/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Comisión Europea/Eurostat, Poverty in figures: Europe in the early 1980s (1990), tabla 4.1",
+              "url": "https://aei.pitt.edu/100280/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, Poverty statistics in the late 1980s: research based on micro-data (1994), tabla 3.2",
+              "url": "https://op.europa.eu/en/publication-detail/-/publication/9c787f17-acb6-4f4b-badc-49a2310e65f7",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Plazas de alojamiento ocupadas en centros para personas sin hogar (2006–2024)",
+          "detalle": "INE, Encuesta de centros y servicios de atención a las personas sin hogar: número medio de plazas ocupadas por mayores de 18 años (media de un día de junio y otro de diciembre), todos los municipios. Incluye centros para víctimas de violencia de género e inmigrantes; el salto de 2024 viene sobre todo de los centros solo para inmigrantes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta de centros y servicios de atención a las personas sin hogar (resultados 2006–2024)",
+              "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176925&menu=resultados&idp=1254735976608",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, nota de prensa 2024",
+              "url": "https://www.ine.es/dyngs/Prensa/ECAPSH2024.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Número de autónomos 1986–1999",
+          "detalle": "Afiliados en alta al RETA, media anual (miles), del Boletín de Estadísticas Laborales del Ministerio de Trabajo recogido en el Anuario de Estadística del Ministerio de Agricultura 2000 (tabla 5.16); coincide con la serie actual en 2000–2004. Hasta 2007 no incluye a los agricultores por cuenta propia.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Agricultura, Anuario de Estadística 2000, tabla 5.16 (datos del Ministerio de Trabajo)",
+              "url": "https://servicio.mapa.gob.es/estadistica/pags/anuario/2000/AE_2000_05_16.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Impuestos y cotizaciones sociales, % del PIB (España y UE)",
+          "detalle": "España 38,1 % en 2025, igual que el máximo de 2021; UE-27 40,7 %. Usado en las cuestiones frecuentes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, gov_10a_taxag (28-10-2026)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Gasto en órganos ejecutivos y legislativos (COFOG GF0101)",
+          "detalle": "21.444 M€ en 2024 (provisional), el 3 % del gasto público total. Usado en las cuestiones frecuentes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, gov_10a_exp (21-10-2026)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Vivienda",
+      "bloques": [
+        {
+          "dato": "Alquiler, esfuerzo, okupación, desahucios, vacías, VPO, compraventas, hipotecas, emancipación y pisos turísticos",
+          "verificado": "sí",
+          "detalle": "Okupación: hechos conocidos de usurpación y allanamiento (no viviendas ocupadas a la vez). Desahucios: lanzamientos practicados por los juzgados, serie completa desde 2013. Alquiler: IPVA del INE hasta 2024 y SERPAVI del Ministerio hasta 2022.",
+          "fuentes": [
+            {
+              "nombre": "Ministerio del Interior, Sistema Estadístico de Criminalidad (usurpación y allanamiento)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos11/l0/11001.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Congreso, respuesta del Gobierno 184/19204 (desglose 2021–2024)",
+              "url": "https://www.congreso.es/entradap/l15p/e5/e_0059393_n_000.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "CGPJ, efecto de la crisis en los órganos judiciales (lanzamientos)",
+              "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Efecto-de-la-Crisis-en-los-organos-judiciales/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, censos de viviendas 2001 y 2011",
+              "url": "https://www.ine.es/prensa/np775.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Índice de Precios de Vivienda en Alquiler",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=59057",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Vivienda, SERPAVI 2022",
+              "url": "https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2024-05-08_Sintesis-resultado_Sistema-Estatal-Alquiler_2022_V-Web.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Banco de España, años de renta y esfuerzo para comprar",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/si_1_5.csv",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Vivienda, viviendas protegidas",
+              "url": "https://apps.fomento.gob.es/BoletinOnline2/sedal/31306000.XLS",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, compraventas de viviendas",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6150",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, hipotecas sobre viviendas",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=3200",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, edad media de emancipación",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/yth_demo_030/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Consejo de la Juventud de España, Observatorio de Emancipación",
+              "url": "https://www.cje.org/download/313/ano-2025/23618/2025-balance-general.pdf",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "INE, viviendas turísticas (experimental)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=39364",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Vivienda, SERPAVI 2025 (datos de 2015 a 2023)",
+              "url": "https://publicaciones.transportes.gob.es/downloadcustom/sample/3953",
+              "tipo": "oficial",
+              "nota": "2024: estimación propia con el índice de precios del alquiler del INE (+3,5 %)"
+            }
+          ]
+        },
+        {
+          "dato": "Hogares en propiedad, en alquiler y en cesión (2004–2025)",
+          "detalle": "Porcentaje de hogares según el régimen de tenencia de la vivienda en la que viven. Alquiler suma el de precio de mercado y el inferior al de mercado. Número de hogares: Censo de Población y Viviendas 2021 (18.536.616 viviendas principales).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta de Condiciones de Vida, tabla 9996",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=9996",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censo de Población y Viviendas 2021",
+              "url": "https://ine.es/prensa/censo_2021_jun.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "¿Hay casas para todos?: adultos, hogares y viviendas (2026) y viviendas vacías (censo de 2021)",
+          "detalle": "Personas en viviendas familiares por edad y hogares por tamaño a 1 de julio de 2026 (INE, Estadística Continua de Población, provisional): 41.645.770 adultos, 7.764.106 menores, 19.874.860 hogares, 5.678.769 de una persona. Viviendas: estimación del parque del Ministerio de Vivienda a final de 2025 (27,1 millones). Vacías y de uso esporádico: Censo 2021, el último que las mide (45,0 % de las vacías en municipios de menos de 10.000 habitantes; 10,5 % en los de más de 250.000).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, población en viviendas familiares por edad (tabla 60124)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=60124",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, hogares por tamaño (tabla 60131)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=60131",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Vivienda, estimación del parque de viviendas",
+              "url": "https://apps.fomento.gob.es/BoletinOnline2/sedal/33100500.XLS",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censos de Población y Viviendas 2021: hogares y viviendas",
+              "url": "https://ine.es/prensa/censo_2021_jun.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Comprar frente a alquilar: alquiler según el IPC, 1986–2025",
+          "detalle": "Rúbrica 'vivienda en alquiler' del IPC (INE), media anual, base 2015=100. 2002–2025 de la tabla 24079; 1986–2001 reconstruido mes a mes con la calculadora de variaciones del IPC del INE (variación de cada mes hasta enero de 2002). Índice distinto del IPVA; no se empalma.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Índice Nacional de la Vivienda en Alquiler (tabla 24079)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=24079",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, calculadora de variaciones del IPC",
+              "url": "https://www.ine.es/varipc/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Comprar frente a alquilar: precio de compra desde 1995",
+          "detalle": "Valor tasado medio de la vivienda libre, Ministerio de Vivienda, media anual, 2015=100. La serie empieza en 1995.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Vivienda, valor tasado de vivienda libre",
+              "url": "https://apps.fomento.gob.es/BoletinOnline2/sedal/35101000.XLS",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Banco de España, indicadores del mercado de la vivienda (si_1_5)",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/si_1_5.csv",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Viviendas en propiedad y en alquiler según los censos, 1981–2021",
+          "detalle": "Porcentaje de viviendas principales en propiedad y en alquiler en los censos del INE de 1981, 1991, 2001, 2011 y 2021 (series D_AKB071PP y D_AKB071PA del Banco de España, fuente INE). Otra fuente que la ECV; no se empalma.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Banco de España, indicadores del mercado de la vivienda (si_1_5), fuente INE censos",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/si_1_5.csv",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Viviendas protegidas terminadas, 1986–1990",
+          "detalle": "Viviendas protegidas terminadas en España (equivale a calificaciones definitivas): 1986 111.587; 1987 108.422; 1988 98.768; 1989 78.534; 1990 56.256. Tabla 1.1; sus datos de 1991–2022 coinciden con la tabla 1.6 del boletín del Ministerio.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Observatorio de Vivienda y Suelo, Boletín especial Vivienda Social 2024 (Ministerio de Vivienda)",
+              "url": "https://publicaciones.transportes.gob.es/downloadcustom/sample/3749",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Compraventas de viviendas ante notario, 2004–2007",
+          "detalle": "Transacciones inmobiliarias de vivienda (escrituras ante notario) del Ministerio de Vivienda, suma de trimestres: 2004 848.390; 2005 901.574; 2006 955.187; 2007 836.871. Otra fuente que la ETDP del INE (registros, desde 2007).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Vivienda, transacciones inmobiliarias (datos abiertos VDP003_01)",
+              "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP003_01.csv",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Edad media de emancipación, 2000–2001",
+          "detalle": "Eurostat yth_demo_030, España, ambos sexos: 2000 29,4; 2001 29,4. Rupturas de serie marcadas en 2005 y 2021.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, yth_demo_030",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/yth_demo_030/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Partidos y programas",
+      "bloques": [
+        {
+          "dato": "Propuestas de 52 partidos (973 propuestas)",
+          "verificado": "cada propuesta enlaza a su fuente",
+          "detalle": "Cada propuesta lleva un punto: verde si sale del programa electoral o de un documento oficial del partido (unas 860), naranja si sale de la prensa (unas 110). Si de una elección no se encontró programa, se indica dónde aparece. Escaños y votos: BOE (Junta Electoral Central); algunos porcentajes de partidos pequeños proceden de Wikipedia como pista y están pendientes de contrastar.",
+          "fuentes": [
+            {
+              "nombre": "Programas del PSOE (archivo de Juventudes Socialistas)",
+              "url": "https://www.jse.org/",
+              "tipo": "oficial",
+              "nota": "documentos del partido"
+            },
+            {
+              "nombre": "Archivo histórico de programas de Izquierda Unida",
+              "url": "https://izquierdaunida.org/",
+              "tipo": "oficial",
+              "nota": "documentos del partido"
+            },
+            {
+              "nombre": "Archivo Linz de la Transición española (prensa 1986)",
+              "url": "https://www.march.es/es/coleccion/archivo-linz-transicion-espanola",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Wayback Machine (webs antiguas de los partidos)",
+              "url": "https://web.archive.org/",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Programas electorales",
+          "detalle": "Cada elección lleva una etiqueta: comprobado en el programa, en la web del partido, en prensa o sin verificar.",
+          "verificado": "según etiqueta",
+          "fuentes": [
+            {
+              "nombre": "Vox 2015 (PDF)",
+              "url": "https://files.mediaset.es/file/10002/2020/11/23/VOX-Programa-Generales-2015_30b8.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Vox 2019, 100 medidas (PDF)",
+              "url": "https://www.voxespana.es/wp-content/uploads/2019/04/maqueta_100_medidas_2019.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "EH Bildu 2023 (PDF)",
+              "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "IU 2011 (PDF)",
+              "url": "https://www.iuaragon.com/utebo/files/2011/10/Programa-Electoral-IU-2011.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "UPyD 2015 (PDF)",
+              "url": "https://www.gitanos.org/upload/38/02/Programa_UPYD_Elecciones_Generales_2015.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "PP 2016, presentación del programa",
+              "url": "https://www.pp.es/storage/2016/06/16.06.04_rajoy_presentacion_programa_electoral_barcelona.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "PP 2026, «Contrato con España»",
+              "url": "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Podemos 2026, web de campaña",
+              "url": "https://pazcasaytrabajo.es/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Elecciones del 29 de noviembre de 2026",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "BOE, candidaturas proclamadas (BOE-A-2026-23103)",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Civio, listas proclamadas 29N",
+              "url": "https://datos.civio.es/dataset/listas-proclamadas-para-las-elecciones-generales-del-29n-de-2026/",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "CIS, barómetro de octubre de 2026 (estudio 3582)",
+              "url": "https://www.cis.es/en/surveys/barometro-de-octubre-2026",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Inmigración",
+      "bloques": [
+        {
+          "dato": "Población nacida fuera y extranjera, 1981–2026",
+          "detalle": "Censos 1981 y 1991 (1 de marzo), padrón 1998–2001 y Estadística Continua de Población desde 2002 (1 de enero; 2026 provisional). 1 de julio de 2026: 20,67 % nacidos fuera, 14,93 % extranjeros.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Estadística Continua de Población, tabla 79273",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79273",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, nota de prensa ECP 1 de julio de 2026",
+              "url": "https://www.ine.es/dyngs/Prensa/ECP2T26.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, padrón continuo (tabla 36784)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=36784",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censo 1981",
+              "url": "https://www.ine.es/jaxi/files/_px/es/csv_bdsc/t20/e243/e01/a1981/l0/01010.csv_bdsc",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censo 1991",
+              "url": "https://www.ine.es/jaxi/files/_px/es/csv_bdsc/t20/e243/e01/a1991/l0/00011.csv_bdsc",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Nacidos fuera por país de nacimiento y nacionalidad, 2025",
+          "detalle": "1 de enero de 2025 (el desglose de 2026 aún no está publicado).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Censo anual de población, tabla 68525",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=68525",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Adquisiciones de nacionalidad española",
+          "detalle": "INE 2013–2025 (todas las vías, residentes) y concesiones por residencia de Justicia 1995–2025. Ley de nietos y sefardíes aparte.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Adquisiciones de nacionalidad de residentes (tablas 15083 y 15071)",
+              "url": "https://www.ine.es/dyngs/Prensa/EANER2025.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Observatorio Permanente de la Inmigración, concesiones por residencia",
+              "url": "https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/concesiones_nacionalidad",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Justicia, datos de nacionalidad a 30-9-2026",
+              "url": "https://www.mjusticia.gob.es/es/Ciudadano/Nacionalidad/Documents/Estadisticas%20nacionalidad%2030-09-2026.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Exteriores, Ley de Memoria Democrática (ley de nietos)",
+              "url": "https://www.exteriores.gob.es/eu/Comunicacion/Exteriores-explica/Paginas/2026_Articulos/Ley-nietos-memoria-democratica-nacionalidad-espanola.aspx",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Infracciones penales conocidas, 1980–2025",
+          "detalle": "1980–2003 Eurostat (datos de Interior); 2004–2025 INE. Ruptura 1986–1987.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, crim_hist y crim_gen",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/crim_gen/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Indicadores de Calidad de Vida, tabla 74617",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74617",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Condenados adultos por nacionalidad y tasas, 2013–2025",
+          "detalle": "Tasas por 1.000 adultos a 1 de julio (método del INE). Ajuste por edad: cálculo propio.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Estadística de la Población Condenada (tablas 25704 y 25645)",
+              "url": "https://www.ine.es/dyngs/Prensa/EPCAEPCM2025.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, metodología (no recoge país de nacimiento)",
+              "url": "https://www.ine.es/metodologia/t18/t1830466.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, ECP por edad, nacionalidad y país de nacimiento (tabla 56938)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56938",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Instituciones Penitenciarias, estadística de septiembre de 2026",
+              "url": "https://www.institucionpenitenciaria.es/es/web/home/fondo-documental/estadistica-penitenciaria",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Afiliados extranjeros e Ingreso Mínimo Vital por nacionalidad",
+          "detalle": "Afiliados medios 2006–2026 (2026: enero–septiembre); IMV por nacionalidad del titular desde 2024.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Seguridad Social, afiliados extranjeros",
+              "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10/EST290/EST292",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, dosier del IMV (tabla 1.5)",
+              "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/cbe2fda1-3ac7-4bc8-a5ec-06c178839e11/0e716715-d290-4745-a74a-28cc1c3bc9ea",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Trabajo, boletín AEX-1",
+              "url": "https://www.mites.gob.es/estadisticas/bel/AEX/aex1.xls",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, riesgo de pobreza por ciudadanía (ilc_li31)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_li31/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Paro por nacionalidad y sectores",
+          "detalle": "EPA medias anuales 2002–2025 y tercer trimestre de 2026; sectores con afiliados medios de 2025.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, EPA (tablas 66057 y 66036)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=66057",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Seguridad Social, afiliados extranjeros por sector (datos.gob.es)",
+              "url": "https://datos.gob.es/es/catalogo/e05072501-afiliados-medios-ss-extranj-por-rg-y-reta-cc-aa-seccion-cnae-09-y-uenoue-hasta-dic-25",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Banco de España, Boletín Económico 2025/T2 (artículo 10)",
+              "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/InformesBoletinesRevistas/BoletinEconomico/25/T2/Fich/be2502-art10.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Uso de la sanidad según país de nacimiento",
+          "detalle": "Encuesta de Salud de España 2025; ajuste por edad: cálculo propio.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta de Salud de España 2025",
+              "url": "https://www.ine.es/dyngs/Prensa/es/ESdE2025.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Gimeno-Feliu y otros (2016), BMC Public Health",
+              "url": "https://doi.org/10.1186/s12889-016-3127-5",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Nacimientos por nacionalidad de la madre y fecundidad",
+          "detalle": "1996–2008 calculado con microdatos del INE; desde 2009, tablas oficiales.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Movimiento Natural de la Población (tablas 58929 y 48861)",
+              "url": "https://www.ine.es/dyngs/Prensa/MNP2024.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Indicador Coyuntural de Fecundidad (tabla 1407)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1407",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Hijos por mujer según dónde nació la madre, en España y en los países de origen (gráfica «Hijos por mujer según su origen»)",
+          "detalle": "En España, 2014 y 2024: cálculo propio. Nacimientos vivos (clasificaciones 1 y 3) por grupo de edad de la madre (15–19 a 45–49; las menores de 15 y mayores de 49 se suman al grupo extremo) y país de nacimiento de la madre (PAISNXM), de los microdatos del MNP; entre las mujeres residentes a 1 de julio por país de nacimiento y grupo de edad (ECP, tabla 56937). Hijos por mujer = 5 × suma de las tasas por grupo. Comprobación: el total de España sale 1,10 en 2024 (INE: 1,10) y 1,33 en 2014 (INE: 1,32). El INE solo publica la cifra para «española» y «extranjera» (tabla 1407), no por país ni por zona; Eurostat tampoco la publica por país de nacimiento. Se usa el país de nacimiento y no la nacionalidad para que las que se hacen españolas no cambien de grupo. Solo cuenta los hijos nacidos en España. En los países de origen: Banco Mundial (ONU, WPP 2024; Eurostat para Rumanía y España), 1995 y 2023, último año estimado. Marruecos, contraste con su censo de 2024 (1,97; la ONU da 2,23 para 2023). Segunda generación: no hay estadística oficial en España (el INE no sabe si una madre nacida aquí es hija de inmigrantes); se citan dos estudios.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, microdatos de nacimientos del Movimiento Natural de la Población (2014 y 2024)",
+              "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177007&menu=resultados&secc=1254736195442&idp=1254735573002",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Estadística Continua de Población: residentes por sexo, edad y país de nacimiento (tabla 56937)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56937",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Banco Mundial, tasa de fecundidad total (SP.DYN.TFRT.IN)",
+              "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Haut-Commissariat au Plan (Marruecos), RGPH 2024, principales resultados",
+              "url": "https://m.hcp.ma/file/242665",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "González-Ferrer, Castro-Martín, Kraus y Eremenko (2017), Demographic Research 37(19)",
+              "url": "https://doi.org/10.4054/DemRes.2017.37.19",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Kulu, Hannemann, Pailhé y otros (2017), Population and Development Review 43(1)",
+              "url": "https://doi.org/10.1111/padr.12037",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Afiliados por pensión e inmigración y pensiones",
+          "detalle": "Ratio con y sin afiliados extranjeros, 2000–2026.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Trabajo, boletines AFI-1 y PEN-1",
+              "url": "https://www.mites.gob.es/estadisticas/bel/AFI/afi1.xls",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Banco de España, Informe Anual 2023 (cap. 2)",
+              "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap2.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "AIReF, sostenibilidad de las AA. PP. a largo plazo (2025)",
+              "url": "https://www.airef.es/wp-content/uploads/2025/03/Opini%C3%B3n_sobre_la_sostenibilidad_de_las_AAPP_largo_plazo/Opinion.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Menores extranjeros no acompañados y menores condenados",
+          "detalle": "Registro de la Fiscalía a 31 de diciembre (2012–2024); condenados de 14 a 17 años por nacionalidad (2013–2025).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Fiscalía General del Estado, memorias anuales",
+              "url": "https://www.fiscal.es/memorias/memoria2025/FISCALIA_SITE/capitulo_III/cap_III_4_4.html",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Población Condenada Menor de Edad (tabla 25721)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=25721",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "La Moncloa, contingencia migratoria (29-8-2025)",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/juventud-e-infancia/Paginas/2025/290825-rego-contingencia-migratoria.aspx",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Saldo migratorio y españoles en el extranjero",
+          "detalle": "Estadística de Migraciones 2008–2020 y EMCR 2021–2024 (no comparables); PERE 2009–2026.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Estadística de Migraciones (tabla 24293)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=24293",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Estadística de Migraciones y Cambios de Residencia 2024",
+              "url": "https://www.ine.es/dyngs/Prensa/EMCR2024.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Padrón de Españoles Residentes en el Extranjero 2026",
+              "url": "https://www.ine.es/dyngs/Prensa/PERE2026.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Remesas enviadas y sueldos de los asalariados extranjeros",
+          "detalle": "Remesas 2013–2025 (antes otro método); sueldos de Hacienda 2013–2024 (sin País Vasco ni Navarra).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Banco de España, Boletín Estadístico (cuadro 17.6a)",
+              "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be176a.csv",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Agencia Tributaria, Mercado de trabajo y pensiones en las fuentes tributarias",
+              "url": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/mercado/2024/home.html",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Enfermedades infecciosas: tuberculosis y sarna («Colapsan la sanidad»)",
+          "detalle": "Tuberculosis 2024 (informe preliminar RENAVE): 2.070 casos en nacidos fuera, el 49 % de los que tienen ese dato; tasa 23,4 frente a 5,4 por 100.000 (el ISCIII avisa de que puede estar inflada porque quien no está empadronado cuenta en los casos pero no en la población). España, 8,8 por 100.000: país de baja incidencia. Sarna: el estudio del ISCIII con datos 2011–2023 ve el aumento en toda la población, sobre todo de 15 a 24 años, y no lo relaciona con la inmigración (solo se ha podido leer el resumen).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "ISCIII, RENAVE: informe de vigilancia de la tuberculosis 2024",
+              "url": "https://cne.isciii.es/documents/d/cne/renave_informe_vigilancia-tb_-2024",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Sanidad, nota de prensa del 24-3-2026 (Día Mundial de la Tuberculosis)",
+              "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6874",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Sanidad, Plan para la prevención y control de la tuberculosis (2019)",
+              "url": "https://www.sanidad.gob.es/gl/areas/DCVIHT/tuberculosis/docs/Resumen_PlanTB2019.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurosurveillance 2025: escabiosis en España 2011–2023 (ISCIII)",
+              "url": "https://doi.org/10.2807/1560-7917.ES.2025.30.47.2500296",
+              "tipo": "estudio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Medios e información",
+      "bloques": [
+        {
+          "dato": "Consumo de noticias, confianza y preocupación por los bulos",
+          "verificado": "sí; 2019 y 2021 por fuente secundaria",
+          "fuentes": [
+            {
+              "nombre": "Digital News Report España 2026 (Reuters Institute y Universidad de Navarra)",
+              "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/spain",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Universidad de Navarra, DNR",
+              "url": "https://www.unav.edu/web/digital-news-report",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Difusión de diarios, publicidad por medio y medios digitales",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Armentia y Marín (2020), con OJD, AEDE e Infoadex",
+              "url": "https://indexcomunicacion.es/index.php/indexcomunicacion/article/download/725/899/6317",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Salaverría et al. (2018), cibermedios",
+              "url": "https://nuevaepoca.revistalatinacs.org/index.php/revista/article/download/527/793",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Negredo et al. (2023), medios nativos digitales",
+              "url": "https://analisi.cat/article/view/v68-negredo-et-al",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Asociación de la Prensa de Madrid, cierres 2008–2015",
+              "url": "https://revistas.ucm.es/index.php/ESMP/article/download/62227/4564456548519",
+              "tipo": "sector"
+            }
+          ]
+        },
+        {
+          "dato": "Verificadores y bulos",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Maldita.es, informe COVID",
+              "url": "https://maldita.es/clima/20211021/informe-desinformacion-covid19-cambioclimatico-violenciadegenero",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "Maldita.es, bulos de la DANA",
+              "url": "https://maldita.es/malditobulo/20241120/bulos-y-desinformaciones-sobre-el-paso-de-la-dana-en-el-este-y-sur-de-espana-en-octubre-de-2024/",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "Blanco-Herrero et al. (2024)",
+              "url": "https://revistas.ucm.es/index.php/ESMP/article/view/96593",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "EFCSN, miembros",
+              "url": "https://members.efcsn.com/signatories",
+              "tipo": "sector"
+            }
+          ]
+        },
+        {
+          "dato": "Publicidad institucional, libertad de prensa y pluralismo",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "La Moncloa, informes de publicidad institucional",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/cpci/Paginas/PlanesEInformes.aspx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Reporteros Sin Fronteras, España",
+              "url": "https://rsf.org/es/pais/espa%C3%B1a",
+              "tipo": "ONG"
+            },
+            {
+              "nombre": "Media Pluralism Monitor, España",
+              "url": "https://cmpf.eui.eu/country/spain/",
+              "tipo": "académica"
+            },
+            {
+              "nombre": "Eurobarómetro sobre desinformación (vía Euronews)",
+              "url": "https://es.euronews.com/next/2026/02/02/crece-europa-exposicion-percibida-desinformacion-los-bulos-que-paises-sufren-mas",
+              "tipo": "prensa"
+            }
+          ]
+        },
+        {
+          "dato": "Audiencia diaria de televisión, radio, diarios e internet (1986–2025)",
+          "detalle": "EGM. Penetración % de población de 14+ años: TV y radio audiencia acumulada ayer; diarios lectura ayer (papel / internet); internet uso ayer desde 1997. Desde 2018 el visor PDF cuenta como papel.",
+          "verificado": "sí; contrastado con Marco General 2000 y Resumen EGM 2017",
+          "fuentes": [
+            {
+              "nombre": "AIMC, Marco General de los Medios en España 2026 (EGM)",
+              "url": "https://www.aimc.es/a1mc-c0nt3nt/uploads/2026/02/Marco_General_Medios_2026.pdf",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "AIMC, Marco General de los Medios en España 2000 (serie 1980–1999)",
+              "url": "https://www.aimc.es/a1mc-c0nt3nt/uploads/2010/11/Marco00.pdf",
+              "tipo": "sector"
+            }
+          ]
+        },
+        {
+          "dato": "Inversión publicitaria por medio 2020–2025 (InfoAdex)",
+          "detalle": "2020–2023 con la clasificación antigua (TV, digital, diarios en papel). 2022–2025 con la nueva (cada medio con su parte digital), como serie aparte. InfoAdex empieza en 1994.",
+          "verificado": "sí; 2023 por prensa sectorial que cita InfoAdex",
+          "fuentes": [
+            {
+              "nombre": "aea, Datos Claves (Estudio InfoAdex 2023: datos 2020–2022)",
+              "url": "https://newsletters.anunciantes.com/744/assets/Datos-Claves-2022.pdf",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "MarketingDirecto, Estudio InfoAdex 2024 (datos 2023)",
+              "url": "https://www.marketingdirecto.com/marketing-general/inversion-publicitaria-2023-informe-de-infoadex",
+              "tipo": "prensa"
+            },
+            {
+              "nombre": "Reason Why, Estudio InfoAdex 2024 en gráficos (diarios 2023)",
+              "url": "https://www.reasonwhy.es/actualidad/estudio-infoadex-2024-inversion-publicitaria-graficos",
+              "tipo": "prensa"
+            },
+            {
+              "nombre": "aea, Datos Claves 2025 (Estudio InfoAdex 2025: 2022–2024)",
+              "url": "https://www.newsletters.anunciantes.com/792/assets/Anunciantes_Datos_Claves_2025.pdf",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "Resumen Estudio InfoAdex 2026 (copia de La Fede)",
+              "url": "https://media.timtul.com/media/lafede/Resumen%20Estudio%20de%20Inversiones%202026_20260211151142.pdf",
+              "tipo": "sector"
+            }
+          ]
+        },
+        {
+          "dato": "Medios nativos digitales en 2019",
+          "detalle": "1.382 de 2.979 webs de noticias activas (46,4 %), noviembre de 2019",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Negredo, Martínez-Costa, Breiner y Salaverría (2020), Media and Communication",
+              "url": "https://cogitatiopress.com/mediaandcommunication/article/view/2738",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Redes sociales usadas para noticias, 2019–2026",
+          "detalle": "Top 6 redes por año en la página de España del DNR. 2026 de una segunda encuesta en marzo de 2026.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Reuters Institute, Digital News Report 2019–2026 (página de España)",
+              "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/spain",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Llegada de ChatGPT (hito en la gráfica de redes)",
+          "detalle": "Lanzado al público el 30 de noviembre de 2022.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "OpenAI, «Introducing ChatGPT»",
+              "url": "https://openai.com/index/chatgpt/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Uso de chatbots de IA para informarse, 2026",
+          "detalle": "8 % en la última semana (casi el doble que en 2025); 14 % entre 18 y 24 años, 3 % en mayores de 55. ChatGPT 4 %, Gemini 2 %.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Digital News Report España 2026, «La IA informativa en España: uso minoritario e instrumental» (Universidad de Navarra)",
+              "url": "https://www.unav.edu/web/digital-news-report/entradas/-/blogs/la-ia-informativa-en-espana-uso-minoritario-e-instrumental",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Evitan las noticias, 2026",
+          "detalle": "37 % las evita a veces o a menudo.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Reuters Institute, Digital News Report 2026 (página de España)",
+              "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/spain",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Meta y las noticias en Facebook",
+          "detalle": "Enero de 2018: el feed prioriza a amigos y familia frente a medios. Febrero de 2024: deja de invertir en productos y acuerdos de noticias.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Meta, «Bringing People Closer Together» (2018)",
+              "url": "https://about.fb.com/news/2018/01/news-feed-fyi-bringing-people-closer-together/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Meta, «An Update on Facebook News» (2024)",
+              "url": "https://about.fb.com/news/2024/02/update-on-facebook-news-us-australia/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Elección del Consejo de Administración de RTVE",
+          "detalle": "15 miembros: 11 los elige el Congreso y 4 el Senado; dos tercios en primera votación y, pasadas 48 horas, mayoría absoluta. Usado en las cuestiones frecuentes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "BOE, Real Decreto-ley 5/2024, de 22 de octubre",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21699",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Uso de IA generativa (16 a 74 años)",
+          "detalle": "37,9 % en los tres últimos meses (2025); 75,6 % de 16 a 24 años, 43,8 % de 35 a 44. Usado en las cuestiones frecuentes.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Encuesta TIC en los hogares 2025",
+              "url": "https://www.ine.es/dyngs/Prensa/TICH2025.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Publicidad en buscadores, redes y otras webs (clasificación nueva de InfoAdex)",
+          "detalle": "2022–2024: Datos Claves 2025 de la aea; 2025 y 2024 revisado: resumen del estudio InfoAdex 2026.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "InfoAdex 2025, en Datos Claves de la aea",
+              "url": "https://www.newsletters.anunciantes.com/792/assets/Anunciantes_Datos_Claves_2025.pdf",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "Resumen del estudio InfoAdex 2026",
+              "url": "https://media.timtul.com/media/lafede/Resumen%20Estudio%20de%20Inversiones%202026_20260211151142.pdf",
+              "tipo": "sector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Otras referencias para contrastar",
+      "bloques": [
+        {
+          "dato": "Verificación y datos públicos",
+          "detalle": "No se han usado como fuente de cifras, sino para contrastar.",
+          "fuentes": [
+            {
+              "nombre": "Maldita.es",
+              "url": "https://maldita.es",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "Maldita.es, Buloteca",
+              "url": "https://maldita.es/buloteca/",
+              "tipo": "verificador"
+            },
+            {
+              "nombre": "Civio Datos",
+              "url": "https://datos.civio.es/",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "Civio, ¿Dónde van mis impuestos?",
+              "url": "https://dondevanmisimpuestos.es/",
+              "tipo": "sector"
+            },
+            {
+              "nombre": "La Marea",
+              "url": "https://www.lamarea.com/",
+              "tipo": "prensa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "no_seguros": [
+    "Deuda pública antes de 1995: no hay serie oficial del protocolo de déficit; los valores son aproximados.",
+    "Paro 1986–2000: el INE solo publica la tasa con la definición antigua; no es del todo comparable con la actual.",
+    "% de españoles en 1986 y 1989: solo hay fuentes secundarias.",
+    "Número de viviendas antes de 2001: solo existe el censo de 1991; precio de la vivienda antes de 1995: no hay serie oficial.",
+    "IRPF máximo de 1989–1991 y 1994–1997: no comprobado en el BOE.",
+    "Resultados electorales: no se pudo descargar la tabla oficial de Interior; la participación sale del BOE.",
+    "Viviendas protegidas 2004–2008: 2006 y 2007 sin comprobar en la fuente original.",
+    "Programas electorales marcados «Comprobado en prensa» o «Sin verificar».",
+    "Valoración de las promesas y argumentos a favor y en contra: criterio y resumen propios. El coste de la herencia universal es un cálculo aproximado.",
+    "Inmigrantes en situación irregular: solo estimaciones, con métodos distintos. Residentes extranjeros de 1985–1991: fuentes secundarias.",
+    "Regularización de 2000: el Gobierno de entonces y el Ministerio en 2026 dan cifras distintas. Regularización de 2026: sin cifra oficial de concesiones.",
+    "Medios: algunos datos del Digital News Report (2019, 2021) y la encuesta del CIS de mayo de 2026 vienen de citas en prensa.",
+    "DANA: la cifra de 232 fallecidos viene del juzgado, publicada por prensa.",
+    "Encuesta del CIS de octubre de 2026: es una estimación, no un resultado.",
+    "Gasto por funciones de 2024 y población de 2026: datos provisionales.",
+    "Pensiones: no hay pensión media oficial a diciembre de 2022 y 2023; antes de 1990 las pensiones altas subían una cantidad fija, así que la calculadora es aproximada para ellas.",
+    "Consolidación de la desviación del IPC de 2010 en 2011 (+1,3 %): deducida de los límites de pensión del BOE.",
+    "Okupación 2010–2012: posible infrarrepresentación en la serie de Interior. Desahucios antes de 2013: no hay serie completa.",
+    "Precio del alquiler: el IPVA del INE llega a 2024 y el SERPAVI accesible a 2022; las viviendas protegidas de 2003–2005 son estimaciones del Ministerio; la emancipación de 2025 usa metodología nueva.",
+    "Medio ambiente: % renovable antes de 2007 calculado con datos de Eurostat (otro método, 2–3 puntos menos); potencia solar y eólica sin datos de 2011–2012; emisiones de 2025 son un avance; no hay serie oficial anual de fondos europeos para transición ecológica.",
+    "Promesas de los Gobiernos: en 1986–1996 y en el PP de 2016 no hay programa en línea (se usan discursos de investidura); en 2023 se excluyeron promesas incumplidas sin fuente que lo acredite; algunos resultados de 2025–2026 se apoyan en prensa. El «% conseguido» depende de qué promesas se pueden comprobar.",
+    "Partidos y programas: muchas elecciones de 1986–2004 de partidos pequeños y regionales no tienen programa en línea y quedan sin propuestas; algunos porcentajes de voto de partidos sin escaños y algunos colores de partido no están contrastados con fuente oficial.",
+    "Autónomos: las cuotas son cálculos (base mínima × tipo); la base de 2020 sale de la prórroga presupuestaria; la tarifa plana de 2026 no está fijada en ninguna norma.",
+    "Muertes en la pareja: el CGPJ no publica año a año el sexo de las víctimas del grupo «resto» (casi todas hombres); las cifras se leyeron de gráficos de sus informes. Accidentes laborales: cambios de método en 1988, 2006, 2016 y 2019.",
+    "Menores de 18 años en la nota de Población: el INE publica los menores de 16 (6,87 millones a 1 de enero de 2025, Censo anual de población 2025); se suman las cohortes de 16 y 17 años para estimar unos 8 millones.",
+    "Clases por ingresos: es un cálculo propio con los microdatos del INE, no una cifra publicada. Antes de 2008 la encuesta usaba otra base y no es comparable.",
+    "Personas sin hogar: solo hay tres encuestas y solo cuentan a quien usa centros de atención en municipios de más de 20.000 habitantes; la cifra real es mayor."
+  ]
+}

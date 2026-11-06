@@ -1,0 +1,206 @@
+[
+  {
+    "k": "paro",
+    "g": "eco",
+    "src": "annual",
+    "t": "Paro",
+    "u": "% de la población activa (EPA)",
+    "dir": "down",
+    "kind": "pp",
+    "dec": 1,
+    "suf": " %"
+  },
+  {
+    "k": "deuda",
+    "g": "money",
+    "src": "annual",
+    "t": "Deuda pública",
+    "u": "% del PIB",
+    "dir": "down",
+    "kind": "pp",
+    "approxBefore": 1995,
+    "dec": 1,
+    "suf": " %"
+  },
+  {
+    "k": "smi",
+    "g": "eco",
+    "also": true,
+    "src": "annual",
+    "t": "Salario mínimo",
+    "u": "€ al mes, 14 pagas",
+    "dir": "up",
+    "kind": "eur",
+    "dec": 2,
+    "suf": " €",
+    "decDesde1000": 0
+  },
+  {
+    "k": "precio",
+    "g": "eco",
+    "also": true,
+    "src": "annual",
+    "t": "Precio de la vivienda",
+    "u": "€ por m², valor tasado medio de la vivienda libre (desde 1995)",
+    "dir": null,
+    "kind": "eurm2",
+    "dec": 0,
+    "suf": " €/m²"
+  },
+  {
+    "k": "viv",
+    "g": "eco",
+    "src": "sparse",
+    "t": "Viviendas",
+    "u": "parque total, millones (censo 1991 y serie anual desde 2001)",
+    "dir": null,
+    "kind": "m",
+    "dec": 1,
+    "suf": " M"
+  },
+  {
+    "k": "pop",
+    "g": "eco",
+    "src": "snap",
+    "t": "Población",
+    "u": "millones de habitantes",
+    "dir": null,
+    "kind": "m",
+    "dec": 1,
+    "suf": " M",
+    "note": "En España viven unos 49,6 millones de personas (2026) y hay unos 27,1 millones de viviendas (2025). Si dejamos fuera a los menores de 18 años, que suelen vivir con su familia (unos 8 millones), quedan unos 41,6 millones de adultos: 1,5 adultos por vivienda. ¿Hay viviendas suficientes para todos? En número, sí. La gente no vive una persona por casa, sino en hogares (18,5 millones en 2021, unas 2,5 personas por hogar), y sobran unos 8 millones de viviendas vacías, de segunda residencia o de uso esporádico. El problema no es cuántas hay, sino dónde están, cuánto cuestan y para qué se usan."
+  },
+  {
+    "k": "esp",
+    "g": "eco",
+    "src": "snap",
+    "t": "Residentes con nacionalidad española",
+    "u": "de cada 100 personas que viven en España",
+    "note": "En 1986, 99 de cada 100 personas que vivían en España tenían nacionalidad española; en 2026 son 85. No es que haya menos españoles, que han pasado de unos 38 a unos 42 millones. Lo que ha crecido es la población extranjera, de unos 300.000 a 7,3 millones.",
+    "dir": null,
+    "kind": "pp",
+    "dec": 1,
+    "suf": " %"
+  },
+  {
+    "k": "part",
+    "g": "eco",
+    "src": "snap",
+    "t": "Participación electoral",
+    "u": "de cada 100 personas con derecho a voto, cuántas votaron",
+    "dir": null,
+    "kind": "pp",
+    "note": "Es la participación oficial: votantes divididos entre el censo electoral, es decir, los españoles mayores de 18 años, incluidos los que viven en el extranjero. La más alta fue en 1996 (77,5 %) y la más baja en noviembre de 2019 (66,2 %). En 2023 votaron 66,6 de cada 100.",
+    "dec": 1,
+    "suf": " %"
+  },
+  {
+    "k": "iva",
+    "g": "money",
+    "src": "step",
+    "t": "IVA general",
+    "u": "tipo general, %",
+    "dir": null,
+    "kind": "pp",
+    "dec": 0,
+    "suf": " %"
+  },
+  {
+    "k": "irpf",
+    "g": "money",
+    "src": "step",
+    "t": "IRPF máximo",
+    "u": "tipo marginal máximo general, %",
+    "dir": null,
+    "kind": "pp",
+    "dec": 0,
+    "suf": " %"
+  },
+  {
+    "k": "pf",
+    "g": "money",
+    "src": "annual",
+    "t": "Presión fiscal",
+    "u": "impuestos y cotizaciones, % del PIB (OCDE)",
+    "dir": null,
+    "kind": "pp",
+    "dec": 1,
+    "suf": " %"
+  },
+  {
+    "k": "gasto",
+    "g": "money",
+    "src": "annual",
+    "t": "Gasto e ingresos públicos",
+    "u": "todas las administraciones, miles de M€",
+    "note": "La línea negra es todo lo que gastan el Estado, las comunidades, los ayuntamientos y la Seguridad Social en un año. La verde es todo lo que ingresan; la verde discontinua, la parte que viene de impuestos y cotizaciones. Cuando el gasto supera a los ingresos (zona roja) hay déficit y se pide prestado: eso hace crecer la deuda.",
+    "dir": null,
+    "kind": "bn",
+    "kt": "Gasto público",
+    "multi": [
+      {
+        "k": "gasto",
+        "lab": "Gasto",
+        "c": "#1F2328"
+      },
+      {
+        "k": "ingr",
+        "lab": "Ingresos",
+        "c": "#0B7A75"
+      },
+      {
+        "k": "impcot",
+        "lab": "Impuestos y cotizaciones",
+        "c": "#0B7A75",
+        "dash": true
+      }
+    ],
+    "dec": 1,
+    "suf": " mil M€"
+  },
+  {
+    "k": "impcot",
+    "g": "money",
+    "kpiOnly": true,
+    "src": "annual",
+    "t": "Impuestos y cotizaciones",
+    "u": "recaudado por todas las administraciones, miles de M€",
+    "dir": null,
+    "kind": "bn",
+    "dec": 1,
+    "suf": " mil M€"
+  },
+  {
+    "k": "ipc",
+    "g": "vistazo",
+    "src": "snap",
+    "t": "Subida de precios",
+    "u": "índice de precios de consumo (IPC) del mes de cada elección, 2025 = 100",
+    "dir": null,
+    "kind": "idx",
+    "dec": 1,
+    "suf": ""
+  },
+  {
+    "k": "anios",
+    "g": "vistazo",
+    "src": "snap",
+    "t": "Años de sueldo para un piso",
+    "u": "precio medio de una vivienda libre entre la renta bruta anual del hogar mediano (Banco de España), trimestre de cada elección",
+    "dir": "down",
+    "kind": "anios",
+    "dec": 1,
+    "suf": " años"
+  },
+  {
+    "k": "edad",
+    "g": "vistazo",
+    "src": "snap",
+    "t": "Edad de emancipación",
+    "u": "edad media a la que los jóvenes dejan la casa de sus padres (Eurostat), dato del año de cada elección (en-cada-eleccion-anio)",
+    "dir": "down",
+    "kind": "anios",
+    "dec": 1,
+    "suf": " años"
+  }
+]
