@@ -1,0 +1,2766 @@
+[
+  {
+    "id": "friedrich-wilhelm-joseph-schelling",
+    "nombre": "Friedrich Schelling",
+    "fechas": "1775 – 1854",
+    "region": "Alemania",
+    "escuela": "Idealismo alemán",
+    "categorias": [
+      "metafisica",
+      "estetica",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que la naturaleza y la mente son dos caras de la misma realidad",
+    "resumen": "Schelling fue un filósofo alemán que con 20 y pocos años ya era famoso. Es una de las grandes figuras del [[idealismo]] alemán, junto a Fichte y Hegel. Pensaba que la naturaleza no es una máquina muerta, sino algo vivo emparentado con nuestra mente, y que el arte nos deja ver lo que la [[razón|razon]] sola no alcanza. Sus ideas inspiraron a poetas [[románticos|romanticismo]] y, mucho después, a pensadores como Heidegger.",
+    "ideas": [
+      "La naturaleza y el espíritu son lo mismo visto desde dos lados: un árbol que crece y una persona que piensa son dos formas de una misma fuerza.",
+      "El arte es la cima de la filosofía: un cuadro o una sinfonía muestran de golpe cosas que nos cuesta explicar con palabras.",
+      "Ser libre de verdad significa poder elegir entre el bien y el mal; por eso la libertad humana es tan seria y tan peligrosa."
+    ],
+    "curiosidad": "De estudiante compartió cuarto en el seminario de Tubinga con Hegel y con el poeta Hölderlin. Los tres acabaron siendo gigantes de la cultura alemana.",
+    "frase": {
+      "texto": "La naturaleza debe ser el espíritu visible, y el espíritu, la naturaleza invisible.",
+      "fuente": "Ideas para una filosofía de la naturaleza (1797), introducción"
+    },
+    "obras": [
+      {
+        "titulo": "Ideas para una filosofía de la naturaleza",
+        "anio": "1797",
+        "deQueVa": "La naturaleza vista como algo vivo y no como una simple máquina."
+      },
+      {
+        "titulo": "Sistema del idealismo trascendental",
+        "anio": "1800",
+        "deQueVa": "Cómo nace la conciencia y por qué el arte es tan importante."
+      },
+      {
+        "titulo": "Investigaciones filosóficas sobre la esencia de la libertad humana",
+        "anio": "1809",
+        "deQueVa": "De dónde viene el mal y qué significa ser libre."
+      },
+      {
+        "titulo": "Las edades del mundo",
+        "anio": "c. 1811 – 1815",
+        "deQueVa": "Un intento inacabado de contar la historia de Dios y del mundo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "georg-wilhelm-friedrich-hegel",
+      "sren-kierkegaard",
+      "martin-heidegger"
+    ]
+  },
+  {
+    "id": "friedrich-schleiermacher",
+    "nombre": "Friedrich Schleiermacher",
+    "fechas": "1768 – 1834",
+    "region": "Alemania",
+    "escuela": "Teología romántica y hermenéutica",
+    "categorias": [
+      "religion",
+      "lenguaje"
+    ],
+    "conocidoPor": "Decir que la religión es un sentimiento, y fundar el arte moderno de interpretar textos",
+    "resumen": "Schleiermacher fue un pastor protestante y profesor en Berlín. Defendió que la religión no consiste en creerse unas reglas o unos [[dogmas|dogma]], sino en un sentimiento profundo de estar unido a algo infinito. También estudió cómo entendemos lo que otros escriben, y por eso se le considera el padre de la [[hermenéutica|hermeneutica]] moderna, el arte de interpretar.",
+    "ideas": [
+      "La religión nace del sentimiento de depender por completo de algo más grande que uno, como cuando te sientes pequeño mirando el mar.",
+      "Para entender un texto hay que ir de las partes al todo y del todo a las partes, igual que entiendes una palabra por la frase y la frase por sus palabras.",
+      "Entender bien a alguien exige ponerse en su lugar y conocer su época y su forma de hablar, no solo leer lo que dice."
+    ],
+    "curiosidad": "Tradujo casi todos los diálogos de Platón al alemán, y su traducción se siguió leyendo durante generaciones.",
+    "frase": {
+      "texto": "La religión es sentido y gusto por lo infinito.",
+      "fuente": "Sobre la religión. Discursos a sus menospreciadores cultivados (1799), segundo discurso"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la religión. Discursos a sus menospreciadores cultivados",
+        "anio": "1799",
+        "deQueVa": "Explica a la gente culta que despreciaba la religión qué es en realidad."
+      },
+      {
+        "titulo": "La fe cristiana",
+        "anio": "1821 – 1822",
+        "deQueVa": "Su gran libro de teología: la fe como sentimiento de dependencia."
+      },
+      {
+        "titulo": "Hermenéutica",
+        "anio": "",
+        "deQueVa": "Apuntes de clase sobre cómo interpretar bien un texto, publicados tras su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "wilhelm-dilthey",
+      "hans-georg-gadamer",
+      "paul-ricur"
+    ]
+  },
+  {
+    "id": "arthur-schopenhauer",
+    "nombre": "Arthur Schopenhauer",
+    "fechas": "1788 – 1860",
+    "region": "Alemania",
+    "escuela": "Pesimismo (filosofía de la voluntad)",
+    "categorias": [
+      "metafisica",
+      "existencia",
+      "etica",
+      "estetica"
+    ],
+    "conocidoPor": "Decir que una [[voluntad|voluntad-schopenhauer]] ciega mueve el mundo y que la vida va del dolor al aburrimiento",
+    "resumen": "Schopenhauer fue el gran [[pesimista|pesimismo]] de la filosofía. Pensaba que detrás de todo lo que existe hay una fuerza ciega, la voluntad, que nos hace desear sin parar y nunca quedar satisfechos. Fue de los primeros filósofos europeos en leer con admiración textos de la India y del [[budismo]]. Sus ideas sobre el deseo, la música y la compasión marcaron a Nietzsche, a Freud y a muchos escritores.",
+    "ideas": [
+      "El mundo que vemos es solo nuestra [[representación|representacion]], como una película que monta nuestra cabeza; por debajo late una voluntad ciega que lo empuja todo.",
+      "Queremos algo, sufrimos hasta conseguirlo y, al tenerlo, nos aburrimos: la vida oscila como un péndulo entre el dolor y el aburrimiento.",
+      "El arte, sobre todo la música, y la compasión por los demás nos dan un respiro de ese deseo sin fin."
+    ],
+    "curiosidad": "En Berlín puso sus clases a la misma hora que las de Hegel, el profesor estrella. Casi no fue nadie a escucharle y pronto dejó de dar clase.",
+    "frase": {
+      "texto": "El mundo es mi representación.",
+      "fuente": "El mundo como voluntad y representación (1819), primera frase del libro primero"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la cuádruple raíz del principio de razón suficiente",
+        "anio": "1813",
+        "deQueVa": "Su tesis doctoral: por qué todo tiene una causa o una razón."
+      },
+      {
+        "titulo": "El mundo como voluntad y representación",
+        "anio": "1819",
+        "deQueVa": "Su gran obra: el mundo es apariencia y, detrás, una voluntad ciega."
+      },
+      {
+        "titulo": "Los dos problemas fundamentales de la ética",
+        "anio": "1841",
+        "deQueVa": "La libertad y la compasión como base de la moral."
+      },
+      {
+        "titulo": "Parerga y paralipómena",
+        "anio": "1851",
+        "deQueVa": "Ensayos y consejos sobre la vida que por fin le hicieron famoso."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The World as Will and Idea, vol. 1 (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/38427",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "friedrich-nietzsche",
+      "ludwig-wittgenstein",
+      "sigmund-freud"
+    ]
+  },
+  {
+    "id": "auguste-comte",
+    "nombre": "Auguste Comte",
+    "fechas": "1798 – 1857",
+    "region": "Francia",
+    "escuela": "Positivismo",
+    "categorias": [
+      "ciencia",
+      "sociedad",
+      "conocimiento"
+    ],
+    "conocidoPor": "Fundar el [[positivismo]] e inventar la palabra «[[sociología|sociologia]]»",
+    "resumen": "Comte fue un pensador francés convencido de que solo la ciencia nos da conocimiento seguro. Creó el [[positivismo]], la idea de que hay que fiarse de los hechos que se pueden observar y medir. Quiso estudiar la sociedad con el mismo rigor que la física, y para eso inventó la palabra «[[sociología|sociologia]]». Al final de su vida llegó a fundar una religión sin Dios, la Religión de la Humanidad.",
+    "ideas": [
+      "Las sociedades pasan por tres etapas: primero explican el mundo con dioses, luego con ideas abstractas y por último con ciencia.",
+      "Conocer cómo funcionan las cosas sirve para prever lo que va a pasar, como el hombre del tiempo que anuncia la lluvia.",
+      "La sociedad también se puede estudiar científicamente, buscando sus leyes igual que se buscan las de la física."
+    ],
+    "curiosidad": "El lema «Orden y progreso» de la bandera de Brasil viene de él: los [[positivistas|positivismo]] brasileños lo tomaron de su fórmula sobre el orden y el progreso.",
+    "frase": {
+      "texto": "Ciencia, de ahí previsión; previsión, de ahí acción.",
+      "fuente": "Curso de filosofía positiva (1830 – 1842), segunda lección"
+    },
+    "obras": [
+      {
+        "titulo": "Curso de filosofía positiva",
+        "anio": "1830 – 1842",
+        "deQueVa": "Seis tomos que ordenan todas las ciencias y presentan la ley de los tres estadios."
+      },
+      {
+        "titulo": "Discurso sobre el espíritu positivo",
+        "anio": "1844",
+        "deQueVa": "Resumen breve de su forma de pensar."
+      },
+      {
+        "titulo": "Sistema de política positiva",
+        "anio": "1851 – 1854",
+        "deQueVa": "Cómo organizar la sociedad según la ciencia, y su religión de la Humanidad."
+      },
+      {
+        "titulo": "Catecismo positivista",
+        "anio": "1852",
+        "deQueVa": "Su doctrina explicada en preguntas y respuestas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "A General View of Positivism (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/53799",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "john-stuart-mill"
+    ]
+  },
+  {
+    "id": "john-stuart-mill",
+    "nombre": "John Stuart Mill",
+    "fechas": "1806 – 1873",
+    "region": "Reino Unido",
+    "escuela": "Utilitarismo y liberalismo",
+    "categorias": [
+      "etica",
+      "politica",
+      "sociedad",
+      "logica"
+    ],
+    "conocidoPor": "Defender que cada uno puede hacer lo que quiera mientras no dañe a otros",
+    "resumen": "Mill fue un niño prodigio inglés que se convirtió en el gran defensor de la libertad individual. Pensaba que el Estado y la sociedad solo pueden frenarte si vas a hacer daño a otros, no por lo que hagas con tu propia vida. Mejoró el [[utilitarismo]] de Bentham y, como diputado, pidió el voto para las mujeres. Sus ideas siguen en el centro de los debates sobre libertad de expresión.",
+    "ideas": [
+      "[[Principio del daño|principio-del-dano]]: puedes vestirte, pensar o vivir como quieras; solo se te puede frenar si perjudicas a otros.",
+      "Hay que dejar hablar incluso a quien creemos equivocado: o tiene parte de razón, o al rebatirle entendemos mejor por qué pensamos lo que pensamos.",
+      "No todos los placeres valen igual: leer un buen libro o tener una amistad pesan más que darse un atracón."
+    ],
+    "curiosidad": "Según su autobiografía, su padre le enseñó griego a los tres años. A los 20 tuvo una fuerte depresión y dice que le ayudó a salir la poesía de Wordsworth.",
+    "frase": {
+      "texto": "Es mejor ser un ser humano insatisfecho que un cerdo satisfecho; mejor ser Sócrates insatisfecho que un necio satisfecho.",
+      "fuente": "El utilitarismo (1863), capítulo 2"
+    },
+    "obras": [
+      {
+        "titulo": "Sistema de lógica",
+        "anio": "1843",
+        "deQueVa": "Cómo razonamos y cómo descubre cosas la ciencia."
+      },
+      {
+        "titulo": "Sobre la libertad",
+        "anio": "1859",
+        "deQueVa": "Los límites del poder de la sociedad sobre cada persona."
+      },
+      {
+        "titulo": "Consideraciones sobre el gobierno representativo",
+        "anio": "1861",
+        "deQueVa": "Cómo debe funcionar una buena democracia."
+      },
+      {
+        "titulo": "El utilitarismo",
+        "anio": "1863",
+        "deQueVa": "Defensa de buscar la mayor felicidad para el mayor número."
+      },
+      {
+        "titulo": "El sometimiento de la mujer",
+        "anio": "1869",
+        "deQueVa": "Por qué las mujeres deben tener los mismos derechos que los hombres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "On Liberty (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/34901",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Utilitarianism (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/11224",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Subjection of Women (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/27083",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "bertrand-russell",
+      "isaiah-berlin"
+    ]
+  },
+  {
+    "id": "harriet-taylor-mill",
+    "nombre": "Harriet Taylor Mill",
+    "fechas": "1807 – 1858",
+    "region": "Reino Unido",
+    "escuela": "Feminismo liberal",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Exigir el voto y la igualdad para las mujeres, y pensar «Sobre la libertad» junto a John Stuart Mill",
+    "resumen": "Harriet Taylor Mill fue una pensadora inglesa que defendió que las mujeres debían poder votar, estudiar y trabajar igual que los hombres. Fue la gran compañera intelectual de John Stuart Mill: él mismo dijo que «Sobre la libertad» era obra de los dos. Durante mucho tiempo se la olvidó, pero hoy se la reconoce como una voz importante del primer [[feminismo]].",
+    "ideas": [
+      "Las mujeres deben tener los mismos derechos políticos que los hombres, empezando por el voto.",
+      "Que a las chicas se las eduque solo para casarse no es «natural», es una costumbre injusta que se puede cambiar.",
+      "La libertad de cada persona para vivir a su manera es la base de una sociedad sana."
+    ],
+    "curiosidad": "Ella y Mill fueron amigos íntimos unos veinte años mientras ella seguía casada con su primer marido. Se casaron en 1851, dos años después de que él muriera.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La emancipación de la mujer",
+        "anio": "1851",
+        "deQueVa": "Artículo que pide el voto y la igualdad de derechos para las mujeres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Enfranchisement of Women (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/73404",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "john-stuart-mill"
+    ]
+  },
+  {
+    "id": "sren-kierkegaard",
+    "nombre": "Søren Kierkegaard",
+    "fechas": "1813 – 1855",
+    "region": "Dinamarca",
+    "escuela": "Existencialismo (precursor)",
+    "categorias": [
+      "existencia",
+      "religion",
+      "etica"
+    ],
+    "conocidoPor": "Decir que la [[angustia]] es el vértigo de la libertad y que cada uno debe elegir quién ser",
+    "resumen": "Kierkegaard fue un danés que escribió muchos libros con nombres falsos para mostrar distintas formas de vivir. Le importaba poco la teoría abstracta: le importaba la persona concreta, que tiene que elegir y arriesgarse. Por eso se le considera el abuelo del [[existencialismo]]. También criticó con dureza a la Iglesia de su país por vivir una fe cómoda y sin compromiso.",
+    "ideas": [
+      "Hay tres formas de vivir: buscando solo el placer, cumpliendo con tus deberes o entregándote a la fe.",
+      "La angustia aparece cuando ves que puedes elegir cualquier cosa, como el mareo al asomarte a un precipicio.",
+      "Creer en Dios no se demuestra con argumentos: es un [[salto de fe|salto-de-fe]], una apuesta personal sin garantías."
+    ],
+    "curiosidad": "En 1841 rompió su compromiso con Regine Olsen, a la que quería, porque creía que no podría hacerla feliz. Ella aparece de forma velada en muchos de sus libros.",
+    "frase": {
+      "texto": "La vida solo puede ser comprendida mirando hacia atrás, pero ha de ser vivida mirando hacia delante.",
+      "fuente": "Diarios (1843)"
+    },
+    "obras": [
+      {
+        "titulo": "O lo uno o lo otro",
+        "anio": "1843",
+        "deQueVa": "Dos formas de vivir enfrentadas: la del placer y la del deber."
+      },
+      {
+        "titulo": "Temor y temblor",
+        "anio": "1843",
+        "deQueVa": "La historia de Abraham e Isaac y lo duro que es tener fe."
+      },
+      {
+        "titulo": "El concepto de la angustia",
+        "anio": "1844",
+        "deQueVa": "Qué es la angustia y qué tiene que ver con la libertad."
+      },
+      {
+        "titulo": "Post scriptum no científico y definitivo a Migajas filosóficas",
+        "anio": "1846",
+        "deQueVa": "La verdad que importa es la que vives, no la que recitas."
+      },
+      {
+        "titulo": "La enfermedad mortal",
+        "anio": "1849",
+        "deQueVa": "La desesperación como no querer ser uno mismo."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Selections from the Writings of Kierkegaard (antología en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/60333",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "martin-heidegger",
+      "karl-jaspers",
+      "jean-paul-sartre",
+      "miguel-de-unamuno"
+    ]
+  },
+  {
+    "id": "ludwig-feuerbach",
+    "nombre": "Ludwig Feuerbach",
+    "fechas": "1804 – 1872",
+    "region": "Alemania",
+    "escuela": "Materialismo (izquierda hegeliana)",
+    "categorias": [
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Decir que Dios es un espejo donde el ser humano proyecta lo mejor de sí mismo",
+    "resumen": "Feuerbach fue un discípulo rebelde de Hegel. Su idea más famosa es que no fue Dios quien creó al hombre, sino el hombre quien imaginó a Dios con sus mejores cualidades, como el amor o la bondad. Quería que esas cualidades volvieran a las personas en lugar de quedarse en el cielo. Su [[materialismo]] fue clave para el joven Marx.",
+    "ideas": [
+      "Dios es una [[proyección|proyeccion]] humana: ponemos en él lo mejor de nosotros (bondad, sabiduría, amor) y luego lo adoramos como si fuera de otro.",
+      "Al hacerlo nos empobrecemos: cuanto más le damos al cielo, menos valoramos lo que somos aquí en la Tierra.",
+      "La filosofía debe partir de personas de carne y hueso, con cuerpo y necesidades, no de ideas en el aire."
+    ],
+    "curiosidad": "Su libro «Pensamientos sobre la muerte y la inmortalidad», publicado sin firma, le cerró para siempre la carrera de profesor cuando se supo que era suyo.",
+    "frase": {
+      "texto": "El hombre es lo que come.",
+      "fuente": "Reseña de 1850 de un libro de Jacob Moleschott sobre la alimentación (en alemán es un juego de palabras: «ist» / «isst»)"
+    },
+    "obras": [
+      {
+        "titulo": "Pensamientos sobre la muerte y la inmortalidad",
+        "anio": "1830",
+        "deQueVa": "Niega que vivamos después de morir."
+      },
+      {
+        "titulo": "La esencia del cristianismo",
+        "anio": "1841",
+        "deQueVa": "La religión como espejo en el que el ser humano se mira."
+      },
+      {
+        "titulo": "Principios de la filosofía del futuro",
+        "anio": "1843",
+        "deQueVa": "Una filosofía que parte del ser humano real y sensible."
+      },
+      {
+        "titulo": "La esencia de la religión",
+        "anio": "1846",
+        "deQueVa": "Las raíces de la religión en el miedo y la dependencia de la naturaleza."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Essence of Christianity (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/47025",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "karl-marx",
+      "friedrich-engels"
+    ]
+  },
+  {
+    "id": "karl-marx",
+    "nombre": "Karl Marx",
+    "fechas": "1818 – 1883",
+    "region": "Alemania",
+    "escuela": "Marxismo",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "metafisica"
+    ],
+    "conocidoPor": "Explicar la historia como una lucha entre clases sociales y criticar a fondo el [[capitalismo]]",
+    "resumen": "Marx fue un filósofo, economista y periodista alemán que pasó gran parte de su vida exiliado en Londres. Estudió cómo funciona el [[capitalismo]] y concluyó que se basa en que unos pocos se quedan con parte del valor que crean los trabajadores. Pensaba que la filosofía no debía limitarse a explicar el mundo, sino cambiarlo. Sus ideas inspiraron revoluciones, partidos y sindicatos, y todavía hoy se discuten en economía y sociología.",
+    "ideas": [
+      "La historia es la historia de la [[lucha de clases|lucha-de-clases]]: amos contra esclavos, señores contra campesinos, empresarios contra obreros.",
+      "Cómo producimos y quién es dueño de las fábricas y la tierra moldea todo lo demás: las leyes, la política y hasta lo que pensamos.",
+      "En el [[capitalismo]] el obrero sufre [[alienación|alienacion]]: trabaja en algo que no decide y cuyo fruto no es suyo, como una pieza más de la máquina."
+    ],
+    "curiosidad": "Vivió años de pobreza en Londres y salió adelante gracias al dinero de su amigo Engels. Está enterrado en el cementerio de Highgate, en Londres.",
+    "frase": {
+      "texto": "Los filósofos no han hecho más que interpretar de diversos modos el mundo, pero de lo que se trata es de transformarlo.",
+      "fuente": "Tesis sobre Feuerbach (1845), tesis XI"
+    },
+    "obras": [
+      {
+        "titulo": "Manuscritos económicos y filosóficos de 1844",
+        "anio": "1844",
+        "deQueVa": "Cómo el trabajo bajo el capitalismo nos vuelve extraños a nosotros mismos."
+      },
+      {
+        "titulo": "La ideología alemana",
+        "anio": "1845 – 1846",
+        "deQueVa": "Escrita con Engels: las ideas nacen de la vida material."
+      },
+      {
+        "titulo": "Manifiesto del Partido Comunista",
+        "anio": "1848",
+        "deQueVa": "Con Engels: llamada a los trabajadores del mundo a unirse."
+      },
+      {
+        "titulo": "El capital, libro I",
+        "anio": "1867",
+        "deQueVa": "Cómo funciona el capitalismo y de dónde sale el beneficio."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Manifiesto del Partido Comunista, texto completo en español",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "antonio-gramsci",
+      "gyorgy-lukacs",
+      "walter-benjamin",
+      "louis-althusser",
+      "rosa-luxemburg"
+    ]
+  },
+  {
+    "id": "friedrich-engels",
+    "nombre": "Friedrich Engels",
+    "fechas": "1820 – 1895",
+    "region": "Alemania",
+    "escuela": "Marxismo",
+    "categorias": [
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir con Marx el «Manifiesto comunista» y denunciar la miseria de los obreros de su tiempo",
+    "resumen": "Engels era hijo de un rico fabricante textil alemán y trabajó años en la fábrica familiar de Mánchester. Allí vio de cerca cómo vivían los obreros y lo contó en un libro durísimo. Fue el gran amigo y colaborador de Marx: escribieron juntos, le ayudó con dinero y, tras su muerte, terminó de publicar «El capital». También escribió sobre la familia y la propiedad, temas que luego retomaría el [[feminismo]].",
+    "ideas": [
+      "La [[Revolución Industrial|revolucion-industrial]] hizo ricos a unos pocos mientras los obreros vivían hacinados, enfermos y con jornadas agotadoras.",
+      "El [[socialismo]] no debe ser un sueño bonito, sino un proyecto basado en estudiar cómo funciona de verdad la economía.",
+      "La familia, la propiedad y el Estado no han existido siempre igual: han cambiado con la historia y pueden volver a cambiar."
+    ],
+    "curiosidad": "Mantuvo económicamente a Marx durante años con su sueldo de la fábrica, y tras su muerte preparó y publicó los tomos segundo y tercero de «El capital».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La situación de la clase obrera en Inglaterra",
+        "anio": "1845",
+        "deQueVa": "Retrato de la vida miserable de los obreros de Mánchester."
+      },
+      {
+        "titulo": "Manifiesto del Partido Comunista",
+        "anio": "1848",
+        "deQueVa": "Escrito con Marx: el programa de la revolución obrera."
+      },
+      {
+        "titulo": "Del socialismo utópico al socialismo científico",
+        "anio": "1880",
+        "deQueVa": "Explicación sencilla de las ideas marxistas."
+      },
+      {
+        "titulo": "El origen de la familia, la propiedad privada y el Estado",
+        "anio": "1884",
+        "deQueVa": "Cómo nacieron estas instituciones a lo largo de la historia."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Del socialismo utópico al socialismo científico, texto completo en español",
+        "url": "https://www.marxists.org/espanol/m-e/1880s/dsusc/index.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "karl-marx",
+      "rosa-luxemburg"
+    ]
+  },
+  {
+    "id": "alexis-de-tocqueville",
+    "nombre": "Alexis de Tocqueville",
+    "fechas": "1805 – 1859",
+    "region": "Francia",
+    "escuela": "Liberalismo",
+    "categorias": [
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Viajar a Estados Unidos y avisar de que la democracia puede caer en la [[tiranía de la mayoría|tirania-de-la-mayoria]]",
+    "resumen": "Tocqueville fue un aristócrata francés que viajó a Estados Unidos para ver de cerca una democracia joven. De ese viaje salió un libro que todavía se lee para entender cómo funcionan las democracias. Admiraba la igualdad y las asociaciones de vecinos estadounidenses, pero avisó de sus peligros: que la mayoría aplaste a quien piensa distinto o que la gente se encierre en su vida privada y deje la política en manos de un Estado cada vez más grande.",
+    "ideas": [
+      "La democracia trae igualdad, pero también un riesgo: que la opinión de la mayoría haga callar a los que piensan diferente.",
+      "Las asociaciones (clubes, vecinos, iglesias, grupos de ayuda) son una escuela de democracia: enseñan a la gente a organizarse sin esperar a que el Estado lo haga todo.",
+      "Si cada uno solo se ocupa de su familia y su dinero, puede aparecer un poder suave pero enorme que lo decida todo por nosotros."
+    ],
+    "curiosidad": "El viaje a Estados Unidos de 1831 lo hizo con su amigo Gustave de Beaumont con una excusa oficial: estudiar las cárceles estadounidenses.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La democracia en América",
+        "anio": "1835 y 1840",
+        "deQueVa": "Cómo funciona la democracia estadounidense y qué peligros tiene."
+      },
+      {
+        "titulo": "El Antiguo Régimen y la Revolución",
+        "anio": "1856",
+        "deQueVa": "Por qué estalló la Revolución francesa y qué cambió de verdad."
+      },
+      {
+        "titulo": "Recuerdos de la revolución de 1848",
+        "anio": "",
+        "deQueVa": "Sus memorias de la revolución de 1848, publicadas tras su muerte."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Democracy in America, vol. 1 (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/815",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "john-stuart-mill"
+    ]
+  },
+  {
+    "id": "ralph-waldo-emerson",
+    "nombre": "Ralph Waldo Emerson",
+    "fechas": "1803 – 1882",
+    "region": "Estados Unidos",
+    "escuela": "Trascendentalismo",
+    "categorias": [
+      "existencia",
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Animar a cada persona a confiar en sí misma y a buscar lo sagrado en la naturaleza",
+    "resumen": "Emerson fue un ensayista y conferenciante estadounidense, líder del [[trascendentalismo]]. Dejó su puesto de pastor y defendió que cada persona lleva dentro una chispa de lo divino, que se descubre mirando la naturaleza y escuchando la propia voz. Su mensaje de confiar en uno mismo y no copiar a los demás marcó la cultura de Estados Unidos y gustó mucho a Nietzsche.",
+    "ideas": [
+      "Confía en ti mismo: piensa con tu propia cabeza aunque la gente opine lo contrario.",
+      "En la naturaleza, en un bosque o mirando las estrellas, podemos sentir que formamos parte de algo más grande.",
+      "No hace falta seguir la tradición al pie de la letra: cada época debe escribir sus propios libros y tener su propia fe."
+    ],
+    "curiosidad": "Thoreau construyó su famosa cabaña junto al lago Walden en un terreno que era propiedad de Emerson. También fue padrino del filósofo William James.",
+    "frase": {
+      "texto": "Una coherencia necia es el duende de las mentes pequeñas.",
+      "fuente": "«Confianza en uno mismo», en Ensayos (1841)"
+    },
+    "obras": [
+      {
+        "titulo": "Naturaleza",
+        "anio": "1836",
+        "deQueVa": "La naturaleza como lugar donde sentimos lo divino."
+      },
+      {
+        "titulo": "El escolar americano",
+        "anio": "1837",
+        "deQueVa": "Discurso que pide a Estados Unidos pensar por su cuenta y no copiar a Europa."
+      },
+      {
+        "titulo": "Ensayos (primera serie)",
+        "anio": "1841",
+        "deQueVa": "Incluye «Confianza en uno mismo», su texto más famoso."
+      },
+      {
+        "titulo": "Hombres representativos",
+        "anio": "1850",
+        "deQueVa": "Retratos de grandes figuras como Platón, Montaigne o Shakespeare."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Essays, First Series, con «Self-Reliance» (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/2944",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Nature (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/29433",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "henry-david-thoreau",
+      "friedrich-nietzsche",
+      "william-james"
+    ]
+  },
+  {
+    "id": "henry-david-thoreau",
+    "nombre": "Henry David Thoreau",
+    "fechas": "1817 – 1862",
+    "region": "Estados Unidos",
+    "escuela": "Trascendentalismo",
+    "categorias": [
+      "etica",
+      "politica",
+      "existencia"
+    ],
+    "conocidoPor": "Vivir dos años en una cabaña del bosque y defender la [[desobediencia civil|desobediencia-civil]] ante leyes injustas",
+    "resumen": "Thoreau fue un escritor estadounidense amigo de Emerson. Se fue a vivir solo a una cabaña junto al lago Walden para comprobar cuánto necesita de verdad una persona para vivir bien, y lo contó en un libro famosísimo. También se negó a pagar un impuesto para no apoyar la esclavitud ni una guerra que veía injusta. Su idea de desobedecer pacíficamente inspiró a Gandhi y a Martin Luther King.",
+    "ideas": [
+      "Necesitamos mucho menos de lo que creemos: la mayoría vive agobiada trabajando para comprar cosas que no le hacen falta.",
+      "Si una ley es injusta, una persona honrada puede negarse a cumplirla y aceptar el castigo, sin usar la violencia.",
+      "La naturaleza enseña a vivir despacio y con atención, fijándose en lo sencillo."
+    ],
+    "curiosidad": "En 1846 pasó una noche en la cárcel por no pagar un impuesto en protesta contra la esclavitud. Salió al día siguiente porque alguien, probablemente una tía suya, lo pagó sin su permiso.",
+    "frase": {
+      "texto": "Fui a los bosques porque quería vivir deliberadamente, enfrentarme solo a los hechos esenciales de la vida.",
+      "fuente": "Walden (1854), capítulo «Dónde viví y para qué viví»"
+    },
+    "obras": [
+      {
+        "titulo": "Desobediencia civil",
+        "anio": "1849",
+        "deQueVa": "Por qué hay que negarse a obedecer leyes injustas."
+      },
+      {
+        "titulo": "Una semana en los ríos Concord y Merrimack",
+        "anio": "1849",
+        "deQueVa": "Un viaje en barca con su hermano, lleno de reflexiones."
+      },
+      {
+        "titulo": "Walden o la vida en los bosques",
+        "anio": "1854",
+        "deQueVa": "Sus dos años viviendo con sencillez junto a un lago."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Walden, and On the Duty of Civil Disobedience (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/205",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "mahatma-gandhi"
+    ]
+  },
+  {
+    "id": "herbert-spencer",
+    "nombre": "Herbert Spencer",
+    "fechas": "1820 – 1903",
+    "region": "Reino Unido",
+    "escuela": "Evolucionismo",
+    "categorias": [
+      "ciencia",
+      "sociedad",
+      "politica"
+    ],
+    "conocidoPor": "Acuñar la expresión «la supervivencia del más apto» y aplicar la [[evolución|evolucion]] a la sociedad",
+    "resumen": "Spencer fue un pensador inglés muy famoso en su época que quiso explicarlo todo, desde las estrellas hasta las sociedades, con la idea de [[evolución|evolucion]]. Pensaba que las sociedades crecen y se vuelven más complejas como los seres vivos. Defendía un Estado mínimo que no ayudara a los pobres, una postura que hoy se critica mucho y que se asocia al llamado [[darwinismo social|darwinismo-social]].",
+    "ideas": [
+      "Todo evoluciona de lo simple a lo complejo: una célula se convierte en un animal y una aldea en una gran ciudad.",
+      "La sociedad funciona como un organismo vivo, donde cada parte (fábricas, escuelas, gobierno) cumple su función.",
+      "El Estado debe intervenir lo menos posible; esta idea se usó para justificar que los débiles quedaran desamparados, algo muy discutido."
+    ],
+    "curiosidad": "Inventó la expresión «la supervivencia del más apto» tras leer a Darwin, y el propio Darwin la incorporó después a su obra «El origen de las especies».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Estática social",
+        "anio": "1851",
+        "deQueVa": "La libertad individual y los límites del Estado."
+      },
+      {
+        "titulo": "Primeros principios",
+        "anio": "1862",
+        "deQueVa": "La evolución como ley que lo explica todo."
+      },
+      {
+        "titulo": "Principios de biología",
+        "anio": "1864 – 1867",
+        "deQueVa": "Donde aparece «la supervivencia del más apto»."
+      },
+      {
+        "titulo": "El hombre contra el Estado",
+        "anio": "1884",
+        "deQueVa": "Defensa de un Estado mínimo frente a las reformas sociales."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Essays on Education and Kindred Subjects (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/16510",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "charles-sanders-peirce",
+    "nombre": "Charles Sanders Peirce",
+    "fechas": "1839 – 1914",
+    "region": "Estados Unidos",
+    "escuela": "Pragmatismo",
+    "categorias": [
+      "logica",
+      "conocimiento",
+      "lenguaje",
+      "ciencia"
+    ],
+    "conocidoPor": "Fundar el [[pragmatismo]]: el significado de una idea está en los efectos prácticos que tendría",
+    "resumen": "Peirce fue un científico, lógico y filósofo estadounidense, un genio poco reconocido en vida que murió pobre. Fundó el [[pragmatismo]], la idea de que para aclarar qué significa algo hay que preguntarse qué diferencia práctica supondría. También creó una teoría de los signos, la [[semiótica|semiotica]], y estudió cómo se nos ocurren buenas hipótesis. Hoy se le considera uno de los pensadores más originales de Estados Unidos.",
+    "ideas": [
+      "Para saber qué significa «duro», piensa en sus efectos: un diamante duro no se raya con casi nada.",
+      "Todo puede ser un signo: una foto se parece a lo que muestra, el humo indica que hay fuego y una palabra lo representa por costumbre.",
+      "La ciencia nunca tiene la última palabra: cualquier creencia puede corregirse, y eso no es un fallo, es lo que la hace avanzar."
+    ],
+    "curiosidad": "Cuando otros popularizaron la palabra «pragmatismo» a su manera, la cambió por «pragmaticismo», un nombre, dijo, lo bastante feo como para que nadie se lo robara.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La fijación de la creencia",
+        "anio": "1877",
+        "deQueVa": "Las distintas maneras en que la gente decide qué creer."
+      },
+      {
+        "titulo": "Cómo esclarecer nuestras ideas",
+        "anio": "1878",
+        "deQueVa": "El artículo donde nace el pragmatismo."
+      },
+      {
+        "titulo": "Investigaciones fotométricas",
+        "anio": "1878",
+        "deQueVa": "Su único libro publicado en vida: mediciones del brillo de las estrellas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«How to Make Our Ideas Clear» (1878), texto original en inglés",
+        "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_12/January_1878/Illustrations_of_the_Logic_of_Science_II",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "william-james",
+      "john-dewey"
+    ]
+  },
+  {
+    "id": "william-james",
+    "nombre": "William James",
+    "fechas": "1842 – 1910",
+    "region": "Estados Unidos",
+    "escuela": "Pragmatismo",
+    "categorias": [
+      "mente",
+      "conocimiento",
+      "religion"
+    ],
+    "conocidoPor": "Popularizar el [[pragmatismo]] y describir la mente como una [[corriente de conciencia|corriente-de-conciencia]]",
+    "resumen": "William James fue médico, psicólogo y filósofo, y uno de los fundadores de la psicología moderna en Estados Unidos. Hizo famoso el [[pragmatismo]]: una idea es verdadera si funciona y nos ayuda a vivir. Estudió las experiencias religiosas con curiosidad y respeto, sin despreciarlas ni darlas por buenas sin más. Escribía de forma clara y divertida, cosa rara entre filósofos.",
+    "ideas": [
+      "Nuestros pensamientos no van en trozos sueltos, sino como un río que no para de fluir.",
+      "Para saber si una idea es verdadera, pregúntate qué cambia en la vida real si la crees: la verdad se nota en sus resultados.",
+      "En algunas decisiones importantes no tenemos pruebas definitivas y aun así tenemos derecho a creer y arriesgarnos."
+    ],
+    "curiosidad": "Era hermano mayor del novelista Henry James, autor de «Otra vuelta de tuerca». Y su padrino fue el escritor Ralph Waldo Emerson, amigo de la familia.",
+    "frase": {
+      "texto": "Lo verdadero es solo lo conveniente en nuestro modo de pensar, así como lo correcto es solo lo conveniente en nuestro modo de comportarnos.",
+      "fuente": "Pragmatismo (1907), lección VI"
+    },
+    "obras": [
+      {
+        "titulo": "Principios de psicología",
+        "anio": "1890",
+        "deQueVa": "Gran manual que ayudó a fundar la psicología como ciencia."
+      },
+      {
+        "titulo": "La voluntad de creer",
+        "anio": "1897",
+        "deQueVa": "Cuándo es razonable creer sin tener pruebas completas."
+      },
+      {
+        "titulo": "Las variedades de la experiencia religiosa",
+        "anio": "1902",
+        "deQueVa": "Qué sienten las personas religiosas y qué efectos tiene en su vida."
+      },
+      {
+        "titulo": "Pragmatismo",
+        "anio": "1907",
+        "deQueVa": "Conferencias que explican el pragmatismo al gran público."
+      },
+      {
+        "titulo": "Ensayos sobre empirismo radical",
+        "anio": "1912",
+        "deQueVa": "Todo lo que conocemos sale de la experiencia, también las relaciones entre cosas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Pragmatism (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/5116",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Varieties of Religious Experience (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/621",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "john-dewey",
+      "edmund-husserl",
+      "ludwig-wittgenstein"
+    ]
+  },
+  {
+    "id": "friedrich-nietzsche",
+    "nombre": "Friedrich Nietzsche",
+    "fechas": "1844 – 1900",
+    "region": "Alemania",
+    "escuela": "Vitalismo",
+    "categorias": [
+      "etica",
+      "existencia",
+      "religion",
+      "estetica"
+    ],
+    "conocidoPor": "Anunciar que «Dios ha muerto» y pedir que creemos nuestros propios valores",
+    "resumen": "Nietzsche fue un filósofo alemán que lo cuestionó todo: la religión, la moral y la propia filosofía. Pensaba que la sociedad europea había dejado de creer de verdad en Dios y que eso nos dejaba ante el [[nihilismo]], la sensación de que nada tiene valor. Su respuesta fue animarnos a crear nuestros propios valores y a decir «sí» a la vida. Escribía con frases cortas y explosivas, y sus ideas han influido en la filosofía, el arte y la psicología del siglo XX.",
+    "ideas": [
+      "«Dios ha muerto»: la gente ya no organiza su vida de verdad alrededor de Dios, y hay que pensar qué viene después.",
+      "Mucha moral nace del [[resentimiento]] de los débiles contra los fuertes: llaman «bueno» a ser humilde porque no pueden ser poderosos.",
+      "El [[superhombre]] es quien crea sus propios valores y vive de tal forma que querría repetir su vida una y otra vez: el [[eterno retorno|eterno-retorno]]."
+    ],
+    "curiosidad": "Con solo 24 años fue nombrado catedrático en la Universidad de Basilea, antes incluso de terminar el doctorado.",
+    "frase": {
+      "texto": "¡Dios ha muerto! ¡Dios sigue muerto! ¡Y nosotros lo hemos matado!",
+      "fuente": "La gaya ciencia (1882), aforismo 125"
+    },
+    "obras": [
+      {
+        "titulo": "El nacimiento de la tragedia",
+        "anio": "1872",
+        "deQueVa": "El arte griego como mezcla de orden y de pasión desatada."
+      },
+      {
+        "titulo": "La gaya ciencia",
+        "anio": "1882",
+        "deQueVa": "Donde anuncia que Dios ha muerto."
+      },
+      {
+        "titulo": "Así habló Zaratustra",
+        "anio": "1883 – 1885",
+        "deQueVa": "Un profeta inventado enseña el superhombre y el eterno retorno."
+      },
+      {
+        "titulo": "Más allá del bien y del mal",
+        "anio": "1886",
+        "deQueVa": "Crítica de la moral y de los filósofos anteriores."
+      },
+      {
+        "titulo": "La genealogía de la moral",
+        "anio": "1887",
+        "deQueVa": "De dónde vienen nuestras ideas del bien y del mal."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Thus Spake Zarathustra (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/1998",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Birth of Tragedy (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/51356",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "martin-heidegger",
+      "michel-foucault",
+      "gilles-deleuze",
+      "albert-camus",
+      "jacques-derrida"
+    ]
+  },
+  {
+    "id": "gottlob-frege",
+    "nombre": "Gottlob Frege",
+    "fechas": "1848 – 1925",
+    "region": "Alemania",
+    "escuela": "Filosofía analítica (fundador)",
+    "categorias": [
+      "logica",
+      "lenguaje"
+    ],
+    "conocidoPor": "Crear la lógica moderna y distinguir entre el [[sentido|sentido-frege]] y la [[referencia|referencia-frege]] de las palabras",
+    "resumen": "Frege fue un matemático alemán que inventó la [[lógica|logica]] moderna, la que hoy usan los ordenadores y los lingüistas. Quería demostrar que las matemáticas se pueden construir a partir de la lógica pura. También estudió cómo funcionan las palabras y es uno de los padres de la [[filosofía analítica|filosofia-analitica]]. Fue casi desconocido en vida, pero hoy es una figura clave.",
+    "ideas": [
+      "«Lucero del alba» y «lucero de la tarde» nombran lo mismo, el planeta Venus, pero dicen cosas distintas: tienen la misma [[referencia|referencia-frege]] y distinto [[sentido|sentido-frege]].",
+      "Las matemáticas pueden basarse en la lógica, como un edificio sobre unos cimientos firmes.",
+      "Inventó un lenguaje de símbolos para razonar sin ambigüedades, antepasado de los lenguajes de programación."
+    ],
+    "curiosidad": "En 1902, cuando el segundo tomo de su gran obra estaba en la imprenta, Bertrand Russell le escribió señalando una [[paradoja]] que hacía tambalear su sistema. Frege añadió un apéndice reconociendo el problema.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Conceptografía",
+        "anio": "1879",
+        "deQueVa": "Un lenguaje de símbolos para la lógica: el nacimiento de la lógica moderna."
+      },
+      {
+        "titulo": "Los fundamentos de la aritmética",
+        "anio": "1884",
+        "deQueVa": "Qué son los números, explicado desde la lógica."
+      },
+      {
+        "titulo": "Sobre sentido y referencia",
+        "anio": "1892",
+        "deQueVa": "Por qué dos nombres de la misma cosa no significan lo mismo."
+      },
+      {
+        "titulo": "Las leyes fundamentales de la aritmética",
+        "anio": "1893 y 1903",
+        "deQueVa": "Su intento de construir las matemáticas solo con lógica."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«On Sense and Reference» (traducción inglesa en Wikisource)",
+        "url": "https://en.wikisource.org/wiki/On_Sense_and_Reference",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "bertrand-russell",
+      "ludwig-wittgenstein",
+      "rudolf-carnap"
+    ]
+  },
+  {
+    "id": "wilhelm-dilthey",
+    "nombre": "Wilhelm Dilthey",
+    "fechas": "1833 – 1911",
+    "region": "Alemania",
+    "escuela": "Hermenéutica e historicismo",
+    "categorias": [
+      "conocimiento",
+      "sociedad",
+      "ciencia"
+    ],
+    "conocidoPor": "Separar las ciencias que explican la naturaleza de las que comprenden la vida humana",
+    "resumen": "Dilthey fue un filósofo alemán que se preguntó cómo podemos conocer la historia, el arte o la cultura. Pensaba que estudiar a las personas no es como estudiar piedras: a las personas hay que comprenderlas desde dentro, poniéndose en su lugar. Por eso separó las ciencias naturales de las [[ciencias del espíritu|ciencias-del-espiritu]], que hoy llamaríamos humanidades. Sus ideas fueron clave para la [[hermenéutica|hermeneutica]] del siglo XX.",
+    "ideas": [
+      "Un terremoto se explica con causas; una carta de amor hay que comprenderla, entendiendo lo que sentía quien la escribió.",
+      "Cada persona y cada época ven el mundo desde su propia vida y su propia historia.",
+      "Las [[vivencias|vivencia]], lo que sentimos y vivimos por dentro, son la base para entender a los demás."
+    ],
+    "curiosidad": null,
+    "frase": {
+      "texto": "La naturaleza la explicamos; la vida anímica la comprendemos.",
+      "fuente": "Ideas acerca de una psicología descriptiva y analítica (1894)"
+    },
+    "obras": [
+      {
+        "titulo": "Vida de Schleiermacher",
+        "anio": "1870",
+        "deQueVa": "Biografía del gran teólogo y pensador de la interpretación."
+      },
+      {
+        "titulo": "Introducción a las ciencias del espíritu",
+        "anio": "1883",
+        "deQueVa": "Qué hace especiales a las ciencias que estudian al ser humano."
+      },
+      {
+        "titulo": "Vivencia y poesía",
+        "anio": "1906",
+        "deQueVa": "Ensayos sobre Goethe, Lessing y otros poetas."
+      },
+      {
+        "titulo": "La construcción del mundo histórico en las ciencias del espíritu",
+        "anio": "1910",
+        "deQueVa": "Cómo comprendemos la historia."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "martin-heidegger",
+      "hans-georg-gadamer",
+      "jose-ortega-y-gasset"
+    ]
+  },
+  {
+    "id": "edmund-husserl",
+    "nombre": "Edmund Husserl",
+    "fechas": "1859 – 1938",
+    "region": "Alemania",
+    "escuela": "Fenomenología (fundador)",
+    "categorias": [
+      "conocimiento",
+      "mente",
+      "metafisica"
+    ],
+    "conocidoPor": "Fundar la [[fenomenología|fenomenologia]] con un lema: «¡volver a las cosas mismas!»",
+    "resumen": "Husserl fue un matemático convertido en filósofo que fundó la [[fenomenología|fenomenologia]]. Su propuesta era describir con mucho cuidado cómo se nos aparecen las cosas en la experiencia, antes de dar por sentadas teorías sobre ellas. Tuvo alumnos que se hicieron famosos, como Heidegger y Edith Stein, y su método cambió la filosofía del siglo XX. Por ser de origen judío, los nazis le prohibieron enseñar en sus últimos años.",
+    "ideas": [
+      "Hay que volver a las cosas tal como las vivimos, sin prejuicios, como si describieras una taza por primera vez.",
+      "La conciencia siempre es conciencia de algo: no se ve en general, siempre se ve algo; no se teme en general, siempre se teme algo. Lo llamó [[intencionalidad]].",
+      "Para mirar bien hay que «poner entre paréntesis» lo que creemos saber; a ese gesto lo llamó [[epojé|epoje]]."
+    ],
+    "curiosidad": "Tras su muerte, un fraile belga, Herman Van Breda, sacó a escondidas de la Alemania nazi unas 40.000 páginas de sus manuscritos y las llevó a Lovaina, donde aún se conservan.",
+    "frase": {
+      "texto": "Queremos volver a las cosas mismas.",
+      "fuente": "Investigaciones lógicas, tomo II (1901), introducción"
+    },
+    "obras": [
+      {
+        "titulo": "Investigaciones lógicas",
+        "anio": "1900 – 1901",
+        "deQueVa": "La obra que inaugura la fenomenología."
+      },
+      {
+        "titulo": "Ideas relativas a una fenomenología pura",
+        "anio": "1913",
+        "deQueVa": "Explica su método para describir la experiencia."
+      },
+      {
+        "titulo": "Meditaciones cartesianas",
+        "anio": "1931",
+        "deQueVa": "Conferencias que retoman a Descartes desde la fenomenología."
+      },
+      {
+        "titulo": "La crisis de las ciencias europeas",
+        "anio": "1936",
+        "deQueVa": "La ciencia ha olvidado el mundo de la vida cotidiana del que nace."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "martin-heidegger",
+      "edith-stein",
+      "maurice-merleau-ponty",
+      "jean-paul-sartre",
+      "emmanuel-levinas"
+    ]
+  },
+  {
+    "id": "henri-bergson",
+    "nombre": "Henri Bergson",
+    "fechas": "1859 – 1941",
+    "region": "Francia",
+    "escuela": "Vitalismo (filosofía de la vida)",
+    "categorias": [
+      "metafisica",
+      "mente",
+      "existencia"
+    ],
+    "conocidoPor": "Distinguir el tiempo del reloj del tiempo vivido, la [[duración|duracion]], y hablar de un [[impulso vital|impulso-vital]]",
+    "resumen": "Bergson fue el filósofo más famoso de Francia a principios del siglo XX. Decía que el tiempo de los relojes, cortado en minutos iguales, no es el tiempo que vivimos por dentro, que se estira y se encoge. Pensaba que la vida es pura creatividad, un impulso que inventa formas nuevas sin parar. También escribió un libro muy citado sobre por qué nos reímos.",
+    "ideas": [
+      "Una hora en el dentista y una hora con amigos duran lo mismo en el reloj, pero no en tu vida: ese tiempo vivido es la [[duración|duracion]].",
+      "La evolución de la vida no es una máquina que sigue un plan, sino un [[impulso vital|impulso-vital]] que crea novedades.",
+      "Nos reímos cuando una persona se comporta como una máquina, por ejemplo cuando alguien tropieza y cae de forma torpe y rígida."
+    ],
+    "curiosidad": "Recibió el Premio Nobel de Literatura en 1927, algo rarísimo para un filósofo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre los datos inmediatos de la conciencia",
+        "anio": "1889",
+        "deQueVa": "El tiempo vivido frente al tiempo de los relojes, y la libertad."
+      },
+      {
+        "titulo": "Materia y memoria",
+        "anio": "1896",
+        "deQueVa": "Cómo se relacionan el cuerpo, el cerebro y los recuerdos."
+      },
+      {
+        "titulo": "La risa",
+        "anio": "1900",
+        "deQueVa": "Por qué algo nos hace gracia."
+      },
+      {
+        "titulo": "La evolución creadora",
+        "anio": "1907",
+        "deQueVa": "La vida como impulso creador que inventa nuevas formas."
+      },
+      {
+        "titulo": "Las dos fuentes de la moral y de la religión",
+        "anio": "1932",
+        "deQueVa": "Moral cerrada del grupo frente a moral abierta a toda la humanidad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Creative Evolution (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/26163",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Laughter: An Essay on the Meaning of the Comic (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/4352",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "gilles-deleuze",
+      "maurice-merleau-ponty"
+    ]
+  },
+  {
+    "id": "john-dewey",
+    "nombre": "John Dewey",
+    "fechas": "1859 – 1952",
+    "region": "Estados Unidos",
+    "escuela": "Pragmatismo",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "conocimiento",
+      "estetica"
+    ],
+    "conocidoPor": "Revolucionar la escuela con la idea de aprender haciendo y unir educación y democracia",
+    "resumen": "Dewey fue un filósofo y pedagogo estadounidense, una de las grandes voces del [[pragmatismo]]. Pensaba que las ideas son herramientas para resolver problemas reales, no verdades para memorizar. Por eso defendió una escuela donde los niños aprendan experimentando, trabajando juntos y haciendo preguntas. Para él, la democracia no es solo votar, sino una forma de convivir y de resolver juntos los problemas.",
+    "ideas": [
+      "Se aprende haciendo: un niño entiende mejor las plantas cuidando un huerto que copiando definiciones.",
+      "Las ideas son como herramientas: valen si sirven para resolver un problema, y si no, se cambian.",
+      "La escuela debe ser una pequeña democracia donde se practique el diálogo y la cooperación."
+    ],
+    "curiosidad": "Con 77 años presidió en México una comisión que investigó las acusaciones de Stalin contra Trotski, y concluyó que el juicio de Moscú había sido un montaje.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La escuela y la sociedad",
+        "anio": "1899",
+        "deQueVa": "Cómo debe cambiar la escuela en un mundo nuevo."
+      },
+      {
+        "titulo": "Democracia y educación",
+        "anio": "1916",
+        "deQueVa": "Su gran libro: educar para vivir en democracia."
+      },
+      {
+        "titulo": "La opinión pública y sus problemas",
+        "anio": "1927",
+        "deQueVa": "Cómo puede la gente participar de verdad en la política."
+      },
+      {
+        "titulo": "El arte como experiencia",
+        "anio": "1934",
+        "deQueVa": "El arte nace de la experiencia de cada día, no solo en los museos."
+      },
+      {
+        "titulo": "Experiencia y educación",
+        "anio": "1938",
+        "deQueVa": "Qué tipo de experiencias hacen que alguien aprenda de verdad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Democracy and Education (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/852",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "richard-rorty"
+    ]
+  },
+  {
+    "id": "miguel-de-unamuno",
+    "nombre": "Miguel de Unamuno",
+    "fechas": "1864 – 1936",
+    "region": "España",
+    "escuela": "Existencialismo (precursor), Generación del 98",
+    "categorias": [
+      "existencia",
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Su lucha entre la razón y el deseo de no morir: el [[sentimiento trágico de la vida|sentimiento-tragico]]",
+    "resumen": "Unamuno fue un escritor y filósofo vasco, rector de la Universidad de Salamanca. Le obsesionaba una pregunta: ¿qué pasa con nosotros al morir? La razón le decía que quizá nada, pero su corazón deseaba vivir para siempre, y esa lucha la llamó «sentimiento trágico de la vida». Escribió novelas, poemas y ensayos, y se le considera un precursor del [[existencialismo]].",
+    "ideas": [
+      "Lo que importa es el ser humano de carne y hueso, el que nace, sufre y muere, no la humanidad en abstracto.",
+      "La razón y la fe se pelean: la cabeza duda de que haya vida después de la muerte y el corazón la desea con todas sus fuerzas.",
+      "Dudar no es malo: una fe que no duda nunca es una fe dormida."
+    ],
+    "curiosidad": "En su novela «Niebla», el protagonista, Augusto Pérez, va a visitar al propio Unamuno para discutir con él sobre su destino como personaje.",
+    "frase": {
+      "texto": "¡Que inventen ellos!",
+      "fuente": "«El pórtico del templo» (1906), diálogo entre dos personajes"
+    },
+    "obras": [
+      {
+        "titulo": "En torno al casticismo",
+        "anio": "1895",
+        "deQueVa": "Ensayos sobre qué es España y cómo debería abrirse a Europa."
+      },
+      {
+        "titulo": "Vida de don Quijote y Sancho",
+        "anio": "1905",
+        "deQueVa": "Don Quijote como modelo de vida apasionada."
+      },
+      {
+        "titulo": "Del sentimiento trágico de la vida",
+        "anio": "1913",
+        "deQueVa": "La lucha entre la razón y el deseo de inmortalidad."
+      },
+      {
+        "titulo": "Niebla",
+        "anio": "1914",
+        "deQueVa": "Novela en la que el personaje se rebela contra su autor."
+      },
+      {
+        "titulo": "San Manuel Bueno, mártir",
+        "anio": "1931",
+        "deQueVa": "Un cura que ha perdido la fe pero sigue ayudando a su pueblo."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Del sentimiento trágico de la vida, texto completo en español",
+        "url": "https://www.gutenberg.org/ebooks/59852",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Niebla, texto completo en español",
+        "url": "https://www.gutenberg.org/ebooks/49836",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "george-santayana",
+    "nombre": "George Santayana",
+    "fechas": "1863 – 1952",
+    "region": "España y Estados Unidos",
+    "escuela": "Naturalismo",
+    "categorias": [
+      "estetica",
+      "metafisica",
+      "existencia"
+    ],
+    "conocidoPor": "Advertir que quien no recuerda el pasado está condenado a repetirlo",
+    "resumen": "Santayana nació en Madrid, se crió en Boston y escribió toda su obra en inglés, aunque nunca dejó de ser ciudadano español. Fue profesor en Harvard y luego vivió como un viajero independiente por Europa. Pensaba que todo nace de la naturaleza y la materia, pero valoraba mucho la belleza, la imaginación y la religión como poesía. Escribía con una prosa muy elegante y también fue novelista y poeta.",
+    "ideas": [
+      "La belleza es un placer que sentimos como si estuviera en las cosas, como cuando decimos que un atardecer «es» bonito.",
+      "No podemos demostrar del todo que el mundo existe, pero vivimos con una [[fe animal|fe-animal]] en él, como cuando damos por hecho que el suelo nos sostendrá.",
+      "Las religiones pueden verse como grandes poemas que expresan nuestros ideales, aunque no sean literalmente verdad."
+    ],
+    "curiosidad": "Pasó sus últimos años en Roma, alojado en una residencia de monjas, y está enterrado en el panteón español del cementerio de Campo Verano, en Roma.",
+    "frase": {
+      "texto": "Quienes no pueden recordar el pasado están condenados a repetirlo.",
+      "fuente": "La vida de la razón, tomo I: La razón en el sentido común (1905)"
+    },
+    "obras": [
+      {
+        "titulo": "El sentido de la belleza",
+        "anio": "1896",
+        "deQueVa": "Qué es la belleza y por qué nos gusta."
+      },
+      {
+        "titulo": "La vida de la razón",
+        "anio": "1905 – 1906",
+        "deQueVa": "Cinco tomos sobre cómo la inteligencia ordena la vida humana."
+      },
+      {
+        "titulo": "Escepticismo y fe animal",
+        "anio": "1923",
+        "deQueVa": "Por qué creemos en el mundo aunque no podamos demostrarlo."
+      },
+      {
+        "titulo": "El último puritano",
+        "anio": "1935",
+        "deQueVa": "Su única novela, sobre un joven estadounidense muy estricto."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Sense of Beauty (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/26842",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Life of Reason (texto en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/15000",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "bertrand-russell",
+    "nombre": "Bertrand Russell",
+    "fechas": "1872 – 1970",
+    "region": "Reino Unido",
+    "escuela": "Filosofía analítica",
+    "categorias": [
+      "logica",
+      "conocimiento",
+      "lenguaje",
+      "politica"
+    ],
+    "conocidoPor": "Renovar la lógica, descubrir una famosa [[paradoja]] y luchar por la paz toda su vida",
+    "resumen": "Russell fue un aristócrata inglés, matemático y filósofo, uno de los fundadores de la [[filosofía analítica|filosofia-analitica]]. Intentó construir las matemáticas a partir de la [[lógica|logica]] y escribió libros de divulgación que leyó muchísima gente. Fue también un activista: estuvo en la cárcel por oponerse a la Primera Guerra Mundial y luchó contra las armas nucleares hasta muy anciano. Ganó el Premio Nobel de Literatura en 1950.",
+    "ideas": [
+      "Su [[paradoja]] del barbero: si el barbero afeita a todos los que no se afeitan a sí mismos, ¿quién afeita al barbero?",
+      "Analizar bien el lenguaje deshace muchos líos: «el actual rey de Francia es calvo» suena con sentido, pero esconde que ese rey no existe.",
+      "Si alguien dice que una tetera diminuta gira alrededor del Sol, le toca a él demostrarlo, no a los demás demostrar que no existe."
+    ],
+    "curiosidad": "En 1918 pasó varios meses en la cárcel por un artículo pacifista y allí escribió un libro, «Introducción a la filosofía matemática». En 1961, con 89 años, volvió a prisión una semana por protestar contra las armas nucleares.",
+    "frase": {
+      "texto": "Tres pasiones, simples pero abrumadoramente intensas, han gobernado mi vida: el ansia de amor, la búsqueda del conocimiento y una insoportable piedad por el sufrimiento de la humanidad.",
+      "fuente": "Autobiografía (1967), prólogo «Para qué he vivido»"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la denotación",
+        "anio": "1905",
+        "deQueVa": "Artículo sobre cómo hablamos de cosas que no existen."
+      },
+      {
+        "titulo": "Principia Mathematica",
+        "anio": "1910 – 1913",
+        "deQueVa": "Con Whitehead: las matemáticas construidas desde la lógica."
+      },
+      {
+        "titulo": "Los problemas de la filosofía",
+        "anio": "1912",
+        "deQueVa": "Introducción breve y clara a las grandes preguntas."
+      },
+      {
+        "titulo": "Por qué no soy cristiano",
+        "anio": "1927",
+        "deQueVa": "Conferencia que explica sus razones para no creer."
+      },
+      {
+        "titulo": "Historia de la filosofía occidental",
+        "anio": "1945",
+        "deQueVa": "Recorrido por toda la filosofía, ameno y muy personal."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Problems of Philosophy (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/5827",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«On Denoting» (1905), texto original en Wikisource",
+        "url": "https://en.wikisource.org/wiki/On_Denoting",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "ludwig-wittgenstein",
+      "rudolf-carnap",
+      "willard-van-orman-quine"
+    ]
+  },
+  {
+    "id": "g-e-moore",
+    "nombre": "George Edward Moore",
+    "fechas": "1873 – 1958",
+    "region": "Reino Unido",
+    "escuela": "Filosofía analítica (sentido común)",
+    "categorias": [
+      "etica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Defender el sentido común frente a los filósofos y decir que «bueno» no se puede definir",
+    "resumen": "Moore fue un profesor de Cambridge que, junto a Russell, impulsó la [[filosofía analítica|filosofia-analitica]]. Su estilo era muy sencillo: tomarse en serio lo que todo el mundo sabe, como que tenemos manos o que el mundo existía antes de nacer nosotros. En ética defendió que «bueno» es una cualidad simple que no se puede reducir a otra cosa, como el placer. Su libro de ética fue casi una biblia para un grupo de artistas e intelectuales de Londres.",
+    "ideas": [
+      "«Bueno» no se puede definir, igual que no puedes explicar el amarillo a quien nunca lo ha visto: se reconoce directamente.",
+      "Confundir «bueno» con «agradable» o con «natural» es un error al que llamó [[falacia naturalista|falacia-naturalista]].",
+      "Si un filósofo concluye que no tenemos manos, es más seguro que tenemos manos que que su argumento sea correcto."
+    ],
+    "curiosidad": "Su libro «Principia Ethica» entusiasmó al grupo de Bloomsbury, del que formaban parte la escritora Virginia Woolf y el economista Keynes.",
+    "frase": {
+      "texto": "Aquí hay una mano… y aquí hay otra.",
+      "fuente": "«Prueba de un mundo exterior» (1939)"
+    },
+    "obras": [
+      {
+        "titulo": "Principia Ethica",
+        "anio": "1903",
+        "deQueVa": "Qué significa «bueno» y qué cosas valen de verdad, como la amistad y la belleza."
+      },
+      {
+        "titulo": "La refutación del idealismo",
+        "anio": "1903",
+        "deQueVa": "Artículo que defiende que las cosas existen aunque nadie las perciba."
+      },
+      {
+        "titulo": "Una defensa del sentido común",
+        "anio": "1925",
+        "deQueVa": "Lista de cosas que todos sabemos con certeza."
+      },
+      {
+        "titulo": "Prueba de un mundo exterior",
+        "anio": "1939",
+        "deQueVa": "La famosa prueba de las dos manos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Principia Ethica (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/53430",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "ludwig-wittgenstein",
+      "bertrand-russell"
+    ]
+  },
+  {
+    "id": "max-scheler",
+    "nombre": "Max Scheler",
+    "fechas": "1874 – 1928",
+    "region": "Alemania",
+    "escuela": "Fenomenología (ética de los valores)",
+    "categorias": [
+      "etica",
+      "religion",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que los valores se captan con el sentimiento, como los colores se captan con la vista",
+    "resumen": "Scheler fue un filósofo alemán que aplicó la [[fenomenología|fenomenologia]] de Husserl a la ética. Pensaba que los valores, como la belleza, la justicia o lo sagrado, no se inventan: se descubren sintiendo, igual que se descubren los colores mirando. También estudió el amor, la simpatía y el [[resentimiento]], y se preguntó qué hace especial al ser humano frente a los animales. Fue muy leído en España gracias a Ortega y Gasset.",
+    "ideas": [
+      "Los valores se perciben con el corazón: notamos que algo es noble o mezquino antes de razonarlo.",
+      "Hay valores más altos y más bajos: lo agradable vale menos que la salud, y la salud menos que la justicia o lo sagrado.",
+      "El [[resentimiento]] envenena la moral: quien envidia algo que no puede tener acaba diciendo que no vale nada, como la zorra con las uvas."
+    ],
+    "curiosidad": "El joven Karol Wojtyła, el futuro papa Juan Pablo II, dedicó uno de sus trabajos universitarios más importantes a la ética de Scheler.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El resentimiento en la moral",
+        "anio": "1912",
+        "deQueVa": "Cómo la envidia puede disfrazarse de virtud."
+      },
+      {
+        "titulo": "Esencia y formas de la simpatía",
+        "anio": "1913",
+        "deQueVa": "Qué es sentir con los demás y qué es el amor."
+      },
+      {
+        "titulo": "El formalismo en la ética y la ética material de los valores",
+        "anio": "1913 – 1916",
+        "deQueVa": "Su gran obra: los valores y su orden."
+      },
+      {
+        "titulo": "De lo eterno en el hombre",
+        "anio": "1921",
+        "deQueVa": "La religión y la experiencia de lo sagrado."
+      },
+      {
+        "titulo": "El puesto del hombre en el cosmos",
+        "anio": "1928",
+        "deQueVa": "Qué distingue al ser humano de los animales."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "martin-heidegger",
+      "edith-stein"
+    ]
+  },
+  {
+    "id": "alfred-north-whitehead",
+    "nombre": "Alfred North Whitehead",
+    "fechas": "1861 – 1947",
+    "region": "Reino Unido y Estados Unidos",
+    "escuela": "Filosofía del proceso",
+    "categorias": [
+      "metafisica",
+      "ciencia",
+      "logica"
+    ],
+    "conocidoPor": "Decir que la realidad no está hecha de cosas, sino de procesos y acontecimientos",
+    "resumen": "Whitehead fue un matemático inglés que escribió con Russell una obra monumental de [[lógica|logica]]. Ya mayor, se fue a Harvard y creó una filosofía muy original, la [[filosofía del proceso|filosofia-del-proceso]]. Según ella, el mundo no está hecho de objetos quietos, sino de acontecimientos que cambian y se relacionan sin parar. Sus ideas interesan hoy a científicos, ecologistas y teólogos.",
+    "ideas": [
+      "Una montaña parece quieta, pero es un proceso lentísimo: todo lo real está ocurriendo, no simplemente «estando».",
+      "Es un error confundir nuestras abstracciones, como los números o los mapas, con la realidad concreta; lo llamó la [[falacia de la concreción mal ubicada|falacia-concrecion]].",
+      "Todo está conectado: cada acontecimiento recoge algo de los anteriores, como una nota musical que depende de las que suenan antes."
+    ],
+    "curiosidad": "Empezó su gran etapa filosófica en Harvard con 63 años, cuando la mayoría de la gente piensa en jubilarse.",
+    "frase": {
+      "texto": "La caracterización general más segura de la tradición filosófica europea es que consiste en una serie de notas a pie de página a Platón.",
+      "fuente": "Proceso y realidad (1929), parte II, capítulo 1"
+    },
+    "obras": [
+      {
+        "titulo": "Principia Mathematica",
+        "anio": "1910 – 1913",
+        "deQueVa": "Con Russell: las matemáticas construidas desde la lógica."
+      },
+      {
+        "titulo": "El concepto de naturaleza",
+        "anio": "1920",
+        "deQueVa": "La naturaleza como red de acontecimientos."
+      },
+      {
+        "titulo": "La ciencia y el mundo moderno",
+        "anio": "1925",
+        "deQueVa": "Cómo la ciencia ha cambiado nuestra visión del mundo."
+      },
+      {
+        "titulo": "Proceso y realidad",
+        "anio": "1929",
+        "deQueVa": "Su gran obra: la realidad como proceso."
+      },
+      {
+        "titulo": "Aventuras de las ideas",
+        "anio": "1933",
+        "deQueVa": "Cómo las ideas han cambiado la historia de la humanidad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Science and the Modern World (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/68611",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Concept of Nature (texto completo en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/18835",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "bertrand-russell",
+      "willard-van-orman-quine"
+    ]
+  },
+  {
+    "id": "ludwig-wittgenstein",
+    "nombre": "Ludwig Wittgenstein",
+    "fechas": "1889 – 1951",
+    "region": "Austria y Reino Unido",
+    "escuela": "Filosofía analítica",
+    "categorias": [
+      "lenguaje",
+      "logica",
+      "mente"
+    ],
+    "conocidoPor": "Pensar que muchos problemas filosóficos son líos del lenguaje y que el significado es el uso",
+    "resumen": "Wittgenstein fue un austriaco de familia riquísima que estudió en Cambridge con Russell. Escribió dos filosofías distintas: en la primera, el lenguaje es como un dibujo de la realidad; en la segunda, las palabras son herramientas que usamos en distintos «juegos». Pensaba que muchos problemas de la filosofía desaparecen cuando miramos bien cómo usamos las palabras. Es uno de los filósofos más influyentes del siglo XX.",
+    "ideas": [
+      "Una frase con sentido es como un dibujo de cómo están las cosas; de lo que no se puede dibujar así, como Dios o el sentido de la vida, mejor callar.",
+      "El significado de una palabra es su uso: «¡agua!» puede ser una petición, un aviso o una respuesta según el [[juego de lenguaje|juego-de-lenguaje]].",
+      "Los juegos (fútbol, ajedrez, solitario) no comparten una sola cosa; se parecen como los miembros de una familia: es el [[parecido de familia|parecido-de-familia]]."
+    ],
+    "curiosidad": "Renunció a su enorme herencia, que repartió entre sus hermanos, y durante unos años trabajó como maestro de escuela en pequeños pueblos de Austria.",
+    "frase": {
+      "texto": "De lo que no se puede hablar, hay que callar.",
+      "fuente": "Tractatus logico-philosophicus (1921), proposición 7"
+    },
+    "obras": [
+      {
+        "titulo": "Tractatus logico-philosophicus",
+        "anio": "1921",
+        "deQueVa": "El lenguaje como dibujo lógico del mundo y sus límites."
+      },
+      {
+        "titulo": "Los cuadernos azul y marrón",
+        "anio": "1933 – 1935",
+        "deQueVa": "Apuntes de clase que anuncian su segunda filosofía."
+      },
+      {
+        "titulo": "Investigaciones filosóficas",
+        "anio": "1953",
+        "deQueVa": "Publicado tras su muerte: el significado como uso y los juegos de lenguaje."
+      },
+      {
+        "titulo": "Sobre la certeza",
+        "anio": "1969",
+        "deQueVa": "Notas finales sobre qué es imposible dudar."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Tractatus Logico-Philosophicus (alemán e inglés)",
+        "url": "https://www.gutenberg.org/ebooks/5740",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "moritz-schlick",
+      "rudolf-carnap",
+      "elizabeth-anscombe"
+    ]
+  },
+  {
+    "id": "martin-heidegger",
+    "nombre": "Martin Heidegger",
+    "fechas": "1889 – 1976",
+    "region": "Alemania",
+    "escuela": "Fenomenología y filosofía existencial",
+    "categorias": [
+      "metafisica",
+      "existencia",
+      "lenguaje"
+    ],
+    "conocidoPor": "Preguntar qué significa «ser» y decir que vivimos de verdad cuando asumimos que vamos a morir",
+    "resumen": "Heidegger fue un filósofo alemán, alumno de Husserl, y uno de los más influyentes y polémicos del siglo XX. Su gran pregunta fue qué significa «ser», algo que usamos a todas horas sin pensarlo. Describió al ser humano como alguien lanzado a un mundo que no ha elegido y que sabe que va a morir. Su prestigio está manchado por su apoyo al nazismo, algo que hoy no se puede separar de su figura.",
+    "ideas": [
+      "Usamos la palabra «es» constantemente («el cielo es azul») sin preguntarnos qué significa ser: esa es la gran pregunta olvidada.",
+      "Solemos vivir en piloto automático, haciendo lo que «se» hace y diciendo lo que «se» dice; vivir de forma [[auténtica|autenticidad]] es tomar las riendas.",
+      "Ser conscientes de que vamos a morir no es morboso: nos ayuda a decidir qué importa de verdad."
+    ],
+    "curiosidad": "En 1933 se afilió al partido nazi y fue rector de la Universidad de Friburgo. Sus «Cuadernos negros», publicados en 2014, revelaron además comentarios [[antisemitas|antisemitismo]].",
+    "frase": {
+      "texto": "El lenguaje es la casa del ser.",
+      "fuente": "Carta sobre el humanismo (1947)"
+    },
+    "obras": [
+      {
+        "titulo": "Ser y tiempo",
+        "anio": "1927",
+        "deQueVa": "Qué significa existir para el ser humano, con la muerte en el horizonte."
+      },
+      {
+        "titulo": "¿Qué es metafísica?",
+        "anio": "1929",
+        "deQueVa": "Conferencia sobre la nada y la angustia."
+      },
+      {
+        "titulo": "Introducción a la metafísica",
+        "anio": "1953",
+        "deQueVa": "Curso de 1935 sobre por qué hay algo y no más bien nada."
+      },
+      {
+        "titulo": "Carta sobre el humanismo",
+        "anio": "1947",
+        "deQueVa": "Su respuesta a Sartre: el ser humano como guardián del ser."
+      },
+      {
+        "titulo": "La pregunta por la técnica",
+        "anio": "1953",
+        "deQueVa": "La técnica moderna nos hace ver todo como recurso para explotar."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jean-paul-sartre",
+      "hannah-arendt",
+      "hans-georg-gadamer",
+      "emmanuel-levinas",
+      "jacques-derrida"
+    ]
+  },
+  {
+    "id": "jose-ortega-y-gasset",
+    "nombre": "José Ortega y Gasset",
+    "fechas": "1883 – 1955",
+    "region": "España",
+    "escuela": "Raciovitalismo",
+    "categorias": [
+      "existencia",
+      "sociedad",
+      "conocimiento",
+      "estetica"
+    ],
+    "conocidoPor": "Decir «yo soy yo y mi circunstancia»: cada vida está hecha de la persona y de su entorno",
+    "resumen": "Ortega y Gasset fue el filósofo español más influyente del siglo XX. Quiso modernizar España trayendo las ideas de Europa y escribió con un estilo brillante, pensado para el periódico y para todo el mundo. Defendió que la razón debe servir a la vida concreta de cada persona, que siempre vive en una situación determinada. En «La rebelión de las masas» avisó del peligro de una sociedad de personas satisfechas que no se exigen nada.",
+    "ideas": [
+      "Nadie vive en el vacío: tú eres tú más tu familia, tu ciudad, tu época… y para salvarte tienes que hacerte cargo de todo eso.",
+      "Cada persona ve la realidad desde su punto de vista, como quien mira un paisaje desde una ventana distinta: es el [[perspectivismo]].",
+      "El [[hombre masa|hombre-masa]] es el que se conforma con lo que hay, no se exige nada y cree tener derecho a opinar de todo sin saber."
+    ],
+    "curiosidad": "En 1923 fundó la «Revista de Occidente», que dio a conocer en español a muchos pensadores europeos.",
+    "frase": {
+      "texto": "Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo.",
+      "fuente": "Meditaciones del Quijote (1914)"
+    },
+    "obras": [
+      {
+        "titulo": "Meditaciones del Quijote",
+        "anio": "1914",
+        "deQueVa": "Su primer libro: la persona y su circunstancia."
+      },
+      {
+        "titulo": "España invertebrada",
+        "anio": "1921",
+        "deQueVa": "Por qué España está desunida y le cuesta avanzar."
+      },
+      {
+        "titulo": "El tema de nuestro tiempo",
+        "anio": "1923",
+        "deQueVa": "La razón debe ponerse al servicio de la vida."
+      },
+      {
+        "titulo": "La deshumanización del arte",
+        "anio": "1925",
+        "deQueVa": "Por qué el arte moderno desconcierta al público."
+      },
+      {
+        "titulo": "La rebelión de las masas",
+        "anio": "1930",
+        "deQueVa": "El ascenso del hombre masa y sus peligros."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Meditaciones del Quijote, texto completo en español",
+        "url": "https://www.gutenberg.org/ebooks/57448",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "maria-zambrano",
+      "xavier-zubiri"
+    ]
+  },
+  {
+    "id": "maria-zambrano",
+    "nombre": "María Zambrano",
+    "fechas": "1904 – 1991",
+    "region": "España",
+    "escuela": "Razón poética",
+    "categorias": [
+      "existencia",
+      "religion",
+      "estetica",
+      "politica"
+    ],
+    "conocidoPor": "Proponer una [[razón poética|razon-poetica]] que une la filosofía con la poesía, los sueños y los sentimientos",
+    "resumen": "María Zambrano fue una filósofa española, alumna de Ortega y Gasset. Tras la Guerra Civil vivió casi 45 años en el exilio, en México, Cuba, Italia, Francia y Suiza. Pensaba que la filosofía se había vuelto demasiado fría y que necesitaba reconciliarse con la poesía para entender lo que de verdad nos pasa por dentro. Hoy es una de las pensadoras españolas más leídas.",
+    "ideas": [
+      "La filosofía y la poesía se separaron hace siglos y deben volver a hablarse: una explica, la otra siente, y nos hacen falta las dos.",
+      "Hay cosas que no se entienden con definiciones sino con una mirada atenta y paciente, como cuando se aclara poco a poco un bosque al amanecer.",
+      "La democracia necesita personas, no masas: gente que se hace responsable de su propia vida."
+    ],
+    "curiosidad": "En 1988 se convirtió en la primera mujer que recibió el Premio Cervantes, el más importante de las letras en español.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Filosofía y poesía",
+        "anio": "1939",
+        "deQueVa": "Por qué se separaron la filosofía y la poesía y cómo reunirlas."
+      },
+      {
+        "titulo": "El hombre y lo divino",
+        "anio": "1955",
+        "deQueVa": "La relación del ser humano con lo sagrado a lo largo de la historia."
+      },
+      {
+        "titulo": "Persona y democracia",
+        "anio": "1958",
+        "deQueVa": "La democracia como sociedad de personas libres."
+      },
+      {
+        "titulo": "Claros del bosque",
+        "anio": "1977",
+        "deQueVa": "Textos breves y poéticos sobre cómo se nos revela la verdad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "xavier-zubiri",
+    "nombre": "Xavier Zubiri",
+    "fechas": "1898 – 1983",
+    "region": "España",
+    "escuela": "Filosofía de la realidad",
+    "categorias": [
+      "metafisica",
+      "conocimiento",
+      "religion"
+    ],
+    "conocidoPor": "Decir que sentir y entender no van separados: tenemos una [[inteligencia sentiente|inteligencia-sentiente]]",
+    "resumen": "Zubiri fue un filósofo vasco que estudió con Husserl y Heidegger y fue amigo de Ortega. Durante años dio cursos privados en Madrid, fuera de la universidad, que reunían a mucha gente. Su gran idea es que los sentidos y la inteligencia no son dos cosas distintas: al ver o tocar algo ya lo captamos como real. Escribía de forma muy técnica, pero su pregunta era sencilla: ¿qué es la realidad?",
+    "ideas": [
+      "Cuando tocas una piedra no solo notas frío y dureza: notas que eso está ahí, que es real. Sentir y entender van juntos.",
+      "El ser humano es un «animal de realidades»: no solo reacciona como los animales, sino que se hace cargo de cómo son las cosas.",
+      "Estamos [[religados|religacion]] a la realidad: algo nos sostiene y nos empuja a vivir, y por ahí aparece la pregunta por Dios."
+    ],
+    "curiosidad": "Fue ordenado sacerdote en 1921, pero luego obtuvo permiso de la Iglesia para dejar el sacerdocio y en 1936 se casó con Carmen Castro, hija del historiador Américo Castro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Naturaleza, Historia, Dios",
+        "anio": "1944",
+        "deQueVa": "Ensayos sobre la ciencia, la historia y la religión."
+      },
+      {
+        "titulo": "Sobre la esencia",
+        "anio": "1962",
+        "deQueVa": "Qué hace que una cosa sea lo que es."
+      },
+      {
+        "titulo": "Inteligencia sentiente",
+        "anio": "1980 – 1983",
+        "deQueVa": "Tres tomos sobre cómo sentir y entender son una sola cosa."
+      },
+      {
+        "titulo": "El hombre y Dios",
+        "anio": "1984",
+        "deQueVa": "Publicado tras su muerte: el ser humano y la pregunta por Dios."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "rudolf-carnap",
+    "nombre": "Rudolf Carnap",
+    "fechas": "1891 – 1970",
+    "region": "Alemania y Estados Unidos",
+    "escuela": "Positivismo lógico (Círculo de Viena)",
+    "categorias": [
+      "logica",
+      "ciencia",
+      "lenguaje",
+      "conocimiento"
+    ],
+    "conocidoPor": "Querer limpiar la filosofía de frases sin sentido usando la lógica y la ciencia",
+    "resumen": "Carnap fue un filósofo alemán, figura clave del [[Círculo de Viena|circulo-de-viena]], un grupo de científicos y filósofos que querían una filosofía tan rigurosa como la física. Pensaba que muchas frases de la [[metafísica|metafisica]] suenan profundas pero no dicen nada, porque no hay manera de comprobarlas. Huyó del nazismo a Estados Unidos y allí siguió estudiando la lógica, la probabilidad y el lenguaje de la ciencia.",
+    "ideas": [
+      "Una frase tiene sentido si sabemos cómo comprobarla: «llueve en Madrid» se puede mirar; «el alma del mundo es eterna», no.",
+      "Puso como ejemplo de frase vacía una de Heidegger: «la nada misma nadea». Suena profunda, pero no hay forma de saber si es verdad.",
+      "La ciencia puede describirse con un lenguaje lógico y ordenado, como un gran edificio construido desde la experiencia."
+    ],
+    "curiosidad": "Desde joven aprendió esperanto, la lengua inventada para que todo el mundo pudiera entenderse, y llegó a asistir a congresos internacionales de esperantistas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La construcción lógica del mundo",
+        "anio": "1928",
+        "deQueVa": "Todo nuestro conocimiento reconstruido desde la experiencia con lógica."
+      },
+      {
+        "titulo": "La superación de la metafísica mediante el análisis lógico del lenguaje",
+        "anio": "1932",
+        "deQueVa": "Artículo que declara sin sentido las frases metafísicas."
+      },
+      {
+        "titulo": "Sintaxis lógica del lenguaje",
+        "anio": "1934",
+        "deQueVa": "Las reglas formales que rigen los lenguajes."
+      },
+      {
+        "titulo": "Significado y necesidad",
+        "anio": "1947",
+        "deQueVa": "Cómo significan las palabras y qué es lo necesario."
+      },
+      {
+        "titulo": "Fundamentos lógicos de la probabilidad",
+        "anio": "1950",
+        "deQueVa": "Qué quiere decir que algo es probable."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "willard-van-orman-quine"
+    ]
+  },
+  {
+    "id": "moritz-schlick",
+    "nombre": "Moritz Schlick",
+    "fechas": "1882 – 1936",
+    "region": "Austria",
+    "escuela": "Positivismo lógico (Círculo de Viena)",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Fundar el [[Círculo de Viena|circulo-de-viena]], el grupo que quiso una filosofía tan rigurosa como la ciencia",
+    "resumen": "Schlick fue un físico alemán, alumno de Max Planck, que se hizo filósofo y dio clase en Viena. Allí reunió a un grupo de científicos y filósofos, el famoso [[Círculo de Viena|circulo-de-viena]], que se juntaban para discutir cómo hacer una filosofía clara y científica. Fue de los primeros en explicar a los filósofos la teoría de la relatividad de Einstein. Murió asesinado por un antiguo alumno.",
+    "ideas": [
+      "Para saber qué significa una frase hay que saber cómo comprobaríamos si es verdad.",
+      "La filosofía no descubre verdades propias, sino que aclara lo que quieren decir las frases de la ciencia y de la vida diaria.",
+      "La ética debe explicar por qué las personas actúan como actúan, buscando de forma natural la felicidad."
+    ],
+    "curiosidad": "En 1936 fue asesinado en las escaleras de la Universidad de Viena por un antiguo estudiante trastornado que llevaba años acosándole. Parte de la prensa de la época justificó el crimen con argumentos [[antisemitas|antisemitismo]], aunque Schlick no era judío.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Espacio y tiempo en la física contemporánea",
+        "anio": "1917",
+        "deQueVa": "Explicación filosófica de la relatividad de Einstein."
+      },
+      {
+        "titulo": "Teoría general del conocimiento",
+        "anio": "1918",
+        "deQueVa": "Qué es conocer y cómo funciona la ciencia."
+      },
+      {
+        "titulo": "Cuestiones de ética",
+        "anio": "1930",
+        "deQueVa": "La moral explicada desde lo que nos hace felices."
+      },
+      {
+        "titulo": "Significado y verificación",
+        "anio": "1936",
+        "deQueVa": "Artículo sobre cuándo una frase tiene sentido."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "rudolf-carnap"
+    ]
+  },
+  {
+    "id": "karl-popper",
+    "nombre": "Karl Popper",
+    "fechas": "1902 – 1994",
+    "region": "Austria y Reino Unido",
+    "escuela": "Racionalismo crítico",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "politica"
+    ],
+    "conocidoPor": "Decir que una teoría es científica si se puede demostrar que es falsa, y defender la [[sociedad abierta|sociedad-abierta]]",
+    "resumen": "Popper fue un filósofo austriaco que huyó del nazismo, vivió en Nueva Zelanda y acabó en Londres. Cambió la forma de entender la ciencia: según él, una teoría no se demuestra a base de ejemplos que la confirman, sino resistiendo intentos de echarla abajo. En política defendió las sociedades abiertas, donde se puede criticar a quien manda y cambiar de gobierno sin violencia. Sus ideas se usan en ciencia, política y economía.",
+    "ideas": [
+      "Ver mil cisnes blancos no prueba que todos los cisnes sean blancos; basta un cisne negro para desmentirlo. Por eso la ciencia avanza poniendo a prueba sus teorías: es la [[falsabilidad]].",
+      "Una teoría que lo explica todo y nunca puede fallar no es ciencia: si nada podría contradecirla, no nos dice nada.",
+      "Una sociedad sana permite criticar al gobierno y echarlo con votos, no con sangre."
+    ],
+    "curiosidad": "En 1946, en una discusión en Cambridge, Wittgenstein agitó un atizador de chimenea delante de él. Los testigos nunca se pusieron de acuerdo sobre qué pasó exactamente.",
+    "frase": {
+      "texto": "La tolerancia ilimitada debe conducir a la desaparición de la tolerancia.",
+      "fuente": "La sociedad abierta y sus enemigos (1945), tomo I, nota 4 del capítulo 7"
+    },
+    "obras": [
+      {
+        "titulo": "La lógica de la investigación científica",
+        "anio": "1934",
+        "deQueVa": "Qué hace científica a una teoría: que se pueda refutar."
+      },
+      {
+        "titulo": "La sociedad abierta y sus enemigos",
+        "anio": "1945",
+        "deQueVa": "Crítica de Platón, Hegel y Marx y defensa de la democracia."
+      },
+      {
+        "titulo": "La miseria del historicismo",
+        "anio": "1957",
+        "deQueVa": "Nadie puede predecir el rumbo de la historia."
+      },
+      {
+        "titulo": "Conjeturas y refutaciones",
+        "anio": "1963",
+        "deQueVa": "El conocimiento crece a base de probar ideas y corregir errores."
+      },
+      {
+        "titulo": "Conocimiento objetivo",
+        "anio": "1972",
+        "deQueVa": "Las teorías tienen vida propia más allá de quien las piensa."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "imre-lakatos",
+      "paul-feyerabend"
+    ]
+  },
+  {
+    "id": "jean-paul-sartre",
+    "nombre": "Jean-Paul Sartre",
+    "fechas": "1905 – 1980",
+    "region": "Francia",
+    "escuela": "Existencialismo",
+    "categorias": [
+      "existencia",
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Decir que estamos «condenados a ser libres» y que primero existimos y luego decidimos quiénes somos",
+    "resumen": "Sartre fue el gran nombre del [[existencialismo]] y una estrella intelectual de la Francia de posguerra. Escribía filosofía, novelas, obras de teatro y artículos de periódico. Su idea central es que el ser humano no viene con un manual de instrucciones: primero existimos y luego, con nuestras elecciones, nos hacemos a nosotros mismos. Fue pareja de Simone de Beauvoir durante toda su vida y se comprometió con muchas causas políticas.",
+    "ideas": [
+      "Un cuchillo se fabrica con una función ya pensada; las personas no: la existencia precede a la [[esencia]].",
+      "Estamos condenados a ser libres: incluso no elegir es una elección, y somos responsables de lo que hacemos.",
+      "La [[mala fe|mala-fe]] es engañarse para no asumir la libertad, como quien dice «yo soy así» para no cambiar."
+    ],
+    "curiosidad": "En 1964 le concedieron el Premio Nobel de Literatura y lo rechazó, porque decía que un escritor no debe dejarse convertir en una institución.",
+    "frase": {
+      "texto": "El infierno son los otros.",
+      "fuente": "A puerta cerrada (1944), obra de teatro"
+    },
+    "obras": [
+      {
+        "titulo": "La náusea",
+        "anio": "1938",
+        "deQueVa": "Novela sobre un hombre que siente el absurdo de existir."
+      },
+      {
+        "titulo": "El ser y la nada",
+        "anio": "1943",
+        "deQueVa": "Su gran obra filosófica sobre la libertad y la conciencia."
+      },
+      {
+        "titulo": "A puerta cerrada",
+        "anio": "1944",
+        "deQueVa": "Tres personas encerradas para siempre en una habitación del infierno."
+      },
+      {
+        "titulo": "El existencialismo es un humanismo",
+        "anio": "1946",
+        "deQueVa": "Conferencia que explica el existencialismo de forma sencilla."
+      },
+      {
+        "titulo": "Crítica de la razón dialéctica",
+        "anio": "1960",
+        "deQueVa": "Intento de unir existencialismo y marxismo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "simone-de-beauvoir",
+      "frantz-fanon"
+    ]
+  },
+  {
+    "id": "simone-de-beauvoir",
+    "nombre": "Simone de Beauvoir",
+    "fechas": "1908 – 1986",
+    "region": "Francia",
+    "escuela": "Existencialismo y feminismo",
+    "categorias": [
+      "sociedad",
+      "existencia",
+      "etica"
+    ],
+    "conocidoPor": "Escribir «El segundo sexo» y decir que no se nace mujer, sino que se llega a serlo",
+    "resumen": "Simone de Beauvoir fue una filósofa y novelista francesa, una de las grandes figuras del [[existencialismo]]. En «El segundo sexo» explicó que lo que la sociedad espera de las mujeres no viene de la naturaleza, sino de la educación y la costumbre. Ese libro se convirtió en una obra clave del [[feminismo]] del siglo XX. También escribió sobre la vejez, la libertad y su propia vida en varios tomos de memorias.",
+    "ideas": [
+      "Ser mujer no es solo biología: a las niñas se les enseña desde pequeñas a ser de una manera, por ejemplo a cuidar y a no destacar.",
+      "La sociedad ha tratado a la mujer como «la Otra», definida siempre en relación al hombre, como si él fuera lo normal.",
+      "Ser libre exige querer también la libertad de los demás: no se puede ser libre del todo en un mundo de oprimidos."
+    ],
+    "curiosidad": "En 1954 ganó el Premio Goncourt, el más prestigioso de las letras francesas, con su novela «Los mandarines».",
+    "frase": {
+      "texto": "No se nace mujer: se llega a serlo.",
+      "fuente": "El segundo sexo (1949), tomo II"
+    },
+    "obras": [
+      {
+        "titulo": "La invitada",
+        "anio": "1943",
+        "deQueVa": "Novela sobre una pareja y la llegada de una tercera persona."
+      },
+      {
+        "titulo": "Para una moral de la ambigüedad",
+        "anio": "1947",
+        "deQueVa": "Cómo vivir éticamente siendo libres y sin certezas."
+      },
+      {
+        "titulo": "El segundo sexo",
+        "anio": "1949",
+        "deQueVa": "Por qué la mujer ha sido tratada como inferior y cómo cambiarlo."
+      },
+      {
+        "titulo": "Los mandarines",
+        "anio": "1954",
+        "deQueVa": "Novela sobre los intelectuales franceses tras la guerra."
+      },
+      {
+        "titulo": "La vejez",
+        "anio": "1970",
+        "deQueVa": "Cómo trata la sociedad a las personas mayores."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "judith-butler",
+      "jean-paul-sartre"
+    ]
+  },
+  {
+    "id": "albert-camus",
+    "nombre": "Albert Camus",
+    "fechas": "1913 – 1960",
+    "region": "Francia (Argelia francesa)",
+    "escuela": "Filosofía del absurdo",
+    "categorias": [
+      "existencia",
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Pensar el [[absurdo]] de la vida y concluir que hay que imaginar a Sísifo feliz",
+    "resumen": "Camus nació en Argelia, entonces francesa, en una familia muy pobre, y llegó a ganar el Premio Nobel de Literatura con 44 años. Pensaba que la vida es [[absurda|absurdo]]: buscamos un sentido y el mundo no nos responde. Pero su respuesta no era rendirse, sino vivir con intensidad y rebelarse contra la injusticia. Rechazaba que lo llamaran existencialista y se enfrentó a Sartre por defender que ningún ideal justifica matar.",
+    "ideas": [
+      "El absurdo nace del choque entre nuestras ganas de que todo tenga sentido y un mundo que guarda silencio.",
+      "Sísifo, condenado a subir una roca que siempre vuelve a caer, puede ser feliz si acepta su tarea con lucidez: como nosotros con la vida diaria.",
+      "Rebelarse es decir «no» a la injusticia, pero sin convertirse en verdugo: ningún ideal justifica el asesinato."
+    ],
+    "curiosidad": "De joven fue portero de fútbol en un equipo universitario de Argel, hasta que la tuberculosis le obligó a dejarlo.",
+    "frase": {
+      "texto": "Hay que imaginarse a Sísifo feliz.",
+      "fuente": "El mito de Sísifo (1942), última frase"
+    },
+    "obras": [
+      {
+        "titulo": "El extranjero",
+        "anio": "1942",
+        "deQueVa": "Novela sobre un hombre indiferente que comete un crimen."
+      },
+      {
+        "titulo": "El mito de Sísifo",
+        "anio": "1942",
+        "deQueVa": "Ensayo sobre el absurdo y por qué vivir a pesar de todo."
+      },
+      {
+        "titulo": "La peste",
+        "anio": "1947",
+        "deQueVa": "Novela sobre una ciudad que lucha unida contra una epidemia."
+      },
+      {
+        "titulo": "El hombre rebelde",
+        "anio": "1951",
+        "deQueVa": "La rebeldía y sus límites frente a las revoluciones violentas."
+      },
+      {
+        "titulo": "La caída",
+        "anio": "1956",
+        "deQueVa": "Monólogo de un abogado que confiesa su hipocresía."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "maurice-merleau-ponty",
+    "nombre": "Maurice Merleau-Ponty",
+    "fechas": "1908 – 1961",
+    "region": "Francia",
+    "escuela": "Fenomenología",
+    "categorias": [
+      "mente",
+      "conocimiento",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que no tenemos un cuerpo: somos un cuerpo, y con él conocemos el mundo",
+    "resumen": "Merleau-Ponty fue un filósofo francés de la [[fenomenología|fenomenologia]], amigo y luego rival de Sartre. Se fijó en algo que la filosofía solía olvidar: el cuerpo. Para él no somos una mente encerrada en una máquina, sino un cuerpo vivo que ya entiende el mundo antes de pensarlo. Sus ideas interesan hoy a psicólogos, artistas, bailarines e investigadores de inteligencia artificial.",
+    "ideas": [
+      "Tu cuerpo sabe cosas que tu cabeza no sabe explicar: escribir en un teclado o montar en bici sin pensar en cada movimiento.",
+      "Percibir no es recibir fotos en el cerebro, sino estar metido en el mundo, moviéndote y explorándolo.",
+      "Las personas que han perdido un brazo a veces siguen sintiéndolo, el [[miembro fantasma|miembro-fantasma]]: prueba de que el cuerpo vivido no es solo carne."
+    ],
+    "curiosidad": "En 1945 fundó con Sartre y Beauvoir la revista «Les Temps Modernes», pero años después rompió con Sartre por sus diferencias sobre el [[comunismo]].",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La estructura del comportamiento",
+        "anio": "1942",
+        "deQueVa": "Crítica de la idea de que somos máquinas que responden a estímulos."
+      },
+      {
+        "titulo": "Fenomenología de la percepción",
+        "anio": "1945",
+        "deQueVa": "Su gran obra: el cuerpo como base de nuestra experiencia."
+      },
+      {
+        "titulo": "Humanismo y terror",
+        "anio": "1947",
+        "deQueVa": "Debate sobre la violencia política y el comunismo."
+      },
+      {
+        "titulo": "Sentido y sinsentido",
+        "anio": "1948",
+        "deQueVa": "Ensayos sobre arte, cine, política y filosofía."
+      },
+      {
+        "titulo": "Lo visible y lo invisible",
+        "anio": "1964",
+        "deQueVa": "Obra inacabada publicada tras su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "hannah-arendt",
+    "nombre": "Hannah Arendt",
+    "fechas": "1906 – 1975",
+    "region": "Alemania y Estados Unidos",
+    "escuela": "Teoría política",
+    "categorias": [
+      "politica",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Estudiar el totalitarismo y hablar de la «[[banalidad del mal|banalidad-del-mal]]» tras el juicio a Eichmann",
+    "resumen": "Hannah Arendt fue una pensadora judía alemana que huyó del nazismo y acabó en Estados Unidos. Se dedicó a entender cómo pudieron surgir regímenes como el de Hitler o el de Stalin. Al ver el juicio al nazi Adolf Eichmann descubrió que no parecía un monstruo, sino un funcionario que no pensaba en lo que hacía. Defendía que la política es el espacio donde las personas actúan y hablan juntas en libertad.",
+    "ideas": [
+      "Grandes males pueden cometerlos personas normales que obedecen sin pensar: eso es la [[banalidad del mal|banalidad-del-mal]].",
+      "El [[totalitarismo]] busca controlarlo todo: aísla a las personas, usa el terror y repite mentiras hasta que nadie distingue lo verdadero de lo falso.",
+      "Cada nacimiento trae al mundo a alguien capaz de empezar algo nuevo; por eso la acción política siempre puede sorprender."
+    ],
+    "curiosidad": "Los nazis le quitaron la nacionalidad alemana en 1937 y fue [[apátrida|apatrida]] hasta 1951, cuando se hizo ciudadana estadounidense. Por eso escribió mucho sobre el «derecho a tener derechos».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Los orígenes del totalitarismo",
+        "anio": "1951",
+        "deQueVa": "Cómo nacieron el nazismo y el estalinismo."
+      },
+      {
+        "titulo": "La condición humana",
+        "anio": "1958",
+        "deQueVa": "Las tres actividades humanas: trabajar para vivir, fabricar cosas y actuar en común."
+      },
+      {
+        "titulo": "Entre el pasado y el futuro",
+        "anio": "1961",
+        "deQueVa": "Ensayos sobre la libertad, la autoridad y la educación."
+      },
+      {
+        "titulo": "Eichmann en Jerusalén",
+        "anio": "1963",
+        "deQueVa": "Crónica del juicio a un organizador del Holocausto."
+      },
+      {
+        "titulo": "Sobre la revolución",
+        "anio": "1963",
+        "deQueVa": "Comparación entre la Revolución francesa y la estadounidense."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "seyla-benhabib",
+      "jurgen-habermas"
+    ]
+  },
+  {
+    "id": "simone-weil",
+    "nombre": "Simone Weil",
+    "fechas": "1909 – 1943",
+    "region": "Francia",
+    "escuela": "Mística cristiana y filosofía social",
+    "categorias": [
+      "religion",
+      "politica",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Trabajar en fábricas para entender a los obreros y hacer de la atención a los demás una forma de amor",
+    "resumen": "Simone Weil fue una filósofa francesa que quiso vivir lo que pensaba. Dejó durante un año sus clases de filosofía para trabajar en fábricas y conocer de primera mano el cansancio y la humillación de los obreros. Después vivió experiencias religiosas muy intensas y escribió sobre Dios, el sufrimiento y la justicia. Murió con solo 34 años y casi todos sus libros se publicaron después.",
+    "ideas": [
+      "Prestar atención de verdad a alguien que sufre, sin prisas ni juicios, es una de las formas más altas de amor.",
+      "Las personas necesitan raíces: un lugar, una comunidad y unas tradiciones que den sentido a su vida; sin ellas se marchitan.",
+      "El trabajo en cadena, repetitivo y bajo órdenes constantes, puede aplastar el alma de quien lo hace."
+    ],
+    "curiosidad": "En 1936 se fue a la guerra civil española con una columna [[anarquista|anarquismo]] en Aragón, pero tuvo que volver a Francia tras quemarse con aceite hirviendo.",
+    "frase": {
+      "texto": "La atención es la forma más rara y más pura de la generosidad.",
+      "fuente": "Carta a Joë Bousquet (1942)"
+    },
+    "obras": [
+      {
+        "titulo": "Reflexiones sobre las causas de la libertad y de la opresión social",
+        "anio": "1934",
+        "deQueVa": "Escrito en 1934 y publicado tras su muerte: por qué la sociedad industrial oprime a los trabajadores."
+      },
+      {
+        "titulo": "La gravedad y la gracia",
+        "anio": "1947",
+        "deQueVa": "Pensamientos breves sobre Dios, el mal y el amor."
+      },
+      {
+        "titulo": "Echar raíces",
+        "anio": "1949",
+        "deQueVa": "Lo que necesita una persona para sentirse parte de algo."
+      },
+      {
+        "titulo": "A la espera de Dios",
+        "anio": "1950",
+        "deQueVa": "Cartas y ensayos sobre su camino espiritual."
+      },
+      {
+        "titulo": "La condición obrera",
+        "anio": "1951",
+        "deQueVa": "Su diario y reflexiones como obrera de fábrica."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "iris-murdoch"
+    ]
+  },
+  {
+    "id": "edith-stein",
+    "nombre": "Edith Stein",
+    "fechas": "1891 – 1942",
+    "region": "Alemania",
+    "escuela": "Fenomenología",
+    "categorias": [
+      "mente",
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Estudiar la [[empatía|empatia]] con la fenomenología y morir en Auschwitz siendo monja carmelita",
+    "resumen": "Edith Stein fue una filósofa alemana de familia judía, alumna y ayudante de Husserl. Escribió una tesis sobre la [[empatía|empatia]]: cómo podemos vivir lo que vive otra persona. Tras leer la vida de santa Teresa de Jesús se hizo católica y más tarde monja carmelita. Los nazis la asesinaron en Auschwitz en 1942, y la Iglesia católica la declaró santa en 1998.",
+    "ideas": [
+      "Cuando ves a alguien llorar no sientes su pena igual que él, pero la captas como suya: eso es la [[empatía|empatia]].",
+      "La persona es cuerpo, mente y espíritu a la vez; no se puede reducir a ninguna de las tres cosas.",
+      "La filosofía moderna y el pensamiento cristiano medieval, como el de Tomás de Aquino, pueden dialogar."
+    ],
+    "curiosidad": "Decidió convertirse al catolicismo en 1921, tras pasar una noche leyendo de un tirón el «Libro de la vida» de santa Teresa de Jesús. Hoy es copatrona de Europa.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre el problema de la empatía",
+        "anio": "1917",
+        "deQueVa": "Su tesis: cómo captamos lo que viven los demás."
+      },
+      {
+        "titulo": "Ser finito y ser eterno",
+        "anio": "1950",
+        "deQueVa": "Escrito hacia 1936: une a Husserl con Tomás de Aquino."
+      },
+      {
+        "titulo": "Ciencia de la cruz",
+        "anio": "1950",
+        "deQueVa": "Estudio sobre san Juan de la Cruz, inacabado por su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "martin-buber",
+    "nombre": "Martin Buber",
+    "fechas": "1878 – 1965",
+    "region": "Alemania e Israel",
+    "escuela": "Filosofía del diálogo",
+    "categorias": [
+      "religion",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Distinguir entre tratar a alguien como un «tú» y tratarlo como un «ello», una simple cosa",
+    "resumen": "Martin Buber fue un pensador judío nacido en Viena que vivió en Alemania y en 1938 emigró a Jerusalén. Su libro «Yo y tú» explica que hay dos maneras de relacionarnos: como con personas o como con objetos. También dio a conocer los cuentos del [[jasidismo]], un movimiento religioso judío lleno de alegría y sabiduría popular. Defendió que judíos y árabes compartieran la tierra en paz.",
+    "ideas": [
+      "Podemos tratar a alguien como un «tú», con quien de verdad nos encontramos, o como un «ello», algo que usamos, como un camarero al que ni miramos.",
+      "Somos personas gracias a los encuentros: nadie se hace a sí mismo en soledad.",
+      "Dios es el gran «Tú» con quien podemos hablar, no una cosa de la que hablar."
+    ],
+    "curiosidad": "Junto a su amigo Franz Rosenzweig empezó a traducir la Biblia hebrea al alemán en 1925. Rosenzweig murió en 1929 y Buber terminó la traducción él solo en 1961.",
+    "frase": {
+      "texto": "Toda vida verdadera es encuentro.",
+      "fuente": "Yo y tú (1923)"
+    },
+    "obras": [
+      {
+        "titulo": "Yo y tú",
+        "anio": "1923",
+        "deQueVa": "Las dos formas de relacionarnos con el mundo y con los demás."
+      },
+      {
+        "titulo": "¿Qué es el hombre?",
+        "anio": "1942",
+        "deQueVa": "Repaso de lo que la filosofía ha dicho sobre el ser humano."
+      },
+      {
+        "titulo": "Caminos de utopía",
+        "anio": "1946",
+        "deQueVa": "Un socialismo basado en pequeñas comunidades."
+      },
+      {
+        "titulo": "Cuentos jasídicos",
+        "anio": "1949",
+        "deQueVa": "Historias y enseñanzas de los maestros jasídicos."
+      },
+      {
+        "titulo": "Eclipse de Dios",
+        "anio": "1952",
+        "deQueVa": "Por qué el mundo moderno ha perdido el contacto con Dios."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "emmanuel-levinas"
+    ]
+  },
+  {
+    "id": "emmanuel-levinas",
+    "nombre": "Emmanuel Lévinas",
+    "fechas": "1906 – 1995",
+    "region": "Francia",
+    "escuela": "Fenomenología (ética del otro)",
+    "categorias": [
+      "etica",
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Decir que el rostro del otro nos pide «no me mates» y que la ética es lo primero",
+    "resumen": "Lévinas fue un filósofo judío nacido en Lituania que vivió en Francia y estudió con Husserl y Heidegger. Vivió la Segunda Guerra Mundial y el Holocausto, que mató a gran parte de su familia, y eso marcó su pensamiento. Para él lo más importante no es saber qué es el ser, sino cómo respondemos a la otra persona. Cuando miramos de verdad la cara de alguien, sentimos que somos responsables de él.",
+    "ideas": [
+      "El rostro de otra persona, frágil y desnudo, nos dice sin palabras «no me mates» y nos hace responsables.",
+      "La ética va antes que todo lo demás: antes de entender el mundo, ya estamos llamados a cuidar del otro.",
+      "No podemos encerrar a los demás en lo que sabemos de ellos: siempre son más de lo que pensamos."
+    ],
+    "curiosidad": "Durante la Segunda Guerra Mundial pasó casi cinco años como prisionero de guerra en un campo de trabajo en Alemania. Mientras, casi toda su familia en Lituania fue asesinada por los nazis.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El tiempo y el otro",
+        "anio": "1947",
+        "deQueVa": "Conferencias sobre la soledad, la muerte y el encuentro con los demás."
+      },
+      {
+        "titulo": "Totalidad e infinito",
+        "anio": "1961",
+        "deQueVa": "Su gran obra: el rostro del otro y la responsabilidad."
+      },
+      {
+        "titulo": "De otro modo que ser, o más allá de la esencia",
+        "anio": "1974",
+        "deQueVa": "La responsabilidad por el otro llevada al extremo."
+      },
+      {
+        "titulo": "Ética e infinito",
+        "anio": "1982",
+        "deQueVa": "Entrevistas en las que explica su pensamiento de forma sencilla."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jacques-derrida"
+    ]
+  },
+  {
+    "id": "hans-georg-gadamer",
+    "nombre": "Hans-Georg Gadamer",
+    "fechas": "1900 – 2002",
+    "region": "Alemania",
+    "escuela": "Hermenéutica",
+    "categorias": [
+      "lenguaje",
+      "conocimiento",
+      "estetica"
+    ],
+    "conocidoPor": "Explicar que entender es como una conversación en la que se funden dos horizontes",
+    "resumen": "Gadamer fue un filósofo alemán, alumno de Heidegger, y el gran maestro de la [[hermenéutica|hermeneutica]], el arte de interpretar. Explicó que nunca entendemos nada desde cero: siempre partimos de lo que ya sabemos y creemos. Por eso comprender un libro, una obra de arte o a una persona es como mantener una conversación en la que ambas partes cambian. Vivió más de cien años y siguió dando conferencias hasta muy mayor.",
+    "ideas": [
+      "Siempre entendemos desde nuestros [[prejuicios|prejuicio-hermeneutico]], que no tienen por qué ser malos: son el punto de partida, como las gafas con que miramos.",
+      "Comprender es una [[fusión de horizontes|fusion-de-horizontes]]: cuando lees un libro antiguo, tu mundo y el del autor se encuentran y se mezclan.",
+      "El arte no es solo algo bonito: nos dice verdades sobre la vida que la ciencia no puede medir."
+    ],
+    "curiosidad": "Publicó su obra principal, «Verdad y método», con 60 años, y vivió hasta los 102.",
+    "frase": {
+      "texto": "El ser que puede ser comprendido es lenguaje.",
+      "fuente": "Verdad y método (1960), tercera parte"
+    },
+    "obras": [
+      {
+        "titulo": "Verdad y método",
+        "anio": "1960",
+        "deQueVa": "Su gran obra: cómo comprendemos el arte, la historia y el lenguaje."
+      },
+      {
+        "titulo": "La actualidad de lo bello",
+        "anio": "1977",
+        "deQueVa": "El arte como juego, símbolo y fiesta."
+      },
+      {
+        "titulo": "Mis años de aprendizaje",
+        "anio": "1977",
+        "deQueVa": "Recuerdos de su vida y de sus maestros."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jurgen-habermas",
+      "richard-rorty",
+      "paul-ricur"
+    ]
+  },
+  {
+    "id": "paul-ricur",
+    "nombre": "Paul Ricoeur",
+    "fechas": "1913 – 2005",
+    "region": "Francia",
+    "escuela": "Hermenéutica",
+    "categorias": [
+      "lenguaje",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que entendemos quiénes somos contando nuestra vida como una historia",
+    "resumen": "Ricoeur fue un filósofo francés protestante que unió la [[fenomenología|fenomenologia]] con la [[hermenéutica|hermeneutica]], el arte de interpretar. Estudió los símbolos, las metáforas y los relatos, y concluyó que nos entendemos a nosotros mismos a través de las historias que contamos. Llamó a Marx, Nietzsche y Freud los «maestros de la sospecha», porque enseñaron a desconfiar de lo que parece evidente. También escribió sobre la memoria, el olvido y el perdón.",
+    "ideas": [
+      "Tu identidad es como una novela: unes recuerdos sueltos en una historia con sentido, y esa historia puede reescribirse.",
+      "Marx, Nietzsche y Freud nos enseñaron a sospechar: detrás de lo que decimos puede haber intereses, miedos o deseos ocultos.",
+      "Una buena [[metáfora|metafora]] no es un adorno: nos hace ver el mundo de una forma nueva, como decir que «el tiempo es oro»."
+    ],
+    "curiosidad": "Fue prisionero de guerra de 1940 a 1945 y en el campo tradujo al francés un libro de Husserl. Años después, el joven Emmanuel Macron trabajó como ayudante suyo en la edición de un libro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Finitud y culpabilidad",
+        "anio": "1960",
+        "deQueVa": "El mal humano visto a través de mitos y símbolos."
+      },
+      {
+        "titulo": "Freud: una interpretación de la cultura",
+        "anio": "1965",
+        "deQueVa": "Lectura filosófica del psicoanálisis."
+      },
+      {
+        "titulo": "La metáfora viva",
+        "anio": "1975",
+        "deQueVa": "Cómo las metáforas crean nuevos significados."
+      },
+      {
+        "titulo": "Tiempo y narración",
+        "anio": "1983 – 1985",
+        "deQueVa": "Por qué contar historias nos ayuda a entender el tiempo."
+      },
+      {
+        "titulo": "Sí mismo como otro",
+        "anio": "1990",
+        "deQueVa": "Quiénes somos y cómo nos hacemos responsables."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "theodor-w-adorno",
+    "nombre": "Theodor Adorno",
+    "fechas": "1903 – 1969",
+    "region": "Alemania",
+    "escuela": "Teoría crítica (Escuela de Fráncfort)",
+    "categorias": [
+      "sociedad",
+      "estetica",
+      "politica"
+    ],
+    "conocidoPor": "Criticar la [[industria cultural|industria-cultural]], que fabrica canciones y películas en serie, y pensar tras Auschwitz",
+    "resumen": "Adorno fue un filósofo, sociólogo y músico alemán, una de las cabezas de la [[teoría crítica|teoria-critica]] de la Escuela de Fráncfort. Huyó del nazismo a Estados Unidos y allí vio de cerca Hollywood y la radio comercial. Pensaba que la cultura de masas fabrica entretenimiento en serie que nos mantiene pasivos y conformes. También se preguntó cómo seguir pensando y creando después del horror de Auschwitz.",
+    "ideas": [
+      "La [[industria cultural|industria-cultural]] produce canciones y películas como coches en una fábrica: todas parecidas, para que consumamos sin pensar.",
+      "La [[razón|razon]] que prometía liberarnos se convirtió también en una herramienta para dominar a la naturaleza y a las personas.",
+      "En un mundo injusto no basta con vivir bien uno mismo: no hay vida correcta en medio de una vida falsa."
+    ],
+    "curiosidad": "Antes de dedicarse a la filosofía estudió composición musical en Viena con el compositor Alban Berg.",
+    "frase": {
+      "texto": "Escribir un poema después de Auschwitz es un acto de barbarie.",
+      "fuente": "«Crítica de la cultura y sociedad» (1949; publicado en 1951). Más tarde él mismo matizó esta idea"
+    },
+    "obras": [
+      {
+        "titulo": "Dialéctica de la Ilustración",
+        "anio": "1944 – 1947",
+        "deQueVa": "Con Horkheimer: cómo la razón moderna acabó sirviendo a la dominación."
+      },
+      {
+        "titulo": "La personalidad autoritaria",
+        "anio": "1950",
+        "deQueVa": "Estudio colectivo sobre qué hace a una persona propensa al fascismo."
+      },
+      {
+        "titulo": "Minima moralia",
+        "anio": "1951",
+        "deQueVa": "Pensamientos breves sobre la vida dañada en el mundo moderno."
+      },
+      {
+        "titulo": "Dialéctica negativa",
+        "anio": "1966",
+        "deQueVa": "Pensar sin encerrar la realidad en sistemas cerrados."
+      },
+      {
+        "titulo": "Teoría estética",
+        "anio": "1970",
+        "deQueVa": "El arte como protesta frente a un mundo injusto."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jurgen-habermas"
+    ]
+  },
+  {
+    "id": "max-horkheimer",
+    "nombre": "Max Horkheimer",
+    "fechas": "1895 – 1973",
+    "region": "Alemania",
+    "escuela": "Teoría crítica (Escuela de Fráncfort)",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Dirigir la Escuela de Fráncfort y criticar la [[razón instrumental|razon-instrumental]], que solo calcula medios",
+    "resumen": "Horkheimer fue un filósofo alemán que dirigió desde 1930 el Instituto de Investigación Social de Fráncfort, la llamada Escuela de Fráncfort. Allí creó la [[teoría crítica|teoria-critica]], una filosofía que no solo quiere describir la sociedad, sino ayudar a cambiarla para que sea más justa. Con Adorno escribió un libro clave sobre cómo la razón moderna se volvió contra la libertad. Al final de su vida habló de un anhelo de algo «totalmente otro» que la injusticia del mundo.",
+    "ideas": [
+      "La teoría crítica no se conforma con explicar cómo es la sociedad: pregunta por qué hay injusticia y cómo superarla.",
+      "La [[razón instrumental|razon-instrumental]] solo piensa en cómo conseguir algo, no en si merece la pena; como un GPS que te lleva rapidísimo sin preguntar adónde vas.",
+      "Cuando todo se mide en eficacia y beneficio, las personas acaban tratadas como piezas de una máquina."
+    ],
+    "curiosidad": "Con la llegada de Hitler llevó el Instituto al exilio, primero a Ginebra y luego a la Universidad de Columbia, en Nueva York. Tras la guerra lo reabrió en Fráncfort y fue rector de su universidad.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Teoría tradicional y teoría crítica",
+        "anio": "1937",
+        "deQueVa": "Artículo fundacional: qué distingue a la teoría crítica."
+      },
+      {
+        "titulo": "Dialéctica de la Ilustración",
+        "anio": "1944 – 1947",
+        "deQueVa": "Con Adorno: la razón moderna convertida en dominación."
+      },
+      {
+        "titulo": "Crítica de la razón instrumental",
+        "anio": "1947",
+        "deQueVa": "Cómo la razón se ha reducido a calcular medios eficaces."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jurgen-habermas",
+      "theodor-w-adorno"
+    ]
+  },
+  {
+    "id": "walter-benjamin",
+    "nombre": "Walter Benjamin",
+    "fechas": "1892 – 1940",
+    "region": "Alemania",
+    "escuela": "Teoría crítica (cercano a la Escuela de Fráncfort)",
+    "categorias": [
+      "estetica",
+      "sociedad",
+      "politica"
+    ],
+    "conocidoPor": "Explicar que las copias, la foto y el cine hacen perder su «[[aura]]» a las obras de arte",
+    "resumen": "Walter Benjamin fue un pensador y crítico alemán de origen judío, muy original y difícil de clasificar. Escribió sobre el arte, las ciudades, la fotografía, el cine, los juguetes y la historia. Pensaba que la historia hay que contarla también desde los vencidos y no solo desde los ganadores. Huyendo de los nazis murió en Portbou, en la frontera entre Francia y España, y dejó sin terminar un enorme libro sobre los pasajes comerciales de París.",
+    "ideas": [
+      "Un cuadro original tiene un «[[aura]]», una presencia única; las copias, las fotos y el cine la hacen perder, pero también acercan el arte a todo el mundo.",
+      "La historia que se cuenta suele ser la de los vencedores; hay que rescatar la de los vencidos y olvidados.",
+      "El paseante sin prisa, el [[flâneur|flaneur]], descubre en la ciudad pistas sobre cómo vivimos: escaparates, anuncios, multitudes."
+    ],
+    "curiosidad": "Era dueño del cuadro «Angelus Novus» de Paul Klee, y lo convirtió en su famosa imagen del «ángel de la historia», que mira hacia atrás mientras una tormenta lo empuja hacia el futuro.",
+    "frase": {
+      "texto": "No hay documento de cultura que no sea a la vez documento de barbarie.",
+      "fuente": "Sobre el concepto de historia (1940), tesis VII"
+    },
+    "obras": [
+      {
+        "titulo": "El origen del drama barroco alemán",
+        "anio": "1928",
+        "deQueVa": "Estudio sobre el teatro barroco que la universidad rechazó como tesis."
+      },
+      {
+        "titulo": "Calle de dirección única",
+        "anio": "1928",
+        "deQueVa": "Textos breves, como fragmentos de ciudad."
+      },
+      {
+        "titulo": "La obra de arte en la época de su reproductibilidad técnica",
+        "anio": "1936",
+        "deQueVa": "Cómo la foto y el cine cambian el arte."
+      },
+      {
+        "titulo": "Sobre el concepto de historia",
+        "anio": "1940",
+        "deQueVa": "Tesis breves sobre cómo mirar la historia desde los vencidos."
+      },
+      {
+        "titulo": "Libro de los pasajes",
+        "anio": "",
+        "deQueVa": "Obra inacabada sobre el París del siglo XIX, publicada tras su muerte."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«The Work of Art in the Age of Mechanical Reproduction» (traducción inglesa)",
+        "url": "https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«On the Concept of History» (traducción inglesa)",
+        "url": "https://www.marxists.org/reference/archive/benjamin/1940/history.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "theodor-w-adorno",
+      "giorgio-agamben"
+    ]
+  }
+]

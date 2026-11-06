@@ -1,0 +1,2215 @@
+[
+ {
+  "id": "slavoj-zizek",
+  "nombre": "Slavoj Žižek",
+  "fechas": "1949 –",
+  "region": "Eslovenia",
+  "escuela": "Marxismo y psicoanálisis lacaniano",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "estetica"
+  ],
+  "conocidoPor": "Explicar la [[ideologia]] con chistes, películas y Coca-Cola: el filósofo «estrella del rock»",
+  "resumen": "Filósofo esloveno que mezcla a Hegel, Marx y el [[psicoanálisis|psicoanalisis]] con películas de Hollywood, chistes y anuncios. Es famoso por sus charlas llenas de energía y por llevar la contraria a todo el mundo. Su gran tema es por qué seguimos creyendo cosas que, en el fondo, sabemos que no son verdad.",
+  "ideas": [
+   "La [[ideología|ideologia]] no es solo una mentira que nos cuentan: es lo que hacemos aunque digamos que no nos lo creemos, como quien se ríe del consumismo mientras hace cola en rebajas.",
+   "El cine es un buen espejo de nuestros deseos: una película de terror o de ciencia ficción puede decir más de una sociedad que un periódico.",
+   "Comprar un café «solidario» nos hace sentir buenos sin cambiar nada; así el [[capitalismo]] nos vende hasta la mala conciencia."
+  ],
+  "curiosidad": "Protagoniza dos documentales, «Guía perversa del cine» (2006) y «Guía ideológica para pervertidos» (2012), en los que explica filosofía comentando películas famosas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El sublime objeto de la ideología",
+    "anio": "1989",
+    "deQueVa": "Su primer libro en inglés: por qué seguimos atados a creencias que decimos no tener."
+   },
+   {
+    "titulo": "Visión de paralaje",
+    "anio": "2006",
+    "deQueVa": "Cómo una misma cosa cambia según desde dónde la mires."
+   },
+   {
+    "titulo": "Menos que nada",
+    "anio": "2012",
+    "deQueVa": "Un tocho enorme sobre Hegel leído con ojos de hoy."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "byung-chul-han",
+  "nombre": "Byung-Chul Han",
+  "fechas": "1959 –",
+  "region": "Corea del Sur / Alemania",
+  "escuela": "Crítica cultural contemporánea",
+  "categorias": [
+   "sociedad",
+   "existencia",
+   "politica"
+  ],
+  "conocidoPor": "Decir que hoy no nos explota un jefe: nos explotamos nosotros mismos y por eso vivimos agotados",
+  "resumen": "Filósofo nacido en Seúl que escribe en alemán libros cortos y muy leídos, sobre todo en España y Latinoamérica. Habla del cansancio, el móvil, las redes sociales y la prisa. Su idea estrella es que hoy nadie nos obliga a trabajar sin parar: lo hacemos solos, convencidos de que somos libres.",
+  "ideas": [
+   "Vivimos en la «sociedad del cansancio»: el lema ya no es «debes», sino «tú puedes», y por eso nos exigimos hasta quemarnos, como quien contesta correos del trabajo a medianoche.",
+   "Querer que todo sea transparente y visible, como en Instagram, no nos hace más libres: nos convierte en escaparates.",
+   "El poder de hoy no necesita prohibir: le basta con que demos «me gusta» y contemos nuestra vida en internet. Él lo llama [[psicopolítica|psicopolitica]]."
+  ],
+  "curiosidad": "Antes de la filosofía estudió metalurgia en Corea; en los años ochenta se fue a Alemania para estudiar filosofía, literatura y teología.",
+  "frase": {
+   "texto": "Cada época tiene sus enfermedades emblemáticas.",
+   "fuente": "La sociedad del cansancio (2010), primera frase"
+  },
+  "obras": [
+   {
+    "titulo": "La sociedad del cansancio",
+    "anio": "2010",
+    "deQueVa": "Por qué hoy enfermamos de agotamiento, ansiedad y estrés."
+   },
+   {
+    "titulo": "La sociedad de la transparencia",
+    "anio": "2012",
+    "deQueVa": "El lado oscuro de enseñarlo y contarlo todo."
+   },
+   {
+    "titulo": "Psicopolítica",
+    "anio": "2014",
+    "deQueVa": "Cómo el poder nos controla a través de nuestros datos y deseos."
+   },
+   {
+    "titulo": "La desaparición de los rituales",
+    "anio": "2019",
+    "deQueVa": "Por qué echamos de menos las costumbres que nos unen."
+   },
+   {
+    "titulo": "No-cosas",
+    "anio": "2021",
+    "deQueVa": "Vivimos rodeados de información y pantallas en vez de cosas que se tocan."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "giorgio-agamben",
+  "nombre": "Giorgio Agamben",
+  "fechas": "1942 –",
+  "region": "Italia",
+  "escuela": "Filosofía política continental",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "lenguaje"
+  ],
+  "conocidoPor": "Avisar de que el «estado de excepción», saltarse las reglas por una emergencia, se ha vuelto lo normal",
+  "resumen": "Filósofo italiano que estudia cómo el poder decide sobre nuestras vidas. Recuperó una figura del derecho romano, el «[[homo sacer|homo-sacer]]», alguien al que se podía matar sin castigo. Con ella explica cómo los Estados, en nombre de una emergencia, pueden dejar a personas sin ningún derecho.",
+  "ideas": [
+   "Hay vidas a las que se trata solo como cuerpos que sobreviven, sin derechos: él lo llama «[[nuda vida|nuda-vida]]», y pone como ejemplo los campos de concentración o los refugiados.",
+   "El [[estado de excepción|estado-de-excepcion]], suspender las leyes «solo por un tiempo», tiende a quedarse para siempre.",
+   "Para entender la política de hoy hay que mirar a la [[biopolítica|biopolitica]]: el poder ya no solo castiga, también gestiona nuestra salud y nuestros cuerpos."
+  ],
+  "curiosidad": "De joven hizo de apóstol Felipe en la película «El Evangelio según San Mateo» (1964), de Pier Paolo Pasolini.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Homo sacer. El poder soberano y la nuda vida",
+    "anio": "1995",
+    "deQueVa": "Cómo el poder decide quién tiene derechos y quién no."
+   },
+   {
+    "titulo": "Lo que queda de Auschwitz",
+    "anio": "1998",
+    "deQueVa": "Sobre los testigos del Holocausto y lo que no se puede contar."
+   },
+   {
+    "titulo": "Estado de excepción",
+    "anio": "2003",
+    "deQueVa": "Qué pasa cuando las leyes se suspenden por una emergencia."
+   },
+   {
+    "titulo": "¿Qué es un dispositivo?",
+    "anio": "2006",
+    "deQueVa": "Ensayo breve sobre cómo los aparatos y las instituciones nos moldean."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«L'invenzione di un'epidemia» (2020), su polémico artículo sobre la covid (italiano)",
+    "url": "https://www.quodlibet.it/giorgio-agamben-l-invenzione-di-un-epidemia",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "alain-badiou",
+  "nombre": "Alain Badiou",
+  "fechas": "1937 –",
+  "region": "Francia",
+  "escuela": "Filosofía del acontecimiento (marxismo)",
+  "categorias": [
+   "metafisica",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Defender que existen verdades universales que nacen de un «acontecimiento» que lo cambia todo",
+  "resumen": "Filósofo francés nacido en Rabat (Marruecos) que usa las matemáticas para pensar qué es la realidad. Mientras muchos de su generación decían que no hay verdades, él sostiene que sí las hay. También es novelista, autor de teatro y un activista comunista que nunca ha dejado de opinar de política.",
+  "ideas": [
+   "Un «[[acontecimiento]]» es algo inesperado que rompe lo de siempre: una revolución, un descubrimiento científico, una obra de arte nueva o enamorarse.",
+   "Ser fiel a ese acontecimiento, seguir adelante con lo que abrió aunque cueste, es lo que nos convierte en verdaderos [[sujetos|sujeto]].",
+   "El amor no es un contrato ni un cálculo: es construir el mundo desde dos miradas en vez de desde una."
+  ],
+  "curiosidad": "Junto a Gilles Deleuze, Michel Foucault y Jean-François Lyotard fundó el departamento de filosofía de la Universidad de París VIII (Vincennes), nacida tras Mayo del 68.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El ser y el acontecimiento",
+    "anio": "1988",
+    "deQueVa": "Su gran obra: la realidad pensada con matemáticas, y cómo surge lo nuevo."
+   },
+   {
+    "titulo": "La ética",
+    "anio": "1993",
+    "deQueVa": "Crítica de la ética de los derechos humanos «de manual»."
+   },
+   {
+    "titulo": "Elogio del amor",
+    "anio": "2009",
+    "deQueVa": "Charla breve y sencilla sobre el amor como aventura."
+   },
+   {
+    "titulo": "La hipótesis comunista",
+    "anio": "2009",
+    "deQueVa": "Por qué cree que la idea comunista sigue viva."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jacques-ranciere",
+  "nombre": "Jacques Rancière",
+  "fechas": "1940 –",
+  "region": "Francia",
+  "escuela": "Filosofía política y estética",
+  "categorias": [
+   "politica",
+   "estetica",
+   "sociedad"
+  ],
+  "conocidoPor": "Partir de una idea radical: todos tenemos la misma inteligencia, y la política empieza al demostrarlo",
+  "resumen": "Filósofo francés nacido en Argel. Fue alumno de Althusser, pero rompió con él tras Mayo del 68. Desde entonces defiende que cualquier persona, sea obrera o catedrática, es igual de capaz de pensar, y que la política de verdad aparece cuando los que «no cuentan» toman la palabra.",
+  "ideas": [
+   "Un buen maestro no es el que explica todo, sino el que confía en que el alumno puede aprender por su cuenta: a eso lo llama «maestro ignorante».",
+   "La política no es gestionar: es el momento en que los invisibles, como unos obreros en huelga, exigen ser escuchados.",
+   "El arte decide qué se ve y qué no en una sociedad: Rancière lo llama «[[reparto de lo sensible|reparto-de-lo-sensible]]»."
+  ],
+  "curiosidad": "En 1965, con apenas 25 años, firmó junto a Louis Althusser y otros el libro colectivo «Para leer El capital».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La noche de los proletarios",
+    "anio": "1981",
+    "deQueVa": "Obreros del siglo XIX que, de noche, escribían poesía y filosofía."
+   },
+   {
+    "titulo": "El maestro ignorante",
+    "anio": "1987",
+    "deQueVa": "Un profesor que enseñó lo que él mismo no sabía."
+   },
+   {
+    "titulo": "El desacuerdo",
+    "anio": "1995",
+    "deQueVa": "La política como conflicto sobre quién tiene voz."
+   },
+   {
+    "titulo": "El reparto de lo sensible",
+    "anio": "2000",
+    "deQueVa": "Cómo el arte y la política deciden lo que se ve y se oye."
+   },
+   {
+    "titulo": "El espectador emancipado",
+    "anio": "2008",
+    "deQueVa": "El público no es pasivo: también piensa e interpreta."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "peter-sloterdijk",
+  "nombre": "Peter Sloterdijk",
+  "fechas": "1947 –",
+  "region": "Alemania",
+  "escuela": "Filosofía de la cultura",
+  "categorias": [
+   "sociedad",
+   "existencia",
+   "etica"
+  ],
+  "conocidoPor": "Su «Crítica de la razón cínica» y pensar la vida humana como un vivir dentro de «esferas»",
+  "resumen": "Filósofo alemán muy mediático, con un estilo brillante y provocador. Se hizo famoso al describir el [[cinismo|cinismo-moderno]] de nuestra época: sabemos que algo está mal, pero lo seguimos haciendo. También ha pensado la historia humana como la de seres que siempre buscan una «burbuja» protectora: la madre, la casa, la ciudad.",
+  "ideas": [
+   "Hoy somos [[cínicos|cinismo-moderno]] «ilustrados»: sabemos que la comida basura nos hace daño, y aun así la pedimos con una sonrisa.",
+   "Los humanos vivimos siempre dentro de «[[esferas]]», espacios compartidos que nos protegen, desde el vientre materno hasta las ciudades.",
+   "Somos seres que se entrenan: rezar, estudiar o hacer deporte son ejercicios para mejorarnos a nosotros mismos."
+  ],
+  "curiosidad": "Entre 2002 y 2012 copresentó en la televisión alemana «Das Philosophische Quartett», un programa de debate filosófico.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Crítica de la razón cínica",
+    "anio": "1983",
+    "deQueVa": "Retrato de una sociedad que lo sabe todo y no cambia nada."
+   },
+   {
+    "titulo": "Esferas (trilogía)",
+    "anio": "1998–2004",
+    "deQueVa": "Historia de los espacios que los humanos crean para protegerse."
+   },
+   {
+    "titulo": "Normas para el parque humano",
+    "anio": "1999",
+    "deQueVa": "Polémica conferencia sobre la educación y la técnica genética."
+   },
+   {
+    "titulo": "Has de cambiar tu vida",
+    "anio": "2009",
+    "deQueVa": "La vida humana como un entrenamiento constante."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "zygmunt-bauman",
+  "nombre": "Zygmunt Bauman",
+  "fechas": "1925 – 2017",
+  "region": "Polonia / Reino Unido",
+  "escuela": "Sociología y teoría crítica de la modernidad",
+  "categorias": [
+   "sociedad",
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Llamar «[[modernidad líquida|modernidad-liquida]]» a un mundo donde trabajos, amores y vínculos ya no duran",
+  "resumen": "Sociólogo y filósofo polaco que acabó en Inglaterra tras ser expulsado de su país en 1968. Se hizo mundialmente famoso con una imagen sencilla: antes la vida era «sólida» (un trabajo, una pareja, una ciudad para siempre) y ahora es «líquida», todo cambia y se escurre. Sus libros explican la ansiedad de una época de contratos temporales y relaciones de usar y tirar.",
+  "ideas": [
+   "En la [[modernidad líquida|modernidad-liquida]] nada se queda quieto: cambiamos de trabajo, de casa y de amigos como quien cambia de móvil.",
+   "El «amor líquido» es querer relaciones que no aten: conectarse y desconectarse como en una red social.",
+   "El Holocausto no fue un regreso a la barbarie, sino algo posible gracias a la organización moderna: [[burocracia]], trenes, horarios y gente que «solo cumplía órdenes»."
+  ],
+  "curiosidad": "En 1968 el gobierno comunista de Polonia, en plena campaña antisemita, lo echó de la universidad y le obligó a renunciar a su nacionalidad; emigró a Israel y luego a Leeds (Inglaterra).",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Modernidad y Holocausto",
+    "anio": "1989",
+    "deQueVa": "Cómo la sociedad moderna hizo posible el exterminio."
+   },
+   {
+    "titulo": "Modernidad líquida",
+    "anio": "2000",
+    "deQueVa": "Su libro más famoso: un mundo donde nada dura."
+   },
+   {
+    "titulo": "Amor líquido",
+    "anio": "2003",
+    "deQueVa": "Las relaciones de pareja en tiempos de prisa e inseguridad."
+   },
+   {
+    "titulo": "Vida de consumo",
+    "anio": "2007",
+    "deQueVa": "Cuando las personas se tratan a sí mismas como productos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "noam-chomsky",
+  "nombre": "Noam Chomsky",
+  "fechas": "1928 –",
+  "region": "Estados Unidos",
+  "escuela": "Lingüística generativa y anarquismo",
+  "categorias": [
+   "lenguaje",
+   "mente",
+   "politica",
+   "ciencia"
+  ],
+  "conocidoPor": "Decir que nacemos con una [[gramática universal|gramatica-universal]] y criticar sin descanso al poder",
+  "resumen": "Lingüista y filósofo estadounidense, llamado a menudo «el padre de la lingüística moderna». Se preguntó cómo un niño aprende a hablar tan rápido con tan pocos ejemplos, y concluyó que el cerebro trae de serie una capacidad para el lenguaje. Además es uno de los críticos más conocidos de la política exterior de su país y de los grandes medios de comunicación.",
+  "ideas": [
+   "Los niños no aprenden a hablar solo imitando: nacen con una especie de «programa» para el lenguaje que comparten todas las lenguas, la [[gramática universal|gramatica-universal]].",
+   "Una frase puede ser gramaticalmente perfecta y no tener ningún sentido: eso demuestra que la gramática funciona aparte del significado.",
+   "Los grandes medios no necesitan censura para desinformar: les basta con depender de anunciantes y gobiernos para «fabricar» el [[consenso]]."
+  ],
+  "curiosidad": "En los años setenta unos científicos llamaron «Nim Chimpsky», en broma por él, a un chimpancé al que intentaron enseñar lengua de signos para ver si los monos podían aprender un lenguaje.",
+  "frase": {
+   "texto": "Las ideas verdes incoloras duermen furiosamente.",
+   "fuente": "Estructuras sintácticas (1957): su famoso ejemplo de frase con gramática correcta pero sin sentido"
+  },
+  "obras": [
+   {
+    "titulo": "Estructuras sintácticas",
+    "anio": "1957",
+    "deQueVa": "El librito que revolucionó la lingüística."
+   },
+   {
+    "titulo": "Aspectos de la teoría de la sintaxis",
+    "anio": "1965",
+    "deQueVa": "Cómo funciona la gramática que todos llevamos dentro."
+   },
+   {
+    "titulo": "El conocimiento del lenguaje",
+    "anio": "1986",
+    "deQueVa": "Qué sabe en realidad alguien que habla una lengua."
+   },
+   {
+    "titulo": "Los guardianes de la libertad (con Edward S. Herman)",
+    "anio": "1988",
+    "deQueVa": "Cómo los medios de comunicación filtran las noticias."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«The Responsibility of Intellectuals» (1967), su famoso ensayo contra la guerra de Vietnam (inglés)",
+    "url": "https://www.nybooks.com/articles/1967/02/23/a-special-supplement-the-responsibility-of-intelle/",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "amartya-sen",
+  "nombre": "Amartya Sen",
+  "fechas": "1933 –",
+  "region": "India",
+  "escuela": "Enfoque de las capacidades (economía del bienestar)",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Medir la riqueza de un país por lo que su gente puede hacer y ser, no solo por su dinero",
+  "resumen": "Economista y filósofo indio, premio Nobel de Economía en 1998. Cambió la forma de medir el progreso: no basta con saber cuánto dinero hay, hay que ver si la gente puede comer, estudiar, curarse y elegir su vida. Sus ideas inspiraron el [[Índice de Desarrollo Humano|indice-de-desarrollo-humano]] de la ONU.",
+  "ideas": [
+   "Lo importante no es lo que tienes, sino lo que puedes hacer con ello: una bici no sirve de nada a quien no puede pedalear. Es el enfoque de las «[[capacidades]]».",
+   "Las hambrunas casi nunca se deben a que falte comida, sino a que los pobres no pueden comprarla; y en democracias con prensa libre apenas ocurren.",
+   "El desarrollo es ganar libertad: poder leer, votar, trabajar o decir lo que piensas."
+  ],
+  "curiosidad": "Su nombre, Amartya («inmortal» en sánscrito), se lo puso el poeta Rabindranath Tagore, amigo de su familia.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la desigualdad económica",
+    "anio": "1973",
+    "deQueVa": "Cómo medir de forma justa lo desigual que es una sociedad."
+   },
+   {
+    "titulo": "Pobreza y hambrunas",
+    "anio": "1981",
+    "deQueVa": "Por qué la gente pasa hambre aunque haya comida."
+   },
+   {
+    "titulo": "Desarrollo y libertad",
+    "anio": "1999",
+    "deQueVa": "El progreso entendido como más libertad para vivir."
+   },
+   {
+    "titulo": "Identidad y violencia",
+    "anio": "2006",
+    "deQueVa": "Nadie es solo su religión o su nación: todos tenemos muchas identidades."
+   },
+   {
+    "titulo": "La idea de la justicia",
+    "anio": "2009",
+    "deQueVa": "Mejor reducir injusticias concretas que soñar con la sociedad perfecta."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Su conferencia del Premio Nobel (1998), «The Possibility of Social Choice» (inglés)",
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/lecture/",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": [
+   "martha-nussbaum"
+  ]
+ },
+ {
+  "id": "kwame-anthony-appiah",
+  "nombre": "Kwame Anthony Appiah",
+  "fechas": "1954 –",
+  "region": "Ghana / Reino Unido / Estados Unidos",
+  "escuela": "Cosmopolitismo (filosofía analítica)",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Defender el «[[cosmopolitismo]]»: podemos ser de un sitio y, a la vez, sentirnos parte de toda la humanidad",
+  "resumen": "Filósofo criado entre Ghana e Inglaterra que hoy enseña en Nueva York. Estudia la identidad: raza, nación, religión, clase. Su mensaje es optimista: las personas de culturas distintas no tienen por qué ponerse de acuerdo en todo para convivir y aprender unas de otras.",
+  "ideas": [
+   "Ser [[cosmopolita|cosmopolitismo]] es preocuparte por gente lejana sin dejar de querer a tu familia y a tu barrio.",
+   "Las identidades, como «africano» o «europeo», no son esencias fijas: son etiquetas que nos inventamos y que van cambiando.",
+   "Las grandes revoluciones morales, como acabar con los duelos o la esclavitud, triunfaron en parte cuando esas prácticas empezaron a verse como una vergüenza."
+  ],
+  "curiosidad": "Desde 2015 escribe «The Ethicist», la columna de consejos morales de la revista del New York Times, donde responde dudas de lectores.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "En la casa de mi padre",
+    "anio": "1992",
+    "deQueVa": "África y la filosofía de la cultura."
+   },
+   {
+    "titulo": "Cosmopolitismo",
+    "anio": "2006",
+    "deQueVa": "Ética para un mundo de extraños que comparten planeta."
+   },
+   {
+    "titulo": "El código de honor",
+    "anio": "2010",
+    "deQueVa": "Cómo el sentido del honor ayudó a acabar con costumbres crueles."
+   },
+   {
+    "titulo": "Las mentiras que nos unen",
+    "anio": "2018",
+    "deQueVa": "Raza, religión, nación, clase y cultura vistas con lupa."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Charla TED: «Is religion good or bad? (This is a trick question)» (inglés, subtítulos)",
+    "url": "https://www.ted.com/talks/kwame_anthony_appiah_is_religion_good_or_bad_this_is_a_trick_question",
+    "tipo": "video"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "gustavo-bueno",
+  "nombre": "Gustavo Bueno",
+  "fechas": "1924 – 2016",
+  "region": "España",
+  "escuela": "Materialismo filosófico",
+  "categorias": [
+   "metafisica",
+   "ciencia",
+   "religion",
+   "sociedad"
+  ],
+  "conocidoPor": "Crear su propio sistema, el «[[materialismo filosófico|materialismo-filosofico]]», y polemizar en la tele",
+  "resumen": "Filósofo español, catedrático en Oviedo durante décadas, que construyó un sistema filosófico completo al que llamó «[[materialismo filosófico|materialismo-filosofico]]». Estudió qué hace que algo sea una ciencia, de dónde vienen las religiones y qué es eso de «la cultura». Era un polemista temible, famoso por sus debates en televisión.",
+  "ideas": [
+   "Cada ciencia se «cierra» sobre su propio terreno, como la química con sus elementos; esa es su [[teoría del cierre categorial|teoria-del-cierre-categorial]].",
+   "Las primeras religiones nacieron del trato de los humanos con los animales, a los que veían como seres poderosos y misteriosos: de ahí el título «El animal divino».",
+   "La «cultura» con mayúscula se ha convertido en un mito casi sagrado que se usa para justificarlo todo, desde fiestas hasta fronteras."
+  ],
+  "curiosidad": "Ya mayor, grabó muchísimos vídeos cortos llamados «Teselas» explicando temas de filosofía, que hoy se pueden ver gratis en la web de su fundación.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Ensayos materialistas",
+    "anio": "1972",
+    "deQueVa": "Las bases de su sistema filosófico."
+   },
+   {
+    "titulo": "El animal divino",
+    "anio": "1985",
+    "deQueVa": "Una teoría sobre el origen de las religiones."
+   },
+   {
+    "titulo": "Teoría del cierre categorial",
+    "anio": "1992–1993",
+    "deQueVa": "Qué es una ciencia y en qué se diferencia de lo que no lo es."
+   },
+   {
+    "titulo": "El mito de la cultura",
+    "anio": "1996",
+    "deQueVa": "Crítica de la palabra «cultura» usada como algo sagrado."
+   },
+   {
+    "titulo": "España frente a Europa",
+    "anio": "1999",
+    "deQueVa": "Qué es España y cómo encaja en la historia."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Fundación Gustavo Bueno: textos y vídeos de sus clases",
+    "url": "https://www.fgbueno.es/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "adela-cortina",
+  "nombre": "Adela Cortina",
+  "fechas": "1947 –",
+  "region": "España",
+  "escuela": "Ética del discurso",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Inventar la palabra «[[aporofobia]]»: el rechazo al pobre, que molesta más que el extranjero",
+  "resumen": "Filósofa valenciana, catedrática de ética, una de las pensadoras más conocidas de España. Defiende que una sociedad con gente muy distinta puede ponerse de acuerdo en unos mínimos morales comunes. Se hizo famosa fuera de la universidad al ponerle nombre a algo que todos habíamos visto: el miedo y el desprecio al pobre.",
+  "ideas": [
+   "La [[aporofobia]] es rechazar al pobre: al turista rico extranjero se le recibe con los brazos abiertos; al inmigrante pobre, no.",
+   "Una sociedad plural necesita una «ética mínima»: no todos pensamos igual sobre la buena vida, pero sí podemos compartir unos valores básicos como no humillar a nadie.",
+   "La razón no es solo fría: para hacer el bien hace falta también corazón, compasión y sentir el dolor ajeno. Es la «razón cordial»."
+  ],
+  "curiosidad": "La palabra «aporofobia», que ella propuso en los años noventa, entró en el diccionario de la Real Academia Española en 2017 y ese año fue elegida «palabra del año» por la Fundéu.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Ética mínima",
+    "anio": "1986",
+    "deQueVa": "Qué valores podemos compartir aunque pensemos distinto."
+   },
+   {
+    "titulo": "Ciudadanos del mundo",
+    "anio": "1997",
+    "deQueVa": "Qué significa ser buen ciudadano hoy."
+   },
+   {
+    "titulo": "Ética de la razón cordial",
+    "anio": "2007",
+    "deQueVa": "Pensar la ética con la cabeza y con el corazón."
+   },
+   {
+    "titulo": "Aporofobia, el rechazo al pobre",
+    "anio": "2017",
+    "deQueVa": "Por qué nos molesta más la pobreza que la diferencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "amelia-valcarcel",
+  "nombre": "Amelia Valcárcel",
+  "fechas": "1950 –",
+  "region": "España",
+  "escuela": "Feminismo de la igualdad",
+  "categorias": [
+   "sociedad",
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Contar la historia del [[feminismo]] como una lucha por la igualdad que nace de la Ilustración",
+  "resumen": "Filósofa feminista madrileña que enseñó en Oviedo y en la UNED. Para ella el [[feminismo]] es hijo de la [[Ilustración|ilustracion]]: si todos los seres humanos son iguales, las mujeres también. Ha estudiado cómo se fue ganando esa igualdad paso a paso y qué queda por hacer. Sus posturas recientes sobre las leyes trans la han hecho también una figura polémica.",
+  "ideas": [
+   "El [[feminismo]] es la aplicación coherente de la igualdad: si los derechos son universales, no pueden quedarse a mitad de la humanidad.",
+   "La historia del feminismo se puede contar en grandes oleadas, del voto de las mujeres a la igualdad en el trabajo y en casa.",
+   "Las mujeres han tenido que pedir el «derecho al mal»: poder equivocarse y ser juzgadas como cualquiera, sin ser siempre santas o villanas."
+  ],
+  "curiosidad": "Ha sido miembro del Consejo de Estado, el principal órgano consultivo del Gobierno español, y vicepresidenta del Real Patronato del Museo del Prado.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sexo y filosofía",
+    "anio": "1991",
+    "deQueVa": "La filosofía vista desde la diferencia entre hombres y mujeres."
+   },
+   {
+    "titulo": "La política de las mujeres",
+    "anio": "1997",
+    "deQueVa": "Cómo han hecho política las mujeres y qué han conseguido."
+   },
+   {
+    "titulo": "Feminismo en el mundo global",
+    "anio": "2008",
+    "deQueVa": "La lucha por la igualdad en un mundo globalizado."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "enrique-dussel",
+  "nombre": "Enrique Dussel",
+  "fechas": "1934 – 2023",
+  "region": "Argentina / México",
+  "escuela": "Filosofía de la liberación",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad",
+   "religion"
+  ],
+  "conocidoPor": "Fundar la [[filosofía de la liberación|filosofia-de-la-liberacion]]: pensar el mundo desde los pobres y los excluidos",
+  "resumen": "Filósofo, historiador y teólogo argentino que vivió exiliado en México desde 1975. Se preguntó por qué la filosofía siempre se había pensado desde Europa y propuso mirar la historia desde América Latina, África o Asia. Para él, una ética de verdad empieza cuando escuchas a la víctima que tienes delante.",
+  "ideas": [
+   "La [[modernidad]] no empezó solo con ciencia y libertad: empezó en 1492 con la conquista de América, que fue su cara oculta.",
+   "La ética empieza en el rostro del pobre, del migrante o de la víctima que te pide ayuda, no en una teoría de despacho.",
+   "Hay que superar el [[eurocentrismo]]: creer que Europa es el centro de la historia y que lo demás es «periferia»."
+  ],
+  "curiosidad": "En 1973, en Argentina, un grupo de extrema derecha puso una bomba en su casa; poco después se exilió en México, donde vivió y enseñó el resto de su vida.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Filosofía de la liberación",
+    "anio": "1977",
+    "deQueVa": "Manifiesto de una filosofía pensada desde los oprimidos."
+   },
+   {
+    "titulo": "1492: el encubrimiento del otro",
+    "anio": "1992",
+    "deQueVa": "La conquista de América como origen del mito de la modernidad."
+   },
+   {
+    "titulo": "Ética de la liberación en la edad de la globalización y de la exclusión",
+    "anio": "1998",
+    "deQueVa": "Su gran libro de ética, escrito desde las víctimas."
+   },
+   {
+    "titulo": "20 tesis de política",
+    "anio": "2006",
+    "deQueVa": "Resumen sencillo de su filosofía política."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Web oficial sobre su vida y obra",
+    "url": "https://enriquedussel.com/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "paulo-freire",
+  "nombre": "Paulo Freire",
+  "fechas": "1921 – 1997",
+  "region": "Brasil",
+  "escuela": "Pedagogía crítica",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Escribir «Pedagogía del oprimido»: educar no es llenar cabezas, sino aprender a leer el mundo juntos",
+  "resumen": "Educador y filósofo brasileño, uno de los pedagogos más influyentes del siglo XX. Enseñó a leer a campesinos y obreros usando palabras de su propia vida, como «ladrillo» o «favela». Su libro «Pedagogía del oprimido» defiende que la educación nunca es neutral: o te ayuda a ser libre o te acostumbra a obedecer.",
+  "ideas": [
+   "La «[[educación bancaria|educacion-bancaria]]» trata al alumno como una hucha donde el profesor «deposita» datos; Freire la rechazaba.",
+   "Aprender a leer las palabras va unido a aprender a «leer el mundo»: entender por qué eres pobre es el primer paso para cambiarlo.",
+   "Profesor y alumno aprenden los dos, en [[diálogo|dialogo]]; nadie lo sabe todo y nadie lo ignora todo."
+  ],
+  "curiosidad": "Tras el golpe militar de 1964 en Brasil pasó unos setenta días en la cárcel y tuvo que exiliarse; vivió fuera de su país unos dieciséis años, sobre todo en Chile, donde escribió «Pedagogía del oprimido».",
+  "frase": {
+   "texto": "Nadie educa a nadie, nadie se educa a sí mismo; los hombres se educan entre sí con la mediación del mundo.",
+   "fuente": "Pedagogía del oprimido (1968), cap. 2"
+  },
+  "obras": [
+   {
+    "titulo": "La educación como práctica de la libertad",
+    "anio": "1967",
+    "deQueVa": "Su método para enseñar a leer a adultos."
+   },
+   {
+    "titulo": "Pedagogía del oprimido",
+    "anio": "1968",
+    "deQueVa": "Educar para liberar, no para domesticar."
+   },
+   {
+    "titulo": "Pedagogía de la esperanza",
+    "anio": "1992",
+    "deQueVa": "Vuelve sobre su gran libro veinticinco años después."
+   },
+   {
+    "titulo": "Pedagogía de la autonomía",
+    "anio": "1996",
+    "deQueVa": "Consejos para ser buen profesor."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "bell-hooks"
+  ]
+ },
+ {
+  "id": "leopoldo-zea",
+  "nombre": "Leopoldo Zea",
+  "fechas": "1912 – 2004",
+  "region": "México",
+  "escuela": "Filosofía latinoamericanista",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Defender que América Latina tiene su propia filosofía, sin tener que copiar a Europa",
+  "resumen": "Filósofo mexicano, discípulo del español exiliado José Gaos. Dedicó su vida a una pregunta: ¿pueden los latinoamericanos pensar por sí mismos o solo repiten lo que viene de Europa? Su respuesta fue que la filosofía hecha en América es filosofía «sin más», tan válida como cualquier otra.",
+  "ideas": [
+   "Hay que estudiar las ideas en su contexto: el [[positivismo]] en México no fue igual que en Francia, porque se usó para fines propios.",
+   "La filosofía latinoamericana no es una copia de segunda: nace de pensar la propia historia, con su conquista, su mestizaje y su dependencia.",
+   "Tomar conciencia de la propia historia, con sus heridas, es el primer paso para dejar de ser [[periferia]] de otros."
+  ],
+  "curiosidad": "Estudiaba Derecho y Filosofía mientras trabajaba de noche; su profesor José Gaos le consiguió una beca para que pudiera dedicarse solo a la filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El positivismo en México",
+    "anio": "c. 1943",
+    "deQueVa": "Cómo una filosofía europea se adaptó a la historia mexicana."
+   },
+   {
+    "titulo": "América como conciencia",
+    "anio": "1953",
+    "deQueVa": "América Latina pensándose a sí misma."
+   },
+   {
+    "titulo": "La filosofía americana como filosofía sin más",
+    "anio": "1969",
+    "deQueVa": "Por qué la filosofía latinoamericana vale tanto como cualquier otra."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jose-vasconcelos",
+  "nombre": "José Vasconcelos",
+  "fechas": "1882 – 1959",
+  "region": "México",
+  "escuela": "Filosofía mexicana (espiritualismo)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Soñar con una «raza cósmica»: un futuro mestizo en América que mezclaría a todos los pueblos",
+  "resumen": "Escritor, filósofo y político mexicano, figura clave tras la Revolución mexicana. Como primer secretario de Educación Pública llevó escuelas, bibliotecas y libros clásicos baratos a todo el país. En «La raza cósmica» imaginó que América Latina, por ser [[mestiza|mestizaje]], daría lugar a una humanidad nueva; una idea muy influyente, aunque hoy también se critica.",
+  "ideas": [
+   "El [[mestizaje]] no es una mancha, sino una riqueza: de la mezcla de pueblos saldría una «quinta raza» universal.",
+   "La educación es la mejor herramienta para cambiar un país: alfabetizar es tan importante como construir carreteras.",
+   "El arte y la belleza tienen un papel central en la vida humana, por encima del simple cálculo práctico."
+  ],
+  "curiosidad": "Siendo secretario de Educación encargó a pintores como Diego Rivera y José Clemente Orozco murales en edificios públicos, el arranque del muralismo mexicano.",
+  "frase": {
+   "texto": "Por mi raza hablará el espíritu.",
+   "fuente": "Lema que propuso para la Universidad Nacional de México (1921), siendo rector"
+  },
+  "obras": [
+   {
+    "titulo": "La raza cósmica",
+    "anio": "1925",
+    "deQueVa": "América Latina como cuna de una humanidad mestiza nueva."
+   },
+   {
+    "titulo": "Indología",
+    "anio": "1926",
+    "deQueVa": "Reflexiones sobre la cultura iberoamericana."
+   },
+   {
+    "titulo": "Ulises criollo",
+    "anio": "1935",
+    "deQueVa": "Sus memorias: infancia, Revolución y política."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ayn-rand",
+  "nombre": "Ayn Rand",
+  "fechas": "1905 – 1982",
+  "region": "Rusia / Estados Unidos",
+  "escuela": "Objetivismo",
+  "categorias": [
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Defender en novelas superventas el «egoísmo racional» y un [[capitalismo]] sin apenas Estado",
+  "resumen": "Escritora nacida en San Petersburgo que huyó de la Rusia soviética y triunfó en Estados Unidos con novelas como «El manantial» y «La rebelión de Atlas». Creó su propia filosofía, el [[objetivismo]], que pone por delante la razón y al individuo. Es muy popular entre empresarios y [[libertarios|libertarismo]], y muy criticada por los filósofos académicos.",
+  "ideas": [
+   "Lo moral es buscar tu propia felicidad usando la razón; sacrificarte por los demás no es una virtud, sino un error.",
+   "Nadie debe usar la fuerza contra otro: por eso el Estado solo debería tener policía, tribunales y ejército.",
+   "El [[capitalismo]] sin trabas, el llamado [[laissez-faire]], es para ella el único sistema que respeta a las personas libres."
+  ],
+  "curiosidad": "En realidad se llamaba Alisa Rosenbaum; en Hollywood trabajó de extra y de guionista, y llegó a escribir para el director Cecil B. DeMille.",
+  "frase": {
+   "texto": "¿Quién es John Galt?",
+   "fuente": "La rebelión de Atlas (1957), primera frase de la novela"
+  },
+  "obras": [
+   {
+    "titulo": "Himno",
+    "anio": "1938",
+    "deQueVa": "Novela corta sobre un mundo donde está prohibido decir «yo»."
+   },
+   {
+    "titulo": "El manantial",
+    "anio": "1943",
+    "deQueVa": "Novela de un arquitecto que no acepta hacer concesiones."
+   },
+   {
+    "titulo": "La rebelión de Atlas",
+    "anio": "1957",
+    "deQueVa": "Los grandes emprendedores se ponen en huelga y el mundo se para."
+   },
+   {
+    "titulo": "La virtud del egoísmo",
+    "anio": "1964",
+    "deQueVa": "Ensayos que explican su ética."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hans-jonas",
+  "nombre": "Hans Jonas",
+  "fechas": "1903 – 1993",
+  "region": "Alemania / Estados Unidos",
+  "escuela": "Ética de la responsabilidad",
+  "categorias": [
+   "etica",
+   "ciencia",
+   "religion"
+  ],
+  "conocidoPor": "Pedir una ética para la era de la técnica: cuidar el planeta pensando en las generaciones futuras",
+  "resumen": "Filósofo judío alemán que tuvo que huir de los nazis. Se dio cuenta de que la técnica moderna nos da un poder enorme, capaz de destruir el planeta, y que las éticas antiguas no estaban pensadas para eso. Su libro «El principio de responsabilidad» es una de las bases del ecologismo y de la ética de la tecnología.",
+  "ideas": [
+   "Antes nuestros actos tenían efectos cercanos; hoy una central nuclear o el cambio climático afectan a gente que aún no ha nacido.",
+   "Ante una tecnología peligrosa, es mejor pensar primero en lo peor que puede pasar: él lo llamaba la «[[heurística del temor|heuristica-del-temor]]».",
+   "Tenemos responsabilidad con las generaciones futuras, como unos padres con un bebé que no puede defenderse solo."
+  ],
+  "curiosidad": "Fue alumno de Heidegger y amigo de toda la vida de Hannah Arendt; su madre fue asesinada en Auschwitz.",
+  "frase": {
+   "texto": "Obra de tal modo que los efectos de tu acción sean compatibles con la permanencia de una vida humana auténtica en la Tierra.",
+   "fuente": "El principio de responsabilidad (1979)"
+  },
+  "obras": [
+   {
+    "titulo": "La religión gnóstica",
+    "anio": "1958",
+    "deQueVa": "Estudio sobre unas antiguas sectas que veían el mundo como una cárcel."
+   },
+   {
+    "titulo": "El principio vida",
+    "anio": "1966",
+    "deQueVa": "Qué tienen de especial los seres vivos."
+   },
+   {
+    "titulo": "El principio de responsabilidad",
+    "anio": "1979",
+    "deQueVa": "Una ética para cuidar el futuro del planeta."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "edmund-gettier",
+  "nombre": "Edmund Gettier",
+  "fechas": "1927 – 2021",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica (teoría del conocimiento)",
+  "categorias": [
+   "conocimiento",
+   "logica"
+  ],
+  "conocidoPor": "Demostrar en solo tres páginas que «creencia verdadera y justificada» no basta para tener conocimiento",
+  "resumen": "Filósofo estadounidense famoso por un único artículo de tres páginas, publicado en 1963. Desde Platón se pensaba que saber algo era tener una creencia verdadera y bien razonada. Gettier inventó ejemplos en los que alguien cumple esas tres condiciones y, aun así, solo ha acertado por casualidad. Desde entonces se habla del «[[problema de Gettier|problema-de-gettier]]».",
+  "ideas": [
+   "Un ejemplo del mismo tipo: miras un reloj que lleva días parado y, por casualidad, marca la hora exacta; tu creencia es verdadera y razonable, pero has acertado de chiripa.",
+   "Tener razones y acertar no es lo mismo que saber: falta algo más, y aún se discute qué es.",
+   "Un buen contraejemplo, aunque sea muy breve, puede tumbar una teoría que se daba por buena durante siglos."
+  ],
+  "curiosidad": "Escribió el artículo porque sus colegas le insistieron en que publicara algo para conservar su plaza; casi no volvió a publicar nada más.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "¿Es conocimiento la creencia verdadera justificada?",
+    "anio": "1963",
+    "deQueVa": "Tres páginas que pusieron patas arriba la teoría del conocimiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bernard-williams",
+  "nombre": "Bernard Williams",
+  "fechas": "1929 – 2003",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica (ética)",
+  "categorias": [
+   "etica",
+   "mente",
+   "existencia"
+  ],
+  "conocidoPor": "Mostrar que la vida moral real es más complicada que cualquier teoría, y hablar de la «[[suerte moral|suerte-moral]]»",
+  "resumen": "Filósofo inglés, considerado uno de los grandes moralistas del siglo XX. Desconfiaba de las teorías éticas que lo resuelven todo con una fórmula, como el [[utilitarismo]]. Prefería mirar la vida tal como es: con sus dilemas, sus lealtades y sus golpes de suerte.",
+  "ideas": [
+   "Hay «[[suerte moral|suerte-moral]]»: dos conductores igual de despistados son juzgados distinto solo porque a uno se le cruzó un niño y al otro no.",
+   "Si tu pareja y un desconocido se ahogan, salvar a tu pareja sin hacer cálculos es lo correcto; pararte a buscar una regla que lo justifique sería «un pensamiento de más».",
+   "Una teoría moral que nos pide abandonar nuestros proyectos y afectos más hondos nos pide dejar de ser nosotros mismos."
+  ],
+  "curiosidad": "Estuvo casado con Shirley Williams, conocida política británica; su maestro Gilbert Ryle decía que entendía lo que ibas a decir mejor que tú mismo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Problemas del yo",
+    "anio": "1973",
+    "deQueVa": "Ensayos sobre la identidad personal y la mente."
+   },
+   {
+    "titulo": "La fortuna moral",
+    "anio": "1981",
+    "deQueVa": "Cómo la suerte influye en lo que juzgamos bueno o malo."
+   },
+   {
+    "titulo": "La ética y los límites de la filosofía",
+    "anio": "1985",
+    "deQueVa": "Por qué la ética no cabe en una fórmula."
+   },
+   {
+    "titulo": "Vergüenza y necesidad",
+    "anio": "1993",
+    "deQueVa": "Lo que los griegos antiguos aún pueden enseñarnos sobre moral."
+   },
+   {
+    "titulo": "Verdad y veracidad",
+    "anio": "2002",
+    "deQueVa": "Por qué nos importa tanto la verdad y ser sinceros."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "derek-parfit",
+  "nombre": "Derek Parfit",
+  "fechas": "1942 – 2017",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica (ética)",
+  "categorias": [
+   "etica",
+   "mente",
+   "metafisica"
+  ],
+  "conocidoPor": "Preguntar qué pasaría si un teletransportador te copiara, y concluir que tu «yo» importa menos de lo que crees",
+  "resumen": "Filósofo británico que pasó toda su carrera en Oxford y es considerado uno de los grandes pensadores morales de su tiempo. Usó [[experimentos mentales|experimento-mental]] con teletransportes y cerebros divididos para preguntarse qué es exactamente «ser yo». Su respuesta cambió también su forma de ver la muerte y nuestra responsabilidad con las generaciones futuras.",
+  "ideas": [
+   "Si una máquina te destruye aquí y crea una copia exacta en Marte, ¿has viajado o has muerto? Para Parfit, lo que importa es la continuidad de recuerdos y carácter, no un «yo» escondido.",
+   "Si el «yo» no es algo tan sólido, tiene menos sentido el egoísmo: tu «yo» de dentro de treinta años es casi otra persona.",
+   "Nuestras decisiones de hoy, como contaminar o no, deciden qué personas existirán mañana; eso plantea problemas morales nuevos, como la «[[conclusión repugnante|conclusion-repugnante]]»."
+  ],
+  "curiosidad": "Era un gran fotógrafo aficionado: durante años viajó una y otra vez a Venecia y San Petersburgo para fotografiar sus edificios.",
+  "frase": {
+   "texto": "Cuando cambié de opinión, las paredes de mi túnel de cristal desaparecieron.",
+   "fuente": "Razones y personas (1984), sobre cómo su idea del yo le quitó el miedo a la muerte"
+  },
+  "obras": [
+   {
+    "titulo": "Razones y personas",
+    "anio": "1984",
+    "deQueVa": "Identidad personal, egoísmo y deberes con el futuro."
+   },
+   {
+    "titulo": "On What Matters (Sobre lo que importa)",
+    "anio": "2011",
+    "deQueVa": "Intento de reconciliar las grandes teorías morales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ernst-cassirer",
+  "nombre": "Ernst Cassirer",
+  "fechas": "1874 – 1945",
+  "region": "Alemania",
+  "escuela": "Neokantismo (Escuela de Marburgo)",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Definir al ser humano como un «animal simbólico» que vive entre mitos, palabras, arte y ciencia",
+  "resumen": "Filósofo alemán de familia judía que tuvo que exiliarse con la llegada de los nazis. Partió de Kant para preguntarse cómo entendemos el mundo, y concluyó que lo hacemos a través de «[[formas simbólicas|formas-simbolicas]]»: el lenguaje, el mito, el arte, la religión y la ciencia. Fue además un gran defensor de la [[Ilustración|ilustracion]] y la democracia en tiempos oscuros.",
+  "ideas": [
+   "Los humanos no vivimos solo entre cosas, sino entre [[símbolos|simbolo]]: una bandera, una palabra o una fórmula nos dicen más que la tela, el ruido o la tinta.",
+   "El mito, el arte y la ciencia son formas distintas, todas valiosas, de dar sentido al mundo.",
+   "Los dictadores fabrican mitos modernos para manipular a la gente; por eso hay que conocer cómo funcionan."
+  ],
+  "curiosidad": "En 1929 mantuvo en Davos (Suiza) un famoso debate con Martin Heidegger que muchos ven como el momento en que la filosofía europea se partió en dos caminos.",
+  "frase": {
+   "texto": "Debemos definir al hombre como un animal simbólico.",
+   "fuente": "Antropología filosófica (An Essay on Man, 1944)"
+  },
+  "obras": [
+   {
+    "titulo": "Filosofía de las formas simbólicas",
+    "anio": "1923–1929",
+    "deQueVa": "Lenguaje, mito y ciencia como maneras de entender el mundo."
+   },
+   {
+    "titulo": "Filosofía de la Ilustración",
+    "anio": "1932",
+    "deQueVa": "Retrato de las ideas del siglo XVIII."
+   },
+   {
+    "titulo": "Antropología filosófica",
+    "anio": "1944",
+    "deQueVa": "Resumen sencillo de su idea del ser humano."
+   },
+   {
+    "titulo": "El mito del Estado",
+    "anio": "1946",
+    "deQueVa": "Cómo los totalitarismos usaron los mitos políticos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "max-weber",
+  "nombre": "Max Weber",
+  "fechas": "1864 – 1920",
+  "region": "Alemania",
+  "escuela": "Sociología comprensiva",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "religion",
+   "ciencia"
+  ],
+  "conocidoPor": "Explicar cómo una ética religiosa, la protestante, ayudó a nacer al [[capitalismo]]",
+  "resumen": "Sociólogo, economista e historiador alemán, uno de los padres de la sociología. Se preguntó por qué el [[capitalismo]] moderno surgió en Europa y encontró una pista en la religión: ciertos protestantes veían el trabajo duro y el ahorro como señal de salvación. También estudió el poder, la [[burocracia]] y cómo el mundo moderno se volvió cada vez más frío y calculador.",
+  "ideas": [
+   "La ética protestante del trabajo, ahorrar y no derrochar, empujó el nacimiento del [[capitalismo]].",
+   "El mundo moderno se ha «desencantado»: ya no lo explicamos con magia ni espíritus, sino con cálculo, ciencia y [[burocracia]], como una gran oficina llena de formularios.",
+   "El Estado es quien tiene el monopolio de la violencia legítima: solo él puede usar la fuerza de forma aceptada, por ejemplo con la policía."
+  ],
+  "curiosidad": "En 1897, tras una dura discusión con su padre, que murió poco después, sufrió una crisis nerviosa que le impidió dar clase durante años.",
+  "frase": {
+   "texto": "El destino de nuestro tiempo se caracteriza por la racionalización y la intelectualización y, sobre todo, por el desencantamiento del mundo.",
+   "fuente": "La ciencia como vocación (conferencia, 1917; publicada en 1919)"
+  },
+  "obras": [
+   {
+    "titulo": "La ética protestante y el espíritu del capitalismo",
+    "anio": "1904–1905",
+    "deQueVa": "Cómo la religión ayudó a crear la mentalidad capitalista."
+   },
+   {
+    "titulo": "La ciencia como vocación",
+    "anio": "1919",
+    "deQueVa": "Qué significa dedicarse a la ciencia en un mundo sin magia."
+   },
+   {
+    "titulo": "La política como vocación",
+    "anio": "1919",
+    "deQueVa": "Qué cualidades necesita un buen político."
+   },
+   {
+    "titulo": "Economía y sociedad",
+    "anio": "1922",
+    "deQueVa": "Su gran obra, publicada tras su muerte, sobre poder, economía y sociedad."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Politik als Beruf» (La política como vocación), texto original de 1919 en Wikisource (alemán)",
+    "url": "https://de.wikisource.org/wiki/Politik_als_Beruf",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "«Wissenschaft als Beruf» (La ciencia como vocación), texto original en Wikisource (alemán)",
+    "url": "https://de.wikisource.org/wiki/Wissenschaft_als_Beruf",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "gyorgy-lukacs",
+   "karl-jaspers",
+   "jurgen-habermas"
+  ]
+ },
+ {
+  "id": "sigmund-freud",
+  "nombre": "Sigmund Freud",
+  "fechas": "1856 – 1939",
+  "region": "Austria",
+  "escuela": "Psicoanálisis",
+  "categorias": [
+   "mente",
+   "sociedad",
+   "religion"
+  ],
+  "conocidoPor": "Descubrir que gran parte de lo que pensamos y deseamos es [[inconsciente]] y crear el [[psicoanálisis|psicoanalisis]]",
+  "resumen": "Médico neurólogo vienés, padre del [[psicoanálisis|psicoanalisis]] y uno de los pensadores más influyentes del siglo XX. Defendió que no somos dueños de nuestra propia mente: deseos y miedos ocultos se cuelan en sueños, chistes y despistes. Muchas de sus teorías se discuten hoy, pero palabras suyas como «trauma» o «represión» forman parte del lenguaje de todos.",
+  "ideas": [
+   "Gran parte de nuestra mente es [[inconsciente]]: hay deseos que no reconocemos y que salen a la luz en sueños o en un «lapsus», como llamar a tu pareja con el nombre de tu ex.",
+   "La mente tiene tres partes en conflicto: el «ello», que quiere todo ya; el «superyó», que prohíbe; y el «yo», que intenta poner paz entre ambos.",
+   "La civilización nos exige reprimir instintos para poder convivir, y ese precio se paga con malestar e infelicidad."
+  ],
+  "curiosidad": "En 1938, tras la anexión de Austria por los nazis, huyó a Londres; su famoso diván de pacientes se conserva allí, en el Museo Freud.",
+  "frase": {
+   "texto": "La interpretación de los sueños es la vía regia hacia el conocimiento de lo inconsciente.",
+   "fuente": "La interpretación de los sueños (1899), cap. VII"
+  },
+  "obras": [
+   {
+    "titulo": "La interpretación de los sueños",
+    "anio": "1899",
+    "deQueVa": "Los sueños como deseos disfrazados (aunque la portada pone 1900)."
+   },
+   {
+    "titulo": "Psicopatología de la vida cotidiana",
+    "anio": "1901",
+    "deQueVa": "Olvidos, despistes y lapsus que nos delatan."
+   },
+   {
+    "titulo": "Tres ensayos sobre teoría sexual",
+    "anio": "1905",
+    "deQueVa": "La sexualidad desde la infancia."
+   },
+   {
+    "titulo": "El yo y el ello",
+    "anio": "1923",
+    "deQueVa": "Las tres partes de la mente: ello, yo y superyó."
+   },
+   {
+    "titulo": "El malestar en la cultura",
+    "anio": "1930",
+    "deQueVa": "Por qué vivir en sociedad nos hace algo infelices."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«The Interpretation of Dreams», texto completo en Proyecto Gutenberg (inglés)",
+    "url": "https://www.gutenberg.org/ebooks/66048",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "«Civilization and Its Discontents» (El malestar en la cultura), en Proyecto Gutenberg (inglés)",
+    "url": "https://www.gutenberg.org/ebooks/78221",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "herbert-marcuse",
+   "julia-kristeva",
+   "luce-irigaray",
+   "slavoj-zizek"
+  ]
+ },
+ {
+  "id": "jean-piaget",
+  "nombre": "Jean Piaget",
+  "fechas": "1896 – 1980",
+  "region": "Suiza",
+  "escuela": "Epistemología genética (constructivismo)",
+  "categorias": [
+   "conocimiento",
+   "mente",
+   "ciencia"
+  ],
+  "conocidoPor": "Mostrar que los niños no piensan como adultos en pequeño, sino que construyen su inteligencia por etapas",
+  "resumen": "Biólogo y psicólogo suizo que se pasó la vida observando cómo piensan los niños, empezando por sus propios hijos. Descubrió que la inteligencia se va construyendo paso a paso, jugando y explorando. Su teoría cambió las escuelas de medio mundo y dio lugar a la «[[epistemología genética|epistemologia-genetica]]»: estudiar cómo nace el conocimiento.",
+  "ideas": [
+   "El niño pasa por etapas: primero conoce el mundo tocando y chupando, luego con palabras, más tarde con lógica concreta y al final con ideas abstractas.",
+   "Un niño pequeño cree que hay más agua en un vaso alto y estrecho que en uno bajo y ancho, aunque sea la misma: aún no ha aprendido la «conservación».",
+   "Aprender no es memorizar: es construir el conocimiento a partir de lo que ya sabes, de ahí el nombre de [[constructivismo]]."
+  ],
+  "curiosidad": "Con unos 11 años publicó su primer texto científico: una breve nota sobre un gorrión albino que había visto en un parque.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El lenguaje y el pensamiento en el niño",
+    "anio": "1923",
+    "deQueVa": "Cómo hablan y razonan los niños pequeños."
+   },
+   {
+    "titulo": "El criterio moral en el niño",
+    "anio": "1932",
+    "deQueVa": "Cómo entienden los niños las reglas y lo justo, por ejemplo jugando a las canicas."
+   },
+   {
+    "titulo": "El nacimiento de la inteligencia en el niño",
+    "anio": "1936",
+    "deQueVa": "La inteligencia de los bebés antes de hablar."
+   },
+   {
+    "titulo": "La epistemología genética",
+    "anio": "1970",
+    "deQueVa": "Resumen de su teoría sobre cómo nace el conocimiento."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Fundación Jean Piaget: textos y materiales sobre su obra (francés)",
+    "url": "https://www.fondationjeanpiaget.ch/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "ferdinand-de-saussure",
+  "nombre": "Ferdinand de Saussure",
+  "fechas": "1857 – 1913",
+  "region": "Suiza",
+  "escuela": "Lingüística estructural",
+  "categorias": [
+   "lenguaje",
+   "ciencia"
+  ],
+  "conocidoPor": "Ver la lengua como un sistema de [[signos|signo]] donde cada palabra vale por su diferencia con las demás",
+  "resumen": "Lingüista suizo, padre de la lingüística moderna y de la [[semiología|semiologia]], la ciencia de los signos. Curiosamente, nunca escribió su libro más famoso: el «Curso de lingüística general» lo armaron sus alumnos con los apuntes de clase después de su muerte. Sus ideas dieron origen al [[estructuralismo]], que se extendió a la antropología, la literatura y la filosofía.",
+  "ideas": [
+   "Un [[signo]] tiene dos caras, como una moneda: el sonido o la imagen («árbol») y la idea que evoca.",
+   "La relación entre una palabra y lo que significa es arbitraria: un perro se llama «perro», «dog» o «chien» según el idioma.",
+   "En la lengua todo es diferencia: «gato» significa lo que significa porque no es «pato», «rato» ni «perro»."
+  ],
+  "curiosidad": "Con solo 21 años publicó un estudio sobre las vocales de las [[lenguas indoeuropeas|indoeuropeo]] que predecía unos sonidos perdidos; décadas después, el descubrimiento de la lengua hitita le dio la razón.",
+  "frase": {
+   "texto": "La lengua es un sistema de signos que expresan ideas.",
+   "fuente": "Curso de lingüística general (1916), introducción"
+  },
+  "obras": [
+   {
+    "titulo": "Memoria sobre el sistema primitivo de las vocales en las lenguas indoeuropeas",
+    "anio": "1879",
+    "deQueVa": "Su brillante trabajo de juventud sobre las lenguas antiguas."
+   },
+   {
+    "titulo": "Curso de lingüística general",
+    "anio": "1916",
+    "deQueVa": "Publicado por sus alumnos tras su muerte: la lengua como sistema."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "claude-levi-strauss",
+   "roland-barthes",
+   "jacques-derrida",
+   "julia-kristeva"
+  ]
+ },
+ {
+  "id": "claude-levi-strauss",
+  "nombre": "Claude Lévi-Strauss",
+  "fechas": "1908 – 2009",
+  "region": "Francia",
+  "escuela": "Estructuralismo (antropología estructural)",
+  "categorias": [
+   "sociedad",
+   "lenguaje",
+   "ciencia"
+  ],
+  "conocidoPor": "Demostrar que el «pensamiento salvaje» es tan lógico como el nuestro, y llevar el [[estructuralismo]] a la antropología",
+  "resumen": "Antropólogo francés que vivió cien años y llevó las ideas de Saussure al estudio de las culturas. Convivió con pueblos indígenas de Brasil y concluyó que su forma de pensar no es «primitiva», sino igual de ordenada que la de un científico. Buscó las reglas ocultas que se repiten en mitos, [[parentescos|parentesco]] y comidas de todo el mundo.",
+  "ideas": [
+   "Todas las culturas organizan el mundo con parejas de opuestos: crudo y cocido, naturaleza y cultura, alto y bajo.",
+   "Los mitos de pueblos muy lejanos comparten la misma [[estructura]] escondida, como si siguieran una gramática común.",
+   "Prohibir casarse con familiares obliga a los grupos a intercambiar parejas, y así se crean alianzas entre familias: el origen de la sociedad."
+  ],
+  "curiosidad": "Su libro más famoso, «Tristes trópicos», empieza con una frase sorprendente para un antropólogo viajero: «Odio los viajes y los exploradores».",
+  "frase": {
+   "texto": "El mundo empezó sin el hombre y se acabará sin él.",
+   "fuente": "Tristes trópicos (1955), último capítulo"
+  },
+  "obras": [
+   {
+    "titulo": "Las estructuras elementales del parentesco",
+    "anio": "1949",
+    "deQueVa": "Las reglas ocultas del matrimonio y la familia."
+   },
+   {
+    "titulo": "Tristes trópicos",
+    "anio": "1955",
+    "deQueVa": "Mezcla de diario de viaje por Brasil y reflexión filosófica."
+   },
+   {
+    "titulo": "Antropología estructural",
+    "anio": "1958",
+    "deQueVa": "Su método explicado en ensayos."
+   },
+   {
+    "titulo": "El pensamiento salvaje",
+    "anio": "1962",
+    "deQueVa": "Por qué el pensamiento «primitivo» es tan lógico como el científico."
+   },
+   {
+    "titulo": "Mitológicas",
+    "anio": "1964–1971",
+    "deQueVa": "Cuatro tomos sobre cientos de mitos americanos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "roland-barthes"
+  ]
+ },
+ {
+  "id": "nancy-fraser",
+  "nombre": "Nancy Fraser",
+  "fechas": "1947 –",
+  "region": "Estados Unidos",
+  "escuela": "Teoría crítica y feminismo",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Decir que la justicia necesita a la vez repartir mejor la riqueza y respetar las identidades",
+  "resumen": "Filósofa estadounidense, profesora en la New School de Nueva York, heredera de la [[teoría crítica|teoria-critica]]. Su gran aportación es mostrar que hay dos tipos de injusticia que se mezclan: la económica (ganar menos) y la cultural (ser despreciado por lo que eres). También ha criticado al [[feminismo]] que se olvidó de las mujeres pobres.",
+  "ideas": [
+   "La justicia tiene dos caras: «[[redistribución|redistribucion]]», repartir mejor el dinero, y «[[reconocimiento]]», respetar a quien es diferente; hace falta todo a la vez.",
+   "Una mujer limpiadora inmigrante sufre a la vez por ganar poco y por ser despreciada: separar las dos luchas la deja sola.",
+   "El [[capitalismo]] es «caníbal»: se come aquello de lo que vive, como los cuidados, la naturaleza o la democracia."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Iustitia Interrupta",
+    "anio": "1997",
+    "deQueVa": "La justicia tras el fin del socialismo real."
+   },
+   {
+    "titulo": "¿Redistribución o reconocimiento? (con Axel Honneth)",
+    "anio": "2003",
+    "deQueVa": "Debate sobre qué es más importante para la justicia."
+   },
+   {
+    "titulo": "Escalas de justicia",
+    "anio": "2008",
+    "deQueVa": "La justicia en un mundo globalizado."
+   },
+   {
+    "titulo": "Feminismo para el 99% (con Cinzia Arruzza y Tithi Bhattacharya)",
+    "anio": "2019",
+    "deQueVa": "Manifiesto por un feminismo para la mayoría."
+   },
+   {
+    "titulo": "Capitalismo caníbal",
+    "anio": "2022",
+    "deQueVa": "Cómo el capitalismo devora lo que lo sostiene."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "seyla-benhabib",
+  "nombre": "Seyla Benhabib",
+  "fechas": "1950 –",
+  "region": "Turquía / Estados Unidos",
+  "escuela": "Teoría crítica y feminismo",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar los derechos de los migrantes y cómo convivir en sociedades con muchas culturas",
+  "resumen": "Filósofa nacida en Estambul que ha enseñado en Yale y Columbia. Une la [[teoría crítica|teoria-critica]] de Habermas con el [[feminismo]] y es una gran experta en Hannah Arendt. Su tema estrella es cómo deben tratar los países a quienes llegan de fuera, y cómo pueden dialogar culturas distintas sin imponerse unas a otras.",
+  "ideas": [
+   "Toda persona tiene «derecho a tener derechos», venga de donde venga; las fronteras no pueden convertir a nadie en un fantasma sin derechos.",
+   "La ética no puede pensar solo en un «individuo cualquiera»: también hay que tener en cuenta al «otro concreto», con su historia, su cuerpo y sus necesidades.",
+   "Las culturas no son bloques cerrados: cambian por dentro y se mezclan, y la democracia sirve para discutir esos cambios con diálogo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Crítica, norma y utopía",
+    "anio": "1986",
+    "deQueVa": "Estudio sobre los fundamentos de la teoría crítica."
+   },
+   {
+    "titulo": "El ser y el otro en la ética contemporánea",
+    "anio": "1992",
+    "deQueVa": "Feminismo, comunidad y ética del diálogo."
+   },
+   {
+    "titulo": "Las reivindicaciones de la cultura",
+    "anio": "2002",
+    "deQueVa": "Igualdad y diversidad en la era global."
+   },
+   {
+    "titulo": "Los derechos de los otros",
+    "anio": "2004",
+    "deQueVa": "Extranjeros, residentes y ciudadanos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "luce-irigaray",
+  "nombre": "Luce Irigaray",
+  "fechas": "1930 –",
+  "region": "Bélgica / Francia",
+  "escuela": "Feminismo de la diferencia",
+  "categorias": [
+   "sociedad",
+   "lenguaje",
+   "etica"
+  ],
+  "conocidoPor": "Denunciar que la filosofía y el lenguaje se han pensado siempre desde lo masculino",
+  "resumen": "Filósofa, lingüista y [[psicoanalista|psicoanalisis]] nacida en Bélgica que trabaja en Francia. Es una de las fundadoras del [[feminismo de la diferencia|feminismo-de-la-diferencia]]: no basta con que las mujeres sean «iguales» a los hombres, porque ese modelo de igualdad ya está hecho a medida masculina. Releyó a Platón, Freud o Hegel para mostrar que en sus obras la mujer aparece casi siempre como un hueco o un espejo del hombre.",
+  "ideas": [
+   "La cultura occidental es [[falocéntrica|falocentrismo]]: toma al hombre como modelo de «ser humano» y a la mujer como algo que se define por lo que le falta.",
+   "Las mujeres necesitan un lenguaje y unos símbolos propios, no solo encajar en los que ya existen.",
+   "La diferencia entre mujeres y hombres no es un problema que borrar, sino algo que reconocer y respetar."
+  ],
+  "curiosidad": "Tras publicar «Espéculo de la otra mujer» (1974), con fuertes críticas al psicoanálisis, perdió su puesto de profesora en la Universidad de Vincennes, en el departamento ligado a Jacques Lacan.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Espéculo de la otra mujer",
+    "anio": "1974",
+    "deQueVa": "Cómo la filosofía ha borrado a la mujer, de Platón a Freud."
+   },
+   {
+    "titulo": "Ese sexo que no es uno",
+    "anio": "1977",
+    "deQueVa": "Ensayos sobre el deseo y el lenguaje de las mujeres."
+   },
+   {
+    "titulo": "Ética de la diferencia sexual",
+    "anio": "1984",
+    "deQueVa": "Una ética que parte de que somos dos, no uno."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "julia-kristeva",
+  "nombre": "Julia Kristeva",
+  "fechas": "1941 –",
+  "region": "Bulgaria / Francia",
+  "escuela": "Semiótica, psicoanálisis y postestructuralismo",
+  "categorias": [
+   "lenguaje",
+   "mente",
+   "sociedad",
+   "estetica"
+  ],
+  "conocidoPor": "Explicar la «[[intertextualidad]]»: todo texto está hecho de trozos de otros textos",
+  "resumen": "Filósofa, lingüista, psicoanalista y novelista nacida en Bulgaria que llegó a París en 1965 con 24 años. Mezcla el estudio de los signos con el [[psicoanálisis|psicoanalisis]] para entender la literatura, el cuerpo y la identidad. Ha escrito sobre la depresión, el amor, los extranjeros y lo que nos da asco.",
+  "ideas": [
+   "Ningún texto nace de la nada: cada libro, canción o meme recoge y transforma otros. Eso es la [[intertextualidad]].",
+   "Lo «[[abyecto|abyeccion]]» es lo que nos repugna porque borra la frontera entre nosotros y lo de fuera, como la sangre, el vómito o un cadáver.",
+   "Todos somos un poco «extranjeros para nosotros mismos»: aceptar al extranjero empieza por aceptar lo raro que llevamos dentro."
+  ],
+  "curiosidad": "Además de ensayos, escribe novelas policíacas, varias protagonizadas por la periodista Stéphanie Delacour.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Semeiotiké",
+    "anio": "1969",
+    "deQueVa": "Su primer libro, sobre los signos y la intertextualidad."
+   },
+   {
+    "titulo": "La revolución del lenguaje poético",
+    "anio": "1974",
+    "deQueVa": "Cómo la poesía rompe y renueva el lenguaje."
+   },
+   {
+    "titulo": "Poderes de la perversión",
+    "anio": "1980",
+    "deQueVa": "Ensayo sobre lo abyecto, lo que nos repugna."
+   },
+   {
+    "titulo": "Sol negro. Depresión y melancolía",
+    "anio": "1987",
+    "deQueVa": "La tristeza profunda vista por una psicoanalista."
+   },
+   {
+    "titulo": "Extranjeros para nosotros mismos",
+    "anio": "1988",
+    "deQueVa": "Historia y psicología del extranjero."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "donna-haraway",
+  "nombre": "Donna Haraway",
+  "fechas": "1944 –",
+  "region": "Estados Unidos",
+  "escuela": "Feminismo y estudios de la ciencia",
+  "categorias": [
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "El «Manifiesto cíborg»: somos mezclas de animal, persona y máquina, y eso puede liberarnos",
+  "resumen": "Bióloga y filósofa estadounidense que estudia cómo la ciencia y la tecnología cambian lo que significa ser humano. Su «Manifiesto cíborg» (1985) usó la figura del [[cíborg|ciborg]] para romper fronteras rígidas: hombre y mujer, humano y animal, natural y artificial. Más tarde se centró en nuestra convivencia con perros, bacterias y un planeta en crisis.",
+  "ideas": [
+   "Todos somos un poco [[cíborgs|ciborg]]: gafas, vacunas, marcapasos o móviles ya forman parte de nuestro cuerpo y nuestra vida.",
+   "Nadie mira el mundo «desde ninguna parte»: todo conocimiento es «[[situado|conocimiento-situado]]», depende de quién mira y desde dónde.",
+   "Los humanos no estamos solos ni somos el centro: vivimos enredados con otras especies, como nuestros perros, y debemos aprender a «seguir con el problema» juntos."
+  ],
+  "curiosidad": "Fue la primera profesora con plaza fija en teoría feminista de Estados Unidos, en la Universidad de California en Santa Cruz.",
+  "frase": {
+   "texto": "Prefiero ser un cíborg que una diosa.",
+   "fuente": "Manifiesto cíborg (1985), última frase"
+  },
+  "obras": [
+   {
+    "titulo": "Manifiesto cíborg",
+    "anio": "1985",
+    "deQueVa": "Mezclarse con las máquinas como forma de romper roles de género."
+   },
+   {
+    "titulo": "Visiones de primates",
+    "anio": "1989",
+    "deQueVa": "Cómo los prejuicios humanos se cuelan en el estudio de los monos."
+   },
+   {
+    "titulo": "Ciencia, cíborgs y mujeres",
+    "anio": "1991",
+    "deQueVa": "Recopilación de sus ensayos más famosos."
+   },
+   {
+    "titulo": "Manifiesto de las especies de compañía",
+    "anio": "2003",
+    "deQueVa": "Lo que aprendemos viviendo con perros."
+   },
+   {
+    "titulo": "Seguir con el problema",
+    "anio": "2016",
+    "deQueVa": "Cómo convivir con otras especies en un planeta dañado."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "silvia-federici",
+  "nombre": "Silvia Federici",
+  "fechas": "1942 –",
+  "region": "Italia / Estados Unidos",
+  "escuela": "Feminismo marxista",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Mostrar que el trabajo de casa y de cuidados, sin sueldo, es la base oculta del [[capitalismo]]",
+  "resumen": "Filósofa e historiadora italiana afincada en Nueva York. Señaló algo que casi nadie veía: fregar, cocinar, cuidar niños y mayores es trabajo, y sin él ninguna fábrica ni oficina funcionaría. En «Calibán y la bruja» relaciona la caza de brujas en Europa con el nacimiento del [[capitalismo]] y el control sobre el cuerpo de las mujeres.",
+  "ideas": [
+   "El [[trabajo reproductivo|trabajo-reproductivo]], cuidar de la casa y de las personas, es trabajo de verdad, aunque no se pague.",
+   "La caza de brujas de los siglos XVI y XVII sirvió para arrebatar a las mujeres saberes y poder, por ejemplo sobre partos y hierbas.",
+   "Hay que defender los «[[bienes comunes|bienes-comunes]]», como huertos, bosques o redes vecinales, frente a que todo se privatice."
+  ],
+  "curiosidad": "En los años setenta participó en la campaña internacional «Salario para el trabajo doméstico», que exigía un sueldo por las tareas del hogar para hacerlas visibles.",
+  "frase": {
+   "texto": "Dicen que es amor. Nosotras decimos que es trabajo no pagado.",
+   "fuente": "Salarios contra el trabajo doméstico (1975)"
+  },
+  "obras": [
+   {
+    "titulo": "Salarios contra el trabajo doméstico",
+    "anio": "1975",
+    "deQueVa": "Folleto que reclama un sueldo para las tareas del hogar."
+   },
+   {
+    "titulo": "Calibán y la bruja",
+    "anio": "2004",
+    "deQueVa": "Mujeres, cuerpo y caza de brujas en el origen del capitalismo."
+   },
+   {
+    "titulo": "Revolución en punto cero",
+    "anio": "2012",
+    "deQueVa": "Ensayos sobre trabajo doméstico y luchas feministas."
+   },
+   {
+    "titulo": "Brujas, caza de brujas y mujeres",
+    "anio": "2018",
+    "deQueVa": "Las cazas de brujas de ayer y de hoy."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gayatri-chakravorty-spivak",
+  "nombre": "Gayatri Chakravorty Spivak",
+  "fechas": "1942 –",
+  "region": "India / Estados Unidos",
+  "escuela": "Poscolonialismo y deconstrucción",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Preguntar «¿Puede hablar el [[subalterno]]?»: ¿quién escucha a los más olvidados del mundo?",
+  "resumen": "Crítica literaria y filósofa nacida en Calcuta, profesora en la Universidad de Columbia. Es una de las grandes voces del [[poscolonialismo]], que estudia las huellas que dejaron los imperios. Su famoso ensayo plantea que los más pobres y marginados, sobre todo las mujeres, casi nunca pueden hablar por sí mismos: otros hablan por ellos.",
+  "ideas": [
+   "El [[subalterno]], la persona más marginada, no puede «hablar» no porque no tenga voz, sino porque nadie le escucha ni le deja contar su historia.",
+   "Cuando alguien poderoso habla «en nombre» de los pobres, a menudo los vuelve a silenciar, aunque tenga buena intención.",
+   "Existe una «[[violencia epistémica|violencia-epistemica]]»: imponer tu forma de ver el mundo y borrar los saberes de otros pueblos."
+  ],
+  "curiosidad": "Se hizo famosa al traducir al inglés «De la gramatología» de Jacques Derrida (1976), con un prólogo larguísimo que se hizo célebre por sí mismo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Traducción y prólogo de «De la gramatología», de Derrida",
+    "anio": "1976",
+    "deQueVa": "La puerta de entrada de Derrida al mundo de habla inglesa."
+   },
+   {
+    "titulo": "En otros mundos",
+    "anio": "1987",
+    "deQueVa": "Ensayos de política cultural."
+   },
+   {
+    "titulo": "¿Puede hablar el subalterno?",
+    "anio": "1988",
+    "deQueVa": "Su ensayo más famoso, sobre quién tiene voz."
+   },
+   {
+    "titulo": "Crítica de la razón poscolonial",
+    "anio": "1999",
+    "deQueVa": "La filosofía y la historia vistas desde las antiguas colonias."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "edward-said",
+  "nombre": "Edward Said",
+  "fechas": "1935 – 2003",
+  "region": "Palestina / Estados Unidos",
+  "escuela": "Poscolonialismo",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Escribir «[[Orientalismo|orientalismo]]»: cómo Occidente inventó una imagen exótica y falsa de Oriente",
+  "resumen": "Crítico literario palestino-estadounidense, profesor durante décadas en la Universidad de Columbia. Su libro «Orientalismo» (1978) mostró que novelas, cuadros e informes europeos pintaban a árabes y asiáticos como misteriosos, peligrosos o atrasados, y que esa imagen servía para justificar el dominio colonial. Es uno de los fundadores del [[poscolonialismo]].",
+  "ideas": [
+   "El «[[orientalismo]]» es una manera de mirar que presenta a Oriente como lo «otro»: exótico, sensual, irracional, frente a un Occidente racional.",
+   "Saber y poder van juntos: describir a otros pueblos ya es una forma de mandar sobre ellos.",
+   "Las grandes novelas europeas, como las de Jane Austen, también llevan dentro el imperio, aunque no hablen directamente de él."
+  ],
+  "curiosidad": "En 1999 fundó con el director judío Daniel Barenboim la Orquesta del Diván Occidental-Oriental, que une a jóvenes músicos israelíes y árabes; tiene su sede en Sevilla.",
+  "frase": {
+   "texto": "Oriente fue casi una invención europea.",
+   "fuente": "Orientalismo (1978), primera página de la introducción"
+  },
+  "obras": [
+   {
+    "titulo": "Orientalismo",
+    "anio": "1978",
+    "deQueVa": "Cómo Occidente fabricó una imagen falsa de Oriente."
+   },
+   {
+    "titulo": "La cuestión palestina",
+    "anio": "1979",
+    "deQueVa": "La historia de Palestina contada desde los palestinos."
+   },
+   {
+    "titulo": "Cultura e imperialismo",
+    "anio": "1993",
+    "deQueVa": "Las huellas del imperio en la literatura."
+   },
+   {
+    "titulo": "Fuera de lugar",
+    "anio": "1999",
+    "deQueVa": "Sus memorias de infancia entre Jerusalén, El Cairo y Estados Unidos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "achille-mbembe",
+  "nombre": "Achille Mbembe",
+  "fechas": "1957 –",
+  "region": "Camerún / Sudáfrica",
+  "escuela": "Teoría poscolonial",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Acuñar la «[[necropolítica|necropolitica]]»: el poder de decidir quién puede vivir y quién debe morir",
+  "resumen": "Historiador y filósofo camerunés que enseña en Johannesburgo (Sudáfrica). Estudia qué dejó el colonialismo en África y en el mundo. Se le conoce sobre todo por el concepto de «[[necropolítica|necropolitica]]», que describe gobiernos y poderes que tratan algunas vidas como desechables.",
+  "ideas": [
+   "La [[necropolítica|necropolitica]] es el poder que decide qué personas pueden morir sin que importe, como en las colonias, las guerras o las fronteras.",
+   "El colonialismo no terminó con las independencias: sigue vivo en la economía, las fronteras y la forma de mirar a África.",
+   "El racismo convirtió a millones de personas en mercancía; la idea de «raza» se inventó para justificarlo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la poscolonia",
+    "anio": "2000",
+    "deQueVa": "Cómo funciona el poder en los Estados africanos tras la independencia."
+   },
+   {
+    "titulo": "Necropolítica",
+    "anio": "2003",
+    "deQueVa": "Ensayo sobre el poder de dar muerte."
+   },
+   {
+    "titulo": "Crítica de la razón negra",
+    "anio": "2013",
+    "deQueVa": "Historia de cómo se inventó la idea de «raza» y del «negro»."
+   },
+   {
+    "titulo": "Políticas de la enemistad",
+    "anio": "2016",
+    "deQueVa": "Por qué las democracias se llenan de miedo al otro."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bruno-latour",
+  "nombre": "Bruno Latour",
+  "fechas": "1947 – 2022",
+  "region": "Francia",
+  "escuela": "Teoría del actor-red (estudios de ciencia y tecnología)",
+  "categorias": [
+   "ciencia",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Decir que «nunca fuimos modernos» y que las cosas también actúan en la sociedad",
+  "resumen": "Filósofo, sociólogo y antropólogo francés que se metió en laboratorios como si fueran una tribu desconocida, para ver cómo se fabrica la ciencia día a día. Defendió que en la sociedad no solo actúan personas: también microbios, máquinas o leyes. En sus últimos años se volcó en el cambio climático y en cómo hacer política con la Tierra.",
+  "ideas": [
+   "Un hecho científico no cae del cielo: se construye en el laboratorio con aparatos, artículos, financiación y discusiones, y eso no lo hace menos verdadero.",
+   "Las cosas también son «actores»: un badén en la calzada hace frenar a los coches igual que un policía. Es su [[teoría del actor-red|teoria-del-actor-red]].",
+   "Separar «naturaleza» y «sociedad» fue un error: el cambio climático demuestra que todo está mezclado."
+  ],
+  "curiosidad": "Procedía de una conocida familia de bodegueros de Borgoña, la de los vinos Louis Latour.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La vida en el laboratorio (con Steve Woolgar)",
+    "anio": "1979",
+    "deQueVa": "Un antropólogo observa a científicos como si fueran una tribu."
+   },
+   {
+    "titulo": "Ciencia en acción",
+    "anio": "1987",
+    "deQueVa": "Cómo se construyen los hechos científicos."
+   },
+   {
+    "titulo": "Nunca fuimos modernos",
+    "anio": "1991",
+    "deQueVa": "La separación entre naturaleza y sociedad es una ilusión."
+   },
+   {
+    "titulo": "Políticas de la naturaleza",
+    "anio": "1999",
+    "deQueVa": "Cómo llevar la naturaleza al debate democrático."
+   },
+   {
+    "titulo": "Dónde aterrizar",
+    "anio": "2017",
+    "deQueVa": "La política ante el cambio climático."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Su web oficial, con muchos de sus artículos (francés e inglés)",
+    "url": "http://www.bruno-latour.fr/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "ivan-illich",
+  "nombre": "Iván Illich",
+  "fechas": "1926 – 2002",
+  "region": "Austria / México",
+  "escuela": "Crítica de las instituciones (humanismo radical)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Proponer una sociedad «desescolarizada» y avisar de que la escuela o la medicina pueden volverse contra nosotros",
+  "resumen": "Sacerdote, filósofo y crítico social nacido en Viena que vivió muchos años en México. Sostenía que las grandes instituciones modernas, creadas para ayudarnos, acaban haciéndonos dependientes: la escuela confunde aprender con tener títulos y la medicina convierte cualquier malestar en enfermedad. Defendía herramientas sencillas que la gente pueda usar y controlar por sí misma.",
+  "ideas": [
+   "Ir al colegio no es lo mismo que aprender: se aprende sobre todo fuera del aula, de otras personas y de la vida.",
+   "La medicina industrial puede dañar la salud: demasiados fármacos y pruebas, y una vida entera tratada como enfermedad. Él lo llamó «[[iatrogenia]]».",
+   "Una sociedad [[convivencial|convivencialidad]] usa herramientas que dan autonomía, como la bicicleta, y no herramientas que nos esclavizan."
+  ],
+  "curiosidad": "En los años sesenta fundó en Cuernavaca (México) el CIDOC, un centro de estudios y de idiomas por el que pasaron pensadores y activistas de todo el mundo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La sociedad desescolarizada",
+    "anio": "1971",
+    "deQueVa": "Crítica de la escuela obligatoria."
+   },
+   {
+    "titulo": "La convivencialidad",
+    "anio": "1973",
+    "deQueVa": "Herramientas al servicio de las personas, no al revés."
+   },
+   {
+    "titulo": "Energía y equidad",
+    "anio": "1974",
+    "deQueVa": "Por qué más velocidad y más coches no significan más libertad."
+   },
+   {
+    "titulo": "Némesis médica",
+    "anio": "1975",
+    "deQueVa": "Cómo el exceso de medicina puede perjudicar la salud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "cornel-west",
+  "nombre": "Cornel West",
+  "fechas": "1953 –",
+  "region": "Estados Unidos",
+  "escuela": "Pragmatismo profético",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Unir [[pragmatismo]], cristianismo y lucha antirracista en una filosofía comprometida con la justicia",
+  "resumen": "Filósofo, teólogo y activista afroamericano que ha dado clase en Harvard, Princeton y Yale. Mezcla la tradición filosófica estadounidense, el cristianismo de las iglesias negras y el [[socialismo]] democrático. Es un orador apasionado y en 2024 se presentó como candidato independiente a la presidencia de Estados Unidos.",
+  "ideas": [
+   "La raza sigue importando en Estados Unidos: el racismo no es cosa del pasado, sino parte de la vida diaria de millones de personas.",
+   "La filosofía debe bajar a la calle y ayudar a quienes sufren, como hacían los profetas bíblicos que denunciaban la injusticia.",
+   "La democracia no es solo votar: necesita ciudadanos críticos, solidarios y con esperanza."
+  ],
+  "curiosidad": "Aparece en las películas «Matrix Reloaded» y «Matrix Revolutions» haciendo de un personaje llamado «consejero West».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Prophesy Deliverance!",
+    "anio": "1982",
+    "deQueVa": "Cristianismo afroamericano y marxismo."
+   },
+   {
+    "titulo": "La evasión americana de la filosofía",
+    "anio": "1989",
+    "deQueVa": "Historia del pragmatismo estadounidense."
+   },
+   {
+    "titulo": "La raza importa",
+    "anio": "1993",
+    "deQueVa": "Su libro más famoso sobre el racismo en Estados Unidos."
+   },
+   {
+    "titulo": "La democracia importa",
+    "anio": "2004",
+    "deQueVa": "Cómo salvar la democracia del cinismo y el imperialismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "chantal-mouffe",
+  "nombre": "Chantal Mouffe",
+  "fechas": "1943 –",
+  "region": "Bélgica / Reino Unido",
+  "escuela": "Posmarxismo (democracia radical)",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender que en democracia el conflicto no es un fallo: hay que tratar al rival como adversario, no como enemigo",
+  "resumen": "Filósofa política belga, profesora en Londres, que escribió junto a Ernesto Laclau un libro clave del [[posmarxismo]]. Critica la idea de que la política consiste en llegar siempre a un consenso tranquilo. Para ella el desacuerdo es normal y sano, y lo peligroso es esconderlo, porque entonces estalla de malas maneras.",
+  "ideas": [
+   "La política siempre tiene un «nosotros» y un «ellos»; la clave es que el otro sea un adversario legítimo, como en un partido de fútbol, y no un enemigo a destruir. Lo llama «[[agonismo]]».",
+   "Cuando todos los grandes partidos dicen lo mismo, la gente enfadada busca salidas extremas.",
+   "La izquierda debería construir un «pueblo» uniendo luchas distintas: trabajadores, feministas, ecologistas…"
+  ],
+  "curiosidad": "En 2015 publicó «Construir pueblo», un libro-conversación con el político español Íñigo Errejón, entonces dirigente de Podemos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Hegemonía y estrategia socialista (con Ernesto Laclau)",
+    "anio": "1985",
+    "deQueVa": "Repensar la izquierda más allá del marxismo clásico."
+   },
+   {
+    "titulo": "El retorno de lo político",
+    "anio": "1993",
+    "deQueVa": "Por qué el conflicto es parte de la democracia."
+   },
+   {
+    "titulo": "La paradoja democrática",
+    "anio": "2000",
+    "deQueVa": "La tensión entre libertad e igualdad."
+   },
+   {
+    "titulo": "En torno a lo político",
+    "anio": "2005",
+    "deQueVa": "Contra la idea de una política sin adversarios."
+   },
+   {
+    "titulo": "Por un populismo de izquierda",
+    "anio": "2018",
+    "deQueVa": "Propuesta para la izquierda de hoy."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ernesto-laclau",
+  "nombre": "Ernesto Laclau",
+  "fechas": "1935 – 2014",
+  "region": "Argentina / Reino Unido",
+  "escuela": "Posmarxismo (análisis del discurso)",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "lenguaje"
+  ],
+  "conocidoPor": "Explicar el [[populismo]] como una forma de construir un «pueblo» frente a quienes mandan",
+  "resumen": "Filósofo político argentino que enseñó durante décadas en la Universidad de Essex (Inglaterra). Con Chantal Mouffe fundó el [[posmarxismo]]. Su libro «La razón populista» defiende que el populismo no es un error ni una enfermedad de la política, sino una forma de unir demandas distintas bajo un nombre común; sus ideas se discutieron mucho en Argentina y en España.",
+  "ideas": [
+   "Un «pueblo» no existe de antemano: se construye cuando quejas distintas, sobre vivienda, sueldos o corrupción, se unen contra un mismo adversario.",
+   "Palabras como «libertad» o «patria» funcionan como «[[significantes vacíos|significante-vacio]]»: cada uno las llena de un contenido distinto y por eso sirven para unir.",
+   "La [[hegemonía|hegemonia]] es conseguir que tu manera de ver las cosas parezca el sentido común de todos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Política e ideología en la teoría marxista",
+    "anio": "1977",
+    "deQueVa": "Fascismo, populismo e ideología."
+   },
+   {
+    "titulo": "Hegemonía y estrategia socialista (con Chantal Mouffe)",
+    "anio": "1985",
+    "deQueVa": "La izquierda más allá de la lucha de clases."
+   },
+   {
+    "titulo": "Nuevas reflexiones sobre la revolución de nuestro tiempo",
+    "anio": "1990",
+    "deQueVa": "Ensayos sobre el discurso y la política."
+   },
+   {
+    "titulo": "La razón populista",
+    "anio": "2005",
+    "deQueVa": "El populismo como lógica de la política."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michael-sandel",
+  "nombre": "Michael Sandel",
+  "fechas": "1953 –",
+  "region": "Estados Unidos",
+  "escuela": "Comunitarismo",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Su curso «Justicia» de Harvard, visto por millones, y criticar que el dinero y el mérito lo invadan todo",
+  "resumen": "Filósofo político de Harvard, famoso por dar clase ante cientos de estudiantes planteando dilemas morales del día a día. Su curso «Justicia» fue el primero de Harvard en publicarse gratis en internet y en televisión. Critica una sociedad en la que todo se compra y en la que los ganadores creen que se lo merecen todo.",
+  "ideas": [
+   "Hay cosas que el dinero no debería poder comprar: pagar para saltarse una cola o comprar un riñón cambia lo que esas cosas significan.",
+   "Somos parte de comunidades que nos forman, como familia, barrio o país; no somos individuos aislados que lo eligen todo desde cero. Por eso se le llama [[comunitarista|comunitarismo]].",
+   "La «[[meritocracia]]» tiene un lado oscuro: los que triunfan se creen superiores y los que pierden se sienten humillados."
+  ],
+  "curiosidad": "En 2011 una revista china, China Newsweek, lo nombró la figura extranjera más influyente del año en China, gracias al éxito de sus clases en internet.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El liberalismo y los límites de la justicia",
+    "anio": "1982",
+    "deQueVa": "Su crítica a la teoría de la justicia de John Rawls."
+   },
+   {
+    "titulo": "Justicia. ¿Hacemos lo que debemos?",
+    "anio": "2009",
+    "deQueVa": "Su famoso curso convertido en libro, lleno de dilemas."
+   },
+   {
+    "titulo": "Lo que el dinero no puede comprar",
+    "anio": "2012",
+    "deQueVa": "Los límites morales del mercado."
+   },
+   {
+    "titulo": "La tiranía del mérito",
+    "anio": "2020",
+    "deQueVa": "Por qué la meritocracia divide a la sociedad."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Curso «Justice» de Harvard: las clases completas en vídeo (inglés)",
+    "url": "https://justiceharvard.org/",
+    "tipo": "video"
+   },
+   {
+    "titulo": "Charla TED: «Why we shouldn't trust markets with our civic life» (inglés, subtítulos)",
+    "url": "https://www.ted.com/talks/michael_sandel_why_we_shouldn_t_trust_markets_with_our_civic_life",
+    "tipo": "video"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "ronald-dworkin",
+  "nombre": "Ronald Dworkin",
+  "fechas": "1931 – 2013",
+  "region": "Estados Unidos",
+  "escuela": "Liberalismo igualitario (filosofía del derecho)",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Defender que los derechos van en serio y que un buen juez busca principios, no solo aplica reglas",
+  "resumen": "Filósofo del derecho estadounidense que enseñó en Oxford, Nueva York y Londres, uno de los juristas más citados del siglo XX. Defendió que el derecho no es solo un montón de normas escritas: también incluye principios morales como la igualdad o la dignidad. Para él, una sociedad justa debe tratar a todos con igual consideración y respeto.",
+  "ideas": [
+   "Los derechos son como «cartas de triunfo»: ni siquiera el interés de la mayoría puede pasar por encima de ellos.",
+   "Cuando la ley no dice nada claro, el juez no inventa: busca los principios que mejor explican todo el derecho, como haría un juez ideal al que llamó «Hércules».",
+   "El derecho es como una novela escrita entre muchos: cada juez añade un capítulo que debe encajar con los anteriores."
+  ],
+  "curiosidad": "En 1969 sucedió a H. L. A. Hart, el filósofo del derecho al que más criticó, como catedrático de Teoría del Derecho en Oxford.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los derechos en serio",
+    "anio": "1977",
+    "deQueVa": "Los derechos como límites que ni la mayoría puede saltarse."
+   },
+   {
+    "titulo": "El imperio de la justicia",
+    "anio": "1986",
+    "deQueVa": "El derecho como integridad y el juez Hércules."
+   },
+   {
+    "titulo": "El dominio de la vida",
+    "anio": "1993",
+    "deQueVa": "Aborto, eutanasia y libertad individual."
+   },
+   {
+    "titulo": "Virtud soberana",
+    "anio": "2000",
+    "deQueVa": "Teoría de la igualdad."
+   },
+   {
+    "titulo": "Justicia para erizos",
+    "anio": "2011",
+    "deQueVa": "Todos los valores encajan en una sola gran idea."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "patricia-churchland",
+  "nombre": "Patricia Churchland",
+  "fechas": "1943 –",
+  "region": "Canadá / Estados Unidos",
+  "escuela": "Neurofilosofía",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "etica"
+  ],
+  "conocidoPor": "Fundar la «[[neurofilosofía|neurofilosofia]]»: para entender la mente hay que estudiar el cerebro",
+  "resumen": "Filósofa canadiense-estadounidense que decidió que no se podía hablar de la mente sin saber cómo funciona el cerebro, así que se puso a estudiar neurociencia. Así nació la [[neurofilosofía|neurofilosofia]]. Defiende que la conciencia, la libertad e incluso la moral tienen su base en el cerebro y en nuestra historia como mamíferos.",
+  "ideas": [
+   "La mente es lo que hace el cerebro: no hace falta un [[alma]] separada para explicar que pensemos o sintamos.",
+   "Palabras de andar por casa como «creencia» o «deseo» quizá se queden anticuadas cuando la neurociencia avance, igual que pasó con los «humores» de la medicina antigua.",
+   "La moral nace del cuidado que los mamíferos sienten por sus crías y se amplía a la familia y al grupo; hormonas como la [[oxitocina]] tienen mucho que ver."
+  ],
+  "curiosidad": "Está casada con el también filósofo Paul Churchland; sus ideas son tan parecidas que a veces se les cita y discute como si fueran una sola persona.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Neurofilosofía",
+    "anio": "1986",
+    "deQueVa": "Por qué la filosofía de la mente necesita la neurociencia."
+   },
+   {
+    "titulo": "El cerebro moral",
+    "anio": "2011",
+    "deQueVa": "Qué nos dice el cerebro sobre el origen de la moral."
+   },
+   {
+    "titulo": "Touching a Nerve",
+    "anio": "2013",
+    "deQueVa": "Cómo aceptar que somos nuestro cerebro."
+   },
+   {
+    "titulo": "Conscience",
+    "anio": "2019",
+    "deQueVa": "De dónde viene la conciencia moral."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ruth-millikan",
+  "nombre": "Ruth Millikan",
+  "fechas": "1933 –",
+  "region": "Estados Unidos",
+  "escuela": "Naturalismo (teleosemántica)",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "ciencia"
+  ],
+  "conocidoPor": "Explicar el significado con la biología: pensamientos y palabras «significan» por la función que la evolución les dio",
+  "resumen": "Filósofa estadounidense de la biología, la mente y el lenguaje, profesora durante casi toda su carrera en la Universidad de Connecticut. Se preguntó cómo es posible que un pensamiento «trate de» algo del mundo, y buscó la respuesta en la evolución. Su teoría, la [[teleosemántica|teleosemantica]], es una de las más influyentes de la filosofía de la mente actual.",
+  "ideas": [
+   "Algo tiene una «función propia» por aquello para lo que fue seleccionado: el corazón sirve para bombear sangre, aunque también haga ruido.",
+   "Una señal significa lo que debe indicar según su función: la danza de una abeja «dice» dónde hay flores porque para eso evolucionó.",
+   "Las palabras y los conceptos son herramientas que han sobrevivido porque nos ayudan a orientarnos en el mundo, igual que los órganos ayudan al cuerpo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Language, Thought, and Other Biological Categories",
+    "anio": "1984",
+    "deQueVa": "Lenguaje y pensamiento explicados como productos de la evolución."
+   },
+   {
+    "titulo": "White Queen Psychology",
+    "anio": "1993",
+    "deQueVa": "Ensayos sobre la mente desde la biología."
+   },
+   {
+    "titulo": "Varieties of Meaning",
+    "anio": "2004",
+    "deQueVa": "Los distintos tipos de significado, de las abejas a los humanos."
+   },
+   {
+    "titulo": "Beyond Concepts",
+    "anio": "2017",
+    "deQueVa": "Una nueva forma de entender los conceptos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]

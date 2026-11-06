@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "thales-of-miletus",
+    "nombre": "Tales de Mileto",
+    "fechas": "c. 624 – c. 546 a. C.",
+    "region": "Grecia (Jonia)",
+    "escuela": "Escuela de Mileto",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Ser el primer filósofo griego: buscó de qué está hecho todo y respondió «agua»",
+    "resumen": "Tales vivió en Mileto, una ciudad griega en la costa de la actual Turquía, y se le considera el primer filósofo. Fue de los primeros en explicar el mundo sin recurrir a cuentos de dioses enfadados, buscando causas naturales. Dijo que todo viene del agua: suena raro, pero es la misma pregunta que se hace hoy la física cuando busca de qué está hecha la materia. No dejó nada escrito; lo conocemos por lo que contaron otros, como Aristóteles.",
+    "ideas": [
+      "Buscó el [[arje]], la materia básica de la que sale todo, y dijo que era el agua: sin agua no hay plantas, ni animales, ni comida.",
+      "Explicó la naturaleza con causas naturales y no con [[mitos|mito]]: si pasa algo raro en el cielo o en la tierra, hay que buscar qué lo provoca, no qué dios se ha enfadado.",
+      "Veía vida y fuerza hasta en las piedras: decía que el imán tiene una especie de [[alma]], porque mueve el hierro sin tocarlo."
+    ],
+    "curiosidad": "Platón cuenta que Tales se cayó a un pozo por ir mirando las estrellas, y que una criada se rió de él por querer saber lo que pasa en el cielo sin ver lo que tenía a los pies.",
+    "frase": {
+      "texto": "Todo está lleno de dioses.",
+      "fuente": "Atribuida a Tales por Aristóteles en «Acerca del alma» (libro I)"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "anaximander",
+      "anaximenes-of-miletus"
+    ]
+  },
+  {
+    "id": "anaximander",
+    "nombre": "Anaximandro",
+    "fechas": "c. 610 – c. 546 a. C.",
+    "region": "Grecia (Jonia)",
+    "escuela": "Escuela de Mileto",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que todo nace de algo sin límites, el [[apeiron]], y dibujar el primer mapa del mundo griego",
+    "resumen": "Anaximandro fue discípulo de Tales en Mileto. No le convenció lo del agua: pensó que el origen de todo tenía que ser algo sin forma ni límites, del que salen y al que vuelven todas las cosas. Se le atribuye el primer mapa del mundo conocido por los griegos y la idea de que la Tierra flota en el espacio sin apoyarse en nada. Escribió un libro del que solo nos ha llegado una frase.",
+    "ideas": [
+      "El origen de todo es el [[apeiron]], algo sin límites ni forma fija: ni agua ni fuego, sino la «masa» de la que salen todas las cosas.",
+      "Los opuestos (calor y frío, seco y húmedo) se turnan como en un juicio: cuando uno se pasa, el tiempo lo compensa, igual que el invierno sigue al verano.",
+      "Pensó que los primeros seres humanos venían de animales parecidos a peces: no es la [[evolución|evolucion]] moderna, pero es una idea sorprendente para su época."
+    ],
+    "curiosidad": "Se le atribuye haber dado a conocer en Grecia el [[gnomon]], un palo vertical cuya sombra sirve como reloj de sol y para saber en qué época del año estamos.",
+    "frase": {
+      "texto": "De donde las cosas tienen su origen, allí deben también perecer según la necesidad; pues deben pagar la pena y ser juzgadas por su injusticia, según el orden del tiempo.",
+      "fuente": "Fragmento B1, citado por Simplicio en su comentario a la «Física» de Aristóteles"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Libro perdido sobre el origen del mundo; solo queda una frase."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "anaximenes-of-miletus"
+    ]
+  },
+  {
+    "id": "anaximenes-of-miletus",
+    "nombre": "Anaxímenes",
+    "fechas": "c. 586 – c. 526 a. C.",
+    "region": "Grecia (Jonia)",
+    "escuela": "Escuela de Mileto",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que todo está hecho de aire, que se aprieta o se afloja para formar las demás cosas",
+    "resumen": "Anaxímenes fue el tercero de los pensadores de Mileto y alumno de Anaximandro. Para él, el origen de todo era el aire. Lo interesante es el cómo: el aire, al apretarse, se vuelve viento, nube, agua, tierra y piedra; al aflojarse, se vuelve fuego. Es una de las primeras explicaciones que convierten diferencias de calidad en diferencias de cantidad, algo que la ciencia hace todavía hoy.",
+    "ideas": [
+      "Todo sale del aire, que está en todas partes aunque no se vea, igual que respiramos sin darnos cuenta.",
+      "Las cosas cambian por [[condensación|condensacion]] y [[rarefacción|rarefaccion]]: el aire apretado se hace agua y piedra; suelto, se hace fuego.",
+      "Ponía un ejemplo casero: si soplas con los labios apretados, el aire sale frío; si soplas con la boca abierta, sale caliente."
+    ],
+    "curiosidad": null,
+    "frase": {
+      "texto": "Así como nuestra alma, que es aire, nos mantiene unidos, así también el soplo y el aire abarcan el mundo entero.",
+      "fuente": "Fragmento B2, citado por Aecio"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "anaxagoras"
+    ]
+  },
+  {
+    "id": "pythagoras",
+    "nombre": "Pitágoras",
+    "fechas": "c. 570 – c. 495 a. C.",
+    "region": "Grecia (Magna Grecia)",
+    "escuela": "Pitagorismo",
+    "categorias": [
+      "metafisica",
+      "ciencia",
+      "religion"
+    ],
+    "conocidoPor": "Decir que el mundo está hecho de números y fundar una comunidad de matemáticas, música y religión",
+    "resumen": "Pitágoras nació en la isla de Samos y fundó en Crotona, en el sur de Italia, una especie de hermandad con reglas muy estrictas. Él y sus seguidores pensaban que todo se puede explicar con números: la música, el cielo, la armonía. No dejó nada escrito y es difícil saber qué hizo él y qué sus discípulos; el famoso teorema, por ejemplo, ya lo conocían los babilonios. Aun así, la idea de que la naturaleza «habla en matemáticas» está en la base de la ciencia moderna.",
+    "ideas": [
+      "Todo es número: las cosas tienen orden y proporción, igual que una receta necesita medidas exactas para salir bien.",
+      "Descubrieron que las notas que suenan bien juntas siguen proporciones sencillas: una cuerda de la mitad de largo suena una [[octava]] más aguda.",
+      "Creía en la [[transmigración|transmigracion]] de las almas: al morir, el alma pasa a otro cuerpo, incluso de animal. Por eso muchos pitagóricos no comían carne."
+    ],
+    "curiosidad": "Prohibía a sus seguidores comer habas, y nadie sabe bien por qué. Según la tradición, fue además el primero en llamarse «filósofo», es decir, «amigo de la sabiduría».",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "plato",
+      "iamblichus"
+    ]
+  },
+  {
+    "id": "xenophanes",
+    "nombre": "Jenófanes",
+    "fechas": "c. 570 – c. 475 a. C.",
+    "region": "Grecia (Jonia)",
+    "escuela": "Presocráticos (precursor de la escuela de Elea)",
+    "categorias": [
+      "religion",
+      "conocimiento"
+    ],
+    "conocidoPor": "Burlarse de los dioses con forma humana: si los caballos tuvieran manos, pintarían dioses caballo",
+    "resumen": "Jenófanes fue un poeta viajero que recorrió el mundo griego durante más de sesenta años recitando sus versos. Criticó a Homero y a Hesíodo por pintar a los dioses robando, mintiendo y engañándose como personas cualquiera. Propuso en cambio un único dios, muy distinto de nosotros. Y avisó de algo que hoy sigue valiendo: nadie conoce la verdad con total seguridad; como mucho, nos vamos acercando poco a poco.",
+    "ideas": [
+      "Cada pueblo imagina a sus dioses parecidos a él: los etíopes los pintan morenos y de nariz chata, y los tracios, de ojos azules y pelo rojizo.",
+      "Defendió un solo dios que no se parece a los humanos ni en el cuerpo ni en la forma de pensar, y que lo mueve todo solo con la mente.",
+      "Nadie sabe la verdad del todo, pero buscando se descubren cosas mejores con el tiempo: una idea muy cercana a la forma de trabajar de la ciencia."
+    ],
+    "curiosidad": "Encontró conchas y huellas de peces en piedras de montañas y canteras, y dedujo que esos lugares habían estado bajo el mar: una de las primeras explicaciones de los [[fósiles|fosil]].",
+    "frase": {
+      "texto": "Si los bueyes, los caballos o los leones tuvieran manos y pudieran pintar como los hombres, los caballos pintarían a los dioses con forma de caballo y los bueyes con forma de buey.",
+      "fuente": "Fragmento B15, citado por Clemente de Alejandría"
+    },
+    "obras": [
+      {
+        "titulo": "Sátiras (Silloi)",
+        "anio": "",
+        "deQueVa": "Poemas burlones contra la idea tradicional de los dioses; solo quedan fragmentos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "parmenides"
+    ]
+  },
+  {
+    "id": "heraclitus",
+    "nombre": "Heráclito",
+    "fechas": "c. 535 – c. 475 a. C.",
+    "region": "Grecia (Jonia)",
+    "escuela": "Presocráticos",
+    "categorias": [
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Decir que todo cambia sin parar: nadie se baña dos veces en el mismo río",
+    "resumen": "Heráclito vivió en Éfeso y tenía fama de orgulloso y de hablar con acertijos. Pensaba que nada se queda quieto: todo fluye y cambia, como el fuego, que nunca es la misma llama. Pero detrás de ese cambio hay un orden, que llamó [[logos]]. Su idea vuelve cada vez que alguien dice que lo único que no cambia es el cambio.",
+    "ideas": [
+      "Todo fluye: el río parece el mismo, pero el agua que te moja hoy no es la de ayer, y tú tampoco eres exactamente el mismo.",
+      "Los opuestos se necesitan: la enfermedad hace agradable la salud, y el hambre hace agradable la comida.",
+      "El mundo es como un fuego siempre vivo que se enciende y se apaga con medida, y está ordenado por el [[logos]], una especie de ley común a todo."
+    ],
+    "curiosidad": "Ya en la Antigüedad le apodaban «el Oscuro» por lo difícil que era entenderle. Según Diógenes Laercio, dejó su libro como ofrenda en el templo de Artemisa de Éfeso.",
+    "frase": {
+      "texto": "No es posible bañarse dos veces en el mismo río.",
+      "fuente": "Fragmento B91, citado por Plutarco"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Libro de frases cortas y enigmáticas; conservamos solo unos cien fragmentos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Early Greek Philosophy», de John Burnet, con sus fragmentos traducidos (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/67097",
+        "tipo": "libro"
+      }
+    ],
+    "influyeEn": [
+      "plato",
+      "zeno-of-citium",
+      "georg-wilhelm-friedrich-hegel",
+      "friedrich-nietzsche"
+    ]
+  },
+  {
+    "id": "parmenides",
+    "nombre": "Parménides",
+    "fechas": "c. 515 – c. 450 a. C.",
+    "region": "Grecia (Magna Grecia)",
+    "escuela": "Escuela de Elea",
+    "categorias": [
+      "metafisica",
+      "logica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Decir que el cambio es una ilusión: lo que es, es, y lo que no es, no puede ser",
+    "resumen": "Parménides vivió en Elea, en el sur de Italia, y escribió un poema en el que una diosa le revela la verdad. Su conclusión choca con lo que vemos: si algo existe, no puede venir de la nada ni desaparecer en la nada, así que el cambio y el movimiento serían engaños de los sentidos. Parece una locura, pero fue el primero en seguir un razonamiento hasta el final aunque llevara la contraria a los ojos. Con él empieza la gran pregunta de qué significa «ser».",
+    "ideas": [
+      "De la nada no sale nada: nada aparece de golpe sin venir de algo, igual que no se puede sacar un conejo de un sombrero vacío.",
+      "Si un razonamiento es correcto, hay que creerlo aunque los ojos digan otra cosa: los sentidos pueden engañarnos.",
+      "Distinguió el camino de la verdad, que sigue el razonamiento, del camino de la [[doxa]], las opiniones de la gente, que se fían de las apariencias."
+    ],
+    "curiosidad": "Platón cuenta en su diálogo «Parménides» que, ya mayor, visitó Atenas y conversó con un Sócrates muy joven. No sabemos si ese encuentro ocurrió de verdad.",
+    "frase": {
+      "texto": "Lo mismo es pensar y ser.",
+      "fuente": "Fragmento B3 de su poema «Sobre la naturaleza»"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Poema en el que una diosa le enseña el camino de la verdad y el de la opinión."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Early Greek Philosophy», de John Burnet, con su poema traducido (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/67097",
+        "tipo": "libro"
+      }
+    ],
+    "influyeEn": [
+      "zeno-of-elea",
+      "plato",
+      "empedocles",
+      "leucippus"
+    ]
+  },
+  {
+    "id": "zeno-of-elea",
+    "nombre": "Zenón de Elea",
+    "fechas": "c. 490 – c. 430 a. C.",
+    "region": "Grecia (Magna Grecia)",
+    "escuela": "Escuela de Elea",
+    "categorias": [
+      "logica",
+      "metafisica"
+    ],
+    "conocidoPor": "Sus [[paradojas|paradoja]], como la de Aquiles, que nunca alcanza a una tortuga",
+    "resumen": "Zenón fue discípulo de Parménides y quiso defenderle mostrando que, si aceptamos que hay movimiento, acabamos diciendo cosas absurdas. Para ello inventó [[paradojas|paradoja]] famosísimas que parecen trucos, pero que costó siglos responder bien: hizo falta la matemática de las sumas infinitas. Aristóteles le consideraba el inventor de la [[dialéctica|dialectica]]. Su libro se perdió; conocemos sus argumentos sobre todo por Aristóteles.",
+    "ideas": [
+      "Aquiles, el más rápido, nunca alcanza a una tortuga que sale con ventaja: cuando llega a donde estaba ella, la tortuga ya ha avanzado un poco más, y así sin fin.",
+      "La flecha que vuela está quieta: en cada instante ocupa un sitio exacto, como en una foto, así que ¿cuándo se mueve?",
+      "Su método era ponerse en el lugar del rival y mostrar que sus ideas acaban en un disparate: hoy lo llamamos [[reducción al absurdo|reduccion-al-absurdo]]."
+    ],
+    "curiosidad": "Según Diógenes Laercio, participó en una conspiración contra un [[tirano]] y, al ser torturado, se mordió la lengua y se la escupió para no delatar a sus compañeros.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "aristotle"
+    ]
+  },
+  {
+    "id": "empedocles",
+    "nombre": "Empédocles",
+    "fechas": "c. 494 – c. 434 a. C.",
+    "region": "Grecia (Sicilia)",
+    "escuela": "Presocráticos (pluralistas)",
+    "categorias": [
+      "metafisica",
+      "ciencia",
+      "religion"
+    ],
+    "conocidoPor": "Decir que todo está hecho de cuatro elementos (tierra, agua, aire y fuego) que el Amor une y la Discordia separa",
+    "resumen": "Empédocles vivió en Agrigento, en Sicilia, y fue a la vez filósofo, poeta, médico y algo de mago. Propuso que todo está formado por cuatro «raíces»: tierra, agua, aire y fuego, que se mezclan en distintas proporciones como los colores de un pintor. Dos fuerzas las mueven: el Amor, que las junta, y la Discordia, que las separa. Su teoría de los cuatro elementos duró más de dos mil años, hasta la química moderna.",
+    "ideas": [
+      "Las cosas no nacen ni mueren de verdad: solo se mezclan y se separan los cuatro elementos, como las piezas de un juego de construcción.",
+      "Dos fuerzas mueven el mundo: el Amor, que une, y la Discordia, que separa; el universo pasa por ciclos en los que gana una u otra.",
+      "Creía en la [[transmigración|transmigracion]] de las almas y decía haber sido ya «muchacho y muchacha, arbusto, pájaro y pez»."
+    ],
+    "curiosidad": "Cuenta una leyenda, recogida por Diógenes Laercio, que se tiró al volcán Etna para que le creyeran un dios, y que el volcán devolvió una de sus sandalias de bronce. Probablemente es un cuento.",
+    "frase": {
+      "texto": "Unas veces, por el Amor, todo se junta en uno; otras, cada cosa se separa por el odio de la Discordia.",
+      "fuente": "Fragmento B17, citado por Simplicio"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Poema sobre los cuatro elementos y las fuerzas que los mueven; quedan fragmentos."
+      },
+      {
+        "titulo": "Purificaciones",
+        "anio": "",
+        "deQueVa": "Poema religioso sobre el destino del alma y cómo purificarla; quedan fragmentos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Early Greek Philosophy», de John Burnet, con sus fragmentos traducidos (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/67097",
+        "tipo": "libro"
+      }
+    ],
+    "influyeEn": [
+      "aristotle",
+      "lucretius"
+    ]
+  },
+  {
+    "id": "anaxagoras",
+    "nombre": "Anaxágoras",
+    "fechas": "c. 500 – c. 428 a. C.",
+    "region": "Grecia (Jonia y Atenas)",
+    "escuela": "Presocráticos (pluralistas)",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que una mente, el [[nous]], puso orden en el mundo, y que el Sol es una piedra ardiente",
+    "resumen": "Anaxágoras nació en Clazómenas, en la actual Turquía, y fue el primer filósofo que se instaló en Atenas, donde fue amigo del político Pericles. Dijo que el Sol no era un dios, sino una piedra al rojo vivo más grande que el Peloponeso, y por eso le acusaron de [[impiedad]] y tuvo que marcharse. Pensaba que en todo hay un poco de todo, y que una mente, el [[nous]], fue la que ordenó el universo.",
+    "ideas": [
+      "En todo hay un poco de todo: el pan que comes se convierte en carne, pelo y hueso, así que ya debía llevar «trocitos» de todo eso.",
+      "El [[nous]], la mente, puso en marcha el universo con un remolino que separó lo mezclado, como cuando agitas agua con arena y luego se asienta.",
+      "La Luna no tiene luz propia, sino que refleja la del Sol: así pudo explicar bien los eclipses."
+    ],
+    "curiosidad": "En el «Fedón» de Platón, Sócrates cuenta que se ilusionó al leer que una mente ordenaba el mundo, y que se decepcionó al ver que luego Anaxágoras lo explicaba todo con aire, agua y otras causas físicas.",
+    "frase": {
+      "texto": "En todo hay una porción de todo.",
+      "fuente": "Fragmento B11, citado por Simplicio"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Libro sobre el origen del cosmos y la mente que lo ordena; quedan fragmentos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "socrates"
+    ]
+  },
+  {
+    "id": "democritus",
+    "nombre": "Demócrito",
+    "fechas": "c. 460 – c. 370 a. C.",
+    "region": "Grecia",
+    "escuela": "Atomismo",
+    "categorias": [
+      "metafisica",
+      "ciencia",
+      "etica"
+    ],
+    "conocidoPor": "Decir que todo está hecho de [[átomos|atomo]] diminutos que se mueven en el vacío",
+    "resumen": "Demócrito nació en Abdera, en el norte de Grecia, y escribió muchísimos libros, aunque solo nos quedan fragmentos. Junto a su maestro Leucipo propuso que todo está formado por piezas diminutas e indivisibles, los [[átomos|atomo]], que chocan y se combinan en el vacío. Para él, colores y sabores no están en las cosas, sino en cómo nos afectan. Los átomos de la física actual no son exactamente los suyos, pero la idea de un mundo hecho de piezas pequeñas viene de aquí.",
+    "ideas": [
+      "Todo son [[átomos|atomo]] y vacío: como las piezas de un juego de construcción, distintas en forma y tamaño, que al juntarse forman todo lo que ves.",
+      "Lo dulce o lo amargo depende de nosotros: la misma sopa puede parecer sosa a uno y salada a otro, pero los átomos son los que son.",
+      "Para vivir bien hay que buscar la [[eutimia]], el buen ánimo: estar tranquilo y contento con lo que tienes, sin excesos."
+    ],
+    "curiosidad": "Autores romanos posteriores le llamaban «el filósofo que ríe», porque se tomaba a broma las locuras humanas; a Heráclito, en cambio, lo imaginaban llorando.",
+    "frase": {
+      "texto": "Por convención lo dulce, por convención lo amargo, por convención lo caliente, por convención lo frío, por convención el color; en realidad, átomos y vacío.",
+      "fuente": "Fragmento B9, citado por Sexto Empírico"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "epicurus",
+      "lucretius"
+    ]
+  },
+  {
+    "id": "protagoras",
+    "nombre": "Protágoras",
+    "fechas": "c. 490 – c. 420 a. C.",
+    "region": "Grecia",
+    "escuela": "Sofística",
+    "categorias": [
+      "conocimiento",
+      "politica",
+      "religion"
+    ],
+    "conocidoPor": "Decir que «el hombre es la medida de todas las cosas»: la verdad depende de quién mira",
+    "resumen": "Protágoras fue el más famoso de los [[sofistas|sofista]], profesores que cobraban por enseñar a hablar bien y a convencer en la asamblea y en los juicios. Venía de Abdera y triunfó en Atenas, donde, según se cuenta, Pericles le encargó las leyes de una nueva colonia. Su idea central es el [[relativismo]]: cada persona ve las cosas a su manera. La idea reaparece cada vez que alguien dice «eso depende de cómo lo mires».",
+    "ideas": [
+      "El hombre es la medida de todo: si a ti el agua te parece fría y a mí templada, los dos tenemos razón, cada uno para sí.",
+      "Sobre los dioses dijo que no podía saber si existen o no, porque el tema es oscuro y la vida es corta: una postura que hoy llamamos [[agnosticismo]].",
+      "Sobre cualquier tema hay dos argumentos opuestos, y aprender a defender los dos es la base de un buen debate."
+    ],
+    "curiosidad": "Según Diógenes Laercio, fue el primero en cobrar por enseñar, y en Atenas quemaron sus libros en la plaza por sus dudas sobre los dioses.",
+    "frase": {
+      "texto": "El hombre es la medida de todas las cosas: de las que son, en cuanto que son, y de las que no son, en cuanto que no son.",
+      "fuente": "Citado por Platón en el «Teeteto» (152a)"
+    },
+    "obras": [
+      {
+        "titulo": "La verdad",
+        "anio": "",
+        "deQueVa": "Libro perdido donde defendía que cada uno es medida de lo que percibe."
+      },
+      {
+        "titulo": "Sobre los dioses",
+        "anio": "",
+        "deQueVa": "Libro perdido que empezaba admitiendo que no se puede saber si los dioses existen."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "gorgias",
+    "nombre": "Gorgias",
+    "fechas": "c. 483 – c. 375 a. C.",
+    "region": "Grecia (Sicilia)",
+    "escuela": "Sofística",
+    "categorias": [
+      "lenguaje",
+      "conocimiento"
+    ],
+    "conocidoPor": "Ser el gran maestro de la [[retórica|retorica]] y defender, medio en broma, que nada existe",
+    "resumen": "Gorgias llegó a Atenas en el 427 a. C. como embajador de su ciudad, Leontinos, en Sicilia, y dejó a todos boquiabiertos con su forma de hablar. Fue uno de los [[sofistas|sofista]] más famosos y vivió más de cien años. Enseñaba que la palabra tiene un poder enorme, casi como un medicamento o una droga: puede calmar, asustar o enamorar. Hoy lo vemos en la publicidad y en los discursos políticos.",
+    "ideas": [
+      "La palabra es poderosísima: con un buen discurso puedes hacer llorar, reír o cambiar de opinión a una multitud.",
+      "En su «Elogio de Helena» defendió a la mujer más culpada de la mitología griega, para demostrar que con habilidad se puede defender casi cualquier cosa.",
+      "En «Sobre el no ser» llevó el razonamiento al extremo: nada existe; si existiera, no podríamos conocerlo; y si lo conociéramos, no podríamos explicarlo."
+    ],
+    "curiosidad": "Se hizo una estatua de oro de sí mismo y la ofreció en el santuario de Delfos. Platón tituló con su nombre uno de sus diálogos.",
+    "frase": {
+      "texto": "La palabra es un poderoso soberano que, con un cuerpo pequeñísimo e invisible, realiza obras divinísimas.",
+      "fuente": "«Elogio de Helena», 8"
+    },
+    "obras": [
+      {
+        "titulo": "Elogio de Helena",
+        "anio": "",
+        "deQueVa": "Discurso que defiende a Helena de Troya para lucir el poder de la palabra."
+      },
+      {
+        "titulo": "Defensa de Palamedes",
+        "anio": "",
+        "deQueVa": "Discurso de un héroe acusado injustamente que se defiende con argumentos."
+      },
+      {
+        "titulo": "Sobre el no ser",
+        "anio": "",
+        "deQueVa": "Tratado perdido que intentaba probar que nada existe; lo conocemos por resúmenes."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "antisthenes"
+    ]
+  },
+  {
+    "id": "socrates",
+    "nombre": "Sócrates",
+    "fechas": "c. 470 – 399 a. C.",
+    "region": "Grecia (Atenas)",
+    "escuela": "Filosofía socrática",
+    "categorias": [
+      "etica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Preguntar sin parar para que la gente descubra lo que no sabe: una vida sin examen no vale la pena",
+    "resumen": "Sócrates fue un ateniense famoso por ir por la plaza preguntando a todo el mundo qué es la justicia, el valor o la amistad, y por demostrar que nadie lo sabía tan bien como creía. No escribió nada: lo conocemos por sus alumnos, sobre todo Platón y Jenofonte. En el 399 a. C. lo condenaron a muerte por «corromper a los jóvenes» y no honrar a los dioses de la ciudad, y prefirió beber la [[cicuta]] antes que huir. Es el modelo de quien piensa por sí mismo y no da nada por sabido.",
+    "ideas": [
+      "Reconocer que no sabes es el primer paso para aprender: quien cree que lo sabe todo ya no busca nada.",
+      "Su método, la [[mayéutica|mayeutica]], era como el trabajo de una partera: con preguntas ayudaba a los demás a «dar a luz» sus propias ideas.",
+      "Nadie hace el mal a sabiendas: quien obra mal se equivoca sobre lo que le conviene. Por eso la [[virtud]] se puede aprender."
+    ],
+    "curiosidad": "El [[oráculo|oraculo]] de Delfos dijo que no había nadie más sabio que Sócrates. Él, extrañado, se puso a interrogar a los sabios de Atenas y concluyó que su única ventaja era saber que no sabía.",
+    "frase": {
+      "texto": "Una vida sin examen no merece la pena ser vivida.",
+      "fuente": "Platón, «Apología de Sócrates» (38a)"
+    },
+    "obras": [],
+    "enlaces": [
+      {
+        "titulo": "«Apología de Sócrates», de Platón: su defensa en el juicio (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/1656",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«Recuerdos de Sócrates», de Jenofonte (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/1177",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "plato",
+      "antisthenes",
+      "aristippus"
+    ]
+  },
+  {
+    "id": "plato",
+    "nombre": "Platón",
+    "fechas": "c. 427 – 347 a. C.",
+    "region": "Grecia (Atenas)",
+    "escuela": "Platonismo",
+    "categorias": [
+      "metafisica",
+      "politica",
+      "etica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Decir que lo que vemos son como sombras de un mundo perfecto de [[Ideas|ideas-platon]]",
+    "resumen": "Platón fue alumno de Sócrates y fundó en Atenas la [[Academia|academia]], una escuela que duró siglos. Escribió diálogos, como obras de teatro filosóficas, casi siempre con Sócrates de protagonista. Pensaba que detrás de las cosas cambiantes que vemos hay modelos perfectos y eternos, las [[Ideas|ideas-platon]]. Sus preguntas sobre la justicia, el amor o la educación siguen siendo las nuestras: el filósofo Whitehead llegó a decir que la filosofía europea es una serie de notas a pie de página a Platón.",
+    "ideas": [
+      "En el mito de la caverna, unos presos solo ven sombras en una pared y creen que eso es la realidad; filosofar es salir de la cueva y mirar el sol.",
+      "Todos los círculos que dibujas son imperfectos, pero entiendes qué es un círculo perfecto: esa es la [[Idea|ideas-platon]] de círculo, que existe más allá de los dibujos.",
+      "En «La República» imaginó una ciudad justa gobernada por filósofos, donde cada uno hace aquello para lo que vale mejor, como en un buen equipo."
+    ],
+    "curiosidad": "Según Diógenes Laercio, Platón no era su nombre real: se llamaba Aristocles, y «Platón» (algo así como «el ancho») era un apodo, quizá por sus espaldas.",
+    "frase": {
+      "texto": "Experimentar asombro es muy propio del filósofo: la filosofía no tiene otro comienzo.",
+      "fuente": "«Teeteto» (155d)"
+    },
+    "obras": [
+      {
+        "titulo": "La República",
+        "anio": "c. 375 a. C.",
+        "deQueVa": "Cómo sería una ciudad justa y qué es la justicia, con el mito de la caverna."
+      },
+      {
+        "titulo": "Apología de Sócrates",
+        "anio": "c. 399–390 a. C.",
+        "deQueVa": "La defensa de Sócrates ante el tribunal que lo condenó a muerte."
+      },
+      {
+        "titulo": "El banquete",
+        "anio": "c. 385–370 a. C.",
+        "deQueVa": "Varios amigos, en una cena, hablan por turnos sobre qué es el amor."
+      },
+      {
+        "titulo": "Fedón",
+        "anio": "",
+        "deQueVa": "Las últimas horas de Sócrates y sus argumentos sobre la inmortalidad del alma."
+      },
+      {
+        "titulo": "Timeo",
+        "anio": "c. 360 a. C.",
+        "deQueVa": "Cómo un artesano divino formó el universo copiando modelos perfectos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Obras completas de Platón en español (trad. de Patricio de Azcárate, 1871)",
+        "url": "https://www.filosofia.org/cla/pla/azcarate.htm",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«La República», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/1497",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "aristotle",
+      "plotinus",
+      "augustine-of-hippo",
+      "proclus",
+      "arcesilaus"
+    ]
+  },
+  {
+    "id": "aristotle",
+    "nombre": "Aristóteles",
+    "fechas": "384 – 322 a. C.",
+    "region": "Grecia",
+    "escuela": "Aristotelismo (Escuela peripatética)",
+    "categorias": [
+      "logica",
+      "metafisica",
+      "etica",
+      "ciencia"
+    ],
+    "conocidoPor": "Ordenar casi todo el saber de su tiempo: lógica, biología, ética, política y arte",
+    "resumen": "Aristóteles estudió veinte años en la Academia de Platón, fue profesor del joven Alejandro Magno y fundó en Atenas su propia escuela, el [[Liceo|liceo]]. Le interesaba todo: clasificó animales, convirtió la [[lógica|logica]] en una disciplina y escribió sobre teatro, política y felicidad. A diferencia de Platón, pensaba que la [[esencia]] de las cosas está en las cosas mismas, y que hay que observar el mundo para entenderlo. Durante siglos, en Europa y en el mundo islámico, le llamaron simplemente «el Filósofo».",
+    "ideas": [
+      "El [[silogismo]] es un razonamiento seguro: si todos los humanos son mortales y Sócrates es humano, entonces Sócrates es mortal.",
+      "La [[virtud]] está en el [[justo medio|justo-medio]]: ser valiente está entre ser cobarde y ser temerario; ni pasarse ni quedarse corto.",
+      "Todos buscamos la felicidad, la [[eudaimonia]], que no es pasarlo bien un rato, sino vivir desarrollando lo mejor de uno mismo, como un músico que toca cada vez mejor."
+    ],
+    "curiosidad": "Fue también un gran biólogo: describió cientos de animales y se dio cuenta, por ejemplo, de que los delfines respiran aire y amamantan a sus crías, como los mamíferos de tierra.",
+    "frase": {
+      "texto": "Todos los hombres desean por naturaleza saber.",
+      "fuente": "«Metafísica», libro I (980a)"
+    },
+    "obras": [
+      {
+        "titulo": "Ética a Nicómaco",
+        "anio": "",
+        "deQueVa": "Qué es la felicidad y cómo se consigue con buenos hábitos."
+      },
+      {
+        "titulo": "Política",
+        "anio": "",
+        "deQueVa": "Formas de gobierno y por qué el ser humano vive en comunidad."
+      },
+      {
+        "titulo": "Metafísica",
+        "anio": "",
+        "deQueVa": "Qué es el ser y cuáles son las causas primeras de todo."
+      },
+      {
+        "titulo": "Poética",
+        "anio": "",
+        "deQueVa": "Cómo funcionan la tragedia y la poesía, y por qué nos emocionan."
+      },
+      {
+        "titulo": "Órganon",
+        "anio": "",
+        "deQueVa": "Conjunto de libros sobre lógica: cómo razonar sin equivocarse."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Obras de Aristóteles en español (trad. de Patricio de Azcárate, 1873-1875)",
+        "url": "https://www.filosofia.org/cla/ari/azcarate.htm",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«Ética a Nicómaco», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/8438",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "theophrastus",
+      "avicenna",
+      "averroes",
+      "thomas-aquinas"
+    ]
+  },
+  {
+    "id": "antisthenes",
+    "nombre": "Antístenes",
+    "fechas": "c. 445 – c. 365 a. C.",
+    "region": "Grecia (Atenas)",
+    "escuela": "Cinismo (precursor)",
+    "categorias": [
+      "etica"
+    ],
+    "conocidoPor": "Inspirar el [[cinismo]]: vivir con lo mínimo y burlarse de las convenciones",
+    "resumen": "Antístenes fue primero alumno del [[sofista]] Gorgias y luego un seguidor entusiasta de Sócrates; según Platón, estuvo con él el día de su muerte. Admiraba de Sócrates su resistencia y su desprecio por el dinero, y lo convirtió en un modo de vida: la [[virtud]] basta para ser feliz y lo demás sobra. Muchos le consideran el fundador del [[cinismo]] y un precursor del [[estoicismo]]. Escribió mucho, pero casi todo se ha perdido.",
+    "ideas": [
+      "La [[virtud]] es suficiente para ser feliz: no hacen falta fama, riqueza ni placeres.",
+      "La virtud se puede enseñar y, una vez aprendida, no se pierde, como montar en bicicleta.",
+      "El esfuerzo y la fatiga son buenos porque nos fortalecen: puso como modelo a Heracles, el héroe de los doce trabajos."
+    ],
+    "curiosidad": "Daba clase en el gimnasio de Cinosarges, y según Diógenes Laercio de ahí podría venir el nombre de «cínicos»; otros lo relacionan con «perro», que en griego se dice «kyon».",
+    "frase": {
+      "texto": "Preferiría volverme loco antes que sentir placer.",
+      "fuente": "Diógenes Laercio, «Vidas de los filósofos», VI, 3"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "diogenes"
+    ]
+  },
+  {
+    "id": "aristippus",
+    "nombre": "Aristipo",
+    "fechas": "c. 435 – c. 356 a. C.",
+    "region": "Grecia (Cirene, norte de África)",
+    "escuela": "Escuela cirenaica",
+    "categorias": [
+      "etica"
+    ],
+    "conocidoPor": "Defender que el placer del momento es el mayor bien, sin dejar que te domine",
+    "resumen": "Aristipo era de Cirene, una ciudad griega en el norte de África, y viajó a Atenas atraído por la fama de Sócrates. Fundó la escuela [[cirenaica]], que decía que lo bueno es el placer, y sobre todo el placer de ahora, porque el pasado ya no está y el futuro no se sabe. Le gustaba la buena vida, pero presumía de usar los lujos sin depender de ellos. Su pregunta sigue viva: ¿es el placer lo más importante?",
+    "ideas": [
+      "El placer es el fin de la vida: un buen plato, una buena charla o un baño caliente son bienes de verdad.",
+      "Importa el placer del presente: preocuparse por el futuro es amargarse hoy por algo que quizá nunca llegue.",
+      "Lo mejor no es renunciar a los placeres, sino mandar sobre ellos, como quien conduce un coche sin dejar que el coche le lleve a él."
+    ],
+    "curiosidad": "Según Diógenes Laercio, fue el primer alumno de Sócrates que cobró por enseñar. Su hija Arete también fue filósofa y enseñó la doctrina a su propio hijo.",
+    "frase": {
+      "texto": "Poseo, pero no soy poseído.",
+      "fuente": "Diógenes Laercio, «Vidas de los filósofos», II, 75"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "epicurus"
+    ]
+  },
+  {
+    "id": "diogenes",
+    "nombre": "Diógenes de Sinope",
+    "fechas": "c. 412 – 323 a. C.",
+    "region": "Grecia",
+    "escuela": "Cinismo",
+    "categorias": [
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Vivir en una tinaja, buscar «un hombre» con una lámpara y pedir a Alejandro Magno que se apartara del sol",
+    "resumen": "Diógenes fue el [[cínico|cinismo]] más famoso. Llegó a Atenas desterrado de Sinope, en la actual Turquía, y decidió vivir como un perro: sin casa, sin vergüenza y sin necesitar casi nada. Dormía en una gran tinaja de barro y hacía en público cosas que escandalizaban, para mostrar que muchas normas sociales son absurdas. Su lección sigue siendo provocadora: ¿cuántas de las cosas que creemos necesitar nos hacen felices de verdad?",
+    "ideas": [
+      "Hay que vivir según la naturaleza y con lo mínimo: al ver a un niño beber agua con las manos, tiró su único cuenco porque ya no le hacía falta.",
+      "Muchas costumbres son pura convención: lo que da vergüenza en un sitio es normal en otro, así que no hay que tomárselas tan en serio.",
+      "Se declaró «ciudadano del mundo», [[cosmopolita]]: no se sentía de una ciudad concreta, sino de todas."
+    ],
+    "curiosidad": "Paseaba de día con una lámpara encendida diciendo «busco un hombre», es decir, una persona de verdad. Según Plutarco, Alejandro Magno dijo que, si no fuera Alejandro, querría ser Diógenes.",
+    "frase": {
+      "texto": "Apártate un poco, que me tapas el sol.",
+      "fuente": "Respuesta a Alejandro Magno, según Diógenes Laercio (VI, 38) y Plutarco"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "hipparchia-of-maroneia"
+    ]
+  },
+  {
+    "id": "epicurus",
+    "nombre": "Epicuro",
+    "fechas": "341 – 270 a. C.",
+    "region": "Grecia",
+    "escuela": "Epicureísmo",
+    "categorias": [
+      "etica",
+      "existencia",
+      "metafisica"
+    ],
+    "conocidoPor": "Enseñar que la felicidad es vivir sin miedo ni dolor, con amigos y placeres sencillos",
+    "resumen": "Epicuro nació en Samos y fundó en Atenas una escuela llamada «el Jardín», abierta también a mujeres y esclavos, algo rarísimo entonces. Decía que la meta de la vida es el placer, pero no el de las fiestas sin fin, sino el de no sufrir en el cuerpo ni preocuparse en la mente. Le bastaban pan, agua, amigos y pensar con calma. Hoy llamamos «epicúreo» a quien disfruta de la buena mesa, pero él vivía de forma muy sencilla.",
+    "ideas": [
+      "La felicidad es la [[ataraxia]], la tranquilidad del ánimo, junto con la ausencia de dolor: vale más un día de paz que una noche de juerga con resaca.",
+      "No hay que temer a la muerte: cuando ella llega, nosotros ya no estamos para sufrirla.",
+      "Hay deseos naturales y necesarios (comer, beber, abrigo), otros naturales pero no necesarios (comida de lujo) y otros vacíos (fama, poder): solo los primeros hacen falta de verdad."
+    ],
+    "curiosidad": "Séneca cuenta que en la entrada del Jardín se leía: «Forastero, aquí estarás bien; aquí el mayor bien es el placer».",
+    "frase": {
+      "texto": "La muerte no es nada para nosotros, porque mientras existimos la muerte no está, y cuando la muerte está, nosotros ya no existimos.",
+      "fuente": "«Carta a Meneceo» (125)"
+    },
+    "obras": [
+      {
+        "titulo": "Carta a Meneceo",
+        "anio": "",
+        "deQueVa": "Breve guía para ser feliz: no temer a los dioses ni a la muerte y desear con cabeza."
+      },
+      {
+        "titulo": "Carta a Heródoto",
+        "anio": "",
+        "deQueVa": "Resumen de su física: el mundo está hecho de átomos y vacío."
+      },
+      {
+        "titulo": "Máximas capitales",
+        "anio": "",
+        "deQueVa": "Cuarenta frases cortas con lo esencial de su doctrina."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "lucretius",
+      "pierre-gassendi"
+    ]
+  },
+  {
+    "id": "zeno-of-citium",
+    "nombre": "Zenón de Citio",
+    "fechas": "c. 334 – c. 262 a. C.",
+    "region": "Grecia (nacido en Chipre)",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "etica",
+      "metafisica"
+    ],
+    "conocidoPor": "Fundar el [[estoicismo]]: aceptar lo que no depende de ti y vivir según la razón",
+    "resumen": "Zenón era un comerciante de Citio, en Chipre. Según Diógenes Laercio, naufragó cerca de Atenas, entró en una librería, leyó sobre Sócrates y decidió dedicarse a la filosofía. Enseñaba en un pórtico pintado de la plaza, la Stoa Poikile, y por eso sus seguidores se llamaron estoicos. Su idea de mantener la calma ante lo que no podemos controlar se sigue leyendo hoy en libros de psicología y de autoayuda.",
+    "ideas": [
+      "Hay que vivir de acuerdo con la naturaleza y con la [[razón|razon]], que gobierna todo el universo.",
+      "Lo único bueno de verdad es la [[virtud]]; el dinero, la salud o la fama no son ni buenos ni malos: depende del uso que les des.",
+      "Las [[pasiones]] como la ira o el miedo nacen de juicios equivocados: si cambias lo que piensas de una cosa, cambia lo que sientes por ella."
+    ],
+    "curiosidad": "Según Diógenes Laercio, Atenas le honró con una corona de oro y una tumba pagada por la ciudad, por haber hecho mejores a los jóvenes con su ejemplo.",
+    "frase": {
+      "texto": "Tenemos dos orejas y una sola boca para escuchar más y hablar menos.",
+      "fuente": "Diógenes Laercio, «Vidas de los filósofos», VII, 23"
+    },
+    "obras": [
+      {
+        "titulo": "La República",
+        "anio": "",
+        "deQueVa": "Libro perdido sobre una sociedad ideal de sabios, sin templos ni dinero."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "cleanthes",
+      "chrysippus"
+    ]
+  },
+  {
+    "id": "chrysippus",
+    "nombre": "Crisipo de Solos",
+    "fechas": "c. 279 – c. 206 a. C.",
+    "region": "Grecia (nacido en Cilicia)",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "logica",
+      "etica",
+      "metafisica"
+    ],
+    "conocidoPor": "Ser el gran organizador del [[estoicismo]] y un genio de la lógica",
+    "resumen": "Crisipo nació en Solos, en la actual Turquía, y fue el tercer director de la escuela estoica, después de Zenón y Cleantes. Era un trabajador incansable: según Diógenes Laercio escribió más de setecientos libros, aunque ninguno ha llegado entero hasta nosotros. Dio al [[estoicismo]] una base muy sólida, sobre todo en [[lógica|logica]], con ideas que se parecen a las que hoy usan los ordenadores.",
+    "ideas": [
+      "Estudió cómo se encadenan frases enteras: «si es de día, hay luz; es de día; luego hay luz». Es la base de la [[lógica proposicional|logica-proposicional]].",
+      "Todo ocurre por el destino, pero somos responsables: como un cilindro que empujas cuesta abajo, el empujón viene de fuera, pero rueda por su propia forma.",
+      "Las emociones fuertes nacen de juicios equivocados, y se pueden corregir aprendiendo a pensar mejor."
+    ],
+    "curiosidad": "En la Antigüedad se decía: «Si no hubiera existido Crisipo, no habría existido la Estoa». Según Diógenes Laercio, murió de un ataque de risa al ver a un burro comerse sus higos.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "seneca-the-younger",
+      "epictetus"
+    ]
+  },
+  {
+    "id": "pyrrho",
+    "nombre": "Pirrón",
+    "fechas": "c. 360 – c. 270 a. C.",
+    "region": "Grecia",
+    "escuela": "Escepticismo (pirronismo)",
+    "categorias": [
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Fundar el [[escepticismo]]: como no podemos estar seguros de nada, mejor no juzgar y vivir tranquilo",
+    "resumen": "Pirrón nació en Elis y viajó hasta la India con el ejército de Alejandro Magno, donde conoció a sabios de allí. Al volver defendió que no podemos saber cómo son las cosas de verdad, así que lo mejor es no dar nada por seguro. Lo curioso es el resultado: según él, al dejar de pelearse por tener razón llega la calma. No escribió nada; lo conocemos por su alumno Timón y por autores posteriores.",
+    "ideas": [
+      "Para cada argumento hay otro igual de fuerte en contra, así que no podemos decidir con seguridad quién tiene razón.",
+      "Lo sensato es la [[epoje]], suspender el juicio: no decir «es así» ni «no es así», sino «no lo sé».",
+      "De esa suspensión nace la [[ataraxia]], la tranquilidad: quien no se aferra a sus opiniones no sufre cuando le llevan la contraria."
+    ],
+    "curiosidad": "Diógenes Laercio cuenta que, en plena tormenta en un barco, Pirrón señaló a un cerdo que comía tan tranquilo y dijo que así de sereno debía estar el sabio.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "sextus-empiricus"
+    ]
+  },
+  {
+    "id": "carneades",
+    "nombre": "Carnéades",
+    "fechas": "c. 214 – 129 a. C.",
+    "region": "Grecia (nacido en Cirene)",
+    "escuela": "Academia escéptica (Nueva Academia)",
+    "categorias": [
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Dar en Roma un discurso a favor de la justicia y, al día siguiente, otro en contra",
+    "resumen": "Carnéades dirigió la [[Academia|academia]] fundada por Platón en su etapa [[escéptica|escepticismo]], y era un orador brillante. En el 155 a. C. viajó a Roma como embajador de Atenas y escandalizó a los romanos: un día defendió la justicia y al siguiente la atacó con la misma fuerza. Según Plutarco, Catón el Viejo pidió despachar cuanto antes a los embajadores para proteger a los jóvenes. Sostenía que nunca alcanzamos certezas, pero que podemos guiarnos por lo más probable.",
+    "ideas": [
+      "No hay ninguna señal segura para distinguir lo verdadero de lo falso: hasta los sueños parecen reales mientras duran.",
+      "Aun así hay que vivir y decidir: nos guiamos por lo más probable, como quien mira el cielo antes de salir y coge el paraguas si ve nubes.",
+      "Podía defender con la misma fuerza las dos posturas de un debate, para mostrar que ninguna era segura del todo."
+    ],
+    "curiosidad": "No escribió ningún libro: conocemos sus ideas por su discípulo Clitómaco y, sobre todo, por Cicerón.",
+    "frase": {
+      "texto": "Si no hubiera existido Crisipo, yo no existiría.",
+      "fuente": "Diógenes Laercio, «Vidas de los filósofos», IV, 62 (Crisipo era el estoico al que más atacaba)"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "cicero"
+    ]
+  },
+  {
+    "id": "lucretius",
+    "nombre": "Lucrecio",
+    "fechas": "c. 99 – c. 55 a. C.",
+    "region": "Roma",
+    "escuela": "Epicureísmo",
+    "categorias": [
+      "metafisica",
+      "ciencia",
+      "existencia",
+      "religion"
+    ],
+    "conocidoPor": "Explicar en un largo poema que todo son átomos y que no hay que temer a los dioses ni a la muerte",
+    "resumen": "Lucrecio fue un poeta romano del que sabemos muy poco. Escribió «De la naturaleza de las cosas», un poema de más de siete mil versos que explica las ideas de Epicuro: el mundo está hecho de [[átomos|atomo]] que se mueven en el vacío, y los dioses no se ocupan de nosotros. Su objetivo era quitarnos el miedo. El poema estuvo casi olvidado durante siglos, y su redescubrimiento en 1417 ayudó a despertar la ciencia moderna.",
+    "ideas": [
+      "Nada nace de la nada: todo es combinación de [[átomos|atomo]], que se juntan y se separan igual que las mismas letras forman palabras distintas.",
+      "La muerte no es nada para nosotros: igual que no sufrimos por el tiempo antes de nacer, no sufriremos por el tiempo después de morir.",
+      "Los átomos a veces se desvían un poquito sin motivo, el [[clinamen]], y ese pequeño desvío permite que exista la libertad."
+    ],
+    "curiosidad": "Su poema se salvó por los pelos: el humanista Poggio Bracciolini encontró una copia en un monasterio en 1417 y la hizo circular por Europa.",
+    "frase": {
+      "texto": "¡A cuántos males pudo empujar la religión!",
+      "fuente": "«De la naturaleza de las cosas», libro I, verso 101"
+    },
+    "obras": [
+      {
+        "titulo": "De la naturaleza de las cosas (De rerum natura)",
+        "anio": "c. 55 a. C.",
+        "deQueVa": "Poema que explica que todo son átomos y vacío, para perder el miedo a los dioses y a la muerte."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Naturaleza de las cosas», versión en prosa en español",
+        "url": "https://www.gutenberg.org/ebooks/62711",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«On the Nature of Things», traducción al inglés",
+        "url": "https://www.gutenberg.org/ebooks/785",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "cicero",
+    "nombre": "Cicerón",
+    "fechas": "106 – 43 a. C.",
+    "region": "Roma",
+    "escuela": "Eclecticismo (Academia escéptica y estoicismo)",
+    "categorias": [
+      "politica",
+      "etica",
+      "lenguaje"
+    ],
+    "conocidoPor": "Ser el gran orador de Roma y explicar en latín la filosofía griega",
+    "resumen": "Cicerón fue abogado, político y cónsul de Roma, y el mejor orador de su tiempo. En los momentos en que la política le dejaba de lado se dedicó a escribir filosofía: explicó a los romanos, en latín y con claridad, las ideas de estoicos, epicúreos y [[escépticos|escepticismo]]. Inventó palabras latinas que aún usamos, como «cualidad». Murió asesinado por orden de Marco Antonio, cuyo poder había criticado.",
+    "ideas": [
+      "La ley verdadera es la recta razón, igual para todos los pueblos y todas las épocas: es la idea de la [[ley natural|ley-natural]].",
+      "Lo honrado y lo útil nunca chocan de verdad: si algo te beneficia pero es injusto, en realidad no te conviene.",
+      "La amistad solo es posible entre personas buenas, y es de lo mejor que nos da la vida."
+    ],
+    "curiosidad": "Al leer su libro «Hortensio», hoy perdido, el joven Agustín de Hipona decidió dedicarse a buscar la verdad; lo cuenta en sus «Confesiones».",
+    "frase": {
+      "texto": "Si junto a la biblioteca tienes un jardín, nada te faltará.",
+      "fuente": "Carta a Varrón («Cartas a los familiares», IX, 4)"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre los deberes (De officiis)",
+        "anio": "44 a. C.",
+        "deQueVa": "Carta a su hijo sobre cómo comportarse con honradez."
+      },
+      {
+        "titulo": "Sobre la república",
+        "anio": "c. 54–51 a. C.",
+        "deQueVa": "Cuál es el mejor gobierno, con el famoso «Sueño de Escipión»."
+      },
+      {
+        "titulo": "Disputaciones tusculanas",
+        "anio": "45 a. C.",
+        "deQueVa": "Conversaciones sobre la muerte, el dolor y la tristeza, y cómo superarlos."
+      },
+      {
+        "titulo": "Sobre la amistad",
+        "anio": "44 a. C.",
+        "deQueVa": "Qué es un buen amigo y por qué la amistad vale tanto."
+      },
+      {
+        "titulo": "Sobre la vejez",
+        "anio": "44 a. C.",
+        "deQueVa": "Elogio de la vejez: también puede ser una etapa feliz."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Disputaciones tusculanas», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/14988",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«Sobre la amistad» y «Sobre la vejez», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/2808",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "augustine-of-hippo"
+    ]
+  },
+  {
+    "id": "seneca-the-younger",
+    "nombre": "Séneca",
+    "fechas": "c. 4 a. C. – 65 d. C.",
+    "region": "Roma (nacido en Hispania)",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Enseñar a vivir con calma y a no malgastar el tiempo, en cartas a un amigo",
+    "resumen": "Séneca nació en Córdoba, en la Hispania romana, y llegó a ser uno de los hombres más poderosos y ricos de Roma como consejero del emperador Nerón. Escribió tragedias y, sobre todo, ensayos y cartas que enseñan a controlar la ira, a perder el miedo a la muerte y a aprovechar la vida, desde el [[estoicismo]]. Nerón acabó ordenándole que se suicidara, y él lo hizo con serenidad. Sus textos se siguen leyendo como consejos prácticos para el día a día.",
+    "ideas": [
+      "La vida no es corta: la hacemos corta al malgastarla en cosas que no importan, como quien se pasa la tarde mirando el móvil sin darse cuenta.",
+      "La ira es una locura pasajera: antes de reaccionar, espera; el tiempo enfría casi todos los enfados.",
+      "Cada noche conviene repasar lo que hemos hecho bien y mal durante el día, para ser un poco mejores mañana."
+    ],
+    "curiosidad": "Aunque elogiaba la vida sencilla, fue uno de los hombres más ricos de su época, y sus enemigos ya se lo echaban en cara en vida.",
+    "frase": {
+      "texto": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+      "fuente": "«De la brevedad de la vida», I"
+    },
+    "obras": [
+      {
+        "titulo": "Cartas a Lucilio",
+        "anio": "c. 62–65",
+        "deQueVa": "Más de cien cartas a un amigo con consejos para vivir mejor."
+      },
+      {
+        "titulo": "De la brevedad de la vida",
+        "anio": "c. 49",
+        "deQueVa": "Por qué la vida parece corta y cómo aprovecharla."
+      },
+      {
+        "titulo": "De la ira",
+        "anio": "",
+        "deQueVa": "Qué es el enfado y cómo evitar que nos domine."
+      },
+      {
+        "titulo": "De la vida feliz",
+        "anio": "c. 58",
+        "deQueVa": "La felicidad está en la virtud, no en la riqueza ni en el placer."
+      },
+      {
+        "titulo": "Medea",
+        "anio": "",
+        "deQueVa": "Tragedia sobre la venganza de una mujer traicionada."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Cartas a Lucilio», texto completo (en inglés)",
+        "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "michel-de-montaigne"
+    ]
+  },
+  {
+    "id": "epictetus",
+    "nombre": "Epicteto",
+    "fechas": "c. 50 – c. 135",
+    "region": "Grecia y Roma (nacido en Frigia)",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Enseñar a distinguir lo que depende de ti de lo que no, y a no sufrir por lo segundo",
+    "resumen": "Epicteto nació esclavo en Frigia, en la actual Turquía, y fue llevado a Roma. Allí estudió filosofía estoica, consiguió la libertad y acabó abriendo una escuela en Nicópolis, en Grecia. No escribió nada: su alumno Arriano tomó apuntes de sus clases y los publicó. Su idea central es muy práctica y la usan hoy algunas terapias psicológicas: no nos afectan tanto las cosas como lo que pensamos de ellas.",
+    "ideas": [
+      "Algunas cosas dependen de nosotros (lo que pensamos y lo que queremos) y otras no (el tiempo, la salud, lo que opinan los demás): ocúpate solo de las primeras.",
+      "No te perturban los hechos, sino tus juicios: perder el autobús no es tan grave; lo grave es decirte que se te ha arruinado el día.",
+      "Nadie es libre si no se domina a sí mismo: un esclavo puede ser más libre que un emperador lleno de miedos."
+    ],
+    "curiosidad": "Era cojo; una antigua anécdota dice que su amo le rompió la pierna. Siglos después, el piloto estadounidense James Stockdale contó que recordar a Epicteto le ayudó a aguantar más de siete años como prisionero de guerra en Vietnam.",
+    "frase": {
+      "texto": "Lo que perturba a los hombres no son las cosas, sino las opiniones que tienen sobre las cosas.",
+      "fuente": "«Enquiridión» (Manual), 5"
+    },
+    "obras": [
+      {
+        "titulo": "Enquiridión (Manual)",
+        "anio": "",
+        "deQueVa": "Resumen breve de sus consejos, recopilado por su alumno Arriano."
+      },
+      {
+        "titulo": "Disertaciones",
+        "anio": "",
+        "deQueVa": "Apuntes de sus clases, tomados por Arriano."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Enquiridión», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/45109",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "marcus-aurelius"
+    ]
+  },
+  {
+    "id": "marcus-aurelius",
+    "nombre": "Marco Aurelio",
+    "fechas": "121 – 180",
+    "region": "Roma",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Ser emperador de Roma y escribir, solo para sí mismo, un diario de consejos [[estoicos|estoicismo]]",
+    "resumen": "Marco Aurelio gobernó el Imperio romano del 161 al 180, en años de guerras en las fronteras y de una terrible epidemia. Parte del tiempo, en plena campaña militar, escribió en griego notas para sí mismo que hoy conocemos como «Meditaciones». No pensaba publicarlas: son recordatorios para no perder la calma, ser justo y aceptar la muerte. Es raro encontrar a alguien con tanto poder que se esfuerce tanto por ser humilde, y por eso se sigue leyendo.",
+    "ideas": [
+      "Todo pasa: los emperadores y los famosos de antes ya están olvidados, así que no vale la pena obsesionarse con la fama.",
+      "Cuando alguien te moleste, recuerda que actúa por ignorancia y que todos formamos parte de lo mismo, como las manos y los pies de un cuerpo.",
+      "Lo que te inquieta no son las cosas, sino tu opinión sobre ellas, y esa opinión la puedes cambiar."
+    ],
+    "curiosidad": "Las «Meditaciones» no tenían título; el que nos ha llegado en griego viene a significar «Para sí mismo».",
+    "frase": {
+      "texto": "Pronto lo habrás olvidado todo; pronto todos te habrán olvidado.",
+      "fuente": "«Meditaciones», VII, 21"
+    },
+    "obras": [
+      {
+        "titulo": "Meditaciones",
+        "anio": "c. 170–180",
+        "deQueVa": "Notas personales para mantener la calma, ser justo y aceptar la muerte."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Meditaciones», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/2680",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "sextus-empiricus",
+    "nombre": "Sexto Empírico",
+    "fechas": "c. 160 – c. 210",
+    "region": "Grecia (Imperio romano)",
+    "escuela": "Escepticismo (pirronismo)",
+    "categorias": [
+      "conocimiento"
+    ],
+    "conocidoPor": "Recoger y salvar del olvido los argumentos de los [[escépticos|escepticismo]] antiguos",
+    "resumen": "Sexto fue un médico griego del que casi no sabemos nada: ni dónde nació ni cuándo vivió exactamente. Pero sus libros son la mejor fuente que tenemos del [[escepticismo]] de Pirrón. Explica con paciencia cómo encontrar, para cada idea, otra igual de fuerte en contra, y así dejar de juzgar. Cuando se redescubrieron en el siglo XVI, sus textos removieron a pensadores como Montaigne y Descartes.",
+    "ideas": [
+      "Para cada argumento hay otro de igual peso en contra: por eso lo honrado es suspender el juicio, la [[epoje]].",
+      "El escéptico no niega que la miel le parezca dulce; solo duda de que sea dulce «en sí misma».",
+      "Vivir sin [[dogmas|dogma]] no impide actuar: el escéptico sigue las costumbres, sus necesidades y las apariencias, sin pretender que sean verdades absolutas."
+    ],
+    "curiosidad": "Su apodo, «Empírico», viene de la [[medicina empírica|medicina-empirica]], una escuela de médicos que se fiaba solo de la experiencia y no de teorías sobre lo que no se ve.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Esbozos pirrónicos",
+        "anio": "",
+        "deQueVa": "Manual del escepticismo: cómo dudar de todo y vivir tranquilo."
+      },
+      {
+        "titulo": "Contra los profesores",
+        "anio": "",
+        "deQueVa": "Críticas a gramáticos, matemáticos, astrólogos y otros expertos que se creen seguros."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Sextus Empiricus and Greek Scepticism», de Mary Mills Patrick (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/17556",
+        "tipo": "libro"
+      }
+    ],
+    "influyeEn": [
+      "michel-de-montaigne"
+    ]
+  },
+  {
+    "id": "plotinus",
+    "nombre": "Plotino",
+    "fechas": "c. 204 – 270",
+    "region": "Roma (nacido en Egipto)",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "metafisica",
+      "religion"
+    ],
+    "conocidoPor": "Decir que todo brota del Uno, como la luz del sol, y que el alma puede volver a él",
+    "resumen": "Plotino nació en Egipto, estudió en Alejandría y enseñó en Roma. Partiendo de Platón, creó el [[neoplatonismo]]: todo lo que existe procede de un principio perfecto, el [[Uno|uno-plotino]], igual que la luz sale del sol y se va debilitando al alejarse. El [[alma]] humana viene de ahí y puede volver mediante la reflexión y una vida limpia. Sus ideas marcaron a pensadores cristianos, judíos y musulmanes durante siglos.",
+    "ideas": [
+      "Todo sale del [[Uno|uno-plotino]] por [[emanación|emanacion]]: primero la inteligencia, luego el alma y al final la materia, como círculos de luz cada vez más tenues.",
+      "El mal no es una cosa, sino falta de bien, igual que la oscuridad es falta de luz.",
+      "El alma puede volver al Uno mirando hacia dentro: hay que «esculpir la propia estatua», quitando lo que sobra hasta que brille lo mejor de uno."
+    ],
+    "curiosidad": "Según su alumno Porfirio, a Plotino parecía darle vergüenza tener cuerpo: nunca quiso decir cuándo era su cumpleaños ni dejarse retratar.",
+    "frase": {
+      "texto": "Intentad elevar lo divino que hay en vosotros hasta lo divino que hay en el todo.",
+      "fuente": "Sus últimas palabras, según Porfirio en la «Vida de Plotino» (2)"
+    },
+    "obras": [
+      {
+        "titulo": "Enéadas",
+        "anio": "c. 253–270",
+        "deQueVa": "Sus 54 tratados, ordenados por Porfirio en seis grupos de nueve."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Enéadas», traducción de K. S. Guthrie, volumen 1 (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/42930",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "porphyry",
+      "augustine-of-hippo",
+      "proclus"
+    ]
+  },
+  {
+    "id": "porphyry",
+    "nombre": "Porfirio",
+    "fechas": "c. 234 – c. 305",
+    "region": "Roma (nacido en Fenicia)",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "logica",
+      "metafisica",
+      "religion"
+    ],
+    "conocidoPor": "Ordenar los escritos de Plotino y escribir una introducción a la lógica que se estudió mil años",
+    "resumen": "Porfirio nació en Tiro, en el actual Líbano, y fue alumno de Plotino en Roma. Ordenó y publicó sus escritos en las «Enéadas» y escribió su biografía. Su obra más influyente fue la «Isagoge», una introducción a la lógica de Aristóteles que, traducida al latín por Boecio, fue libro de texto en Europa durante toda la Edad Media. También defendió no comer carne y escribió un libro contra los cristianos que más tarde fue mandado quemar.",
+    "ideas": [
+      "Planteó una pregunta que dio guerra mil años: ¿los [[universales]], como «perro» o «rojo», existen por sí mismos, o son solo nombres que damos a cosas parecidas?",
+      "Su «[[árbol de Porfirio|arbol-de-porfirio]]» ordena las cosas de lo más general a lo más concreto: ser, cuerpo, ser vivo, animal, animal racional, ser humano.",
+      "Defendió no comer carne por motivos filosóficos: los animales también sienten y tienen algo de razón."
+    ],
+    "curiosidad": "Su nombre de nacimiento era Malco, que significa «rey»; su maestro Longino le llamó Porfirio, por el color púrpura de los mantos de los reyes.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Isagoge",
+        "anio": "",
+        "deQueVa": "Introducción breve a la lógica de Aristóteles, usada como manual durante siglos."
+      },
+      {
+        "titulo": "Vida de Plotino",
+        "anio": "c. 301",
+        "deQueVa": "Biografía de su maestro, con muchos detalles de su vida diaria."
+      },
+      {
+        "titulo": "Sobre la abstinencia",
+        "anio": "",
+        "deQueVa": "Defensa de no comer carne."
+      },
+      {
+        "titulo": "Contra los cristianos",
+        "anio": "",
+        "deQueVa": "Crítica al cristianismo; se perdió porque se ordenó destruirla."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Obras escogidas de Porfirio, traducción de Thomas Taylor (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/77014",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "iamblichus",
+      "boethius"
+    ]
+  },
+  {
+    "id": "hypatia",
+    "nombre": "Hipatia",
+    "fechas": "c. 360 – 415",
+    "region": "Egipto (Alejandría)",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "ciencia",
+      "metafisica"
+    ],
+    "conocidoPor": "Ser matemática, astrónoma y filósofa en Alejandría, y morir asesinada por una turba",
+    "resumen": "Hipatia fue hija del matemático Teón y enseñó filosofía [[neoplatónica|neoplatonismo]], matemáticas y astronomía en Alejandría, la gran ciudad del saber de su época. Tenía alumnos [[paganos|pagano]] y cristianos, y las autoridades le pedían consejo. En el 415 la asesinó una multitud de cristianos, en medio de una lucha de poder entre el obispo Cirilo y el gobernador Orestes. No se conserva con seguridad ningún escrito suyo, pero se ha convertido en símbolo de la ciencia y de las mujeres sabias.",
+    "ideas": [
+      "Enseñaba que las matemáticas y la astronomía son un camino para entender el orden del universo y para elevar el pensamiento.",
+      "Según fuentes antiguas, revisó y explicó obras de grandes matemáticos, como Diofanto y Ptolomeo, para que sus alumnos las entendieran mejor.",
+      "Entre sus alumnos había paganos y cristianos, como Sinesio de Cirene, que llegó a obispo y le escribía cartas llenas de admiración."
+    ],
+    "curiosidad": "En una carta, su alumno Sinesio le pidió ayuda para conseguir un [[hidrómetro|hidrometro]], un aparato para medir lo que pesan los líquidos.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "augustine-of-hippo",
+    "nombre": "Agustín de Hipona",
+    "fechas": "354 – 430",
+    "region": "Norte de África (Imperio romano)",
+    "escuela": "Patrística (platonismo cristiano)",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "existencia"
+    ],
+    "conocidoPor": "Unir el cristianismo con las ideas de Platón y contar su vida en las «Confesiones»",
+    "resumen": "Agustín nació en Tagaste, en la actual Argelia. Fue un joven inquieto y amante de las fiestas, y profesor de [[retórica|retorica]] en Cartago, Roma y Milán. Tras años de búsqueda se hizo cristiano y llegó a obispo de Hipona. En las «Confesiones» cuenta su vida con una sinceridad nueva: es casi la primera autobiografía. Sus ideas sobre el tiempo, la memoria, el mal y la libertad marcaron el pensamiento cristiano y europeo durante más de mil años.",
+    "ideas": [
+      "El mal no es algo creado por Dios, sino una falta de bien, como un agujero en una tela.",
+      "El tiempo vive en nuestra mente: el pasado está en la memoria, el futuro en la espera y el presente en la atención.",
+      "Hay dos «ciudades»: la de quienes se aman a sí mismos hasta olvidar a Dios y la de quienes aman a Dios; la historia es la mezcla de ambas."
+    ],
+    "curiosidad": "En las «Confesiones» cuenta que de adolescente robó peras de un huerto solo por el gusto de hacer algo prohibido, y que se las echó a los cerdos. También confiesa que pedía a Dios: «Dame castidad, pero todavía no».",
+    "frase": {
+      "texto": "¿Qué es, pues, el tiempo? Si nadie me lo pregunta, lo sé; si quiero explicárselo a quien me lo pregunta, no lo sé.",
+      "fuente": "«Confesiones», XI, 14"
+    },
+    "obras": [
+      {
+        "titulo": "Confesiones",
+        "anio": "c. 397–400",
+        "deQueVa": "Su vida contada a Dios, desde la infancia hasta su conversión."
+      },
+      {
+        "titulo": "La ciudad de Dios",
+        "anio": "413–426",
+        "deQueVa": "Respuesta a quienes culpaban al cristianismo de la caída de Roma."
+      },
+      {
+        "titulo": "Sobre la Trinidad",
+        "anio": "c. 400–420",
+        "deQueVa": "Cómo puede Dios ser uno y tres a la vez, comparándolo con la mente humana."
+      },
+      {
+        "titulo": "Del libre albedrío",
+        "anio": "c. 388–395",
+        "deQueVa": "De dónde viene el mal si Dios es bueno: de nuestra libertad mal usada."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Confesiones», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/3296",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«La ciudad de Dios», volumen I (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/45304",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "anselm-of-canterbury",
+      "thomas-aquinas"
+    ]
+  },
+  {
+    "id": "proclus",
+    "nombre": "Proclo",
+    "fechas": "412 – 485",
+    "region": "Grecia (Atenas)",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "metafisica",
+      "religion",
+      "ciencia"
+    ],
+    "conocidoPor": "Ser el último gran organizador del [[neoplatonismo]], con toda la realidad ordenada en escalones",
+    "resumen": "Proclo nació en Constantinopla y dirigió durante casi cincuenta años la escuela platónica de Atenas, que se veía heredera de la [[Academia|academia]] de Platón. Ordenó el [[neoplatonismo]] en un sistema muy preciso, casi como un libro de geometría, con la realidad dividida en niveles que salen del [[Uno|uno-plotino]]. Escribió también sobre matemáticas: su comentario a Euclides es clave para conocer la historia de la geometría griega. Sus ideas llegaron a la Edad Media cristiana y musulmana a través de otros libros.",
+    "ideas": [
+      "Todo sale del Uno y tiende a volver a él: quedarse, salir y regresar es el ritmo de toda la realidad.",
+      "Expuso su filosofía como un libro de geometría, con proposiciones y demostraciones, en los «Elementos de teología».",
+      "Las matemáticas son un puente entre lo que vemos con los ojos y lo que solo se puede pensar."
+    ],
+    "curiosidad": "Un libro árabe basado en sus «Elementos de teología», conocido en latín como «Libro de las causas», circuló en la Edad Media atribuido a Aristóteles, hasta que Tomás de Aquino se dio cuenta de que venía de Proclo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Elementos de teología",
+        "anio": "",
+        "deQueVa": "211 proposiciones que explican, paso a paso, cómo todo sale del Uno."
+      },
+      {
+        "titulo": "Teología platónica",
+        "anio": "",
+        "deQueVa": "Gran resumen de los dioses y niveles de la realidad según Platón."
+      },
+      {
+        "titulo": "Comentario al primer libro de los Elementos de Euclides",
+        "anio": "",
+        "deQueVa": "Explicación de la geometría de Euclides y de su historia."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Comentarios de Proclo al primer libro de Euclides, vol. 1 (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/74253",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "pseudo-dionysius-the-areopagite"
+    ]
+  },
+  {
+    "id": "philo",
+    "nombre": "Filón de Alejandría",
+    "fechas": "c. 20 a. C. – c. 50 d. C.",
+    "region": "Egipto (Alejandría)",
+    "escuela": "Platonismo judío",
+    "categorias": [
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Intentar unir la Biblia judía con la filosofía griega de Platón",
+    "resumen": "Filón fue un judío rico y culto de Alejandría, en Egipto, que escribía en griego. Leía la Biblia buscando significados ocultos detrás de las historias, a la luz de Platón y de los estoicos. Ya mayor, viajó a Roma como embajador para defender a los judíos de Alejandría ante el emperador Calígula. Fue de los primeros en intentar mostrar que la fe y la razón pueden ir de la mano, un tema que ocupó siglos a judíos, cristianos y musulmanes.",
+    "ideas": [
+      "Leía la Biblia como una [[alegoría|alegoria]]: Adán representaría la mente, y Eva, los sentidos.",
+      "Entre Dios y el mundo puso el [[logos]], la razón divina que ordena la creación, como el plano que un arquitecto tiene en la cabeza antes de construir una ciudad.",
+      "Dios es tan grande que no podemos saber cómo es; solo podemos saber que existe."
+    ],
+    "curiosidad": "Escribió el relato de su propia embajada ante Calígula: cuenta que el emperador los recibió mientras recorría sus jardines y casas de recreo, sin apenas hacerles caso.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre la creación del mundo",
+        "anio": "",
+        "deQueVa": "Explicación del Génesis con ideas de Platón."
+      },
+      {
+        "titulo": "Sobre la vida contemplativa",
+        "anio": "",
+        "deQueVa": "Describe una comunidad judía dedicada a la oración y el estudio."
+      },
+      {
+        "titulo": "Embajada a Cayo",
+        "anio": "c. 41",
+        "deQueVa": "Su viaje a Roma para defender a los judíos ante Calígula."
+      },
+      {
+        "titulo": "Contra Flaco",
+        "anio": "",
+        "deQueVa": "Denuncia de un gobernador romano que permitió ataques contra los judíos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Philo-Judaeus of Alexandria», de Norman Bentwich (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/14657",
+        "tipo": "libro"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "confucius",
+    "nombre": "Confucio",
+    "fechas": "551 – 479 a. C.",
+    "region": "China",
+    "escuela": "Confucianismo",
+    "categorias": [
+      "etica",
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Enseñar a ser buena persona con respeto, estudio y buenas costumbres, base de la cultura china",
+    "resumen": "Confucio (Kong Fuzi, «maestro Kong») vivió en el estado de Lu, en China, en una época de guerras y desorden. Quiso ser consejero de los gobernantes, sin mucho éxito, pero fue un maestro extraordinario. Sus alumnos recogieron sus dichos en las «Analectas». Para él, la sociedad mejora si cada persona se esfuerza en ser buena, cumple con su papel y respeta a los demás. Sus ideas han guiado la educación y la política de China, Corea y Japón durante más de dos mil años.",
+    "ideas": [
+      "No hagas a los demás lo que no quieras que te hagan a ti: es la llamada [[regla de oro|regla-de-oro]].",
+      "La gran virtud es el [[ren]], la bondad o humanidad: tratar a los demás con cariño y respeto.",
+      "Los buenos gobernantes mandan con el ejemplo y no con castigos, igual que unos padres educan más con lo que hacen que con lo que dicen."
+    ],
+    "curiosidad": "En las «Analectas» resume así su vida: a los quince años se propuso estudiar, a los treinta se mantenía firme y a los setenta podía seguir sus deseos sin salirse de lo correcto.",
+    "frase": {
+      "texto": "No hagas a los demás lo que no quieras que te hagan a ti.",
+      "fuente": "«Analectas», XV, 24"
+    },
+    "obras": [
+      {
+        "titulo": "Analectas",
+        "anio": "",
+        "deQueVa": "Dichos y conversaciones del maestro, recopilados por sus discípulos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Analectas», traducción de James Legge (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/3330",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "mencius",
+      "xunzi",
+      "zhu-xi"
+    ]
+  },
+  {
+    "id": "laozi",
+    "nombre": "Laozi (Lao-Tse)",
+    "fechas": "siglo VI a. C. (según la tradición)",
+    "region": "China",
+    "escuela": "Taoísmo",
+    "categorias": [
+      "metafisica",
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "El «Tao Te Ching»: fluir como el agua y no forzar las cosas",
+    "resumen": "Laozi, que significa «viejo maestro», es el sabio al que la tradición china atribuye el «Tao Te Ching», el libro fundador del [[taoísmo|taoismo]]. No sabemos con seguridad si existió: muchos historiadores creen que el libro lo escribieron varias manos a lo largo del tiempo. Enseña que hay un orden natural del universo, el [[tao]], y que vivimos mejor cuando no lo forzamos. Es uno de los libros más traducidos del mundo.",
+    "ideas": [
+      "El [[tao]], «el camino», es el orden de todo, pero no se puede explicar del todo con palabras: «el tao que puede nombrarse no es el tao eterno».",
+      "Practica el [[wu-wei]], no forzar: como el agua, que es blanda pero rodea las piedras y acaba desgastándolas.",
+      "Menos es más: quien sabe que tiene bastante es rico, y quien presume de sus logros acaba perdiéndolos."
+    ],
+    "curiosidad": "Según el historiador chino Sima Qian, cuando Laozi se marchaba de China, el guardián de un paso de montaña le pidió que dejara escrita su sabiduría; así habría nacido el libro.",
+    "frase": {
+      "texto": "Un viaje de mil li comienza con un solo paso.",
+      "fuente": "«Tao Te Ching», capítulo 64 (el li es una medida china de distancia)"
+    },
+    "obras": [
+      {
+        "titulo": "Tao Te Ching",
+        "anio": "",
+        "deQueVa": "81 poemas breves sobre el tao, la sencillez y el buen gobierno."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Tao Te Ching», traducción de James Legge (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/216",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "zhuang-zhou"
+    ]
+  },
+  {
+    "id": "mozi",
+    "nombre": "Mozi",
+    "fechas": "c. 470 – c. 391 a. C.",
+    "region": "China",
+    "escuela": "Moísmo",
+    "categorias": [
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Defender el amor a todos por igual, no solo a los tuyos, y rechazar las guerras de conquista",
+    "resumen": "Mozi vivió en China poco después de Confucio y fue su gran rival. Probablemente venía de una familia humilde de artesanos. Criticaba que los confucianos dieran tanta importancia a los rituales caros y a la propia familia: proponía preocuparse por todos por igual y juzgar las cosas por el bien que hacen a la gente. Sus seguidores, los [[moístas|moistas]], eran expertos en defender ciudades sitiadas, pero se negaban a atacar.",
+    "ideas": [
+      "El [[amor universal|amor-universal]]: si cada uno tratara a la familia del vecino como a la suya, se acabarían los robos y las guerras.",
+      "Una acción es buena si trae beneficios a la gente, como comida, orden y paz; los funerales lujosos y la música cara gastan lo que les falta a los pobres.",
+      "La guerra de conquista es un robo a lo grande: si matar a una persona es un crimen, matar a miles no puede ser una gloria."
+    ],
+    "curiosidad": "Su libro cuenta que caminó diez días y diez noches para convencer a un rey de no atacar el pequeño estado de Song, y que ganó una batalla de asedio simulada contra el famoso ingeniero Gongshu Ban.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Mozi",
+        "anio": "",
+        "deQueVa": "Libro de sus enseñanzas, escrito y ampliado por sus seguidores."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "mencius",
+    "nombre": "Mencio",
+    "fechas": "c. 372 – c. 289 a. C.",
+    "region": "China",
+    "escuela": "Confucianismo",
+    "categorias": [
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Decir que el ser humano nace bueno, como un brote que hay que cuidar",
+    "resumen": "Mencio (Mengzi) fue el gran continuador de Confucio, unos cien años después. Viajó de corte en corte aconsejando a los reyes que gobernaran con bondad. Defendía que todos nacemos con semillas de bondad, que hay que cultivar como una planta. Llegó a decir que el pueblo es más importante que el rey, y que un rey cruel deja de merecer ese nombre.",
+    "ideas": [
+      "Si ves a un niño a punto de caer a un pozo, sientes al instante el impulso de salvarle: eso demuestra que la bondad es natural en nosotros.",
+      "Esas buenas inclinaciones son brotes: con educación crecen, y con un mal ambiente se marchitan, como los brotes de un monte donde vacas y ovejas pastan sin parar.",
+      "El pueblo es lo más importante y el rey lo menos: un rey que maltrata a su pueblo pierde el derecho a gobernar."
+    ],
+    "curiosidad": "Una historia muy conocida en China cuenta que su madre se mudó tres veces de casa hasta encontrar un barrio que diera buen ejemplo a su hijo.",
+    "frase": {
+      "texto": "Todos los hombres tienen un corazón que no soporta el sufrimiento de los demás.",
+      "fuente": "«Mencio», libro II (2A:6)"
+    },
+    "obras": [
+      {
+        "titulo": "Mencio (Mengzi)",
+        "anio": "",
+        "deQueVa": "Conversaciones con reyes y discípulos sobre la bondad humana y el buen gobierno."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Antología «Chinese Literature», con los dichos de Mencio (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/10056",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "zhu-xi",
+      "wang-yangming"
+    ]
+  },
+  {
+    "id": "zhuang-zhou",
+    "nombre": "Zhuangzi",
+    "fechas": "c. 369 – c. 286 a. C.",
+    "region": "China",
+    "escuela": "Taoísmo",
+    "categorias": [
+      "existencia",
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Soñar que era una mariposa y luego no saber si era una mariposa soñando que era él",
+    "resumen": "Zhuangzi (Zhuang Zhou) es, junto a Laozi, el gran sabio del [[taoísmo|taoismo]]. Su libro está lleno de cuentos divertidos, animales que hablan y personajes extravagantes. Con humor, pone en duda que nuestras ideas sobre lo útil, lo bueno o lo real sean tan firmes como creemos. Prefería una vida libre y sencilla a los cargos importantes en la corte.",
+    "ideas": [
+      "Lo útil y lo inútil depende del punto de vista: un árbol torcido que no sirve para hacer muebles es justo el que nadie tala y llega a viejo.",
+      "Las cosas se transforman unas en otras sin parar; aceptar ese cambio, incluida la muerte, da paz.",
+      "El cocinero Ding cortaba un buey sin esfuerzo siguiendo las juntas naturales de la carne: así hay que vivir, fluyendo con el [[tao]] y no a la fuerza."
+    ],
+    "curiosidad": "Cuando murió su esposa, un amigo le encontró cantando y tocando un cuenco. Zhuangzi le explicó que al principio sintió pena, pero luego entendió que ella solo había cambiado de forma, como pasan las estaciones.",
+    "frase": {
+      "texto": "Una vez Zhuang Zhou soñó que era una mariposa. Al despertar, no sabía si era Zhou que había soñado ser una mariposa o una mariposa que soñaba ser Zhou.",
+      "fuente": "«Zhuangzi», capítulo 2"
+    },
+    "obras": [
+      {
+        "titulo": "Zhuangzi",
+        "anio": "",
+        "deQueVa": "Cuentos y diálogos llenos de humor sobre la libertad, el cambio y el tao."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Chuang Tzu», traducción de Herbert Giles (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/59709",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "xunzi",
+    "nombre": "Xunzi",
+    "fechas": "c. 310 – c. 235 a. C.",
+    "region": "China",
+    "escuela": "Confucianismo",
+    "categorias": [
+      "etica",
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Decir, contra Mencio, que nacemos con malas inclinaciones y que la educación nos hace buenos",
+    "resumen": "Xunzi fue un pensador [[confuciano|confucianismo]] que enseñó en la famosa academia de Jixia, en el estado de Qi. Al contrario que Mencio, creía que por naturaleza somos egoístas, y que nos volvemos buenos gracias al esfuerzo, el estudio y las normas, igual que una madera torcida se endereza con calor y presión. Era muy realista: el cielo, decía, no premia ni castiga; simplemente sigue su curso.",
+    "ideas": [
+      "Nacemos con tendencia al egoísmo; la bondad se aprende, como se aprende un oficio.",
+      "Los ritos y las normas sirven para ordenar los deseos y evitar peleas, como las reglas de un juego evitan las trampas.",
+      "El cielo no responde a nuestras oraciones: hay que trabajar la tierra y gobernar bien en vez de esperar milagros."
+    ],
+    "curiosidad": "Dos de sus alumnos fueron Han Feizi y Li Si, que llevaron sus ideas sobre la necesidad de normas mucho más lejos, hasta defender castigos durísimos.",
+    "frase": {
+      "texto": "La naturaleza del hombre es mala; su bondad es fruto del esfuerzo.",
+      "fuente": "«Xunzi», capítulo 23 («La naturaleza humana es mala»)"
+    },
+    "obras": [
+      {
+        "titulo": "Xunzi",
+        "anio": "",
+        "deQueVa": "Ensayos sobre la naturaleza humana, la educación, los ritos y el buen gobierno."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "han-fei"
+    ]
+  },
+  {
+    "id": "han-fei",
+    "nombre": "Han Feizi",
+    "fechas": "c. 280 – 233 a. C.",
+    "region": "China",
+    "escuela": "Legismo",
+    "categorias": [
+      "politica"
+    ],
+    "conocidoPor": "Defender que el Estado se gobierna con leyes claras, premios y castigos, no con bondad",
+    "resumen": "Han Feizi era un príncipe del estado de Han, en China, y alumno de Xunzi. Fue el gran teórico del [[legismo]], una escuela que pensaba que la gente obedece por interés o por miedo, no por bondad. Por eso proponía leyes claras e iguales para todos, con premios y castigos firmes. Sus ideas inspiraron al reino de Qin, que poco después unificó China, aunque con métodos muy duros.",
+    "ideas": [
+      "Las personas se mueven por interés: no esperes que sean buenas, prepara leyes que les convenga cumplir.",
+      "Las leyes deben ser públicas e iguales para todos: no deben hacer favores ni a nobles ni a ricos.",
+      "El gobernante tiene «dos mangos» para manejar el poder: el premio y el castigo; si los suelta, lo pierde."
+    ],
+    "curiosidad": "Según el historiador Sima Qian, era tartamudo y escribía mucho mejor de lo que hablaba. Murió en una cárcel del reino de Qin, obligado a tomar veneno por las intrigas de su antiguo compañero Li Si.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Han Feizi",
+        "anio": "",
+        "deQueVa": "Consejos al gobernante sobre leyes, castigos y cómo no dejarse engañar por sus ministros."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "the-buddha",
+    "nombre": "Buda (Siddhartha Gautama)",
+    "fechas": "c. 563 – c. 483 a. C. (fechas discutidas)",
+    "region": "India",
+    "escuela": "Budismo",
+    "categorias": [
+      "existencia",
+      "etica",
+      "religion",
+      "mente"
+    ],
+    "conocidoPor": "Enseñar un camino para librarse del sufrimiento con calma, atención y compasión",
+    "resumen": "Siddhartha Gautama nació en la zona entre el actual Nepal y la India. Según la tradición, era un príncipe que dejó su palacio al descubrir la vejez, la enfermedad y la muerte. Tras años de búsqueda, sentado bajo un árbol, alcanzó la [[iluminación|iluminacion]] y pasó a ser el Buda, «el despierto». No escribió nada: sus enseñanzas se transmitieron de memoria y se pusieron por escrito siglos después. De ahí nació el budismo, que hoy siguen cientos de millones de personas.",
+    "ideas": [
+      "Las [[cuatro nobles verdades|cuatro-nobles-verdades]]: la vida tiene sufrimiento, ese sufrimiento nace del deseo y el apego, puede acabar, y hay un camino para lograrlo.",
+      "Ni lujo ni castigo: el [[camino medio|camino-medio]] evita los extremos, como la cuerda de un instrumento, que suena bien si no está ni muy tensa ni muy floja.",
+      "Nada es permanente, ni siquiera el «yo»: aferrarse a lo que cambia causa sufrimiento, y soltarlo lleva al [[nirvana]]."
+    ],
+    "curiosidad": "En Bodh Gaya, en la India, crece una higuera que desciende del árbol bajo el que, según la tradición, alcanzó la iluminación; es uno de los grandes lugares de peregrinación budista.",
+    "frase": {
+      "texto": "Todo lo que somos es el resultado de lo que hemos pensado.",
+      "fuente": "«Dhammapada», verso 1 (enseñanzas atribuidas a Buda; la traducción varía)"
+    },
+    "obras": [],
+    "enlaces": [
+      {
+        "titulo": "«Dhammapada», versos atribuidos a Buda, traducción de Max Müller (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/2017",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "nagarjuna"
+    ]
+  },
+  {
+    "id": "nagarjuna",
+    "nombre": "Nāgārjuna",
+    "fechas": "c. 150 – c. 250",
+    "region": "India",
+    "escuela": "Budismo Madhyamaka",
+    "categorias": [
+      "metafisica",
+      "logica",
+      "religion"
+    ],
+    "conocidoPor": "Decir que nada existe por sí solo: todo depende de otras cosas, todo está «vacío»",
+    "resumen": "Nāgārjuna fue un monje budista del sur de la India y uno de los pensadores más importantes del budismo [[mahayana]]. Fundó la escuela [[madhyamaka]], la «del camino medio». Su idea central es la [[vacuidad]]: nada tiene una [[esencia]] propia y fija, porque todo existe gracias a otras cosas. Su forma de razonar, muy rigurosa, sigue fascinando hoy a filósofos de todo el mundo.",
+    "ideas": [
+      "Todo surge en dependencia de otras cosas: una mesa no existe sola, necesita madera, un carpintero, un suelo y alguien que la llame «mesa».",
+      "La [[vacuidad]] no significa que nada exista, sino que nada existe por sí mismo y para siempre.",
+      "Usaba la lógica para mostrar que cualquier teoría que diga «las cosas son así, fijas e independientes» acaba contradiciéndose."
+    ],
+    "curiosidad": "Una leyenda budista cuenta que recibió textos sagrados de los nagas, seres con forma de serpiente que los guardaban bajo el agua; de ahí vendría parte de su nombre.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Versos fundamentales del camino medio",
+        "anio": "",
+        "deQueVa": "Poema breve y difícil que demuestra que nada tiene existencia propia."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "mahavira",
+    "nombre": "Mahavira",
+    "fechas": "c. 599 – c. 527 a. C. (según la tradición)",
+    "region": "India",
+    "escuela": "Jainismo",
+    "categorias": [
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Ser el gran maestro del [[jainismo]], que pide no hacer daño a ningún ser vivo",
+    "resumen": "Mahavira, que significa «gran héroe», fue un príncipe del norte de la India, contemporáneo de Buda. Hacia los treinta años lo dejó todo y vivió más de doce como [[asceta]] errante, hasta alcanzar el conocimiento perfecto según su tradición. Para los jainistas es el último de los 24 grandes maestros de su religión, los [[tirthankaras|tirthankara]]. Su principio de la [[ahimsa]], la no violencia, siglos después inspiró también a Gandhi.",
+    "ideas": [
+      "La [[ahimsa]] es no dañar a ningún ser vivo, ni con hechos, ni con palabras, ni con pensamientos; por eso algunos monjes jainistas barren el suelo al caminar para no pisar insectos.",
+      "La verdad tiene muchas caras: es como varios ciegos que tocan un elefante y cada uno cree que es algo distinto, una pared, una cuerda o una serpiente.",
+      "Hay que desprenderse de las posesiones: cuanto menos tienes, menos te ata."
+    ],
+    "curiosidad": "Los monjes jainistas de la rama digambara van desnudos, siguiendo su ejemplo, como señal de que han renunciado a todo.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "mahatma-gandhi"
+    ]
+  },
+  {
+    "id": "hipparchia-of-maroneia",
+    "nombre": "Hiparquía",
+    "fechas": "c. 350 – c. 280 a. C.",
+    "region": "Grecia",
+    "escuela": "Cinismo",
+    "categorias": [
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Ser filósofa [[cínica|cinismo]] y vivir como su marido Crates, en público y sin lujos",
+    "resumen": "Hiparquía nació en Maronea, en el norte de Grecia, en una familia rica. Se enamoró del filósofo Crates y amenazó a sus padres con matarse si no la dejaban casarse con él. Crates, para desanimarla, le mostró que no tenía nada; ella le eligió igual. Vivió a su lado como una igual, vistiendo como él y yendo a banquetes y debates, algo impensable para una mujer de su época. Es de las pocas filósofas antiguas de las que sabemos algo.",
+    "ideas": [
+      "Como buena [[cínica|cinismo]], defendía vivir con lo mínimo y según la naturaleza, sin hacer caso de lo que «queda bien».",
+      "Una mujer puede dedicarse a pensar igual que un hombre: el tiempo dedicado a educarse no es tiempo perdido.",
+      "Usaba el ingenio para ganar debates: le planteó a Teodoro, llamado «el Ateo», un razonamiento que él no supo responder."
+    ],
+    "curiosidad": "Diógenes Laercio le dedica un capítulo propio en su libro sobre los filósofos: es la única mujer que recibe ese trato.",
+    "frase": {
+      "texto": "¿Crees que he decidido mal sobre mí misma si el tiempo que iba a gastar en el telar lo he dedicado a mi educación?",
+      "fuente": "Respuesta a Teodoro, según Diógenes Laercio, «Vidas de los filósofos», VI, 98"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "diotima-of-mantinea",
+    "nombre": "Diotima de Mantinea",
+    "fechas": "siglo V a. C. (personaje de Platón)",
+    "region": "Grecia",
+    "escuela": "Platonismo (personaje de Platón)",
+    "categorias": [
+      "estetica",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Enseñar a Sócrates, en «El banquete» de Platón, que el amor es una escalera hacia la belleza",
+    "resumen": "Diotima es una sacerdotisa de Mantinea que aparece en «El banquete» de Platón: Sócrates cuenta que fue ella quien le enseñó todo lo que sabía sobre el amor. No sabemos si existió de verdad o si es un personaje inventado por Platón, porque no hay otras fuentes antiguas fiables sobre ella. Su discurso es uno de los textos más famosos sobre el amor, y de esa tradición viene la expresión «amor platónico».",
+    "ideas": [
+      "El amor desea lo que le falta: por eso no es ni del todo bello ni del todo feo, sino algo intermedio que busca.",
+      "La escalera del amor: empiezas amando un cuerpo bonito, luego todos los cuerpos bellos, luego las almas, las leyes y el saber, y al final la Belleza misma.",
+      "Amamos porque queremos que lo bueno dure para siempre: por eso tenemos hijos, creamos obras o buscamos ser recordados."
+    ],
+    "curiosidad": "En «El banquete» se dice que, gracias a sus sacrificios, Diotima retrasó diez años una epidemia de peste en Atenas.",
+    "frase": {
+      "texto": "El amor es el deseo de poseer siempre el bien.",
+      "fuente": "Palabras que Platón pone en su boca en «El banquete» (206a)"
+    },
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "aspasia",
+    "nombre": "Aspasia de Mileto",
+    "fechas": "c. 470 – c. 400 a. C.",
+    "region": "Grecia (Atenas)",
+    "escuela": "Retórica (entorno de Sócrates y Pericles)",
+    "categorias": [
+      "sociedad",
+      "politica"
+    ],
+    "conocidoPor": "Ser la compañera de Pericles y, según Platón y Jenofonte, alguien de quien hasta Sócrates aprendía",
+    "resumen": "Aspasia nació en Mileto y se instaló en Atenas, donde fue la compañera del gran político Pericles. Como era extranjera, la ley no les permitía casarse. Era famosa por su inteligencia y su forma de hablar, algo muy raro en una ciudad donde las mujeres apenas salían de casa. Los autores de comedias se burlaron mucho de ella, pero Platón y Jenofonte la presentan como alguien de quien incluso Sócrates aprendía. No conservamos nada escrito por ella.",
+    "ideas": [
+      "En el «Menéxeno» de Platón, Sócrates dice, quizá con ironía, que ella le enseñó [[retórica|retorica]] y que escribía discursos para Pericles.",
+      "Jenofonte cuenta que, según ella, una buena casamentera solo tiene éxito si dice la verdad sobre las virtudes de cada uno: con mentiras, el engaño acaba saliendo.",
+      "Su vida muestra que una mujer podía influir en la vida intelectual de la Atenas clásica, aunque la ley la dejara fuera de la política."
+    ],
+    "curiosidad": "Según Plutarco, la acusaron de [[impiedad]], y Pericles llegó a llorar en el juicio para conseguir que la absolvieran.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "arcesilaus",
+    "nombre": "Arcesilao",
+    "fechas": "c. 316 – c. 241 a. C.",
+    "region": "Grecia",
+    "escuela": "Academia escéptica (Academia Media)",
+    "categorias": [
+      "conocimiento"
+    ],
+    "conocidoPor": "Volver escéptica la Academia de Platón: hay que dudar de todo, incluso de saber que no sabes",
+    "resumen": "Arcesilao nació en Pitane, en la actual Turquía, y llegó a dirigir la [[Academia|academia]] fundada por Platón. Recuperó el lado de Sócrates que preguntaba sin dar respuestas e hizo de la escuela un lugar de duda: el [[escepticismo]]. Argumentaba contra cualquier tesis que le propusieran, sobre todo contra los estoicos, para mostrar que no podemos estar seguros de nada. Fue famoso por su ingenio y por su generosidad.",
+    "ideas": [
+      "Ni siquiera podemos estar seguros de que no sabemos nada: llevó la duda de Sócrates hasta el final.",
+      "Lo prudente es la [[epoje]], suspender el juicio, cuando las razones a favor y en contra pesan lo mismo.",
+      "Para vivir no hace falta certeza: basta con actuar de forma razonable, como quien cruza la calle mirando bien aunque no pueda estar seguro al cien por cien."
+    ],
+    "curiosidad": "No escribió ningún libro. Según Diógenes Laercio, visitó a un amigo pobre y enfermo y le dejó dinero escondido bajo la almohada para que no tuviera que darle las gracias.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "carneades"
+    ]
+  },
+  {
+    "id": "cleanthes",
+    "nombre": "Cleantes",
+    "fechas": "c. 330 – c. 230 a. C.",
+    "region": "Grecia (nacido en Asia Menor)",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "etica",
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Pasar de boxeador y aguador a sucesor de Zenón al frente de los [[estoicos|estoicismo]]",
+    "resumen": "Cleantes nació en Assos, en la actual Turquía, y fue boxeador antes de llegar a Atenas casi sin dinero. Para pagarse los estudios con Zenón sacaba agua de los pozos por las noches para regar huertos. Aprendía despacio pero era muy constante, y acabó sucediendo a Zenón como jefe de la escuela [[estoica|estoicismo]]. Su «Himno a Zeus» es uno de los pocos textos estoicos antiguos que se conservan completos.",
+    "ideas": [
+      "Hay que vivir de acuerdo con la naturaleza, que está gobernada por una razón divina, el [[logos]].",
+      "El universo es como un gran ser vivo, y el sol es algo así como su corazón o centro de mando.",
+      "Explicaba la memoria como un sello que deja su huella en cera: lo que percibimos queda grabado en el [[alma]]."
+    ],
+    "curiosidad": "Según Diógenes Laercio, cuando los jueces de Atenas le preguntaron de qué vivía, tan fuerte y sin dinero, llamó como testigo al hortelano para quien sacaba agua. Le apodaban «el burro» por lo mucho que aguantaba, y a él no le molestaba.",
+    "frase": {
+      "texto": "El destino guía al que lo acepta y arrastra al que se resiste.",
+      "fuente": "Versos de Cleantes en la traducción latina de Séneca («Cartas a Lucilio», 107)"
+    },
+    "obras": [
+      {
+        "titulo": "Himno a Zeus",
+        "anio": "",
+        "deQueVa": "Poema que alaba la razón divina que ordena el universo."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«The Golden Sayings of Epictetus», con el «Himno» de Cleantes (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/871",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "chrysippus"
+    ]
+  },
+  {
+    "id": "panaetius",
+    "nombre": "Panecio de Rodas",
+    "fechas": "c. 185 – c. 110 a. C.",
+    "region": "Grecia (Rodas) y Roma",
+    "escuela": "Estoicismo medio",
+    "categorias": [
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Llevar el [[estoicismo]] a Roma con un estilo más práctico y humano",
+    "resumen": "Panecio nació en Rodas y llegó a dirigir la escuela estoica de Atenas. Pasó años en Roma como amigo del general Escipión Emiliano, y gracias a él muchos romanos importantes se hicieron estoicos. Suavizó la doctrina: no pedía ser un sabio perfecto, sino ir mejorando cada día cumpliendo bien con nuestros deberes. Su libro «Sobre los deberes» se perdió, pero Cicerón lo usó como base para el suyo.",
+    "ideas": [
+      "No hace falta ser perfecto: basta con ir mejorando, como un aprendiz que cada día lo hace un poco mejor.",
+      "Cada persona tiene su carácter y su papel: hay que actuar según lo que compartimos todos los humanos y según nuestra propia forma de ser.",
+      "Dudó de la astrología y de la adivinación, que otros estoicos aceptaban."
+    ],
+    "curiosidad": "Cicerón escribió su famoso «Sobre los deberes» siguiendo de cerca a Panecio, así que gran parte de lo que sabemos de él nos llega a través de Cicerón.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre los deberes",
+        "anio": "",
+        "deQueVa": "Libro perdido sobre cómo actuar bien en la vida diaria; inspiró a Cicerón."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "cicero"
+    ]
+  },
+  {
+    "id": "plutarch",
+    "nombre": "Plutarco",
+    "fechas": "c. 46 – c. 120",
+    "region": "Grecia (Imperio romano)",
+    "escuela": "Platonismo medio",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "religion"
+    ],
+    "conocidoPor": "Escribir las «Vidas paralelas», biografías que comparan a griegos y romanos famosos",
+    "resumen": "Plutarco vivió en Queronea, una pequeña ciudad de Grecia, y fue sacerdote en el santuario de Delfos. Era un seguidor de Platón curioso por todo, y escribió muchísimo: biografías y ensayos sobre animales, religión, educación o cómo llevarse bien con los demás. Sus «Vidas paralelas» comparan por parejas a un griego y a un romano, como Alejandro Magno y Julio César, para aprender de sus virtudes y defectos. Shakespeare sacó de ahí la trama de obras como «Julio César».",
+    "ideas": [
+      "Las vidas de los grandes personajes sirven de espejo: al ver sus aciertos y errores aprendemos a vivir mejor.",
+      "Los animales tienen algo de inteligencia y sentimientos, y no deberíamos tratarlos con crueldad.",
+      "Educar no es llenar una cabeza de datos, sino encender las ganas de pensar."
+    ],
+    "curiosidad": "En su vida de Teseo aparece la famosa [[paradoja]] del barco: si cambias una a una todas las tablas de un barco, ¿sigue siendo el mismo barco?",
+    "frase": {
+      "texto": "La mente no necesita ser llenada como una vasija, sino encendida como la leña.",
+      "fuente": "«Sobre cómo se debe escuchar» (Moralia, 48c)"
+    },
+    "obras": [
+      {
+        "titulo": "Vidas paralelas",
+        "anio": "c. 100–120",
+        "deQueVa": "Biografías por parejas de un griego y un romano famosos."
+      },
+      {
+        "titulo": "Moralia",
+        "anio": "",
+        "deQueVa": "Decenas de ensayos sobre ética, religión, animales, educación y muchos temas más."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Vidas paralelas», traducción inglesa (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/674",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "michel-de-montaigne"
+    ]
+  },
+  {
+    "id": "iamblichus",
+    "nombre": "Jámblico",
+    "fechas": "c. 245 – c. 325",
+    "region": "Siria (Imperio romano)",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Mezclar el [[neoplatonismo]] con ritos religiosos y escribir una vida de Pitágoras",
+    "resumen": "Jámblico nació en Calcis, en Siria, y fue alumno de Porfirio. Fundó su propia escuela [[neoplatónica|neoplatonismo]]. A diferencia de su maestro, pensaba que para unirse a lo divino no basta con pensar: hacen falta ritos religiosos, la [[teurgia]]. Admiraba a Pitágoras y escribió sobre él. Influyó mucho en Proclo y en el emperador Juliano, que intentó devolver a Roma la religión [[pagana|pagano]].",
+    "ideas": [
+      "La razón sola no basta para llegar a los dioses: hacen falta ritos, la [[teurgia]], como una llave que abre una puerta.",
+      "Llenó el universo de niveles de seres divinos entre el [[Uno|uno-plotino]] y nosotros, como los peldaños de una larga escalera.",
+      "Veía a Pitágoras como un modelo de vida sabia, y las matemáticas como un camino espiritual."
+    ],
+    "curiosidad": "Firmó su libro «Sobre los misterios de los egipcios» con un nombre falso, el de un sacerdote egipcio llamado Abamón, para responder a las críticas de Porfirio.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Vida pitagórica",
+        "anio": "",
+        "deQueVa": "Biografía de Pitágoras y de cómo vivían sus seguidores."
+      },
+      {
+        "titulo": "Sobre los misterios de los egipcios",
+        "anio": "",
+        "deQueVa": "Defensa de los ritos religiosos como camino hacia los dioses."
+      },
+      {
+        "titulo": "Protréptico",
+        "anio": "",
+        "deQueVa": "Invitación a dedicarse a la filosofía."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Vida de Pitágoras», traducción de Thomas Taylor (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/63300",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "«Sobre los misterios de los egipcios», traducción inglesa (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/72815",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "proclus"
+    ]
+  },
+  {
+    "id": "diogenes-laertius",
+    "nombre": "Diógenes Laercio",
+    "fechas": "siglo III",
+    "region": "Grecia (Imperio romano)",
+    "escuela": "Historiador de la filosofía",
+    "categorias": [
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir el gran libro de vidas, anécdotas y frases de los filósofos griegos",
+    "resumen": "De Diógenes Laercio no sabemos casi nada, ni siquiera dónde vivió; seguramente escribió en el siglo III. Pero su libro «Vidas, opiniones y sentencias de los filósofos más ilustres» es un tesoro: reúne biografías, anécdotas, frases y cartas de más de ochenta pensadores griegos, de Tales a Epicuro. Muchas de las anécdotas que se cuentan de los filósofos antiguos vienen de él, aunque no todas son fiables.",
+    "ideas": [
+      "Contó la historia de la filosofía a través de las personas: qué comían, cómo hablaban, cómo murieron.",
+      "Ordenó a los filósofos en escuelas y en cadenas de maestros y alumnos, como un árbol genealógico.",
+      "Gracias a él conservamos textos enteros de Epicuro, como la «Carta a Meneceo», que de otro modo se habrían perdido."
+    ],
+    "curiosidad": "Le gustaba escribir pequeños poemas burlones sobre cómo murieron los filósofos, y los metió en su propio libro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Vidas, opiniones y sentencias de los filósofos más ilustres",
+        "anio": "",
+        "deQueVa": "Diez libros con las vidas y las ideas de los filósofos griegos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Vidas de los filósofos», traducción de C. D. Yonge (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/57342",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "theophrastus",
+    "nombre": "Teofrasto",
+    "fechas": "c. 371 – c. 287 a. C.",
+    "region": "Grecia",
+    "escuela": "Aristotelismo (Escuela peripatética)",
+    "categorias": [
+      "ciencia",
+      "sociedad"
+    ],
+    "conocidoPor": "Suceder a Aristóteles, fundar el estudio de las plantas y retratar con humor los tipos de personas",
+    "resumen": "Teofrasto nació en la isla de Lesbos y fue el mejor alumno y amigo de Aristóteles, que le dejó su escuela, el [[Liceo|liceo]]. La dirigió unos treinta y cinco años y, según Diógenes Laercio, llegó a tener unos dos mil alumnos. Estudió de todo, pero brilla en dos cosas: describió cientos de plantas con tanto cuidado que se le llama «padre de la botánica», y en «Los caracteres» retrató con humor tipos de gente que todos conocemos, como el pelota o el charlatán.",
+    "ideas": [
+      "Hay que observar y clasificar las plantas por cómo son y cómo crecen, no solo por su uso como medicina.",
+      "Los defectos humanos se repiten en cualquier época: el tacaño, el adulador o el que no para de hablar ya existían hace más de dos mil años.",
+      "Se atrevió a señalar dudas y problemas en las ideas de su propio maestro, Aristóteles."
+    ],
+    "curiosidad": "Según Diógenes Laercio, su verdadero nombre era Tírtamo; Aristóteles le llamó Teofrasto, «el de habla divina», por lo bien que hablaba.",
+    "frase": {
+      "texto": "El tiempo es el gasto más valioso.",
+      "fuente": "Diógenes Laercio, «Vidas de los filósofos», V, 40"
+    },
+    "obras": [
+      {
+        "titulo": "Historia de las plantas",
+        "anio": "",
+        "deQueVa": "Descripción y clasificación de cientos de plantas."
+      },
+      {
+        "titulo": "Los caracteres",
+        "anio": "c. 319 a. C.",
+        "deQueVa": "Treinta retratos breves y divertidos de tipos de personas con defectos."
+      },
+      {
+        "titulo": "Sobre las causas de las plantas",
+        "anio": "",
+        "deQueVa": "Por qué las plantas crecen, dan fruto o enferman."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«Los caracteres», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/58242",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "leucippus",
+    "nombre": "Leucipo",
+    "fechas": "siglo V a. C.",
+    "region": "Grecia",
+    "escuela": "Atomismo",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Inventar, con Demócrito, la idea de que todo está hecho de [[átomos|atomo]] y vacío",
+    "resumen": "De Leucipo sabemos tan poco que hasta se ha dudado de que existiera. Fue maestro de Demócrito y, según Aristóteles, el primero en proponer que la realidad está formada por partículas diminutas que no se pueden partir, los [[átomos|atomo]], moviéndose en el vacío. Lo hizo para responder a Parménides: si hay vacío, puede haber movimiento. Es el punto de partida de una de las ideas con más futuro de la historia.",
+    "ideas": [
+      "Todo está hecho de piezas minúsculas que no se pueden partir y que se mueven por un espacio vacío.",
+      "El vacío existe aunque no lo veamos: sin huecos, nada podría moverse, como en una caja llena hasta arriba.",
+      "Nada pasa por casualidad: todo tiene una causa, una idea muy cercana al [[determinismo]]."
+    ],
+    "curiosidad": "Según Diógenes Laercio, Epicuro llegó a decir que Leucipo nunca existió; hoy casi todos los historiadores creen que sí.",
+    "frase": {
+      "texto": "Nada sucede al azar, sino que todo ocurre por una razón y por necesidad.",
+      "fuente": "Fragmento B2, citado por Aecio"
+    },
+    "obras": [
+      {
+        "titulo": "La gran ordenación del mundo",
+        "anio": "",
+        "deQueVa": "Libro perdido, que se le atribuye, sobre cómo se forma el universo a partir de átomos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "democritus"
+    ]
+  },
+  {
+    "id": "boethius",
+    "nombre": "Boecio",
+    "fechas": "c. 480 – 524",
+    "region": "Italia (Roma)",
+    "escuela": "Neoplatonismo cristiano",
+    "categorias": [
+      "existencia",
+      "logica",
+      "religion"
+    ],
+    "conocidoPor": "Escribir en la cárcel «La consolación de la filosofía», uno de los libros más leídos de la Edad Media",
+    "resumen": "Boecio fue un noble romano que llegó a ser alto cargo del rey ostrogodo Teodorico, en Italia. Se propuso traducir al latín todo Platón y Aristóteles; solo pudo hacer una parte, pero con esas traducciones de [[lógica|logica]] estudió Europa durante siglos. Acusado de traición, fue encarcelado y ejecutado. En prisión escribió «La consolación de la filosofía», donde la Filosofía, en forma de mujer, le visita para consolarle.",
+    "ideas": [
+      "La felicidad verdadera no está en el dinero, la fama o el poder, que la fortuna da y quita como una rueda que no para de girar.",
+      "Dios ve todo el tiempo de golpe, como quien mira desde lo alto de una montaña: por eso que sepa lo que harás no te quita la libertad.",
+      "Definió a la persona como una «[[sustancia]] individual de naturaleza racional», una fórmula que se repitió durante siglos."
+    ],
+    "curiosidad": "Su libro sobre música, «Sobre la institución musical», se usó como manual en las universidades europeas durante siglos.",
+    "frase": {
+      "texto": "Nada es desgraciado sino cuando así lo crees.",
+      "fuente": "«La consolación de la filosofía», libro II, prosa 4"
+    },
+    "obras": [
+      {
+        "titulo": "La consolación de la filosofía",
+        "anio": "c. 524",
+        "deQueVa": "Diálogo en la cárcel con la Filosofía sobre la suerte, la felicidad y la libertad."
+      },
+      {
+        "titulo": "Sobre la institución musical",
+        "anio": "",
+        "deQueVa": "Manual de teoría musical basado en las matemáticas de los griegos."
+      },
+      {
+        "titulo": "Sobre la institución aritmética",
+        "anio": "",
+        "deQueVa": "Manual de aritmética adaptado de un autor griego."
+      },
+      {
+        "titulo": "Opúsculos teológicos",
+        "anio": "",
+        "deQueVa": "Breves tratados sobre la Trinidad y otras cuestiones cristianas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "«La consolación de la filosofía», texto completo (en inglés)",
+        "url": "https://www.gutenberg.org/ebooks/14328",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "peter-abelard",
+      "thomas-aquinas"
+    ]
+  }
+]

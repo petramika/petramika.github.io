@@ -1,0 +1,272 @@
+[
+  {
+    "clave": "apuesta-de-pascal",
+    "termino": "Apuesta de Pascal",
+    "def": "Argumento de Pascal: si crees en Dios y existe, ganas muchísimo; si no existe, pierdes poco. Así que, según él, lo sensato es apostar por creer, como quien compra un seguro barato."
+  },
+  {
+    "clave": "ateismo",
+    "termino": "Ateísmo",
+    "def": "Creer que no existe ningún dios. Un ateo explica el mundo sin recurrir a Dios, igual que explicamos la lluvia por las nubes y no por un castigo divino."
+  },
+  {
+    "clave": "calculo-infinitesimal",
+    "termino": "Cálculo infinitesimal",
+    "def": "Parte de las matemáticas que estudia cómo cambian las cosas poco a poco, trocito a trocito. Sirve, por ejemplo, para saber la velocidad de un coche en un instante exacto."
+  },
+  {
+    "clave": "causalidad",
+    "termino": "Causalidad",
+    "def": "La relación entre una causa y su efecto: pulsas el interruptor y se enciende la luz. Los filósofos se preguntan si de verdad vemos esa conexión o solo la suponemos."
+  },
+  {
+    "clave": "clero",
+    "termino": "Clero",
+    "def": "El conjunto de curas, frailes, obispos y demás personas que trabajan para la Iglesia."
+  },
+  {
+    "clave": "conocimiento-innato",
+    "termino": "Conocimiento innato",
+    "def": "Lo que sabemos desde que nacemos, sin que nadie nos lo enseñe. Por ejemplo, la sensación de que hacer daño a un inocente está mal."
+  },
+  {
+    "clave": "conservadurismo",
+    "termino": "Conservadurismo",
+    "def": "Forma de pensar en política que prefiere mantener las tradiciones y cambiar las cosas poco a poco, con cuidado, en lugar de hacer revoluciones. Como reformar una casa vieja en vez de derribarla."
+  },
+  {
+    "clave": "derecho-de-gentes",
+    "termino": "Derecho de gentes",
+    "def": "Normas que valen para todos los pueblos del mundo, sean del país que sean. Por ejemplo, respetar a los embajadores o poder viajar en paz."
+  },
+  {
+    "clave": "derecho-internacional",
+    "termino": "Derecho internacional",
+    "def": "Las reglas que deben respetar los países en su trato entre ellos, por ejemplo al firmar tratados o en una guerra. Hoy lo vigilan organismos como la ONU."
+  },
+  {
+    "clave": "derecho-natural",
+    "termino": "Derecho natural",
+    "def": "La idea de que hay normas justas que valen para todos, aunque no estén escritas en ninguna ley, porque cualquiera puede descubrirlas pensando. Por ejemplo, que no se debe matar a un inocente."
+  },
+  {
+    "clave": "derechos-naturales",
+    "termino": "Derechos naturales",
+    "def": "Derechos que tenemos por el simple hecho de ser personas, sin que ningún gobierno nos los regale: por ejemplo, el derecho a la vida y a la libertad."
+  },
+  {
+    "clave": "division-del-trabajo",
+    "termino": "División del trabajo",
+    "def": "Repartir una tarea en pasos y que cada persona haga uno. Como en una cadena de montaje o en una cocina de restaurante: así se produce mucho más y más rápido."
+  },
+  {
+    "clave": "dominico",
+    "termino": "Dominico",
+    "def": "Fraile de la Orden de Predicadores, fundada por santo Domingo en el siglo XIII. Los dominicos se dedicaban sobre todo a estudiar, enseñar y predicar."
+  },
+  {
+    "clave": "duda-metodica",
+    "termino": "Duda metódica",
+    "def": "El método de Descartes: dudar a propósito de todo lo que se pueda dudar, para quedarse solo con lo que sea totalmente seguro. Como vaciar la mochila y volver a meter solo lo imprescindible."
+  },
+  {
+    "clave": "energia",
+    "termino": "Energía",
+    "def": "La capacidad de un cuerpo para mover cosas o producir cambios. Un balón lanzado con fuerza tiene más energía y por eso rompe más fácilmente un cristal."
+  },
+  {
+    "clave": "ensayo",
+    "termino": "Ensayo",
+    "def": "Texto breve en el que el autor da su opinión personal sobre un tema, pensando en voz alta y sin pretender decir la última palabra. Como una buena columna de periódico."
+  },
+  {
+    "clave": "espectador-imparcial",
+    "termino": "Espectador imparcial",
+    "def": "Idea de Adam Smith: para juzgar si actuamos bien, imaginamos a alguien neutral que nos observa desde fuera. Es como preguntarse «¿qué pensaría de esto alguien que no tiene nada en juego?»."
+  },
+  {
+    "clave": "estado-de-naturaleza",
+    "termino": "Estado de naturaleza",
+    "def": "Cómo viviríamos, imaginan algunos filósofos, si no hubiera gobierno, ni leyes, ni policía. Es una situación imaginaria para pensar por qué necesitamos un Estado."
+  },
+  {
+    "clave": "fenomeno",
+    "termino": "Fenómeno",
+    "def": "Para Kant, las cosas tal como nos aparecen a través de nuestros sentidos y nuestra mente, no como son en sí mismas. Como ver el mundo siempre a través de unas gafas que no podemos quitarnos."
+  },
+  {
+    "clave": "guerra-justa",
+    "termino": "Guerra justa",
+    "def": "La idea de que una guerra solo puede estar justificada en casos muy concretos, por ejemplo para defenderse de un ataque, y que incluso entonces hay cosas prohibidas, como atacar a civiles."
+  },
+  {
+    "clave": "haskala",
+    "termino": "Haskalá",
+    "def": "La Ilustración judía de los siglos XVIII y XIX. Animaba a los judíos a estudiar ciencias y cultura de su país sin abandonar su religión."
+  },
+  {
+    "clave": "herejia",
+    "termino": "Herejía",
+    "def": "Una idea religiosa que la Iglesia oficial considera equivocada y prohibida. En otras épocas, defender una herejía podía llevarte a la cárcel o a la hoguera."
+  },
+  {
+    "clave": "idolos-bacon",
+    "termino": "Ídolos (de Bacon)",
+    "def": "Según Francis Bacon, trampas de la mente que nos impiden ver la realidad: prejuicios, gustos personales, palabras confusas o teorías de moda. Como unas gafas sucias que deforman lo que miramos."
+  },
+  {
+    "clave": "induccion",
+    "termino": "Inducción",
+    "def": "Sacar una regla general a partir de muchos casos concretos. Si todos los cisnes que has visto son blancos, concluyes que todos los cisnes son blancos, aunque podrías equivocarte."
+  },
+  {
+    "clave": "inquisicion",
+    "termino": "Inquisición",
+    "def": "Tribunal de la Iglesia católica que perseguía y juzgaba a quienes consideraba herejes. Podía torturar y condenar a muerte, y fue muy poderoso en España durante siglos."
+  },
+  {
+    "clave": "jesuita",
+    "termino": "Jesuita",
+    "def": "Miembro de la Compañía de Jesús, una orden religiosa católica fundada por san Ignacio de Loyola en 1540. Los jesuitas fueron famosos por sus colegios y universidades."
+  },
+  {
+    "clave": "ley-natural",
+    "termino": "Ley natural",
+    "def": "Normas morales básicas que cualquier persona puede descubrir usando la razón, sin que nadie se las escriba. Por ejemplo, que hay que cumplir las promesas o no hacer daño gratuitamente."
+  },
+  {
+    "clave": "mano-invisible",
+    "termino": "Mano invisible",
+    "def": "Imagen de Adam Smith: cuando cada uno busca su propio beneficio en el mercado, sin querer acaba ayudando a los demás, como si una mano invisible lo ordenara todo."
+  },
+  {
+    "clave": "monada",
+    "termino": "Mónada",
+    "def": "Para Leibniz, las piezas más pequeñas de la realidad: no son trocitos de materia, sino algo parecido a pequeñas almas, cada una con su propio punto de vista sobre el universo."
+  },
+  {
+    "clave": "nacionalismo",
+    "termino": "Nacionalismo",
+    "def": "Idea de que cada pueblo o nación, con su lengua y su cultura, debe ser reconocido y, a menudo, tener su propio Estado. Puede unir a la gente, pero también enfrentarla."
+  },
+  {
+    "clave": "neoconfucianismo",
+    "termino": "Neoconfucianismo",
+    "def": "Renovación de las ideas de Confucio en China a partir del siglo XI. Busca cómo ser buena persona y vivir en armonía, mezclando la tradición confuciana con ideas del budismo y el taoísmo."
+  },
+  {
+    "clave": "ocasionalismo",
+    "termino": "Ocasionalismo",
+    "def": "La idea de que las cosas no se causan unas a otras: es Dios quien lo hace todo en cada ocasión. Cuando quieres mover el brazo, sería Dios quien lo mueve."
+  },
+  {
+    "clave": "panoptico",
+    "termino": "Panóptico",
+    "def": "Cárcel circular ideada por Bentham, con una torre en el centro desde la que un vigilante puede ver todas las celdas. Los presos nunca saben si los miran, así que se portan bien siempre."
+  },
+  {
+    "clave": "panteismo",
+    "termino": "Panteísmo",
+    "def": "La creencia de que Dios y la naturaleza son lo mismo: Dios no estaría fuera del mundo, sino que sería el propio universo entero."
+  },
+  {
+    "clave": "paradoja-de-condorcet",
+    "termino": "Paradoja de Condorcet",
+    "def": "Cuando un grupo vota, puede preferir pizza a pasta, pasta a hamburguesa y, a la vez, hamburguesa a pizza. Así, la votación no deja claro qué prefiere la mayoría."
+  },
+  {
+    "clave": "problema-de-la-induccion",
+    "termino": "Problema de la inducción",
+    "def": "Por muchas veces que algo haya pasado, nada garantiza que vuelva a pasar. Que el sol haya salido todos los días no demuestra con total seguridad que saldrá mañana."
+  },
+  {
+    "clave": "propiedad-privada",
+    "termino": "Propiedad privada",
+    "def": "Que las cosas, como casas, tierras o fábricas, pertenezcan a personas concretas y no a todos en común."
+  },
+  {
+    "clave": "prudencia",
+    "termino": "Prudencia",
+    "def": "Saber actuar con buen juicio en cada situación: pensar antes de hablar, prever las consecuencias y elegir el momento adecuado."
+  },
+  {
+    "clave": "razon-suficiente",
+    "termino": "Principio de razón suficiente",
+    "def": "La idea de que nada pasa porque sí: todo tiene una razón o una causa que lo explica, aunque nosotros no la conozcamos."
+  },
+  {
+    "clave": "retorica",
+    "termino": "Retórica",
+    "def": "El arte de hablar y escribir bien para convencer a los demás. Es lo que usa un buen abogado en un juicio o un político en un discurso."
+  },
+  {
+    "clave": "satira",
+    "termino": "Sátira",
+    "def": "Texto que se burla con humor de personas, costumbres o instituciones para criticarlas. Como un programa de humor que se ríe de los políticos."
+  },
+  {
+    "clave": "sensualismo",
+    "termino": "Sensualismo",
+    "def": "La idea de que todo lo que hay en nuestra mente, incluso pensar y recordar, viene de lo que sentimos: ver, oír, oler, tocar y saborear. Nada tiene que ver con la sensualidad."
+  },
+  {
+    "clave": "sentido-comun",
+    "termino": "Sentido común",
+    "def": "Las creencias básicas que comparte cualquier persona sensata, como que el mundo existe o que el pasado ocurrió, y sin las que no podríamos vivir día a día."
+  },
+  {
+    "clave": "sentido-moral",
+    "termino": "Sentido moral",
+    "def": "Una especie de olfato interior que nos hace notar enseguida que algo está bien o mal, igual que notamos que una comida está rica o que una canción desafina."
+  },
+  {
+    "clave": "separacion-de-poderes",
+    "termino": "Separación de poderes",
+    "def": "Repartir el poder del Estado en tres: el que hace las leyes (parlamento), el que gobierna (gobierno) y el que juzga (jueces). Así se vigilan entre ellos y nadie lo controla todo."
+  },
+  {
+    "clave": "sistema-binario",
+    "termino": "Sistema binario",
+    "def": "Forma de escribir números usando solo dos cifras, el 0 y el 1. Es el idioma con el que funcionan todos los ordenadores y móviles."
+  },
+  {
+    "clave": "soberano",
+    "termino": "Soberano",
+    "def": "Quien tiene el poder máximo en un Estado y cuyas decisiones nadie puede anular: un rey, una asamblea o, en democracia, el pueblo."
+  },
+  {
+    "clave": "sociabilidad",
+    "termino": "Sociabilidad",
+    "def": "Nuestra tendencia natural a vivir con otros y necesitarlos. Nadie puede sobrevivir completamente solo, como un náufrago en una isla."
+  },
+  {
+    "clave": "sublime",
+    "termino": "Lo sublime",
+    "def": "Lo que nos impresiona tanto que nos asombra y a la vez nos da un poco de miedo, como una tormenta en alta mar, una montaña enorme o un cielo lleno de estrellas."
+  },
+  {
+    "clave": "teodicea",
+    "termino": "Teodicea",
+    "def": "Intentar explicar por qué existe el mal si Dios es bueno y todopoderoso. Por ejemplo: ¿por qué hay terremotos si Dios nos quiere?"
+  },
+  {
+    "clave": "terror-revolucionario",
+    "termino": "el Terror",
+    "def": "Periodo de la Revolución francesa (1793-1794) en el que el gobierno revolucionario detuvo y guillotinó a miles de personas consideradas enemigas."
+  },
+  {
+    "clave": "utopia",
+    "termino": "Utopía",
+    "def": "Una sociedad ideal y perfecta que solo existe en la imaginación. La palabra la inventó Tomás Moro y significa «ningún lugar». Hoy decimos «es una utopía» de algo bonito pero difícil."
+  },
+  {
+    "clave": "voluntad-general",
+    "termino": "Voluntad general",
+    "def": "Para Rousseau, lo que quiere el pueblo cuando piensa en el bien de todos, no en el interés de cada uno. No es lo mismo que sumar los caprichos de cada persona."
+  },
+  {
+    "clave": "yo",
+    "termino": "Yo (Fichte)",
+    "def": "Para Fichte, no es una cosa, sino la actividad de la conciencia que se da cuenta de sí misma y actúa. Somos lo que hacemos, no algo que simplemente está ahí."
+  }
+]
