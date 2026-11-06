@@ -1,0 +1,33 @@
+/*
+  Palabras del glosario y su bocadillo, comun a todas las webs. Los colores
+  salen de variables con valor por defecto; cada web puede cambiarlas.
+*/
+:root {
+  --g-fondo: #ecebe7; --g-fondo-on: #dcdad3; --g-raya: #a19e97; --g-tinta: inherit;
+  --g-tip: #1d1d1f; --g-tip-texto: #fbfaf7;
+  --g-letra: inherit;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --g-fondo: #2a2926; --g-fondo-on: #3a3934; --g-raya: #75726c; --g-tip: #ecebe7; --g-tip-texto: #141413; }
+}
+.termino {
+  appearance: none; border: 0; margin: 0; padding: 0 3px; border-radius: 4px; cursor: help;
+  font: inherit; color: inherit; background: var(--g-fondo);
+  text-decoration: underline dotted; text-decoration-color: var(--g-raya); text-underline-offset: 3px; text-decoration-thickness: 1.5px;
+  transition: background .15s;
+}
+.termino:hover, .termino.activo { background: var(--g-fondo-on); text-decoration-color: currentColor; }
+.bocadillo {
+  position: fixed; z-index: 1000; width: min(320px, calc(100vw - 20px)); padding: 12px 14px; border-radius: 10px;
+  background: var(--g-tip); color: var(--g-tip-texto); box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+  font-family: var(--g-letra); font-size: 15px; line-height: 1.45; text-align: left; text-transform: none; letter-spacing: normal; font-weight: 400; font-style: normal;
+  animation: bocadillo .14s ease-out;
+}
+.bocadillo b { display: block; font-weight: 700; font-size: 16px; margin-bottom: 3px; }
+.bocadillo::before {
+  content: ""; position: absolute; left: var(--flecha, 50%); top: -6px; width: 12px; height: 12px; margin-left: -6px;
+  background: var(--g-tip); transform: rotate(45deg); border-radius: 2px;
+}
+.bocadillo.arriba::before { top: auto; bottom: -6px; }
+@keyframes bocadillo { from { opacity: 0; transform: translateY(4px); } }
+@media (prefers-reduced-motion: reduce) { .bocadillo { animation: none; } }

@@ -1,0 +1,211 @@
+@import "tailwindcss" source(none);
+@source "./";
+
+/*
+  Papel y tinta, como ROTA, y de noche al reves. Los colores son variables
+  para que el modo oscuro solo tenga que cambiarlas aqui.
+*/
+:root {
+  --papel: #fbfbfb;
+  --tinta: #141518;
+  --suave: #62656d;
+  --raya: #e4e4e7;
+  /* Cuanto se ve el subrayador: entero sobre papel, apagado sobre negro */
+  --marca-fuerza: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papel: #111214;
+    --tinta: #ededee;
+    --suave: #9b9ea6;
+    --raya: #2a2c31;
+    --marca-fuerza: 38%;
+  }
+}
+
+@theme inline {
+  --color-papel: var(--papel);
+  --color-tinta: var(--tinta);
+  --color-suave: var(--suave);
+  --color-raya: var(--raya);
+  --font-display: "Archivo", "Space Grotesk", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-hand: "Caveat", "Segoe Script", cursive;
+}
+
+@layer base {
+  html {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--tinta) 15%, transparent);
+  }
+}
+
+/*
+  El subrayador: una franja del color del proyecto que cruza el nombre al
+  pasar por encima, como un rotulador fluorescente.
+*/
+.marca {
+  background-image: linear-gradient(
+    transparent 55%,
+    color-mix(in srgb, var(--marca) var(--marca-fuerza), transparent) 55% 92%,
+    transparent 92%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+  padding-inline: 2px;
+  margin-inline: -2px;
+}
+
+a:hover .marca,
+a:focus-visible .marca {
+  background-size: 100% 100%;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--tinta);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marca {
+    transition: none;
+  }
+}
+
+/*
+  Manchas: formas lisas con degradado que respiran en las esquinas. Cada una
+  anima su border-radius entre cuatro formas, flota unos pixeles y el
+  conjunto gira el tono muy despacio. Los tamaños cuelgan de --g (la grande
+  de arriba) y --h (la de abajo), asi los satelites siempre quedan cerca.
+*/
+.manchas {
+  --g: clamp(220px, 30vw, 540px);
+  --h: clamp(200px, 26vw, 460px);
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  overflow: hidden;
+  pointer-events: none;
+  animation: manchas-tono 40s ease-in-out infinite alternate;
+}
+
+.mancha {
+  position: absolute;
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, var(--a), var(--b));
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  animation:
+    mancha-forma var(--forma, 16s) ease-in-out var(--retraso, 0s) infinite alternate,
+    mancha-flota var(--flota, 22s) ease-in-out var(--retraso, 0s) infinite alternate;
+  will-change: border-radius, transform;
+}
+
+.mancha.grande.arriba { width: var(--g); top: calc(var(--g) * -0.42); right: calc(var(--g) * -0.3); --a: #ff7eb6; --b: #7b5cff; --forma: 18s; }
+.mancha.sat.arriba.s1 { width: calc(var(--g) * 0.17); top: calc(var(--g) * 0.2); right: calc(var(--g) * 0.74); --a: #ff9a5a; --b: #ff5fa2; --forma: 11s; --retraso: -4s; --dx: -10px; --dy: 14px; }
+.mancha.sat.arriba.s2 { width: calc(var(--g) * 0.06); top: calc(var(--g) * 0.07); right: calc(var(--g) * 0.98); --a: #b98cff; --b: #6a5cff; --forma: 9s; --retraso: -2s; --dx: 8px; --dy: 10px; }
+.mancha.sat.arriba.s3 { width: calc(var(--g) * 0.11); top: calc(var(--g) * 0.02); right: calc(var(--g) * 1.32); --a: #ffd36e; --b: #ff8a5c; --forma: 13s; --retraso: -7s; --dx: 12px; --dy: 8px; }
+
+.mancha.grande.abajo { width: var(--h); bottom: calc(var(--h) * -0.45); left: calc(var(--h) * -0.32); --a: #5ee0c8; --b: #5b6cff; --forma: 20s; --retraso: -6s; }
+.mancha.sat.abajo.s1 { width: calc(var(--h) * 0.14); bottom: calc(var(--h) * 0.1); left: calc(var(--h) * 0.86); --a: #7cc4ff; --b: #8a5cff; --forma: 12s; --retraso: -3s; --dx: 10px; --dy: -12px; }
+.mancha.sat.abajo.s2 { width: calc(var(--h) * 0.22); bottom: calc(var(--h) * -0.09); left: calc(var(--h) * 1.12); --a: #ff7eb6; --b: #ffb36b; --forma: 15s; --retraso: -9s; --dx: -8px; --dy: -10px; }
+.mancha.sat.abajo.s3 { width: calc(var(--h) * 0.05); bottom: calc(var(--h) * 0.02); left: calc(var(--h) * 0.48); --a: #9be15d; --b: #2fb38a; --forma: 8s; --retraso: -1s; --dx: 6px; --dy: -8px; }
+
+@keyframes mancha-forma {
+  0%   { border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; }
+  33%  { border-radius: 70% 30% 46% 54% / 30% 39% 61% 70%; }
+  66%  { border-radius: 28% 72% 38% 62% / 58% 32% 68% 42%; }
+  100% { border-radius: 55% 45% 30% 70% / 40% 62% 38% 60%; }
+}
+
+@keyframes mancha-flota {
+  from { transform: translate(0, 0) rotate(0deg); }
+  to   { transform: translate(var(--dx, 14px), var(--dy, 18px)) rotate(12deg); }
+}
+
+@keyframes manchas-tono {
+  from { filter: hue-rotate(0deg); }
+  to   { filter: hue-rotate(45deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .manchas, .mancha { animation: none; }
+}
+
+/*
+  Vistazo: una hoja con la captura de cada proyecto. Al cargar sale de la
+  carpeta (desde la izquierda, pequeña y girada) con un saltito, una detras
+  de otra, y le pasa un brillo por encima. Al señalar el proyecto la hoja se
+  endereza, se levanta y la captura se recorre de arriba abajo, como echar
+  un vistazo a la pagina.
+*/
+.hoja {
+  display: block;
+  width: min(100%, 15rem);
+  aspect-ratio: 4 / 3;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--raya);
+  background: var(--raya);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 6px 18px -6px rgb(0 0 0 / 0.18);
+  transform: rotate(var(--giro));
+  transform-origin: 30% 90%;
+  transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.25, 1.25), box-shadow 0.3s;
+  animation: hoja-sale 0.75s cubic-bezier(0.2, 0.9, 0.25, 1.3) both;
+  animation-delay: calc(0.25s + var(--i) * 0.14s);
+}
+@media (min-width: 640px) {
+  .hoja { width: 100%; margin-top: -0.35rem; }
+}
+.hoja img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--foco);
+  display: block;
+  transition: object-position 2.2s cubic-bezier(0.45, 0, 0.25, 1);
+}
+/* El brillo: una franja clara que cruza una sola vez al aterrizar */
+.hoja::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.55) 50%, transparent 65%);
+  transform: translateX(-120%);
+  animation: hoja-brillo 0.9s ease-out both;
+  animation-delay: calc(0.85s + var(--i) * 0.14s);
+  pointer-events: none;
+}
+a:hover .hoja,
+a:focus-visible .hoja {
+  transform: rotate(0deg) translateY(-4px) scale(1.04);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.08), 0 16px 32px -10px rgb(0 0 0 / 0.3);
+}
+a:hover .hoja img,
+a:focus-visible .hoja img {
+  object-position: 50% 100%;
+}
+
+@keyframes hoja-sale {
+  0%   { opacity: 0; transform: translate(-2.5rem, 1.2rem) rotate(-14deg) scale(0.55); }
+  60%  { opacity: 1; }
+  100% { opacity: 1; transform: rotate(var(--giro)); }
+}
+@keyframes hoja-brillo {
+  to { transform: translateX(120%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hoja, .hoja img, .hoja::after { animation: none; transition: none; }
+  .hoja::after { display: none; }
+}
