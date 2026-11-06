@@ -1,0 +1,8 @@
+/* Pie comun: toma el color del texto de cada pagina y le baja la intensidad */
+.pie-sitio { padding: 88px 24px 72px; text-align: center; border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent); margin-top: 64px; }
+.pie-marca { margin: 0; font-weight: 900; font-size: clamp(34px, 5vw, 48px); line-height: 1; letter-spacing: -0.05em; text-transform: uppercase; user-select: none; }
+.pie-linea { margin: 10px 0 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; font: 400 11px/1.6 "IBM Plex Mono", ui-monospace, Menlo, monospace; text-transform: uppercase; letter-spacing: 0.25em; color: color-mix(in srgb, currentColor 62%, transparent); }
+.pie-sitio .pie-marca + .pie-linea { margin-top: 22px; }
+.pie-linea.tenue { color: color-mix(in srgb, currentColor 42%, transparent); }
+.pie-carpeta { display: inline-flex; color: inherit; opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
+.pie-carpeta:hover, .pie-carpeta:focus-visible { opacity: 1; transform: translateY(-2px); }
