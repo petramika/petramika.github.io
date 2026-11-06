@@ -1,0 +1,2169 @@
+[
+ {
+  "id": "pseudo-dionysius-the-areopagite",
+  "nombre": "Pseudo Dionisio Areopagita",
+  "fechas": "c. 500",
+  "region": "Siria (Imperio bizantino)",
+  "escuela": "Neoplatonismo cristiano",
+  "categorias": [
+   "religion",
+   "metafisica"
+  ],
+  "conocidoPor": "Decir que de Dios sabemos más lo que no es que lo que es: la [[teología negativa|teologia-negativa]]",
+  "resumen": "Un autor misterioso que escribió hacia el año 500 haciéndose pasar por Dionisio, un ateniense al que convirtió san Pablo. Por eso le llamamos «Pseudo» (falso) Dionisio. Durante casi mil años todos creyeron que sus libros eran de la época de los apóstoles, y por eso pesaron muchísimo en la Edad Media. Mezcló la Biblia con el [[neoplatonismo]] y nos dejó una idea muy útil: a veces es más honesto decir lo que algo no es que fingir que lo entendemos del todo.",
+  "ideas": [
+   "Dios es tan grande que ninguna palabra le queda bien: es mejor decir que no es limitado, no es material, no es como nada que conozcamos. Es la [[teología negativa|teologia-negativa]].",
+   "Todo está ordenado en escalones, como una gran escalera de luz que baja de Dios a los ángeles y de ahí a las personas; la palabra [[jerarquía|jerarquia]] se la debemos a él.",
+   "Los coros de ángeles que aparecen en cuadros y catedrales (serafines, querubines, tronos…) los ordenó él en nueve grupos."
+  ],
+  "curiosidad": "Durante siglos se creyó que era un discípulo directo de san Pablo. En el Renacimiento, sabios como Lorenzo Valla y Erasmo empezaron a sospechar que los textos eran muy posteriores.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La jerarquía celeste",
+    "anio": "c. 500",
+    "deQueVa": "Cómo se ordenan los ángeles en nueve grupos."
+   },
+   {
+    "titulo": "Los nombres divinos",
+    "anio": "c. 500",
+    "deQueVa": "Qué podemos decir (y qué no) cuando hablamos de Dios."
+   },
+   {
+    "titulo": "Teología mística",
+    "anio": "c. 500",
+    "deQueVa": "Un librito breve sobre acercarse a Dios dejando atrás las palabras."
+   },
+   {
+    "titulo": "La jerarquía eclesiástica",
+    "anio": "c. 500",
+    "deQueVa": "El orden de la Iglesia y sus ritos como reflejo del cielo."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Obras de Dionisio Areopagita (traducción inglesa de 1897), Christian Classics Ethereal Library",
+    "url": "https://www.ccel.org/ccel/dionysius/works.html",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "john-scotus-eriugena",
+   "thomas-aquinas",
+   "bonaventure",
+   "meister-eckhart",
+   "nicholas-of-cusa"
+  ]
+ },
+ {
+  "id": "john-scotus-eriugena",
+  "nombre": "Juan Escoto Eriúgena",
+  "fechas": "c. 815 – c. 877",
+  "region": "Irlanda",
+  "escuela": "Neoplatonismo cristiano",
+  "categorias": [
+   "metafisica",
+   "religion"
+  ],
+  "conocidoPor": "Ver toda la naturaleza como un gran viaje que sale de Dios y acaba volviendo a Él",
+  "resumen": "Un sabio irlandés que trabajó en la corte del rey franco Carlos el Calvo. En una época en que casi nadie en Occidente sabía griego, él lo dominaba y tradujo al latín los libros del Pseudo Dionisio. Su gran obra, Sobre la división de la naturaleza, cuenta la historia de todo lo que existe como un viaje de ida y vuelta: todo sale de Dios y todo regresa a Él. Era tan atrevido que siglos después la Iglesia condenó ese libro.",
+  "ideas": [
+   "La verdadera religión y la verdadera filosofía son lo mismo: pensar bien no es enemigo de creer.",
+   "Divide la «naturaleza» en cuatro: lo que crea y no es creado (Dios), lo que es creado y crea (las ideas modelo de las cosas), lo que es creado y no crea (las cosas) y lo que ni crea ni es creado (Dios como meta final).",
+   "Si una autoridad y la razón chocan, hay que seguir a la razón, porque toda autoridad buena nació de razonar bien."
+  ],
+  "curiosidad": "En su época, «Escoto» quería decir irlandés, no escocés, y «Eriúgena» viene de Ériu, el antiguo nombre de Irlanda: su nombre dice dos veces de dónde era.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la división de la naturaleza (Periphyseon)",
+    "anio": "c. 864–866",
+    "deQueVa": "Todo lo que existe como un viaje que sale de Dios y vuelve a Él."
+   },
+   {
+    "titulo": "Sobre la predestinación divina",
+    "anio": "851",
+    "deQueVa": "Contra quienes decían que Dios condena a algunos desde antes de nacer."
+   },
+   {
+    "titulo": "Traducción de las obras de Dionisio Areopagita",
+    "anio": "c. 860",
+    "deQueVa": "Pasó al latín los libros del Pseudo Dionisio y los hizo famosos en Occidente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "nicholas-of-cusa",
+   "meister-eckhart"
+  ]
+ },
+ {
+  "id": "al-kindi",
+  "nombre": "Al-Kindi",
+  "fechas": "c. 800 – c. 870",
+  "region": "Irak (Bagdad)",
+  "escuela": "Falsafa (filosofía islámica)",
+  "categorias": [
+   "metafisica",
+   "ciencia",
+   "religion"
+  ],
+  "conocidoPor": "Ser «el filósofo de los árabes»: el primero que unió la filosofía griega con el islam",
+  "resumen": "Vivió en Bagdad cuando era la gran capital del saber y allí se traducían al árabe los libros griegos. Al-Kindi dirigió traducciones y escribió sobre casi todo: matemáticas, música, medicina, óptica y filosofía. Defendió algo que hoy nos parece normal pero entonces no lo era: que una buena idea vale aunque venga de otra cultura. Con él empieza la [[falsafa]], la filosofía en lengua árabe.",
+  "ideas": [
+   "La verdad hay que aceptarla venga de donde venga, aunque sea de pueblos extranjeros como los antiguos griegos.",
+   "La filosofía y el islam no se pelean: la razón ayuda a entender mejor la fe.",
+   "El mundo no existe desde siempre: tuvo un comienzo, y la razón puede demostrarlo."
+  ],
+  "curiosidad": "Escribió uno de los primeros textos conocidos sobre cómo descifrar mensajes secretos contando qué letras se repiten más, el [[análisis de frecuencias|analisis-de-frecuencias]], un truco que aún se enseña en criptografía.",
+  "frase": {
+   "texto": "No debemos avergonzarnos de reconocer la verdad y de hacerla nuestra, venga de donde venga, aunque nos llegue de pueblos lejanos y de naciones distintas de la nuestra.",
+   "fuente": "Sobre la filosofía primera"
+  },
+  "obras": [
+   {
+    "titulo": "Sobre la filosofía primera",
+    "anio": "s. IX",
+    "deQueVa": "Qué es lo más básico de la realidad y por qué el mundo tuvo un principio."
+   },
+   {
+    "titulo": "Sobre el intelecto",
+    "anio": "s. IX",
+    "deQueVa": "Cómo funciona nuestra capacidad de entender."
+   },
+   {
+    "titulo": "Sobre las definiciones y descripciones de las cosas",
+    "anio": "s. IX",
+    "deQueVa": "Un pequeño diccionario de palabras filosóficas."
+   },
+   {
+    "titulo": "Sobre el desciframiento de mensajes cifrados",
+    "anio": "s. IX",
+    "deQueVa": "Cómo romper códigos secretos contando letras."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "al-farabi"
+  ]
+ },
+ {
+  "id": "al-farabi",
+  "nombre": "Al-Farabi",
+  "fechas": "c. 870 – 950",
+  "region": "Asia Central e Irak",
+  "escuela": "Falsafa (aristotelismo islámico)",
+  "categorias": [
+   "politica",
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Ser «el Segundo Maestro» (después de Aristóteles) e imaginar la [[ciudad virtuosa|ciudad-virtuosa]]",
+  "resumen": "Nació probablemente en Asia Central y vivió sobre todo en Bagdad y luego en Siria. Le llamaban «el Segundo Maestro», porque el primero era Aristóteles y nadie lo explicaba mejor que él. Se preguntó cómo sería una sociedad perfecta guiada por un gobernante sabio, igual que Platón en La República. Sin él no se entienden ni Avicena ni Averroes.",
+  "ideas": [
+   "Una ciudad es como un cuerpo: cada parte tiene su función y el gobernante es como el corazón. Si quien manda es sabio y bueno, todo funciona.",
+   "La [[lógica|logica]] es a la razón lo que la gramática es al idioma: unas reglas para no equivocarse al pensar.",
+   "La felicidad de verdad no se consigue en solitario: se alcanza viviendo en una buena comunidad que te ayude a ser mejor."
+  ],
+  "curiosidad": "Además de filósofo fue un gran teórico de la música: su Gran libro de la música fue durante siglos una referencia sobre escalas e instrumentos en el mundo islámico.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La ciudad virtuosa (Opiniones de los habitantes de la ciudad virtuosa)",
+    "anio": "c. 942–943",
+    "deQueVa": "Cómo sería una sociedad ideal y quién debería gobernarla."
+   },
+   {
+    "titulo": "Catálogo de las ciencias",
+    "anio": "s. X",
+    "deQueVa": "Un mapa de todas las ramas del saber de su época."
+   },
+   {
+    "titulo": "La filosofía de Platón y Aristóteles",
+    "anio": "s. X",
+    "deQueVa": "Resumen de las ideas de los dos grandes griegos."
+   },
+   {
+    "titulo": "Gran libro de la música",
+    "anio": "s. X",
+    "deQueVa": "Teoría de la música, escalas e instrumentos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "avicenna",
+   "ibn-bajja",
+   "averroes",
+   "maimonides"
+  ]
+ },
+ {
+  "id": "avicenna",
+  "nombre": "Avicena",
+  "fechas": "980 – 1037",
+  "region": "Persia",
+  "escuela": "Falsafa (aristotelismo islámico)",
+  "categorias": [
+   "metafisica",
+   "mente",
+   "ciencia",
+   "religion"
+  ],
+  "conocidoPor": "Imaginar un «[[hombre volante|hombre-volante]]» para mostrar que sabemos que existimos sin mirar nuestro cuerpo",
+  "resumen": "Médico y filósofo persa, uno de los grandes genios de la historia. De adolescente ya dominaba la medicina, y su Canon de medicina se usó en universidades europeas durante siglos. En filosofía se preguntó qué significa existir y separó dos cosas: qué es algo (su [[esencia]]) y el hecho de que exista. Influyó a la vez en pensadores musulmanes, judíos y cristianos.",
+  "ideas": [
+   "Imagina a alguien creado de golpe flotando en el aire, con los ojos tapados, sin tocar nada ni sentir su cuerpo. Aun así sabría que existe. Por tanto, el [[alma]] es algo distinto del cuerpo.",
+   "Una cosa es saber qué es un unicornio y otra muy distinta que exista: en todo lo que vemos, la [[esencia]] y la existencia van separadas; solo en Dios son lo mismo.",
+   "Dios es el «[[ser necesario|ser-necesario]]»: lo único que no puede no existir. Todo lo demás podría no haber existido, como tú o como esta mesa."
+  ],
+  "curiosidad": "En su autobiografía cuenta que leyó la Metafísica de Aristóteles unas cuarenta veces sin entenderla, hasta que un librito de Al-Farabi, comprado barato en un mercado, se la aclaró.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El libro de la curación (Kitab al-Shifa)",
+    "anio": "c. 1020–1027",
+    "deQueVa": "Enciclopedia gigante de lógica, ciencias, matemáticas y metafísica."
+   },
+   {
+    "titulo": "El canon de medicina",
+    "anio": "1025",
+    "deQueVa": "El gran manual de medicina, usado en Europa durante siglos."
+   },
+   {
+    "titulo": "Libro de las indicaciones y advertencias",
+    "anio": "c. 1030",
+    "deQueVa": "Resumen maduro de su filosofía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "al-ghazali",
+   "averroes",
+   "thomas-aquinas",
+   "suhrawardi",
+   "mulla-sadra"
+  ]
+ },
+ {
+  "id": "al-ghazali",
+  "nombre": "Algacel (Al-Ghazali)",
+  "fechas": "1058 – 1111",
+  "region": "Persia",
+  "escuela": "Teología islámica y sufismo",
+  "categorias": [
+   "religion",
+   "conocimiento",
+   "existencia"
+  ],
+  "conocidoPor": "Criticar a los filósofos con sus propias armas en La incoherencia de los filósofos",
+  "resumen": "Fue el profesor más famoso de Bagdad hasta que, hacia los 37 años, entró en una crisis tan fuerte que no le salían las palabras en clase. Lo dejó todo y pasó años viajando en busca de una certeza de verdad, que encontró en el [[sufismo]]. Estudió a fondo a los filósofos y luego escribió un libro para demostrar que se pasaban de listos al hablar de Dios o del origen del mundo. Su influencia en el islam es enorme.",
+  "ideas": [
+   "Dudó de todo, incluso de sus sentidos: si una estrella parece pequeña pero es enorme, ¿de qué más puedo fiarme? Es una duda parecida a la que siglos después tuvo Descartes.",
+   "Que el fuego queme el algodón no es obligatorio: solo vemos que siempre pasa así, y Dios podría hacerlo de otra manera. Es una crítica a la [[causalidad]] entendida como algo necesario.",
+   "Hay verdades que no se aprenden en los libros sino viviéndolas: no es lo mismo saber qué es la borrachera que estar borracho."
+  ],
+  "curiosidad": "En la Europa medieval le conocían como «Algazel» y muchos creyeron que era un filósofo aristotélico, porque solo les llegó traducido su resumen de las ideas de los filósofos y no su crítica.",
+  "frase": {
+   "texto": "La sed de comprender la verdadera naturaleza de las cosas fue mi costumbre desde mis primeros años.",
+   "fuente": "Liberación del error (al-Munqidh min al-dalal), su autobiografía"
+  },
+  "obras": [
+   {
+    "titulo": "Las intenciones de los filósofos",
+    "anio": "c. 1094",
+    "deQueVa": "Resumen claro de lo que pensaban los filósofos, antes de criticarlos."
+   },
+   {
+    "titulo": "La incoherencia de los filósofos",
+    "anio": "1095",
+    "deQueVa": "Veinte puntos en los que, según él, los filósofos se equivocan."
+   },
+   {
+    "titulo": "La revivificación de las ciencias religiosas",
+    "anio": "c. 1097–1102",
+    "deQueVa": "Gran guía para vivir la fe de corazón, no solo cumpliendo normas."
+   },
+   {
+    "titulo": "Liberación del error",
+    "anio": "c. 1100–1107",
+    "deQueVa": "Su autobiografía: la historia de su crisis y de su búsqueda de la verdad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "averroes",
+   "ibn-tufail"
+  ]
+ },
+ {
+  "id": "averroes",
+  "nombre": "Averroes",
+  "fechas": "1126 – 1198",
+  "region": "al-Ándalus",
+  "escuela": "Aristotelismo (falsafa)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "mente"
+  ],
+  "conocidoPor": "Ser «el Comentador» de Aristóteles y defender que la razón y la fe no se contradicen",
+  "resumen": "Nació en Córdoba y fue juez, médico y filósofo. Escribió tantas explicaciones de Aristóteles que en Europa le llamaban simplemente «el Comentador». Contestó a Algacel con un libro de título genial: La incoherencia de la incoherencia. Sus obras, traducidas al latín, sacudieron las universidades cristianas y provocaron grandes debates.",
+  "ideas": [
+   "La verdad no puede contradecir a la verdad: si la razón y el Corán parecen chocar, hay que leer el texto con más cuidado y buscar su sentido profundo.",
+   "Estudiar filosofía no solo está permitido para un musulmán: para quien tiene capacidad, es casi una obligación.",
+   "Pensó que el [[intelecto]] con el que entendemos es uno solo para toda la humanidad, como una sola luz que ilumina a todos. Esta idea, el [[monopsiquismo]], escandalizó a muchos."
+  ],
+  "curiosidad": "Se suele identificar a Averroes en el famoso fresco La escuela de Atenas de Rafael, en el Vaticano: es el personaje con turbante entre los sabios griegos.",
+  "frase": {
+   "texto": "La verdad no se opone a la verdad, sino que concuerda con ella y da testimonio de ella.",
+   "fuente": "Doctrina decisiva (Fasl al-maqal)"
+  },
+  "obras": [
+   {
+    "titulo": "Doctrina decisiva sobre el acuerdo entre la religión y la filosofía",
+    "anio": "c. 1179",
+    "deQueVa": "Por qué un buen creyente puede y debe estudiar filosofía."
+   },
+   {
+    "titulo": "La incoherencia de la incoherencia",
+    "anio": "c. 1180",
+    "deQueVa": "Respuesta punto por punto a la crítica de Algacel."
+   },
+   {
+    "titulo": "Comentarios a Aristóteles",
+    "anio": "c. 1169–1195",
+    "deQueVa": "Explicaciones línea a línea de casi todas las obras de Aristóteles."
+   },
+   {
+    "titulo": "Libro de las generalidades de la medicina (Colliget)",
+    "anio": "s. XII",
+    "deQueVa": "Un manual de medicina."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Doctrina decisiva (en inglés, «On the Harmony of Religions and Philosophy»), Medieval Sourcebook de la Universidad Fordham",
+    "url": "https://sourcebooks.fordham.edu/source/1190averroes.asp",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "albertus-magnus",
+   "thomas-aquinas",
+   "gersonides"
+  ]
+ },
+ {
+  "id": "maimonides",
+  "nombre": "Maimónides",
+  "fechas": "c. 1138 – 1204",
+  "region": "al-Ándalus y Egipto",
+  "escuela": "Aristotelismo judío",
+  "categorias": [
+   "religion",
+   "etica",
+   "metafisica"
+  ],
+  "conocidoPor": "Escribir la Guía de los perplejos para quienes dudaban entre la fe judía y la filosofía",
+  "resumen": "Nació en Córdoba, pero su familia tuvo que huir cuando llegaron al poder los [[almohades]], muy intolerantes con otras religiones. Acabó en Egipto, donde fue médico de la corte y líder de la comunidad judía. Es el gran sabio del judaísmo medieval: ordenó toda la ley judía en una sola obra y escribió una guía para quienes se sentían «perplejos» porque la Biblia y la ciencia parecían decir cosas distintas.",
+  "ideas": [
+   "Cuando la Biblia dice que Dios tiene «mano» o que «se enfada», no hay que leerlo al pie de la letra: son formas de hablar para que lo entendamos.",
+   "De Dios es mejor decir lo que no es que lo que es, para no imaginarlo como un humano gigante: es la [[teología negativa|teologia-negativa]].",
+   "Describió ocho escalones de la caridad; el más alto es ayudar a alguien a valerse por sí mismo, por ejemplo dándole trabajo, para que no tenga que depender de nadie."
+  ],
+  "curiosidad": "Hay un dicho judío sobre él: «De Moisés a Moisés no hubo otro como Moisés», que le compara con el Moisés de la Biblia.",
+  "frase": {
+   "texto": "Escucha la verdad de quien la diga.",
+   "fuente": "Ocho capítulos (introducción)"
+  },
+  "obras": [
+   {
+    "titulo": "Mishné Torá",
+    "anio": "c. 1180",
+    "deQueVa": "Toda la ley judía ordenada y explicada en catorce libros."
+   },
+   {
+    "titulo": "Guía de los perplejos",
+    "anio": "c. 1190",
+    "deQueVa": "Cómo ser creyente y a la vez pensar con la razón."
+   },
+   {
+    "titulo": "Ocho capítulos",
+    "anio": "c. 1168",
+    "deQueVa": "Un pequeño tratado de ética sobre el término medio y la salud del alma."
+   },
+   {
+    "titulo": "Epístola a Yemen",
+    "anio": "c. 1172",
+    "deQueVa": "Carta para dar ánimo a los judíos perseguidos de Yemen."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Guía de los perplejos (traducción inglesa de M. Friedländer), Proyecto Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/73584",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "thomas-aquinas",
+   "gersonides",
+   "hasdai-crescas",
+   "baruch-spinoza"
+  ]
+ },
+ {
+  "id": "solomon-ibn-gabirol",
+  "nombre": "Ibn Gabirol (Avicebrón)",
+  "fechas": "c. 1021 – c. 1058",
+  "region": "al-Ándalus",
+  "escuela": "Neoplatonismo judío",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "etica"
+  ],
+  "conocidoPor": "Escribir La fuente de la vida, que durante siglos nadie supo que era obra de un poeta judío de Málaga",
+  "resumen": "Nació en Málaga y vivió sobre todo en Zaragoza. Fue uno de los mejores poetas en lengua hebrea, y algunos de sus poemas se rezan todavía hoy en las sinagogas. Como filósofo escribió en árabe La fuente de la vida, que se tradujo al latín con el nombre de autor «Avicebrón». Los sabios cristianos lo leyeron durante siglos sin saber que era judío.",
+  "ideas": [
+   "Todo lo creado, incluso las almas y los ángeles, está hecho de [[materia]] y [[forma]], como una estatua es bronce más una figura: es el [[hilemorfismo]] universal.",
+   "Entre Dios y el mundo está la voluntad divina, como un puente: el mundo existe porque Dios quiere, no por obligación.",
+   "En su libro sobre el carácter relaciona cada virtud y cada defecto con uno de los cinco sentidos, como si el carácter se pudiera educar igual que el cuerpo."
+  ],
+  "curiosidad": "Fue el estudioso Salomon Munk quien, en 1846, demostró que el misterioso «Avicebrón» que citaban los filósofos cristianos era el poeta judío Ibn Gabirol.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La fuente de la vida (Fons vitae)",
+    "anio": "s. XI",
+    "deQueVa": "Todo lo que existe está hecho de materia y forma, incluso lo espiritual."
+   },
+   {
+    "titulo": "La corrección de las cualidades del alma",
+    "anio": "1045",
+    "deQueVa": "Un manual del carácter: virtudes, defectos y cómo mejorarlos."
+   },
+   {
+    "titulo": "La corona real (Kéter Maljut)",
+    "anio": "s. XI",
+    "deQueVa": "Largo poema de alabanza a Dios que aún se recita en Yom Kipur."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "bonaventure"
+  ]
+ },
+ {
+  "id": "ibn-tufail",
+  "nombre": "Ibn Tufail",
+  "fechas": "c. 1110 – 1185",
+  "region": "al-Ándalus",
+  "escuela": "Falsafa (aristotelismo andalusí)",
+  "categorias": [
+   "conocimiento",
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Escribir la historia de un niño que crece solo en una isla y descubre por sí mismo las grandes verdades",
+  "resumen": "Médico y consejero del [[califa]] [[almohade|almohades]] en Marrakech, nacido cerca de Guadix (Granada). Su fama viene de una novela filosófica, El filósofo autodidacta (Hayy ibn Yaqzán), sobre un niño criado por una gacela en una isla desierta que, solo observando y pensando, llega a entender la naturaleza y a Dios. Fue él quien presentó a Averroes al califa.",
+  "ideas": [
+   "Una persona sola, sin libros ni maestros, podría llegar a las grandes verdades observando y razonando: es una gran apuesta por la razón humana.",
+   "La razón y la religión bien entendidas llevan al mismo sitio, aunque por caminos distintos.",
+   "No todo el mundo quiere o puede pensar así: cuando Hayy intenta enseñar a la gente de otra isla, ve que la mayoría prefiere sus costumbres, y decide no forzarles."
+  ],
+  "curiosidad": "Su novela se tradujo al latín en 1671 con el título Philosophus autodidactus, y luego al inglés y al neerlandés, y fue muy leída en la Europa del siglo XVII.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El filósofo autodidacta (Hayy ibn Yaqzán)",
+    "anio": "s. XII",
+    "deQueVa": "Un niño solo en una isla descubre la naturaleza, la razón y a Dios."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "El filósofo autodidacta (traducción inglesa de Simon Ockley, 1708), Proyecto Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/16831",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "ibn-bajja",
+  "nombre": "Avempace (Ibn Bajja)",
+  "fechas": "c. 1085 – 1138",
+  "region": "al-Ándalus",
+  "escuela": "Falsafa (aristotelismo andalusí)",
+  "categorias": [
+   "etica",
+   "politica",
+   "mente"
+  ],
+  "conocidoPor": "Pensar cómo vivir como un sabio en una sociedad que no lo es: el «régimen del solitario»",
+  "resumen": "Nació en Zaragoza y fue el primer gran filósofo de al-Ándalus. Fue también [[visir]], poeta, músico y médico, y acabó sus días en Fez, donde se dice que murió envenenado. Su obra más famosa, El régimen del solitario, se pregunta algo muy actual: ¿qué hace una persona que quiere pensar y vivir bien rodeada de gente que solo busca placer o dinero?",
+  "ideas": [
+   "Si la ciudad en la que vives no es buena, el sabio puede vivir como un «extranjero» dentro de ella: sigue su propio camino sin hacer daño a nadie.",
+   "La parte más alta del ser humano es la que piensa, por encima de la que solo come, duerme o se divierte: hay que cultivarla.",
+   "La mayor felicidad es entender: unir nuestra mente con el [[intelecto]] que lo ilumina todo, como cuando por fin «ves» la solución de un problema."
+  ],
+  "curiosidad": "Averroes le admiraba mucho: lee y discute sus obras a menudo, y gracias a él conocemos parte de su pensamiento.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El régimen del solitario",
+    "anio": "s. XII",
+    "deQueVa": "Cómo puede vivir bien un sabio en una sociedad imperfecta."
+   },
+   {
+    "titulo": "Carta del adiós",
+    "anio": "s. XII",
+    "deQueVa": "Carta a un amigo sobre la meta de la vida humana y el conocimiento."
+   },
+   {
+    "titulo": "Tratado de la unión del intelecto con el hombre",
+    "anio": "s. XII",
+    "deQueVa": "Cómo nuestra mente puede llegar al conocimiento más alto."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "ibn-tufail",
+   "averroes"
+  ]
+ },
+ {
+  "id": "ibn-arabi",
+  "nombre": "Ibn Arabi",
+  "fechas": "1165 – 1240",
+  "region": "al-Ándalus y Oriente Próximo",
+  "escuela": "Sufismo",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "existencia"
+  ],
+  "conocidoPor": "Ser el gran maestro del [[sufismo]] y defender la «religión del amor»",
+  "resumen": "Nació en Murcia, vivió en Sevilla y acabó en Damasco después de recorrer medio mundo islámico. Es el gran místico del islam: muchos musulmanes le llaman «el más grande maestro». Escribió cientos de obras y poemas de amor que hablan de Dios. Para él, todo lo que existe es una manera en que Dios se deja ver.",
+  "ideas": [
+   "Solo hay una realidad verdadera, la de Dios, y todo lo demás es como un reflejo en un espejo. Sus seguidores lo resumieron como la «[[unidad del ser|unidad-del-ser]]».",
+   "Cada persona ve a Dios según su forma de ser y sus creencias, así que nadie tiene la imagen completa y nadie debería despreciar la de los demás.",
+   "El amor es el motor de todo: Dios creó el mundo porque quería ser conocido."
+  ],
+  "curiosidad": "Cuenta que, siendo muy joven, conoció en Córdoba al ya famoso Averroes, que quiso verle porque había oído hablar de sus experiencias místicas.",
+  "frase": {
+   "texto": "Mi corazón se ha vuelto capaz de acoger cualquier forma: es prado para las gacelas y convento para los monjes… Yo sigo la religión del amor.",
+   "fuente": "El intérprete de los deseos (Tarjumán al-ashwaq), poema XI"
+  },
+  "obras": [
+   {
+    "titulo": "Las revelaciones de La Meca",
+    "anio": "c. 1203–1238",
+    "deQueVa": "Una enorme enciclopedia de su experiencia y pensamiento místico."
+   },
+   {
+    "titulo": "Los engarces de la sabiduría (Fusús al-hikam)",
+    "anio": "1229",
+    "deQueVa": "Lo que enseña cada profeta, de Adán a Mahoma."
+   },
+   {
+    "titulo": "El intérprete de los deseos",
+    "anio": "c. 1215",
+    "deQueVa": "Poemas de amor que hablan a la vez de una mujer y de Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "mulla-sadra"
+  ]
+ },
+ {
+  "id": "ibn-khaldun",
+  "nombre": "Ibn Jaldún (Abenjaldún)",
+  "fechas": "1332 – 1406",
+  "region": "Norte de África (Túnez)",
+  "escuela": "Filosofía de la historia",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "ciencia"
+  ],
+  "conocidoPor": "Explicar por qué los imperios nacen, crecen y caen: un pionero de la [[sociología|sociologia]]",
+  "resumen": "Nació en Túnez, en una familia que venía de Sevilla. Fue político, juez y diplomático, y llegó a reunirse con el temible conquistador Tamerlán. En su Introducción (Muqaddima) quiso estudiar la historia como un científico: no basta con contar batallas, hay que buscar las causas. Por eso muchos lo ven como un precursor de la [[sociología|sociologia]] y de la economía.",
+  "ideas": [
+   "Los grupos humanos se mantienen unidos por la [[asabiyya]], el espíritu de grupo, como el de un equipo que se deja la piel por los compañeros.",
+   "Las dinastías suelen durar unas tres generaciones: los abuelos conquistan, los padres conservan y los nietos se acomodan al lujo y pierden la fuerza.",
+   "Antes de creerte una noticia histórica, pregúntate si es posible: muchos historiadores exageraban, por ejemplo, el tamaño de los ejércitos sin pensarlo dos veces."
+  ],
+  "curiosidad": "El presidente de EE. UU. Ronald Reagan citó a Ibn Jaldún en 1981 para defender que bajar los impuestos podía hacer que el Estado recaudara más.",
+  "frase": {
+   "texto": "Los vencidos siempre quieren imitar al vencedor en sus rasgos distintivos, en su forma de vestir, en sus oficios y en todas sus costumbres.",
+   "fuente": "Introducción (Muqaddima), libro I"
+  },
+  "obras": [
+   {
+    "titulo": "Introducción (Muqaddima)",
+    "anio": "1377",
+    "deQueVa": "Cómo funcionan las sociedades, la economía y el poder."
+   },
+   {
+    "titulo": "Libro de los ejemplos (Kitab al-Ibar)",
+    "anio": "c. 1377–1406",
+    "deQueVa": "Una historia universal de árabes, bereberes y otros pueblos."
+   },
+   {
+    "titulo": "Autobiografía (Al-Tarif)",
+    "anio": "c. 1405",
+    "deQueVa": "Su vida contada por él mismo, incluido su encuentro con Tamerlán."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "anselm-of-canterbury",
+  "nombre": "Anselmo de Canterbury",
+  "fechas": "1033 – 1109",
+  "region": "Italia e Inglaterra",
+  "escuela": "Escolástica",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "logica"
+  ],
+  "conocidoPor": "Su [[argumento ontológico|argumento-ontologico]]: probar que Dios existe solo pensando en qué es Dios",
+  "resumen": "Nació en Aosta, en el norte de Italia, fue monje en Normandía y acabó como arzobispo de Canterbury, en Inglaterra. Se le llama «padre de la [[escolástica|escolastica]]» porque quiso explicar la fe con argumentos muy rigurosos. Su prueba más famosa de que Dios existe lleva casi mil años dando que hablar: a unos les parece genial y a otros un truco de palabras.",
+  "ideas": [
+   "Dios es «aquello mayor que lo cual nada puede pensarse». Si solo existiera en tu cabeza, podrías pensar algo aún mayor: lo mismo, pero existiendo de verdad. Luego Dios tiene que existir.",
+   "Un monje llamado Gaunilo le contestó que con ese truco se podría probar que existe la isla perfecta. El debate sigue abierto hoy.",
+   "Primero se cree y luego se intenta entender: la fe no apaga la razón, la pone a trabajar."
+  ],
+  "curiosidad": "Anselmo nunca habló de «argumento ontológico»: ese nombre se lo puso Kant unos setecientos años después.",
+  "frase": {
+   "texto": "No busco entender para creer, sino que creo para entender.",
+   "fuente": "Proslogion, cap. 1"
+  },
+  "obras": [
+   {
+    "titulo": "Monologion",
+    "anio": "1076",
+    "deQueVa": "Pruebas de que Dios existe usando solo la razón."
+   },
+   {
+    "titulo": "Proslogion",
+    "anio": "1077–1078",
+    "deQueVa": "Su famoso argumento: Dios es lo más grande que se puede pensar."
+   },
+   {
+    "titulo": "¿Por qué Dios se hizo hombre? (Cur Deus homo)",
+    "anio": "1098",
+    "deQueVa": "Por qué, según la fe cristiana, Dios tuvo que hacerse humano."
+   },
+   {
+    "titulo": "Sobre la verdad",
+    "anio": "c. 1080",
+    "deQueVa": "Qué significa que algo sea verdadero."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Proslogion (traducción inglesa), Medieval Sourcebook de la Universidad Fordham",
+    "url": "https://sourcebooks.fordham.edu/basis/anselm-proslogium.asp",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "rene-descartes",
+   "gottfried-wilhelm-leibniz"
+  ]
+ },
+ {
+  "id": "peter-abelard",
+  "nombre": "Pedro Abelardo",
+  "fechas": "1079 – 1142",
+  "region": "Francia",
+  "escuela": "Escolástica",
+  "categorias": [
+   "logica",
+   "etica",
+   "lenguaje",
+   "religion"
+  ],
+  "conocidoPor": "Ser el profesor estrella de París, enseñar a dudar… y su trágico amor con Eloísa",
+  "resumen": "Fue el profesor más brillante y polémico del París del siglo XII: venían estudiantes de toda Europa a oírle. Se enamoró de su alumna Eloísa, tuvieron un hijo y se casaron en secreto; el tío de ella mandó castrarle como venganza. Los dos acabaron en conventos, pero siguieron escribiéndose. En filosofía defendió usar la lógica para aclarar la fe y dio mucha importancia a la intención con que hacemos las cosas.",
+  "ideas": [
+   "En Sí y no reunió frases de autoridades cristianas que se contradecían entre sí, para enseñar a pensar: dudar es el primer paso para buscar la verdad.",
+   "Lo que hace buena o mala una acción es la intención: romper un jarrón sin querer no es lo mismo que romperlo a propósito.",
+   "Las palabras generales como «perro» o «rojo» no son cosas que anden sueltas por ahí: son nombres con los que agrupamos cosas parecidas. Es el debate de los [[universales]]."
+  ],
+  "curiosidad": "Abelardo y Eloísa están enterrados juntos en el cementerio parisino de Père-Lachaise, donde todavía hay quien les deja flores y cartas de amor.",
+  "frase": {
+   "texto": "Dudando llegamos a investigar, e investigando alcanzamos la verdad.",
+   "fuente": "Sí y no (Sic et non), prólogo"
+  },
+  "obras": [
+   {
+    "titulo": "Historia de mis desventuras",
+    "anio": "c. 1132",
+    "deQueVa": "Su autobiografía: éxitos, amor, castración y enemigos."
+   },
+   {
+    "titulo": "Sí y no (Sic et non)",
+    "anio": "c. 1121–1132",
+    "deQueVa": "Opiniones contrarias de los sabios cristianos, para enseñar a razonar."
+   },
+   {
+    "titulo": "Ética o Conócete a ti mismo",
+    "anio": "c. 1138",
+    "deQueVa": "Lo que importa moralmente es la intención."
+   },
+   {
+    "titulo": "Diálogo entre un filósofo, un judío y un cristiano",
+    "anio": "c. 1136–1139",
+    "deQueVa": "Tres personas de creencias distintas discuten con respeto sobre el bien."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Historia de mis desventuras (traducción inglesa), Medieval Sourcebook de la Universidad Fordham",
+    "url": "https://sourcebooks.fordham.edu/basis/abelard-histcal.asp",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "heloise",
+   "john-of-salisbury"
+  ]
+ },
+ {
+  "id": "heloise",
+  "nombre": "Eloísa",
+  "fechas": "c. 1100 – 1164",
+  "region": "Francia",
+  "escuela": "Pensamiento monástico medieval",
+  "categorias": [
+   "etica",
+   "existencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Sus cartas a Abelardo, donde razona con valentía sobre el amor, el matrimonio y la sinceridad",
+  "resumen": "Fue una de las mujeres más cultas de su tiempo: dominaba el latín y era famosa en toda Francia por su sabiduría. Tras su historia de amor con Abelardo se hizo monja y llegó a ser [[abadesa]] del convento del Paráclito. Sus cartas son una joya: dice lo que siente sin hipocresía y critica el matrimonio cuando se hace por interés.",
+  "ideas": [
+   "Prefería ser la amante libre de Abelardo antes que su esposa: para ella el amor verdadero no necesita contratos ni conveniencias.",
+   "Lo que cuenta es lo que hay en el corazón, no las apariencias: confiesa que se hizo monja por obediencia a Abelardo, no por Dios.",
+   "Pidió a Abelardo una regla de vida pensada para mujeres, porque las normas de los monasterios estaban escritas solo para hombres."
+  ],
+  "curiosidad": "Su hijo con Abelardo se llamaba Astrolabio, como el instrumento científico para medir la altura de las estrellas.",
+  "frase": {
+   "texto": "Dios sabe que nunca busqué en ti nada más que a ti mismo.",
+   "fuente": "Segunda carta a Abelardo"
+  },
+  "obras": [
+   {
+    "titulo": "Cartas de Abelardo y Eloísa",
+    "anio": "c. 1132–1138",
+    "deQueVa": "Correspondencia sobre amor, culpa, fe y la vida de las monjas."
+   },
+   {
+    "titulo": "Problemas de Eloísa",
+    "anio": "s. XII",
+    "deQueVa": "Preguntas sobre pasajes difíciles de la Biblia que ella planteó a Abelardo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hildegard-of-bingen",
+  "nombre": "Hildegarda de Bingen",
+  "fechas": "1098 – 1179",
+  "region": "Alemania",
+  "escuela": "Mística medieval",
+  "categorias": [
+   "religion",
+   "ciencia",
+   "estetica"
+  ],
+  "conocidoPor": "Ser abadesa, visionaria, compositora y médica: una de las mentes más versátiles de la Edad Media",
+  "resumen": "Monja alemana que desde niña tenía visiones de luz y que, ya mayor, se atrevió a ponerlas por escrito. Fundó su propio convento, compuso música que todavía se canta y escribió sobre plantas, piedras y enfermedades. Se carteaba con papas, reyes y emperadores, y a veces les regañaba. En 2012 la Iglesia la nombró [[doctora de la Iglesia|doctor-de-la-iglesia]], un título que tienen muy pocas mujeres.",
+  "ideas": [
+   "Todo el universo está conectado: el cuerpo humano es como un mundo en pequeño, un [[microcosmos]], que refleja el mundo grande.",
+   "Usaba la palabra «viriditas» (verdor) para hablar de la fuerza que hace crecer las plantas y que también da vida al alma.",
+   "Para estar sano hay que cuidar el equilibrio: comida, descanso y estado de ánimo influyen en la salud, como explica en sus libros de medicina."
+  ],
+  "curiosidad": "Inventó un idioma propio, la «Lingua ignota» (lengua desconocida), con unas mil palabras y su propio alfabeto.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Scivias (Conoce los caminos)",
+    "anio": "1141–1151",
+    "deQueVa": "Sus visiones explicadas, con ilustraciones impresionantes."
+   },
+   {
+    "titulo": "Libro de los méritos de la vida",
+    "anio": "1158–1163",
+    "deQueVa": "Las virtudes y los vicios discutiendo entre sí."
+   },
+   {
+    "titulo": "Libro de las obras divinas",
+    "anio": "1163–1174",
+    "deQueVa": "El ser humano como centro de un universo lleno de armonía."
+   },
+   {
+    "titulo": "Physica y Causae et curae",
+    "anio": "c. 1150–1160",
+    "deQueVa": "Plantas, animales, piedras y remedios para las enfermedades."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "robert-grosseteste",
+  "nombre": "Roberto Grosseteste",
+  "fechas": "c. 1170 – 1253",
+  "region": "Inglaterra",
+  "escuela": "Escolástica (Oxford)",
+  "categorias": [
+   "ciencia",
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender que la ciencia debe observar y comprobar, y explicar el universo a partir de la luz",
+  "resumen": "Obispo de Lincoln y primer gran maestro de la Universidad de Oxford. En una época en que hacer ciencia era sobre todo leer libros antiguos, insistió en mirar la naturaleza y comprobar las ideas. Estudió el arcoíris, los cometas y las lentes. Imaginó que el universo empezó como un punto de luz que se fue expandiendo, una idea que hoy recuerda un poco al Big Bang.",
+  "ideas": [
+   "Para saber por qué pasa algo hay que ir de los efectos a las causas, y luego volver de las causas a los efectos para comprobar que encaja.",
+   "La luz fue lo primero que existió: al expandirse en todas direcciones, formó el espacio y la materia.",
+   "Las matemáticas, sobre todo la geometría, son la llave para entender la naturaleza."
+  ],
+  "curiosidad": "Un equipo actual de científicos e historiadores, el proyecto Ordered Universe, ha estudiado sus textos y ha simulado por ordenador su teoría de la luz.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la luz (De luce)",
+    "anio": "c. 1225",
+    "deQueVa": "Cómo la luz, al expandirse, formó el universo."
+   },
+   {
+    "titulo": "Sobre el arcoíris (De iride)",
+    "anio": "c. 1230",
+    "deQueVa": "Por qué se forma el arcoíris, usando la geometría de la luz."
+   },
+   {
+    "titulo": "Comentario a los Segundos analíticos de Aristóteles",
+    "anio": "c. 1230",
+    "deQueVa": "Cómo se construye un conocimiento científico fiable."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "roger-bacon"
+  ]
+ },
+ {
+  "id": "roger-bacon",
+  "nombre": "Roger Bacon",
+  "fechas": "c. 1220 – c. 1292",
+  "region": "Inglaterra",
+  "escuela": "Escolástica franciscana",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "lenguaje"
+  ],
+  "conocidoPor": "Decir que sin experiencia no se sabe nada con seguridad: un pionero del [[método experimental|metodo-experimental]]",
+  "resumen": "Fraile [[franciscano]] inglés que enseñó en Oxford y París. Le apasionaban la óptica, los idiomas y las matemáticas, y criticaba a los profesores que repetían a los antiguos sin comprobar nada. Escribió una gran obra para el papa con propuestas para renovar el saber. Más tarde lo apodaron «Doctor Mirabilis», el doctor admirable.",
+  "ideas": [
+   "Hay dos formas de saber: por argumentos y por experiencia. Solo la experiencia quita las dudas: quien nunca ha visto el fuego no se convence del todo de que quema hasta que lo prueba.",
+   "Las cuatro causas de nuestros errores son fiarse de una autoridad poco seria, la costumbre, la opinión de la masa y esconder la propia ignorancia fingiendo saber.",
+   "Aprender idiomas es clave: para entender bien a los sabios antiguos hay que leerlos en griego, hebreo o árabe, no en malas traducciones."
+  ],
+  "curiosidad": "Imaginó máquinas que aún no existían, como barcos sin remeros, carros que andan sin animales y aparatos para volar.",
+  "frase": {
+   "texto": "Sin experiencia nada puede saberse suficientemente.",
+   "fuente": "Opus maius, parte VI"
+  },
+  "obras": [
+   {
+    "titulo": "Opus maius (Obra mayor)",
+    "anio": "1267",
+    "deQueVa": "Una propuesta al papa para renovar todas las ciencias."
+   },
+   {
+    "titulo": "Opus minus y Opus tertium",
+    "anio": "1267",
+    "deQueVa": "Resúmenes y complementos de su obra mayor."
+   },
+   {
+    "titulo": "Sobre la multiplicación de las especies",
+    "anio": "c. 1262",
+    "deQueVa": "Cómo viajan la luz y otras fuerzas por el espacio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "albertus-magnus",
+  "nombre": "Alberto Magno",
+  "fechas": "c. 1200 – 1280",
+  "region": "Alemania",
+  "escuela": "Escolástica (dominicos)",
+  "categorias": [
+   "ciencia",
+   "metafisica",
+   "religion"
+  ],
+  "conocidoPor": "Ser el «Doctor universal», que lo estudiaba todo, y el maestro de Tomás de Aquino",
+  "resumen": "Fraile [[dominico]] alemán que enseñó en París y Colonia. Le llamaron «Magno» (grande) y «Doctor universal» porque escribió sobre casi todo: animales, plantas, minerales, astronomía, filosofía y teología. Fue de los primeros en Europa en explicar a fondo a Aristóteles y en defender que la naturaleza merece estudiarse por sí misma. Su alumno más famoso fue Tomás de Aquino, y hoy es el patrón de quienes estudian ciencias naturales.",
+  "ideas": [
+   "Para conocer la naturaleza no basta con la fe ni con los libros antiguos: hay que observar. Él mismo describió animales y plantas que había visto con sus ojos.",
+   "La fe y la razón no se estorban: cada una responde a preguntas distintas.",
+   "Los filósofos que no eran cristianos, como Aristóteles, también tienen mucho que enseñar a los cristianos."
+  ],
+  "curiosidad": "Según la tradición, cuando sus compañeros llamaban a Tomás de Aquino «el buey mudo» por callado y corpulento, Alberto dijo que un día sus mugidos se oirían en todo el mundo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre los animales (De animalibus)",
+    "anio": "c. 1258–1262",
+    "deQueVa": "Una enorme enciclopedia de zoología, con observaciones propias."
+   },
+   {
+    "titulo": "Sobre los vegetales y las plantas",
+    "anio": "c. 1256",
+    "deQueVa": "Descripción de plantas y de cómo crecen."
+   },
+   {
+    "titulo": "Sobre los minerales",
+    "anio": "c. 1250",
+    "deQueVa": "Piedras, metales y sus propiedades."
+   },
+   {
+    "titulo": "Comentarios a Aristóteles",
+    "anio": "c. 1250–1270",
+    "deQueVa": "Explicó casi toda la obra de Aristóteles a los estudiantes cristianos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "thomas-aquinas",
+   "meister-eckhart"
+  ]
+ },
+ {
+  "id": "thomas-aquinas",
+  "nombre": "Tomás de Aquino",
+  "fechas": "1225 – 1274",
+  "region": "Italia",
+  "escuela": "Escolástica (tomismo)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Unir la fe cristiana con Aristóteles y proponer cinco vías para demostrar que Dios existe",
+  "resumen": "Fraile [[dominico]] italiano, el pensador más influyente de la Iglesia católica. Su enorme Suma teológica intenta responderlo todo con orden: plantea primero las objeciones, luego da su respuesta y al final rebate las objeciones una a una. Quiso demostrar que razonar y creer no son enemigos. Muchas ideas de hoy sobre la ley natural o la «guerra justa» vienen de él.",
+  "ideas": [
+   "Hay cinco «vías» para llegar a Dios desde lo que vemos. Por ejemplo: todo lo que se mueve lo mueve otra cosa, pero la cadena no puede ser infinita, así que tiene que haber un primer motor.",
+   "Existe una [[ley natural|ley-natural]] que todos podemos descubrir con la razón, como «haz el bien y evita el mal», aunque no creas en Dios.",
+   "Una guerra solo puede ser justa si la declara una autoridad legítima, por una causa justa y con buena intención."
+  ],
+  "curiosidad": "Su familia se opuso tanto a que se hiciera fraile que sus hermanos lo secuestraron y lo tuvieron encerrado en un castillo familiar durante cerca de un año.",
+  "frase": {
+   "texto": "La gracia no destruye la naturaleza, sino que la perfecciona.",
+   "fuente": "Suma teológica, I, q. 1, a. 8"
+  },
+  "obras": [
+   {
+    "titulo": "Suma teológica",
+    "anio": "1265–1274",
+    "deQueVa": "Una gran enciclopedia de preguntas y respuestas sobre Dios, el ser humano y la ética."
+   },
+   {
+    "titulo": "Suma contra los gentiles",
+    "anio": "c. 1259–1265",
+    "deQueVa": "Argumentos para hablar de la fe con quien no es cristiano."
+   },
+   {
+    "titulo": "El ente y la esencia",
+    "anio": "c. 1252–1256",
+    "deQueVa": "Qué significa «ser» y qué es la esencia de una cosa."
+   },
+   {
+    "titulo": "Sobre la unidad del intelecto contra los averroístas",
+    "anio": "1270",
+    "deQueVa": "Cada persona tiene su propia mente, contra la idea de un intelecto común."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Corpus Thomisticum: obras completas en latín (Universidad de Navarra)",
+    "url": "https://www.corpusthomisticum.org/",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "francisco-de-vitoria",
+   "francisco-suarez",
+   "edith-stein",
+   "elizabeth-anscombe",
+   "alasdair-macintyre"
+  ]
+ },
+ {
+  "id": "bonaventure",
+  "nombre": "Buenaventura de Bagnoregio",
+  "fechas": "c. 1221 – 1274",
+  "region": "Italia",
+  "escuela": "Escolástica franciscana (agustinismo)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Describir el camino de la mente hacia Dios como una escalera que empieza mirando la naturaleza",
+  "resumen": "Fraile [[franciscano]] italiano, profesor en París en la misma época que Tomás de Aquino. Fue el gran jefe de los franciscanos y escribió la biografía oficial de san Francisco de Asís. Prefería a san Agustín antes que a Aristóteles: para él, conocer de verdad es también amar. Le llamaban el «Doctor seráfico».",
+  "ideas": [
+   "El mundo es como un libro escrito por Dios: en cada flor y en cada estrella se puede leer algo de su autor.",
+   "Para llegar a Dios hay seis escalones: se empieza por lo de fuera (la naturaleza), se sigue por lo de dentro (nuestra propia mente) y se termina en lo de arriba.",
+   "El mundo no puede existir desde siempre: tuvo un comienzo, y eso se puede demostrar con la razón."
+  ],
+  "curiosidad": "Murió en 1274 durante el Concilio de Lyon, el mismo año que Tomás de Aquino, que falleció cuando iba de camino a ese mismo concilio.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Itinerario de la mente hacia Dios",
+    "anio": "1259",
+    "deQueVa": "Un mapa en seis etapas para subir desde la naturaleza hasta Dios."
+   },
+   {
+    "titulo": "Breviloquio",
+    "anio": "c. 1257",
+    "deQueVa": "Resumen breve de toda la teología cristiana."
+   },
+   {
+    "titulo": "Leyenda mayor de san Francisco",
+    "anio": "c. 1260–1263",
+    "deQueVa": "La biografía oficial de Francisco de Asís."
+   },
+   {
+    "titulo": "Conferencias sobre el Hexamerón",
+    "anio": "1273",
+    "deQueVa": "Charlas sobre los seis días de la creación y el saber cristiano."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ramon-llull",
+  "nombre": "Ramon Llull (Raimundo Lulio)",
+  "fechas": "c. 1232 – c. 1316",
+  "region": "Mallorca (Corona de Aragón)",
+  "escuela": "Arte luliano",
+  "categorias": [
+   "logica",
+   "religion",
+   "lenguaje"
+  ],
+  "conocidoPor": "Inventar ruedas de conceptos para razonar casi como una máquina: un lejano antepasado de la informática",
+  "resumen": "Nació en Mallorca y tuvo una juventud de cortesano y poeta, hasta que, según cuenta él mismo, vio varias veces a Cristo crucificado y cambió de vida. Quiso convencer a musulmanes y judíos con razones, no con armas, y para ello inventó su «Arte»: un sistema de círculos giratorios que combinan ideas básicas. Escribió muchísimo y es uno de los primeros grandes autores en catalán.",
+  "ideas": [
+   "Si combinas de forma ordenada unos pocos conceptos básicos (bondad, grandeza, poder…), puedes generar todas las respuestas posibles: es como un [[algoritmo]] de la Edad Media.",
+   "Para hablar con alguien de otra religión hay que buscar lo que compartimos y razonar juntos, no atacarle.",
+   "En el Libro del gentil y los tres sabios, un judío, un cristiano y un musulmán explican su fe con respeto a un hombre sin religión, y el libro termina sin decir quién gana."
+  ],
+  "curiosidad": "Leibniz se inspiró en sus ruedas combinatorias, y por eso hoy algunos le ven como un remoto precursor de la informática.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Libro del gentil y los tres sabios",
+    "anio": "c. 1274–1276",
+    "deQueVa": "Tres creyentes de distintas religiones dialogan en paz ante un hombre sin fe."
+   },
+   {
+    "titulo": "Arte general última (Ars magna)",
+    "anio": "1305–1308",
+    "deQueVa": "Su sistema de ruedas para combinar ideas y razonar."
+   },
+   {
+    "titulo": "Blanquerna",
+    "anio": "c. 1283",
+    "deQueVa": "Novela sobre un joven que busca la vida perfecta; incluye el Libro del amigo y del amado."
+   },
+   {
+    "titulo": "Libro de las bestias",
+    "anio": "c. 1288",
+    "deQueVa": "Fábula de animales sobre el poder y la astucia política."
+   },
+   {
+    "titulo": "Libro de la orden de caballería",
+    "anio": "c. 1275",
+    "deQueVa": "Cómo debe ser y comportarse un buen caballero."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Base de Datos Ramon Llull (Universidad de Barcelona)",
+    "url": "https://www.ub.edu/llulldb/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": [
+   "nicholas-of-cusa",
+   "giordano-bruno",
+   "gottfried-wilhelm-leibniz"
+  ]
+ },
+ {
+  "id": "duns-scotus",
+  "nombre": "Juan Duns Escoto",
+  "fechas": "c. 1266 – 1308",
+  "region": "Escocia",
+  "escuela": "Escolástica franciscana (escotismo)",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "logica"
+  ],
+  "conocidoPor": "Decir que cada cosa tiene algo que la hace única: su «estidad» o [[haecceidad]]",
+  "resumen": "Fraile [[franciscano]] escocés que enseñó en Oxford, París y Colonia, donde murió joven. Le llamaban el «Doctor sutil» porque sus razonamientos eran finísimos y difíciles de seguir. Se preguntó qué hace que tú seas tú y no otra persona idéntica. También defendió que la voluntad, nuestra capacidad de querer y elegir, cuenta más que el entendimiento.",
+  "ideas": [
+   "Dos gotas de agua pueden ser iguales en todo, pero siguen siendo dos: cada cosa tiene una «estidad», su [[haecceidad]], que la hace única.",
+   "La palabra «ser» significa lo mismo cuando decimos que Dios es y que una piedra es: es la [[univocidad del ser|univocidad-del-ser]].",
+   "La voluntad es libre de verdad: aunque la razón te diga qué es lo mejor, eres tú quien decide."
+  ],
+  "curiosidad": "En el Renacimiento sus críticos llamaban «dunces» a sus seguidores por anticuados, y de ahí viene la palabra inglesa «dunce», que significa «burro» o «zoquete».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Ordinatio (Comentario a las Sentencias)",
+    "anio": "c. 1300–1308",
+    "deQueVa": "Su gran obra: grandes preguntas de teología y filosofía, revisadas por él."
+   },
+   {
+    "titulo": "Tratado sobre el primer principio",
+    "anio": "c. 1305",
+    "deQueVa": "Una prueba muy rigurosa de que existe un primer ser, Dios."
+   },
+   {
+    "titulo": "Cuestiones cuodlibetales",
+    "anio": "c. 1306",
+    "deQueVa": "Respuestas a preguntas libres que le planteaban en público."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "william-of-ockham",
+   "francisco-suarez",
+   "charles-sanders-peirce"
+  ]
+ },
+ {
+  "id": "william-of-ockham",
+  "nombre": "Guillermo de Ockham",
+  "fechas": "c. 1287 – 1347",
+  "region": "Inglaterra",
+  "escuela": "Nominalismo",
+  "categorias": [
+   "logica",
+   "metafisica",
+   "politica",
+   "conocimiento"
+  ],
+  "conocidoPor": "La «[[navaja de Ockham|navaja-de-ockham]]»: no complicar una explicación más de lo necesario",
+  "resumen": "Fraile [[franciscano]] inglés que estudió en Oxford. Su regla para pensar es famosísima: si dos explicaciones sirven igual, quédate con la más sencilla. Pensaba que solo existen las cosas concretas, no «la humanidad» o «la rojez» en general. Se enfrentó al papa por la pobreza de los franciscanos, le acusaron de [[herejía|herejia]] y tuvo que refugiarse en la corte del emperador en Múnich.",
+  "ideas": [
+   "Si oyes ruido en la cocina, lo sensato es pensar que es el gato y no un fantasma: no añadas cosas a una explicación si no hacen falta.",
+   "Solo existen cosas individuales: este perro, aquel perro. «Perro» en general es solo un nombre que usamos para agruparlos. Es el [[nominalismo]].",
+   "El papa no manda en todo: el poder político no depende de la Iglesia, y nadie debe abusar de su autoridad."
+  ],
+  "curiosidad": "La expresión «navaja de Ockham» no es suya: se la pusieron otros mucho después de su muerte.",
+  "frase": {
+   "texto": "Nunca hay que suponer pluralidad sin necesidad.",
+   "fuente": "Comentario a las Sentencias (Ordinatio)"
+  },
+  "obras": [
+   {
+    "titulo": "Suma de lógica",
+    "anio": "c. 1323",
+    "deQueVa": "Un manual para razonar bien y entender cómo funcionan las palabras."
+   },
+   {
+    "titulo": "Comentario a las Sentencias",
+    "anio": "c. 1317–1319",
+    "deQueVa": "Grandes preguntas de teología, con su navaja en acción."
+   },
+   {
+    "titulo": "Diálogo",
+    "anio": "c. 1334–1346",
+    "deQueVa": "Un maestro y un alumno discuten sobre el poder del papa y del emperador."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "jean-buridan"
+  ]
+ },
+ {
+  "id": "meister-eckhart",
+  "nombre": "Maestro Eckhart",
+  "fechas": "c. 1260 – c. 1328",
+  "region": "Alemania",
+  "escuela": "Mística renana",
+  "categorias": [
+   "religion",
+   "existencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Predicar que hay que vaciarse de uno mismo para encontrar a Dios en el fondo del alma",
+  "resumen": "Fraile [[dominico]] alemán, gran profesor en París y predicador famosísimo. Daba muchos sermones en alemán, la lengua de la gente, y no en latín. Decía cosas muy atrevidas: que Dios está en lo más hondo de cada uno y que para encontrarlo hay que soltarlo todo, incluso las propias ideas sobre Dios. Tras su muerte el papa condenó algunas de sus frases, pero hoy le leen cristianos, budistas y filósofos.",
+  "ideas": [
+   "Hay que practicar el [[desasimiento]]: soltar, como quien abre la mano, las cosas, los planes y el orgullo, para quedar libre por dentro.",
+   "En el fondo del alma hay una «chispa» donde Dios y la persona se tocan.",
+   "No hace falta huir del mundo: se puede encontrar a Dios en el trabajo de cada día, como Marta, la hermana de María que se ocupaba de la casa en el Evangelio."
+  ],
+  "curiosidad": "El gran divulgador japonés del budismo zen D. T. Suzuki escribió un libro comparando las ideas de Eckhart con las del budismo, porque le parecían sorprendentemente cercanas.",
+  "frase": {
+   "texto": "El ojo con el que veo a Dios es el mismo ojo con el que Dios me ve.",
+   "fuente": "Sermón 12 (Qui audit me)"
+  },
+  "obras": [
+   {
+    "titulo": "Sermones alemanes",
+    "anio": "c. 1300–1327",
+    "deQueVa": "Predicaciones en alemán sobre Dios, el alma y el desapego."
+   },
+   {
+    "titulo": "Libro del consuelo divino",
+    "anio": "c. 1318",
+    "deQueVa": "Cómo encontrar paz en medio del sufrimiento."
+   },
+   {
+    "titulo": "Pláticas instructivas",
+    "anio": "c. 1294–1298",
+    "deQueVa": "Consejos a jóvenes frailes sobre la obediencia y soltar el ego."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Sermones del Maestro Eckhart (traducción inglesa), Christian Classics Ethereal Library",
+    "url": "https://www.ccel.org/ccel/eckhart/sermons.html",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "nicholas-of-cusa",
+   "arthur-schopenhauer",
+   "martin-heidegger"
+  ]
+ },
+ {
+  "id": "jean-buridan",
+  "nombre": "Jean Buridan",
+  "fechas": "c. 1300 – c. 1360",
+  "region": "Francia",
+  "escuela": "Nominalismo (escuela de París)",
+  "categorias": [
+   "ciencia",
+   "logica",
+   "etica"
+  ],
+  "conocidoPor": "Su teoría del [[ímpetu|impetu]], antecesora de la [[inercia]], y el famoso «asno de Buridán»",
+  "resumen": "Profesor de la Universidad de París durante décadas sin ser fraile ni sacerdote, algo raro en su tiempo. Fue un gran lógico y un pionero de la física: explicó que una piedra lanzada sigue volando porque lleva dentro una fuerza, el [[ímpetu|impetu]]. Esa idea abrió el camino que siglos después recorrieron Galileo y Newton.",
+  "ideas": [
+   "Una flecha sigue volando no porque el aire la empuje, como creía Aristóteles, sino porque el arquero le ha dado un ímpetu que se va gastando por el rozamiento del aire y el peso.",
+   "Los planetas podrían moverse por un ímpetu que Dios les dio al principio, sin necesidad de ángeles que los empujen.",
+   "Cuando dos opciones nos parecen igual de buenas, la voluntad puede esperar y seguir pensando antes de elegir."
+  ],
+  "curiosidad": "El «asno de Buridán», que se muere de hambre entre dos montones de heno idénticos por no saber cuál elegir, no aparece en sus obras conocidas: parece que lo usaron otros para burlarse de sus ideas sobre la elección.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Cuestiones sobre la Física de Aristóteles",
+    "anio": "s. XIV",
+    "deQueVa": "Donde explica su teoría del ímpetu."
+   },
+   {
+    "titulo": "Súmulas de dialéctica",
+    "anio": "s. XIV",
+    "deQueVa": "Un gran manual de lógica para estudiantes."
+   },
+   {
+    "titulo": "Cuestiones sobre la Ética a Nicómaco",
+    "anio": "s. XIV",
+    "deQueVa": "Comentario a la ética de Aristóteles, con sus ideas sobre la libertad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "marsilius-of-padua",
+  "nombre": "Marsilio de Padua",
+  "fechas": "c. 1275 – c. 1342",
+  "region": "Italia",
+  "escuela": "Aristotelismo político",
+  "categorias": [
+   "politica",
+   "religion",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender que el poder viene del pueblo y que la Iglesia no debe mandar en el gobierno",
+  "resumen": "Médico y profesor italiano que llegó a ser rector de la Universidad de París. En 1324 terminó El defensor de la paz, un libro tan explosivo que tuvo que huir cuando se supo que era suyo. Decía que las guerras de su tiempo eran culpa de que el papa quisiera mandar sobre reyes y emperadores. Es uno de los primeros en defender un Estado separado de la Iglesia.",
+  "ideas": [
+   "Las leyes las debe hacer el conjunto de los ciudadanos, o su parte más importante, porque una ley que todos aprueban se cumple mejor.",
+   "La Iglesia debe ocuparse de lo espiritual y no tener poder para castigar ni gobernar: eso le toca solo al Estado.",
+   "La paz de una sociedad es como la salud de un cuerpo: depende de que cada parte haga su función sin invadir la de las demás."
+  ],
+  "curiosidad": "El papa Juan XXII lo declaró hereje y él se refugió en la corte del emperador Luis de Baviera, donde coincidió con Guillermo de Ockham, otro perseguido por el papa.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El defensor de la paz",
+    "anio": "1324",
+    "deQueVa": "El poder viene del pueblo y la Iglesia no debe gobernar."
+   },
+   {
+    "titulo": "El defensor menor",
+    "anio": "c. 1340",
+    "deQueVa": "Resumen y aclaraciones de su gran obra."
+   },
+   {
+    "titulo": "Sobre la traslación del Imperio",
+    "anio": "c. 1326",
+    "deQueVa": "Cómo pasó el Imperio de Roma a los reyes francos y alemanes."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "nicholas-of-cusa",
+  "nombre": "Nicolás de Cusa",
+  "fechas": "1401 – 1464",
+  "region": "Alemania",
+  "escuela": "Neoplatonismo renacentista",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "religion",
+   "ciencia"
+  ],
+  "conocidoPor": "La «[[docta ignorancia|docta-ignorancia]]»: saber que no sabes es la forma más sabia de saber",
+  "resumen": "Cardenal alemán, matemático y diplomático, a caballo entre la Edad Media y el Renacimiento. Defendió que la verdad absoluta siempre se nos escapa, igual que un polígono nunca llega a ser un círculo por muchos lados que le añadas. Fue de los primeros en decir que el universo no tiene un centro fijo y que la Tierra se mueve. Soñó con la paz entre las religiones.",
+  "ideas": [
+   "Nuestro saber es como un polígono dibujado dentro de un círculo: con más lados se le parece más, pero nunca es igual. Reconocerlo es la [[docta ignorancia|docta-ignorancia]].",
+   "En Dios los contrarios se juntan: lo más grande y lo más pequeño son lo mismo. Es la [[coincidencia de los opuestos|coincidencia-de-los-opuestos]].",
+   "El universo no tiene centro ni borde: la Tierra no está quieta en medio de todo, también se mueve."
+  ],
+  "curiosidad": "Tras la caída de Constantinopla en 1453 escribió La paz de la fe, donde imagina una reunión en el cielo en la que sabios de todas las religiones se ponen de acuerdo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La docta ignorancia",
+    "anio": "1440",
+    "deQueVa": "Saber reconocer los límites de lo que podemos saber."
+   },
+   {
+    "titulo": "La paz de la fe",
+    "anio": "1453",
+    "deQueVa": "Sabios de distintas religiones dialogan para vivir en paz."
+   },
+   {
+    "titulo": "La visión de Dios",
+    "anio": "1453",
+    "deQueVa": "Usa un retrato cuyos ojos parecen seguirte para explicar cómo nos mira Dios."
+   },
+   {
+    "titulo": "El profano (Idiota de mente)",
+    "anio": "1450",
+    "deQueVa": "Un artesano sencillo le enseña a un sabio qué es la mente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "giordano-bruno"
+  ]
+ },
+ {
+  "id": "christine-de-pizan",
+  "nombre": "Christine de Pizan",
+  "fechas": "1364 – c. 1430",
+  "region": "Francia",
+  "escuela": "Humanismo temprano",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Escribir La ciudad de las damas, defendiendo a las mujeres frente a los insultos de los sabios",
+  "resumen": "Nació en Venecia y se crio en la corte del rey de Francia, donde su padre era astrólogo y médico. Se quedó viuda hacia los 25 años con hijos pequeños y decidió ganarse la vida escribiendo: fue una de las primeras escritoras profesionales de Europa. Harta de leer libros que decían que las mujeres eran malas o tontas, imaginó una ciudad levantada por y para mujeres admirables. Por eso se la considera precursora del [[feminismo]].",
+  "ideas": [
+   "Si las niñas fueran a la escuela como los niños, aprenderían igual de bien: la diferencia no está en la inteligencia, sino en las oportunidades.",
+   "Para responder a quienes hablan mal de las mujeres, lo mejor es recordar a mujeres reales que fueron valientes, sabias y buenas: los hechos desmontan los [[prejuicios|prejuicio]].",
+   "Un buen gobernante debe buscar la paz y el bien de su pueblo, no su propia gloria."
+  ],
+  "curiosidad": "Su último poema lo escribió en 1429 para celebrar a Juana de Arco, cuando esta aún vivía y acababa de liberar Orleans.",
+  "frase": {
+   "texto": "Si fuera costumbre mandar a las niñas a la escuela y enseñarles las ciencias como a los niños, aprenderían y entenderían igual de bien las sutilezas de todas las artes y ciencias.",
+   "fuente": "La ciudad de las damas, libro I, cap. 27"
+  },
+  "obras": [
+   {
+    "titulo": "La ciudad de las damas",
+    "anio": "1405",
+    "deQueVa": "Una ciudad imaginaria levantada con historias de mujeres admirables."
+   },
+   {
+    "titulo": "El tesoro de la ciudad de las damas (Libro de las tres virtudes)",
+    "anio": "1405",
+    "deQueVa": "Consejos prácticos para mujeres de todas las clases sociales."
+   },
+   {
+    "titulo": "Epístola al dios del Amor",
+    "anio": "1399",
+    "deQueVa": "Poema que critica a los escritores que desprecian a las mujeres."
+   },
+   {
+    "titulo": "Cantar de Juana de Arco",
+    "anio": "1429",
+    "deQueVa": "Poema en honor de Juana de Arco."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "adi-shankara",
+  "nombre": "Shankara (Adi Shankara)",
+  "fechas": "c. 788 – 820",
+  "region": "India",
+  "escuela": "Advaita Vedanta",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "conocimiento"
+  ],
+  "conocidoPor": "Enseñar que tu yo más profundo y la realidad última del universo son lo mismo: el [[advaita]]",
+  "resumen": "Pensador indio que, según la tradición, vivió solo unos 32 años, recorrió la India a pie debatiendo con otras escuelas y fundó monasterios que aún existen. Sus fechas exactas se discuten y algunos historiadores le sitúan antes. Explicó los textos sagrados hindúes, las [[Upanishads|upanishads]], de una manera que sigue siendo de las más influyentes del hinduismo. Su idea central: la separación entre tú y el todo es una ilusión.",
+  "ideas": [
+   "Solo hay una realidad, [[Brahman|brahman]]. Tu yo más profundo, el [[atman]], no es distinto de ella: es como una ola que descubre que es el mar.",
+   "El mundo de cosas separadas es como cuando, en la penumbra, confundes una cuerda con una serpiente: el susto es real, pero la serpiente no. Esa ilusión se llama [[maya]].",
+   "La liberación no se gana con ritos ni con méritos: llega cuando conoces de verdad quién eres."
+  ],
+  "curiosidad": "La tradición dice que fundó cuatro grandes monasterios en los cuatro extremos de la India (norte, sur, este y oeste), que siguen funcionando hoy.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Comentario a los Brahma Sutras",
+    "anio": "s. VIII",
+    "deQueVa": "Explica uno de los textos clave del hinduismo a la luz del Advaita."
+   },
+   {
+    "titulo": "Comentarios a las Upanishads",
+    "anio": "s. VIII",
+    "deQueVa": "Lee los textos sagrados más antiguos como una enseñanza de la unidad."
+   },
+   {
+    "titulo": "Comentario a la Bhagavad Gita",
+    "anio": "s. VIII",
+    "deQueVa": "Explica el famoso diálogo entre Krishna y Arjuna."
+   },
+   {
+    "titulo": "Mil enseñanzas (Upadesasahasri)",
+    "anio": "s. VIII",
+    "deQueVa": "Un manual para alumnos sobre el verdadero yo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "ramanuja"
+  ]
+ },
+ {
+  "id": "ramanuja",
+  "nombre": "Ramanuja",
+  "fechas": "c. 1017 – 1137",
+  "region": "India",
+  "escuela": "Vishishtadvaita Vedanta",
+  "categorias": [
+   "religion",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que el alma y Dios están unidos sin ser lo mismo, y que el camino es amar a Dios",
+  "resumen": "Pensador y maestro religioso del sur de la India. La tradición dice que vivió 120 años, aunque muchos historiadores creen que su vida fue más corta y algo posterior. No estaba de acuerdo con Shankara: para él, el mundo y las almas son reales, no una ilusión. Su escuela, el [[vishishtadvaita]], dio fuerza a la devoción amorosa a Dios, la [[bhakti]], que hoy viven millones de hindúes.",
+  "ideas": [
+   "El mundo y las almas son como el cuerpo de Dios: unidos a Él, pero reales y distintos, igual que tu mano es tuya pero tú no eres solo tu mano.",
+   "El mundo no es un sueño ni una ilusión: lo que vemos existe de verdad.",
+   "El camino a la liberación es el amor y la entrega a Dios, la [[bhakti]], y está abierto a todos, no solo a los sabios."
+  ],
+  "curiosidad": "Cuenta una leyenda que su maestro le confió un [[mantra]] secreto y él se subió a lo alto de un templo para gritárselo a todo el pueblo, porque quería que todos pudieran salvarse.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sri Bhashya",
+    "anio": "s. XII",
+    "deQueVa": "Su gran comentario a los Brahma Sutras, contra la idea de que el mundo es ilusión."
+   },
+   {
+    "titulo": "Vedartha Samgraha",
+    "anio": "s. XI–XII",
+    "deQueVa": "Resumen de cómo leer los Vedas."
+   },
+   {
+    "titulo": "Comentario a la Bhagavad Gita",
+    "anio": "s. XII",
+    "deQueVa": "La Gita leída como un camino de amor a Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "zhu-xi",
+  "nombre": "Zhu Xi",
+  "fechas": "1130 – 1200",
+  "region": "China",
+  "escuela": "Neoconfucianismo",
+  "categorias": [
+   "etica",
+   "metafisica",
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Renovar a Confucio y fijar los «Cuatro Libros» que estudió toda China durante seis siglos",
+  "resumen": "Funcionario y maestro chino de la dinastía Song, el gran organizador del [[neoconfucianismo]]. Juntó cuatro textos clásicos, los Cuatro Libros, y les añadió sus comentarios. Desde 1313 hasta 1905, quien quisiera ser funcionario en China tenía que examinarse de ellos tal como él los explicaba. Es como si un solo profesor hubiera escrito el temario de un país durante seiscientos años.",
+  "ideas": [
+   "Cada cosa tiene su «principio» ([[li]]), una especie de plan o razón de ser, y su energía o materia ([[qi]]), que es de lo que está hecha.",
+   "Para mejorar como persona hay que «investigar las cosas»: estudiar con calma el mundo y los libros hasta entender sus principios.",
+   "Todos nacemos buenos por dentro, pero cada uno tiene una materia más o menos turbia, como una perla dentro de agua sucia: hay que limpiar el agua para que brille."
+  ],
+  "curiosidad": "Al final de su vida sus enseñanzas fueron prohibidas por «falsas»; tras su muerte se convirtieron en la doctrina oficial del Estado chino.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Comentarios a los Cuatro Libros",
+    "anio": "1190",
+    "deQueVa": "Las Analectas de Confucio, el Mencio, la Gran Enseñanza y la Doctrina del Medio, explicados."
+   },
+   {
+    "titulo": "Reflexiones sobre las cosas a mano (Jinsilu)",
+    "anio": "1175",
+    "deQueVa": "Antología de maestros neoconfucianos para guiar la vida diaria."
+   },
+   {
+    "titulo": "Conversaciones del maestro Zhu (Zhuzi yulei)",
+    "anio": "1270",
+    "deQueVa": "Lo que decía en clase, recogido por sus alumnos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "wang-yangming"
+  ]
+ },
+ {
+  "id": "dogen",
+  "nombre": "Dōgen",
+  "fechas": "1200 – 1253",
+  "region": "Japón",
+  "escuela": "Budismo zen (Sōtō)",
+  "categorias": [
+   "religion",
+   "existencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Fundar el [[zen]] Sōtō en Japón y enseñar a «solo sentarse»: meditar sin buscar nada",
+  "resumen": "Monje budista japonés que viajó a China en busca de un maestro auténtico y volvió para fundar la escuela [[zen]] Sōtō, hoy una de las mayores de Japón. Escribió en japonés, algo poco habitual entonces en textos religiosos, con un estilo lleno de [[paradojas|paradoja]] que aún hoy hace pensar. Para él, meditar no es un medio para llegar a algo: sentarse ya es la iluminación.",
+  "ideas": [
+   "«Solo sentarse» ([[shikantaza]]): meditar sin perseguir premios ni metas, como quien se sienta a mirar el mar sin esperar nada.",
+   "Practicar y estar iluminado no son dos cosas: no hay que esperar al final del camino, cada paso ya es la meta.",
+   "El tiempo no es algo que pasa por nuestro lado: nosotros mismos somos tiempo. Un pino es tiempo, un bambú es tiempo."
+  ],
+  "curiosidad": "En China, una de sus primeras lecciones se la dio un viejo monje cocinero que secaba setas al sol: le hizo ver que cocinar también es práctica espiritual.",
+  "frase": {
+   "texto": "Estudiar el camino de Buda es estudiarse a uno mismo. Estudiarse a uno mismo es olvidarse de uno mismo.",
+   "fuente": "Shōbōgenzō, capítulo «Genjōkōan»"
+  },
+  "obras": [
+   {
+    "titulo": "Shōbōgenzō (El tesoro del ojo del verdadero Dharma)",
+    "anio": "1231–1253",
+    "deQueVa": "Su gran obra: decenas de textos sobre la práctica y la realidad."
+   },
+   {
+    "titulo": "Fukan zazengi (Recomendaciones universales para la meditación)",
+    "anio": "1227",
+    "deQueVa": "Instrucciones sencillas para sentarse a meditar."
+   },
+   {
+    "titulo": "Instrucciones para el cocinero (Tenzo kyōkun)",
+    "anio": "1237",
+    "deQueVa": "Cocinar en un monasterio como forma de práctica."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gersonides",
+  "nombre": "Gersónides",
+  "fechas": "1288 – 1344",
+  "region": "Francia (Provenza)",
+  "escuela": "Aristotelismo judío",
+  "categorias": [
+   "religion",
+   "ciencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Ser filósofo, matemático y astrónomo, y dar a conocer el [[báculo de Jacob|baculo-de-jacob]] para medir el cielo",
+  "resumen": "Sabio judío de la Provenza, en el sur de Francia, también conocido como Leví ben Gershom o Ralbag. Era un genio en muchas cosas: comentó la Biblia, escribió de matemáticas y fue un gran astrónomo. Se atrevió a decir que Dios no conoce de antemano nuestras decisiones concretas, para salvar nuestra libertad.",
+  "ideas": [
+   "Si Dios supiera ya todo lo que vas a elegir mañana, ¿serías libre? Gersónides pensaba que Dios conoce las reglas generales, pero no lo que tú, en concreto, decidirás.",
+   "La razón es una gran guía: si un texto sagrado parece contradecir algo bien demostrado, hay que volver a leer el texto con más cuidado.",
+   "Observó y midió el cielo con cuidado y criticó teorías astronómicas antiguas que no encajaban con lo que veía."
+  ],
+  "curiosidad": "Hay un cráter de la Luna que lleva su nombre: el cráter Rabbi Levi.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Las guerras del Señor (Milhamot Hashem)",
+    "anio": "1329",
+    "deQueVa": "Grandes preguntas sobre el alma, el futuro, la providencia y la creación."
+   },
+   {
+    "titulo": "Obra del calculador (Maaseh Hoshev)",
+    "anio": "1321",
+    "deQueVa": "Un libro de aritmética con demostraciones."
+   },
+   {
+    "titulo": "Comentarios a la Biblia",
+    "anio": "s. XIV",
+    "deQueVa": "Explicaciones de los libros bíblicos con lecciones prácticas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hasdai-crescas",
+  "nombre": "Hasdai Crescas",
+  "fechas": "c. 1340 – c. 1410",
+  "region": "Corona de Aragón (Barcelona y Zaragoza)",
+  "escuela": "Filosofía judía (crítica del aristotelismo)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "ciencia"
+  ],
+  "conocidoPor": "Llevar la contraria a Aristóteles y defender que pueden existir el vacío y el [[infinito]]",
+  "resumen": "[[Rabino|rabino]] y sabio judío de Barcelona que luego fue el gran líder de los judíos de Zaragoza. Vivió una tragedia: en los ataques contra los judíos de 1391 asesinaron a su único hijo. En su libro La luz del Señor se atrevió a decir que Aristóteles se equivocaba en cuestiones de física. Siglos después, Spinoza lo leyó con atención.",
+  "ideas": [
+   "Contra Aristóteles, defendió que puede existir el vacío y que el espacio podría ser infinito, incluso con otros mundos además del nuestro.",
+   "En la relación con Dios lo más importante no es entender, sino amar: el amor y la alegría valen más que el conocimiento.",
+   "Todo tiene una causa, también nuestras decisiones; aun así somos responsables, porque lo que elegimos sale de nosotros. Es una forma de [[determinismo]]."
+  ],
+  "curiosidad": "Spinoza lo cita por su nombre en una de sus cartas, al hablar de un argumento sobre Dios y las cadenas infinitas de causas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La luz del Señor (Or Adonai)",
+    "anio": "1410",
+    "deQueVa": "Crítica a Aristóteles y a Maimónides, y una defensa del amor a Dios."
+   },
+   {
+    "titulo": "Refutación de los principios cristianos",
+    "anio": "c. 1398",
+    "deQueVa": "Argumentos filosóficos contra algunas creencias cristianas."
+   },
+   {
+    "titulo": "Carta sobre las matanzas de 1391",
+    "anio": "1391",
+    "deQueVa": "Relato de la violencia contra los judíos en la Corona de Aragón."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "baruch-spinoza"
+  ]
+ },
+ {
+  "id": "john-of-salisbury",
+  "nombre": "Juan de Salisbury",
+  "fechas": "c. 1115 – 1180",
+  "region": "Inglaterra y Francia",
+  "escuela": "Humanismo del siglo XII",
+  "categorias": [
+   "politica",
+   "conocimiento",
+   "etica"
+  ],
+  "conocidoPor": "Comparar el Estado con un cuerpo y defender que se puede matar al [[tirano]]",
+  "resumen": "Inglés que estudió en Francia con grandes maestros como Abelardo y acabó como obispo de Chartres. Fue secretario de Tomás Becket, el arzobispo asesinado en la catedral de Canterbury, y estaba en la catedral el día del crimen. Escribió con estilo elegante, lleno de citas de autores clásicos, sobre cómo debe ser un buen gobierno. Es una de las voces más cultas del siglo XII.",
+  "ideas": [
+   "El Estado es como un cuerpo: el príncipe es la cabeza, los jueces son los ojos y los oídos, los soldados las manos y los campesinos los pies. Si una parte falla, sufre todo el cuerpo.",
+   "Un rey gobierna con la ley; un [[tirano]] gobierna con la fuerza y para sí mismo. Contra un tirano, incluso matarlo puede ser justo.",
+   "Para pensar bien hacen falta la gramática y la lógica, pero sin convertirlas en palabrería vacía."
+  ],
+  "curiosidad": "Siglos después, Isaac Newton usó la misma imagen que él dejó por escrito: «Si he visto más lejos es porque estoy a hombros de gigantes».",
+  "frase": {
+   "texto": "Decía Bernardo de Chartres que somos como enanos a hombros de gigantes, de modo que podemos ver más cosas y más lejanas que ellos.",
+   "fuente": "Metalogicon, libro III, cap. 4"
+  },
+  "obras": [
+   {
+    "titulo": "Policraticus",
+    "anio": "1159",
+    "deQueVa": "Cómo debe ser un buen gobernante y qué hacer con un tirano."
+   },
+   {
+    "titulo": "Metalogicon",
+    "anio": "1159",
+    "deQueVa": "Defensa de aprender bien gramática y lógica."
+   },
+   {
+    "titulo": "Historia pontificalis",
+    "anio": "c. 1163",
+    "deQueVa": "Crónica de la corte del papa, que conoció en persona."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bernard-of-clairvaux",
+  "nombre": "Bernardo de Claraval",
+  "fechas": "1090 – 1153",
+  "region": "Francia",
+  "escuela": "Mística cisterciense",
+  "categorias": [
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Ser el monje más influyente de su siglo y enseñar que la medida del amor a Dios es amarle sin medida",
+  "resumen": "Monje francés que con unos 25 años fundó la abadía de Claraval e hizo de la orden del [[Císter|cister]] una de las más poderosas de Europa. Aconsejaba a papas y reyes, predicó la Segunda Cruzada y se enfrentó a Abelardo, al que veía demasiado confiado en la razón. Para él, a Dios se llega más por el amor y la humildad que por los razonamientos.",
+  "ideas": [
+   "Hay cuatro grados del amor: amarse a uno mismo por uno mismo, amar a Dios por lo que nos da, amar a Dios por Él mismo y, al final, amarse a uno mismo solo por Dios.",
+   "La humildad es la base de todo: conocerse a uno mismo tal como uno es, sin adornos ni excusas.",
+   "Desconfiaba de la razón cuando quiere explicarlo todo: hay misterios que se viven más que se entienden."
+  ],
+  "curiosidad": "Cuando entró en el Císter no fue solo: convenció a unos treinta familiares y amigos, entre ellos varios hermanos suyos, para hacerse monjes con él.",
+  "frase": {
+   "texto": "La causa de amar a Dios es Dios; la medida, amarle sin medida.",
+   "fuente": "Sobre el amor a Dios (De diligendo Deo), cap. 1"
+  },
+  "obras": [
+   {
+    "titulo": "Sobre el amor a Dios (De diligendo Deo)",
+    "anio": "c. 1126–1141",
+    "deQueVa": "Por qué y cómo amar a Dios, en cuatro grados."
+   },
+   {
+    "titulo": "Sermones sobre el Cantar de los Cantares",
+    "anio": "1135–1153",
+    "deQueVa": "El poema de amor de la Biblia leído como amor entre el alma y Dios."
+   },
+   {
+    "titulo": "Los grados de la humildad y de la soberbia",
+    "anio": "c. 1124",
+    "deQueVa": "Doce escalones para subir en humildad (y doce para bajar en orgullo)."
+   },
+   {
+    "titulo": "Sobre la consideración",
+    "anio": "1148–1153",
+    "deQueVa": "Consejos a un papa para no perderse en el poder."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Sobre el amor a Dios (traducción inglesa), Christian Classics Ethereal Library",
+    "url": "https://www.ccel.org/ccel/bernard/loving_god.html",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "nachmanides",
+  "nombre": "Najmánides (Ramban)",
+  "fechas": "1194 – c. 1270",
+  "region": "Corona de Aragón (Girona)",
+  "escuela": "Cábala y pensamiento judío",
+  "categorias": [
+   "religion",
+   "etica"
+  ],
+  "conocidoPor": "Defender el judaísmo en la Disputa de Barcelona de 1263, ante el rey Jaime I",
+  "resumen": "[[Rabino|rabino]], médico y sabio de Girona, también llamado Ramban. Fue uno de los grandes líderes del judaísmo medieval y uno de los primeros en dar a conocer la [[cábala|cabala]], la mística judía. En 1263 el rey Jaime I le hizo debatir en público con un [[converso]] sobre si Jesús era el Mesías; habló con tanta valentía que después tuvo que exiliarse. Murió en Tierra Santa.",
+  "ideas": [
+   "La Biblia tiene varias capas: el sentido literal y otros más profundos y escondidos, que se descubren con estudio y guía.",
+   "Se puede cumplir la ley al pie de la letra y aun así ser un sinvergüenza: hay que ir más allá del mínimo obligatorio y ser bueno de verdad.",
+   "Los milagros no son solo los espectaculares: para el creyente, lo que pasa cada día es también una especie de milagro escondido."
+  ],
+  "curiosidad": "Al llegar a Jerusalén en 1267 encontró la ciudad casi sin judíos y ayudó a reabrir una sinagoga; la sinagoga Ramban de la Ciudad Vieja lleva hoy su nombre.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Comentario a la Torá",
+    "anio": "s. XIII",
+    "deQueVa": "Explicación de los cinco libros de Moisés, con sentidos literales y ocultos."
+   },
+   {
+    "titulo": "Relato de la Disputa de Barcelona",
+    "anio": "1263",
+    "deQueVa": "Su versión del debate público ante el rey Jaime I."
+   },
+   {
+    "titulo": "La ley del hombre (Torat ha-Adam)",
+    "anio": "s. XIII",
+    "deQueVa": "Sobre la muerte, el duelo y el más allá."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Comentario de Najmánides al Génesis (hebreo e inglés), Sefaria",
+    "url": "https://www.sefaria.org/Ramban_on_Genesis",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "al-razi",
+  "nombre": "Al-Razi (Rhazes)",
+  "fechas": "c. 865 – c. 925",
+  "region": "Persia",
+  "escuela": "Racionalismo independiente",
+  "categorias": [
+   "ciencia",
+   "etica",
+   "religion"
+  ],
+  "conocidoPor": "Ser un gran médico y un filósofo tan independiente que se fiaba más de la razón que de cualquier autoridad",
+  "resumen": "Médico persa de la ciudad de Rey, cerca de la actual Teherán, y uno de los mejores de la Edad Media. Dirigió hospitales, describió con claridad la diferencia entre el sarampión y la viruela, y su obra médica se estudió en Europa durante siglos. Como filósofo era muy atrevido: pensaba que la razón basta para vivir bien y que nadie debe creer algo solo porque lo diga una autoridad. Por eso muchos le criticaron con dureza.",
+  "ideas": [
+   "La razón es el mayor regalo que tenemos: con ella podemos descubrir lo que es bueno sin seguir ciegamente a nadie.",
+   "Una buena vida es una vida moderada: ni entregarse a los placeres ni castigarse. Para él, el placer es sobre todo el alivio de una molestia, como beber cuando tienes sed.",
+   "Hay que comprobar las cosas: en medicina anotaba sus casos, comparaba resultados y se atrevió a señalar errores del gran médico griego Galeno."
+  ],
+  "curiosidad": "Se cuenta que, para elegir dónde construir un hospital en Bagdad, colgó trozos de carne en varios barrios y eligió el sitio donde tardaban más en pudrirse. Es una historia tradicional, no un hecho comprobado.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Dudas sobre Galeno",
+    "anio": "c. 900",
+    "deQueVa": "Señala errores del médico más respetado de la Antigüedad."
+   },
+   {
+    "titulo": "Tratado sobre la viruela y el sarampión",
+    "anio": "c. 900",
+    "deQueVa": "Cómo distinguir y tratar estas dos enfermedades."
+   },
+   {
+    "titulo": "La medicina espiritual",
+    "anio": "s. X",
+    "deQueVa": "Cómo curar los malos hábitos del carácter, como los celos o la gula."
+   },
+   {
+    "titulo": "El libro completo de medicina (Al-Hawi)",
+    "anio": "s. X",
+    "deQueVa": "Un enorme cuaderno de casos y lecturas médicas."
+   },
+   {
+    "titulo": "La conducta filosófica",
+    "anio": "s. X",
+    "deQueVa": "Defiende que su forma de vivir es la de un verdadero filósofo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "suhrawardi",
+  "nombre": "Suhrawardi",
+  "fechas": "1154 – 1191",
+  "region": "Persia",
+  "escuela": "Filosofía de la iluminación",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "religion"
+  ],
+  "conocidoPor": "Fundar la filosofía de la «iluminación»: todo lo real es luz, más o menos intensa",
+  "resumen": "Pensador persa que mezcló la filosofía de Avicena con la sabiduría de la antigua Persia y con la [[mística|mistica]]. Para él la realidad entera es luz, desde la luz suprema, que es Dios, hasta la oscuridad de la materia. Fue tan atrevido que le acusaron de [[herejía|herejia]] y lo ejecutaron en Alepo, por orden de Saladino, con menos de cuarenta años.",
+  "ideas": [
+   "Todo lo que existe es luz en distintos grados, como una lámpara muy potente cuya luz se va debilitando a medida que te alejas.",
+   "Conocemos algo de verdad cuando lo tenemos presente, igual que sabes que te duele una muela sin necesidad de razonarlo: es el «conocimiento por presencia».",
+   "Para entender de verdad no basta con razonar: también hay que preparar el alma con la práctica espiritual."
+  ],
+  "curiosidad": "Le apodaron «al-Maqtul», que significa «el asesinado» o «el ejecutado», para distinguirle de otros sabios con el mismo nombre.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía de la iluminación (Hikmat al-ishraq)",
+    "anio": "1186",
+    "deQueVa": "Su gran obra: la realidad como luz y el conocimiento por presencia."
+   },
+   {
+    "titulo": "El rumor de las alas de Gabriel",
+    "anio": "s. XII",
+    "deQueVa": "Un relato simbólico y místico breve."
+   },
+   {
+    "titulo": "Los templos de la luz",
+    "anio": "s. XII",
+    "deQueVa": "Un resumen sencillo de su pensamiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "mulla-sadra"
+  ]
+ },
+ {
+  "id": "mulla-sadra",
+  "nombre": "Mulla Sadra",
+  "fechas": "c. 1571 – c. 1640",
+  "region": "Persia",
+  "escuela": "Sabiduría trascendente",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Decir que lo más real es la existencia y que todo, por dentro, está en movimiento constante",
+  "resumen": "Filósofo persa de la época de los safávidas, que vivió en Shiraz e Isfahán. Reunió en un solo sistema la filosofía de Avicena, la luz de Suhrawardi y la mística de Ibn Arabi. Algunos sabios de su tiempo le acusaron de hereje y pasó años retirado en un pueblo cerca de Qom. Hoy es uno de los filósofos más estudiados en Irán.",
+  "ideas": [
+   "Lo primero no es «qué es» una cosa, sino que exista: la existencia va delante y la [[esencia]] es como su contorno. Es la «primacía de la existencia».",
+   "La existencia tiene grados, como la luz: es la misma, pero más intensa en Dios y más débil en una piedra.",
+   "Todo cambia por dentro, no solo por fuera: las cosas están en movimiento continuo, como un río que nunca es el mismo. Es el [[movimiento sustancial|movimiento-sustancial]]."
+  ],
+  "curiosidad": "Murió en Basora, en el actual Irak, al volver de su séptima peregrinación a La Meca, que según la tradición hizo a pie.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los cuatro viajes del intelecto (al-Asfar)",
+    "anio": "s. XVII",
+    "deQueVa": "Su gran obra: el viaje de la mente hacia Dios y de vuelta al mundo."
+   },
+   {
+    "titulo": "Las penetraciones metafísicas (al-Mashair)",
+    "anio": "s. XVII",
+    "deQueVa": "Un resumen breve de su idea de la existencia."
+   },
+   {
+    "titulo": "Los testigos divinos (al-Shawahid al-rububiyya)",
+    "anio": "s. XVII",
+    "deQueVa": "Resumen de su sistema completo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "marsilio-ficino",
+  "nombre": "Marsilio Ficino",
+  "fechas": "1433 – 1499",
+  "region": "Italia (Florencia)",
+  "escuela": "Neoplatonismo renacentista",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "estetica",
+   "existencia"
+  ],
+  "conocidoPor": "Traducir a Platón entero al latín y poner de moda el «[[amor platónico|amor-platonico]]»",
+  "resumen": "Sacerdote, médico y filósofo de Florencia, protegido por la familia Médici. Cosme de Médici le encargó traducir a Platón, y Ficino fue el primero en pasar al latín todas sus obras, con lo que Europa entera pudo leerlo. A su alrededor se reunió un grupo de sabios conocido como la Academia platónica florentina. Su idea del amor como camino hacia la belleza y hacia Dios inspiró a pintores y poetas del Renacimiento.",
+  "ideas": [
+   "El alma humana está en el centro del universo, entre lo material y lo divino, y puede subir o bajar: es como un puente entre la tierra y el cielo.",
+   "El amor verdadero empieza al ver la belleza de una persona y nos va llevando a amar la belleza en sí misma: eso es para él el [[amor platónico|amor-platonico]].",
+   "Platón y el cristianismo no se contradicen: Ficino quería mostrar que ambos buscaban la misma verdad."
+  ],
+  "curiosidad": "Interrumpió la traducción de Platón porque Cosme de Médici le pidió traducir antes los escritos atribuidos a Hermes Trismegisto, que entonces se creían antiquísimos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Traducción de las obras completas de Platón",
+    "anio": "1484",
+    "deQueVa": "El primer Platón completo en latín, que lo hizo accesible a toda Europa."
+   },
+   {
+    "titulo": "Teología platónica sobre la inmortalidad del alma",
+    "anio": "1482",
+    "deQueVa": "Argumentos para demostrar que el alma no muere."
+   },
+   {
+    "titulo": "De amore (Comentario al Banquete de Platón)",
+    "anio": "1469",
+    "deQueVa": "Qué es el amor y cómo nos acerca a la belleza y a Dios."
+   },
+   {
+    "titulo": "Tres libros sobre la vida",
+    "anio": "1489",
+    "deQueVa": "Consejos de salud para estudiosos melancólicos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "giovanni-pico-della-mirandola",
+   "giordano-bruno"
+  ]
+ },
+ {
+  "id": "gemistos-plethon",
+  "nombre": "Jorge Gemisto Pletón",
+  "fechas": "c. 1355 – 1452",
+  "region": "Grecia (Imperio bizantino)",
+  "escuela": "Platonismo bizantino",
+  "categorias": [
+   "metafisica",
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Volver a poner de moda a Platón en Italia y soñar con resucitar a los dioses griegos",
+  "resumen": "Sabio bizantino que vivió en Mistrá, en el Peloponeso. En 1438 viajó a Italia con la comitiva del emperador para el [[concilio]] de Ferrara-Florencia, y sus charlas sobre Platón entusiasmaron a los sabios italianos. Según Ficino, inspiró a Cosme de Médici la idea de crear una academia platónica. Al final de su vida escribió un libro que proponía una nueva religión con los dioses griegos.",
+  "ideas": [
+   "Platón es mejor que Aristóteles: escribió un librito comparándolos que desató una gran polémica entre los sabios griegos.",
+   "Para salvar a su país propuso al emperador reformas radicales, como un ejército de ciudadanos y un reparto más justo de la tierra.",
+   "Todo está gobernado por leyes necesarias, incluso lo que hacemos: es una forma de [[determinismo]]."
+  ],
+  "curiosidad": "Su Tratado de las leyes, con su religión pagana, fue quemado después de su muerte por orden del patriarca de Constantinopla; solo se salvaron algunos fragmentos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre las diferencias entre Aristóteles y Platón",
+    "anio": "1439",
+    "deQueVa": "Por qué Platón, según él, es superior."
+   },
+   {
+    "titulo": "Tratado de las leyes (Nomoi)",
+    "anio": "c. 1450",
+    "deQueVa": "Una nueva religión y sociedad inspiradas en los dioses griegos; casi todo se quemó."
+   },
+   {
+    "titulo": "Discursos sobre el Peloponeso",
+    "anio": "c. 1415–1418",
+    "deQueVa": "Propuestas al emperador para reformar el Estado."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "marsilio-ficino"
+  ]
+ },
+ {
+  "id": "giovanni-pico-della-mirandola",
+  "nombre": "Giovanni Pico della Mirandola",
+  "fechas": "1463 – 1494",
+  "region": "Italia",
+  "escuela": "Humanismo renacentista",
+  "categorias": [
+   "existencia",
+   "religion",
+   "metafisica"
+  ],
+  "conocidoPor": "El Discurso sobre la dignidad del hombre: somos los únicos que podemos elegir qué ser",
+  "resumen": "Joven noble italiano con una memoria y una cultura asombrosas, que murió con solo 31 años. Con 23 años propuso debatir en Roma 900 tesis sacadas de todas las tradiciones: griegos, árabes, judíos y cristianos. El papa prohibió el debate y condenó algunas de sus tesis. El discurso que preparó para abrirlo es hoy un símbolo del Renacimiento y del [[humanismo]]: el ser humano puede hacerse a sí mismo.",
+  "ideas": [
+   "Dios hizo a los animales con una naturaleza fija, pero al ser humano lo dejó sin molde cerrado: puedes convertirte en algo casi animal o en algo casi divino.",
+   "Todas las tradiciones tienen algo de verdad, y estudiarlas juntas te acerca a la verdad completa: es una forma de [[sincretismo]].",
+   "Fue de los primeros cristianos en estudiar la [[cábala|cabala]] judía, convencido de que también allí había sabiduría."
+  ],
+  "curiosidad": "Murió en 1494 en Florencia, probablemente envenenado: un estudio de sus restos en 2008 encontró niveles muy altos de arsénico.",
+  "frase": {
+   "texto": "Podrás degenerar en los seres inferiores, que son los brutos; podrás, según tu voluntad, regenerarte en los superiores, que son divinos.",
+   "fuente": "Discurso sobre la dignidad del hombre"
+  },
+  "obras": [
+   {
+    "titulo": "Discurso sobre la dignidad del hombre",
+    "anio": "1486",
+    "deQueVa": "El ser humano es libre para construirse a sí mismo."
+   },
+   {
+    "titulo": "Novecientas tesis (Conclusiones)",
+    "anio": "1486",
+    "deQueVa": "Novecientas ideas de todas las tradiciones para debatir en público."
+   },
+   {
+    "titulo": "Heptaplus",
+    "anio": "1489",
+    "deQueVa": "Siete maneras de leer el relato de la creación del Génesis."
+   },
+   {
+    "titulo": "Sobre el ente y el uno",
+    "anio": "1491",
+    "deQueVa": "Intento de poner de acuerdo a Platón y Aristóteles."
+   },
+   {
+    "titulo": "Disputas contra la astrología adivinatoria",
+    "anio": "1496",
+    "deQueVa": "Por qué los astros no deciden nuestro destino (publicado tras su muerte)."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "niccolo-machiavelli",
+  "nombre": "Nicolás Maquiavelo",
+  "fechas": "1469 – 1527",
+  "region": "Italia (Florencia)",
+  "escuela": "Realismo político",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Escribir El príncipe y describir el poder tal como es, no como debería ser",
+  "resumen": "Funcionario y diplomático de la República de Florencia. Cuando los Médici volvieron al poder en 1512 le echaron, le torturaron y acabó retirado en su casa de campo. Allí escribió El príncipe, un manual sobre cómo conseguir y conservar el poder sin hacerse ilusiones sobre la bondad humana. Por eso «maquiavélico» significa hoy astuto y sin escrúpulos, aunque él también escribió una gran defensa de las repúblicas.",
+  "ideas": [
+   "En política hay que mirar lo que la gente hace, no lo que debería hacer: quien quiere ser bueno en todo, rodeado de tantos que no lo son, acaba arruinado.",
+   "Es más seguro ser temido que amado, si no se pueden tener las dos cosas, pero un gobernante nunca debe hacerse odiar.",
+   "Un buen gobernante necesita [[virtù|virtu]], es decir, energía y habilidad, para hacer frente a la [[fortuna]], la suerte, que es como un río que se desborda: hay que construir diques antes de la crecida."
+  ],
+  "curiosidad": "La frase «el fin justifica los medios» no aparece en sus obras: es un resumen que otros hicieron, después, de sus ideas.",
+  "frase": {
+   "texto": "Es mucho más seguro ser temido que amado, cuando se haya de prescindir de una de las dos cosas.",
+   "fuente": "El príncipe, cap. XVII"
+  },
+  "obras": [
+   {
+    "titulo": "El príncipe",
+    "anio": "1513 (publicado en 1532)",
+    "deQueVa": "Cómo conseguir y conservar el poder, sin ingenuidades."
+   },
+   {
+    "titulo": "Discursos sobre la primera década de Tito Livio",
+    "anio": "c. 1517",
+    "deQueVa": "Por qué las repúblicas libres son fuertes, con ejemplos de la antigua Roma."
+   },
+   {
+    "titulo": "Del arte de la guerra",
+    "anio": "1521",
+    "deQueVa": "Cómo organizar un ejército de ciudadanos."
+   },
+   {
+    "titulo": "La mandrágora",
+    "anio": "c. 1518",
+    "deQueVa": "Una comedia teatral sobre el engaño y el deseo."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "El príncipe, texto completo en español (trad. de José Sánchez Rojas), Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_pr%C3%ADncipe_(S%C3%A1nchez_Rojas_tr.)",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "francis-bacon",
+   "baruch-spinoza",
+   "antonio-gramsci"
+  ]
+ }
+]

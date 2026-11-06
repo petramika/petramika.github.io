@@ -1,0 +1,2857 @@
+[
+  {
+    "id": "erasmus",
+    "nombre": "Erasmo de Róterdam",
+    "fechas": "c. 1466 – 1536",
+    "region": "Países Bajos",
+    "escuela": "Humanismo renacentista",
+    "categorias": [
+      "religion",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Reírse de los poderosos y de los curas de su época en el «Elogio de la locura»",
+    "resumen": "Erasmo fue el intelectual más famoso de Europa a principios del siglo XVI: un sacerdote holandés que viajaba de país en país y se escribía con reyes y papas. Fue la gran estrella del [[humanismo]], el movimiento que quería volver a leer con calma los textos antiguos. Se burló con mucha gracia de la hipocresía de los poderosos y del [[clero]], y defendió la paz y la tolerancia cuando Europa empezaba a pelearse por la religión.",
+    "ideas": [
+      "Hay que leer las fuentes originales: publicó el Nuevo Testamento en griego para que la gente no se fiara solo de traducciones con errores, igual que es mejor leer el mensaje original que lo que te cuentan que dice.",
+      "El buen cristiano se nota en cómo vive y trata a los demás, no en repetir rituales, comprar reliquias o hacer peregrinaciones.",
+      "La guerra casi nunca merece la pena: escribió que hasta los animales se pelean menos entre ellos que los seres humanos."
+    ],
+    "curiosidad": "Escribió el «Elogio de la locura» en casa de su amigo Tomás Moro, en Londres. Su título en latín, «Moriae encomium», es un juego de palabras con el apellido de Moro.",
+    "frase": {
+      "texto": "En el país de los ciegos, el tuerto es rey.",
+      "fuente": "Refrán latino que Erasmo recogió y comentó en sus «Adagios» (no lo inventó él)"
+    },
+    "obras": [
+      {
+        "titulo": "Adagios",
+        "anio": "1500 (ampliados después)",
+        "deQueVa": "Una enorme colección de refranes antiguos explicados uno a uno."
+      },
+      {
+        "titulo": "Elogio de la locura",
+        "anio": "1511",
+        "deQueVa": "La Locura habla en primera persona y se ríe de todos: sabios, curas, reyes y comerciantes."
+      },
+      {
+        "titulo": "Educación del príncipe cristiano",
+        "anio": "1516",
+        "deQueVa": "Consejos para que un futuro rey gobierne con justicia y sin guerras."
+      },
+      {
+        "titulo": "Coloquios",
+        "anio": "1518 (ampliados después)",
+        "deQueVa": "Diálogos para aprender latín que, de paso, critican las costumbres de la época."
+      },
+      {
+        "titulo": "Sobre el libre albedrío",
+        "anio": "1524",
+        "deQueVa": "Su polémica con Lutero sobre si somos libres de elegir el bien."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Praise of Folly (Elogio de la locura, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/9371",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "juan-luis-vives"
+    ]
+  },
+  {
+    "id": "thomas-more",
+    "nombre": "Tomás Moro",
+    "fechas": "1478 – 1535",
+    "region": "Inglaterra",
+    "escuela": "Humanismo renacentista",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "religion"
+    ],
+    "conocidoPor": "Inventar la palabra [[utopía|utopia]]: una isla imaginaria donde todo se comparte",
+    "resumen": "Tomás Moro fue abogado, escritor y el político más importante de Inglaterra con el rey Enrique VIII. En 1516 publicó «Utopía», el libro que dio nombre a todas las sociedades ideales que imaginamos desde entonces. Cuando el rey rompió con el Papa y se declaró jefe de la Iglesia inglesa, Moro se negó a jurarlo, y por eso le cortaron la cabeza en 1535.",
+    "ideas": [
+      "En la isla de Utopía no existe la [[propiedad privada|propiedad-privada]]: todo es de todos, como un piso de estudiantes donde la nevera es común, pero en grande.",
+      "Allí se trabaja solo seis horas al día y el resto del tiempo se dedica a aprender y a descansar.",
+      "Criticó que en Inglaterra se ahorcara a la gente pobre por robar, cuando era la propia sociedad la que la empujaba a la miseria."
+    ],
+    "curiosidad": "La Iglesia católica lo declaró santo en 1935, y en el año 2000 el papa Juan Pablo II lo nombró patrono de los políticos y gobernantes.",
+    "frase": {
+      "texto": "Vuestras ovejas, que solían ser tan mansas y comer tan poco, se han vuelto ahora tan voraces y salvajes que se comen a los propios hombres.",
+      "fuente": "Utopía, libro I (1516), criticando que los nobles echaran a los campesinos de sus tierras para criar ovejas"
+    },
+    "obras": [
+      {
+        "titulo": "Utopía",
+        "anio": "1516",
+        "deQueVa": "Un viajero describe una isla perfecta para que miremos con otros ojos nuestra propia sociedad."
+      },
+      {
+        "titulo": "Historia del rey Ricardo III",
+        "anio": "c. 1513–1518",
+        "deQueVa": "Biografía de un rey presentado como un tirano sin escrúpulos; inspiró a Shakespeare."
+      },
+      {
+        "titulo": "Diálogo del consuelo contra la tribulación",
+        "anio": "1534",
+        "deQueVa": "Escrito en la cárcel: cómo mantener la calma y la fe cuando todo va mal."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Utopía, texto completo en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Utop%C3%ADa",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "tommaso-campanella",
+      "francis-bacon"
+    ]
+  },
+  {
+    "id": "juan-luis-vives",
+    "nombre": "Juan Luis Vives",
+    "fechas": "1492 – 1540",
+    "region": "España",
+    "escuela": "Humanismo renacentista",
+    "categorias": [
+      "sociedad",
+      "mente",
+      "etica"
+    ],
+    "conocidoPor": "Proponer que las ciudades se organicen para ayudar a los pobres, en vez de dejarlo todo a la limosna",
+    "resumen": "Juan Luis Vives nació en Valencia en una familia de origen judío y pasó casi toda su vida en Brujas (en la actual Bélgica) y en Inglaterra. Fue amigo de Erasmo y de Tomás Moro y uno de los grandes del [[humanismo]]. Se adelantó a su tiempo en dos cosas: pensar en una ayuda social organizada para los pobres y estudiar cómo funcionan las emociones y la memoria observando a las personas.",
+    "ideas": [
+      "La ciudad debe saber quién pasa necesidad y darle trabajo, formación o cuidados, en lugar de que cada cual dé unas monedas cuando le apetezca.",
+      "Para entender el [[alma]] no hace falta saber qué es exactamente, sino observar cómo funciona: cómo recordamos, cómo nos enfadamos o cómo aprendemos.",
+      "Las mujeres también deben recibir educación, algo poco habitual en su época, aunque él lo planteaba dentro de los límites de su tiempo."
+    ],
+    "curiosidad": "La [[Inquisición|inquisicion]] quemó a su padre en Valencia en 1524, acusado de seguir practicando el judaísmo. Vives nunca volvió a España.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Instrucción de la mujer cristiana",
+        "anio": "1523",
+        "deQueVa": "Cómo educar a las chicas; lo escribió para la reina Catalina de Aragón y su hija María."
+      },
+      {
+        "titulo": "Del socorro de los pobres",
+        "anio": "1526",
+        "deQueVa": "Un plan para que la ciudad de Brujas atienda a sus pobres de forma ordenada."
+      },
+      {
+        "titulo": "De las disciplinas",
+        "anio": "1531",
+        "deQueVa": "Cómo debería ser la enseñanza y por qué la de su tiempo estaba anticuada."
+      },
+      {
+        "titulo": "Tratado del alma y la vida",
+        "anio": "1538",
+        "deQueVa": "Estudio de la memoria, las emociones y el aprendizaje: un antecedente de la psicología."
+      },
+      {
+        "titulo": "Diálogos (Ejercicios de lengua latina)",
+        "anio": "1539",
+        "deQueVa": "Conversaciones sencillas sobre la vida diaria para que los niños aprendieran latín."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Tudor School-Boy Life: los «Diálogos» de Vives en inglés, Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/56286",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "francisco-de-vitoria",
+    "nombre": "Francisco de Vitoria",
+    "fechas": "c. 1483 – 1546",
+    "region": "España",
+    "escuela": "Escuela de Salamanca",
+    "categorias": [
+      "politica",
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Defender los derechos de los indígenas americanos y sentar las bases del [[derecho internacional|derecho-internacional]]",
+    "resumen": "Francisco de Vitoria fue un fraile [[dominico]] y profesor en la Universidad de Salamanca. Cuando España conquistaba América, se atrevió a preguntar en voz alta con qué derecho lo hacía. Su respuesta fue que los pueblos indígenas eran dueños legítimos de sus tierras y de sus gobiernos. Por pensar en reglas que valen entre todos los pueblos del mundo se le considera uno de los padres del [[derecho internacional|derecho-internacional]].",
+    "ideas": [
+      "Los indígenas no pierden sus tierras por no ser cristianos: igual que a ti no te pueden quitar tu casa por tener otra religión que tu vecino.",
+      "Existe un [[derecho de gentes|derecho-de-gentes]], unas normas comunes a todos los pueblos, como poder viajar y comerciar en paz.",
+      "Solo hay [[guerra justa|guerra-justa]] si se responde a un daño grave, y aun así hay que respetar a los inocentes y no hacer más daño del necesario."
+    ],
+    "curiosidad": "No publicó ningún libro en vida. Sus ideas se conocen por sus «relecciones», unas lecciones solemnes en la universidad, que sus alumnos editaron después de su muerte.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Relección sobre la potestad civil",
+        "anio": "1528",
+        "deQueVa": "De dónde viene el poder de los gobernantes y para qué existe."
+      },
+      {
+        "titulo": "Relección sobre los indios",
+        "anio": "1539",
+        "deQueVa": "Revisa uno a uno los motivos que se daban para conquistar América y rechaza la mayoría."
+      },
+      {
+        "titulo": "Relección sobre el derecho de la guerra",
+        "anio": "1539",
+        "deQueVa": "Cuándo es justa una guerra y qué no se puede hacer en ella."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "francisco-suarez",
+      "hugo-grotius"
+    ]
+  },
+  {
+    "id": "bartolome-de-las-casas",
+    "nombre": "Bartolomé de las Casas",
+    "fechas": "c. 1484 – 1566",
+    "region": "España y América",
+    "escuela": "Pensamiento cristiano (defensa de los indígenas)",
+    "categorias": [
+      "politica",
+      "etica",
+      "religion",
+      "sociedad"
+    ],
+    "conocidoPor": "Denunciar ante el rey los abusos de los conquistadores contra los pueblos indígenas de América",
+    "resumen": "Bartolomé de las Casas viajó joven a América y allí tuvo indígenas trabajando para él, como otros colonos. En 1514 cambió de opinión, renunció a ellos y dedicó el resto de su larga vida a denunciar la violencia de la conquista. Se hizo fraile dominico, fue obispo de Chiapas (México) y en 1550 debatió en Valladolid contra quienes decían que los indígenas eran inferiores.",
+    "ideas": [
+      "Todos los pueblos son igual de humanos y capaces de razonar; nadie nace para ser esclavo de otro.",
+      "La fe no se puede imponer con armas: solo vale convencer con palabras y buen ejemplo, como no puedes obligar a alguien a ser tu amigo.",
+      "Contar lo que pasa, aunque moleste a los poderosos, es una obligación moral."
+    ],
+    "curiosidad": "Al principio propuso llevar esclavos africanos a América para aliviar a los indígenas. Más tarde se arrepintió y escribió que la esclavitud de los africanos era igual de injusta.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Del único modo de atraer a todos los pueblos a la verdadera religión",
+        "anio": "",
+        "deQueVa": "Defiende que la religión solo se puede enseñar con paz y convencimiento."
+      },
+      {
+        "titulo": "Brevísima relación de la destrucción de las Indias",
+        "anio": "1552",
+        "deQueVa": "Un informe durísimo de las matanzas y abusos de la conquista, escrito para el rey."
+      },
+      {
+        "titulo": "Apologética historia sumaria",
+        "anio": "",
+        "deQueVa": "Describe las culturas indígenas para demostrar que eran tan civilizadas como las europeas."
+      },
+      {
+        "titulo": "Historia de las Indias",
+        "anio": "publicada en 1875",
+        "deQueVa": "Su gran crónica de la llegada de los europeos a América."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Brevísima relación de la destrucción de las Indias, texto en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Brev%C3%ADsima_relaci%C3%B3n_de_la_destrucci%C3%B3n_de_las_Indias",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "michel-de-montaigne",
+    "nombre": "Michel de Montaigne",
+    "fechas": "1533 – 1592",
+    "region": "Francia",
+    "escuela": "Humanismo renacentista y escepticismo",
+    "categorias": [
+      "existencia",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Inventar el [[ensayo]] escribiendo sobre sí mismo para entender a todos los seres humanos",
+    "resumen": "Montaigne era un noble francés que, a los 38 años, se retiró a la torre de su castillo, rodeado de libros, a pensar y escribir. Así nacieron sus «Ensayos», textos sobre cualquier tema (la amistad, el miedo, los caníbales, el sueño) contados en primera persona y con total sinceridad. Inventó un género que hoy usan columnistas, blogueros y youtubers: pensar en voz alta a partir de la propia vida.",
+    "ideas": [
+      "¿Qué sé yo?: dudar de lo que creemos saber nos hace más humildes y más tolerantes, al estilo del [[escepticismo]].",
+      "Cada uno llama bárbaro a lo que no es su costumbre: lo que nos parece raro de otros pueblos suele parecerles igual de raro lo nuestro.",
+      "Filosofar es aprender a morir: pensar en la muerte con calma nos quita miedo y nos ayuda a disfrutar más de la vida."
+    ],
+    "curiosidad": "Su padre quiso que el latín fuera su primera lengua: hasta los seis años, todos en casa debían hablarle solo en latín.",
+    "frase": {
+      "texto": "Cada hombre lleva en sí la forma entera de la condición humana.",
+      "fuente": "Ensayos, libro III, capítulo 2, «Del arrepentimiento»"
+    },
+    "obras": [
+      {
+        "titulo": "Ensayos",
+        "anio": "1580 (ampliados en 1588 y 1595)",
+        "deQueVa": "Más de cien textos sobre todo tipo de temas en los que se pone a sí mismo como ejemplo de ser humano."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Essays of Michel de Montaigne (Ensayos completos, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3600",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "blaise-pascal",
+      "rene-descartes",
+      "ralph-waldo-emerson",
+      "friedrich-nietzsche"
+    ]
+  },
+  {
+    "id": "giordano-bruno",
+    "nombre": "Giordano Bruno",
+    "fechas": "1548 – 1600",
+    "region": "Italia",
+    "escuela": "Filosofía renacentista (neoplatonismo)",
+    "categorias": [
+      "metafisica",
+      "religion",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que el universo es [[infinito]] y está lleno de mundos, y morir en la hoguera por sus ideas",
+    "resumen": "Giordano Bruno fue un fraile italiano que dejó su convento y recorrió Europa enseñando ideas atrevidas. Defendió que la Tierra gira alrededor del Sol, como decía Copérnico, pero fue más lejos: las estrellas serían otros soles con sus propios planetas en un universo sin fin. La [[Inquisición|inquisicion]] lo juzgó por [[herejía|herejia]] durante años y lo quemó vivo en Roma en 1600; hoy es un símbolo de la libertad de pensamiento.",
+    "ideas": [
+      "El universo no tiene bordes ni centro: es [[infinito]], y la Tierra es solo un rincón más.",
+      "Las estrellas son soles como el nuestro y puede haber otros mundos habitados, algo que hoy investigan los astrónomos.",
+      "Dios no está fuera del mundo como un relojero, sino presente en toda la naturaleza."
+    ],
+    "curiosidad": "Desde 1889 hay una estatua suya en el Campo de' Fiori de Roma, la misma plaza donde fue quemado.",
+    "frase": {
+      "texto": "Quizá vosotros pronunciáis esta sentencia contra mí con más miedo que yo al recibirla.",
+      "fuente": "Palabras a sus jueces al oír la condena (1600), según la carta de un testigo, Kaspar Schoppe"
+    },
+    "obras": [
+      {
+        "titulo": "La cena de las cenizas",
+        "anio": "1584",
+        "deQueVa": "Un diálogo que defiende que la Tierra se mueve alrededor del Sol."
+      },
+      {
+        "titulo": "De la causa, principio y uno",
+        "anio": "1584",
+        "deQueVa": "Todo lo que existe forma una sola gran realidad viva."
+      },
+      {
+        "titulo": "Sobre el infinito universo y los mundos",
+        "anio": "1584",
+        "deQueVa": "Por qué el universo no tiene fin y está lleno de mundos."
+      },
+      {
+        "titulo": "Los heroicos furores",
+        "anio": "1585",
+        "deQueVa": "Poemas y comentarios sobre el amor apasionado por la verdad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Heroic Enthusiasts (Los heroicos furores, primera parte, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/19817",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "friedrich-wilhelm-joseph-schelling"
+    ]
+  },
+  {
+    "id": "francisco-suarez",
+    "nombre": "Francisco Suárez",
+    "fechas": "1548 – 1617",
+    "region": "España",
+    "escuela": "Escolástica (Escuela de Salamanca)",
+    "categorias": [
+      "metafisica",
+      "politica",
+      "religion"
+    ],
+    "conocidoPor": "Escribir el gran manual de [[metafísica|metafisica]] de su época y decir que el poder viene del pueblo",
+    "resumen": "Francisco Suárez fue un [[jesuita]] granadino, profesor en Roma, Salamanca y Coímbra, al que llamaban «Doctor Eximio» (el doctor excelente). Sus «Disputaciones metafísicas» ordenaron por temas todo lo que se sabía sobre la realidad, y se estudiaron durante más de un siglo en universidades católicas y protestantes. En política defendió que los reyes reciben el poder de la comunidad, no directamente de Dios.",
+    "ideas": [
+      "El poder pertenece primero al pueblo, que se lo confía al gobernante; por eso un tirano puede perder su derecho a mandar.",
+      "Existe una [[ley natural|ley-natural]] que todos podemos descubrir con la [[razón|razon]], como saber que no está bien hacer daño a un inocente.",
+      "Todos los pueblos forman una especie de gran comunidad humana con normas comunes, una idea que anticipa el [[derecho internacional|derecho-internacional]]."
+    ],
+    "curiosidad": "El rey Jacobo I de Inglaterra se molestó tanto con su libro «Defensa de la fe», que criticaba el poder absoluto de los reyes, que mandó quemarlo en público en Londres.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Disputaciones metafísicas",
+        "anio": "1597",
+        "deQueVa": "Un tratado enorme y ordenado sobre qué es el ser, las causas y Dios."
+      },
+      {
+        "titulo": "Tratado de las leyes",
+        "anio": "1612",
+        "deQueVa": "Qué es una ley, de dónde saca su fuerza y cuándo obliga."
+      },
+      {
+        "titulo": "Defensa de la fe",
+        "anio": "1613",
+        "deQueVa": "Responde al rey de Inglaterra y niega que los reyes tengan un poder sin límites."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "hugo-grotius",
+      "gottfried-wilhelm-leibniz"
+    ]
+  },
+  {
+    "id": "wang-yangming",
+    "nombre": "Wang Yangming",
+    "fechas": "1472 – 1529",
+    "region": "China",
+    "escuela": "Neoconfucianismo (Escuela de la mente)",
+    "categorias": [
+      "etica",
+      "conocimiento",
+      "mente"
+    ],
+    "conocidoPor": "Enseñar que saber algo y hacerlo son la misma cosa",
+    "resumen": "Wang Yangming fue un funcionario, general y filósofo chino de la dinastía Ming. Desterrado a una región remota por criticar a un poderoso, tuvo allí en 1508 una iluminación: la verdad moral no hay que buscarla en los libros ni en las cosas, sino en la propia mente. Su versión del [[neoconfucianismo]] se extendió por China y Japón y sigue siendo muy leída en Asia.",
+    "ideas": [
+      "Saber y hacer van juntos: quien dice que sabe que hay que ayudar a sus padres pero nunca lo hace, en realidad aún no lo sabe.",
+      "Todos tenemos un [[conocimiento innato|conocimiento-innato]] del bien, como una brújula interior que nos avisa cuando algo está mal.",
+      "Para mejorar no basta con estudiar: hay que entrenar la mente en la vida diaria, en el trabajo y en el trato con los demás."
+    ],
+    "curiosidad": "De joven intentó entender el mundo como mandaba el filósofo Zhu Xi y se pasó siete días mirando fijamente unos bambúes para descubrir su principio. Solo consiguió ponerse enfermo.",
+    "frase": {
+      "texto": "Saber y no hacer es, en realidad, no saber todavía.",
+      "fuente": "Instrucciones para la vida práctica (Chuanxi lu), primera parte"
+    },
+    "obras": [
+      {
+        "titulo": "Instrucciones para la vida práctica (Chuanxi lu)",
+        "anio": "1518 (ampliado después)",
+        "deQueVa": "Conversaciones y cartas recogidas por sus alumnos sobre cómo ser buena persona."
+      },
+      {
+        "titulo": "Preguntas sobre el Gran Saber",
+        "anio": "1527",
+        "deQueVa": "Su explicación de un clásico de Confucio: el camino del bien empieza en uno mismo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "francis-bacon",
+    "nombre": "Francis Bacon",
+    "fechas": "1561 – 1626",
+    "region": "Inglaterra",
+    "escuela": "Empirismo",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "logica"
+    ],
+    "conocidoPor": "Decir que «el conocimiento es poder» y proponer aprender de la naturaleza con experimentos",
+    "resumen": "Francis Bacon fue político (llegó a ser el gran canciller de Inglaterra) y uno de los padres del método científico. Pensaba que la ciencia de su tiempo repetía a Aristóteles sin mirar el mundo, y propuso observar, experimentar y sacar conclusiones poco a poco, lo que se llama [[inducción|induccion]]. Su idea de que la ciencia debe servir para mejorar la vida de la gente es hoy algo que damos por hecho.",
+    "ideas": [
+      "Hay que ir de los casos concretos a las reglas generales: probar muchas veces antes de concluir, como cuando pruebas una receta varias veces antes de dar por buena la cantidad de sal.",
+      "Nuestra mente tiene «[[ídolos|idolos-bacon]]», trampas que nos engañan: los prejuicios de la especie, los gustos personales, las palabras mal usadas y las teorías de moda.",
+      "La ciencia debe ser un trabajo en equipo y al servicio de la humanidad, como imaginó en su isla ideal, la Nueva Atlántida."
+    ],
+    "curiosidad": "Según contó el escritor John Aubrey, murió de una neumonía tras bajar de su carruaje en plena nevada para rellenar un pollo con nieve y ver si el frío conservaba la carne. No es seguro que fuera exactamente así.",
+    "frase": {
+      "texto": "El conocimiento es poder.",
+      "fuente": "Meditaciones sagradas (1597), en latín «ipsa scientia potestas est»"
+    },
+    "obras": [
+      {
+        "titulo": "Ensayos",
+        "anio": "1597 (ampliados después)",
+        "deQueVa": "Textos breves y prácticos sobre la amistad, la ambición, el dinero o los viajes."
+      },
+      {
+        "titulo": "El avance del saber",
+        "anio": "1605",
+        "deQueVa": "Un repaso de lo que sabemos y de todo lo que falta por investigar."
+      },
+      {
+        "titulo": "Novum Organum",
+        "anio": "1620",
+        "deQueVa": "Su nuevo método para estudiar la naturaleza a base de observación y experimentos."
+      },
+      {
+        "titulo": "La Nueva Atlántida",
+        "anio": "1627 (póstuma)",
+        "deQueVa": "Una isla imaginaria gobernada por un gran centro de investigación científica."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Novum Organum (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/45988",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "New Atlantis (La Nueva Atlántida, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/2434",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "thomas-hobbes",
+      "john-locke"
+    ]
+  },
+  {
+    "id": "hugo-grotius",
+    "nombre": "Hugo Grocio",
+    "fechas": "1583 – 1645",
+    "region": "Países Bajos",
+    "escuela": "Iusnaturalismo (derecho natural)",
+    "categorias": [
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Poner reglas a la guerra y a la paz entre países, base del [[derecho internacional|derecho-internacional]]",
+    "resumen": "Hugo Grocio fue un niño prodigio holandés que entró en la universidad con 11 años y acabó siendo jurista, diplomático y teólogo. En plena época de guerras de religión escribió «Sobre el derecho de la guerra y de la paz», donde explica qué normas deben respetar los países incluso cuando se enfrentan. Por eso se le recuerda como uno de los padres del [[derecho internacional|derecho-internacional]].",
+    "ideas": [
+      "Existe un [[derecho natural|derecho-natural]], unas reglas justas que cualquiera puede descubrir con la [[razón|razon]], igual que cualquiera puede entender que dos más dos son cuatro.",
+      "Incluso en la guerra hay límites: no todo vale, y hay que proteger a quienes no luchan.",
+      "El mar debe ser libre para todos los barcos y ningún país puede adueñarse de él."
+    ],
+    "curiosidad": "Lo encarcelaron de por vida en el castillo de Loevestein por motivos políticos, pero en 1621 escapó escondido dentro de un baúl de libros que le llevaban y le sacaban de la celda.",
+    "frase": {
+      "texto": "Lo que hemos dicho seguiría teniendo validez aunque admitiéramos, cosa que no puede hacerse sin gravísimo pecado, que Dios no existe.",
+      "fuente": "Sobre el derecho de la guerra y de la paz (1625), prolegómenos, §11"
+    },
+    "obras": [
+      {
+        "titulo": "La libertad de los mares (Mare liberum)",
+        "anio": "1609",
+        "deQueVa": "Defiende que los océanos son de todos y cualquier país puede navegar y comerciar."
+      },
+      {
+        "titulo": "Sobre el derecho de la guerra y de la paz",
+        "anio": "1625",
+        "deQueVa": "Las normas que deberían respetar los países en paz y en guerra."
+      },
+      {
+        "titulo": "Sobre la verdad de la religión cristiana",
+        "anio": "1627",
+        "deQueVa": "Un libro sencillo para defender el cristianismo sin entrar en peleas entre iglesias."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Rights of War and Peace (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/46564",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "samuel-von-pufendorf",
+      "john-locke"
+    ]
+  },
+  {
+    "id": "thomas-hobbes",
+    "nombre": "Thomas Hobbes",
+    "fechas": "1588 – 1679",
+    "region": "Inglaterra",
+    "escuela": "Contractualismo y materialismo",
+    "categorias": [
+      "politica",
+      "etica",
+      "metafisica"
+    ],
+    "conocidoPor": "Decir que sin un Estado fuerte la vida sería una guerra de todos contra todos",
+    "resumen": "Thomas Hobbes vivió la guerra civil inglesa y quedó obsesionado con una pregunta: ¿cómo evitar que la gente se mate entre sí? En «Leviatán» respondió que las personas aceptan obedecer a un poder fuerte, el [[soberano]], a cambio de seguridad. Es uno de los padres del [[contrato social|contrato-social]], y su pregunta sigue viva cada vez que discutimos cuánta libertad cedemos a cambio de seguridad.",
+    "ideas": [
+      "Sin leyes ni policía viviríamos en un [[estado de naturaleza|estado-de-naturaleza]] de miedo constante, donde cada cual se defiende como puede.",
+      "Por eso hacemos un pacto: renunciamos a hacer lo que nos dé la gana y obedecemos al Estado, que a cambio nos protege.",
+      "Todo lo que existe, incluidos los pensamientos, es materia en movimiento, como las piezas de una máquina."
+    ],
+    "curiosidad": "Nació antes de tiempo, según contaba, por el susto que se llevó su madre al oír que llegaba la Armada Invencible española. Decía que «el miedo y yo nacimos gemelos».",
+    "frase": {
+      "texto": "La vida del hombre es solitaria, pobre, desagradable, brutal y breve.",
+      "fuente": "Leviatán (1651), capítulo 13, describiendo la vida sin Estado"
+    },
+    "obras": [
+      {
+        "titulo": "Elementos de derecho natural y político",
+        "anio": "1640",
+        "deQueVa": "Su primer esbozo sobre la naturaleza humana y el poder."
+      },
+      {
+        "titulo": "Sobre el ciudadano (De Cive)",
+        "anio": "1642",
+        "deQueVa": "Los deberes y derechos de quien vive bajo un Estado."
+      },
+      {
+        "titulo": "Leviatán",
+        "anio": "1651",
+        "deQueVa": "Por qué necesitamos un gobierno poderoso para vivir en paz."
+      },
+      {
+        "titulo": "Sobre el cuerpo (De Corpore)",
+        "anio": "1655",
+        "deQueVa": "Explica el mundo entero como cuerpos en movimiento."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Leviathan (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3207",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "baruch-spinoza",
+      "john-locke",
+      "samuel-von-pufendorf",
+      "jean-jacques-rousseau"
+    ]
+  },
+  {
+    "id": "rene-descartes",
+    "nombre": "René Descartes",
+    "fechas": "1596 – 1650",
+    "region": "Francia",
+    "escuela": "Racionalismo",
+    "categorias": [
+      "conocimiento",
+      "metafisica",
+      "mente",
+      "ciencia"
+    ],
+    "conocidoPor": "Dudar de todo hasta encontrar algo seguro: «pienso, luego existo»",
+    "resumen": "Descartes fue filósofo y matemático, y se le considera el padre de la filosofía moderna. Decidió dudar de todo lo que había aprendido para quedarse solo con lo que fuera imposible poner en duda, y así llegó a una certeza: si estoy pensando, existo. También inventó los ejes de coordenadas que se usan en cualquier gráfico, y su manera de separar mente y cuerpo sigue dando que hablar.",
+    "ideas": [
+      "La [[duda metódica|duda-metodica]]: si alguna vez los sentidos te han engañado, como cuando sueñas que estás despierto, no te fíes de ellos sin comprobarlo.",
+      "Aunque dude de todo, no puedo dudar de que estoy dudando; por tanto, existo como algo que piensa.",
+      "Somos dos cosas distintas, una mente que piensa y un cuerpo que ocupa espacio, una idea llamada [[dualismo]]."
+    ],
+    "curiosidad": "Le encantaba pensar en la cama hasta tarde. Murió en Estocolmo en 1650, poco después de que la reina Cristina de Suecia lo llamara para darle clases a las cinco de la mañana, en pleno invierno.",
+    "frase": {
+      "texto": "Pienso, luego existo.",
+      "fuente": "Discurso del método (1637), cuarta parte"
+    },
+    "obras": [
+      {
+        "titulo": "Discurso del método",
+        "anio": "1637",
+        "deQueVa": "Cuatro reglas sencillas para pensar con orden y no equivocarse."
+      },
+      {
+        "titulo": "La Geometría",
+        "anio": "1637",
+        "deQueVa": "Une el álgebra y la geometría: el origen de los gráficos con ejes."
+      },
+      {
+        "titulo": "Meditaciones metafísicas",
+        "anio": "1641",
+        "deQueVa": "Seis días de reflexión para encontrar algo de lo que no se pueda dudar."
+      },
+      {
+        "titulo": "Principios de la filosofía",
+        "anio": "1644",
+        "deQueVa": "Su explicación completa del conocimiento y del mundo físico."
+      },
+      {
+        "titulo": "Las pasiones del alma",
+        "anio": "1649",
+        "deQueVa": "Cómo funcionan las emociones y cómo dominarlas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Discourse on the Method (Discurso del método, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/59",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "baruch-spinoza",
+      "gottfried-wilhelm-leibniz",
+      "nicolas-malebranche",
+      "john-locke",
+      "edmund-husserl"
+    ]
+  },
+  {
+    "id": "pierre-gassendi",
+    "nombre": "Pierre Gassendi",
+    "fechas": "1592 – 1655",
+    "region": "Francia",
+    "escuela": "Atomismo y empirismo",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "metafisica"
+    ],
+    "conocidoPor": "Recuperar los [[átomos|atomo]] de Epicuro y hacerlos compatibles con la fe cristiana",
+    "resumen": "Pierre Gassendi fue un sacerdote francés que era a la vez filósofo, matemático y astrónomo. Rescató la idea de Epicuro de que todo está hecho de partículas diminutas, los [[átomos|atomo]], y la limpió de lo que chocaba con el cristianismo. También fue uno de los grandes críticos de Descartes: pensaba que todo lo que sabemos nos llega por los sentidos.",
+    "ideas": [
+      "El mundo está hecho de [[átomos|atomo]] que se mueven en el vacío, aunque fue Dios quien los creó y los puso en marcha.",
+      "Todo conocimiento empieza en los sentidos: nadie nace sabiendo, como defiende el [[empirismo]].",
+      "Hay que desconfiar de quien lo explica todo con palabras de Aristóteles en lugar de observar la naturaleza."
+    ],
+    "curiosidad": "En 1631 fue el primero en observar el paso del planeta Mercurio por delante del Sol, tal como había predicho el astrónomo Kepler.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ejercicios paradójicos contra los aristotélicos",
+        "anio": "1624",
+        "deQueVa": "Una crítica a la manera de enseñar filosofía repitiendo a Aristóteles."
+      },
+      {
+        "titulo": "Quintas objeciones a las Meditaciones de Descartes",
+        "anio": "1641",
+        "deQueVa": "Sus pegas a Descartes, que se publicaron junto al libro de este."
+      },
+      {
+        "titulo": "Syntagma philosophicum",
+        "anio": "1658 (póstumo)",
+        "deQueVa": "Su gran resumen de la filosofía, con los átomos como base."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "baltasar-gracian",
+    "nombre": "Baltasar Gracián",
+    "fechas": "1601 – 1658",
+    "region": "España",
+    "escuela": "Moralismo barroco (conceptismo)",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "existencia"
+    ],
+    "conocidoPor": "Escribir 300 consejos breves para sobrevivir en un mundo de apariencias",
+    "resumen": "Baltasar Gracián fue un [[jesuita]] aragonés y uno de los grandes escritores del Siglo de Oro. Su «Oráculo manual» es un libro de bolsillo con 300 consejos para moverse con astucia en una sociedad llena de engaños, algo así como un manual de inteligencia social. Sus frases cortas y afiladas siguen apareciendo hoy en libros de autoayuda y de empresa.",
+    "ideas": [
+      "Vivimos en un mundo de apariencias: no basta con tener razón, también hay que saber mostrarla.",
+      "La [[prudencia]] es la gran virtud: pensar antes de hablar y no enseñar todas tus cartas, como en una partida de mus.",
+      "La vida es un viaje en el que vamos desengañándonos, como cuenta su novela «El Criticón»."
+    ],
+    "curiosidad": "El filósofo alemán Arthur Schopenhauer admiraba tanto el «Oráculo manual» que lo tradujo al alemán.",
+    "frase": {
+      "texto": "Lo bueno, si breve, dos veces bueno.",
+      "fuente": "Oráculo manual y arte de prudencia (1647), aforismo 105"
+    },
+    "obras": [
+      {
+        "titulo": "El héroe",
+        "anio": "1637",
+        "deQueVa": "Las cualidades que hacen grande a una persona."
+      },
+      {
+        "titulo": "Oráculo manual y arte de prudencia",
+        "anio": "1647",
+        "deQueVa": "300 consejos breves para vivir con inteligencia entre los demás."
+      },
+      {
+        "titulo": "Agudeza y arte de ingenio",
+        "anio": "1648",
+        "deQueVa": "Cómo se construyen las ideas ingeniosas y las frases brillantes."
+      },
+      {
+        "titulo": "El Criticón",
+        "anio": "1651–1657",
+        "deQueVa": "Novela en la que dos personajes recorren el mundo y descubren sus engaños."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Oráculo manual y arte de prudencia, texto en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Or%C3%A1culo_manual_y_arte_de_prudencia",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "El Criticón, tomo 1, en español, Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/62691",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "arthur-schopenhauer",
+      "friedrich-nietzsche"
+    ]
+  },
+  {
+    "id": "blaise-pascal",
+    "nombre": "Blaise Pascal",
+    "fechas": "1623 – 1662",
+    "region": "Francia",
+    "escuela": "Pensamiento cristiano (jansenismo)",
+    "categorias": [
+      "religion",
+      "existencia",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que «el corazón tiene razones que la razón no conoce» y apostar por Dios",
+    "resumen": "Pascal fue un genio precoz: matemático, físico e inventor de una de las primeras calculadoras. Tras una intensa experiencia religiosa se dedicó a pensar en la fe y en el lugar del ser humano en un universo enorme. Sus «Pensamientos», notas sueltas para un libro que no llegó a terminar, siguen tocando la fibra a cualquiera que se haya preguntado qué hace aquí.",
+    "ideas": [
+      "La [[apuesta de Pascal|apuesta-de-pascal]]: si crees en Dios y existe lo ganas todo, y si no existe pierdes poco; así que, según él, conviene apostar por creer.",
+      "Somos frágiles como una caña, pero una caña que piensa, y eso nos hace más grandes que el universo que nos puede aplastar.",
+      "Buscamos distracciones sin parar para no pensar en nosotros mismos, igual que hoy miramos el móvil a la mínima."
+    ],
+    "curiosidad": "Con 19 años construyó una máquina de sumar, la «pascalina», para ayudar a su padre, que se pasaba las noches haciendo cuentas de impuestos.",
+    "frase": {
+      "texto": "El corazón tiene sus razones, que la razón no conoce.",
+      "fuente": "Pensamientos (publicados en 1670)"
+    },
+    "obras": [
+      {
+        "titulo": "Tratado del triángulo aritmético",
+        "anio": "1654 (publicado en 1665)",
+        "deQueVa": "Matemáticas de las combinaciones, base del cálculo de probabilidades."
+      },
+      {
+        "titulo": "Cartas provinciales",
+        "anio": "1656–1657",
+        "deQueVa": "Cartas llenas de humor contra los jesuitas y su moral demasiado flexible."
+      },
+      {
+        "titulo": "Pensamientos",
+        "anio": "1670 (póstumo)",
+        "deQueVa": "Notas sobre la grandeza y la miseria del ser humano y la necesidad de Dios."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Pascal's Pensées (Pensamientos, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/18269",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "baruch-spinoza",
+    "nombre": "Baruch Spinoza",
+    "fechas": "1632 – 1677",
+    "region": "Países Bajos",
+    "escuela": "Racionalismo",
+    "categorias": [
+      "metafisica",
+      "etica",
+      "religion",
+      "politica"
+    ],
+    "conocidoPor": "Decir que Dios y la naturaleza son lo mismo",
+    "resumen": "Spinoza era hijo de judíos portugueses refugiados en Ámsterdam. Con 23 años su comunidad lo expulsó para siempre por sus ideas, y vivió de forma sencilla puliendo lentes. Defendió que Dios no es un ser que premia y castiga desde fuera, sino la naturaleza entera, y que la libertad consiste en entender por qué hacemos lo que hacemos. Fue también un gran defensor de la libertad de pensamiento.",
+    "ideas": [
+      "Dios o la naturaleza: todo lo que existe forma parte de una única realidad, una idea que se ha llamado [[panteísmo|panteismo]].",
+      "Somos más libres cuanto mejor entendemos las causas de nuestras emociones: si sabes por qué te enfadas, el enfado te domina menos.",
+      "Un Estado sano deja que cada uno piense y diga lo que quiera."
+    ],
+    "curiosidad": "En 1673 le ofrecieron ser profesor en la Universidad de Heidelberg y lo rechazó: temía perder su libertad para pensar.",
+    "frase": {
+      "texto": "No reír, no llorar, ni detestar, sino entender.",
+      "fuente": "Tratado político (1677), capítulo I, §4"
+    },
+    "obras": [
+      {
+        "titulo": "Tratado teológico-político",
+        "anio": "1670",
+        "deQueVa": "Cómo leer la Biblia como un libro histórico y por qué hace falta libertad de pensamiento."
+      },
+      {
+        "titulo": "Ética demostrada según el orden geométrico",
+        "anio": "1677 (póstuma)",
+        "deQueVa": "Explica Dios, la mente y las emociones con definiciones y demostraciones, como un libro de geometría."
+      },
+      {
+        "titulo": "Tratado político",
+        "anio": "1677 (póstumo, inacabado)",
+        "deQueVa": "Cómo organizar un Estado que sea estable y libre."
+      },
+      {
+        "titulo": "Tratado de la reforma del entendimiento",
+        "anio": "1677 (póstumo, inacabado)",
+        "deQueVa": "Cómo buscar el verdadero bien y pensar con claridad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Ethics (Ética, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3800",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "gotthold-ephraim-lessing",
+      "johann-gottfried-herder",
+      "georg-wilhelm-friedrich-hegel",
+      "friedrich-nietzsche"
+    ]
+  },
+  {
+    "id": "john-locke",
+    "nombre": "John Locke",
+    "fechas": "1632 – 1704",
+    "region": "Inglaterra",
+    "escuela": "Empirismo y liberalismo",
+    "categorias": [
+      "conocimiento",
+      "politica",
+      "mente",
+      "sociedad"
+    ],
+    "conocidoPor": "Decir que nacemos con la mente como un papel en blanco y que el gobierno debe proteger nuestros derechos",
+    "resumen": "John Locke fue médico y filósofo, y es una de las figuras más influyentes de la política moderna. Defendió que todos tenemos derechos naturales, a la vida, a la libertad y a nuestros bienes, y que un gobierno que no los respeta puede ser cambiado. Sus ideas inspiraron la Revolución estadounidense y la francesa. En el conocimiento fue un pilar del [[empirismo]]: todo lo que sabemos lo aprendemos por experiencia.",
+    "ideas": [
+      "Al nacer, nuestra mente es como una [[tabula rasa|tabula-rasa]]: un papel en blanco que la experiencia va llenando.",
+      "El gobierno existe por acuerdo de los ciudadanos y para proteger sus [[derechos naturales|derechos-naturales]]; si los pisotea, el pueblo puede quitarlo.",
+      "El Estado no debe obligar a nadie a tener una religión, porque la fe no se puede imponer por la fuerza."
+    ],
+    "curiosidad": "Como médico de Lord Shaftesbury dirigió en 1668 una operación muy arriesgada de hígado que le salvó la vida. Después se encargó de educar al nieto de este, también filósofo.",
+    "frase": {
+      "texto": "Supongamos que la mente es, como decimos, un papel en blanco, sin ninguna letra, sin ninguna idea.",
+      "fuente": "Ensayo sobre el entendimiento humano (1690), libro II, capítulo 1, §2"
+    },
+    "obras": [
+      {
+        "titulo": "Carta sobre la tolerancia",
+        "anio": "1689",
+        "deQueVa": "Por qué el Estado no debe meterse en la religión de cada uno."
+      },
+      {
+        "titulo": "Dos tratados sobre el gobierno civil",
+        "anio": "1689",
+        "deQueVa": "De dónde sale el poder del gobierno y cuándo se le puede desobedecer."
+      },
+      {
+        "titulo": "Ensayo sobre el entendimiento humano",
+        "anio": "1690",
+        "deQueVa": "Cómo llegan las ideas a nuestra cabeza: todas a través de la experiencia."
+      },
+      {
+        "titulo": "Algunos pensamientos sobre la educación",
+        "anio": "1693",
+        "deQueVa": "Consejos prácticos para educar a los niños con razonamiento y buen ejemplo."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Second Treatise of Government (Segundo tratado sobre el gobierno civil, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/7370",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "george-berkeley",
+      "david-hume",
+      "voltaire",
+      "jean-jacques-rousseau",
+      "etienne-bonnot-de-condillac"
+    ]
+  },
+  {
+    "id": "gottfried-wilhelm-leibniz",
+    "nombre": "Gottfried Wilhelm Leibniz",
+    "fechas": "1646 – 1716",
+    "region": "Alemania",
+    "escuela": "Racionalismo",
+    "categorias": [
+      "metafisica",
+      "logica",
+      "religion",
+      "ciencia"
+    ],
+    "conocidoPor": "Defender que vivimos en el mejor de los mundos posibles e inventar el cálculo",
+    "resumen": "Leibniz fue un sabio alemán que lo tocaba todo: filosofía, matemáticas, derecho, historia y diplomacia. Inventó el [[cálculo infinitesimal|calculo-infinitesimal]] a la vez que Newton, sin copiarse, y estudió el [[sistema binario|sistema-binario]] que hoy usan los ordenadores. En filosofía defendió que el mundo está hecho de [[mónadas|monada]] y que, si Dios es bueno y sabio, ha tenido que crear el mejor mundo posible, mal incluido.",
+    "ideas": [
+      "Nada ocurre sin una razón: siempre hay un porqué, aunque no lo conozcamos (es el principio de [[razón suficiente|razon-suficiente]]).",
+      "La realidad está formada por [[mónadas|monada]], unidades mínimas parecidas a almas, cada una de las cuales refleja todo el universo desde su punto de vista.",
+      "El mal existe, pero forma parte del mejor plan posible, como una nota disonante que hace más bonita una canción; es su [[teodicea]]."
+    ],
+    "curiosidad": "Estudió y publicó en 1703 el sistema binario, que cuenta solo con ceros y unos y que hoy es el idioma de todos los ordenadores.",
+    "frase": {
+      "texto": "¿Por qué hay algo y no más bien nada?",
+      "fuente": "Principios de la naturaleza y de la gracia (1714), §7"
+    },
+    "obras": [
+      {
+        "titulo": "Discurso de metafísica",
+        "anio": "1686",
+        "deQueVa": "Primer resumen de su visión de Dios, el mundo y las almas."
+      },
+      {
+        "titulo": "Nuevos ensayos sobre el entendimiento humano",
+        "anio": "escrito c. 1704, publicado en 1765",
+        "deQueVa": "Un diálogo en el que responde punto por punto a John Locke."
+      },
+      {
+        "titulo": "Teodicea",
+        "anio": "1710",
+        "deQueVa": "Cómo puede existir el mal si Dios es bueno y todopoderoso."
+      },
+      {
+        "titulo": "Monadología",
+        "anio": "1714",
+        "deQueVa": "En 90 párrafos cortos explica de qué está hecha la realidad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Theodicy (Teodicea, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/17147",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "immanuel-kant",
+      "emilie-du-chatelet",
+      "moses-mendelssohn"
+    ]
+  },
+  {
+    "id": "nicolas-malebranche",
+    "nombre": "Nicolas Malebranche",
+    "fechas": "1638 – 1715",
+    "region": "Francia",
+    "escuela": "Cartesianismo (ocasionalismo)",
+    "categorias": [
+      "metafisica",
+      "religion",
+      "mente"
+    ],
+    "conocidoPor": "Decir que solo Dios causa de verdad las cosas y que vemos todas las cosas en Dios",
+    "resumen": "Malebranche fue un sacerdote francés que intentó unir las ideas de Descartes con la fe cristiana. Para resolver cómo una mente puede mover un cuerpo, propuso una solución radical: en realidad, quien lo hace todo es Dios. Esta idea, el [[ocasionalismo]], parece extraña, pero hizo pensar mucho a filósofos posteriores sobre qué significa que una cosa cause otra.",
+    "ideas": [
+      "Cuando decides levantar el brazo, tu decisión no lo mueve: es la ocasión para que Dios lo mueva.",
+      "Las cosas no se causan unas a otras de verdad: cuando una bola de billar golpea a otra, solo vemos que una cosa sigue a la otra.",
+      "No conocemos las cosas directamente, sino a través de las ideas que están en Dios, como si viéramos el mundo en un espejo divino."
+    ],
+    "curiosidad": "Según sus primeros biógrafos, al leer un libro de Descartes sobre el cuerpo humano se emocionó tanto que el corazón le latía con fuerza y tenía que parar de leer. Ahí decidió dedicarse a la filosofía.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La búsqueda de la verdad",
+        "anio": "1674–1675",
+        "deQueVa": "Las causas de nuestros errores y cómo evitarlos."
+      },
+      {
+        "titulo": "Tratado de la naturaleza y de la gracia",
+        "anio": "1680",
+        "deQueVa": "Cómo actúa Dios en el mundo siguiendo leyes generales."
+      },
+      {
+        "titulo": "Conversaciones sobre la metafísica y la religión",
+        "anio": "1688",
+        "deQueVa": "Diálogos que explican su filosofía de forma más sencilla."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "george-berkeley",
+      "david-hume"
+    ]
+  },
+  {
+    "id": "margaret-cavendish",
+    "nombre": "Margaret Cavendish",
+    "fechas": "1623 – 1673",
+    "region": "Inglaterra",
+    "escuela": "Filosofía natural (materialismo vitalista)",
+    "categorias": [
+      "ciencia",
+      "metafisica",
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir filosofía y una de las primeras novelas de ciencia ficción cuando a las mujeres no se las tomaba en serio",
+    "resumen": "Margaret Cavendish fue una duquesa inglesa que publicó muchos libros con su propio nombre, algo casi impensable para una mujer de su tiempo. Escribió sobre la naturaleza, discutió por carta con los grandes filósofos y criticó a los científicos que lo fiaban todo al microscopio. Su novela «El mundo resplandeciente» es una de las primeras obras de ciencia ficción.",
+    "ideas": [
+      "Toda la materia está viva y de algún modo siente y percibe, de la piedra a la planta; no hay materia muerta.",
+      "Los instrumentos como el microscopio pueden engañarnos, porque deforman lo que miran; no hay que fiarse ciegamente de ellos.",
+      "Las mujeres son tan capaces de pensar como los hombres; si parecen saber menos es porque no las dejan estudiar."
+    ],
+    "curiosidad": "En 1667 fue la primera mujer invitada a asistir a una reunión de la Royal Society, la gran academia científica de Londres.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Opiniones filosóficas y físicas",
+        "anio": "1655",
+        "deQueVa": "Su visión de una naturaleza hecha de materia viva."
+      },
+      {
+        "titulo": "Cartas filosóficas",
+        "anio": "1664",
+        "deQueVa": "Cartas en las que discute las ideas de Hobbes, Descartes y otros."
+      },
+      {
+        "titulo": "Observaciones sobre la filosofía experimental",
+        "anio": "1666",
+        "deQueVa": "Una crítica a la confianza ciega en los experimentos y el microscopio."
+      },
+      {
+        "titulo": "El mundo resplandeciente",
+        "anio": "1666",
+        "deQueVa": "Una mujer llega a otro mundo, lleno de seres extraños, y se convierte en su emperatriz."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Blazing World (El mundo resplandeciente, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/51783",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Philosophical Letters (Cartas filosóficas, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/53679",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "anne-conway",
+    "nombre": "Anne Conway",
+    "fechas": "1631 – 1679",
+    "region": "Inglaterra",
+    "escuela": "Platonismo de Cambridge",
+    "categorias": [
+      "metafisica",
+      "religion"
+    ],
+    "conocidoPor": "Defender que no existe la materia muerta: todo es vida y espíritu en distintos grados",
+    "resumen": "Anne Conway fue una filósofa inglesa que aprendió sobre todo por su cuenta y por carta con el filósofo Henry More. Escribió un único libro, publicado sin su nombre después de su muerte, en el que discutía con Descartes, Hobbes y Spinoza. Leibniz lo leyó y la elogió, y hoy se la considera una de las mentes más originales de su siglo.",
+    "ideas": [
+      "Mente y materia no son dos cosas opuestas, como decía el [[dualismo]], sino la misma cosa en distintos grados, como el hielo y el agua.",
+      "Todos los seres pueden cambiar y mejorar con el tiempo, incluso los animales.",
+      "El sufrimiento puede servir para purificarnos y hacernos mejores, no es un castigo sin sentido."
+    ],
+    "curiosidad": "Sufrió dolores de cabeza terribles durante casi toda su vida. Consultó a los mejores médicos de su época, pero ninguno logró curarla.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Principios de la filosofía más antigua y moderna",
+        "anio": "1690 (póstumo)",
+        "deQueVa": "Su visión de un mundo donde todo es vida y puede ir a mejor."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "gottfried-wilhelm-leibniz"
+    ]
+  },
+  {
+    "id": "elisabeth-of-the-palatinate",
+    "nombre": "Isabel de Bohemia",
+    "fechas": "1618 – 1680",
+    "region": "Alemania (Palatinado) y Países Bajos",
+    "escuela": "Cartesianismo (crítica)",
+    "categorias": [
+      "mente",
+      "etica"
+    ],
+    "conocidoPor": "Poner contra las cuerdas a Descartes preguntándole cómo una mente sin cuerpo puede mover el cuerpo",
+    "resumen": "Isabel fue una princesa alemana que vivió exiliada en los Países Bajos con su familia. Entre 1643 y 1649 se escribió con Descartes y le hizo la pregunta más difícil a su teoría: si la mente no ocupa espacio, ¿cómo empuja al cuerpo? Descartes le dedicó uno de sus libros y, gracias a sus cartas, escribió sobre las emociones.",
+    "ideas": [
+      "Si la mente es algo sin cuerpo, no se entiende cómo puede mover un brazo; es el gran problema del [[dualismo]].",
+      "Las emociones y la salud del cuerpo afectan a la forma de pensar: con fiebre o con un disgusto no razonamos igual.",
+      "Para vivir bien no basta con saber qué es lo correcto; también hay que lidiar con las circunstancias y las pasiones."
+    ],
+    "curiosidad": "Acabó siendo abadesa de un convento protestante en Herford (Alemania), donde acogió a grupos religiosos perseguidos.",
+    "frase": {
+      "texto": "¿Cómo puede el alma del hombre, siendo solo una sustancia pensante, determinar a los espíritus del cuerpo para que realicen acciones voluntarias?",
+      "fuente": "Carta a Descartes, mayo de 1643"
+    },
+    "obras": [
+      {
+        "titulo": "Correspondencia con Descartes",
+        "anio": "1643–1649",
+        "deQueVa": "Unas sesenta cartas sobre la mente, el cuerpo, las emociones y la felicidad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "rene-descartes"
+    ]
+  },
+  {
+    "id": "juana-ines-de-la-cruz",
+    "nombre": "Sor Juana Inés de la Cruz",
+    "fechas": "1648 – 1695",
+    "region": "México (Nueva España)",
+    "escuela": "Barroco novohispano",
+    "categorias": [
+      "sociedad",
+      "conocimiento",
+      "religion",
+      "estetica"
+    ],
+    "conocidoPor": "Defender el derecho de las mujeres a estudiar y pensar, siendo monja en el México del siglo XVII",
+    "resumen": "Sor Juana fue una niña prodigio que aprendió a leer a los tres años y acabó siendo la escritora más brillante de la América colonial. Se hizo monja porque era la única forma de poder estudiar con libertad, y reunió en su celda una gran biblioteca. Cuando un obispo le pidió que dejara los temas profanos, respondió con una defensa apasionada del derecho de las mujeres al saber.",
+    "ideas": [
+      "Las mujeres tienen el mismo derecho y la misma capacidad que los hombres para estudiar.",
+      "Se puede aprender de todo, hasta de la cocina: observando cómo se fríe un huevo se descubren secretos de la naturaleza.",
+      "El deseo de conocer es como un sueño en el que el alma intenta abarcar todo el universo, aunque nunca lo logra del todo."
+    ],
+    "curiosidad": "De niña se cortaba el pelo y se ponía como plazo aprender algo antes de que volviera a crecer; si no lo conseguía, se lo volvía a cortar como castigo.",
+    "frase": {
+      "texto": "Si Aristóteles hubiera guisado, mucho más hubiera escrito.",
+      "fuente": "Respuesta a sor Filotea de la Cruz (1691)"
+    },
+    "obras": [
+      {
+        "titulo": "Los empeños de una casa",
+        "anio": "1683",
+        "deQueVa": "Una comedia de enredos amorosos."
+      },
+      {
+        "titulo": "El divino Narciso",
+        "anio": "1689",
+        "deQueVa": "Obra de teatro religioso que mezcla mito griego, cristianismo y culturas indígenas."
+      },
+      {
+        "titulo": "Respuesta a sor Filotea de la Cruz",
+        "anio": "1691",
+        "deQueVa": "Carta autobiográfica en defensa del derecho de las mujeres a estudiar."
+      },
+      {
+        "titulo": "Primero sueño",
+        "anio": "1692",
+        "deQueVa": "Largo poema sobre el alma que, mientras el cuerpo duerme, intenta conocerlo todo."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Primero sueño, texto completo en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Primero_sue%C3%B1o",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Obras selectas de sor Juana Inés de la Cruz, en español, Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/74087",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "pierre-bayle",
+    "nombre": "Pierre Bayle",
+    "fechas": "1647 – 1706",
+    "region": "Francia y Países Bajos",
+    "escuela": "Escepticismo",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "politica"
+    ],
+    "conocidoPor": "Defender la tolerancia religiosa y escribir un diccionario crítico que leyó toda la Ilustración",
+    "resumen": "Pierre Bayle era un protestante francés que tuvo que exiliarse en Róterdam por su religión. Desde allí defendió que nadie debe ser perseguido por sus creencias, ni siquiera los ateos. Su «Diccionario histórico y crítico», lleno de dudas y preguntas incómodas, fue uno de los libros más leídos del siglo XVIII y preparó el camino a la [[ilustración|ilustracion]].",
+    "ideas": [
+      "Un cometa no anuncia desgracias: es un fenómeno natural, y creer lo contrario solo porque mucha gente lo cree no lo hace verdad.",
+      "Una sociedad de ateos podría ser tan honrada como una de creyentes, porque la moral no depende solo de la religión.",
+      "Obligar a alguien a cambiar de fe por la fuerza es injusto, aunque creas que tú tienes la verdad."
+    ],
+    "curiosidad": "En su «Diccionario» los artículos son breves, pero las notas a pie de página son enormes: allí escondía sus ideas más atrevidas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pensamientos diversos sobre el cometa",
+        "anio": "1682",
+        "deQueVa": "A partir del cometa de 1680, desmonta supersticiones y prejuicios."
+      },
+      {
+        "titulo": "Comentario filosófico",
+        "anio": "1686",
+        "deQueVa": "Una defensa de la tolerancia religiosa."
+      },
+      {
+        "titulo": "Diccionario histórico y crítico",
+        "anio": "1697",
+        "deQueVa": "Una enciclopedia de personajes llena de notas que lo ponen todo en duda."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "voltaire",
+      "david-hume",
+      "denis-diderot"
+    ]
+  },
+  {
+    "id": "mary-astell",
+    "nombre": "Mary Astell",
+    "fechas": "1666 – 1731",
+    "region": "Inglaterra",
+    "escuela": "Feminismo temprano",
+    "categorias": [
+      "sociedad",
+      "religion",
+      "politica"
+    ],
+    "conocidoPor": "Preguntar por qué, si los hombres nacen libres, las mujeres nacen esclavas",
+    "resumen": "Mary Astell fue una escritora inglesa considerada una de las primeras feministas. Propuso crear una especie de universidad para mujeres y criticó con dureza un matrimonio en el que la esposa quedaba sometida al marido. Lo curioso es que en política era muy conservadora, pero usaba los argumentos de los defensores de la libertad para dejar al descubierto sus contradicciones.",
+    "ideas": [
+      "Las mujeres tienen la misma [[razón|razon]] que los hombres; lo que les falta no es inteligencia, sino educación.",
+      "Hacen falta lugares donde las mujeres puedan estudiar y pensar en serio, como una universidad para ellas.",
+      "Es incoherente rechazar la tiranía de los reyes y aceptarla dentro de casa, en el matrimonio."
+    ],
+    "curiosidad": "Nunca se casó y vivió de su escritura y del apoyo de un grupo de amigas aristócratas, con las que fundó una escuela para niñas pobres en Chelsea (Londres).",
+    "frase": {
+      "texto": "Si todos los hombres nacen libres, ¿cómo es que todas las mujeres nacen esclavas?",
+      "fuente": "Algunas reflexiones sobre el matrimonio, prefacio de la edición de 1706"
+    },
+    "obras": [
+      {
+        "titulo": "Una propuesta seria a las damas",
+        "anio": "1694 (segunda parte, 1697)",
+        "deQueVa": "Plan para crear un centro donde las mujeres puedan dedicarse al estudio."
+      },
+      {
+        "titulo": "Algunas reflexiones sobre el matrimonio",
+        "anio": "1700",
+        "deQueVa": "Crítica de un matrimonio en el que la mujer queda sometida."
+      },
+      {
+        "titulo": "La religión cristiana, tal como la profesa una hija de la Iglesia de Inglaterra",
+        "anio": "1705",
+        "deQueVa": "Sus ideas religiosas y filosóficas, con críticas a John Locke."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "A Serious Proposal to the Ladies (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/54984",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "george-berkeley",
+    "nombre": "George Berkeley",
+    "fechas": "1685 – 1753",
+    "region": "Irlanda",
+    "escuela": "Idealismo (inmaterialismo)",
+    "categorias": [
+      "metafisica",
+      "conocimiento",
+      "religion"
+    ],
+    "conocidoPor": "Decir que «ser es ser percibido»: las cosas existen porque alguien las percibe",
+    "resumen": "George Berkeley fue un obispo irlandés que defendió una idea que suena a locura y es muy difícil de rebatir: no existe la materia como algo aparte de lo que percibimos. Una manzana es su color, su olor, su sabor y su tacto; si quitas todo eso, no queda nada. Para él, el mundo sigue ahí cuando no lo miramos porque Dios lo percibe siempre.",
+    "ideas": [
+      "Solo conocemos nuestras percepciones: colores, sonidos, sabores. Decir que detrás hay «materia» es añadir algo que nadie ha visto nunca.",
+      "Existir es ser percibido o percibir; por eso se le suele asociar la famosa pregunta de si hace ruido un árbol que cae en un bosque sin nadie.",
+      "Dios es quien mantiene el mundo en marcha percibiéndolo siempre, como una cámara que nunca se apaga."
+    ],
+    "curiosidad": "La ciudad de Berkeley, en California, donde está una de las universidades más famosas del mundo, lleva su nombre en su honor.",
+    "frase": {
+      "texto": "Su ser es ser percibido (esse est percipi).",
+      "fuente": "Tratado sobre los principios del conocimiento humano (1710), §3"
+    },
+    "obras": [
+      {
+        "titulo": "Ensayo sobre una nueva teoría de la visión",
+        "anio": "1709",
+        "deQueVa": "Cómo aprendemos a ver distancias y tamaños combinando vista y tacto."
+      },
+      {
+        "titulo": "Tratado sobre los principios del conocimiento humano",
+        "anio": "1710",
+        "deQueVa": "Su argumento de que no existe la materia fuera de la mente."
+      },
+      {
+        "titulo": "Tres diálogos entre Hilas y Filonús",
+        "anio": "1713",
+        "deQueVa": "La misma idea explicada de forma más amena, en forma de conversación."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Three Dialogues Between Hylas and Philonous (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/4724",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "A Treatise Concerning the Principles of Human Knowledge (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/4723",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "david-hume"
+    ]
+  },
+  {
+    "id": "giambattista-vico",
+    "nombre": "Giambattista Vico",
+    "fechas": "1668 – 1744",
+    "region": "Italia",
+    "escuela": "Filosofía de la historia",
+    "categorias": [
+      "sociedad",
+      "conocimiento",
+      "lenguaje"
+    ],
+    "conocidoPor": "Decir que los humanos entendemos mejor la historia que la naturaleza, porque la historia la hemos hecho nosotros",
+    "resumen": "Giambattista Vico fue un profesor de [[retórica|retorica]] de Nápoles, pobre y poco reconocido en vida. En su «Ciencia nueva» propuso estudiar la historia de los pueblos a través de sus mitos, su lengua y sus leyes, y descubrir en ella unas etapas que se repiten. Hoy se le ve como un pionero de la historia de la cultura y de las ciencias sociales.",
+    "ideas": [
+      "Solo conocemos de verdad lo que hemos hecho, como un relojero conoce su reloj; por eso podemos entender la historia humana mejor que la naturaleza.",
+      "Las sociedades pasan por tres edades: la de los dioses, la de los héroes y la de los hombres.",
+      "Los mitos y leyendas antiguas no son mentiras tontas: son la forma en que los primeros pueblos explicaban su mundo."
+    ],
+    "curiosidad": "Con siete años se cayó de una escalera y se abrió la cabeza. Los médicos pensaban que moriría o quedaría con daños, pero se recuperó; lo cuenta él mismo en su autobiografía.",
+    "frase": {
+      "texto": "Lo verdadero es lo mismo que lo hecho.",
+      "fuente": "Sobre la antiquísima sabiduría de los italianos (1710), en latín «verum esse ipsum factum»"
+    },
+    "obras": [
+      {
+        "titulo": "Sobre el método de los estudios de nuestro tiempo",
+        "anio": "1709",
+        "deQueVa": "Critica una enseñanza basada solo en la lógica y olvida la imaginación."
+      },
+      {
+        "titulo": "Sobre la antiquísima sabiduría de los italianos",
+        "anio": "1710",
+        "deQueVa": "Donde formula su idea de que lo verdadero es lo hecho."
+      },
+      {
+        "titulo": "Ciencia nueva",
+        "anio": "1725 (versiones de 1730 y 1744)",
+        "deQueVa": "Las leyes que siguen las naciones a lo largo de la historia."
+      },
+      {
+        "titulo": "Autobiografía",
+        "anio": "1728",
+        "deQueVa": "Su vida y cómo llegó a sus ideas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "isaiah-berlin"
+    ]
+  },
+  {
+    "id": "montesquieu",
+    "nombre": "Montesquieu",
+    "fechas": "1689 – 1755",
+    "region": "Francia",
+    "escuela": "Ilustración",
+    "categorias": [
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Proponer la [[separación de poderes|separacion-de-poderes]]: el que hace las leyes, el que gobierna y el que juzga deben ser distintos",
+    "resumen": "Charles-Louis de Secondat, barón de Montesquieu, fue un noble y juez francés de la [[ilustración|ilustracion]]. En «El espíritu de las leyes» comparó cómo se gobiernan los distintos países y llegó a una idea clave: para que haya libertad, el poder no puede estar todo en las mismas manos. Su propuesta de dividirlo en tres está en la base de casi todas las constituciones democráticas.",
+    "ideas": [
+      "Quien hace las leyes, quien las aplica y quien juzga deben ser personas distintas, para que se vigilen unos a otros, como en un partido con varios árbitros.",
+      "Cada país tiene leyes que encajan con su clima, sus costumbres y su historia; no hay una receta única para todos.",
+      "Mirar tu sociedad con ojos de extranjero ayuda a ver lo absurdo de muchas costumbres, como hizo en sus «Cartas persas»."
+    ],
+    "curiosidad": "La Iglesia católica incluyó «El espíritu de las leyes» en su lista de libros prohibidos en 1751. Además era productor de vino en sus tierras de Burdeos.",
+    "frase": {
+      "texto": "Para que no se pueda abusar del poder es preciso que, por la disposición de las cosas, el poder frene al poder.",
+      "fuente": "El espíritu de las leyes (1748), libro XI, capítulo 4"
+    },
+    "obras": [
+      {
+        "titulo": "Cartas persas",
+        "anio": "1721",
+        "deQueVa": "Dos viajeros persas cuentan con humor lo raros que les parecen los franceses."
+      },
+      {
+        "titulo": "Consideraciones sobre las causas de la grandeza de los romanos y de su decadencia",
+        "anio": "1734",
+        "deQueVa": "Por qué Roma llegó tan alto y por qué cayó."
+      },
+      {
+        "titulo": "El espíritu de las leyes",
+        "anio": "1748",
+        "deQueVa": "Compara los gobiernos del mundo y propone dividir el poder en tres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "De l'esprit des lois (El espíritu de las leyes, en francés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/27573",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "jean-jacques-rousseau",
+      "cesare-beccaria",
+      "alexis-de-tocqueville"
+    ]
+  },
+  {
+    "id": "voltaire",
+    "nombre": "Voltaire",
+    "fechas": "1694 – 1778",
+    "region": "Francia",
+    "escuela": "Ilustración",
+    "categorias": [
+      "religion",
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Luchar con humor contra el fanatismo religioso y defender la tolerancia",
+    "resumen": "Voltaire, cuyo nombre real era François-Marie Arouet, fue el escritor más famoso de la [[ilustración|ilustracion]] francesa. Estuvo en la cárcel y en el exilio por sus críticas, y usó la ironía como arma contra la intolerancia, la censura y los abusos de la Iglesia y del poder. En su novela «Cándido» se ríe del optimismo de quienes dicen que todo pasa por algo bueno.",
+    "ideas": [
+      "Nadie debe ser perseguido por su religión; defendió públicamente a Jean Calas, un protestante ejecutado injustamente en 1762.",
+      "Decir que vivimos en el mejor de los mundos posibles, como Leibniz, es absurdo ante desgracias como el terremoto de Lisboa de 1755.",
+      "Más que grandes teorías, hay que «cultivar nuestro jardín»: trabajar y mejorar lo que tenemos cerca."
+    ],
+    "curiosidad": "La frase «No estoy de acuerdo con lo que dices, pero defenderé hasta la muerte tu derecho a decirlo» no es suya: la escribió en 1906 su biógrafa Evelyn Beatrice Hall para resumir su actitud.",
+    "frase": {
+      "texto": "Hay que cultivar nuestro jardín.",
+      "fuente": "Cándido, o el optimismo (1759), capítulo 30"
+    },
+    "obras": [
+      {
+        "titulo": "Cartas filosóficas",
+        "anio": "1734",
+        "deQueVa": "Elogia la libertad y la ciencia inglesas para criticar a Francia."
+      },
+      {
+        "titulo": "Zadig, o el destino",
+        "anio": "1747",
+        "deQueVa": "Cuento oriental sobre un sabio al que la vida no deja de ponerle a prueba."
+      },
+      {
+        "titulo": "Cándido, o el optimismo",
+        "anio": "1759",
+        "deQueVa": "Un joven ingenuo sufre todo tipo de desgracias mientras su maestro insiste en que todo va bien."
+      },
+      {
+        "titulo": "Tratado sobre la tolerancia",
+        "anio": "1763",
+        "deQueVa": "Escrito a raíz del caso Calas, contra el fanatismo religioso."
+      },
+      {
+        "titulo": "Diccionario filosófico",
+        "anio": "1764",
+        "deQueVa": "Artículos breves y mordaces sobre religión, moral y política."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Cándido, o el optimismo, en español, Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/7109",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "marquis-de-condorcet"
+    ]
+  },
+  {
+    "id": "david-hume",
+    "nombre": "David Hume",
+    "fechas": "1711 – 1776",
+    "region": "Escocia",
+    "escuela": "Empirismo (Ilustración escocesa)",
+    "categorias": [
+      "conocimiento",
+      "etica",
+      "religion",
+      "mente"
+    ],
+    "conocidoPor": "Demostrar que no podemos estar seguros de que el sol saldrá mañana, solo acostumbrados a que salga",
+    "resumen": "David Hume fue un filósofo e historiador escocés, amable y sociable, que llevó el [[empirismo]] hasta el final. Si todo lo que sabemos viene de la experiencia, muchas cosas que damos por seguras, como que una causa siempre produce el mismo efecto, son en realidad costumbres de nuestra mente. Sus dudas despertaron a Kant y siguen siendo un reto para la ciencia y la filosofía.",
+    "ideas": [
+      "Nunca vemos la [[causalidad]] en sí: solo vemos que una cosa sigue a otra muchas veces y la mente se acostumbra a esperarlo, como cuando esperas que suene el timbre al pulsarlo.",
+      "Por mucho que algo haya pasado siempre, eso no garantiza que vuelva a pasar; es el [[problema de la inducción|problema-de-la-induccion]].",
+      "La [[razón|razon]] no nos mueve a actuar: son las emociones las que deciden, y la razón solo busca el camino; además, de cómo son las cosas no se deduce cómo deberían ser."
+    ],
+    "curiosidad": "Su primer gran libro, el «Tratado de la naturaleza humana», pasó casi desapercibido. Él mismo escribió que «nació muerto de la imprenta».",
+    "frase": {
+      "texto": "La razón es, y solo debe ser, esclava de las pasiones.",
+      "fuente": "Tratado de la naturaleza humana (1739–1740), libro II, parte 3, sección 3"
+    },
+    "obras": [
+      {
+        "titulo": "Tratado de la naturaleza humana",
+        "anio": "1739–1740",
+        "deQueVa": "Cómo funciona la mente humana: ideas, emociones y moral."
+      },
+      {
+        "titulo": "Investigación sobre el entendimiento humano",
+        "anio": "1748",
+        "deQueVa": "Versión más clara de sus dudas sobre la causa y el efecto."
+      },
+      {
+        "titulo": "Investigación sobre los principios de la moral",
+        "anio": "1751",
+        "deQueVa": "La moral nace de los sentimientos y de la utilidad, no de la pura razón."
+      },
+      {
+        "titulo": "Historia de Inglaterra",
+        "anio": "1754–1762",
+        "deQueVa": "Una historia en varios tomos que en su época le dio más fama que su filosofía."
+      },
+      {
+        "titulo": "Diálogos sobre la religión natural",
+        "anio": "1779 (póstumo)",
+        "deQueVa": "Tres personajes discuten si se puede demostrar que existe Dios."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "An Enquiry Concerning Human Understanding (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/9662",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "A Treatise of Human Nature (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/4705",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "immanuel-kant",
+      "adam-smith",
+      "thomas-reid",
+      "jeremy-bentham"
+    ]
+  },
+  {
+    "id": "jean-jacques-rousseau",
+    "nombre": "Jean-Jacques Rousseau",
+    "fechas": "1712 – 1778",
+    "region": "Suiza (Ginebra) y Francia",
+    "escuela": "Ilustración (contractualismo)",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Decir que el ser humano nace bueno y libre y que la sociedad lo encadena",
+    "resumen": "Rousseau nació en Ginebra, se formó casi solo y vivió una vida errante y polémica. Pensaba que el progreso y la propiedad habían hecho a la gente más desigual y menos feliz, y propuso una sociedad basada en un [[contrato social|contrato-social]] donde mande la voluntad común de todos. Sus ideas inspiraron la Revolución francesa, la pedagogía moderna y el amor romántico por la naturaleza.",
+    "ideas": [
+      "La desigualdad empezó cuando alguien cercó un terreno, dijo «esto es mío» y encontró gente lo bastante ingenua para creerle.",
+      "Un pueblo es libre cuando obedece leyes que él mismo se ha dado, siguiendo la [[voluntad general|voluntad-general]], que busca el bien común y no el interés de cada uno.",
+      "La educación debe respetar el ritmo del niño y dejarle aprender experimentando, no a base de memorizar."
+    ],
+    "curiosidad": "Escribió «Emilio», un libro famosísimo sobre cómo educar a un niño, pero él mismo entregó a sus cinco hijos a un orfanato, como reconoce en sus «Confesiones».",
+    "frase": {
+      "texto": "El hombre ha nacido libre y, sin embargo, vive en todas partes encadenado.",
+      "fuente": "El contrato social (1762), libro I, capítulo 1"
+    },
+    "obras": [
+      {
+        "titulo": "Discurso sobre las ciencias y las artes",
+        "anio": "1750",
+        "deQueVa": "Defiende que el progreso de las ciencias no nos ha hecho mejores personas."
+      },
+      {
+        "titulo": "Discurso sobre el origen de la desigualdad entre los hombres",
+        "anio": "1755",
+        "deQueVa": "Cómo pasamos de vivir libres en la naturaleza a una sociedad de ricos y pobres."
+      },
+      {
+        "titulo": "El contrato social",
+        "anio": "1762",
+        "deQueVa": "Cómo debe ser un Estado para que sus ciudadanos sigan siendo libres."
+      },
+      {
+        "titulo": "Emilio, o de la educación",
+        "anio": "1762",
+        "deQueVa": "La educación ideal de un niño, siguiendo su naturaleza."
+      },
+      {
+        "titulo": "Las confesiones",
+        "anio": "1782–1789 (póstumas)",
+        "deQueVa": "Su autobiografía, contada con una sinceridad nunca vista hasta entonces."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "El contrato social, ediciones en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/El_contrato_social",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Discourse on the Origin of Inequality (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/11136",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "immanuel-kant",
+      "mary-wollstonecraft",
+      "georg-wilhelm-friedrich-hegel"
+    ]
+  },
+  {
+    "id": "denis-diderot",
+    "nombre": "Denis Diderot",
+    "fechas": "1713 – 1784",
+    "region": "Francia",
+    "escuela": "Ilustración (materialismo)",
+    "categorias": [
+      "sociedad",
+      "ciencia",
+      "religion",
+      "estetica"
+    ],
+    "conocidoPor": "Dirigir la «Enciclopedia», el gran intento de reunir todo el saber humano al alcance de todos",
+    "resumen": "Denis Diderot fue escritor, filósofo y crítico de arte, y el gran motor de la [[ilustración|ilustracion]] francesa. Durante más de veinte años dirigió la «Enciclopedia», que explicaba desde filosofía hasta cómo se fabrica un alfiler, con la idea de que el saber hace a la gente más libre. La censura la prohibió varias veces, pero salió adelante y fue algo así como la Wikipedia de su época.",
+    "ideas": [
+      "El conocimiento debe estar al alcance de todos, también el de los oficios y las técnicas, no solo el de los sabios.",
+      "La naturaleza se explica por sí misma, sin necesidad de milagros; Diderot defendió un [[materialismo]] cada vez más claro.",
+      "Lo que consideramos normal en moral muchas veces es solo costumbre: otras culturas viven de otro modo y son igual de humanas."
+    ],
+    "curiosidad": "Necesitado de dinero para la dote de su hija, puso a la venta su biblioteca. La emperatriz Catalina II de Rusia se la compró, le dejó quedársela en vida y además le pagó un sueldo como su bibliotecario.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Carta sobre los ciegos",
+        "anio": "1749",
+        "deQueVa": "Cómo pensaría un ciego sobre el mundo y sobre Dios; le costó meses de cárcel."
+      },
+      {
+        "titulo": "Enciclopedia (con D'Alembert)",
+        "anio": "1751–1772",
+        "deQueVa": "Veintiocho volúmenes de textos y láminas con todo el saber de su tiempo."
+      },
+      {
+        "titulo": "El sobrino de Rameau",
+        "anio": "escrito c. 1761–1774",
+        "deQueVa": "Un diálogo divertido con un bohemio sin moral que pone en duda las buenas costumbres."
+      },
+      {
+        "titulo": "Jacques el fatalista",
+        "anio": "publicado en 1796",
+        "deQueVa": "Novela juguetona sobre si todo está escrito de antemano o somos libres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "La Encyclopédie de Diderot y D'Alembert, edición digital del proyecto ARTFL (Universidad de Chicago)",
+        "url": "https://encyclopedie.uchicago.edu/",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "etienne-bonnot-de-condillac",
+    "nombre": "Étienne Bonnot de Condillac",
+    "fechas": "1714 – 1780",
+    "region": "Francia",
+    "escuela": "Sensualismo (empirismo)",
+    "categorias": [
+      "conocimiento",
+      "mente",
+      "lenguaje"
+    ],
+    "conocidoPor": "Imaginar una estatua que va despertando sentido a sentido para explicar cómo nace la mente",
+    "resumen": "Condillac fue un sacerdote francés que llevó las ideas de Locke aún más lejos. Para él, todo lo que hay en nuestra mente, incluso la atención, la memoria y el juicio, nace de las sensaciones, una postura llamada [[sensualismo]]. También subrayó lo mucho que el lenguaje nos ayuda a pensar con orden.",
+    "ideas": [
+      "Imagina una estatua que solo puede oler: al olerle una rosa, toda su mente sería ese olor; añadiendo sentidos, iría construyendo todo lo demás.",
+      "Todas nuestras capacidades mentales son sensaciones transformadas: recordar, comparar o desear salen de lo que sentimos.",
+      "Pensar bien depende de hablar bien: una ciencia bien hecha es como un idioma bien construido."
+    ],
+    "curiosidad": "Fue durante años el profesor del joven príncipe Fernando de Parma, y para él escribió un curso de estudios en muchos volúmenes.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre el origen de los conocimientos humanos",
+        "anio": "1746",
+        "deQueVa": "Cómo pasamos de las sensaciones a las ideas, con ayuda del lenguaje."
+      },
+      {
+        "titulo": "Tratado de las sensaciones",
+        "anio": "1754",
+        "deQueVa": "El experimento mental de la estatua que va recibiendo los sentidos."
+      },
+      {
+        "titulo": "La lógica",
+        "anio": "1780",
+        "deQueVa": "Un manual para aprender a pensar con orden, escrito para escuelas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "baron-d-holbach",
+    "nombre": "Barón d'Holbach",
+    "fechas": "1723 – 1789",
+    "region": "Francia (nacido en Alemania)",
+    "escuela": "Materialismo ilustrado",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Defender sin rodeos que solo existe la materia y que no hace falta Dios para explicar el mundo",
+    "resumen": "Paul Henri Thiry, barón d'Holbach, fue un rico aristócrata de origen alemán instalado en París. En su casa organizaba cenas donde se reunían Diderot y otros pensadores de la [[ilustración|ilustracion]], y escribió cientos de artículos para la «Enciclopedia». Sus libros, publicados con nombres falsos, defendían abiertamente el [[ateísmo|ateismo]] y el [[materialismo]].",
+    "ideas": [
+      "Todo lo que existe es materia en movimiento que sigue leyes naturales, sin espíritus ni milagros.",
+      "Somos parte de la naturaleza y estamos determinados por ella, como una piedra que cae, aunque nos sintamos libres.",
+      "La religión nace del miedo y la ignorancia, y los poderosos la usan para mantener a la gente obediente."
+    ],
+    "curiosidad": "Publicó su obra principal, «Sistema de la naturaleza», con el nombre de Jean-Baptiste de Mirabaud, un escritor que llevaba diez años muerto.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El cristianismo al descubierto",
+        "anio": "c. 1766",
+        "deQueVa": "Una crítica frontal a la religión cristiana."
+      },
+      {
+        "titulo": "Sistema de la naturaleza",
+        "anio": "1770",
+        "deQueVa": "Explica el universo y al ser humano solo con materia y leyes naturales."
+      },
+      {
+        "titulo": "El buen sentido",
+        "anio": "1772",
+        "deQueVa": "Versión breve y sencilla de su crítica a la religión."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The System of Nature, vol. 1 (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/8909",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "adam-smith",
+    "nombre": "Adam Smith",
+    "fechas": "1723 – 1790",
+    "region": "Escocia",
+    "escuela": "Ilustración escocesa (liberalismo económico)",
+    "categorias": [
+      "sociedad",
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Explicar cómo funciona el mercado con la idea de la «[[mano invisible|mano-invisible]]» y fundar la economía moderna",
+    "resumen": "Adam Smith fue profesor de filosofía moral en Glasgow y es considerado el padre de la economía moderna. En «La riqueza de las naciones» explicó cómo el trabajo dividido en tareas y el comercio libre hacen prosperar a los países. Pero antes escribió un libro sobre moral en el que defendía que los seres humanos somos capaces de ponernos en el lugar de los demás.",
+    "ideas": [
+      "La [[división del trabajo|division-del-trabajo]] multiplica la producción: en una fábrica de alfileres, diez obreros con tareas distintas hacen muchísimos más que cada uno por su cuenta.",
+      "Cuando cada uno busca su propio interés en un mercado libre, a menudo acaba beneficiando a todos sin pretenderlo, como guiado por una [[mano invisible|mano-invisible]].",
+      "Juzgamos lo que está bien imaginando a un [[espectador imparcial|espectador-imparcial]], alguien neutral que mira nuestra conducta desde fuera."
+    ],
+    "curiosidad": "Poco antes de morir pidió a sus amigos que quemaran casi todos sus papeles sin publicar, y así lo hicieron.",
+    "frase": {
+      "texto": "No es de la benevolencia del carnicero, del cervecero o del panadero de donde esperamos nuestra cena, sino de su preocupación por su propio interés.",
+      "fuente": "La riqueza de las naciones (1776), libro I, capítulo 2"
+    },
+    "obras": [
+      {
+        "titulo": "Teoría de los sentimientos morales",
+        "anio": "1759",
+        "deQueVa": "Cómo la capacidad de ponernos en el lugar del otro funda la moral."
+      },
+      {
+        "titulo": "La riqueza de las naciones",
+        "anio": "1776",
+        "deQueVa": "De dónde sale la riqueza de un país y por qué conviene el comercio libre."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Wealth of Nations (La riqueza de las naciones, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3300",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "The Theory of Moral Sentiments (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/67363",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "karl-marx",
+      "john-stuart-mill"
+    ]
+  },
+  {
+    "id": "immanuel-kant",
+    "nombre": "Immanuel Kant",
+    "fechas": "1724 – 1804",
+    "region": "Alemania (Prusia)",
+    "escuela": "Idealismo trascendental (Ilustración)",
+    "categorias": [
+      "conocimiento",
+      "etica",
+      "metafisica",
+      "estetica"
+    ],
+    "conocidoPor": "Preguntarse qué podemos saber y qué debemos hacer, y animar a pensar por uno mismo: «¡Atrévete a saber!»",
+    "resumen": "Kant fue un profesor de Königsberg que cambió la filosofía para siempre. Explicó que nuestra mente no es un espejo pasivo: organiza todo lo que percibimos, como unas gafas que nunca nos podemos quitar. En moral propuso una regla sencilla y exigente, el [[imperativo categórico|imperativo-categorico]], y defendió la dignidad de toda persona y la paz entre los países.",
+    "ideas": [
+      "Solo conocemos las cosas tal como se nos aparecen a través de nuestra mente, el [[fenómeno|fenomeno]], nunca como son en sí mismas.",
+      "Actúa de forma que pudieras querer que todo el mundo hiciera lo mismo: si mientes cuando te conviene, imagina un mundo donde todos mienten.",
+      "Trata siempre a las personas como fines y nunca solo como medios: nadie es una herramienta para conseguir lo que quieres."
+    ],
+    "curiosidad": "Casi nunca salió de su ciudad, Königsberg (hoy Kaliningrado, en Rusia), y aun así dio clases de geografía de todo el mundo durante décadas.",
+    "frase": {
+      "texto": "¡Sapere aude! ¡Ten el valor de servirte de tu propio entendimiento!",
+      "fuente": "Respuesta a la pregunta: ¿Qué es la Ilustración? (1784)"
+    },
+    "obras": [
+      {
+        "titulo": "Crítica de la razón pura",
+        "anio": "1781",
+        "deQueVa": "Qué podemos conocer y dónde están los límites de la razón."
+      },
+      {
+        "titulo": "Respuesta a la pregunta: ¿Qué es la Ilustración?",
+        "anio": "1784",
+        "deQueVa": "Un artículo breve que anima a pensar por uno mismo sin tutores."
+      },
+      {
+        "titulo": "Fundamentación de la metafísica de las costumbres",
+        "anio": "1785",
+        "deQueVa": "La base de su ética: actuar por deber y respetar a toda persona."
+      },
+      {
+        "titulo": "Crítica del juicio",
+        "anio": "1790",
+        "deQueVa": "Qué es la belleza y por qué la naturaleza parece hecha con un propósito."
+      },
+      {
+        "titulo": "Sobre la paz perpetua",
+        "anio": "1795",
+        "deQueVa": "Un plan para que los países dejen de hacerse la guerra."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Beantwortung der Frage: Was ist Aufklärung? (¿Qué es la Ilustración?, en alemán), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/30821",
+        "tipo": "articulo"
+      },
+      {
+        "titulo": "Perpetual Peace (Sobre la paz perpetua, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/50922",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "johann-gottlieb-fichte",
+      "friedrich-wilhelm-joseph-schelling",
+      "georg-wilhelm-friedrich-hegel",
+      "arthur-schopenhauer",
+      "john-rawls"
+    ]
+  },
+  {
+    "id": "cesare-beccaria",
+    "nombre": "Cesare Beccaria",
+    "fechas": "1738 – 1794",
+    "region": "Italia",
+    "escuela": "Ilustración",
+    "categorias": [
+      "politica",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir el libro que pidió acabar con la tortura y la pena de muerte",
+    "resumen": "Cesare Beccaria fue un joven noble de Milán que con 26 años publicó un libro breve que cambió la justicia de medio mundo: «De los delitos y de las penas». En una época en que se torturaba a los acusados y se ejecutaba por casi cualquier cosa, defendió castigos proporcionados, claros e iguales para todos. Muchos códigos penales modernos beben de sus ideas.",
+    "ideas": [
+      "La tortura es cruel e inútil: hace confesar al débil aunque sea inocente y deja libre al fuerte aunque sea culpable.",
+      "La pena de muerte no es necesaria ni útil; disuade más un castigo seguro y duradero que uno terrible pero improbable.",
+      "Las leyes deben ser claras y públicas, y el castigo proporcionado al daño causado, igual para un noble que para un campesino."
+    ],
+    "curiosidad": "Publicó su libro sin firmarlo, por miedo a la censura. Su nieto fue Alessandro Manzoni, el autor de «Los novios», la novela más famosa de Italia.",
+    "frase": {
+      "texto": "La máxima felicidad repartida entre el mayor número.",
+      "fuente": "De los delitos y de las penas (1764), introducción, como objetivo de las buenas leyes"
+    },
+    "obras": [
+      {
+        "titulo": "De los delitos y de las penas",
+        "anio": "1764",
+        "deQueVa": "Contra la tortura y la pena de muerte, y a favor de leyes claras y castigos justos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jeremy-bentham"
+    ]
+  },
+  {
+    "id": "thomas-reid",
+    "nombre": "Thomas Reid",
+    "fechas": "1710 – 1796",
+    "region": "Escocia",
+    "escuela": "Filosofía del sentido común (Ilustración escocesa)",
+    "categorias": [
+      "conocimiento",
+      "mente"
+    ],
+    "conocidoPor": "Responder a las dudas de Hume defendiendo el [[sentido común|sentido-comun]]",
+    "resumen": "Thomas Reid fue un pastor y profesor escocés que leyó a Hume y se negó a aceptar sus conclusiones. Si la filosofía nos lleva a dudar de que existe el mundo, pensaba, es que algo falla en la filosofía, no en el mundo. Defendió que hay creencias básicas, como que existen las cosas que vemos, que todos compartimos y que no hace falta demostrar.",
+    "ideas": [
+      "Percibimos directamente las cosas, no copias o imágenes de ellas en la mente: cuando ves una mesa, ves la mesa.",
+      "Hay principios del [[sentido común|sentido-comun]], como confiar en la memoria o en que el futuro se parecerá al pasado, sin los que ni siquiera podríamos vivir.",
+      "Si una teoría filosófica contradice lo que cualquier persona sensata sabe, lo razonable es sospechar de la teoría."
+    ],
+    "curiosidad": "En 1764 sustituyó a Adam Smith como profesor de filosofía moral en la Universidad de Glasgow.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Investigación sobre la mente humana según los principios del sentido común",
+        "anio": "1764",
+        "deQueVa": "Su respuesta a Hume, sentido por sentido."
+      },
+      {
+        "titulo": "Ensayos sobre las facultades intelectuales del hombre",
+        "anio": "1785",
+        "deQueVa": "Cómo percibimos, recordamos y razonamos."
+      },
+      {
+        "titulo": "Ensayos sobre las facultades activas del hombre",
+        "anio": "1788",
+        "deQueVa": "La voluntad, la libertad y la moral."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "charles-sanders-peirce"
+    ]
+  },
+  {
+    "id": "moses-mendelssohn",
+    "nombre": "Moses Mendelssohn",
+    "fechas": "1729 – 1786",
+    "region": "Alemania",
+    "escuela": "Ilustración judía (Haskalá)",
+    "categorias": [
+      "religion",
+      "politica",
+      "metafisica"
+    ],
+    "conocidoPor": "Ser el «Sócrates de Berlín» y defender la libertad religiosa y la integración de los judíos",
+    "resumen": "Moses Mendelssohn llegó a Berlín de adolescente, pobre y sin estudios oficiales, y acabó siendo uno de los filósofos más admirados de Alemania. Defendió que se puede ser judío practicante y ciudadano ilustrado a la vez, y fue el gran impulsor de la [[Haskalá|haskala]], la [[ilustración|ilustracion]] judía. Reclamó que el Estado no castigue a nadie por sus creencias.",
+    "ideas": [
+      "El Estado debe gobernar lo que hacemos, pero no lo que creemos: la fe no puede imponerse por ley.",
+      "La [[razón|razon]] puede demostrar que el alma es inmortal y que Dios existe, sin necesidad de milagros.",
+      "Los judíos deben participar en la cultura de su país sin renunciar a su religión; por eso tradujo la Torá al alemán."
+    ],
+    "curiosidad": "Su amigo Lessing se inspiró en él para crear a Natán el sabio. Además, fue el abuelo del compositor Felix Mendelssohn.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Fedón, o sobre la inmortalidad del alma",
+        "anio": "1767",
+        "deQueVa": "Reescribe un diálogo de Platón para defender que el alma no muere."
+      },
+      {
+        "titulo": "Jerusalén, o sobre el poder religioso y el judaísmo",
+        "anio": "1783",
+        "deQueVa": "Defiende la separación entre religión y Estado y la libertad de conciencia."
+      },
+      {
+        "titulo": "Horas matinales",
+        "anio": "1785",
+        "deQueVa": "Lecciones sobre la existencia de Dios dadas a su hijo y otros jóvenes."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "edmund-burke",
+    "nombre": "Edmund Burke",
+    "fechas": "1729 – 1797",
+    "region": "Irlanda y Gran Bretaña",
+    "escuela": "Conservadurismo",
+    "categorias": [
+      "politica",
+      "estetica",
+      "sociedad"
+    ],
+    "conocidoPor": "Criticar la Revolución francesa y convertirse en el padre del [[conservadurismo]] moderno",
+    "resumen": "Edmund Burke fue un político y escritor irlandés que pasó casi treinta años en el Parlamento británico. Cuando estalló la Revolución francesa advirtió de que destruir de golpe todas las instituciones acabaría en violencia, y el [[Terror|terror-revolucionario]] pareció darle la razón. Antes había escrito un libro muy influyente sobre la diferencia entre lo bello y lo [[sublime]].",
+    "ideas": [
+      "Las tradiciones y las instituciones guardan la experiencia de muchas generaciones; es mejor reformarlas poco a poco que derribarlas, como se arregla una casa vieja sin dinamitarla.",
+      "La sociedad es un pacto entre los vivos, los muertos y los que aún no han nacido.",
+      "Lo bello nos agrada y nos tranquiliza; lo [[sublime]], como una tormenta en el mar o un precipicio, nos asombra y nos asusta a la vez."
+    ],
+    "curiosidad": "La famosa frase «Para que triunfe el mal solo hace falta que los hombres buenos no hagan nada» se le atribuye a menudo, pero no aparece en ninguno de sus escritos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Indagación filosófica sobre el origen de nuestras ideas acerca de lo sublime y de lo bello",
+        "anio": "1757",
+        "deQueVa": "Por qué unas cosas nos parecen bellas y otras nos sobrecogen."
+      },
+      {
+        "titulo": "Reflexiones sobre la Revolución en Francia",
+        "anio": "1790",
+        "deQueVa": "Una advertencia contra las revoluciones que lo quieren cambiar todo de golpe."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "immanuel-kant"
+    ]
+  },
+  {
+    "id": "johann-gottfried-herder",
+    "nombre": "Johann Gottfried Herder",
+    "fechas": "1744 – 1803",
+    "region": "Alemania",
+    "escuela": "Historicismo (Sturm und Drang)",
+    "categorias": [
+      "lenguaje",
+      "sociedad",
+      "estetica"
+    ],
+    "conocidoPor": "Defender que cada pueblo tiene su propia lengua, cultura y manera de ver el mundo, todas valiosas",
+    "resumen": "Herder fue un pastor protestante, alumno de Kant y amigo de Goethe. Frente a quienes juzgaban todas las culturas con la vara de la Francia ilustrada, defendió que cada pueblo tiene su propio carácter, que se expresa sobre todo en su lengua, sus canciones y sus costumbres. Sus ideas están en el origen del estudio del folclore, de la historia de la cultura y también del [[nacionalismo]] cultural.",
+    "ideas": [
+      "El lenguaje no es un invento de Dios ni un simple código: nace de la propia forma humana de pensar y sentir.",
+      "Cada cultura tiene su valor y debe entenderse desde dentro, no compararse con la nuestra como si fuera la mejor.",
+      "Las canciones y cuentos populares son un tesoro que expresa el alma de un pueblo; por eso los recopiló."
+    ],
+    "curiosidad": "En 1770, en Estrasburgo, conoció a un joven Goethe y le descubrió a Shakespeare y la poesía popular, algo que marcó la literatura alemana.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Tratado sobre el origen del lenguaje",
+        "anio": "1772",
+        "deQueVa": "Premiado por la Academia de Berlín: cómo y por qué los humanos empezamos a hablar."
+      },
+      {
+        "titulo": "Otra filosofía de la historia",
+        "anio": "1774",
+        "deQueVa": "Critica la idea de que la historia es un camino recto hacia la Europa de su tiempo."
+      },
+      {
+        "titulo": "Canciones populares",
+        "anio": "1778–1779",
+        "deQueVa": "Recopilación de canciones tradicionales de muchos pueblos."
+      },
+      {
+        "titulo": "Ideas para una filosofía de la historia de la humanidad",
+        "anio": "1784–1791",
+        "deQueVa": "La historia humana como desarrollo de culturas distintas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "georg-wilhelm-friedrich-hegel",
+      "wilhelm-dilthey"
+    ]
+  },
+  {
+    "id": "emilie-du-chatelet",
+    "nombre": "Émilie du Châtelet",
+    "fechas": "1706 – 1749",
+    "region": "Francia",
+    "escuela": "Filosofía natural (newtonianismo y Leibniz)",
+    "categorias": [
+      "ciencia",
+      "metafisica"
+    ],
+    "conocidoPor": "Traducir y explicar a Newton en francés y defender el derecho de las mujeres a estudiar",
+    "resumen": "Émilie du Châtelet fue una aristócrata francesa apasionada por las matemáticas y la física, en una época en la que las mujeres no podían ir a la universidad. Escribió un libro que intentaba unir la física de Newton con la filosofía de Leibniz y tradujo al francés la gran obra de Newton. Vivió años con Voltaire en el castillo de Cirey, convertido en un laboratorio.",
+    "ideas": [
+      "La [[energía|energia]] de un objeto en movimiento crece con el cuadrado de su velocidad: si vas el doble de rápido, el golpe es cuatro veces mayor.",
+      "La física necesita bases filosóficas firmes, como el principio de [[razón suficiente|razon-suficiente]] de Leibniz: nada pasa porque sí.",
+      "La felicidad depende en buena parte de cultivar pasiones propias, y el estudio es una de las más duraderas."
+    ],
+    "curiosidad": "Su traducción comentada de los «Principia» de Newton, terminada poco antes de morir tras dar a luz, sigue siendo hoy la traducción francesa de referencia.",
+    "frase": {
+      "texto": "Si yo fuera rey, reformaría un abuso que deja fuera, por así decirlo, a la mitad del género humano: haría participar a las mujeres en todos los derechos de la humanidad, y sobre todo en los del espíritu.",
+      "fuente": "Prefacio a su traducción de «La fábula de las abejas» de Mandeville (c. 1735)"
+    },
+    "obras": [
+      {
+        "titulo": "Disertación sobre la naturaleza y la propagación del fuego",
+        "anio": "1739",
+        "deQueVa": "Un estudio sobre qué es el fuego, presentado a un concurso de la Academia de Ciencias."
+      },
+      {
+        "titulo": "Instituciones de física",
+        "anio": "1740",
+        "deQueVa": "Un manual que une la física de Newton con la filosofía de Leibniz."
+      },
+      {
+        "titulo": "Discurso sobre la felicidad",
+        "anio": "publicado en 1779",
+        "deQueVa": "Reflexiones personales sobre cómo ser feliz."
+      },
+      {
+        "titulo": "Principios matemáticos de la filosofía natural (traducción de Newton)",
+        "anio": "1759 (póstuma)",
+        "deQueVa": "La obra de Newton en francés, con sus propias explicaciones."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Dissertation sur la nature et la propagation du feu (en francés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/73279",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "gotthold-ephraim-lessing",
+    "nombre": "Gotthold Ephraim Lessing",
+    "fechas": "1729 – 1781",
+    "region": "Alemania",
+    "escuela": "Ilustración alemana",
+    "categorias": [
+      "religion",
+      "estetica",
+      "sociedad"
+    ],
+    "conocidoPor": "Defender la tolerancia entre religiones en su obra de teatro «Natán el sabio»",
+    "resumen": "Lessing fue dramaturgo, crítico y filósofo, una de las grandes voces de la [[ilustración|ilustracion]] alemana. En «Natán el sabio» un judío, un musulmán y un cristiano aprenden a respetarse, con la famosa parábola de los tres anillos. Pensaba que buscar la verdad con honradez vale más que creer tenerla ya.",
+    "ideas": [
+      "Ninguna religión puede demostrar que es la única verdadera; lo que cuenta es cómo vive cada uno, como en la parábola de los tres anillos idénticos.",
+      "La humanidad aprende poco a poco, como un niño que va creciendo, y las religiones son etapas de esa educación.",
+      "Pintura y poesía son artes distintas: la pintura muestra un instante, la poesía cuenta lo que pasa en el tiempo."
+    ],
+    "curiosidad": "El personaje de Natán está inspirado en su gran amigo, el filósofo judío Moses Mendelssohn.",
+    "frase": {
+      "texto": "Si Dios tuviera en su mano derecha toda la verdad, y en la izquierda solo el afán siempre vivo de buscarla, aun con la condición de equivocarme siempre, y me dijera «¡elige!», yo escogería con humildad su mano izquierda.",
+      "fuente": "Una réplica (Eine Duplik), 1778 (cita resumida)"
+    },
+    "obras": [
+      {
+        "titulo": "Laocoonte",
+        "anio": "1766",
+        "deQueVa": "En qué se diferencian la pintura y la poesía."
+      },
+      {
+        "titulo": "Emilia Galotti",
+        "anio": "1772",
+        "deQueVa": "Tragedia sobre el abuso de poder de un príncipe."
+      },
+      {
+        "titulo": "Natán el sabio",
+        "anio": "1779",
+        "deQueVa": "Obra de teatro sobre la tolerancia entre judíos, cristianos y musulmanes."
+      },
+      {
+        "titulo": "La educación del género humano",
+        "anio": "1780",
+        "deQueVa": "La historia de las religiones como un largo aprendizaje de la humanidad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Nathan the Wise (Natán el sabio, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3820",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "samuel-von-pufendorf",
+    "nombre": "Samuel Pufendorf",
+    "fechas": "1632 – 1694",
+    "region": "Alemania",
+    "escuela": "Iusnaturalismo (derecho natural)",
+    "categorias": [
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Explicar los deberes de las personas y los Estados a partir de que los humanos nos necesitamos unos a otros",
+    "resumen": "Samuel Pufendorf fue un jurista e historiador alemán que continuó la obra de Grocio y Hobbes sobre el [[derecho natural|derecho-natural]]. Su manual sobre los deberes del hombre y del ciudadano se estudió durante más de un siglo en las universidades de Europa y América. Fue de los primeros profesores dedicados expresamente a esta materia, en la Universidad de Heidelberg.",
+    "ideas": [
+      "Somos débiles por separado y necesitamos vivir juntos; de esa [[sociabilidad]] natural salen nuestras obligaciones.",
+      "Todas las personas tienen la misma dignidad y deben tratarse como iguales.",
+      "Los Estados nacen de acuerdos entre personas, no de la voluntad de Dios ni de la fuerza bruta."
+    ],
+    "curiosidad": "Durante una guerra entre Suecia y Dinamarca pasó ocho meses en la cárcel en Copenhague, y aprovechó para pensar de memoria su sistema de derecho natural.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Elementos de jurisprudencia universal",
+        "anio": "1660",
+        "deQueVa": "Su primer intento de ordenar el derecho natural como una ciencia."
+      },
+      {
+        "titulo": "Del derecho natural y de gentes",
+        "anio": "1672",
+        "deQueVa": "Su gran tratado sobre las normas que valen para todos los seres humanos."
+      },
+      {
+        "titulo": "De los deberes del hombre y del ciudadano",
+        "anio": "1673",
+        "deQueVa": "Un resumen breve que se usó como manual en muchas universidades."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "john-locke"
+    ]
+  },
+  {
+    "id": "tommaso-campanella",
+    "nombre": "Tommaso Campanella",
+    "fechas": "1568 – 1639",
+    "region": "Italia",
+    "escuela": "Filosofía renacentista (utopismo)",
+    "categorias": [
+      "politica",
+      "religion",
+      "ciencia"
+    ],
+    "conocidoPor": "Imaginar desde la cárcel «La ciudad del Sol», una sociedad ideal sin propiedad privada",
+    "resumen": "Tommaso Campanella fue un fraile dominico del sur de Italia, rebelde y valiente, que pasó unos 27 años en prisión. Lo acusaron de conspirar contra el dominio español en Calabria y de [[herejía|herejia]]. Entre rejas escribió «La ciudad del Sol», una [[utopía|utopia]] gobernada por sabios, y también defendió a Galileo cuando la Iglesia lo perseguía.",
+    "ideas": [
+      "En una sociedad justa todo se compartiría y todos trabajarían unas pocas horas al día, sin ricos ni pobres.",
+      "Los gobernantes deberían ser los más sabios, que conocen la naturaleza y las ciencias.",
+      "La ciencia no va contra la fe: estudiar la naturaleza, como hacía Galileo, es leer el libro escrito por Dios."
+    ],
+    "curiosidad": "Para librarse de la pena de muerte fingió estar loco y aguantó sin confesar una tortura de unas 36 horas seguidas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La ciudad del Sol",
+        "anio": "escrita en 1602, publicada en 1623",
+        "deQueVa": "Una ciudad ideal en la que todo es común y mandan los sabios."
+      },
+      {
+        "titulo": "Apología de Galileo",
+        "anio": "1622",
+        "deQueVa": "Defensa de la libertad de Galileo para investigar."
+      },
+      {
+        "titulo": "El ateísmo vencido",
+        "anio": "1631",
+        "deQueVa": "Argumentos contra el ateísmo y a favor de la religión natural."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The City of the Sun (La ciudad del Sol, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/2816",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "benito-jeronimo-feijoo",
+    "nombre": "Benito Jerónimo Feijoo",
+    "fechas": "1676 – 1764",
+    "region": "España",
+    "escuela": "Ilustración española",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "sociedad"
+    ],
+    "conocidoPor": "Combatir las supersticiones y los falsos milagros en la España del siglo XVIII",
+    "resumen": "Feijoo fue un monje benedictino gallego que pasó casi toda su vida adulta en Oviedo. Desde su celda escribió miles de páginas para desmontar errores comunes, supersticiones, curanderos y falsos milagros, y para acercar a los españoles la ciencia moderna. Fue un éxito de ventas y una de las figuras clave de la primera [[ilustración|ilustracion]] española.",
+    "ideas": [
+      "Que algo lo crea mucha gente no lo hace verdad: la «voz del pueblo» se equivoca a menudo.",
+      "Hay que fiarse de la experiencia y de los experimentos, no de remedios y creencias heredadas sin comprobar.",
+      "Las mujeres no son inferiores a los hombres en inteligencia; si lo parecen es por falta de educación."
+    ],
+    "curiosidad": "Sus críticas levantaron tantas polémicas que el rey Fernando VI prohibió en 1750 que se publicaran ataques contra sus obras.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Teatro crítico universal",
+        "anio": "1726–1740",
+        "deQueVa": "Ocho tomos de discursos contra errores comunes, de la astrología a los falsos milagros."
+      },
+      {
+        "titulo": "Cartas eruditas y curiosas",
+        "anio": "1742–1760",
+        "deQueVa": "Cinco tomos de cartas sobre ciencia, medicina, religión y costumbres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Teatro crítico universal, texto completo en español (Proyecto Filosofía en español)",
+        "url": "https://www.filosofia.org/bjf/bjft000.htm",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Teatro crítico universal, en español (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Teatro_cr%C3%ADtico_universal",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "bernard-mandeville",
+    "nombre": "Bernard Mandeville",
+    "fechas": "1670 – 1733",
+    "region": "Inglaterra (nacido en los Países Bajos)",
+    "escuela": "Moralismo satírico (pensamiento económico)",
+    "categorias": [
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Decir con «La fábula de las abejas» que los vicios privados pueden traer beneficios públicos",
+    "resumen": "Bernard Mandeville fue un médico holandés que se instaló en Londres y escribió en inglés. En un poema [[satírico|satira]] sobre una colmena contó que la sociedad prospera gracias al egoísmo, el lujo y la vanidad, y que si todos se volvieran virtuosos la economía se hundiría. Su provocación escandalizó a todos y abrió un debate que llega hasta la economía de hoy.",
+    "ideas": [
+      "El deseo de lujo y de presumir da trabajo a muchos: sin la vanidad de unos no habría modistas, joyeros ni comerciantes.",
+      "Muchas virtudes son en el fondo orgullo disfrazado: queremos parecer buenos para que nos admiren.",
+      "Una sociedad rica y una sociedad perfectamente virtuosa quizá no puedan existir a la vez."
+    ],
+    "curiosidad": "En 1723 un jurado de Middlesex (Inglaterra) denunció «La fábula de las abejas» como un peligro para el orden público.",
+    "frase": {
+      "texto": "Vicios privados, beneficios públicos.",
+      "fuente": "Subtítulo de «La fábula de las abejas» (1714)"
+    },
+    "obras": [
+      {
+        "titulo": "La colmena descontenta",
+        "anio": "1705",
+        "deQueVa": "Poema sobre una colmena próspera que se arruina al volverse honrada."
+      },
+      {
+        "titulo": "Tratado de las pasiones hipocondríacas e histéricas",
+        "anio": "1711",
+        "deQueVa": "Un libro de medicina en forma de diálogos sobre la ansiedad y la melancolía."
+      },
+      {
+        "titulo": "La fábula de las abejas",
+        "anio": "1714 (ampliada en 1723)",
+        "deQueVa": "El poema de la colmena con largos comentarios sobre el egoísmo y la economía."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Fable of the Bees (La fábula de las abejas, en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/57260",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "adam-smith"
+    ]
+  },
+  {
+    "id": "anthony-ashley-cooper-3rd-earl-of-shaftesbury",
+    "nombre": "Shaftesbury (Anthony Ashley Cooper)",
+    "fechas": "1671 – 1713",
+    "region": "Inglaterra",
+    "escuela": "Filosofía del sentido moral",
+    "categorias": [
+      "etica",
+      "estetica",
+      "religion"
+    ],
+    "conocidoPor": "Defender que tenemos un [[sentido moral|sentido-moral]] natural que nos hace apreciar el bien como apreciamos la belleza",
+    "resumen": "Anthony Ashley Cooper, tercer conde de Shaftesbury, fue un aristócrata inglés de salud frágil que escribió con un estilo elegante y lleno de humor. Frente a Hobbes, que veía al ser humano como egoísta, defendió que nacemos con afecto por los demás y con una especie de olfato para el bien. Sus ideas sobre la belleza y la bondad influyeron mucho en la [[ilustración|ilustracion]] escocesa.",
+    "ideas": [
+      "Tenemos un [[sentido moral|sentido-moral]]: igual que notamos que una melodía es armoniosa, notamos que una acción generosa es buena.",
+      "No somos solo egoístas: el cariño por los demás forma parte de nuestra naturaleza.",
+      "El humor y la burla son una buena prueba para las ideas: lo que es verdadero resiste el ridículo, y el fanatismo no."
+    ],
+    "curiosidad": "Su educación la dirigió el filósofo John Locke, que era médico y amigo de su abuelo, el primer conde de Shaftesbury.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Investigación sobre la virtud o el mérito",
+        "anio": "1699",
+        "deQueVa": "Por qué ser bueno nos hace felices."
+      },
+      {
+        "titulo": "Carta sobre el entusiasmo",
+        "anio": "1708",
+        "deQueVa": "Cómo combatir el fanatismo religioso con buen humor en vez de con persecución."
+      },
+      {
+        "titulo": "Características de los hombres, las costumbres, las opiniones y los tiempos",
+        "anio": "1711",
+        "deQueVa": "Reúne sus ensayos sobre moral, arte, religión y buen gusto."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "francis-hutcheson"
+    ]
+  },
+  {
+    "id": "francis-hutcheson",
+    "nombre": "Francis Hutcheson",
+    "fechas": "1694 – 1746",
+    "region": "Escocia (nacido en Irlanda)",
+    "escuela": "Ilustración escocesa (sentido moral)",
+    "categorias": [
+      "etica",
+      "estetica"
+    ],
+    "conocidoPor": "Decir que la mejor acción es la que da la mayor felicidad al mayor número de personas",
+    "resumen": "Francis Hutcheson nació en el Ulster (Irlanda) y fue profesor de filosofía moral en Glasgow, donde se le considera un padre de la [[ilustración|ilustracion]] escocesa. Desarrolló la idea de Shaftesbury de que tenemos un [[sentido moral|sentido-moral]] natural. Su fórmula de la «mayor felicidad para el mayor número» anticipó el [[utilitarismo]].",
+    "ideas": [
+      "Igual que vemos colores sin razonar, percibimos de forma inmediata que la crueldad está mal y la generosidad está bien.",
+      "Para saber qué acción es mejor hay que mirar a cuántas personas hace felices y en qué medida.",
+      "La belleza la percibimos en lo que combina unidad y variedad, como una melodía con muchas notas que suenan a una sola canción."
+    ],
+    "curiosidad": "Fue maestro de Adam Smith en Glasgow, que lo recordaba como «el inolvidable doctor Hutcheson». Fue de los primeros profesores de allí en dar clase en inglés en lugar de en latín.",
+    "frase": {
+      "texto": "La mejor acción es la que procura la mayor felicidad para el mayor número.",
+      "fuente": "Investigación sobre el origen de nuestras ideas de belleza y virtud (1725), tratado II, sección 3"
+    },
+    "obras": [
+      {
+        "titulo": "Investigación sobre el origen de nuestras ideas de belleza y virtud",
+        "anio": "1725",
+        "deQueVa": "Tenemos un sentido de la belleza y otro del bien, como tenemos vista y oído."
+      },
+      {
+        "titulo": "Ensayo sobre la naturaleza y conducta de las pasiones y afectos",
+        "anio": "1728",
+        "deQueVa": "Cómo funcionan las emociones y cómo guiarlas."
+      },
+      {
+        "titulo": "Sistema de filosofía moral",
+        "anio": "1755 (póstumo)",
+        "deQueVa": "Su curso completo de ética y política."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "adam-smith",
+      "david-hume"
+    ]
+  },
+  {
+    "id": "jeremy-bentham",
+    "nombre": "Jeremy Bentham",
+    "fechas": "1748 – 1832",
+    "region": "Inglaterra",
+    "escuela": "Utilitarismo",
+    "categorias": [
+      "etica",
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Fundar el [[utilitarismo]]: lo correcto es lo que produce más felicidad y menos sufrimiento",
+    "resumen": "Jeremy Bentham fue un jurista y reformador inglés que quiso convertir la moral y las leyes en algo casi medible. Su idea era sencilla: una ley o una acción es buena si aumenta el placer y reduce el dolor del mayor número de personas. Con ese criterio defendió reformas muy avanzadas para su época, como la igualdad de las mujeres, el fin de los castigos a los homosexuales y el trato digno a los animales.",
+    "ideas": [
+      "Para decidir qué hacer, suma el placer y resta el dolor que causará a todos los afectados, como quien hace balance de cuentas.",
+      "Con los animales la pregunta no es si pueden razonar o hablar, sino si pueden sufrir.",
+      "Diseñó el [[panóptico|panoptico]], una cárcel circular donde un solo vigilante puede ver a todos los presos sin que ellos sepan si los miran."
+    ],
+    "curiosidad": "Pidió que tras su muerte conservaran su esqueleto vestido con su ropa. Esta figura, su «autoicono», sigue expuesta en el University College de Londres, con una cabeza de cera.",
+    "frase": {
+      "texto": "La naturaleza ha puesto a la humanidad bajo el gobierno de dos amos soberanos: el dolor y el placer.",
+      "fuente": "Introducción a los principios de la moral y la legislación (1789), capítulo I"
+    },
+    "obras": [
+      {
+        "titulo": "Fragmento sobre el gobierno",
+        "anio": "1776",
+        "deQueVa": "Una crítica a los juristas que defendían las leyes inglesas solo por ser tradicionales."
+      },
+      {
+        "titulo": "Introducción a los principios de la moral y la legislación",
+        "anio": "1789",
+        "deQueVa": "Explica el principio de utilidad y cómo aplicarlo a las leyes."
+      },
+      {
+        "titulo": "El panóptico",
+        "anio": "1791",
+        "deQueVa": "Cartas que describen su cárcel ideal de vigilancia total."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "john-stuart-mill",
+      "peter-singer",
+      "michel-foucault"
+    ]
+  },
+  {
+    "id": "mary-wollstonecraft",
+    "nombre": "Mary Wollstonecraft",
+    "fechas": "1759 – 1797",
+    "region": "Inglaterra",
+    "escuela": "Ilustración (feminismo ilustrado)",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Escribir «Vindicación de los derechos de la mujer», uno de los textos fundadores del [[feminismo]]",
+    "resumen": "Mary Wollstonecraft fue una escritora inglesa que se ganó la vida por su cuenta como maestra, institutriz y traductora. En 1792 publicó «Vindicación de los derechos de la mujer», donde defendía que las mujeres parecen menos racionales solo porque se las educa para ser decorativas. Murió poco después de dar a luz a su hija, Mary Shelley, la autora de «Frankenstein».",
+    "ideas": [
+      "Si a las chicas solo se les enseña a gustar y a ser guapas, no es extraño que parezcan superficiales: el problema es la educación, no su naturaleza.",
+      "Niños y niñas deberían estudiar juntos y aprender lo mismo.",
+      "La [[virtud]] y la [[razón|razon]] son iguales para hombres y mujeres; una moral distinta para cada sexo es injusta."
+    ],
+    "curiosidad": "Su «Vindicación de los derechos de la mujer» empezó como respuesta a Rousseau, que en «Emilio» defendía que las mujeres debían educarse solo para agradar a los hombres.",
+    "frase": {
+      "texto": "No deseo que las mujeres tengan poder sobre los hombres, sino sobre sí mismas.",
+      "fuente": "Vindicación de los derechos de la mujer (1792), capítulo 4"
+    },
+    "obras": [
+      {
+        "titulo": "Pensamientos sobre la educación de las hijas",
+        "anio": "1787",
+        "deQueVa": "Consejos para educar a las niñas en la razón y no solo en las apariencias."
+      },
+      {
+        "titulo": "Vindicación de los derechos del hombre",
+        "anio": "1790",
+        "deQueVa": "Su respuesta a Edmund Burke en defensa de la Revolución francesa."
+      },
+      {
+        "titulo": "Vindicación de los derechos de la mujer",
+        "anio": "1792",
+        "deQueVa": "Defiende que las mujeres merecen la misma educación y los mismos derechos."
+      },
+      {
+        "titulo": "Cartas escritas en Suecia, Noruega y Dinamarca",
+        "anio": "1796",
+        "deQueVa": "Un libro de viajes muy personal que mezcla paisajes y reflexiones."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "A Vindication of the Rights of Woman (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3420",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "olympe-de-gouges",
+    "nombre": "Olympe de Gouges",
+    "fechas": "1748 – 1793",
+    "region": "Francia",
+    "escuela": "Ilustración (feminismo ilustrado)",
+    "categorias": [
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir la «Declaración de los derechos de la mujer y de la ciudadana» en plena Revolución francesa",
+    "resumen": "Olympe de Gouges fue una escritora y dramaturga francesa de origen humilde. Cuando la Revolución proclamó los «derechos del hombre y del ciudadano», ella señaló que las mujeres se habían quedado fuera y escribió en 1791 su propia declaración para ellas. También denunció la esclavitud. Por criticar a los líderes revolucionarios la guillotinaron en 1793.",
+    "ideas": [
+      "La mujer nace libre e igual al hombre en derechos, y las leyes deben reconocerlo.",
+      "Si las mujeres pueden ser castigadas por la ley, también deben poder votar y participar en hacer las leyes.",
+      "La esclavitud es una injusticia: las personas negras tienen los mismos derechos que cualquiera."
+    ],
+    "curiosidad": "Su nombre real era Marie Gouze. Escribió una obra de teatro contra la esclavitud, «Zamore y Mirza», que se estrenó en 1789 y provocó un gran escándalo.",
+    "frase": {
+      "texto": "La mujer tiene el derecho de subir al cadalso; debe tener igualmente el de subir a la tribuna.",
+      "fuente": "Declaración de los derechos de la mujer y de la ciudadana (1791), artículo X"
+    },
+    "obras": [
+      {
+        "titulo": "Zamore y Mirza, o el feliz naufragio",
+        "anio": "1784 (estrenada en 1789)",
+        "deQueVa": "Obra de teatro que denuncia la esclavitud en las colonias."
+      },
+      {
+        "titulo": "Declaración de los derechos de la mujer y de la ciudadana",
+        "anio": "1791",
+        "deQueVa": "Reescribe la declaración revolucionaria para incluir a las mujeres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Les droits de la femme (Declaración de los derechos de la mujer, en francés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/53595",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "marquis-de-condorcet",
+    "nombre": "Nicolas de Condorcet",
+    "fechas": "1743 – 1794",
+    "region": "Francia",
+    "escuela": "Ilustración",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "ciencia"
+    ],
+    "conocidoPor": "Confiar en el progreso de la humanidad y aplicar las matemáticas a las votaciones",
+    "resumen": "El marqués de Condorcet fue matemático, filósofo y político, uno de los últimos grandes nombres de la [[ilustración|ilustracion]] francesa. Defendió el voto de las mujeres, el fin de la esclavitud y una escuela pública gratuita para todos. Escondido de la policía durante el [[Terror|terror-revolucionario]] de la Revolución francesa, escribió un libro lleno de optimismo sobre el futuro de la humanidad.",
+    "ideas": [
+      "La humanidad puede progresar sin límite gracias a la ciencia y la educación, y algún día desaparecerán la desigualdad y la guerra.",
+      "Las mujeres tienen los mismos derechos políticos que los hombres, incluido el voto.",
+      "Votar no siempre da un resultado claro: es la [[paradoja de Condorcet|paradoja-de-condorcet]], en la que un grupo puede preferir A a B, B a C y, a la vez, C a A."
+    ],
+    "curiosidad": "Lo detuvieron tras meses escondido y apareció muerto en su celda dos días después. Todavía no se sabe con certeza si fue un suicidio, agotamiento o un asesinato.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Reflexiones sobre la esclavitud de los negros",
+        "anio": "1781",
+        "deQueVa": "Un alegato para acabar con la esclavitud."
+      },
+      {
+        "titulo": "Ensayo sobre la aplicación del análisis a la probabilidad de las decisiones por mayoría",
+        "anio": "1785",
+        "deQueVa": "Matemáticas para estudiar cuándo una votación acierta."
+      },
+      {
+        "titulo": "Sobre la admisión de las mujeres al derecho de ciudadanía",
+        "anio": "1790",
+        "deQueVa": "Defiende que las mujeres puedan votar y ser elegidas."
+      },
+      {
+        "titulo": "Esbozo de un cuadro histórico de los progresos del espíritu humano",
+        "anio": "1795 (póstumo)",
+        "deQueVa": "La historia humana como un avance continuo hacia la razón y la libertad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The First Essay on the Political Rights of Women (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/31550",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "auguste-comte"
+    ]
+  },
+  {
+    "id": "johann-gottlieb-fichte",
+    "nombre": "Johann Gottlieb Fichte",
+    "fechas": "1762 – 1814",
+    "region": "Alemania",
+    "escuela": "Idealismo alemán",
+    "categorias": [
+      "metafisica",
+      "politica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Poner el «yo» libre y activo en el centro de toda la filosofía",
+    "resumen": "Fichte era hijo de un tejedor pobre y pudo estudiar gracias a un noble que se fijó en su talento. Partió de Kant pero fue más allá: todo empieza en un «yo» activo que se pone a sí mismo y se enfrenta a lo que no es él. Fue el primer gran nombre del [[idealismo]] alemán y, con sus «Discursos a la nación alemana», también un impulsor del [[nacionalismo]] alemán.",
+    "ideas": [
+      "El [[yo]] no es una cosa que está ahí, sino una actividad: nos hacemos a nosotros mismos actuando.",
+      "Solo nos descubrimos como seres libres al encontrarnos con otras personas que nos reconocen y nos piden respeto.",
+      "Que elijas una filosofía u otra dice mucho de qué tipo de persona eres."
+    ],
+    "curiosidad": "Su primer libro se publicó sin su nombre y muchos lectores creyeron que era de Kant. Cuando Kant aclaró quién era el autor, Fichte se hizo famoso de golpe.",
+    "frase": {
+      "texto": "La clase de filosofía que uno elige depende de la clase de hombre que uno es.",
+      "fuente": "Primera introducción a la Doctrina de la ciencia (1797)"
+    },
+    "obras": [
+      {
+        "titulo": "Ensayo de una crítica de toda revelación",
+        "anio": "1792",
+        "deQueVa": "El libro anónimo que confundieron con uno de Kant."
+      },
+      {
+        "titulo": "Doctrina de la ciencia",
+        "anio": "1794",
+        "deQueVa": "Su sistema: todo el saber parte de la actividad del yo."
+      },
+      {
+        "titulo": "Fundamento del derecho natural",
+        "anio": "1796",
+        "deQueVa": "Por qué las personas libres necesitan reconocerse y vivir bajo leyes."
+      },
+      {
+        "titulo": "El destino del hombre",
+        "anio": "1800",
+        "deQueVa": "Una versión más sencilla de su filosofía, escrita para todo el mundo."
+      },
+      {
+        "titulo": "Discursos a la nación alemana",
+        "anio": "1808",
+        "deQueVa": "Conferencias en Berlín ocupado por Napoleón sobre la educación y la identidad alemanas."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Reden an die deutsche Nation (Discursos a la nación alemana, en alemán), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/48340",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "friedrich-wilhelm-joseph-schelling",
+      "georg-wilhelm-friedrich-hegel"
+    ]
+  },
+  {
+    "id": "georg-wilhelm-friedrich-hegel",
+    "nombre": "Georg Wilhelm Friedrich Hegel",
+    "fechas": "1770 – 1831",
+    "region": "Alemania",
+    "escuela": "Idealismo alemán",
+    "categorias": [
+      "metafisica",
+      "politica",
+      "sociedad"
+    ],
+    "conocidoPor": "Ver la historia como un avance en el que cada idea choca con su contraria y de ahí sale algo nuevo",
+    "resumen": "Hegel fue el filósofo alemán más influyente del siglo XIX, aunque también uno de los más difíciles de leer. Pensaba que la realidad entera, y sobre todo la historia, avanza a través de conflictos que se superan, un movimiento que llamó [[dialéctica|dialectica]]. Sin él no se entienden Marx, el [[existencialismo]] ni buena parte de la filosofía actual.",
+    "ideas": [
+      "Las cosas cambian a través del conflicto: una idea choca con su contraria y de ese choque nace algo que conserva lo mejor de ambas, como en una buena discusión entre amigos.",
+      "La historia es el camino de la libertad: primero era libre solo el rey, luego unos pocos y al final todos.",
+      "Solo llegamos a ser nosotros mismos cuando otros nos reconocen, como muestra su famosa historia del amo y el esclavo."
+    ],
+    "curiosidad": "Terminó su «Fenomenología del espíritu» en Jena justo cuando las tropas de Napoleón tomaban la ciudad en 1806. Al ver pasar a Napoleón a caballo escribió a un amigo que había visto «el alma del mundo».",
+    "frase": {
+      "texto": "La lechuza de Minerva solo levanta el vuelo al caer el crepúsculo.",
+      "fuente": "Principios de la filosofía del derecho (1820), prefacio: la filosofía entiende una época cuando esta ya termina"
+    },
+    "obras": [
+      {
+        "titulo": "Fenomenología del espíritu",
+        "anio": "1807",
+        "deQueVa": "El viaje de la conciencia desde lo más simple hasta el saber absoluto."
+      },
+      {
+        "titulo": "Ciencia de la lógica",
+        "anio": "1812–1816",
+        "deQueVa": "Cómo se mueven y se transforman los conceptos más básicos del pensamiento."
+      },
+      {
+        "titulo": "Enciclopedia de las ciencias filosóficas",
+        "anio": "1817",
+        "deQueVa": "Resumen de todo su sistema para sus alumnos."
+      },
+      {
+        "titulo": "Principios de la filosofía del derecho",
+        "anio": "1820",
+        "deQueVa": "La familia, la sociedad y el Estado como realizaciones de la libertad."
+      },
+      {
+        "titulo": "Lecciones sobre la filosofía de la historia",
+        "anio": "1837 (póstumo)",
+        "deQueVa": "La historia del mundo como progreso de la libertad."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Logic of Hegel (en inglés), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/55108",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "Phänomenologie des Geistes (Fenomenología del espíritu, en alemán), Proyecto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/6698",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "karl-marx",
+      "friedrich-engels",
+      "ludwig-feuerbach",
+      "sren-kierkegaard"
+    ]
+  }
+]

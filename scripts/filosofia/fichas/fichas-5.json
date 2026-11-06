@@ -1,0 +1,2304 @@
+[
+ {
+  "id": "herbert-marcuse",
+  "nombre": "Herbert Marcuse",
+  "fechas": "1898 – 1979",
+  "region": "Alemania",
+  "escuela": "Teoría crítica (Escuela de Fráncfort)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "existencia"
+  ],
+  "conocidoPor": "Avisar de que la [[sociedad de consumo|sociedad-de-consumo]] nos vuelve cómodos y obedientes: personas de «una sola dimensión»",
+  "resumen": "Marcuse fue un filósofo alemán de la [[Escuela de Fráncfort|escuela-de-francfort]] que huyó de los nazis a Estados Unidos. Se hizo famoso en los años sesenta porque sus libros eran la Biblia de muchos estudiantes rebeldes. Decía que la sociedad moderna no necesita encarcelarnos para controlarnos: le basta con tenernos entretenidos comprando cosas. Hoy se le recuerda cada vez que alguien dice que el móvil o las compras nos tienen «adormecidos».",
+  "ideas": [
+   "Mucha gente cree que es libre porque puede elegir entre veinte marcas de champú, pero no se pregunta si de verdad necesita todo lo que compra: eso es el [[hombre unidimensional|hombre-unidimensional]].",
+   "La sociedad nos crea [[falsas necesidades|falsas-necesidades]], como cambiar de móvil cada año, y así trabajamos más para pagarlas.",
+   "Mezcló a Marx y a Freud: pensaba que una sociedad más justa también dejaría a las personas disfrutar más de la vida y del juego, no solo trabajar."
+  ],
+  "curiosidad": "Fue tan leído por los estudiantes de 1968 que en las protestas se hablaba de las «tres M»: Marx, Mao y Marcuse.",
+  "frase": {
+   "texto": "Una ausencia de libertad cómoda, suave, razonable y democrática prevalece en la civilización industrial avanzada.",
+   "fuente": "El hombre unidimensional (1964), primera frase del capítulo 1"
+  },
+  "obras": [
+   {
+    "titulo": "Razón y revolución",
+    "anio": "1941",
+    "deQueVa": "Explica a Hegel y cómo sus ideas llevaron a Marx."
+   },
+   {
+    "titulo": "Eros y civilización",
+    "anio": "1955",
+    "deQueVa": "Une a Freud y a Marx para imaginar una sociedad con menos represión y más disfrute."
+   },
+   {
+    "titulo": "El hombre unidimensional",
+    "anio": "1964",
+    "deQueVa": "Cómo la sociedad de consumo apaga nuestra capacidad de criticar."
+   },
+   {
+    "titulo": "La tolerancia represiva",
+    "anio": "1965",
+    "deQueVa": "Ensayo polémico sobre si tolerarlo todo puede servir para que nada cambie."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "angela-davis"
+  ]
+ },
+ {
+  "id": "antonio-gramsci",
+  "nombre": "Antonio Gramsci",
+  "fechas": "1891 – 1937",
+  "region": "Italia",
+  "escuela": "Marxismo",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Explicar la [[hegemonia]]: los poderosos mandan más convenciéndonos de que su visión es «lo normal» que por la fuerza",
+  "resumen": "Gramsci fue un político y pensador italiano, uno de los fundadores del Partido Comunista de Italia. Mussolini lo metió en la cárcel en 1926 y allí, enfermo, llenó unos treinta cuadernos con sus reflexiones. Se preguntó por qué la gente acepta un sistema que no le beneficia, y su respuesta fue la cultura: escuelas, periódicos, iglesias o la tele nos enseñan qué es «normal». Hoy se le cita muchísimo cuando se habla de la «batalla cultural» en política.",
+  "ideas": [
+   "La [[hegemonia]] es mandar sin que se note: si todos creemos que algo es «de sentido común», ni se nos ocurre discutirlo.",
+   "Todos pensamos, así que todos somos intelectuales; pero cada grupo social crea sus [[intelectuales orgánicos|intelectual-organico]], personas que ponen voz a sus ideas, como un sindicalista o un periodista.",
+   "Para cambiar un país no basta con ganar una votación o una revolución: hay que cambiar antes las ideas y costumbres de la gente."
+  ],
+  "curiosidad": "En su juicio, el fiscal fascista pidió: «Debemos impedir que este cerebro funcione durante veinte años». No lo consiguió: en la cárcel escribió su obra más famosa.",
+  "frase": {
+   "texto": "La crisis consiste precisamente en que lo viejo muere y lo nuevo no puede nacer: en este interregno se verifican los fenómenos morbosos más variados.",
+   "fuente": "Cuadernos de la cárcel, Cuaderno 3"
+  },
+  "obras": [
+   {
+    "titulo": "Cuadernos de la cárcel",
+    "anio": "1929–1935",
+    "deQueVa": "Notas escritas en prisión sobre cultura, poder, historia e Italia."
+   },
+   {
+    "titulo": "Cartas desde la cárcel",
+    "anio": "1947 (póstumo)",
+    "deQueVa": "Cartas a su familia, muy humanas, escritas desde prisión."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Escritos de Gramsci en español (Marxists Internet Archive)",
+    "url": "https://www.marxists.org/espanol/gramsci/",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "«La revolución contra El Capital» (1917), artículo de Gramsci en español",
+    "url": "https://www.marxists.org/espanol/gramsci/nov1917.htm",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "louis-althusser",
+   "ernesto-laclau",
+   "chantal-mouffe",
+   "gayatri-chakravorty-spivak"
+  ]
+ },
+ {
+  "id": "gyorgy-lukacs",
+  "nombre": "Georg Lukács",
+  "fechas": "1885 – 1971",
+  "region": "Hungría",
+  "escuela": "Marxismo",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Explicar la [[cosificacion]]: en el [[capitalismo]] tratamos a las personas, y a nosotros mismos, como si fuéramos cosas",
+  "resumen": "Lukács fue un filósofo y crítico literario húngaro, uno de los marxistas más influyentes del siglo XX. Empezó escribiendo sobre novelas y tragedias y luego se hizo comunista. Su idea más conocida es que el mercado nos acostumbra a verlo todo, hasta a la gente, como mercancía con precio. Piensa en cuando alguien habla de un trabajador como «un recurso»: eso es lo que él criticaba.",
+  "ideas": [
+   "La [[cosificacion]] ocurre cuando las relaciones entre personas parecen relaciones entre cosas: no vemos al agricultor, solo el precio del tomate.",
+   "La [[conciencia de clase|conciencia-de-clase]] es darte cuenta de que tus problemas no son solo tuyos, sino de todo tu grupo social.",
+   "Las grandes novelas, como las de Balzac o Tolstói, nos ayudan a entender la sociedad de su época mejor que muchos libros de historia."
+  ],
+  "curiosidad": "Fue ministro dos veces en momentos revolucionarios de Hungría, en 1919 y en 1956. Tras la invasión soviética de 1956 lo deportaron a Rumanía durante un tiempo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El alma y las formas",
+    "anio": "1910",
+    "deQueVa": "Ensayos de juventud sobre literatura y sobre cómo dar forma a la vida."
+   },
+   {
+    "titulo": "Teoría de la novela",
+    "anio": "1916",
+    "deQueVa": "Por qué la novela es el género de un mundo en el que nos sentimos sin hogar."
+   },
+   {
+    "titulo": "Historia y conciencia de clase",
+    "anio": "1923",
+    "deQueVa": "Su gran libro sobre la cosificación y la conciencia de los trabajadores."
+   },
+   {
+    "titulo": "El asalto a la razón",
+    "anio": "1954",
+    "deQueVa": "Cómo ciertas filosofías prepararon el terreno al nazismo, según él."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "theodor-w-adorno",
+   "walter-benjamin",
+   "herbert-marcuse"
+  ]
+ },
+ {
+  "id": "ernst-bloch",
+  "nombre": "Ernst Bloch",
+  "fechas": "1885 – 1977",
+  "region": "Alemania",
+  "escuela": "Marxismo",
+  "categorias": [
+   "existencia",
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Ser el filósofo de la esperanza: los sueños de un mundo mejor empujan la historia",
+  "resumen": "Bloch fue un filósofo alemán marxista que dedicó su vida a pensar la esperanza. Decía que soñar despiertos con una vida mejor, desde las fábulas hasta la publicidad o la música, no es perder el tiempo: es la semilla de los cambios reales. Huyó de los nazis a Estados Unidos y luego tuvo problemas con el comunismo de Alemania del Este. Hoy se le lee cuando se habla de [[utopias|utopia]] y de imaginar alternativas.",
+  "ideas": [
+   "El ser humano vive mirando hacia delante: lo que «todavía no» existe nos mueve tanto como lo que ya existe.",
+   "Los [[sueños diurnos|suenos-diurnos]], como imaginar el viaje que harás o la casa que tendrás, son una fuerza que puede cambiar el mundo.",
+   "La religión, aunque él era ateo, guarda deseos muy humanos de justicia que no hay que tirar a la basura."
+  ],
+  "curiosidad": "En agosto de 1961, con 76 años, estaba de viaje en Alemania Occidental cuando se levantó el Muro de Berlín, y decidió no volver al Este.",
+  "frase": {
+   "texto": "¿Quiénes somos? ¿De dónde venimos? ¿Adónde vamos? ¿Qué esperamos? ¿Qué nos espera?",
+   "fuente": "El principio esperanza, primeras líneas del prólogo"
+  },
+  "obras": [
+   {
+    "titulo": "Espíritu de la utopía",
+    "anio": "1918",
+    "deQueVa": "Primer libro: la música, el alma y el deseo de un mundo distinto."
+   },
+   {
+    "titulo": "El principio esperanza",
+    "anio": "1954–1959",
+    "deQueVa": "Enorme repaso de todos los sueños humanos de una vida mejor."
+   },
+   {
+    "titulo": "El ateísmo en el cristianismo",
+    "anio": "1968",
+    "deQueVa": "Lo que la Biblia tiene de rebeldía y esperanza, leído por un ateo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "rosa-luxemburg",
+  "nombre": "Rosa Luxemburgo",
+  "fechas": "1871 – 1919",
+  "region": "Polonia y Alemania",
+  "escuela": "Marxismo",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender una revolución socialista con libertad y democracia: «la libertad es siempre la del que piensa distinto»",
+  "resumen": "Rosa Luxemburgo nació en Polonia y fue una de las grandes dirigentes del socialismo alemán, algo muy raro para una mujer de su época. Era economista, periodista y oradora brillante. Criticó a la vez a quienes se conformaban con pequeñas reformas y a los revolucionarios rusos de Lenin cuando recortaban libertades. Fue asesinada en Berlín en 1919, y hoy es un símbolo de que la justicia social y la libertad deben ir juntas.",
+  "ideas": [
+   "Las reformas pequeñas, como subir un poco los sueldos, están bien, pero según ella no bastan para cambiar el sistema de fondo.",
+   "Sin elecciones libres, prensa libre y libertad de reunión, cualquier revolución acaba en manos de unos pocos jefes.",
+   "El [[capitalismo]] necesita crecer sin parar hacia nuevos lugares y mercados, y eso lleva al [[imperialismo]] y a las guerras."
+  ],
+  "curiosidad": "Unos soldados la asesinaron en enero de 1919 y arrojaron su cuerpo a un canal de Berlín. Hoy hay un monumento junto a ese canal.",
+  "frase": {
+   "texto": "La libertad es siempre la libertad del que piensa de otra manera.",
+   "fuente": "La revolución rusa (escrito en 1918)"
+  },
+  "obras": [
+   {
+    "titulo": "Reforma o revolución",
+    "anio": "1899",
+    "deQueVa": "Por qué las reformas solas no bastan para acabar con la injusticia."
+   },
+   {
+    "titulo": "Huelga de masas, partido y sindicatos",
+    "anio": "1906",
+    "deQueVa": "La fuerza de las huelgas que nacen de la propia gente."
+   },
+   {
+    "titulo": "La acumulación del capital",
+    "anio": "1913",
+    "deQueVa": "Por qué el capitalismo necesita expandirse por el mundo."
+   },
+   {
+    "titulo": "La revolución rusa",
+    "anio": "1918",
+    "deQueVa": "Apoya la revolución, pero critica que se recorten las libertades."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Reforma o revolución, texto completo en español (Marxists Internet Archive)",
+    "url": "https://www.marxists.org/espanol/luxem/1900/reform-revol.htm",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "The Accumulation of Capital, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/41405",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "gyorgy-lukacs"
+  ]
+ },
+ {
+  "id": "karl-jaspers",
+  "nombre": "Karl Jaspers",
+  "fechas": "1883 – 1969",
+  "region": "Alemania",
+  "escuela": "Existencialismo",
+  "categorias": [
+   "existencia",
+   "mente",
+   "religion",
+   "politica"
+  ],
+  "conocidoPor": "Hablar de las [[situaciones límite|situaciones-limite]] (muerte, culpa, sufrimiento) que nos obligan a pensar quiénes somos",
+  "resumen": "Jaspers fue primero psiquiatra y después filósofo, uno de los padres del [[existencialismo]] alemán. Pensaba que la vida normal nos distrae, pero que hay momentos duros, como la muerte de alguien querido, que nos sacuden y nos hacen preguntarnos por el sentido de todo. Tras la Segunda Guerra Mundial ayudó a Alemania a pensar su culpa por el nazismo. También inventó la idea de la [[Era Axial|era-axial]].",
+  "ideas": [
+   "Hay [[situaciones límite|situaciones-limite]], como la muerte, la culpa o el sufrimiento, de las que no podemos escapar, y son justo las que nos hacen crecer.",
+   "Alrededor del año 500 a. C. aparecieron casi a la vez Buda, Confucio, los profetas y los filósofos griegos: él llamó a esa época la [[Era Axial|era-axial]].",
+   "Distinguió varios tipos de culpa: no es lo mismo cometer un crimen que mirar hacia otro lado mientras otros lo cometen."
+  ],
+  "curiosidad": "Su esposa, Gertrud, era judía y él se negó a divorciarse de ella durante el nazismo, por lo que perdió su cátedra. Fue además el director de la tesis doctoral de Hannah Arendt.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Psicopatología general",
+    "anio": "1913",
+    "deQueVa": "Manual de psiquiatría que fue básico durante décadas."
+   },
+   {
+    "titulo": "Filosofía",
+    "anio": "1932",
+    "deQueVa": "Su gran obra sobre la existencia, en tres tomos."
+   },
+   {
+    "titulo": "La cuestión de la culpa",
+    "anio": "1946",
+    "deQueVa": "Qué culpa tenían los alemanes tras el nazismo."
+   },
+   {
+    "titulo": "Origen y meta de la historia",
+    "anio": "1949",
+    "deQueVa": "Donde presenta la idea de la Era Axial."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "hannah-arendt",
+   "paul-ricur"
+  ]
+ },
+ {
+  "id": "gabriel-marcel",
+  "nombre": "Gabriel Marcel",
+  "fechas": "1889 – 1973",
+  "region": "Francia",
+  "escuela": "Existencialismo cristiano",
+  "categorias": [
+   "existencia",
+   "religion",
+   "etica"
+  ],
+  "conocidoPor": "Distinguir entre «ser» y «tener», y entre un problema que se resuelve y un [[misterio]] que se vive",
+  "resumen": "Marcel fue un filósofo, dramaturgo y crítico de teatro francés. Se le considera el primer [[existencialista|existencialismo]] cristiano, aunque a él no le gustaba la etiqueta. Le preocupaba que la sociedad moderna nos tratara como piezas de una máquina, con una ficha y un número. Defendía que lo importante de la vida, como el amor, la fidelidad o la esperanza, no se puede medir ni poseer.",
+  "ideas": [
+   "Un problema es algo que miras desde fuera y resuelves, como una avería; un [[misterio]], como el amor o la muerte, te incluye a ti y no se «resuelve».",
+   "Hay cosas que se tienen, como un coche, y cosas que se son, como ser amigo de alguien; confundirlas nos empobrece.",
+   "Nos realizamos en el encuentro con los demás: ser fiel a alguien y tener esperanza juntos es lo que da sentido a la vida."
+  ],
+  "curiosidad": "Además de filósofo fue autor de muchas obras de teatro y compuso música. Se convirtió al catolicismo en 1929, cuando ya tenía casi cuarenta años.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Diario metafísico",
+    "anio": "1927",
+    "deQueVa": "Notas personales donde va descubriendo su filosofía."
+   },
+   {
+    "titulo": "Ser y tener",
+    "anio": "1935",
+    "deQueVa": "La diferencia entre poseer cosas y vivir de verdad."
+   },
+   {
+    "titulo": "Homo viator",
+    "anio": "1944",
+    "deQueVa": "El ser humano como viajero que camina con esperanza."
+   },
+   {
+    "titulo": "El misterio del ser",
+    "anio": "1951",
+    "deQueVa": "Conferencias que resumen toda su filosofía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "paul-ricur"
+  ]
+ },
+ {
+  "id": "kitaro-nishida",
+  "nombre": "Kitarō Nishida",
+  "fechas": "1870 – 1945",
+  "region": "Japón",
+  "escuela": "Escuela de Kioto",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "mente"
+  ],
+  "conocidoPor": "Unir el budismo [[zen]] con la filosofía occidental y fundar la [[Escuela de Kioto|escuela-de-kioto]]",
+  "resumen": "Nishida fue el primer gran filósofo moderno de Japón. Practicó la meditación zen durante años y a la vez leyó a fondo a los filósofos europeos. Intentó explicar con palabras de Occidente algo muy oriental: que antes de separar «yo» y «mundo» hay una experiencia en la que todo está unido. Piensa en cuando escuchas una canción tan absorto que te olvidas de ti mismo: eso es lo que él llamaba [[experiencia pura|experiencia-pura]].",
+  "ideas": [
+   "La [[experiencia pura|experiencia-pura]] es vivir algo sin separar «yo» y «la cosa», como un músico perdido en lo que toca.",
+   "Todo ocurre en un «lugar» de fondo, una especie de [[nada absoluta|nada-absoluta]] que no es vacío triste, sino el espacio donde todo aparece.",
+   "Oriente y Occidente pueden dialogar: la filosofía no es solo cosa de europeos."
+  ],
+  "curiosidad": "En Kioto hay un paseo junto a un canal llamado «Camino del Filósofo» porque Nishida lo recorría a diario mientras meditaba.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Indagación del bien",
+    "anio": "1911",
+    "deQueVa": "Su primer libro, sobre la experiencia pura y qué es el bien."
+   },
+   {
+    "titulo": "Lógica del lugar y la visión religiosa del mundo",
+    "anio": "1945",
+    "deQueVa": "Su último ensayo, sobre la religión y la nada."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sri-aurobindo",
+  "nombre": "Sri Aurobindo",
+  "fechas": "1872 – 1950",
+  "region": "India",
+  "escuela": "Yoga integral (Vedanta)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "politica"
+  ],
+  "conocidoPor": "Pasar de luchar por la independencia de la India a proponer un [[yoga integral|yoga-integral]] para hacer evolucionar la conciencia humana",
+  "resumen": "Aurobindo estudió en Inglaterra, volvió a la India y fue uno de los primeros líderes que pidieron la independencia total frente a los británicos. Tras pasar un año en la cárcel, se retiró a Pondicherry para dedicarse a la espiritualidad. Pensaba que la evolución no ha terminado: igual que de los animales surgió la mente humana, de nosotros puede surgir una conciencia más elevada. Inspirada en sus ideas se fundó en 1968, en el sur de la India, la ciudad experimental de Auroville.",
+  "ideas": [
+   "La evolución sigue: de la materia salió la vida, de la vida la mente, y de la mente puede salir algo superior.",
+   "El [[yoga integral|yoga-integral]] no consiste en huir del mundo, sino en transformar toda tu vida: cuerpo, emociones, trabajo y pensamiento.",
+   "Lo espiritual y lo material no son enemigos: el objetivo es traer lo divino a la vida de todos los días."
+  ],
+  "curiosidad": "Nació un 15 de agosto, el mismo día del año en que la India logró la independencia en 1947, cuando él cumplía 75 años.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La vida divina",
+    "anio": "1939–1940",
+    "deQueVa": "Su gran obra sobre la evolución del espíritu."
+   },
+   {
+    "titulo": "La síntesis del yoga",
+    "anio": "c. 1914–1921",
+    "deQueVa": "Cómo unir los distintos caminos del yoga en uno solo."
+   },
+   {
+    "titulo": "Ensayos sobre la Gita",
+    "anio": "c. 1916–1920",
+    "deQueVa": "Comentario a la Bhagavad Gita, un texto sagrado hindú."
+   },
+   {
+    "titulo": "Savitri",
+    "anio": "1950–1951",
+    "deQueVa": "Poema épico enorme basado en una leyenda india."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "mahatma-gandhi",
+  "nombre": "Mahatma Gandhi",
+  "fechas": "1869 – 1948",
+  "region": "India",
+  "escuela": "No violencia (satyagraha)",
+  "categorias": [
+   "politica",
+   "etica",
+   "religion"
+  ],
+  "conocidoPor": "Liberar a la India de los británicos con la [[no violencia|no-violencia]] y la desobediencia pacífica",
+  "resumen": "Gandhi fue un abogado indio que se convirtió en el líder de la independencia de su país. No escribió tratados de filosofía, pero su forma de actuar es una filosofía completa: resistir la injusticia sin violencia, aunque te peguen o te encarcelen. Con huelgas, boicots y marchas como la de la sal, puso en jaque al Imperio británico. Inspiró a Martin Luther King, a Nelson Mandela y a muchos movimientos pacíficos de hoy.",
+  "ideas": [
+   "La [[satyagraha]], o «fuerza de la verdad», consiste en negarte a obedecer leyes injustas sin hacer daño a nadie y aceptando el castigo.",
+   "La [[ahimsa]], no hacer daño a ningún ser vivo, debe guiar no solo la política, sino también lo que comes y cómo tratas a los demás.",
+   "Defendía una vida sencilla y pueblos que se autoabastezcan: él mismo hilaba su ropa como símbolo de independencia."
+  ],
+  "curiosidad": "Lo propusieron cinco veces para el Premio Nobel de la Paz, pero nunca lo ganó.",
+  "frase": {
+   "texto": "Mi vida es mi mensaje.",
+   "fuente": "Nota escrita a mano en 1947, cuando un periodista le pidió un mensaje"
+  },
+  "obras": [
+   {
+    "titulo": "Hind Swaraj (El autogobierno de la India)",
+    "anio": "1909",
+    "deQueVa": "Diálogo sobre qué significa de verdad que la India sea libre."
+   },
+   {
+    "titulo": "Autobiografía: historia de mis experimentos con la verdad",
+    "anio": "1925–1929",
+    "deQueVa": "Su vida contada por él mismo, con errores incluidos."
+   },
+   {
+    "titulo": "Satyagraha en Sudáfrica",
+    "anio": "1928",
+    "deQueVa": "Cómo inventó la resistencia pacífica luchando por los indios de Sudáfrica."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Indian Home Rule (Hind Swaraj), texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/40461",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "rabindranath-tagore",
+  "nombre": "Rabindranath Tagore",
+  "fechas": "1861 – 1941",
+  "region": "India (Bengala)",
+  "escuela": "Humanismo universalista",
+  "categorias": [
+   "estetica",
+   "sociedad",
+   "religion",
+   "politica"
+  ],
+  "conocidoPor": "Poeta indio, primer Nobel de Literatura no europeo, que defendió un [[humanismo]] sin fronteras",
+  "resumen": "Tagore fue poeta, músico, pintor y educador de Bengala, en la India. En 1913 ganó el Premio Nobel de Literatura, el primero para alguien de fuera de Europa. Además de poemas, pensó mucho sobre cómo educar y cómo convivir: creía que los niños aprenden mejor al aire libre y que el [[nacionalismo]] agresivo es un peligro. Sus canciones siguen cantándose cada día en la India y en Bangladés.",
+  "ideas": [
+   "El [[nacionalismo]] que pone a tu país por encima de todo acaba convirtiendo a las personas en piezas de una máquina de poder.",
+   "La educación debe ser libre y alegre, en contacto con la naturaleza y las artes, no una fábrica de exámenes.",
+   "Lo divino se encuentra en la belleza del mundo y en el amor a los demás, no solo en templos y ritos."
+  ],
+  "curiosidad": "Escribió las canciones que hoy son los himnos nacionales de dos países: la India y Bangladés.",
+  "frase": {
+   "texto": "Si cierras la puerta a todos los errores, también la verdad se quedará fuera.",
+   "fuente": "Pájaros perdidos (Stray Birds, 1916)"
+  },
+  "obras": [
+   {
+    "titulo": "Gitanjali (Ofrenda lírica)",
+    "anio": "1910",
+    "deQueVa": "Poemas espirituales que le dieron fama mundial y el Nobel."
+   },
+   {
+    "titulo": "Sadhana",
+    "anio": "1913",
+    "deQueVa": "Conferencias sobre el sentido de la vida según la tradición india."
+   },
+   {
+    "titulo": "La casa y el mundo",
+    "anio": "1916",
+    "deQueVa": "Novela sobre el amor y el nacionalismo en la India colonial."
+   },
+   {
+    "titulo": "Nacionalismo",
+    "anio": "1917",
+    "deQueVa": "Conferencias contra el nacionalismo agresivo de su tiempo."
+   },
+   {
+    "titulo": "Pájaros perdidos",
+    "anio": "1916",
+    "deQueVa": "Pequeños poemas de una o dos líneas, casi aforismos."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Gitanjali, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/7164",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "Nationalism, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/40766",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "Sadhana, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/6842",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "amartya-sen"
+  ]
+ },
+ {
+  "id": "isaiah-berlin",
+  "nombre": "Isaiah Berlin",
+  "fechas": "1909 – 1997",
+  "region": "Reino Unido",
+  "escuela": "Liberalismo",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Distinguir dos tipos de libertad: que nadie te lo impida y ser dueño de ti mismo",
+  "resumen": "Berlin nació en Riga, vivió de niño la Revolución rusa y acabó siendo profesor en Oxford. Es famoso por una conferencia de 1958 sobre la libertad que todavía se estudia en todas las universidades. Defendía que en la vida hay valores buenos que chocan entre sí, como la libertad y la igualdad, y que no existe una fórmula mágica para encajarlos todos. Por eso desconfiaba de quien promete un mundo perfecto.",
+  "ideas": [
+   "La [[libertad negativa|libertad-negativa]] es que nadie te impida hacer algo; la [[libertad positiva|libertad-positiva]] es ser dueño de tu vida. Las dos son buenas, pero la segunda puede usarse para obligarte «por tu bien».",
+   "El [[pluralismo de valores|pluralismo-de-valores]] dice que hay muchos bienes que no siempre encajan: a veces hay que elegir entre ser sincero y ser amable, y ninguna regla lo decide por ti.",
+   "Hay pensadores «erizo», que lo explican todo con una gran idea, y pensadores «zorro», que saben muchas cosas pequeñas."
+  ],
+  "curiosidad": "De niño, en Petrogrado, vio en directo la Revolución rusa de 1917, y contaba que aquello le dejó para siempre un gran horror a la violencia.",
+  "frase": {
+   "texto": "La libertad para los lobos ha significado con frecuencia la muerte para las ovejas.",
+   "fuente": "Dos conceptos de libertad (1958)"
+  },
+  "obras": [
+   {
+    "titulo": "El erizo y la zorra",
+    "anio": "1953",
+    "deQueVa": "Ensayo sobre Tolstói y los dos tipos de pensadores."
+   },
+   {
+    "titulo": "Dos conceptos de libertad",
+    "anio": "1958",
+    "deQueVa": "La famosa conferencia sobre libertad negativa y positiva."
+   },
+   {
+    "titulo": "Las raíces del romanticismo",
+    "anio": "1999 (conferencias de 1965)",
+    "deQueVa": "Cómo el romanticismo cambió nuestra forma de pensar."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Two Concepts of Liberty» en la Isaiah Berlin Virtual Library (Universidad de Oxford, en inglés)",
+    "url": "https://berlin.wolf.ox.ac.uk/published_works/tcl/index.html",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": [
+   "charles-taylor"
+  ]
+ },
+ {
+  "id": "gilbert-ryle",
+  "nombre": "Gilbert Ryle",
+  "fechas": "1900 – 1976",
+  "region": "Reino Unido",
+  "escuela": "Filosofía del lenguaje ordinario",
+  "categorias": [
+   "mente",
+   "lenguaje"
+  ],
+  "conocidoPor": "Burlarse del «fantasma en la máquina»: la idea de que la mente es algo escondido dentro del cuerpo",
+  "resumen": "Ryle fue un profesor de Oxford que atacó una idea que venía de Descartes: que somos un cuerpo con un espíritu invisible dentro que lo maneja. Para él, decir que alguien es listo o está enfadado no habla de algo oculto, sino de cómo se comporta y de lo que tiende a hacer. Su libro «El concepto de lo mental» cambió la forma de hablar de la mente en el siglo XX.",
+  "ideas": [
+   "El [[error categorial|error-categorial]]: un turista visita las facultades y la biblioteca de Oxford y pregunta «¿y dónde está la universidad?», como si fuera otro edificio más. Igual hacemos con la mente.",
+   "La mente no es un «[[fantasma en la máquina|fantasma-en-la-maquina]]»: tener mente es saber hacer cosas y comportarse de ciertas maneras.",
+   "No es lo mismo «saber qué», como saber que París es la capital de Francia, que «saber cómo», como saber montar en bici."
+  ],
+  "curiosidad": "Dirigió durante casi 25 años, de 1947 a 1971, la revista «Mind», una de las más importantes de la filosofía.",
+  "frase": {
+   "texto": "El dogma del fantasma en la máquina.",
+   "fuente": "El concepto de lo mental (1949), capítulo 1, expresión con la que bautizó la idea de Descartes"
+  },
+  "obras": [
+   {
+    "titulo": "El concepto de lo mental",
+    "anio": "1949",
+    "deQueVa": "Ataque a la idea de una mente oculta dentro del cuerpo."
+   },
+   {
+    "titulo": "Dilemas",
+    "anio": "1954",
+    "deQueVa": "Conferencias sobre choques aparentes entre ciencia y sentido común."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "daniel-dennett"
+  ]
+ },
+ {
+  "id": "j-l-austin",
+  "nombre": "J. L. Austin",
+  "fechas": "1911 – 1960",
+  "region": "Reino Unido",
+  "escuela": "Filosofía del lenguaje ordinario",
+  "categorias": [
+   "lenguaje"
+  ],
+  "conocidoPor": "Descubrir que con las palabras no solo describimos: también hacemos cosas, como prometer o casarnos",
+  "resumen": "Austin fue un profesor de Oxford que se fijó en algo que parece obvio pero nadie había estudiado bien: hay frases que no describen nada, sino que hacen algo. Cuando dices «sí, quiero» en una boda o «te lo prometo», no informas, actúas. De ahí salió la teoría de los [[actos de habla|actos-de-habla]], que hoy se usa en lingüística, en derecho e incluso en inteligencia artificial. Murió joven, con 48 años, y sus libros se publicaron después.",
+  "ideas": [
+   "Los [[enunciados performativos|performativo]], como «os declaro marido y mujer», no son verdaderos ni falsos: o salen bien o salen mal.",
+   "Al hablar hacemos varias cosas a la vez: decir unas palabras, hacer algo con ellas (avisar, amenazar) y provocar un efecto (asustar a alguien).",
+   "Para entender los problemas filosóficos conviene fijarse con lupa en cómo usamos las palabras cada día."
+  ],
+  "curiosidad": "En la Segunda Guerra Mundial trabajó en los servicios de inteligencia británicos y ayudó a preparar el desembarco de Normandía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Alegato en pro de las excusas",
+    "anio": "1956",
+    "deQueVa": "Lo que nuestras excusas revelan sobre la responsabilidad."
+   },
+   {
+    "titulo": "Cómo hacer cosas con palabras",
+    "anio": "1962 (póstumo)",
+    "deQueVa": "Las conferencias donde explica los actos de habla."
+   },
+   {
+    "titulo": "Sentido y percepción",
+    "anio": "1962 (póstumo)",
+    "deQueVa": "Crítica a cómo los filósofos hablaban de lo que vemos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "john-searle",
+   "judith-butler"
+  ]
+ },
+ {
+  "id": "willard-van-orman-quine",
+  "nombre": "Willard Van Orman Quine",
+  "fechas": "1908 – 2000",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica (naturalismo)",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "conocimiento",
+   "ciencia"
+  ],
+  "conocidoPor": "Decir que nuestras creencias forman una red: si tocas una, puedes tener que cambiar las demás",
+  "resumen": "Quine fue un lógico y filósofo de Harvard, uno de los más influyentes de la [[filosofía analítica|filosofia-analitica]]. Defendió que la filosofía no está por encima de la ciencia, sino que forma parte de ella. Su idea más famosa es que lo que sabemos no son piezas sueltas, sino una red de creencias conectadas. Piensa en un detective: una pista nueva puede obligarle a revisar toda su teoría, no solo un detalle.",
+  "ideas": [
+   "Criticó la separación entre verdades «por definición», como «los solteros no están casados», y verdades que dependen de cómo es el mundo: según él, la frontera no es tan clara.",
+   "Nuestras creencias forman una [[red de creencias|red-de-creencias]]: ante un experimento fallido podemos cambiar muchas cosas distintas para que todo vuelva a encajar.",
+   "Si un explorador oye decir «gavagai» al ver pasar un conejo, nunca podrá estar del todo seguro de qué significa: es la [[indeterminacion de la traduccion|indeterminacion-de-la-traduccion]]."
+  ],
+  "curiosidad": "Los programas informáticos que imprimen su propio código se llaman «quines» en su honor; el nombre lo popularizó Douglas Hofstadter.",
+  "frase": {
+   "texto": "Ser es ser el valor de una variable.",
+   "fuente": "«Acerca de lo que hay» (1948)"
+  },
+  "obras": [
+   {
+    "titulo": "Acerca de lo que hay",
+    "anio": "1948",
+    "deQueVa": "Artículo sobre qué cosas debemos aceptar que existen."
+   },
+   {
+    "titulo": "Dos dogmas del empirismo",
+    "anio": "1951",
+    "deQueVa": "Su artículo más famoso, contra dos ideas básicas del empirismo de su tiempo."
+   },
+   {
+    "titulo": "Palabra y objeto",
+    "anio": "1960",
+    "deQueVa": "Sobre el significado, la traducción y el famoso «gavagai»."
+   },
+   {
+    "titulo": "La relatividad ontológica y otros ensayos",
+    "anio": "1969",
+    "deQueVa": "Incluye su propuesta de estudiar el conocimiento como una ciencia más."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Two Dogmas of Empiricism», texto completo en inglés",
+    "url": "https://www.ditext.com/quine/quine.html",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": [
+   "donald-davidson",
+   "daniel-dennett",
+   "hilary-putnam",
+   "richard-rorty"
+  ]
+ },
+ {
+  "id": "elizabeth-anscombe",
+  "nombre": "Elizabeth Anscombe",
+  "fechas": "1919 – 2001",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica (ética de la virtud)",
+  "categorias": [
+   "etica",
+   "mente",
+   "religion"
+  ],
+  "conocidoPor": "Resucitar la [[ética de la virtud|etica-de-la-virtud]] y bautizar el [[consecuencialismo]] para criticarlo",
+  "resumen": "Anscombe fue una filósofa británica, alumna y amiga de Wittgenstein, que tradujo sus obras al inglés. En 1958 escribió un artículo que sacudió la ética: decía que hablar de «deber» sin pensar en el carácter de las personas no tenía sentido, y que había que volver a Aristóteles. También estudió qué significa hacer algo «a propósito». Era católica, muy valiente y nada diplomática.",
+  "ideas": [
+   "En vez de preguntar solo «¿qué norma debo cumplir?», la ética debería preguntar «¿qué tipo de persona quiero ser?»: es la [[ética de la virtud|etica-de-la-virtud]].",
+   "Hay actos que están mal siempre, como matar a inocentes, aunque alguien calcule que traerían buenas consecuencias.",
+   "Una misma acción, como mover el brazo, puede ser también «bombear agua» o «envenenar a alguien»: la [[intencion]] decide qué estás haciendo."
+  ],
+  "curiosidad": "En 1956 se opuso públicamente a que la Universidad de Oxford diera un título honorífico al presidente Truman, porque había ordenado las bombas atómicas sobre Japón.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Intención",
+    "anio": "1957",
+    "deQueVa": "Qué significa hacer algo a propósito."
+   },
+   {
+    "titulo": "La filosofía moral moderna",
+    "anio": "1958",
+    "deQueVa": "Artículo que pidió volver a la ética de la virtud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "philippa-foot",
+   "alasdair-macintyre"
+  ]
+ },
+ {
+  "id": "philippa-foot",
+  "nombre": "Philippa Foot",
+  "fechas": "1920 – 2010",
+  "region": "Reino Unido",
+  "escuela": "Ética de la virtud",
+  "categorias": [
+   "etica"
+  ],
+  "conocidoPor": "Inventar el famoso [[dilema del tranvía|dilema-del-tranvia]]: ¿desviarías un tren para salvar a cinco personas aunque muera una?",
+  "resumen": "Philippa Foot fue una filósofa de Oxford que ayudó a recuperar la [[ética de la virtud|etica-de-la-virtud]] junto a su amiga Elizabeth Anscombe. Es famosa por un ejemplo que propuso en 1967 y que hoy conoce medio mundo: el [[dilema del tranvía|dilema-del-tranvia]]. Pensaba que la bondad no es una opinión ni un gusto, sino algo tan natural como que una planta crezca sana. Hoy su dilema se usa incluso para pensar cómo deben decidir los coches autónomos.",
+  "ideas": [
+   "Un tranvía sin frenos va a atropellar a cinco personas; si el conductor cambia de vía, morirá una. Casi todos dicen que debe cambiarla, pero en otros casos sacrificar a uno por cinco nos parece horrible, y eso hay que explicarlo.",
+   "No es lo mismo hacer daño que dejar que ocurra: sus ejemplos ayudan a pensar esa diferencia.",
+   "Ser bueno es como estar sano: igual que una raíz débil es un defecto en un árbol, ser cruel o cobarde es un defecto en una persona."
+  ],
+  "curiosidad": "Era nieta de Grover Cleveland, que fue presidente de Estados Unidos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El problema del aborto y la doctrina del doble efecto",
+    "anio": "1967",
+    "deQueVa": "El artículo donde aparece el dilema del tranvía."
+   },
+   {
+    "titulo": "Virtudes y vicios",
+    "anio": "1978",
+    "deQueVa": "Recopilación de sus artículos de ética."
+   },
+   {
+    "titulo": "Bondad natural",
+    "anio": "2001",
+    "deQueVa": "La bondad entendida como algo natural, como la salud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "iris-murdoch",
+  "nombre": "Iris Murdoch",
+  "fechas": "1919 – 1999",
+  "region": "Reino Unido (nacida en Irlanda)",
+  "escuela": "Platonismo moral",
+  "categorias": [
+   "etica",
+   "estetica"
+  ],
+  "conocidoPor": "Decir que ser buena persona empieza por aprender a mirar a los demás con atención y cariño",
+  "resumen": "Iris Murdoch fue filósofa en Oxford y una de las novelistas más famosas de Inglaterra. En su filosofía decía que la vida moral no ocurre solo en las grandes decisiones, sino en cómo miramos a los demás cada día. Nuestro ego nos pone unas gafas que lo deforman todo, y el arte y el amor nos ayudan a quitárnoslas. Sus ideas inspiran hoy a quienes hablan de empatía y de atención plena.",
+  "ideas": [
+   "Una suegra que ve a su nuera como vulgar puede, a fuerza de mirarla con más justicia y cariño, descubrir que es sencilla y alegre: ese cambio interior ya es moral.",
+   "La [[atencion]] a los demás, mirarlos tal como son y no como nos conviene, es la base de la bondad.",
+   "El arte bueno, como un cuadro o una novela, nos saca de nuestro ego y nos enseña a ver el mundo real."
+  ],
+  "curiosidad": "Su marido, John Bayley, escribió unas memorias sobre la enfermedad de Alzheimer que ella sufrió al final de su vida, y se convirtieron en la película «Iris» (2001), con Judi Dench y Kate Winslet.",
+  "frase": {
+   "texto": "El amor es la percepción extremadamente difícil de que algo distinto de uno mismo es real.",
+   "fuente": "«Lo sublime y lo bueno» (1959)"
+  },
+  "obras": [
+   {
+    "titulo": "Sartre, un racionalista romántico",
+    "anio": "1953",
+    "deQueVa": "Uno de los primeros libros en inglés sobre Sartre."
+   },
+   {
+    "titulo": "Bajo la red",
+    "anio": "1954",
+    "deQueVa": "Su primera novela, divertida y filosófica."
+   },
+   {
+    "titulo": "La soberanía del bien",
+    "anio": "1970",
+    "deQueVa": "Tres ensayos sobre la atención, el amor y el bien."
+   },
+   {
+    "titulo": "El mar, el mar",
+    "anio": "1978",
+    "deQueVa": "Novela que ganó el Premio Booker, sobre el ego y la obsesión."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "mary-midgley",
+  "nombre": "Mary Midgley",
+  "fechas": "1919 – 2018",
+  "region": "Reino Unido",
+  "escuela": "Naturalismo ético",
+  "categorias": [
+   "etica",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Recordarnos que somos animales, y criticar a quienes convierten la ciencia en una especie de religión",
+  "resumen": "Mary Midgley fue una filósofa británica que empezó a publicar libros tarde, pero escribió hasta los 99 años. Defendía que los seres humanos somos animales con instintos, emociones y vida social, y que eso no nos rebaja. A la vez, criticó a científicos famosos como Richard Dawkins cuando, según ella, presentaban sus teorías como si lo explicaran todo. Comparaba la filosofía con la fontanería: nadie la ve, pero cuando falla, toda la casa huele mal.",
+  "ideas": [
+   "Somos animales, y entender a otros animales nos ayuda a entendernos: no hay que avergonzarse de ello.",
+   "El [[cientificismo]] es creer que la ciencia puede responder a todas las preguntas, también a las del sentido de la vida o la moral; ella lo veía como un mito.",
+   "Las ideas de fondo de una sociedad son como las tuberías de una casa: no las vemos, pero si están mal todo funciona mal."
+  ],
+  "curiosidad": "Publicó su primer libro, «Bestia y hombre», cuando tenía casi 60 años, y el último, «¿Para qué sirve la filosofía?», el mismo año de su muerte, con 99.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Bestia y hombre",
+    "anio": "1978",
+    "deQueVa": "Lo que nos une a los animales y por qué importa."
+   },
+   {
+    "titulo": "Wickedness (La maldad)",
+    "anio": "1984",
+    "deQueVa": "Intento de entender de dónde sale el mal."
+   },
+   {
+    "titulo": "Evolution as a Religion",
+    "anio": "1985",
+    "deQueVa": "Cómo algunas ideas sobre la evolución se vuelven casi una fe."
+   },
+   {
+    "titulo": "What Is Philosophy For? (¿Para qué sirve la filosofía?)",
+    "anio": "2018",
+    "deQueVa": "Su último libro, escrito con 99 años."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "thomas-kuhn",
+  "nombre": "Thomas Kuhn",
+  "fechas": "1922 – 1996",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía e historia de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar que la ciencia avanza a saltos, con [[revoluciones científicas|revolucion-cientifica]] que cambian de [[paradigma]]",
+  "resumen": "Kuhn era físico y se pasó a la historia de la ciencia. Su libro «La estructura de las revoluciones científicas» (1962) es uno de los más citados del siglo XX. Explicó que la ciencia no avanza sumando datos poco a poco, sino que de vez en cuando hay revoluciones que cambian por completo la forma de ver el mundo, como cuando se pasó de creer que el Sol gira alrededor de la Tierra a lo contrario. Gracias a él hoy todo el mundo habla de «cambio de [[paradigma]]».",
+  "ideas": [
+   "Un [[paradigma]] es el conjunto de ideas, problemas y métodos que una comunidad científica da por buenos en una época, como unas gafas compartidas.",
+   "La [[ciencia normal|ciencia-normal]] resuelve problemas dentro del paradigma, hasta que se acumulan tantas [[anomalias|anomalia]] que estalla una revolución.",
+   "Después de una revolución, los científicos ven el mundo de otra manera, y a veces les cuesta hasta entenderse con los del paradigma anterior."
+  ],
+  "curiosidad": "Contaba que su gran idea le vino en 1947 leyendo la «Física» de Aristóteles: al principio le parecía absurda, hasta que entendió que Aristóteles miraba el mundo con otras «gafas».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La revolución copernicana",
+    "anio": "1957",
+    "deQueVa": "Cómo se pasó de poner la Tierra en el centro a poner el Sol."
+   },
+   {
+    "titulo": "La estructura de las revoluciones científicas",
+    "anio": "1962",
+    "deQueVa": "Su gran libro sobre paradigmas y revoluciones en la ciencia."
+   },
+   {
+    "titulo": "La tensión esencial",
+    "anio": "1977",
+    "deQueVa": "Ensayos sobre tradición y cambio en la ciencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "paul-feyerabend",
+   "imre-lakatos",
+   "richard-rorty",
+   "bruno-latour"
+  ]
+ },
+ {
+  "id": "paul-feyerabend",
+  "nombre": "Paul Feyerabend",
+  "fechas": "1924 – 1994",
+  "region": "Austria",
+  "escuela": "Anarquismo epistemológico",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que en ciencia no hay un único método válido: «todo vale»",
+  "resumen": "Feyerabend fue un filósofo austriaco, provocador y con mucho sentido del humor, que dio clases en Berkeley y en Zúrich. Estudió la historia de la ciencia y concluyó que los grandes científicos, como Galileo, muchas veces rompieron las reglas del «método científico». Por eso defendió el [[anarquismo epistemologico|anarquismo-epistemologico]]: ninguna regla debe estar por encima de todo. No estaba contra la ciencia, sino contra convertirla en una autoridad que nadie puede discutir.",
+  "ideas": [
+   "Si repasas la historia, cada regla del método científico ha sido rota alguna vez con éxito; por eso decía, medio en broma, que «todo vale».",
+   "La ciencia es una forma muy valiosa de conocer, pero no la única: las tradiciones de otros pueblos también pueden enseñarnos cosas.",
+   "Igual que se separó la Iglesia del Estado, pedía separar la ciencia del Estado, para que los ciudadanos pudieran decidir y opinar."
+  ],
+  "curiosidad": "En la Segunda Guerra Mundial, siendo soldado del ejército alemán, recibió un disparo en la columna y tuvo que caminar con muletas o bastón el resto de su vida.",
+  "frase": {
+   "texto": "El único principio que no inhibe el progreso es: todo vale.",
+   "fuente": "Contra el método (1975)"
+  },
+  "obras": [
+   {
+    "titulo": "Contra el método",
+    "anio": "1975",
+    "deQueVa": "Por qué la ciencia no sigue un único método fijo."
+   },
+   {
+    "titulo": "La ciencia en una sociedad libre",
+    "anio": "1978",
+    "deQueVa": "Quién debe decidir sobre la ciencia en una democracia."
+   },
+   {
+    "titulo": "Adiós a la razón",
+    "anio": "1987",
+    "deQueVa": "Ensayos contra la idea de una única forma correcta de pensar."
+   },
+   {
+    "titulo": "Matando el tiempo",
+    "anio": "1995",
+    "deQueVa": "Su autobiografía, divertida y sincera."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "imre-lakatos",
+  "nombre": "Imre Lakatos",
+  "fechas": "1922 – 1974",
+  "region": "Hungría y Reino Unido",
+  "escuela": "Filosofía de la ciencia (racionalismo crítico)",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "logica"
+  ],
+  "conocidoPor": "Explicar la ciencia como [[programas de investigación|programas-de-investigacion]] que pueden progresar o estancarse",
+  "resumen": "Lakatos fue un matemático y filósofo húngaro que sobrevivió al nazismo y a una cárcel estalinista, y acabó siendo profesor en Londres. Intentó encontrar un punto medio entre Popper, que decía que la ciencia avanza tirando las teorías que fallan, y Kuhn, que hablaba de revoluciones. Su respuesta: los científicos no abandonan una teoría al primer fallo, sino que la protegen mientras siga dando frutos.",
+  "ideas": [
+   "Un [[programa de investigación|programas-de-investigacion]] tiene un núcleo de ideas que no se toca y un «cinturón» de ideas secundarias que se van ajustando cuando algo falla.",
+   "Un programa es bueno si predice cosas nuevas que luego se confirman; si solo pone parches para salvarse, está estancado.",
+   "Las matemáticas también avanzan probando, encontrando contraejemplos y corrigiendo, no solo con demostraciones perfectas desde el principio."
+  ],
+  "curiosidad": "Nació con el apellido Lipsitz y lo cambió para esconder su origen judío ante los nazis. Más tarde pasó tres años en un campo de trabajo del régimen comunista húngaro.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Pruebas y refutaciones",
+    "anio": "1976 (póstumo)",
+    "deQueVa": "Diálogo en una clase sobre cómo se descubren las matemáticas."
+   },
+   {
+    "titulo": "La falsación y la metodología de los programas de investigación científica",
+    "anio": "1970",
+    "deQueVa": "El artículo donde explica su teoría."
+   },
+   {
+    "titulo": "A favor y en contra del método",
+    "anio": "1999 (póstumo)",
+    "deQueVa": "Sus clases y cartas con su amigo y rival Feyerabend."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michel-foucault",
+  "nombre": "Michel Foucault",
+  "fechas": "1926 – 1984",
+  "region": "Francia",
+  "escuela": "Postestructuralismo",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Estudiar cómo el poder nos vigila y nos moldea en cárceles, escuelas, hospitales y fábricas",
+  "resumen": "Foucault fue un filósofo e historiador francés, uno de los pensadores más citados del mundo. Investigó cómo trataba la sociedad a los locos, a los presos o a los enfermos, y descubrió que el poder no solo prohíbe: también nos educa, nos ordena y nos dice qué es «normal». Piensa en el horario del colegio, las notas o las cámaras de vigilancia. Sus ideas se usan hoy para hablar de redes sociales, salud o sexualidad.",
+  "ideas": [
+   "El [[panoptico]] es una cárcel en la que el preso no sabe si le miran; al final se vigila solo. Según él, la sociedad moderna funciona un poco así.",
+   "Poder y saber van juntos: quien decide qué es «normal» o «enfermo», como un médico o un experto, tiene poder sobre los demás.",
+   "El [[biopoder]] es el poder que se ocupa de nuestros cuerpos y nuestra salud: vacunas, natalidad, dietas o estadísticas de población."
+  ],
+  "curiosidad": "En 1971 tuvo un famoso debate en la televisión holandesa con Noam Chomsky sobre la naturaleza humana y la justicia, que hoy se puede ver en internet.",
+  "frase": {
+   "texto": "El hombre es una invención cuya fecha reciente muestra con toda facilidad la arqueología de nuestro pensamiento. Y quizá también su próximo fin.",
+   "fuente": "Las palabras y las cosas (1966), final del libro"
+  },
+  "obras": [
+   {
+    "titulo": "Historia de la locura en la época clásica",
+    "anio": "1961",
+    "deQueVa": "Cómo empezó la sociedad a encerrar a los «locos»."
+   },
+   {
+    "titulo": "Las palabras y las cosas",
+    "anio": "1966",
+    "deQueVa": "Cómo cambian con los siglos las formas de ordenar el saber."
+   },
+   {
+    "titulo": "La arqueología del saber",
+    "anio": "1969",
+    "deQueVa": "Explica su método para estudiar la historia de las ideas."
+   },
+   {
+    "titulo": "Vigilar y castigar",
+    "anio": "1975",
+    "deQueVa": "Del castigo en la plaza pública a la cárcel moderna y la vigilancia."
+   },
+   {
+    "titulo": "Historia de la sexualidad",
+    "anio": "1976–1984",
+    "deQueVa": "Cómo la sociedad habla, controla y piensa el sexo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "judith-butler",
+   "giorgio-agamben",
+   "edward-said",
+   "achille-mbembe"
+  ]
+ },
+ {
+  "id": "jacques-derrida",
+  "nombre": "Jacques Derrida",
+  "fechas": "1930 – 2004",
+  "region": "Francia (nacido en Argelia)",
+  "escuela": "Deconstrucción (postestructuralismo)",
+  "categorias": [
+   "lenguaje",
+   "metafisica",
+   "estetica"
+  ],
+  "conocidoPor": "Inventar la [[deconstruccion]]: leer un texto buscando las contradicciones que esconde",
+  "resumen": "Derrida fue un filósofo francés nacido en Argelia, famoso por la [[deconstruccion]], una forma de leer textos muy de cerca hasta encontrar lo que dan por supuesto sin decirlo. Se dio cuenta de que pensamos con parejas de opuestos, como hombre/mujer, razón/emoción o hablar/escribir, y que casi siempre tratamos uno como mejor. Su estilo es difícil, pero su idea se ha usado en literatura, arquitectura, derecho y estudios de género.",
+  "ideas": [
+   "Pensamos con parejas de opuestos en las que uno manda, como «natural» y «artificial»; la [[deconstruccion]] muestra que esa jerarquía no es tan firme.",
+   "El significado de una palabra nunca está del todo fijo: depende de otras palabras y se va aplazando, algo que él llamó [[differance]].",
+   "La tradición filosófica ha preferido la voz a la escritura, como si hablar fuera más «auténtico»; él lo puso en duda."
+  ],
+  "curiosidad": "En 1992 la Universidad de Cambridge quiso darle un doctorado honoris causa y hubo tanta polémica que se votó: ganaron los partidarios, 336 contra 204.",
+  "frase": {
+   "texto": "No hay fuera-del-texto.",
+   "fuente": "De la gramatología (1967)"
+  },
+  "obras": [
+   {
+    "titulo": "De la gramatología",
+    "anio": "1967",
+    "deQueVa": "Por qué la filosofía ha despreciado la escritura."
+   },
+   {
+    "titulo": "La escritura y la diferencia",
+    "anio": "1967",
+    "deQueVa": "Ensayos sobre filósofos y escritores leídos a su manera."
+   },
+   {
+    "titulo": "La voz y el fenómeno",
+    "anio": "1967",
+    "deQueVa": "Crítica a la idea de que el significado está presente en la voz."
+   },
+   {
+    "titulo": "Espectros de Marx",
+    "anio": "1993",
+    "deQueVa": "Lo que queda de Marx tras la caída del comunismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "judith-butler",
+   "gayatri-chakravorty-spivak"
+  ]
+ },
+ {
+  "id": "gilles-deleuze",
+  "nombre": "Gilles Deleuze",
+  "fechas": "1925 – 1995",
+  "region": "Francia",
+  "escuela": "Postestructuralismo",
+  "categorias": [
+   "metafisica",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Pensar el mundo como un [[rizoma]], una red sin centro, y la filosofía como el arte de crear conceptos",
+  "resumen": "Deleuze fue un filósofo francés muy creativo que escribió sobre otros filósofos, sobre cine, pintura y literatura. Con el psicoanalista Félix Guattari escribió libros rompedores como «El Anti-Edipo». Le interesaba más la diferencia y el cambio que lo fijo y lo idéntico. Su imagen del [[rizoma]], una red sin centro como las raíces de la hierba, se usa hoy para explicar internet.",
+  "ideas": [
+   "Un árbol tiene tronco y jerarquía; un [[rizoma]], como la hierba o internet, crece en red y cualquier punto puede conectarse con cualquier otro.",
+   "El deseo no es solo «falta de algo»: es una fuerza que crea y conecta cosas.",
+   "Avisó de que pasábamos de las [[sociedades disciplinarias|sociedades-disciplinarias]], con muros y horarios, a [[sociedades de control|sociedades-de-control]], con códigos, contraseñas y vigilancia continua."
+  ],
+  "curiosidad": "Grabó para la televisión una larga entrevista, «El abecedario de Gilles Deleuze», en la que habla de un tema por cada letra: A de «animal», B de «bebida»…",
+  "frase": {
+   "texto": "La filosofía es el arte de formar, de inventar, de fabricar conceptos.",
+   "fuente": "¿Qué es la filosofía? (1991), con Félix Guattari"
+  },
+  "obras": [
+   {
+    "titulo": "Diferencia y repetición",
+    "anio": "1968",
+    "deQueVa": "Su gran obra sobre la diferencia como base de todo."
+   },
+   {
+    "titulo": "Lógica del sentido",
+    "anio": "1969",
+    "deQueVa": "Sobre el sentido, con Alicia en el País de las Maravillas de ejemplo."
+   },
+   {
+    "titulo": "El Anti-Edipo",
+    "anio": "1972",
+    "deQueVa": "Con Guattari: crítica al psicoanálisis y al capitalismo."
+   },
+   {
+    "titulo": "Mil mesetas",
+    "anio": "1980",
+    "deQueVa": "Con Guattari: donde aparece la idea de rizoma."
+   },
+   {
+    "titulo": "¿Qué es la filosofía?",
+    "anio": "1991",
+    "deQueVa": "Con Guattari: la filosofía como creación de conceptos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jean-francois-lyotard",
+  "nombre": "Jean-François Lyotard",
+  "fechas": "1924 – 1998",
+  "region": "Francia",
+  "escuela": "Posmodernismo",
+  "categorias": [
+   "sociedad",
+   "conocimiento",
+   "estetica"
+  ],
+  "conocidoPor": "Definir la [[posmodernidad]] como el fin de los grandes relatos que lo explicaban todo",
+  "resumen": "Lyotard fue un filósofo francés que en 1979 puso de moda la palabra «posmoderno». Decía que ya no creemos en las grandes historias que prometían un final feliz, como que la ciencia o la revolución nos llevarían al paraíso. En su lugar, vivimos entre muchos relatos pequeños que conviven y compiten. Esto ayuda a entender un mundo donde cada uno parece tener su propia verdad.",
+  "ideas": [
+   "Los [[metarrelatos|metarrelato]] son grandes historias que lo explicaban todo, como «el progreso nos hará libres»; en la [[posmodernidad]] ya no nos los creemos.",
+   "El saber se ha convertido en una mercancía: se valora más si es útil y rentable que si es verdadero.",
+   "Hay conflictos en los que las dos partes hablan «idiomas» tan distintos que no existe un juez neutral para decidir: él lo llamó [[diferendo]]."
+  ],
+  "curiosidad": "«La condición posmoderna», su libro más famoso, fue en origen un informe sobre el saber encargado por el Gobierno de Quebec, en Canadá.",
+  "frase": {
+   "texto": "Simplificando al máximo, se tiene por posmoderna la incredulidad con respecto a los metarrelatos.",
+   "fuente": "La condición posmoderna (1979), introducción"
+  },
+  "obras": [
+   {
+    "titulo": "Economía libidinal",
+    "anio": "1974",
+    "deQueVa": "Libro provocador sobre el deseo y el capitalismo."
+   },
+   {
+    "titulo": "La condición posmoderna",
+    "anio": "1979",
+    "deQueVa": "El fin de los grandes relatos y el saber en la era de la información."
+   },
+   {
+    "titulo": "La diferencia (Le Différend)",
+    "anio": "1983",
+    "deQueVa": "Conflictos que no se pueden resolver con un juez neutral."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jean-baudrillard",
+  "nombre": "Jean Baudrillard",
+  "fechas": "1929 – 2007",
+  "region": "Francia",
+  "escuela": "Posmodernismo",
+  "categorias": [
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Decir que vivimos rodeados de [[simulacros|simulacro]]: copias e imágenes que ya parecen más reales que la realidad",
+  "resumen": "Baudrillard fue un sociólogo y filósofo francés que estudió la [[sociedad de consumo|sociedad-de-consumo]] y los medios de comunicación. Su idea más famosa es que las imágenes, los anuncios y las pantallas han sustituido a la realidad: Disneylandia, las fotos retocadas o los perfiles de Instagram son más «reales» para nosotros que lo que imitan. Para muchos, internet y las redes sociales le han dado la razón.",
+  "ideas": [
+   "No compramos objetos solo por su utilidad, sino por lo que dicen de nosotros: unas zapatillas de marca son un mensaje.",
+   "Un [[simulacro]] es una copia que ya no copia nada real, como un parque temático de una ciudad «típica» que nunca existió.",
+   "En la [[hiperrealidad]], lo que vemos en pantallas nos parece más real que la propia realidad, como una guerra vista solo por televisión."
+  ],
+  "curiosidad": "En la película «Matrix» (1999), el protagonista esconde programas dentro de un ejemplar hueco de su libro «Simulacros y simulación».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El sistema de los objetos",
+    "anio": "1968",
+    "deQueVa": "Qué significan los objetos de casa en la sociedad moderna."
+   },
+   {
+    "titulo": "La sociedad de consumo",
+    "anio": "1970",
+    "deQueVa": "Consumir como forma de mostrar quién eres."
+   },
+   {
+    "titulo": "Cultura y simulacro (Simulacros y simulación)",
+    "anio": "1981",
+    "deQueVa": "Las copias que sustituyen a la realidad."
+   },
+   {
+    "titulo": "La guerra del Golfo no ha tenido lugar",
+    "anio": "1991",
+    "deQueVa": "Provocación sobre una guerra vivida como espectáculo televisivo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "louis-althusser",
+  "nombre": "Louis Althusser",
+  "fechas": "1918 – 1990",
+  "region": "Francia (nacido en Argelia)",
+  "escuela": "Marxismo estructuralista",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "ciencia"
+  ],
+  "conocidoPor": "Explicar que la escuela, la familia o los medios son [[aparatos ideológicos|aparatos-ideologicos-del-estado]] que nos enseñan a obedecer",
+  "resumen": "Althusser fue un filósofo marxista francés, profesor en la prestigiosa Escuela Normal Superior de París, donde formó a muchos pensadores famosos. Se preguntó por qué la mayoría de la gente acepta su lugar en la sociedad sin que haga falta la policía. Su respuesta: instituciones como la escuela, la familia, la religión o los medios nos enseñan desde niños a ver el mundo de una manera. Su vida terminó de forma trágica por su enfermedad mental.",
+  "ideas": [
+   "El Estado no solo manda con policía y ejército: también con [[aparatos ideológicos|aparatos-ideologicos-del-estado]] como la escuela, que enseña lo que es «normal».",
+   "La [[interpelacion]]: cuando un policía grita «¡eh, usted!» y te das la vuelta, ya aceptas ser ese «usted»; así nos convierte la [[ideologia]] en [[sujetos|sujeto]].",
+   "Sostuvo que el Marx maduro hizo una ciencia nueva, distinta de sus escritos de juventud: lo llamó [[ruptura epistemologica|ruptura-epistemologica]]."
+  ],
+  "curiosidad": "En 1980, en plena crisis mental, mató a su esposa Hélène. Fue declarado no responsable por su enfermedad y nunca fue juzgado; años después lo contó en sus memorias, «El porvenir es largo».",
+  "frase": {
+   "texto": "La ideología interpela a los individuos como sujetos.",
+   "fuente": "Ideología y aparatos ideológicos del Estado (1970)"
+  },
+  "obras": [
+   {
+    "titulo": "La revolución teórica de Marx (Pour Marx)",
+    "anio": "1965",
+    "deQueVa": "Cómo leer a Marx como científico."
+   },
+   {
+    "titulo": "Para leer El capital",
+    "anio": "1965",
+    "deQueVa": "Lectura colectiva de la gran obra de Marx con sus alumnos."
+   },
+   {
+    "titulo": "Ideología y aparatos ideológicos del Estado",
+    "anio": "1970",
+    "deQueVa": "Cómo la escuela, la familia o la Iglesia nos enseñan a obedecer."
+   },
+   {
+    "titulo": "El porvenir es largo",
+    "anio": "1992 (póstumo)",
+    "deQueVa": "Memorias en las que cuenta su vida y su tragedia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "alain-badiou",
+   "jacques-ranciere",
+   "ernesto-laclau"
+  ]
+ },
+ {
+  "id": "roland-barthes",
+  "nombre": "Roland Barthes",
+  "fechas": "1915 – 1980",
+  "region": "Francia",
+  "escuela": "Estructuralismo y semiología",
+  "categorias": [
+   "lenguaje",
+   "estetica",
+   "sociedad"
+  ],
+  "conocidoPor": "Descifrar los [[mitos modernos|mito-barthes]] de la publicidad y la cultura popular, y anunciar «la muerte del autor»",
+  "resumen": "Barthes fue un crítico y ensayista francés que enseñó a leer todo como si fuera un texto: un anuncio, un plato de comida, un coche o un combate de lucha libre. Usó la [[semiologia]], la ciencia de los signos, para mostrar los mensajes escondidos en la cultura de cada día. También dijo que el significado de un libro no lo decide el autor, sino cada lector. Sus ensayos se leen hoy en clases de publicidad, periodismo y literatura.",
+  "ideas": [
+   "Un [[mito|mito-barthes]] moderno es un mensaje que parece natural pero no lo es: un anuncio de pasta con tomates y pimientos nos vende la idea de «Italia» y de lo casero.",
+   "La «muerte del autor»: un texto no significa solo lo que su autor quiso decir; cada lector lo completa.",
+   "En una foto hay cosas que nos interesan a todos y, a veces, un detalle pequeño que nos «pincha» a nosotros en particular: él lo llamó [[punctum]]."
+  ],
+  "curiosidad": "Murió en 1980 por las heridas que sufrió al ser atropellado por una furgoneta de lavandería en París, al salir de una comida con François Mitterrand.",
+  "frase": {
+   "texto": "El nacimiento del lector se paga con la muerte del Autor.",
+   "fuente": "«La muerte del autor» (1967)"
+  },
+  "obras": [
+   {
+    "titulo": "El grado cero de la escritura",
+    "anio": "1953",
+    "deQueVa": "Sobre el estilo y la responsabilidad del escritor."
+   },
+   {
+    "titulo": "Mitologías",
+    "anio": "1957",
+    "deQueVa": "Ensayos breves sobre los mitos de la cultura popular francesa."
+   },
+   {
+    "titulo": "La muerte del autor",
+    "anio": "1967",
+    "deQueVa": "Ensayo que da el protagonismo al lector."
+   },
+   {
+    "titulo": "El placer del texto",
+    "anio": "1973",
+    "deQueVa": "El gusto y el disfrute de leer."
+   },
+   {
+    "titulo": "La cámara lúcida",
+    "anio": "1980",
+    "deQueVa": "Reflexiones sobre la fotografía, escritas tras la muerte de su madre."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "julia-kristeva"
+  ]
+ },
+ {
+  "id": "jurgen-habermas",
+  "nombre": "Jürgen Habermas",
+  "fechas": "1929 – 2026",
+  "region": "Alemania",
+  "escuela": "Teoría crítica (Escuela de Fráncfort)",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Defender que la democracia se basa en dialogar con buenos argumentos en una [[esfera publica|esfera-publica]] abierta",
+  "resumen": "Habermas fue el filósofo alemán más influyente de la segunda mitad del siglo XX y heredero de la [[Escuela de Fráncfort|escuela-de-francfort]]. Su gran idea es que podemos ponernos de acuerdo hablando, siempre que todos puedan participar y gane el mejor argumento, no el que más grita o más dinero tiene. Estudió cómo nació la [[esfera publica|esfera-publica]] en los cafés y periódicos del siglo XVIII y participó en muchos debates sobre Europa, la memoria del nazismo o la genética.",
+  "ideas": [
+   "La [[accion comunicativa|accion-comunicativa]] busca entenderse con el otro, no manipularlo: como cuando una familia discute para llegar a un acuerdo justo.",
+   "Una norma es justa si todos los afectados podrían aceptarla en un diálogo libre: es la [[etica del discurso|etica-del-discurso]].",
+   "La democracia necesita una [[esfera publica|esfera-publica]] sana, con medios y espacios donde los ciudadanos debatan de verdad."
+  ],
+  "curiosidad": "Nació con labio leporino y fue operado de niño. Él mismo contó que sus dificultades para hablar y hacerse entender le hicieron pensar en la importancia de la comunicación.",
+  "frase": {
+   "texto": "La coacción sin coacciones del mejor argumento.",
+   "fuente": "Expresión que usa en varias obras, como Teoría de la acción comunicativa (1981)"
+  },
+  "obras": [
+   {
+    "titulo": "Historia y crítica de la opinión pública",
+    "anio": "1962",
+    "deQueVa": "Cómo nació y cómo se estropeó la esfera pública."
+   },
+   {
+    "titulo": "Conocimiento e interés",
+    "anio": "1968",
+    "deQueVa": "Qué intereses humanos hay detrás de cada tipo de saber."
+   },
+   {
+    "titulo": "Teoría de la acción comunicativa",
+    "anio": "1981",
+    "deQueVa": "Su gran obra: la sociedad entendida desde el diálogo."
+   },
+   {
+    "titulo": "Facticidad y validez",
+    "anio": "1992",
+    "deQueVa": "El derecho y la democracia basados en el diálogo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "seyla-benhabib",
+   "nancy-fraser",
+   "adela-cortina"
+  ]
+ },
+ {
+  "id": "john-rawls",
+  "nombre": "John Rawls",
+  "fechas": "1921 – 2002",
+  "region": "Estados Unidos",
+  "escuela": "Liberalismo igualitario",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Proponer el [[velo de ignorancia|velo-de-ignorancia]]: diseña una sociedad justa sin saber qué lugar te tocará en ella",
+  "resumen": "Rawls fue un profesor de Harvard y el filósofo político más importante del siglo XX en inglés. Su libro «Teoría de la justicia» (1971) se pregunta qué reglas aceptaríamos para repartir derechos y riqueza si fuéramos imparciales de verdad. Su respuesta, con el famoso [[velo de ignorancia|velo-de-ignorancia]], sigue presente en los debates sobre impuestos, sanidad pública o igualdad de oportunidades.",
+  "ideas": [
+   "Imagina que repartes una tarta sin saber qué trozo te tocará: lo harás justo. Así funciona el [[velo de ignorancia|velo-de-ignorancia]].",
+   "Primero van las libertades básicas para todos, como votar, opinar o creer lo que quieras, y nadie puede quitártelas para conseguir más riqueza.",
+   "El [[principio de diferencia|principio-de-diferencia]]: las desigualdades solo son aceptables si también mejoran la vida de los que están peor."
+  ],
+  "curiosidad": "Fue soldado en el Pacífico durante la Segunda Guerra Mundial y pasó por Hiroshima poco después de la bomba atómica, algo que le marcó para siempre.",
+  "frase": {
+   "texto": "La justicia es la primera virtud de las instituciones sociales, como la verdad lo es de los sistemas de pensamiento.",
+   "fuente": "Teoría de la justicia (1971), § 1"
+  },
+  "obras": [
+   {
+    "titulo": "Teoría de la justicia",
+    "anio": "1971",
+    "deQueVa": "Cómo sería una sociedad justa elegida con imparcialidad."
+   },
+   {
+    "titulo": "Liberalismo político",
+    "anio": "1993",
+    "deQueVa": "Cómo pueden convivir en paz personas con creencias muy distintas."
+   },
+   {
+    "titulo": "El derecho de gentes",
+    "anio": "1999",
+    "deQueVa": "Su idea de justicia aplicada a las relaciones entre países."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "robert-nozick",
+   "michael-sandel",
+   "amartya-sen",
+   "martha-nussbaum"
+  ]
+ },
+ {
+  "id": "robert-nozick",
+  "nombre": "Robert Nozick",
+  "fechas": "1938 – 2002",
+  "region": "Estados Unidos",
+  "escuela": "Libertarismo",
+  "categorias": [
+   "politica",
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Defender un [[Estado mínimo|estado-minimo]] y plantear la «máquina de experiencias»: ¿te conectarías a una vida falsa pero feliz?",
+  "resumen": "Nozick fue un filósofo de Harvard, compañero y rival de Rawls. En «Anarquía, Estado y utopía» (1974) defendió el [[libertarismo]]: cada persona es dueña de sí misma y de lo que gana honradamente, y el Estado solo debe protegernos de robos, fraudes y violencia. También inventó experimentos mentales famosísimos, como la «máquina de experiencias», que hoy se usan para pensar en la realidad virtual.",
+  "ideas": [
+   "Si mucha gente paga libremente por ver jugar a un gran jugador de baloncesto, este se hará rico, y según Nozick no es injusto aunque cree desigualdad.",
+   "El Estado debe ser un [[Estado mínimo|estado-minimo]]: policía, jueces y defensa, pero no quitar a unos para dar a otros.",
+   "La [[maquina de experiencias|maquina-de-experiencias]]: si una máquina te hiciera vivir sensaciones perfectas, ¿te conectarías para siempre? Casi nadie quiere, y eso muestra que no solo buscamos placer."
+  ],
+  "curiosidad": "Años después de su famoso libro, en «Meditaciones sobre la vida» (1989), reconoció que su postura [[libertaria|libertarismo]] de juventud le parecía ya insuficiente.",
+  "frase": {
+   "texto": "Los individuos tienen derechos, y hay cosas que ninguna persona ni grupo puede hacerles (sin violar sus derechos).",
+   "fuente": "Anarquía, Estado y utopía (1974), primera frase del prefacio"
+  },
+  "obras": [
+   {
+    "titulo": "Anarquía, Estado y utopía",
+    "anio": "1974",
+    "deQueVa": "Defensa del Estado mínimo y respuesta a Rawls."
+   },
+   {
+    "titulo": "Explicaciones filosóficas",
+    "anio": "1981",
+    "deQueVa": "Sobre el conocimiento, la identidad y el sentido de la vida."
+   },
+   {
+    "titulo": "Meditaciones sobre la vida",
+    "anio": "1989",
+    "deQueVa": "Reflexiones personales sobre el amor, la muerte o la felicidad."
+   },
+   {
+    "titulo": "La naturaleza de la racionalidad",
+    "anio": "1993",
+    "deQueVa": "Qué significa decidir de forma racional."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alasdair-macintyre",
+  "nombre": "Alasdair MacIntyre",
+  "fechas": "1929 – 2025",
+  "region": "Reino Unido (Escocia) y Estados Unidos",
+  "escuela": "Ética de la virtud (aristotelismo tomista)",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Decir que la ética moderna está rota y que debemos recuperar las [[virtudes|virtud]] y las tradiciones",
+  "resumen": "MacIntyre fue un filósofo escocés que trabajó casi toda su vida en Estados Unidos. En «Tras la virtud» (1981) dijo que hoy discutimos de moral sin ponernos nunca de acuerdo porque usamos palabras sueltas de tradiciones antiguas que ya no compartimos. Propuso volver a Aristóteles: pensar en qué tipo de persona y de comunidad queremos ser. Su libro es uno de los más influyentes de la ética reciente.",
+  "ideas": [
+   "Los debates morales de hoy, como el aborto o la guerra, no acaban nunca porque cada bando parte de supuestos distintos que nadie comparte.",
+   "Las [[virtudes|virtud]] se aprenden en «prácticas», como jugar al ajedrez, tocar en una orquesta o cuidar una granja, donde hay una forma excelente de hacer las cosas.",
+   "Entendemos nuestra vida como una historia: para saber qué hacer, necesitamos saber de qué historia formamos parte."
+  ],
+  "curiosidad": "De joven fue marxista y más tarde se convirtió al catolicismo y se hizo seguidor de Tomás de Aquino.",
+  "frase": {
+   "texto": "Solo puedo contestar a la pregunta «¿qué voy a hacer?» si puedo contestar a la pregunta previa «¿de qué historia o historias me encuentro formando parte?».",
+   "fuente": "Tras la virtud (1981), capítulo 15"
+  },
+  "obras": [
+   {
+    "titulo": "Historia de la ética",
+    "anio": "1966",
+    "deQueVa": "Breve repaso de la ética desde los griegos."
+   },
+   {
+    "titulo": "Tras la virtud",
+    "anio": "1981",
+    "deQueVa": "Por qué la moral moderna fracasa y cómo recuperar las virtudes."
+   },
+   {
+    "titulo": "¿Justicia de quién? ¿Qué racionalidad?",
+    "anio": "1988",
+    "deQueVa": "Cada tradición tiene su propia idea de lo justo y lo razonable."
+   },
+   {
+    "titulo": "Animales racionales y dependientes",
+    "anio": "1999",
+    "deQueVa": "Por qué necesitamos virtudes de cuidado: todos somos frágiles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "charles-taylor",
+  "nombre": "Charles Taylor",
+  "fechas": "1931 –",
+  "region": "Canadá",
+  "escuela": "Comunitarismo y hermenéutica",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Explicar que necesitamos que los demás nos reconozcan para ser quienes somos, y cómo llegamos a la [[era secular|era-secular]]",
+  "resumen": "Charles Taylor es un filósofo canadiense de Montreal, una ciudad donde conviven francés e inglés, y eso se nota en su obra. Le interesa cómo se forma nuestra identidad: según él, nadie se hace a sí mismo solo, sino en diálogo con su familia, su cultura y su comunidad. También ha estudiado por qué en Occidente creer en Dios pasó de ser lo normal a ser una opción entre otras. Sus ideas se usan en debates sobre [[multiculturalismo]] y religión.",
+  "ideas": [
+   "La [[politica del reconocimiento|politica-del-reconocimiento]]: si la sociedad desprecia tu lengua o tu cultura, te hace daño de verdad, porque nuestra identidad depende de cómo nos ven.",
+   "Ser [[auténtico|autenticidad]], fiel a ti mismo, es un ideal valioso, pero se estropea cuando se convierte en puro egoísmo.",
+   "Vivimos en una [[era secular|era-secular]]: no porque nadie crea, sino porque creer o no creer se ha vuelto una elección personal."
+  ],
+  "curiosidad": "Se presentó varias veces a las elecciones al Parlamento de Canadá por un partido socialdemócrata y perdió todas; en 1965, contra Pierre Trudeau, que luego sería primer ministro.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Hegel",
+    "anio": "1975",
+    "deQueVa": "Gran estudio sobre la filosofía de Hegel."
+   },
+   {
+    "titulo": "Fuentes del yo",
+    "anio": "1989",
+    "deQueVa": "Cómo se formó la identidad moderna a lo largo de la historia."
+   },
+   {
+    "titulo": "La ética de la autenticidad",
+    "anio": "1991",
+    "deQueVa": "Lo bueno y lo malo de querer «ser uno mismo»."
+   },
+   {
+    "titulo": "El multiculturalismo y «la política del reconocimiento»",
+    "anio": "1992",
+    "deQueVa": "Por qué importa reconocer las culturas de cada grupo."
+   },
+   {
+    "titulo": "La era secular",
+    "anio": "2007",
+    "deQueVa": "Cómo creer en Dios se volvió una opción entre otras."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "richard-rorty",
+  "nombre": "Richard Rorty",
+  "fechas": "1931 – 2007",
+  "region": "Estados Unidos",
+  "escuela": "Neopragmatismo",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "politica"
+  ],
+  "conocidoPor": "Proponer dejar de buscar «la Verdad» con mayúscula y preocuparnos por ser más solidarios",
+  "resumen": "Rorty fue un filósofo estadounidense que empezó en la [[filosofía analítica|filosofia-analitica]] y acabó criticándola. Decía que la mente no es un espejo que refleja el mundo tal como es, y que buscar una verdad definitiva es perder el tiempo. Lo útil, según él, es conversar, ampliar el círculo de personas que nos importan y reducir la crueldad. Recuperó el [[pragmatismo]] de William James y John Dewey.",
+  "ideas": [
+   "La mente no es un espejo de la naturaleza: nuestras palabras son herramientas para movernos por el mundo, no copias de él.",
+   "En vez de buscar la Verdad eterna, la filosofía debería ser una conversación que nos ayude a vivir mejor juntos.",
+   "El [[ironista liberal|ironista-liberal]] sabe que sus valores no tienen un fundamento último, pero aun así lucha por reducir la crueldad y el sufrimiento."
+  ],
+  "curiosidad": "De niño le apasionaban las orquídeas silvestres y escribió un ensayo autobiográfico titulado «Trotsky y las orquídeas silvestres».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía y el espejo de la naturaleza",
+    "anio": "1979",
+    "deQueVa": "Crítica a la idea de que la mente refleja la realidad."
+   },
+   {
+    "titulo": "Consecuencias del pragmatismo",
+    "anio": "1982",
+    "deQueVa": "Ensayos a favor del pragmatismo."
+   },
+   {
+    "titulo": "Contingencia, ironía y solidaridad",
+    "anio": "1989",
+    "deQueVa": "Cómo ser solidario sin creer en verdades absolutas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hilary-putnam",
+  "nombre": "Hilary Putnam",
+  "fechas": "1926 – 2016",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica (pragmatismo)",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "conocimiento",
+   "ciencia"
+  ],
+  "conocidoPor": "Inventar el experimento del [[cerebro en una cubeta|cerebro-en-una-cubeta]] y decir que «los significados no están en la cabeza»",
+  "resumen": "Putnam fue un filósofo y matemático de Harvard que tocó casi todos los temas: mente, lenguaje, lógica, ciencia y ética. Ayudó a crear el [[funcionalismo]], la idea de que la mente es como un programa de ordenador, y luego él mismo lo criticó. Es famoso por sus experimentos mentales, como el de un cerebro en una cubeta conectado a un ordenador, que recuerda mucho a películas como «Matrix».",
+  "ideas": [
+   "Imagina que eres solo un [[cerebro en una cubeta|cerebro-en-una-cubeta]] conectado a un ordenador que te hace ver el mundo: Putnam dio un argumento para mostrar que no podrías pensarlo con sentido.",
+   "En una «Tierra Gemela» idéntica a la nuestra, el «agua» tiene otra composición química: aunque las dos personas piensen igual, sus palabras significan cosas distintas. Por eso el significado depende del mundo, no solo de la cabeza.",
+   "Hechos y valores no se pueden separar del todo: palabras como «cruel» o «valiente» describen y valoran a la vez."
+  ],
+  "curiosidad": "Era famoso por cambiar de opinión en público cuando se convencía de que se había equivocado, algo poco frecuente entre filósofos célebres. Como matemático, ayudó a resolver uno de los problemas de Hilbert.",
+  "frase": {
+   "texto": "¡Los significados no están en la cabeza!",
+   "fuente": "«El significado de “significado”» (1975)"
+  },
+  "obras": [
+   {
+    "titulo": "El significado de «significado»",
+    "anio": "1975",
+    "deQueVa": "Donde aparece la Tierra Gemela."
+   },
+   {
+    "titulo": "Razón, verdad e historia",
+    "anio": "1981",
+    "deQueVa": "Empieza con el cerebro en una cubeta."
+   },
+   {
+    "titulo": "El desplome de la dicotomía hecho-valor",
+    "anio": "2002",
+    "deQueVa": "Por qué hechos y valores van mezclados."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "saul-kripke",
+  "nombre": "Saul Kripke",
+  "fechas": "1940 – 2022",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "metafisica"
+  ],
+  "conocidoPor": "Explicar que los nombres propios señalan a la misma persona en cualquier [[mundo posible|mundo-posible]]",
+  "resumen": "Kripke fue un lógico y filósofo estadounidense, un niño prodigio de las matemáticas. Sus conferencias «El nombrar y la necesidad», dadas en 1970 casi sin notas, cambiaron la filosofía del lenguaje. Explicó que un nombre como «Aristóteles» no equivale a una descripción como «el maestro de Alejandro Magno», sino que apunta directamente a esa persona. Su trabajo en lógica se usa hoy también en informática.",
+  "ideas": [
+   "Un nombre propio es un [[designador rigido|designador-rigido]]: «Aristóteles» habría seguido refiriéndose a él aunque nunca hubiera sido filósofo.",
+   "Usó los [[mundos posibles|mundo-posible]], maneras en que las cosas podrían haber sido, para dar sentido a palabras como «necesario» o «posible».",
+   "Hay verdades necesarias que descubrimos investigando, como que «el agua es H₂O»; no todo lo necesario se sabe pensando desde el sofá."
+  ],
+  "curiosidad": "Publicó su primer artículo importante de lógica en 1959, con solo 18 años.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El nombrar y la necesidad",
+    "anio": "1980 (conferencias de 1970)",
+    "deQueVa": "Cómo funcionan los nombres y qué es necesario."
+   },
+   {
+    "titulo": "Wittgenstein: a propósito de reglas y lenguaje privado",
+    "anio": "1982",
+    "deQueVa": "Cómo sabemos que seguimos una regla, a partir de Wittgenstein."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "donald-davidson",
+  "nombre": "Donald Davidson",
+  "fechas": "1917 – 2003",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender que las razones también son causas de lo que hacemos, y que para entender a otros hay que suponerles sensatez",
+  "resumen": "Davidson fue un filósofo estadounidense, alumno de Quine, que escribió sobre todo artículos cortos y muy densos. Explicó que cuando hacemos algo por una razón, como coger un paraguas porque llueve, esa razón es la causa de lo que hacemos. También estudió cómo nos entendemos al hablar: para interpretar a alguien tenemos que suponer que la mayoría de lo que cree es verdad, igual que nosotros.",
+  "ideas": [
+   "Las razones son causas: tu deseo de no mojarte y tu creencia de que llueve causan que cojas el paraguas.",
+   "El [[principio de caridad|principio-de-caridad]]: para entender a alguien que habla otro idioma, hay que suponer que casi todo lo que cree es verdadero y razonable.",
+   "Los pensamientos son a la vez sucesos del cerebro, pero no hay leyes exactas que traduzcan lo mental a lo físico: lo llamó [[monismo anomalo|monismo-anomalo]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Acciones, razones y causas",
+    "anio": "1963",
+    "deQueVa": "Las razones como causas de nuestros actos."
+   },
+   {
+    "titulo": "Verdad y significado",
+    "anio": "1967",
+    "deQueVa": "Entender una lengua es saber cuándo sus frases son verdaderas."
+   },
+   {
+    "titulo": "Sucesos mentales",
+    "anio": "1970",
+    "deQueVa": "Donde presenta el monismo anómalo."
+   },
+   {
+    "titulo": "De la verdad y de la interpretación",
+    "anio": "1984",
+    "deQueVa": "Recopilación de sus ensayos sobre lenguaje."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "richard-rorty"
+  ]
+ },
+ {
+  "id": "john-searle",
+  "nombre": "John Searle",
+  "fechas": "1932 – 2025",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "sociedad"
+  ],
+  "conocidoPor": "Inventar la [[habitacion china|habitacion-china]] para defender que un ordenador puede manejar símbolos sin entender nada",
+  "resumen": "Searle fue un filósofo estadounidense de la Universidad de California en Berkeley. Desarrolló la teoría de los [[actos de habla|actos-de-habla]] de su maestro Austin y luego se pasó a la mente. Su experimento de la [[habitacion china|habitacion-china]] (1980) es uno de los más discutidos sobre inteligencia artificial: ¿entiende de verdad un programa lo que dice, o solo mueve símbolos? Con los chatbots actuales, la pregunta está más viva que nunca.",
+  "ideas": [
+   "En la [[habitacion china|habitacion-china]], alguien que no sabe chino responde mensajes en chino siguiendo un manual de reglas. Desde fuera parece que entiende, pero no entiende nada. Así sería un ordenador.",
+   "Muchas cosas existen solo porque las aceptamos entre todos: un billete es dinero, y no papel, porque lo tratamos como dinero.",
+   "La conciencia es algo biológico, producido por el cerebro igual que la digestión la produce el estómago."
+  ],
+  "curiosidad": "Estudió en Oxford con una beca Rhodes, y allí fue alumno de J. L. Austin, de quien heredó la teoría de los actos de habla.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Actos de habla",
+    "anio": "1969",
+    "deQueVa": "Las reglas de lo que hacemos al hablar."
+   },
+   {
+    "titulo": "Mentes, cerebros y programas",
+    "anio": "1980",
+    "deQueVa": "El artículo de la habitación china."
+   },
+   {
+    "titulo": "El redescubrimiento de la mente",
+    "anio": "1992",
+    "deQueVa": "La conciencia como algo real y biológico."
+   },
+   {
+    "titulo": "La construcción de la realidad social",
+    "anio": "1995",
+    "deQueVa": "Cómo existen el dinero, los países o los matrimonios."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Minds, Brains, and Programs» (1980), artículo original con los comentarios de otros autores, en inglés",
+    "url": "https://home.csulb.edu/~cwallis/382/readings/482/searle.minds.brains.programs.bbs.1980.pdf",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "daniel-dennett",
+  "nombre": "Daniel Dennett",
+  "fechas": "1942 – 2024",
+  "region": "Estados Unidos",
+  "escuela": "Naturalismo (filosofía de la mente)",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "religion"
+  ],
+  "conocidoPor": "Explicar la conciencia y la libertad con la ciencia y la evolución, sin «magia» ni almas invisibles",
+  "resumen": "Dennett fue un filósofo estadounidense, alumno de Ryle, que dedicó su vida a explicar la mente con la ciencia. Para él, la conciencia no es un teatro interior donde un «yo» mira una pantalla, sino el resultado de muchos procesos del cerebro trabajando a la vez. También defendió con fuerza la evolución de Darwin y fue uno de los «cuatro jinetes» del nuevo [[ateismo]]. Escribía con humor y con ejemplos muy vivos.",
+  "ideas": [
+   "No hay un «[[teatro cartesiano|teatro-cartesiano]]» en el cerebro donde un pequeño hombrecillo lo observe todo: la conciencia son muchos borradores a la vez.",
+   "La [[postura intencional|postura-intencional]]: para predecir qué hará un perro, una persona o un programa de ajedrez, nos sirve tratarlos como si tuvieran creencias y deseos.",
+   "La idea de Darwin es tan potente que lo explica casi todo en biología, desde los ojos hasta la mente, sin necesidad de un diseñador."
+  ],
+  "curiosidad": "Tenía una granja en Maine, en Estados Unidos, donde hacía sidra y salía a navegar en velero.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La libertad de acción",
+    "anio": "1984",
+    "deQueVa": "Por qué podemos ser libres aunque todo tenga causas."
+   },
+   {
+    "titulo": "La conciencia explicada",
+    "anio": "1991",
+    "deQueVa": "La conciencia sin teatro interior."
+   },
+   {
+    "titulo": "La peligrosa idea de Darwin",
+    "anio": "1995",
+    "deQueVa": "La evolución como idea que lo cambia todo."
+   },
+   {
+    "titulo": "Romper el hechizo",
+    "anio": "2006",
+    "deQueVa": "La religión estudiada como un fenómeno natural."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Where Am I?», su famoso relato filosófico sobre un cerebro separado del cuerpo (PDF en inglés, Universidad de Lehigh)",
+    "url": "https://www.lehigh.edu/~mhb0/Dennett-WhereAmI.pdf",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "thomas-nagel",
+  "nombre": "Thomas Nagel",
+  "fechas": "1937 –",
+  "region": "Estados Unidos (nacido en Belgrado)",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "mente",
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Preguntar «¿qué se siente al ser un murciélago?» para mostrar que la ciencia no explica bien la experiencia",
+  "resumen": "Nagel es un filósofo estadounidense, profesor durante décadas en la Universidad de Nueva York. En 1974 escribió uno de los artículos más famosos de la filosofía: aunque supiéramos todo sobre el cerebro de un murciélago, seguiríamos sin saber cómo es, para él, sentir el mundo con ecos. Con eso mostró que la [[experiencia subjetiva|experiencia-subjetiva]] es un hueso duro de roer para la ciencia. También ha escrito sobre el sentido de la vida, la suerte y la moral.",
+  "ideas": [
+   "Tener conciencia es que «hay algo que se siente» al ser tú; un murciélago lo tiene, una piedra no. Y eso no se capta solo con datos desde fuera.",
+   "Podemos mirar el mundo desde dentro, con nuestros intereses, o intentar mirarlo «desde ningún lugar», como lo vería alguien imparcial; las dos miradas chocan.",
+   "La [[suerte moral|suerte-moral]]: dos conductores beben lo mismo, pero solo uno atropella a alguien porque se le cruzó un niño. ¿Es justo culpar más a uno que al otro?"
+  ],
+  "curiosidad": "En «La mente y el cosmos» (2012) sostuvo, siendo ateo, que la visión puramente [[materialista|materialismo]] de la evolución es «casi con certeza falsa», y provocó un gran revuelo entre científicos y filósofos.",
+  "frase": {
+   "texto": "Un organismo tiene estados mentales conscientes si y solo si hay algo que es como ser ese organismo, algo que es como ser para el organismo.",
+   "fuente": "«¿Qué se siente ser un murciélago?» (1974)"
+  },
+  "obras": [
+   {
+    "titulo": "La posibilidad del altruismo",
+    "anio": "1970",
+    "deQueVa": "Por qué tenemos razones para ayudar a los demás."
+   },
+   {
+    "titulo": "¿Qué se siente ser un murciélago?",
+    "anio": "1974",
+    "deQueVa": "El artículo sobre la experiencia que la ciencia no capta."
+   },
+   {
+    "titulo": "Una visión de ningún lugar",
+    "anio": "1986",
+    "deQueVa": "Cómo combinar la mirada personal y la imparcial."
+   },
+   {
+    "titulo": "¿Qué significa todo esto?",
+    "anio": "1987",
+    "deQueVa": "Introducción muy sencilla a la filosofía."
+   },
+   {
+    "titulo": "La mente y el cosmos",
+    "anio": "2012",
+    "deQueVa": "Polémica crítica a explicar la mente solo con materia."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«What Is It Like to Be a Bat?» (1974), artículo completo en inglés (PDF, Universidad de Purdue)",
+    "url": "https://web.ics.purdue.edu/~drkelly/NagelWhatIsItLikeToBeABat1974.pdf",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": [
+   "david-chalmers"
+  ]
+ },
+ {
+  "id": "david-chalmers",
+  "nombre": "David Chalmers",
+  "fechas": "1966 –",
+  "region": "Australia",
+  "escuela": "Filosofía de la mente",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Bautizar el [[problema difícil de la conciencia|problema-dificil-de-la-conciencia]]: por qué los procesos del cerebro se sienten «desde dentro»",
+  "resumen": "Chalmers es un filósofo australiano que trabaja en la Universidad de Nueva York. En los años noventa separó dos tipos de preguntas sobre la mente: las «fáciles», como de qué forma el cerebro procesa información, y la «difícil», por qué todo eso va acompañado de sensaciones, como el sabor del chocolate. Esa distinción se volvió famosísima. Hoy también estudia si la inteligencia artificial puede tener conciencia y si los mundos virtuales son reales.",
+  "ideas": [
+   "El [[problema difícil de la conciencia|problema-dificil-de-la-conciencia]]: aunque expliquemos todo lo que hace el cerebro, falta explicar por qué se siente algo al vivirlo.",
+   "Un [[zombi filosófico|zombi-filosofico]] sería alguien idéntico a ti por fuera y por dentro, pero sin ninguna experiencia; si podemos imaginarlo, la conciencia parece algo más que materia.",
+   "La [[mente extendida|mente-extendida]]: tu móvil o tu libreta, si los usas para recordar, pueden formar parte de tu mente."
+  ],
+  "curiosidad": "En 1998 el neurocientífico Christof Koch le apostó una caja de vino a que en 25 años se encontraría la base cerebral de la conciencia. En 2023 Koch reconoció que había perdido y le pagó.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Facing Up to the Problem of Consciousness",
+    "anio": "1995",
+    "deQueVa": "Artículo donde explica el problema difícil."
+   },
+   {
+    "titulo": "La mente consciente",
+    "anio": "1996",
+    "deQueVa": "Su gran libro sobre la conciencia."
+   },
+   {
+    "titulo": "The Extended Mind (con Andy Clark)",
+    "anio": "1998",
+    "deQueVa": "La mente puede ir más allá del cerebro."
+   },
+   {
+    "titulo": "Realidad+",
+    "anio": "2022",
+    "deQueVa": "Los mundos virtuales y si podríamos vivir en una simulación."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Facing Up to the Problem of Consciousness», artículo completo en inglés en su web",
+    "url": "https://consc.net/papers/facing.html",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "peter-singer",
+  "nombre": "Peter Singer",
+  "fechas": "1946 –",
+  "region": "Australia",
+  "escuela": "Utilitarismo",
+  "categorias": [
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender a los animales frente al [[especismo]] y pedir que ayudemos a los pobres lejanos como a un vecino",
+  "resumen": "Singer es un filósofo australiano, profesor en la Universidad de Princeton y uno de los pensadores vivos más influyentes y polémicos. Parte del [[utilitarismo]]: lo correcto es lo que reduce más sufrimiento. Su libro «Liberación animal» (1975) ayudó a lanzar el movimiento por los animales, y sus ideas inspiraron el [[altruismo eficaz|altruismo-eficaz]]. Algunas de sus posturas, por ejemplo sobre la discapacidad grave y la eutanasia, han provocado fuertes protestas.",
+  "ideas": [
+   "Si ves a un niño ahogándose en un estanque, lo salvas aunque se te mojen los zapatos. Pues un niño que muere de hambre lejos importa igual.",
+   "El [[especismo]] es tratar peor a un ser solo por no ser de nuestra especie; lo que importa es si puede sufrir.",
+   "Si puedes evitar algo muy malo sin sacrificar nada igual de importante, debes hacerlo."
+  ],
+  "curiosidad": "Sus padres eran judíos de Viena que huyeron de los nazis a Australia; varios de sus abuelos murieron en el Holocausto.",
+  "frase": {
+   "texto": "Si está en nuestro poder evitar que ocurra algo malo sin sacrificar con ello nada de importancia moral comparable, debemos hacerlo.",
+   "fuente": "«Hambre, riqueza y moralidad» (1972)"
+  },
+  "obras": [
+   {
+    "titulo": "Hambre, riqueza y moralidad",
+    "anio": "1972",
+    "deQueVa": "El artículo del niño en el estanque."
+   },
+   {
+    "titulo": "Liberación animal",
+    "anio": "1975",
+    "deQueVa": "Por qué el sufrimiento de los animales cuenta."
+   },
+   {
+    "titulo": "Ética práctica",
+    "anio": "1979",
+    "deQueVa": "Aplica la ética a temas como el aborto, la pobreza o los animales."
+   },
+   {
+    "titulo": "Salvar una vida",
+    "anio": "2009",
+    "deQueVa": "Cómo y por qué donar para acabar con la pobreza extrema."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "martha-nussbaum",
+  "nombre": "Martha Nussbaum",
+  "fechas": "1947 –",
+  "region": "Estados Unidos",
+  "escuela": "Enfoque de las capacidades",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender que una sociedad justa da a cada persona las [[capacidades]] para vivir una vida digna",
+  "resumen": "Martha Nussbaum es una filósofa estadounidense de la Universidad de Chicago, experta en los griegos y en ética. Junto al economista Amartya Sen desarrolló el [[enfoque de las capacidades|capacidades]]: para medir si un país va bien no basta con mirar su dinero, hay que ver qué puede hacer y ser de verdad cada persona. También defiende que las emociones son inteligentes y que las humanidades son vitales para la democracia.",
+  "ideas": [
+   "Un país rico donde muchas personas no pueden educarse, cuidar su salud o participar en política no es justo: importan las [[capacidades]] reales de cada uno.",
+   "Las emociones no son lo contrario de la razón: el miedo, la pena o la compasión contienen juicios sobre lo que nos importa.",
+   "Leer literatura y estudiar historia o arte nos enseña a ponernos en el lugar de otros, algo que una democracia necesita."
+  ],
+  "curiosidad": "En 2012 recibió en España el Premio Príncipe de Asturias de Ciencias Sociales.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La fragilidad del bien",
+    "anio": "1986",
+    "deQueVa": "La suerte y la vulnerabilidad en la ética y la tragedia griegas."
+   },
+   {
+    "titulo": "Paisajes del pensamiento",
+    "anio": "2001",
+    "deQueVa": "Las emociones como formas de juzgar."
+   },
+   {
+    "titulo": "Sin fines de lucro",
+    "anio": "2010",
+    "deQueVa": "Por qué la democracia necesita las humanidades."
+   },
+   {
+    "titulo": "Crear capacidades",
+    "anio": "2011",
+    "deQueVa": "Introducción sencilla al enfoque de las capacidades."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "judith-butler",
+  "nombre": "Judith Butler",
+  "fechas": "1956 –",
+  "region": "Estados Unidos",
+  "escuela": "Teoría queer y feminismo",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Decir que el género es [[performativo|performatividad-de-genero]]: se construye repitiendo gestos y normas, no viene dado al nacer",
+  "resumen": "Judith Butler es una de las figuras más influyentes del [[feminismo]] y de la [[teoria queer|teoria-queer]], profesora en la Universidad de California en Berkeley; se identifica como [[persona no binaria|no-binario]]. En «El género en disputa» (1990) defendió que ser «hombre» o «mujer» no es algo que se es sin más, sino algo que se hace a diario con la ropa, los gestos o la forma de hablar. Más tarde escribió sobre la violencia y sobre qué vidas lloramos y cuáles ignoramos.",
+  "ideas": [
+   "El género es [[performativo|performatividad-de-genero]]: igual que se aprende un papel a fuerza de repetirlo, aprendemos a ser «chico» o «chica» repitiendo normas desde pequeños.",
+   "Como esas normas se repiten, también se pueden repetir de otra forma, y así cambian con el tiempo.",
+   "Todos somos [[vulnerables|vulnerabilidad]] y dependemos de otros; sin embargo, la sociedad trata algunas vidas como dignas de duelo y otras no."
+  ],
+  "curiosidad": "En 1998 una revista académica le dio el primer premio de un concurso irónico a la «peor escritura», por una frase larguísima y muy difícil de uno de sus artículos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El género en disputa",
+    "anio": "1990",
+    "deQueVa": "El género como algo que se hace, no algo que se es."
+   },
+   {
+    "titulo": "Cuerpos que importan",
+    "anio": "1993",
+    "deQueVa": "Cómo las normas también moldean la idea de sexo."
+   },
+   {
+    "titulo": "Vida precaria",
+    "anio": "2004",
+    "deQueVa": "Violencia, duelo y qué vidas cuentan."
+   },
+   {
+    "titulo": "La fuerza de la no violencia",
+    "anio": "2020",
+    "deQueVa": "Defensa de la no violencia en tiempos duros."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bell-hooks",
+  "nombre": "bell hooks",
+  "fechas": "1952 – 2021",
+  "region": "Estados Unidos",
+  "escuela": "Feminismo negro",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Mostrar que raza, género y clase se cruzan, y defender un [[feminismo]] para todo el mundo basado en el amor",
+  "resumen": "bell hooks era el seudónimo de Gloria Jean Watkins, escritora y profesora afroamericana del sur de Estados Unidos. Criticó que el [[feminismo]] de su época hablaba sobre todo de mujeres blancas y de clase media, y olvidaba a las mujeres negras y pobres. Escribía de forma clara para llegar a todo el mundo, no solo a la universidad. También defendió que el amor y la educación pueden ser herramientas para cambiar la sociedad.",
+  "ideas": [
+   "No se puede entender la vida de una mujer negra pobre mirando solo el sexo, o solo la raza, o solo el dinero: todo se cruza a la vez.",
+   "El [[feminismo]] no es una guerra contra los hombres, sino un movimiento para acabar con el [[sexismo]], que también hace daño a los hombres.",
+   "Enseñar debe ser una práctica de libertad: el aula tiene que ser un lugar donde todos participen y se emocionen al aprender."
+  ],
+  "curiosidad": "Tomó su seudónimo de su bisabuela y lo escribía en minúsculas para que la atención se pusiera en sus ideas y no en su nombre.",
+  "frase": {
+   "texto": "El feminismo es un movimiento para acabar con el sexismo, la explotación sexista y la opresión.",
+   "fuente": "El feminismo es para todo el mundo (2000)"
+  },
+  "obras": [
+   {
+    "titulo": "¿Acaso no soy yo una mujer?",
+    "anio": "1981",
+    "deQueVa": "Las mujeres negras, el racismo y el feminismo."
+   },
+   {
+    "titulo": "Teoría feminista: de los márgenes al centro",
+    "anio": "1984",
+    "deQueVa": "Un feminismo pensado desde las que están en los márgenes."
+   },
+   {
+    "titulo": "Enseñar a transgredir",
+    "anio": "1994",
+    "deQueVa": "La educación como práctica de libertad."
+   },
+   {
+    "titulo": "El feminismo es para todo el mundo",
+    "anio": "2000",
+    "deQueVa": "Introducción sencilla al feminismo para cualquiera."
+   },
+   {
+    "titulo": "Todo sobre el amor",
+    "anio": "2000",
+    "deQueVa": "El amor como práctica diaria y como fuerza de cambio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "angela-davis",
+  "nombre": "Angela Davis",
+  "fechas": "1944 –",
+  "region": "Estados Unidos",
+  "escuela": "Marxismo y feminismo negro",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Luchar contra el racismo y defender la [[abolicion de las prisiones|abolicion-de-las-prisiones]]",
+  "resumen": "Angela Davis es una filósofa y activista afroamericana que creció en Alabama en plena [[segregacion racial|segregacion-racial]]. Fue alumna de Herbert Marcuse y militó en el Partido Comunista y en el movimiento por los derechos de la población negra. Ha estudiado cómo se mezclan el racismo, el machismo y la pobreza, y defiende que las cárceles no resuelven los problemas sociales. Es un icono mundial del activismo.",
+  "ideas": [
+   "En «Mujeres, raza y clase» muestra que la lucha por los derechos de las mujeres olvidó a menudo a las mujeres negras y trabajadoras.",
+   "Las cárceles encierran sobre todo a pobres y minorías; en vez de construir más, habría que invertir en educación, salud y vivienda.",
+   "Al crecer las prisiones y las empresas que ganan dinero con ellas, se crea un [[complejo industrial penitenciario|complejo-industrial-penitenciario]] interesado en que haya más presos."
+  ],
+  "curiosidad": "En 1970 el FBI la incluyó en su lista de los diez más buscados; fue detenida y, tras un juicio muy seguido en todo el mundo, absuelta en 1972. John Lennon y los Rolling Stones le dedicaron canciones.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Autobiografía",
+    "anio": "1974",
+    "deQueVa": "Su vida hasta el juicio de 1972."
+   },
+   {
+    "titulo": "Mujeres, raza y clase",
+    "anio": "1981",
+    "deQueVa": "Cómo se mezclan el racismo, el machismo y la pobreza."
+   },
+   {
+    "titulo": "¿Son obsoletas las prisiones?",
+    "anio": "2003",
+    "deQueVa": "Por qué deberíamos pensar en un mundo sin cárceles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "frantz-fanon",
+  "nombre": "Frantz Fanon",
+  "fechas": "1925 – 1961",
+  "region": "Martinica y Argelia",
+  "escuela": "Anticolonialismo",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "mente"
+  ],
+  "conocidoPor": "Explicar el daño psicológico del [[colonialismo]] y defender la lucha de los pueblos colonizados por liberarse",
+  "resumen": "Fanon nació en Martinica, una isla caribeña colonia de Francia, y fue psiquiatra en Argelia durante la guerra de independencia contra los franceses. Vio de cerca cómo el [[colonialismo]] no solo roba tierras, sino que también hace sentir inferiores a las personas colonizadas. Se unió al movimiento independentista argelino y murió muy joven, con 36 años. Sus libros inspiraron a movimientos de liberación en África, América y Asia, y se leen hoy en los debates sobre racismo.",
+  "ideas": [
+   "Una persona negra educada en una sociedad racista puede acabar viéndose con los ojos del colonizador, como si llevara una «máscara blanca».",
+   "El [[colonialismo]] es violencia desde el principio, no solo cuando los colonizados se rebelan.",
+   "Tras la independencia, cuidado: una nueva élite local puede ocupar el sitio de los colonos y seguir explotando al pueblo."
+  ],
+  "curiosidad": "Escribió «Los condenados de la tierra» enfermo de leucemia; el libro, con prólogo de Jean-Paul Sartre, salió a la venta pocos días antes de su muerte.",
+  "frase": {
+   "texto": "¡Oh, cuerpo mío, haz siempre de mí un hombre que interroga!",
+   "fuente": "Piel negra, máscaras blancas (1952), última frase"
+  },
+  "obras": [
+   {
+    "titulo": "Piel negra, máscaras blancas",
+    "anio": "1952",
+    "deQueVa": "Cómo el racismo se mete en la mente de quien lo sufre."
+   },
+   {
+    "titulo": "Sociología de una revolución",
+    "anio": "1959",
+    "deQueVa": "Cómo la guerra de Argelia cambió la vida diaria de los argelinos."
+   },
+   {
+    "titulo": "Los condenados de la tierra",
+    "anio": "1961",
+    "deQueVa": "La violencia colonial y la lucha por la liberación."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "paulo-freire",
+   "edward-said",
+   "achille-mbembe"
+  ]
+ }
+]
