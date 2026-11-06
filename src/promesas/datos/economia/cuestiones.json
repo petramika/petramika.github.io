@@ -1,0 +1,26 @@
+{
+  "_nota": "Cifras que solo usan las cuestiones frecuentes de la pestaña de economia. Presion fiscal: Eurostat gov_10a_taxag (unit PC_GDP, sector S13_S212, na_item D2_D5_D91_D61_M_D995: impuestos y cotizaciones sociales, % del PIB), actualizado el 28-10-2026; no coincide con la serie de la OCDE de la grafica (36,7 % en 2024) porque se mide de otra forma. Gasto en organos ejecutivos y legislativos, asuntos financieros y fiscales y exteriores: Eurostat gov_10a_exp (COFOG GF0101, S13, TE, millones de euros), 2024 provisional, actualizado el 21-10-2026.",
+  "presionFiscalEurostat": {
+    "espana": {
+      "1995": 32.3,
+      "2007": 37.2,
+      "2020": 37.3,
+      "2021": 38.1,
+      "2022": 37.4,
+      "2023": 37.1,
+      "2024": 37.2,
+      "2025": 38.1
+    },
+    "ue27": {
+      "2022": 40.6,
+      "2023": 39.9,
+      "2024": 40.2,
+      "2025": 40.7
+    }
+  },
+  "gobiernoParlamentosHaciendaExteriores": {
+    "anio": "2024",
+    "millones": 21444,
+    "gastoTotalMillones": 725001
+  }
+}

@@ -1,0 +1,123 @@
+import {DONDE_NACIERON as D, NACIONALIZ as N} from '../../datos';
+import {fmt} from '../../lib/formato';
+import Mini from '../../componentes/graficas/Mini';
+import Barras from '../../componentes/graficas/Barras';
+import {L} from '../../componentes/enlace';
+import {T} from '../../../comun/Glosario';
+import {claves} from './ultimo';
+
+/*
+  Nacionalizaciones: cuanta gente se hace española cada año y, por pais,
+  la comparacion entre quien vive aqui (nacidos fuera) y quien se hace
+  español. La diferencia es lo interesante: los latinoamericanos se
+  nacionalizan mucho (2 años de residencia), los europeos casi nada.
+*/
+type Pais = {pais: string; n: number; pct: number};
+
+// Gentilicio en femenino plural («personas … colombianas»); si falta, «de <pais>»
+const GENTILICIO: Record<string, string> = {
+  Marruecos: 'marroquíes', Colombia: 'colombianas', Ecuador: 'ecuatorianas', Venezuela: 'venezolanas', Bolivia: 'bolivianas',
+  'República Dominicana': 'dominicanas', Perú: 'peruanas', Honduras: 'hondureñas', Cuba: 'cubanas', Argentina: 'argentinas',
+  Pakistán: 'paquistaníes', Brasil: 'brasileñas', Nicaragua: 'nicaragüenses', Rumanía: 'rumanas',
+};
+const gentilicio = (pais: string) => GENTILICIO[pais] ?? `de ${pais}`;
+
+export default function Nacionalizaciones() {
+  const ac = N.porPaisAcumulado, ul = N.porPais, lm = N.leyMemoria;
+  const anJ = claves(N.justicia);
+  // Los tres primeros del acumulado y los del ultimo año (sin «Resto»)
+  const [a1, a2, a3] = (ac.paises as Pais[]).filter((p) => p.pais !== 'Resto');
+    const rumania = (ul.paises as Pais[]).find((p) => p.pais === 'Rumanía');
+  const ultimoLista = (ul.paises as Pais[]).filter((p) => p.pais !== 'Resto').at(-1)!;
+  // Quien vive aqui: nacidos fuera por pais en el mismo año (o el ultimo que haya)
+  const aniosD = Object.keys(D.nacidosFuera).sort();
+  const anioViven = aniosD.includes(String(ul.anio)) ? String(ul.anio) : aniosD.at(-1)!;
+  const fuera = D.nacidosFuera[anioViven] as number;
+  const comparados = (ul.paises as Pais[])
+    .filter((p) => p.pais !== 'Resto' && D.porPais[p.pais]?.[anioViven] != null)
+    .map((p) => ({pais: p.pais, nac: p.pct, viven: (D.porPais[p.pais][anioViven] / fuera) * 100}))
+    .sort((a, b) => b.viven + b.nac - (a.viven + a.nac));
+  return (
+    <>
+        <Mini
+          id="inm-nacionalizaciones"
+          title="Personas que se hacen españolas cada año"
+          sub="residentes en España que obtienen la nacionalidad"
+          series={[
+            {lab: 'Todas las vías (INE)', c: '#3B5BDB', data: N.ine},
+            {lab: 'Concesiones por residencia (Justicia)', c: '#868E96', dash: true, data: N.justicia},
+          ]}
+          f={(v) => fmt(v, 0)}
+          x0={1994.5}
+          yMin={0}
+          note={
+            <>
+              <p>
+                Para pedir la <T k="nacionalidad-por-residencia">nacionalidad por residencia</T> hacen falta, en general, 10 años viviendo legalmente en España; 2 para latinoamericanos,
+                filipinos, andorranos, portugueses, ecuatoguineanos y <T k="sefardies">sefardíes</T>, y 1 para quien se casa con un español o nace aquí. Desde 2015 hay
+                que aprobar un examen de español y otro de cultura y Constitución.
+              </p>
+              <p>
+                Hay dos series y no coinciden. La del INE (2013–{ac.hasta}) cuenta a todos los que viven en España y se hacen españoles por cualquier
+                vía, en el año en que se inscriben en el <T k="registro-civil">Registro Civil</T>. La de Justicia ({anJ[0]}–{anJ.at(-1)}) cuenta solo las concesiones por residencia, en el
+                año en que se aprueban. Por eso los picos no caen en el mismo año: en 2013 un plan de choque resolvió muchos expedientes atrasados, y
+                en 2017 casi no hubo por el cambio a los exámenes y al trámite electrónico.
+              </p>
+              <p>
+                No incluye la «<T k="ley-de-nietos">ley de nietos</T>» (Ley de Memoria Democrática): hijos y nietos de exiliados y emigrantes que la piden desde el extranjero,
+                en los consulados. Hasta el {new Date(lm.fecha).toLocaleDateString('es-ES')} se habían presentado {fmt(lm.solicitudesPresentadasConsulados, 0)}{' '}
+                solicitudes y se habían aprobado {fmt(lm.expedientesAprobados, 0)}. Tampoco a los sefardíes ({fmt(N.sefardies.concesionesAcumuladas, 0)} desde
+                2015).
+              </p>
+            </>
+          }
+          src={
+            <>
+              {L('INE, Adquisiciones de nacionalidad de residentes (tabla 15083)', 'https://www.ine.es/dyngs/Prensa/EANER2025.htm')};{' '}
+              {L('Observatorio Permanente de la Inmigración, concesiones por residencia', 'https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/concesiones_nacionalidad')};{' '}
+              {L('Exteriores, ley de nietos', 'https://www.exteriores.gob.es/eu/Comunicacion/Exteriores-explica/Paginas/2026_Articulos/Ley-nietos-memoria-democratica-nacionalidad-espanola.aspx')};{' '}
+              {L('Justicia, datos a 30-9-2026', 'https://www.mjusticia.gob.es/es/Ciudadano/Nacionalidad/Documents/Estadisticas%20nacionalidad%2030-09-2026.pdf')}
+            </>
+          }
+        />
+        <Barras
+          id="inm-nac-paises"
+          title="Quién vive aquí y quién se hace español"
+          sub={`de cada 100 nacidos fuera que viven aquí, y de cada 100 nuevos españoles (${ul.anio})`}
+          series={[
+            {lab: `Viven aquí (${anioViven})`, c: '#ADB5BD'},
+            {lab: `Nuevos españoles (${ul.anio})`, c: '#3B5BDB'},
+          ]}
+          filas={comparados.map((c) => ({lab: c.pais, vals: [c.viven, c.nac]}))}
+          f={(v) => fmt(v, 1) + ' %'}
+          note={
+            <>
+              <p>
+                Gris: de todas las personas nacidas fuera que viven en España, qué parte nació en cada país ({anioViven}). Azul: de todas las que se
+                hicieron españolas en {ul.anio}, qué parte tenía antes esa nacionalidad. Si la azul es más larga, ese país se nacionaliza más de lo
+                que pesa entre quienes viven aquí.
+              </p>
+              <p>
+                Los latinoamericanos se nacionalizan mucho porque pueden pedirlo con 2 años de residencia en lugar de 10. Los europeos casi no: los
+                rumanos son el {fmt(comparados.find((c) => c.pais === 'Rumanía')?.viven ?? 0, 1)} % de los nacidos fuera, pero solo el{' '}
+                {rumania ? fmt(rumania.pct, 1) : '—'} % de los nuevos españoles. Como ciudadanos de la UE ya tienen casi los mismos derechos. Los
+                nacidos en el Reino Unido, Francia, Alemania o China viven aquí en buen número, pero se nacionalizan tan poco que no llegan al último
+                país de la lista del INE ({fmt(ultimoLista.pct, 1)} %).
+              </p>
+              <p>
+                Entre {ac.desde} y {ac.hasta}, {fmt(ac.total / 1e6, 2)} millones de personas que vivían en España se hicieron españolas: de cada 100,{' '}
+                {fmt(a1.pct, 0)} eran {gentilicio(a1.pais)}, {fmt(a2.pct, 0)} {gentilicio(a2.pais)} y {fmt(a3.pct, 0)} {gentilicio(a3.pais)}. Lo que
+                se ve aquí refleja quién llegó hace entre 2 y 10 años.
+              </p>
+            </>
+          }
+          src={
+            <>
+              {L('INE, Adquisiciones de nacionalidad por nacionalidad previa (tabla 15071)', 'https://www.ine.es/jaxiT3/Tabla.htm?t=15071')} y{' '}
+              {L('Estadística Continua de Población por país de nacimiento (tabla 56937)', 'https://www.ine.es/jaxiT3/Tabla.htm?t=56937')}
+            </>
+          }
+        />
+    </>
+  );
+}

@@ -1,0 +1,209 @@
+{
+  "ine": {
+    "2013": 225793.0,
+    "2014": 205880.0,
+    "2015": 114351.0,
+    "2016": 150944.0,
+    "2017": 66498.0,
+    "2018": 90774.0,
+    "2019": 98954.0,
+    "2020": 126266.0,
+    "2021": 144012.0,
+    "2022": 181581.0,
+    "2023": 240208.0,
+    "2024": 252476.0,
+    "2025": 299732.0
+  },
+  "justicia": {
+    "1995": 6756.0,
+    "1996": 8433.0,
+    "1997": 10310.0,
+    "1998": 13177.0,
+    "1999": 16384.0,
+    "2000": 11999.0,
+    "2001": 16743.0,
+    "2002": 21810.0,
+    "2003": 26556.0,
+    "2004": 38335.0,
+    "2005": 42829.0,
+    "2006": 62339.0,
+    "2007": 71810.0,
+    "2008": 84170.0,
+    "2009": 79597.0,
+    "2010": 123721.0,
+    "2011": 114599.0,
+    "2012": 115557.0,
+    "2013": 261295.0,
+    "2014": 93714.0,
+    "2015": 78000.0,
+    "2016": 93760.0,
+    "2017": 25924.0,
+    "2018": 92501.0,
+    "2019": 162799.0,
+    "2020": 80148.0,
+    "2021": 202336.0,
+    "2022": 124300.0,
+    "2023": 243481.0,
+    "2024": 221805.0,
+    "2025": 221176.0
+  },
+  "porPais": {
+    "anio": 2025,
+    "fuente": "INE ANES tabla 15071 (nacionalidad previa, residentes en España, todos los modos)",
+    "total": 299732,
+    "paises": [
+      {
+        "pais": "Marruecos",
+        "n": 42114,
+        "pct": 14.1
+      },
+      {
+        "pais": "Colombia",
+        "n": 37712,
+        "pct": 12.6
+      },
+      {
+        "pais": "Venezuela",
+        "n": 36271,
+        "pct": 12.1
+      },
+      {
+        "pais": "Honduras",
+        "n": 20745,
+        "pct": 6.9
+      },
+      {
+        "pais": "Perú",
+        "n": 15920,
+        "pct": 5.3
+      },
+      {
+        "pais": "Cuba",
+        "n": 14390,
+        "pct": 4.8
+      },
+      {
+        "pais": "Ecuador",
+        "n": 13689,
+        "pct": 4.6
+      },
+      {
+        "pais": "Argentina",
+        "n": 11291,
+        "pct": 3.8
+      },
+      {
+        "pais": "República Dominicana",
+        "n": 9915,
+        "pct": 3.3
+      },
+      {
+        "pais": "Nicaragua",
+        "n": 8951,
+        "pct": 3.0
+      },
+      {
+        "pais": "Bolivia",
+        "n": 8902,
+        "pct": 3.0
+      },
+      {
+        "pais": "Rumanía",
+        "n": 7185,
+        "pct": 2.4
+      },
+      {
+        "pais": "Resto",
+        "n": 72647,
+        "pct": 24.2
+      }
+    ]
+  },
+  "porPaisAcumulado": {
+    "desde": 2013,
+    "hasta": 2025,
+    "fuente": "INE ANES tabla 15071, suma 2013-2025",
+    "total": 2197469,
+    "paises": [
+      {
+        "pais": "Marruecos",
+        "n": 459452,
+        "pct": 20.9
+      },
+      {
+        "pais": "Colombia",
+        "n": 221762,
+        "pct": 10.1
+      },
+      {
+        "pais": "Ecuador",
+        "n": 188024,
+        "pct": 8.6
+      },
+      {
+        "pais": "Venezuela",
+        "n": 143851,
+        "pct": 6.5
+      },
+      {
+        "pais": "Bolivia",
+        "n": 140348,
+        "pct": 6.4
+      },
+      {
+        "pais": "República Dominicana",
+        "n": 111911,
+        "pct": 5.1
+      },
+      {
+        "pais": "Perú",
+        "n": 108350,
+        "pct": 4.9
+      },
+      {
+        "pais": "Honduras",
+        "n": 75179,
+        "pct": 3.4
+      },
+      {
+        "pais": "Cuba",
+        "n": 74676,
+        "pct": 3.4
+      },
+      {
+        "pais": "Argentina",
+        "n": 66203,
+        "pct": 3.0
+      },
+      {
+        "pais": "Pakistán",
+        "n": 54539,
+        "pct": 2.5
+      },
+      {
+        "pais": "Brasil",
+        "n": 48749,
+        "pct": 2.2
+      },
+      {
+        "pais": "Resto",
+        "n": 504425,
+        "pct": 23.0
+      }
+    ]
+  },
+  "leyMemoria": {
+    "fecha": "2026-05-31",
+    "solicitudesPresentadasConsulados": 1225188,
+    "expedientesAprobados": 571761,
+    "inscripcionesPracticadas": 333696,
+    "plazo": "Disposición adicional 8ª Ley 20/2022: 2 años desde 21-10-2022 + 1 año de prórroga; cerró en octubre de 2025 (citas solicitadas antes del cierre aún en tramitación)",
+    "nota": "Acumulado, no anual. Nacionalidad de ORIGEN por opción, tramitada en consulados (personas mayoritariamente residentes en el extranjero). No es residencia: no sumar a totalJusticia. No hay serie anual oficial publicada localizada."
+  },
+  "sefardies": {
+    "fecha": "2026-09-30",
+    "concesionesAcumuladas": 73019,
+    "solicitudesDGSJFP": 89112,
+    "nota": "Carta de naturaleza (Ley 12/2015), acumulado; no incluido en residencia."
+  }
+}

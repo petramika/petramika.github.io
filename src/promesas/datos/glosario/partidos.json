@@ -1,0 +1,19 @@
+{
+  "circunscripcion": {"t": "Circunscripción", "d": "El territorio donde se reparten los diputados por separado. En las generales es cada provincia, más Ceuta y Melilla: 52 en total. Madrid elige 37 diputados; Soria, 2."},
+  "ley-dhondt": {"t": "Ley D'Hondt", "d": "La regla para repartir los diputados de cada provincia según los votos. Favorece a los partidos más votados, sobre todo en las provincias que eligen pocos: allí los pequeños suelen quedarse sin nada."},
+  "liston-3": {"t": "Listón del 3 %", "d": "Lo mínimo que necesita un partido para optar a diputados en una provincia: 3 de cada 100 votos válidos de esa provincia. Si no llega, se queda fuera del reparto."},
+  "voto-valido": {"t": "Voto válido", "d": "Todo voto que cuenta en el reparto: el que va a un partido y también el voto en blanco. El voto nulo no es válido."},
+  "voto-nulo": {"t": "Voto nulo", "d": "Un voto que no vale: papeleta tachada o rota, con algo escrito, dos papeletas de partidos distintos… Consta que fuiste a votar, pero no entra en el reparto."},
+  "voto-en-blanco": {"t": "Voto en blanco", "d": "Meter el sobre vacío, sin papeleta. Es un voto válido: dice «he venido, pero no me convence nadie». No da diputados a nadie."},
+  "abstencion": {"t": "Abstención", "d": "No ir a votar. Si de cada 10 personas que pueden votar se quedan en casa 3, la abstención es del 30 %."},
+  "censo-electoral": {"t": "Censo electoral", "d": "La lista de todas las personas que pueden votar: españoles mayores de edad, también los que viven fuera. Si no estás en ella, no puedes votar."},
+  "repeticion-electoral": {"t": "Repetición electoral", "d": "Volver a votar porque, tras unas elecciones, nadie consiguió en dos meses los apoyos para ser presidente. Pasó en junio de 2016 y en noviembre de 2019."},
+  "coalicion-electoral": {"t": "Coalición electoral", "d": "Varios partidos que se presentan juntos, con una sola lista y un solo nombre, para sumar votos. Por ejemplo, Unidos Podemos en 2016 o Sumar en 2023."},
+  "confluencia": {"t": "Confluencia", "d": "Partido de una comunidad que se presenta junto a otro de toda España, pero con su propio nombre. Por ejemplo, En Comú Podem en Cataluña iba con Podemos."},
+  "cis": {"t": "CIS", "d": "Centro de Investigaciones Sociológicas: un organismo público que hace encuestas. Pregunta a unos miles de personas qué votarían y calcula cuánto sacaría cada partido. Es una estimación, no un resultado."},
+  "competencias": {"t": "Competencias", "d": "Las tareas de las que se encarga cada administración. Por ejemplo, la sanidad y los colegios los llevan las comunidades autónomas; el ejército y las pensiones, el Estado."},
+  "amnistia": {"t": "Amnistía", "d": "Una ley que borra ciertos delitos como si no hubieran existido: los acusados o condenados por ellos quedan libres. La de 2024 perdonó los relacionados con el intento de independencia de Cataluña."},
+  "pacto-de-toledo": {"t": "Pacto de Toledo", "d": "Acuerdo de 1995 entre casi todos los partidos para cuidar las pensiones y sacarlas de la pelea política. Una comisión del Congreso lo revisa cada pocos años."},
+  "aval": {"t": "Aval", "d": "Una garantía: alguien se compromete a pagar si tú no pagas. Con el aval del Estado, el banco presta más para la hipoteca, porque si fallas, el Estado responde por una parte."},
+  "reforma-laboral": {"t": "Reforma laboral", "d": "Una ley que cambia las normas del trabajo: tipos de contrato, lo que cuesta despedir, cómo se pactan los sueldos… La del PP fue en 2012; el PSOE la cambió en parte en 2021."}
+}

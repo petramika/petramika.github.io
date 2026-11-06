@@ -1,0 +1,3327 @@
+{
+  "amnistia": {
+    "t": "Amnistía del procés",
+    "q": "Aprobar una ley orgánica que extinga la responsabilidad penal, administrativa y contable por los hechos del proceso independentista catalán, como la consulta de 2014 y el referéndum de 2017. Los jueces dejarían de perseguir esos hechos y se anularían condenas y multas.",
+    "pro": [
+      "Sus defensores dicen que resuelve por la vía política un conflicto que la vía penal no cerró.",
+      "Permite que dirigentes procesados o fuera de España vuelvan a la vida política.",
+      "Reduce la tensión en Cataluña y abre paso al diálogo entre gobiernos."
+    ],
+    "con": [
+      "Sus críticos dicen que rompe la igualdad ante la ley al perdonar delitos de un grupo concreto.",
+      "Se aprobó a cambio de apoyos para una investidura, lo que sus críticos ven como un intercambio político.",
+      "Puede animar a repetir actos ilegales si se espera una amnistía futura."
+    ],
+    "af": [
+      "inst",
+      "aut",
+      "der"
+    ],
+    "ej": "La Ley Orgánica 1/2024 de amnistía entró en vigor en junio de 2024 y el Tribunal Constitucional avaló lo esencial en 2025."
+  },
+  "art155": {
+    "t": "Artículo 155 en Cataluña",
+    "q": "El artículo 155 de la Constitución permite al Gobierno, con el apoyo de la mayoría absoluta del Senado, tomar medidas para obligar a una comunidad que incumple la ley o atenta gravemente contra el interés general. En 2019 PP y Cs proponían volver a aplicarlo en Cataluña.",
+    "pro": [
+      "Es una herramienta prevista en la Constitución para que todas las instituciones cumplan la ley.",
+      "Sus defensores dicen que protege a los catalanes que no apoyan la independencia."
+    ],
+    "con": [
+      "Sus críticos dicen que suspende de hecho el autogobierno elegido por los votantes catalanes.",
+      "Puede aumentar el apoyo a la independencia y dificultar una salida negociada."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ],
+    "ej": "Se aplicó por primera vez en octubre de 2017: se cesó al Govern y se convocaron elecciones catalanas para el 21 de diciembre."
+  },
+  "auditoria_deuda": {
+    "t": "Auditoría de la deuda",
+    "q": "Revisar quién tiene la deuda pública, en qué condiciones se emitió y si parte de ella se considera «ilegítima». Después, negociar con los acreedores más plazo, menos intereses o una quita. En 2015 la deuda pública rondaba el 100 % del PIB (Banco de España).",
+    "pro": [
+      "Daría transparencia sobre a quién se paga y por qué, incluida la deuda creada al rescatar bancos.",
+      "Pagar menos intereses liberaría dinero para sanidad, educación o pensiones."
+    ],
+    "con": [
+      "Si los inversores temen impagos, pedirán intereses más altos o dejarán de prestar a España.",
+      "Gran parte de la deuda está en manos de bancos, fondos de pensiones y ahorradores españoles, que también perderían."
+    ],
+    "af": [
+      "eco",
+      "eur"
+    ],
+    "ej": "Ecuador auditó su deuda en 2007 y 2008, dejó de pagar una parte y después la recompró con descuento."
+  },
+  "autonomia": {
+    "t": "Más autogobierno (Estatutos)",
+    "q": "Ampliar las competencias de una comunidad, completando traspasos pendientes del Estado o aprobando un nuevo Estatuto. Un Estatuto es una ley orgánica: lo propone el parlamento autonómico, lo aprueban las Cortes y, en comunidades como Cataluña o País Vasco, se vota en referéndum.",
+    "pro": [
+      "Las decisiones se toman más cerca de los ciudadanos y se adaptan a cada territorio.",
+      "Cumple lo que ya prevén los Estatutos y la Constitución, que dejaron traspasos sin completar."
+    ],
+    "con": [
+      "Puede crear diferencias de servicios y derechos entre comunidades.",
+      "Complica la coordinación en asuntos comunes, como la sanidad o la unidad de mercado."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ],
+    "ej": "El nuevo Estatuto catalán de 2006 se votó en referéndum, pero el Tribunal Constitucional anuló o reinterpretó parte de él en 2010."
+  },
+  "avales": {
+    "t": "Avales públicos para hipotecas de jóvenes",
+    "q": "El Estado, a través del ICO, garantiza al banco una parte del préstamo para que un menor de 35 años pueda comprar casa sin tener ahorrado el 20 % de entrada que suelen pedir los bancos. Así la hipoteca podría cubrir hasta el 95 % del precio.",
+    "pro": [
+      "El mayor obstáculo de muchos jóvenes no es pagar la cuota, sino reunir la entrada.",
+      "Solo cuesta dinero público si el joven deja de pagar y el aval se ejecuta."
+    ],
+    "con": [
+      "Si sube la demanda sin más oferta de vivienda, los precios pueden subir aún más.",
+      "El Estado asume riesgo de impago y los jóvenes se endeudan más."
+    ],
+    "pay": "Solo cuesta si hay impagos. El Estado reserva una partida para cubrir los avales que se ejecuten; las pérdidas salen del presupuesto general.",
+    "af": [
+      "viv",
+      "eco"
+    ],
+    "ej": "En 2023 el Gobierno lanzó una línea de avales del ICO para menores de 35 años que cubre hasta el 20 % del préstamo."
+  },
+  "bajar_impuestos": {
+    "t": "Bajar impuestos",
+    "q": "Reducir de forma general lo que pagan familias y empresas: IRPF, IVA, Sociedades, Patrimonio o Sucesiones. Lo deciden el Gobierno y las Cortes; parte de algunos impuestos la fijan las comunidades autónomas. A veces la promesa es solo no subir ninguno.",
+    "pro": [
+      "Deja más dinero a familias y empresas para consumir, ahorrar o invertir.",
+      "Sus defensores dicen que anima la actividad y que, al crecer la economía, se recupera recaudación.",
+      "Hace más atractivo invertir y trabajar en España frente a otros países."
+    ],
+    "con": [
+      "Si no se recorta gasto, aumentan el déficit y la deuda.",
+      "Puede obligar a recortar servicios como sanidad, educación o pensiones.",
+      "Sus críticos dicen que, según el diseño, beneficia más a quien más gana."
+    ],
+    "pay": "Depende de la rebaja. Se compensaría recortando gasto público, con más deuda o confiando en que el crecimiento recupere parte de lo recaudado.",
+    "af": [
+      "imp",
+      "eco"
+    ],
+    "ej": "En el Reino Unido, en 2022, un plan de rebajas fiscales sin financiación clara hundió la libra y se retiró en pocas semanas."
+  },
+  "bajar_irpf": {
+    "t": "Bajar el IRPF",
+    "q": "Rebajar el impuesto sobre la renta que se paga por el sueldo, la pensión u otros ingresos. Puede hacerse bajando los tipos, subiendo el mínimo exento o solo para ciertas rentas, por ejemplo menos de 16.000 € o de 40.000 € al año. El Estado fija su tramo y las comunidades el suyo.",
+    "pro": [
+      "Aumenta el sueldo neto y el poder de compra de quien trabaja.",
+      "Anima a trabajar más horas y a declarar ingresos.",
+      "Una rebaja centrada en rentas bajas y medias ayuda a quien más nota la inflación."
+    ],
+    "con": [
+      "El IRPF es de los impuestos que más recaudan; bajarlo resta dinero para servicios públicos.",
+      "Quien gana muy poco ya apenas paga IRPF, así que no le beneficia.",
+      "Si se baja sin recortar gasto, crece el déficit."
+    ],
+    "pay": "Según el alcance, de cientos a varios miles de millones al año. Saldría de recortar gasto, de más deuda o de subir otros impuestos.",
+    "af": [
+      "imp",
+      "eco"
+    ],
+    "ej": "La reforma del IRPF aplicada desde 1999 bajó los tipos y subió el mínimo que queda libre de impuesto."
+  },
+  "banca_publica": {
+    "t": "Banca pública",
+    "q": "Que el Estado tenga un banco propio que dé crédito a familias, pymes y proyectos que la banca privada no financia. En 2019 Unidas Podemos proponía no vender Bankia, rescatada con dinero público en 2012, y usarla como banco público.",
+    "pro": [
+      "Garantiza crédito en las crisis, cuando los bancos privados cierran el grifo.",
+      "Puede financiar vivienda, pymes o transición ecológica con criterios de interés general."
+    ],
+    "con": [
+      "El Estado asume el riesgo de pérdidas si los préstamos no se devuelven.",
+      "Sus críticos temen injerencia política en los préstamos, un problema que señalan en las antiguas cajas de ahorros."
+    ],
+    "pay": "Quedarse Bankia suponía renunciar a recuperar parte del rescate con su venta. Un banco nuevo exigiría capital público, con presupuesto o deuda.",
+    "af": [
+      "eco"
+    ],
+    "ej": "Bankia se fusionó con CaixaBank en 2021 y el Estado conserva una participación minoritaria. El ICO ya funciona como banco público de fomento."
+  },
+  "bienestar": {
+    "t": "Estado del bienestar",
+    "q": "Mantener y ampliar los servicios públicos que se pagan con impuestos: sanidad y educación gratuitas, pensiones, prestación por desempleo y servicios sociales. En 1996 el PSOE lo planteaba como garantía frente a posibles recortes.",
+    "pro": [
+      "Protege a todos frente a la enfermedad, el paro o la vejez, sin importar los ingresos.",
+      "Reduce la desigualdad y la pobreza."
+    ],
+    "con": [
+      "Exige impuestos altos y estables, que pesan sobre el trabajo y la empresa.",
+      "Sin reformas, el envejecimiento hace que el gasto crezca más rápido que los ingresos."
+    ],
+    "af": [
+      "san",
+      "edu",
+      "pen",
+      "soc"
+    ]
+  },
+  "cee": {
+    "t": "Entrada en la Comunidad Europea",
+    "q": "España entró en la Comunidad Económica Europea, hoy Unión Europea, el 1 de enero de 1986. Consolidarlo suponía adaptar leyes, quitar aranceles, aplicar la política agrícola y pesquera común y aprovechar los fondos europeos para infraestructuras y regiones pobres.",
+    "pro": [
+      "Dio a las empresas españolas acceso a un gran mercado sin aranceles.",
+      "Trajo fondos europeos para carreteras, trenes y zonas menos desarrolladas.",
+      "Afianzó la democracia y el peso internacional de España."
+    ],
+    "con": [
+      "Sectores como parte de la industria, la agricultura o la pesca sufrieron la competencia y las cuotas.",
+      "Se cedieron a Bruselas decisiones como los aranceles o parte de la política agraria.",
+      "Exigió reconversiones duras en sectores protegidos hasta entonces."
+    ],
+    "af": [
+      "eur",
+      "eco"
+    ]
+  },
+  "cesion_irpf": {
+    "t": "Ceder el IRPF a las comunidades",
+    "q": "Que una parte de lo recaudado por IRPF en cada comunidad vaya directamente a su gobierno, en vez de llegar como transferencia del Estado. CiU pactó ceder el 15 % en 1993 y el 30 %, con capacidad de cambiar tipos y deducciones, en 1996 (Pacto del Majestic).",
+    "pro": [
+      "Las comunidades que gastan en sanidad o educación también responden de los impuestos que cobran.",
+      "Pueden adaptar deducciones y tipos a su población."
+    ],
+    "con": [
+      "Las comunidades con más renta recaudan más, lo que puede aumentar las diferencias territoriales.",
+      "Fomenta la competencia fiscal entre comunidades para bajar impuestos."
+    ],
+    "af": [
+      "aut",
+      "imp"
+    ],
+    "ej": "La cesión subió al 33 % en 2002 y al 50 % en 2009, el porcentaje actual."
+  },
+  "coalicion": {
+    "t": "Gobierno de coalición de izquierdas",
+    "q": "Que dos o más partidos compartan el Gobierno, con ministros de cada uno y un programa pactado. En 2000 PSOE e IU firmaron un acuerdo electoral; en 2019 Unidas Podemos pidió entrar en el Gobierno con el PSOE.",
+    "pro": [
+      "Refleja mejor lo que votó la gente cuando ningún partido tiene mayoría.",
+      "Da estabilidad: los socios se comprometen a apoyar presupuestos y leyes."
+    ],
+    "con": [
+      "Las discrepancias internas pueden frenar decisiones o dar imagen de división.",
+      "Los votantes de cada partido pueden ver diluido su programa."
+    ],
+    "af": [
+      "inst"
+    ],
+    "ej": "En enero de 2020 PSOE y Unidas Podemos formaron el primer gobierno de coalición desde la recuperación de la democracia."
+  },
+  "complemento_salarial": {
+    "t": "Complemento salarial",
+    "q": "El Estado paga, a través de Hacienda, un extra a los trabajadores con sueldos bajos para que trabajar compense más que no hacerlo. Ciudadanos lo proponía en 2015: la ayuda crece con lo que se gana hasta un límite y luego se reduce.",
+    "pro": [
+      "Premia el empleo: cobras más cuanto más trabajas, al contrario que otras ayudas.",
+      "Reduce la pobreza de quienes trabajan y aun así no llegan a fin de mes."
+    ],
+    "con": [
+      "Puede animar a las empresas a pagar menos, porque el Estado completa el sueldo.",
+      "Es complejo de gestionar y puede generar fraude o errores en los pagos."
+    ],
+    "pay": "Depende de cuántos trabajadores lo cobren y de la cuantía. Se pagaría con el presupuesto general: otros impuestos, recortar otras ayudas o más deuda.",
+    "af": [
+      "trab",
+      "soc",
+      "imp"
+    ],
+    "ej": "Estados Unidos aplica desde 1975 un crédito fiscal (EITC) que complementa los ingresos de trabajadores con sueldos bajos."
+  },
+  "concierto": {
+    "t": "Revisar el concierto vasco y navarro",
+    "q": "País Vasco y Navarra recaudan casi todos sus impuestos y pagan al Estado una cantidad, el cupo o aportación, por los servicios comunes. UPyD proponía revisar cómo se calcula. El sistema está protegido por la Constitución como derecho histórico de estos territorios.",
+    "pro": [
+      "Sus defensores dicen que el cálculo del cupo deja a estas comunidades con más dinero por habitante que al resto.",
+      "Busca que todas las comunidades contribuyan igual a la solidaridad territorial."
+    ],
+    "con": [
+      "El concierto está reconocido en la Constitución y tiene un amplio apoyo en esas comunidades.",
+      "Cambiarlo sin acuerdo podría generar un conflicto político con País Vasco y Navarra."
+    ],
+    "af": [
+      "aut",
+      "imp"
+    ]
+  },
+  "consenso": {
+    "t": "Centro y pactos de Estado",
+    "q": "Gobernar desde el centro buscando acuerdos entre los grandes partidos en asuntos básicos, como pensiones, educación, justicia o modelo territorial, para que no cambien con cada Gobierno. Lo defendieron el CDS en 1989 y 1993 y Ciudadanos en 2019.",
+    "pro": [
+      "Da estabilidad: las reglas básicas no cambian cada cuatro años.",
+      "Obliga a buscar soluciones que acepte una mayoría amplia."
+    ],
+    "con": [
+      "Los acuerdos amplios son lentos y a veces solo cierran lo mínimo.",
+      "Puede difuminar las diferencias entre opciones y dar menos alternativas al votante."
+    ],
+    "af": [
+      "inst"
+    ],
+    "ej": "Los Pactos de la Moncloa de 1977 y el Pacto de Toledo de 1995 sobre pensiones son ejemplos de acuerdos amplios."
+  },
+  "contrato_integracion": {
+    "t": "Contrato de integración",
+    "q": "Los inmigrantes que llegan a España firmarían un documento por el que se comprometen a cumplir las leyes, respetar las costumbres y aprender el idioma, a cambio de acceso a programas de integración. El PP lo propuso en 2008.",
+    "pro": [
+      "Deja claras desde el principio las reglas y los valores comunes.",
+      "Puede ir unido a clases de idioma y formación que facilitan encontrar trabajo."
+    ],
+    "con": [
+      "Las leyes ya obligan a todos, así que firmar un documento añade poco.",
+      "Sus críticos dicen que señala a los inmigrantes como sospechosos y que «costumbres» es un concepto difuso."
+    ],
+    "af": [
+      "soc",
+      "der"
+    ],
+    "ej": "Francia aplica desde 2007 un contrato de acogida e integración obligatorio para nuevos residentes."
+  },
+  "contrato_unico": {
+    "t": "Contrato único",
+    "q": "Sustituir los muchos tipos de contrato por uno solo indefinido, en el que la indemnización por despido crece con los años en la empresa. Busca acabar con la diferencia entre temporales, fáciles de despedir, y fijos, más protegidos.",
+    "pro": [
+      "Reduce la temporalidad, que en España ha sido de las más altas de Europa.",
+      "Todos los trabajadores tendrían derechos que crecen con la antigüedad desde el primer día."
+    ],
+    "con": [
+      "Los sindicatos temen que abarate el despido de quienes hoy son fijos.",
+      "Las empresas con trabajo de temporada seguirían necesitando contratos temporales."
+    ],
+    "af": [
+      "trab"
+    ],
+    "ej": "Italia aprobó en 2015 un contrato indefinido con protección que crece con la antigüedad, dentro de su Jobs Act."
+  },
+  "converg": {
+    "t": "Convergencia con Europa y Maastricht",
+    "q": "El Tratado de Maastricht (1992) fijó requisitos para entrar en la moneda única: déficit público por debajo del 3 % del PIB, deuda por debajo del 60 %, e inflación y tipos de interés bajos. El PSOE quería cumplirlos; IU rechazaba el tratado por sus efectos sociales.",
+    "pro": [
+      "A favor: estabilizar precios y cuentas públicas y entrar en el euro con tipos de interés más bajos.",
+      "A favor: acercar la renta española a la media europea dentro de un gran mercado."
+    ],
+    "con": [
+      "En contra (IU): el ajuste obliga a recortar gasto social e inversión cuando hay mucho paro.",
+      "En contra (IU): cede a Bruselas y al futuro banco central decisiones económicas clave."
+    ],
+    "af": [
+      "eur",
+      "eco"
+    ],
+    "ej": "España cumplió los criterios en 1997 y entró en el euro en el primer grupo, en 1999."
+  },
+  "ded400": {
+    "t": "Deducción de 400 € en el IRPF",
+    "q": "Una rebaja de hasta 400 € al año en el IRPF para trabajadores y pensionistas, que se notaba directamente en la nómina. El PSOE la prometió en 2008.",
+    "pro": [
+      "Llega por igual a casi todos los trabajadores y pensionistas, no solo a quien más gana.",
+      "Inyecta dinero en el consumo cuando la economía se frena."
+    ],
+    "con": [
+      "Tiene un coste alto y se aplicó justo cuando caían los ingresos públicos.",
+      "Al ser igual para todos, ayuda poco a quien más lo necesita y nada a quien no paga IRPF."
+    ],
+    "pay": "Varios miles de millones al año. Se pagó con déficit y deuda, en plena caída de la recaudación por la crisis.",
+    "af": [
+      "imp",
+      "eco"
+    ],
+    "ej": "Se aplicó en 2008 y 2009 y se suprimió en 2010 por la crisis."
+  },
+  "deficit": {
+    "t": "Reducir el déficit",
+    "q": "Que el Estado gaste lo mismo que ingresa, o menos, para no acumular deuda. En 1989 el PP prometía reducir el déficit y en 2000 llegar al déficit cero, que recogió la Ley de Estabilidad Presupuestaria de 2001.",
+    "pro": [
+      "Menos deuda significa pagar menos intereses y tener margen para las crisis.",
+      "Da confianza a inversores y a Bruselas, lo que abarata la financiación."
+    ],
+    "con": [
+      "Puede obligar a recortar inversión pública y gasto social.",
+      "En una recesión, recortar para cuadrar cuentas puede agravar la caída de la economía."
+    ],
+    "af": [
+      "eco",
+      "eur"
+    ],
+    "ej": "España tuvo superávit público entre 2005 y 2007, antes de la crisis financiera."
+  },
+  "dependencia": {
+    "t": "Atención a la dependencia",
+    "q": "Crear un sistema público que reconozca el derecho de quien no puede valerse por sí mismo, por edad o discapacidad, a recibir ayuda: cuidados a domicilio, centros de día, residencias o una paga al cuidador familiar. Lo gestionan las comunidades con financiación del Estado.",
+    "pro": [
+      "Convierte en derecho una necesidad que antes cubrían sobre todo las familias, en especial las mujeres.",
+      "Crea empleo en el sector de los cuidados."
+    ],
+    "con": [
+      "La financiación ha sido insuficiente y hay largas listas de espera.",
+      "Las diferencias entre comunidades hacen que la ayuda dependa de dónde vivas."
+    ],
+    "pay": "Varios miles de millones al año entre Estado y comunidades. Se paga con presupuestos públicos y un copago del usuario según su renta.",
+    "af": [
+      "soc",
+      "san"
+    ],
+    "ej": "Se aprobó en 2006 (Ley 39/2006) y desde entonces arrastra listas de espera."
+  },
+  "derogar_ley_vivienda": {
+    "t": "Derogar la ley de vivienda",
+    "q": "Anular la Ley 12/2023 por el derecho a la vivienda, que permite a las comunidades declarar zonas tensionadas y limitar allí el precio del alquiler, y endurece las reglas para grandes propietarios. El PP proponía sustituirla por medidas para aumentar la oferta de vivienda.",
+    "pro": [
+      "Sus defensores dicen que los topes reducen la oferta y empujan a propietarios a vender o al alquiler de temporada.",
+      "Da seguridad jurídica a los propietarios y anima a invertir en vivienda."
+    ],
+    "con": [
+      "Quitaría la herramienta para frenar los alquileres en las zonas más caras.",
+      "Los inquilinos perderían protecciones, como los límites a las subidas en sus contratos."
+    ],
+    "af": [
+      "viv"
+    ]
+  },
+  "derogar_memoria_trans": {
+    "t": "Derogar las leyes de memoria y trans",
+    "q": "Anular la Ley de Memoria Democrática (2022), que regula la búsqueda de víctimas del franquismo y la retirada de símbolos, y la ley trans (2023), que permite cambiar el sexo en el Registro Civil con la sola declaración de la persona desde los 16 años.",
+    "pro": [
+      "A favor (memoria): sus defensores dicen que reabre heridas del pasado y da una visión parcial de la historia.",
+      "A favor (trans): sus defensores dicen que el cambio registral sin requisitos puede afectar a menores y a espacios separados por sexo."
+    ],
+    "con": [
+      "En contra (memoria): las familias de víctimas perderían apoyo para buscar y exhumar a sus desaparecidos.",
+      "En contra (trans): las personas trans volverían a necesitar informes médicos y tratamientos para cambiar sus documentos."
+    ],
+    "af": [
+      "der",
+      "soc"
+    ]
+  },
+  "derogar_reforma_laboral": {
+    "t": "Derogar la reforma laboral de 2012",
+    "q": "Anular la reforma del PP de 2012, que bajó la indemnización por despido improcedente de 45 a 33 días por año, permitió a las empresas cambiar sueldos y condiciones con más facilidad y dio prioridad a los convenios de empresa sobre los del sector.",
+    "pro": [
+      "Devolvería poder de negociación a trabajadores y sindicatos.",
+      "Sus defensores dicen que la reforma facilitó la bajada de salarios y la precariedad."
+    ],
+    "con": [
+      "Sus críticos dicen que la reforma ayudó a crear empleo tras la crisis y que deshacerla lo frenaría.",
+      "Las empresas perderían flexibilidad para adaptarse en momentos malos sin despedir."
+    ],
+    "af": [
+      "trab"
+    ],
+    "ej": "En 2021 Gobierno, sindicatos y patronal pactaron una reforma que cambió partes de la de 2012, sobre todo para reducir la temporalidad, sin derogarla entera."
+  },
+  "edu_oblig": {
+    "t": "Enseñanza obligatoria hasta los 16",
+    "q": "Ampliar la escolarización obligatoria y gratuita de los 14 a los 16 años, la edad mínima para trabajar. Lo hizo la LOGSE de 1990, que creó la ESO.",
+    "pro": [
+      "Más años de formación mejoran el empleo y los sueldos futuros.",
+      "Evita que menores dejen la escuela para trabajar a los 14."
+    ],
+    "con": [
+      "Obliga a seguir en el aula a alumnos que preferirían una formación profesional temprana.",
+      "Algunos docentes señalaron la dificultad de atender juntos a alumnos con intereses muy distintos."
+    ],
+    "pay": "Exigió contratar profesores y construir o ampliar institutos. Se pagó con los presupuestos del Estado y, después, de las comunidades.",
+    "af": [
+      "edu"
+    ],
+    "ej": "La LOGSE se aprobó en 1990 y se aplicó de forma gradual durante esa década."
+  },
+  "empleo": {
+    "t": "Objetivos de empleo",
+    "q": "Promesas de crear empleo o de llegar a una cifra concreta: pleno empleo (PSOE 1986, 1993, 2008) o 20 millones de ocupados (PP 2015 y 2016). El Gobierno influye con leyes laborales, inversión e impuestos, pero el empleo depende mucho de la marcha de la economía.",
+    "pro": [
+      "Un objetivo claro permite a los votantes comprobar si se cumple.",
+      "El empleo es la principal vía para pagar las pensiones y reducir la pobreza."
+    ],
+    "con": [
+      "El Gobierno no controla el ciclo económico ni las crisis internacionales.",
+      "La cifra puede alcanzarse con empleo temporal o a tiempo parcial."
+    ],
+    "af": [
+      "trab",
+      "eco"
+    ],
+    "ej": "El paro llegó a casi el 27 % de la población activa a principios de 2013 (EPA, INE)."
+  },
+  "empleo_joven": {
+    "t": "Plan de empleo juvenil",
+    "q": "Medidas para que los jóvenes encuentren trabajo: ayudas a las empresas que los contraten, contratos de formación, prácticas y orientación. En 2011 el paro de los menores de 25 años superaba el 40 % (EPA, INE).",
+    "pro": [
+      "Ataca un paro juvenil muy por encima de la media.",
+      "Una primera experiencia laboral mejora las opciones de empleo durante años."
+    ],
+    "con": [
+      "Las ayudas pueden pagar contratos que se habrían hecho igual.",
+      "Puede desplazar a otros trabajadores o crear empleo que desaparece cuando acaba la ayuda."
+    ],
+    "pay": "Bonificaciones a la contratación y cursos de formación. Sale del presupuesto del Estado y, en parte, de fondos europeos.",
+    "af": [
+      "trab",
+      "edu"
+    ],
+    "ej": "La Unión Europea lanzó en 2013 la Garantía Juvenil para ofrecer empleo o formación a los jóvenes en pocos meses."
+  },
+  "euro": {
+    "t": "Entrar en el euro",
+    "q": "Sustituir la peseta por el euro y ceder la política monetaria, es decir, los tipos de interés y la emisión de dinero, al Banco Central Europeo. En 1996 PSOE y PP defendían entrar en el primer grupo de países.",
+    "pro": [
+      "Tipos de interés más bajos para el Estado, las empresas y las familias.",
+      "Elimina el coste de cambiar de moneda y el riesgo de devaluaciones en el comercio europeo."
+    ],
+    "con": [
+      "España pierde la opción de devaluar su moneda o fijar sus tipos en una crisis.",
+      "Sus críticos dicen que los tipos bajos alimentaron el endeudamiento y la burbuja inmobiliaria."
+    ],
+    "af": [
+      "eur",
+      "eco"
+    ],
+    "ej": "El euro llegó en 1999 como moneda de cuenta y en 2002 en billetes y monedas."
+  },
+  "eutanasia": {
+    "t": "Ley de eutanasia",
+    "q": "Permitir que una persona mayor de edad con una enfermedad grave e incurable, o un padecimiento crónico e imposibilitante, pida ayuda médica para morir. La petición debe repetirse y la revisan médicos y una comisión de cada comunidad autónoma.",
+    "pro": [
+      "Reconoce el derecho a decidir sobre el final de la propia vida.",
+      "Evita sufrimientos que la medicina no puede aliviar y la práctica clandestina."
+    ],
+    "con": [
+      "Sus críticos temen presiones, aunque sean sutiles, sobre personas mayores, enfermas o con discapacidad.",
+      "Piden priorizar los cuidados paliativos, que no llegan a todos."
+    ],
+    "af": [
+      "der",
+      "san"
+    ],
+    "ej": "Se aprobó en 2021 (Ley Orgánica 3/2021). Países Bajos y Bélgica la regularon en 2002."
+  },
+  "expulsar_irregulares": {
+    "t": "Expulsar a inmigrantes irregulares",
+    "q": "Endurecer la Ley de Extranjería para expulsar a quien esté en España sin permiso, limitar las regularizaciones y reforzar el control de fronteras. Las expulsiones necesitan que el país de origen acepte de vuelta a sus ciudadanos.",
+    "pro": [
+      "Sus defensores dicen que hace cumplir la ley y desanima la inmigración irregular.",
+      "Permite al Estado decidir quién entra según sus necesidades."
+    ],
+    "con": [
+      "Muchos países no aceptan devoluciones, así que las expulsiones masivas son difíciles en la práctica.",
+      "Muchas personas en situación irregular trabajan en sectores con falta de mano de obra, como el campo o los cuidados."
+    ],
+    "pay": "Requiere más agentes, centros de internamiento y vuelos. Saldría del presupuesto del Ministerio del Interior.",
+    "af": [
+      "seg",
+      "der",
+      "soc"
+    ]
+  },
+  "federal": {
+    "t": "Estado federal",
+    "q": "Reformar la Constitución para convertir el Estado autonómico en una federación: competencias de cada nivel fijadas con claridad, financiación pactada y un Senado que represente a los territorios. Exige mayorías de tres quintos o dos tercios en las Cortes y, según el alcance, referéndum.",
+    "pro": [
+      "Aclara quién hace qué y reduce los conflictos ante el Tribunal Constitucional.",
+      "Sus defensores dicen que da cabida al autogobierno de Cataluña o País Vasco dentro de España."
+    ],
+    "con": [
+      "Exige un consenso amplio que no existe entre los grandes partidos.",
+      "Los independentistas lo ven insuficiente y otros temen que debilite al Estado."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ],
+    "ej": "Alemania es una federación en la que los Länder participan en las leyes estatales a través de su cámara, el Bundesrat."
+  },
+  "franco": {
+    "t": "Exhumar a Franco",
+    "q": "Sacar los restos del dictador del Valle de los Caídos, un monumento público, y entregarlos a su familia para enterrarlos en otro lugar. El Gobierno lo aprobó en 2018 mediante un real decreto-ley.",
+    "pro": [
+      "Una democracia no debe honrar a un dictador en un monumento público.",
+      "Ayuda a convertir el lugar en un espacio de memoria para todas las víctimas."
+    ],
+    "con": [
+      "Sus críticos dicen que reabre divisiones del pasado.",
+      "La familia y otros sectores se opusieron y lo vieron como un uso político de la memoria."
+    ],
+    "af": [
+      "der",
+      "inst"
+    ],
+    "ej": "La exhumación se hizo el 24 de octubre de 2019; el lugar pasó después a llamarse Cuelgamuros."
+  },
+  "grandes_fortunas": {
+    "t": "Impuesto a grandes fortunas",
+    "q": "Gravar más los grandes patrimonios y las rentas altas: un impuesto anual sobre el patrimonio neto a partir de cierta cantidad o subir el IRPF en los tramos altos. Existe el impuesto de Patrimonio, cedido a las comunidades, y desde 2022 uno estatal para patrimonios de más de 3 millones de euros.",
+    "pro": [
+      "Quien más tiene contribuye más, lo que reduce la desigualdad.",
+      "Recauda para servicios públicos sin subir impuestos a la mayoría."
+    ],
+    "con": [
+      "Puede animar a los más ricos a trasladar su residencia o su patrimonio a otro país o comunidad.",
+      "Grava un ahorro que ya pagó impuestos y puede afectar a empresas familiares."
+    ],
+    "af": [
+      "imp",
+      "eco"
+    ],
+    "ej": "Francia sustituyó en 2018 su impuesto general al patrimonio por otro que solo grava los inmuebles."
+  },
+  "herencia": {
+    "t": "Herencia universal",
+    "q": "Dar a cada joven 20.000 € al cumplir 18 años para que los use en estudios, formación o para emprender. Sumar lo proponía en 2023, financiado con impuestos a las grandes fortunas.",
+    "pro": [
+      "Iguala oportunidades: no todos reciben ayuda de su familia para empezar.",
+      "Facilita estudiar, formarse o montar un negocio sin endeudarse."
+    ],
+    "con": [
+      "Tiene un coste muy alto y lo cobrarían también jóvenes de familias ricas.",
+      "Es difícil controlar en qué se gasta el dinero."
+    ],
+    "pay": "Cálculo aproximado: unos 10.000 millones al año (20.000 € por cada uno de los cerca de medio millón de jóvenes que cumplen 18). Sumar proponía pagarla con impuestos a grandes patrimonios; si no, deuda o recortes.",
+    "af": [
+      "soc",
+      "edu",
+      "imp"
+    ],
+    "ej": "Reino Unido abrió entre 2005 y 2011 una cuenta de ahorro con dinero público para cada recién nacido (Child Trust Fund)."
+  },
+  "ilegalizar_partidos": {
+    "t": "Ilegalizar partidos separatistas",
+    "q": "Reformar la Ley de Partidos para ilegalizar a los que defienden la independencia de un territorio. Hoy solo puede ilegalizarse un partido por apoyar la violencia o el terrorismo, como ocurrió con Batasuna en 2003.",
+    "pro": [
+      "Sus defensores dicen que protege la unidad de España que recoge la Constitución.",
+      "Impediría que cargos públicos usen las instituciones contra la Constitución."
+    ],
+    "con": [
+      "El Tribunal Constitucional ha dicho que en España se pueden defender pacíficamente todas las ideas, incluida la independencia.",
+      "Dejaría sin representación a millones de votantes y podría aumentar el apoyo independentista."
+    ],
+    "af": [
+      "inst",
+      "der",
+      "aut"
+    ]
+  },
+  "impuesto_banca": {
+    "t": "Impuesto a la banca",
+    "q": "Un impuesto especial sobre los beneficios o los ingresos de los bancos, para que contribuyan más, sobre todo tras haber recibido ayudas públicas en la crisis. El PSOE lo propuso en 2011.",
+    "pro": [
+      "La banca recibió ayudas públicas y sus beneficios crecen cuando suben los tipos.",
+      "Recauda sin cargar más a familias y pymes."
+    ],
+    "con": [
+      "Los bancos pueden trasladar el coste a los clientes con más comisiones o intereses.",
+      "Reduce su capacidad para dar crédito y su atractivo para los inversores."
+    ],
+    "af": [
+      "imp",
+      "eco"
+    ],
+    "ej": "En 2022 se aprobó un gravamen temporal a la banca sobre sus ingresos por intereses y comisiones."
+  },
+  "imv": {
+    "t": "Ingreso mínimo vital",
+    "q": "Una ayuda mensual del Estado para los hogares sin ingresos suficientes, que completa lo que ganan hasta un mínimo. En 2015 Podemos proponía una renta garantizada desde 600 € por persona y el PSOE un ingreso mínimo vital.",
+    "pro": [
+      "Reduce la pobreza extrema, sobre todo la infantil.",
+      "Da una red de seguridad común en toda España, más allá de las rentas mínimas autonómicas."
+    ],
+    "con": [
+      "Puede desanimar a buscar empleo si se pierde al empezar a trabajar.",
+      "Es complejo de tramitar y muchos hogares con derecho no lo piden."
+    ],
+    "pay": "Varios miles de millones al año. Lo paga la Seguridad Social con transferencias del presupuesto del Estado.",
+    "af": [
+      "soc"
+    ],
+    "ej": "El Gobierno lo aprobó en mayo de 2020. La AIReF ha señalado que gran parte de los hogares con derecho no lo solicita."
+  },
+  "infra": {
+    "t": "AVE y autovías para 1992",
+    "q": "Construir la primera línea de alta velocidad, Madrid-Sevilla, y una red de autovías gratuitas antes de la Expo de Sevilla y los Juegos Olímpicos de Barcelona de 1992.",
+    "pro": [
+      "Acerca regiones y facilita el comercio y el turismo.",
+      "Aprovecha fondos europeos y crea empleo en la construcción."
+    ],
+    "con": [
+      "Gran coste para un país con otras necesidades sociales.",
+      "Sus críticos dicen que se priorizaron obras de prestigio frente a cercanías o mantenimiento."
+    ],
+    "pay": "Miles de millones en inversión pública, con presupuestos del Estado, deuda y fondos europeos.",
+    "af": [
+      "infra",
+      "eco"
+    ],
+    "ej": "El AVE Madrid-Sevilla se inauguró en abril de 1992."
+  },
+  "irak": {
+    "t": "Retirar las tropas de Irak",
+    "q": "Traer de vuelta a los soldados españoles enviados a Irak en 2003, tras la invasión liderada por Estados Unidos. Era una decisión del Gobierno.",
+    "pro": [
+      "La guerra no tenía un mandato expreso de la ONU y la mayoría de los españoles se oponía.",
+      "Evita bajas y riesgos en un conflicto sin final claro."
+    ],
+    "con": [
+      "Daña la relación con Estados Unidos y otros aliados.",
+      "Sus críticos dicen que dio una imagen de ceder ante el terrorismo tras el 11-M."
+    ],
+    "af": [
+      "def"
+    ],
+    "ej": "Zapatero anunció la retirada en abril de 2004, nada más llegar al Gobierno."
+  },
+  "jornada": {
+    "t": "Reducir la jornada laboral",
+    "q": "Bajar por ley la jornada máxima de 40 horas semanales sin reducir el sueldo: a 35 horas (IU), a 37,5 y después a 32 (Sumar 2023) o a cuatro días (Más País). Se cambia en el Estatuto de los Trabajadores.",
+    "pro": [
+      "Más tiempo libre y mejor conciliación sin perder sueldo.",
+      "Puede subir la productividad y repartir el trabajo entre más personas."
+    ],
+    "con": [
+      "Sube el coste por hora para las empresas, sobre todo pymes, comercio y hostelería.",
+      "Si la productividad no sube, puede frenar el empleo o la competitividad."
+    ],
+    "af": [
+      "trab",
+      "eco"
+    ],
+    "ej": "Francia fijó la jornada legal en 35 horas en el año 2000. En España, el Congreso rechazó la ley de 37,5 horas el 10 de septiembre de 2025."
+  },
+  "ley_educativa": {
+    "t": "Derogar la LOMCE",
+    "q": "Anular la ley educativa del PP de 2013 (LOMCE o «ley Wert»), que introdujo reválidas, itinerarios tempranos y dio más peso a la asignatura de Religión, y aprobar una ley nueva.",
+    "pro": [
+      "Sus defensores dicen que la LOMCE separaba pronto a los alumnos y se aprobó sin consenso.",
+      "Permite devolver poder a los consejos escolares y recuperar contenidos de ciudadanía."
+    ],
+    "con": [
+      "Cambiar la ley con cada Gobierno crea inestabilidad para profesores y familias.",
+      "Los defensores de la LOMCE dicen que exigía más esfuerzo y evaluaba los resultados."
+    ],
+    "af": [
+      "edu"
+    ],
+    "ej": "La LOMCE fue sustituida en 2020 por la LOMLOE, también aprobada sin acuerdo con la oposición."
+  },
+  "ley_electoral": {
+    "t": "Reforma de la ley electoral",
+    "q": "Cambiar la ley electoral (LOREG, 1985) para que el reparto de escaños sea más proporcional a los votos. Hoy cada provincia es una circunscripción con al menos 2 diputados, lo que favorece a los partidos grandes y a los concentrados en un territorio.",
+    "pro": [
+      "Cada voto valdría lo mismo, viva el votante donde viva.",
+      "Los partidos pequeños de ámbito nacional lograrían escaños acordes a sus votos."
+    ],
+    "con": [
+      "Más fragmentación puede dificultar formar Gobierno.",
+      "Las provincias poco pobladas perderían representación."
+    ],
+    "af": [
+      "inst"
+    ],
+    "ej": "En 2008 IU logró casi un millón de votos y 2 escaños; el PNV, con unos 300.000, obtuvo 6."
+  },
+  "ley_vivienda": {
+    "t": "Ley estatal de vivienda",
+    "q": "Aprobar una ley que trate la vivienda como derecho y permita a las comunidades declarar zonas tensionadas, donde se limitan las subidas del alquiler y se dan ventajas fiscales a quien baje el precio. Se aprobó en 2023 (Ley 12/2023).",
+    "pro": [
+      "Frena las subidas de alquiler en las zonas más caras.",
+      "Obliga a reservar suelo y recursos para vivienda pública y social."
+    ],
+    "con": [
+      "Puede reducir la oferta si los propietarios retiran pisos del alquiler.",
+      "Algunas comunidades dicen que invade sus competencias."
+    ],
+    "af": [
+      "viv"
+    ],
+    "ej": "Cataluña fue la primera en aplicar topes en zonas tensionadas, desde marzo de 2024."
+  },
+  "liberalizar": {
+    "t": "Programa económico liberal",
+    "q": "Reducir el papel del Estado en la economía: bajar impuestos, privatizar empresas públicas, flexibilizar el mercado laboral y quitar trabas a las empresas. Lo proponía Coalición Popular, liderada por Fraga, en 1986.",
+    "pro": [
+      "Más competencia y libertad para emprender, lo que impulsa el crecimiento.",
+      "Menos gasto público permite bajar impuestos."
+    ],
+    "con": [
+      "Puede reducir la protección de los trabajadores y los servicios públicos.",
+      "Puede aumentar la desigualdad si no se acompaña de ayudas."
+    ],
+    "af": [
+      "eco",
+      "imp",
+      "trab"
+    ],
+    "ej": "En los años ochenta el Reino Unido de Thatcher privatizó grandes empresas públicas y desreguló la economía."
+  },
+  "maternidad": {
+    "t": "Ley de apoyo a la maternidad",
+    "q": "Una ley para ayudar a las mujeres embarazadas, sobre todo con dificultades económicas: información sobre ayudas, apoyo social y facilidades de conciliación. El PP la proponía en 2019 ante la baja natalidad, que en España está por debajo de 1,2 hijos por mujer (INE).",
+    "pro": [
+      "Ayuda a las mujeres que quieren tener hijos y no pueden por motivos económicos.",
+      "La baja natalidad pone en riesgo las pensiones y la población futura."
+    ],
+    "con": [
+      "Sus críticos temen que sirva para presionar a las mujeres que deciden abortar.",
+      "Otros creen que la natalidad depende más de empleo estable y vivienda asequible que de ayudas puntuales."
+    ],
+    "pay": "Depende de las ayudas que incluya. Saldría del presupuesto del Estado o de las comunidades.",
+    "af": [
+      "soc",
+      "der"
+    ]
+  },
+  "matrimonio": {
+    "t": "Matrimonio entre personas del mismo sexo",
+    "q": "Reformar el Código Civil para que dos personas del mismo sexo puedan casarse con los mismos derechos que cualquier pareja, incluida la adopción conjunta.",
+    "pro": [
+      "Garantiza la igualdad ante la ley de las parejas homosexuales.",
+      "Protege a sus hijos con los mismos derechos familiares."
+    ],
+    "con": [
+      "Sus críticos dicen que el matrimonio es, por tradición, entre hombre y mujer, y proponían otra figura legal.",
+      "Algunos se opusieron a la adopción por parejas del mismo sexo."
+    ],
+    "af": [
+      "der",
+      "soc"
+    ],
+    "ej": "Se aprobó en 2005: España fue el tercer país del mundo, tras Países Bajos y Bélgica. El Constitucional lo avaló en 2012."
+  },
+  "mili": {
+    "t": "Reducir o suprimir la mili",
+    "q": "El servicio militar era obligatorio para los varones. El CDS proponía en 1986 reducirlo a tres meses; otros defendían acabar con él y crear un ejército profesional.",
+    "pro": [
+      "Evita que los jóvenes pierdan meses en un servicio que muchos rechazaban.",
+      "Un ejército profesional está mejor preparado para misiones modernas."
+    ],
+    "con": [
+      "Un ejército profesional cuesta más en sueldos y cuesta reclutar suficientes soldados.",
+      "Se pierde un servicio que mezclaba a jóvenes de toda España."
+    ],
+    "pay": "Profesionalizar obliga a pagar sueldos a todos los soldados. Se financia con el presupuesto de Defensa.",
+    "af": [
+      "def"
+    ],
+    "ej": "La mili obligatoria terminó a finales de 2001, con el Gobierno de Aznar."
+  },
+  "mordaza": {
+    "t": "Derogar la «ley mordaza»",
+    "q": "Anular o cambiar la Ley de Seguridad Ciudadana de 2015, que permite multar sin juicio por desobedecer o faltar al respeto a la policía o por ciertas protestas ante el Congreso, y que regula las devoluciones en la frontera de Ceuta y Melilla.",
+    "pro": [
+      "Quienes piden derogarla dicen que limita la libertad de expresión y de manifestación.",
+      "Las multas las pone la propia Administración, con menos garantías que un juicio."
+    ],
+    "con": [
+      "Quienes la defienden dicen que da a la policía herramientas para mantener el orden.",
+      "Las multas evitan llevar a juicio conductas leves y descargan a los tribunales."
+    ],
+    "af": [
+      "der",
+      "seg"
+    ],
+    "ej": "En 2020 el Tribunal Constitucional avaló la mayor parte de la ley y anuló algún punto, como la multa por usar imágenes de policías sin autorización."
+  },
+  "muro": {
+    "t": "Muro en Ceuta y Melilla",
+    "q": "Sustituir o reforzar las vallas de Ceuta y Melilla, únicas fronteras terrestres de la UE en África, con un muro de hormigón más alto y difícil de saltar. Vox lo proponía en 2019 y decía que debía pagarlo Marruecos.",
+    "pro": [
+      "Sus defensores dicen que reduciría las entradas irregulares y los saltos a la valla.",
+      "Protegería mejor a los agentes que vigilan la frontera."
+    ],
+    "con": [
+      "Sus críticos dicen que desvía los intentos hacia rutas más peligrosas, como el mar.",
+      "Es caro y no hay forma de obligar a Marruecos a pagarlo."
+    ],
+    "pay": "Depende del diseño. Si Marruecos no paga, saldría del presupuesto del Estado o de fondos europeos de fronteras.",
+    "af": [
+      "seg",
+      "def"
+    ]
+  },
+  "otan": {
+    "t": "Salir de la OTAN",
+    "q": "Abandonar la alianza militar atlántica, en la que España entró en 1982. En el referéndum de 1986 IU pedía votar no a seguir en ella.",
+    "pro": [
+      "Evita implicarse en conflictos decididos por otras potencias, sobre todo Estados Unidos.",
+      "Permite una política exterior más propia y menos gasto militar."
+    ],
+    "con": [
+      "España perdería la protección colectiva de sus aliados.",
+      "Reduciría su peso en las decisiones de seguridad europeas."
+    ],
+    "af": [
+      "def",
+      "eur"
+    ],
+    "ej": "En el referéndum de marzo de 1986 ganó el sí a seguir en la OTAN, con condiciones como no entrar en su estructura militar integrada."
+  },
+  "pacto_educativo": {
+    "t": "Pacto de Estado por la educación",
+    "q": "Que los grandes partidos acuerden una ley educativa estable que no cambie con cada Gobierno: currículo, financiación, profesorado y evaluación. PP y Ciudadanos lo incluyeron en su acuerdo de 2016.",
+    "pro": [
+      "Daría estabilidad: España ha cambiado de ley educativa casi con cada Gobierno.",
+      "Permitiría reformas a largo plazo sobre el profesorado o el abandono escolar."
+    ],
+    "con": [
+      "Las diferencias sobre religión, escuela concertada o lenguas son profundas y difíciles de pactar.",
+      "Para lograr acuerdo puede quedarse en mínimos sin cambios reales."
+    ],
+    "af": [
+      "edu"
+    ],
+    "ej": "La subcomisión del Congreso para el pacto se rompió en 2018, cuando PSOE y Unidos Podemos la abandonaron por desacuerdos sobre la financiación."
+  },
+  "pacto_fiscal": {
+    "t": "Pacto fiscal para Cataluña",
+    "q": "Que Cataluña recaude todos sus impuestos, como País Vasco y Navarra, y pague al Estado una cantidad por servicios comunes y solidaridad. CiU lo pedía en 2011 y ERC una financiación singular en 2023. Exige cambiar la ley de financiación autonómica.",
+    "pro": [
+      "Sus defensores dicen que Cataluña aporta mucho más de lo que recibe.",
+      "Más autonomía para decidir impuestos y gasto."
+    ],
+    "con": [
+      "Otras comunidades temen recibir menos para sanidad y educación.",
+      "Rompe el sistema común y otras comunidades podrían pedir lo mismo."
+    ],
+    "pay": "No es un gasto nuevo, pero el Estado y el resto de comunidades podrían dejar de recibir parte de lo que hoy se recauda en Cataluña.",
+    "af": [
+      "aut",
+      "imp"
+    ],
+    "ej": "En septiembre de 2012 el Gobierno de Rajoy rechazó el pacto fiscal que le planteó Artur Mas."
+  },
+  "pacto_pensiones": {
+    "t": "Pacto de Toledo",
+    "q": "Acuerdo de todos los partidos en el Congreso, de 1995, para sacar las pensiones de la pelea electoral y garantizar que sean públicas y sostenibles. Separa las fuentes: cotizaciones para las pensiones contributivas e impuestos para las no contributivas.",
+    "pro": [
+      "Da tranquilidad a los pensionistas porque las grandes reformas se pactan.",
+      "Impulsó el Fondo de Reserva para ahorrar en los años buenos."
+    ],
+    "con": [
+      "Los acuerdos amplios retrasan reformas que el envejecimiento puede hacer necesarias.",
+      "Sus críticos dicen que no ha evitado reformas sin consenso, como la de 2013."
+    ],
+    "af": [
+      "pen"
+    ],
+    "ej": "Se aprobó en abril de 1995 y una comisión del Congreso lo revisa periódicamente."
+  },
+  "pensiones_ipc": {
+    "t": "Subir las pensiones con el IPC",
+    "q": "Que las pensiones suban cada año lo mismo que los precios, para que no pierdan poder de compra. Lo fija la ley desde 2021; entre 2014 y 2017 se aplicó un índice que en la práctica dejó la subida en el 0,25 %.",
+    "pro": [
+      "Los pensionistas no pierden poder adquisitivo con la inflación.",
+      "Da seguridad a quien no puede aumentar sus ingresos de otra forma."
+    ],
+    "con": [
+      "Con muchos jubilados y alta inflación, el gasto se dispara.",
+      "Sus críticos dicen que carga a los jóvenes, que lo pagan con cotizaciones y deuda."
+    ],
+    "pay": "Un año de inflación alta supone miles de millones extra. Sale de las cotizaciones, de transferencias del Estado y, cuando no basta, de deuda.",
+    "af": [
+      "pen",
+      "eco"
+    ],
+    "ej": "En 2023 las pensiones subieron un 8,5 % por la alta inflación de 2022."
+  },
+  "pensiones_min": {
+    "t": "Subir las pensiones mínimas",
+    "q": "Aumentar las pensiones más bajas, las de quien cotizó poco, por encima de lo que suben las demás. Bildu proponía en 2023 llevarlas hasta 1.080 €, el salario mínimo de entonces.",
+    "pro": [
+      "Reduce la pobreza de muchos mayores, sobre todo viudas.",
+      "Garantiza una vejez digna a quien trabajó con sueldos bajos o sin cotizar en casa."
+    ],
+    "con": [
+      "Su coste es alto y crecerá con el envejecimiento.",
+      "Acerca la pensión de quien cotizó poco a la de quien cotizó más, lo que puede desanimar a cotizar."
+    ],
+    "pay": "Miles de millones al año. Los complementos a mínimos se pagan con impuestos, desde el presupuesto del Estado, no con cotizaciones.",
+    "af": [
+      "pen",
+      "soc"
+    ],
+    "ej": "Una reforma de 2023 fijó que las mínimas con cónyuge a cargo alcancen en 2027 el umbral de pobreza de un hogar de dos personas."
+  },
+  "pnc": {
+    "t": "Pensiones no contributivas",
+    "q": "Una pensión para mayores de 65 años o personas con discapacidad que no cotizaron lo suficiente y tienen pocos ingresos. Se paga con impuestos, no con cotizaciones, y la gestionan las comunidades autónomas.",
+    "pro": [
+      "Ningún mayor queda sin ingresos aunque no haya cotizado.",
+      "Reconoce a quien trabajó sin contrato o en casa."
+    ],
+    "con": [
+      "Las cuantías son bajas y no sacan de la pobreza.",
+      "Puede desanimar a cotizar si la diferencia con la pensión contributiva mínima es pequeña."
+    ],
+    "pay": "Miles de millones al año, con cargo a los impuestos del presupuesto del Estado.",
+    "af": [
+      "pen",
+      "soc"
+    ],
+    "ej": "Se crearon con la Ley 26/1990."
+  },
+  "presos": {
+    "t": "Acercar a los presos de ETA",
+    "q": "Acabar con la política de dispersión, que desde 1989 enviaba a los presos de ETA a cárceles lejos del País Vasco, y trasladarlos a prisiones vascas o cercanas. Lo decide el Gobierno, responsable entonces de las prisiones.",
+    "pro": [
+      "Las familias no tendrían que viajar cientos de kilómetros para visitarlos.",
+      "Sus defensores dicen que ayuda a la reinserción y a cerrar la etapa de ETA."
+    ],
+    "con": [
+      "Muchas asociaciones de víctimas lo ven como un premio sin arrepentimiento.",
+      "Sus críticos dicen que la dispersión servía para romper el control de ETA sobre sus presos."
+    ],
+    "af": [
+      "seg",
+      "der"
+    ],
+    "ej": "Tras la disolución de ETA en 2018 el Gobierno puso fin a la dispersión, y en 2021 traspasó las prisiones al País Vasco."
+  },
+  "privatizar": {
+    "t": "Privatizar empresas públicas",
+    "q": "Vender al sector privado las participaciones del Estado en grandes empresas como Telefónica, Repsol, Endesa o Argentaria. El PP lo planteaba en 1996, en parte para reducir deuda y cumplir los requisitos del euro.",
+    "pro": [
+      "Da ingresos al Estado sin subir impuestos.",
+      "Más competencia y una gestión sin interferencias políticas."
+    ],
+    "con": [
+      "El Estado pierde control sobre sectores estratégicos como la energía o las telecomunicaciones.",
+      "Se renuncia a los beneficios futuros de esas empresas."
+    ],
+    "af": [
+      "eco"
+    ],
+    "ej": "Entre 1997 y 1998 el Estado vendió sus últimas acciones de Telefónica, Repsol y Endesa. En 2024 volvió a comprar un 10 % de Telefónica."
+  },
+  "quitar_grandes_fortunas": {
+    "t": "Suprimir el impuesto a grandes fortunas",
+    "q": "Eliminar el impuesto estatal creado en 2022 para patrimonios netos de más de 3 millones de euros. Se creó para que esos patrimonios pagaran también en comunidades como Madrid o Andalucía, que habían eliminado en la práctica el impuesto de Patrimonio.",
+    "pro": [
+      "Sus defensores dicen que invade el derecho de las comunidades a decidir sobre Patrimonio.",
+      "Evita que grandes patrimonios se trasladen a otros países."
+    ],
+    "con": [
+      "Se perderían ingresos que pagan solo los más ricos.",
+      "Volvería la competencia fiscal entre comunidades para atraer patrimonios."
+    ],
+    "pay": "Se perderían cientos de millones al año. Habría que compensarlo con otros ingresos, menos gasto o más deuda.",
+    "af": [
+      "imp",
+      "aut"
+    ]
+  },
+  "recentralizar": {
+    "t": "Recentralizar competencias",
+    "q": "Que el Estado recupere competencias hoy autonómicas, como educación y sanidad. UPyD proponía devolverlas al Estado en 2008, y Vox en 2019 iba más allá. Requiere reformar Estatutos o la Constitución.",
+    "pro": [
+      "Garantiza los mismos servicios y derechos en toda España.",
+      "Evita duplicidades y facilita la coordinación, por ejemplo en una pandemia."
+    ],
+    "con": [
+      "Aleja las decisiones de los ciudadanos y de la realidad de cada territorio.",
+      "Choca con el autogobierno que defienden muchas comunidades y exigiría mayorías difíciles."
+    ],
+    "af": [
+      "aut",
+      "edu",
+      "san"
+    ]
+  },
+  "referendum": {
+    "t": "Referéndum de autodeterminación",
+    "q": "Que los ciudadanos de una comunidad, como Cataluña o el País Vasco, voten si quieren ser independientes. La Constitución reserva al Estado autorizar referendos y proclama la unidad de la Nación, así que una consulta vinculante exigiría reformarla.",
+    "pro": [
+      "Sus defensores dicen que la mejor forma de resolver el conflicto es preguntar a los ciudadanos.",
+      "Hay precedentes acordados en democracias, como Escocia o Quebec."
+    ],
+    "con": [
+      "Según la Constitución, la soberanía es de todos los españoles y no solo de una parte.",
+      "Puede dividir a la sociedad y crear inestabilidad económica."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ],
+    "ej": "En 2014 Escocia votó, de acuerdo con Londres, y ganó seguir en el Reino Unido. El referéndum catalán de 2017 se hizo sin autorización y fue declarado ilegal."
+  },
+  "reforma_laboral": {
+    "t": "Reforma laboral de 2012",
+    "q": "La reforma del PP de 2012 bajó la indemnización por despido improcedente de 45 a 33 días por año, facilitó los despidos por causas económicas y dio prioridad a los convenios de empresa. En 2019 el PP proponía mantenerla.",
+    "pro": [
+      "Sus defensores dicen que ayudó a crear empleo tras la crisis.",
+      "Permite a las empresas ajustar sueldos y horarios en lugar de despedir."
+    ],
+    "con": [
+      "Sus críticos dicen que bajó los salarios y aumentó la precariedad.",
+      "Debilitó a los sindicatos y la negociación colectiva."
+    ],
+    "af": [
+      "trab"
+    ]
+  },
+  "regeneracion": {
+    "t": "Regeneración y lucha contra la corrupción",
+    "q": "Medidas para limpiar las instituciones: transparencia de cuentas, límites a los aforamientos, independencia de jueces y fiscales, control de la financiación de los partidos y penas más duras por corrupción.",
+    "pro": [
+      "Recupera la confianza de los ciudadanos en las instituciones.",
+      "Evita que el dinero público se desvíe a intereses privados."
+    ],
+    "con": [
+      "Muchas promesas no se cumplen o se quedan en declaraciones.",
+      "Algunas medidas, como limitar los aforamientos, exigen reformar la Constitución."
+    ],
+    "af": [
+      "inst"
+    ],
+    "ej": "En 2013 se aprobó la Ley de Transparencia, Acceso a la Información Pública y Buen Gobierno."
+  },
+  "sanidad_univ": {
+    "t": "Sanidad pública universal",
+    "q": "Que todos los residentes en España tengan derecho a la sanidad pública gratuita, pagada con impuestos y no con cotizaciones. La Ley General de Sanidad de 1986 creó el Sistema Nacional de Salud, que hoy gestionan las comunidades.",
+    "pro": [
+      "Nadie queda sin atención médica por no poder pagarla.",
+      "Prevenir y tratar a tiempo sale más barato que atender urgencias graves."
+    ],
+    "con": [
+      "Su coste crece con el envejecimiento y los nuevos tratamientos.",
+      "Las listas de espera muestran que los recursos no llegan a todo."
+    ],
+    "pay": "Es uno de los mayores gastos públicos. Se paga con los impuestos generales del Estado y las comunidades.",
+    "af": [
+      "san"
+    ],
+    "ej": "En 2012 se excluyó a los inmigrantes adultos en situación irregular; en 2018 se recuperó el acceso universal."
+  },
+  "smi": {
+    "t": "Subir el salario mínimo",
+    "q": "El Gobierno fija cada año por real decreto el salario mínimo interprofesional (SMI), el sueldo más bajo que se puede pagar a jornada completa. Unidas Podemos pedía 1.200 € al mes en 2019.",
+    "pro": [
+      "Mejora los ingresos de los trabajadores peor pagados.",
+      "Reduce la brecha salarial, porque muchas mujeres y jóvenes cobran el mínimo."
+    ],
+    "con": [
+      "Puede frenar la contratación de los menos cualificados y en zonas con salarios bajos.",
+      "Algunos estudios, como uno del Banco de España, estimaron que la subida de 2019 frenó parte del empleo."
+    ],
+    "af": [
+      "trab",
+      "eco"
+    ],
+    "ej": "El SMI subió un 22 % en 2019, hasta 900 € en 14 pagas, y llegó a 1.184 € en 2025."
+  },
+  "ss_autonomica": {
+    "t": "Seguridad Social vasca y navarra",
+    "q": "Traspasar al País Vasco y Navarra la gestión de prestaciones de la Seguridad Social, como pensiones o desempleo. El Estatuto de Gernika de 1979 ya lo prevé; el debate es si eso rompe la «caja única», que garantiza las mismas pensiones en toda España.",
+    "pro": [
+      "Cumple lo que prevé el Estatuto vasco.",
+      "Gestión más cercana y adaptada al territorio."
+    ],
+    "con": [
+      "Puede romper la solidaridad entre territorios del sistema común de pensiones.",
+      "Abre la puerta a que otras comunidades pidan lo mismo."
+    ],
+    "af": [
+      "aut",
+      "pen"
+    ]
+  },
+  "suprimir_autonomias": {
+    "t": "Suprimir las comunidades autónomas",
+    "q": "Sustituir el Estado autonómico por uno unitario, con un solo Gobierno y Parlamento que decidan sobre sanidad, educación y lo demás. Exige reformar el Título Preliminar de la Constitución por la vía agravada: dos tercios de ambas Cámaras, elecciones, nueva aprobación y referéndum.",
+    "pro": [
+      "Sus defensores dicen que ahorraría gasto en parlamentos, gobiernos y duplicidades.",
+      "Garantiza los mismos servicios y derechos en toda España."
+    ],
+    "con": [
+      "Las autonomías tienen amplio apoyo y sería casi imposible reunir las mayorías necesarias.",
+      "Alejaría la gestión de los ciudadanos y generaría un fuerte conflicto en Cataluña o País Vasco."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ]
+  },
+  "suprimir_diputaciones": {
+    "t": "Suprimir las diputaciones",
+    "q": "Eliminar las diputaciones provinciales, que apoyan a los municipios pequeños con servicios, obras y asistencia técnica. Sus funciones pasarían a las comunidades o a agrupaciones de municipios. Como aparecen en la Constitución, habría que reformarla.",
+    "pro": [
+      "Ahorra cargos y estructura administrativa.",
+      "Sus funciones se solapan con las de las comunidades autónomas."
+    ],
+    "con": [
+      "Los pueblos pequeños perderían apoyo técnico y económico para servicios básicos.",
+      "Sus defensores dicen que el ahorro es pequeño porque los servicios hay que seguir prestándolos."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "tope_alquiler": {
+    "t": "Limitar el precio del alquiler",
+    "q": "Fijar por ley un precio máximo, o limitar las subidas del alquiler, en las zonas más caras según un índice oficial de precios. Unidas Podemos lo proponía en 2019.",
+    "pro": [
+      "Protege a los inquilinos frente a subidas que no pueden pagar.",
+      "Frena la salida de vecinos de los barrios más demandados."
+    ],
+    "con": [
+      "Puede reducir la oferta de alquiler y empeorar el mantenimiento de las viviendas.",
+      "Puede empujar al alquiler de temporada o turístico, que queda fuera del tope."
+    ],
+    "af": [
+      "viv"
+    ],
+    "ej": "Berlín congeló los alquileres en 2020, pero el Tribunal Constitucional alemán anuló la norma en 2021."
+  },
+  "transicion": {
+    "t": "Transición ecológica",
+    "q": "Un plan para reducir las emisiones de CO2: más energías renovables, coche eléctrico, edificios más eficientes y cierre de centrales de carbón, con ayudas a las comarcas y trabajadores afectados. Más País lo planteaba en 2019 como un «Green New Deal».",
+    "pro": [
+      "Reduce la contaminación y frena el cambio climático.",
+      "España tiene sol y viento para producir energía barata y crear empleo."
+    ],
+    "con": [
+      "La inversión inicial es muy alta.",
+      "Afecta a trabajadores y comarcas que dependen de industrias contaminantes."
+    ],
+    "pay": "Grandes inversiones públicas y privadas durante años, con fondos europeos, deuda e impuestos ambientales.",
+    "af": [
+      "eco",
+      "infra"
+    ],
+    "ej": "La Ley de Cambio Climático de 2021 fija el objetivo de neutralidad climática para 2050."
+  },
+  "transporte": {
+    "t": "Transporte público gratis para jóvenes",
+    "q": "Que niños y estudiantes de hasta 24 años viajen gratis en transporte público. El Estado paga los trenes de Renfe y puede subvencionar a comunidades y ayuntamientos para autobuses y metros.",
+    "pro": [
+      "Ahorro para familias y jóvenes con menos ingresos.",
+      "Fomenta el transporte público frente al coche."
+    ],
+    "con": [
+      "Su coste es alto y beneficia también a quien podría pagar.",
+      "Puede saturar el servicio si no se invierte en más frecuencias."
+    ],
+    "pay": "Cientos de millones al año. Se pagaría con el presupuesto del Estado o reduciendo otras inversiones.",
+    "af": [
+      "infra",
+      "soc"
+    ],
+    "ej": "En septiembre de 2022 el Gobierno hizo gratuitos los abonos recurrentes de Cercanías y Media Distancia de Renfe."
+  },
+  "trasvase": {
+    "t": "Plan Hidrológico y trasvase del Ebro",
+    "q": "Llevar agua del río Ebro a Cataluña, Valencia, Murcia y Almería mediante grandes canalizaciones. El Plan Hidrológico Nacional de 2001 preveía trasvasar unos 1.050 hectómetros cúbicos al año.",
+    "pro": [
+      "Asegura agua para la agricultura y el consumo en zonas con escasez.",
+      "Reparte entre territorios un recurso que es de todos."
+    ],
+    "con": [
+      "Puede dañar el delta del Ebro y el medio ambiente del río.",
+      "Aragón y otras zonas se opusieron a ceder su agua."
+    ],
+    "pay": "Miles de millones en obras, con presupuesto del Estado y fondos europeos.",
+    "af": [
+      "infra",
+      "aut",
+      "eco"
+    ],
+    "ej": "El Gobierno de Zapatero anuló el trasvase en 2004 y apostó por desaladoras."
+  },
+  "unidad": {
+    "t": "Unidad de España",
+    "q": "Defender la unidad de la Nación que recoge el artículo 2 de la Constitución frente a los proyectos independentistas, con medidas legales y políticas.",
+    "pro": [
+      "Protege la igualdad de derechos y la solidaridad entre todos los españoles.",
+      "Da estabilidad política y económica."
+    ],
+    "con": [
+      "Sus críticos dicen que no ofrece salida a quienes quieren otro encaje territorial.",
+      "Puede alimentar el enfrentamiento con Cataluña o el País Vasco."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ]
+  },
+  "violencia_intrafamiliar": {
+    "t": "Ley de violencia intrafamiliar",
+    "q": "Sustituir la ley de violencia de género de 2004, que protege específicamente a las mujeres agredidas por su pareja o expareja, por una ley que proteja por igual a cualquier víctima dentro de la familia: hombres, mujeres, niños o mayores.",
+    "pro": [
+      "Sus defensores dicen que trata igual a todas las víctimas sin distinguir por sexo.",
+      "Incluye a niños y mayores maltratados en el hogar."
+    ],
+    "con": [
+      "Ignora que la gran mayoría de víctimas de violencia en la pareja son mujeres.",
+      "Se perderían juzgados, recursos y protocolos especializados creados desde 2004."
+    ],
+    "af": [
+      "der",
+      "seg",
+      "soc"
+    ],
+    "ej": "El Tribunal Constitucional avaló en 2008 que la ley castigue más al hombre que agrede a su pareja."
+  },
+  "vivienda_publica": {
+    "t": "Vivienda pública",
+    "q": "Construir o comprar viviendas públicas para alquilarlas a precio asequible o venderlas protegidas. En España el parque de vivienda social es muy pequeño comparado con países como Países Bajos o Austria.",
+    "pro": [
+      "Ofrece casa asequible a quien no puede pagar el precio de mercado.",
+      "Un gran parque público ayuda a moderar los precios."
+    ],
+    "con": [
+      "Construir es lento y caro, y los resultados tardan años.",
+      "Si se vende protegida, al cabo de un tiempo puede pasar a precio libre y se pierde."
+    ],
+    "pay": "Miles de millones al año. Se paga con presupuestos públicos, suelo público y préstamos a largo plazo.",
+    "af": [
+      "viv"
+    ],
+    "ej": "Viena mantiene desde los años veinte un amplio parque de vivienda municipal en alquiler."
+  },
+  "construir_vivienda": {
+    "t": "Construir más vivienda",
+    "q": "Aumentar la oferta liberando suelo, agilizando licencias y facilitando que promotores públicos y privados construyan. El PP habla de al menos un millón de viviendas en la legislatura.",
+    "pro": [
+      "Más viviendas pueden frenar la subida de precios a medio plazo.",
+      "Da trabajo al sector de la construcción."
+    ],
+    "con": [
+      "Construir lleva años: el efecto en los precios no es inmediato.",
+      "Sin control puede repetir la burbuja de 2000–2007 o levantar casas donde no hay demanda."
+    ],
+    "af": [
+      "viv",
+      "eco",
+      "aut"
+    ],
+    "ej": "Entre 2000 y 2007 se construyeron cientos de miles de viviendas al año y los precios siguieron subiendo hasta el estallido de 2008."
+  },
+  "financiacion_autonomica": {
+    "t": "Nueva financiación autonómica",
+    "q": "Cambiar cómo se reparten entre el Estado y las comunidades los impuestos que pagamos. El sistema actual es de 2009 y debía revisarse en 2014.",
+    "pro": [
+      "Las comunidades pagan sanidad y educación y dicen que reciben menos de lo que necesitan.",
+      "Puede corregir las diferencias de dinero por habitante entre comunidades."
+    ],
+    "con": [
+      "Lo que gana una comunidad lo pierde otra o el Estado, y es difícil de pactar.",
+      "Lleva más de diez años bloqueada: prometerla no garantiza un acuerdo."
+    ],
+    "af": [
+      "aut",
+      "imp",
+      "san",
+      "edu"
+    ]
+  },
+  "impuesto_ia": {
+    "t": "Impuesto a los beneficios de la inteligencia artificial",
+    "q": "Gravar los beneficios excepcionales de las empresas que ganen mucho gracias a la inteligencia artificial, para financiar la protección de los trabajadores cuyos empleos cambien o desaparezcan.",
+    "pro": [
+      "Reparte parte de las ganancias de una tecnología que puede destruir empleo.",
+      "Puede pagar formación y ayudas a los trabajadores afectados."
+    ],
+    "con": [
+      "Es difícil definir qué parte del beneficio viene de la inteligencia artificial.",
+      "Puede frenar la inversión tecnológica o llevarla a otros países."
+    ],
+    "af": [
+      "imp",
+      "trab",
+      "eco"
+    ]
+  },
+  "ayudas_compra": {
+    "t": "Rebajas fiscales para comprar o alquilar vivienda",
+    "q": "Quitar el IVA en la compra de la primera vivienda o permitir deducir en el IRPF parte del alquiler o la hipoteca, para que acceder a una casa cueste menos.",
+    "pro": [
+      "Alivia directamente el gasto de quien compra o alquila.",
+      "Ayuda sobre todo a jóvenes que compran su primera vivienda."
+    ],
+    "con": [
+      "Si no hay más casas, la rebaja puede acabar subiendo los precios.",
+      "Reduce lo que recaudan el Estado o las comunidades."
+    ],
+    "pay": "Lo que se deja de ingresar en IVA o IRPF habría que compensarlo con otros impuestos, menos gasto o más deuda.",
+    "ej": "España tuvo deducción por compra de vivienda en el IRPF hasta 2013; se suprimió, entre otros motivos, porque se consideraba que inflaba los precios.",
+    "af": [
+      "viv",
+      "imp"
+    ]
+  },
+  "impuesto_multipropiedad": {
+    "t": "Limitar o gravar a quien acumula viviendas",
+    "q": "Un impuesto especial o límites para quien tiene muchas viviendas (por ejemplo, tres o más) o para grandes fondos, con el objetivo de que salgan al mercado y bajen los precios.",
+    "pro": [
+      "Puede animar a vender o alquilar viviendas vacías o acumuladas.",
+      "Hace pagar más a quien tiene más patrimonio."
+    ],
+    "con": [
+      "Puede reducir la oferta de alquiler si los propietarios venden o se retiran.",
+      "Los grandes propietarios pueden reorganizarse en sociedades para evitarlo."
+    ],
+    "af": [
+      "viv",
+      "imp"
+    ]
+  },
+  "pisos_turisticos": {
+    "t": "Más impuestos a los pisos turísticos",
+    "q": "Cobrar más impuestos (IVA del 21 % o un recargo en el IRPF) a los pisos que se alquilan a turistas, para que compense más alquilarlos a quien vive en la ciudad.",
+    "pro": [
+      "Puede devolver viviendas al alquiler normal en zonas con mucho turismo.",
+      "Trata el alquiler turístico como cualquier otra actividad económica."
+    ],
+    "con": [
+      "Afecta también a pequeños propietarios que viven de ese ingreso.",
+      "El efecto sobre el precio del alquiler normal puede ser pequeño."
+    ],
+    "af": [
+      "viv",
+      "imp",
+      "eco"
+    ]
+  },
+  "okupacion": {
+    "t": "Desalojo rápido de viviendas okupadas",
+    "q": "Permitir que la policía o el juez desalojen en 24 o 48 horas una vivienda ocupada sin permiso de su propietario.",
+    "pro": [
+      "Protege a propietarios que pueden tardar meses en recuperar su casa.",
+      "Da seguridad a quien pone su vivienda en alquiler."
+    ],
+    "con": [
+      "Los críticos dicen que, si es la casa habitual, la ley ya permite un desalojo inmediato por allanamiento.",
+      "Puede afectar a familias vulnerables sin otra alternativa de vivienda."
+    ],
+    "af": [
+      "viv",
+      "seg",
+      "der"
+    ]
+  },
+  "endurecer_penas": {
+    "t": "Megaprisión para multirreincidentes",
+    "q": "Construir una gran cárcel y endurecer las penas para quien comete delitos de forma repetida.",
+    "pro": [
+      "Aparta de la calle a quien reincide una y otra vez.",
+      "Responde a la preocupación de la gente por la seguridad."
+    ],
+    "con": [
+      "Construir y mantener una cárcel es caro.",
+      "Muchos expertos sostienen que la reinserción reduce más la reincidencia que el encierro."
+    ],
+    "pay": "La construcción de la cárcel y su personal se pagarían con el presupuesto del Estado.",
+    "af": [
+      "seg",
+      "der"
+    ]
+  },
+  "iva_franquiciado": {
+    "t": "IVA franquiciado para pequeños autónomos",
+    "q": "Que los autónomos que facturan poco (menos de 85.000 € al año) no tengan que cobrar ni declarar IVA, algo que la normativa europea permite desde 2025.",
+    "pro": [
+      "Simplifica mucho el papeleo de los pequeños negocios.",
+      "Puede abaratar sus servicios a los particulares."
+    ],
+    "con": [
+      "Reduce la recaudación de IVA.",
+      "Puede animar a no superar el límite o a dividir negocios para quedarse por debajo."
+    ],
+    "af": [
+      "imp",
+      "trab",
+      "eco"
+    ]
+  },
+  "corredor_mediterraneo": {
+    "t": "Corredor ferroviario mediterráneo",
+    "q": "Una línea de tren para mercancías y pasajeros con ancho europeo que una Algeciras con la frontera francesa por la costa, pasando por Murcia, Valencia, Tarragona y Barcelona. Forma parte de la red transeuropea de transporte y la construye el Estado con fondos europeos.",
+    "pro": [
+      "Conecta puertos e industria del litoral con Europa y reduce el transporte de mercancías por carretera.",
+      "Lo apoyan empresarios y gobiernos autonómicos de varias comunidades del arco mediterráneo."
+    ],
+    "con": [
+      "Requiere una inversión muy alta y sus obras acumulan años de retraso.",
+      "Otros territorios piden priorizar corredores alternativos, como el central por Madrid y Zaragoza."
+    ],
+    "pay": "Presupuestos del Estado, a través de Adif, y fondos europeos de la red transeuropea de transporte.",
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "independencia": {
+    "t": "Independencia de Cataluña",
+    "q": "Que Cataluña se separe de España y sea un Estado propio. Sus defensores plantean llegar a ella mediante un referéndum o tras un mandato electoral. La Constitución proclama la unidad de la Nación, así que exigiría reformarla.",
+    "pro": [
+      "Sus defensores dicen que Cataluña podría decidir todos sus impuestos, leyes y política exterior.",
+      "Lo ven como respuesta a una demanda sostenida de una parte importante del electorado catalán."
+    ],
+    "con": [
+      "Sus críticos señalan que no cabe en la Constitución y divide a la sociedad catalana.",
+      "Podría suponer la salida de la Unión Europea y costes económicos e institucionales elevados."
+    ],
+    "af": [
+      "aut",
+      "inst",
+      "eur"
+    ]
+  },
+  "administracion_unica": {
+    "t": "Administración única y fin de duplicidades",
+    "q": "Que en cada comunidad autónoma una sola administración preste los servicios, traspasando a la comunidad funciones de la administración periférica del Estado y suprimiendo figuras como los gobernadores civiles, sustituidos en 1997 por subdelegados del Gobierno.",
+    "pro": [
+      "Evita que dos administraciones hagan lo mismo y reduce gasto.",
+      "Acerca la gestión al gobierno autonómico, que conoce mejor su territorio."
+    ],
+    "con": [
+      "El Estado perdería presencia directa para garantizar servicios comunes en todo el país.",
+      "Puede aumentar las diferencias en la calidad de los servicios entre comunidades."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "senado_territorial": {
+    "t": "Senado como cámara territorial",
+    "q": "Reformar el Senado, hoy elegido sobre todo por provincias, para que represente a las comunidades autónomas: senadores elegidos junto con las elecciones autonómicas, uso de las lenguas cooficiales y más peso en las leyes que afectan a las autonomías. Requiere reformar la Constitución.",
+    "pro": [
+      "Daría a las comunidades una voz propia en las Cortes al hacer las leyes.",
+      "Muchos expertos consideran que el Senado actual apenas cumple su función territorial."
+    ],
+    "con": [
+      "Exige una reforma constitucional con amplias mayorías difíciles de reunir.",
+      "Podría complicar y alargar la aprobación de las leyes estatales."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "iva_caja": {
+    "t": "IVA de caja",
+    "q": "Que empresas y autónomos ingresen en Hacienda el IVA de una factura cuando la cobran, y no cuando la emiten, para no adelantar dinero que aún no han recibido. España aprobó en 2013 un régimen voluntario de criterio de caja.",
+    "pro": [
+      "Alivia la tesorería de pymes y autónomos cuando sus clientes pagan tarde.",
+      "Evita pagar a Hacienda el impuesto de facturas que quizá nunca se cobren."
+    ],
+    "con": [
+      "Retrasa ingresos de Hacienda y complica el control del impuesto.",
+      "Obliga a llevar registros adicionales de cobros y pagos."
+    ],
+    "pay": "Más que una pérdida, supone un retraso en la recaudación del IVA: Hacienda cobra más tarde.",
+    "af": [
+      "imp",
+      "eco",
+      "trab"
+    ]
+  },
+  "deduccion_alquiler": {
+    "t": "Deducción por alquiler en el IRPF",
+    "q": "Que quien vive de alquiler pueda restar de su IRPF una parte de lo que paga cada año, normalmente con un límite de renta. La deducción estatal se suprimió para los contratos firmados desde 2015; algunas comunidades mantienen deducciones propias.",
+    "pro": [
+      "Alivia el gasto en vivienda de inquilinos con rentas bajas o medias.",
+      "Equilibra el trato fiscal entre alquilar y comprar vivienda."
+    ],
+    "con": [
+      "Parte de la ayuda puede trasladarse a subidas del alquiler.",
+      "Reduce la recaudación y solo beneficia a quien declara IRPF."
+    ],
+    "pay": "Menos recaudación por IRPF, que habría que compensar con otros ingresos o con menos gasto.",
+    "af": [
+      "viv",
+      "imp"
+    ]
+  },
+  "inversion_territorial": {
+    "t": "Inversión del Estado según el peso económico",
+    "q": "Garantizar que el Estado invierta en infraestructuras de una comunidad al menos según su peso en el PIB o un porcentaje fijo. El Estatuto catalán de 2006 lo recogió durante siete años en su disposición adicional tercera.",
+    "pro": [
+      "Sus defensores dicen que corrige años de inversión inferior a lo que aporta la comunidad.",
+      "Da previsibilidad a la planificación de obras."
+    ],
+    "con": [
+      "Ata el reparto a la riqueza y no a las necesidades de cada territorio.",
+      "Si varias comunidades lo exigen, cuadrar el presupuesto estatal se complica."
+    ],
+    "pay": "Presupuestos Generales del Estado; implica reordenar la inversión entre comunidades o aumentar el total.",
+    "af": [
+      "infra",
+      "aut",
+      "eco"
+    ]
+  },
+  "prestacion_crianza": {
+    "t": "Prestación universal por crianza",
+    "q": "Una ayuda mensual de la Seguridad Social para todas las familias con hijos menores de 18 años, sin depender solo de la renta, junto con permisos de paternidad y maternidad más largos. CDC la pedía en 2016.",
+    "pro": [
+      "Ayuda a cubrir el coste de criar hijos y puede favorecer la natalidad.",
+      "Reduce la pobreza infantil, que en España es de las más altas de la UE."
+    ],
+    "con": [
+      "Una ayuda universal cuesta mucho y llega también a familias con rentas altas.",
+      "Sus críticos prefieren concentrar los recursos en las familias con menos ingresos."
+    ],
+    "pay": "Seguridad Social o presupuestos del Estado; requeriría más ingresos o reasignar gasto.",
+    "af": [
+      "soc",
+      "der"
+    ]
+  },
+  "traspaso_infraestructuras": {
+    "t": "Traspaso de trenes y puertos a la Generalitat",
+    "q": "Que la Generalitat sea titular o gestione infraestructuras que hoy dependen del Estado, como Cercanías (Rodalies), trenes regionales, puertos y aeropuertos, con la financiación correspondiente. El traspaso de Rodalies se pactó parcialmente en 2009 y en 2023.",
+    "pro": [
+      "La administración más cercana conoce mejor las necesidades de los usuarios y podría priorizar inversiones.",
+      "Daría a un solo gobierno la responsabilidad del servicio, hoy repartida entre Renfe, Adif y la Generalitat."
+    ],
+    "con": [
+      "Puede fragmentar redes que funcionan de forma integrada en toda España, como el tráfico ferroviario o aeroportuario.",
+      "Requiere acordar cuánto dinero acompaña al traspaso, una fuente habitual de conflicto."
+    ],
+    "pay": "El Estado transferiría a la Generalitat los fondos que hoy dedica a esos servicios; si se añade una compensación por inversiones pasadas, saldría del presupuesto estatal.",
+    "af": [
+      "infra",
+      "aut"
+    ]
+  },
+  "suprimir_peajes": {
+    "t": "Suprimir los peajes de autopista",
+    "q": "Que las autopistas de peaje pasen a ser gratuitas, rescatando las concesiones o no renovándolas cuando caducan. Entre 2018 y 2021 vencieron varias concesiones, como la AP-7 en Cataluña, y el Estado levantó los peajes.",
+    "pro": [
+      "Elimina un coste para conductores y transportistas, y una diferencia entre territorios con y sin peajes.",
+      "Reparte el tráfico y puede descongestionar carreteras secundarias paralelas."
+    ],
+    "con": [
+      "El mantenimiento pasa a pagarse con impuestos de todos, también de quien no usa la autopista.",
+      "Puede aumentar el tráfico de vehículos pesados y las emisiones si no se regula de otro modo."
+    ],
+    "pay": "Del presupuesto del Estado o de la comunidad, que asume el mantenimiento y, si hay rescate anticipado, una indemnización a las concesionarias.",
+    "af": [
+      "infra",
+      "aut"
+    ]
+  },
+  "dacion_pago": {
+    "t": "Dación en pago",
+    "q": "Que quien no pueda pagar la hipoteca de su vivienda habitual salde toda la deuda entregando la casa al banco. Hoy, si la subasta no cubre la deuda, el deudor sigue debiendo el resto. La ley de 2015 de segunda oportunidad permite cancelar deudas en algunos casos.",
+    "pro": [
+      "Evita que familias que pierden la casa sigan endeudadas durante años.",
+      "Reparte el riesgo de la caída de precios entre el banco y el comprador."
+    ],
+    "con": [
+      "Los bancos podrían endurecer las condiciones de las hipotecas y pedir más entrada.",
+      "Podría animar a dejar de pagar cuando la vivienda vale menos que la deuda."
+    ],
+    "af": [
+      "viv",
+      "soc"
+    ]
+  },
+  "desahucios": {
+    "t": "Ningún desahucio sin alternativa",
+    "q": "Que no se pueda desalojar de su vivienda a una familia vulnerable, por impago de alquiler o hipoteca, sin que la administración le ofrezca antes un realojo. En España se aprobaron suspensiones temporales de desahucios de hogares vulnerables desde 2020.",
+    "pro": [
+      "Evita que personas vulnerables, con menores o dependientes, se queden en la calle.",
+      "Obliga a las administraciones a disponer de vivienda social para emergencias."
+    ],
+    "con": [
+      "Puede retrasar durante meses que el propietario recupere su vivienda o cobre.",
+      "Algunos propietarios podrían retirar pisos del alquiler o pedir más garantías."
+    ],
+    "pay": "Las administraciones tendrían que ampliar el parque de vivienda social y compensar, en su caso, a los propietarios afectados.",
+    "af": [
+      "viv",
+      "soc"
+    ]
+  },
+  "suprimir_senado": {
+    "t": "Suprimir el Senado",
+    "q": "Eliminar la segunda cámara de las Cortes, cuyo papel actual es revisar las leyes del Congreso, que puede imponer su criterio. Hay que reformar la Constitución por el procedimiento reforzado, con referéndum obligatorio.",
+    "pro": [
+      "Ahorraría el coste de la cámara y simplificaría la tramitación de las leyes.",
+      "Sus partidarios dicen que no cumple la función de representación territorial que le atribuye la Constitución."
+    ],
+    "con": [
+      "Exige una reforma constitucional difícil, con mayorías de dos tercios y referéndum.",
+      "Se perdería un control adicional de las leyes y la única cámara con representación por provincias e islas."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "abolir_monarquia": {
+    "t": "Abolir la monarquía",
+    "q": "Sustituir la monarquía parlamentaria por una república con un jefe del Estado elegido. Requiere reformar la Constitución por el procedimiento reforzado, con disolución de las Cortes, nuevas elecciones y referéndum.",
+    "pro": [
+      "La jefatura del Estado pasaría a ser elegida y sometida a rendición de cuentas.",
+      "Sus partidarios consideran que sería más acorde con la igualdad entre ciudadanos."
+    ],
+    "con": [
+      "Exige una reforma constitucional muy difícil, con mayorías de dos tercios y referéndum.",
+      "Sus detractores creen que la monarquía aporta estabilidad y una figura neutral por encima de los partidos."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "prohibir_burka": {
+    "t": "Prohibir cubrirse el rostro en público",
+    "q": "Prohibir ir por la calle con la cara tapada, por ejemplo con burka o niqab. Francia y Bélgica lo hicieron en 2010 y 2011. En España, el Supremo anuló en 2013 una prohibición municipal porque debe regularse por ley.",
+    "pro": [
+      "Facilita la identificación de las personas por razones de seguridad.",
+      "Sus defensores lo ven como una forma de proteger la igualdad de las mujeres."
+    ],
+    "con": [
+      "Limita la libertad religiosa y de vestimenta de las mujeres que lo llevan voluntariamente.",
+      "Afecta a muy pocas personas y puede aislarlas más en lugar de integrarlas."
+    ],
+    "af": [
+      "der",
+      "seg"
+    ]
+  },
+  "bloqueo_congreso": {
+    "t": "No apoyar a ningún gobierno español",
+    "q": "Compromiso de los diputados de no votar a favor de ninguna investidura ni de pactos con el Gobierno de España, y votar para dificultar la gobernabilidad. Lo defienden partidos independentistas que no buscan reformar el Estado sino separarse de él.",
+    "pro": [
+      "Sus partidarios creen que así el voto no se usa para sostener gobiernos que rechazan la autodeterminación.",
+      "Evita intercambiar apoyos por concesiones que consideran menores."
+    ],
+    "con": [
+      "Renuncia a obtener mejoras concretas para sus votantes mediante la negociación.",
+      "Puede favorecer bloqueos, repeticiones electorales o gobiernos con menos apoyo."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "especulacion_vivienda": {
+    "t": "Prohibir la especulación con vivienda",
+    "q": "Limitar la compra de viviendas como inversión, por ejemplo restringiendo cuántas puede acumular una persona o empresa o exigiendo que se usen como residencia. ERC lo plantea en 2026 como ley «Una familia, una casa». No se ha detallado el texto.",
+    "pro": [
+      "Reservaría el parque existente para quien necesita vivir en él y podría moderar los precios.",
+      "Reduciría la concentración de pisos en grandes propietarios y fondos."
+    ],
+    "con": [
+      "Puede reducir la oferta de alquiler si los inversores dejan de comprar y alquilar.",
+      "Limita el derecho de propiedad y podría chocar con la Constitución y el derecho europeo."
+    ],
+    "af": [
+      "viv"
+    ]
+  },
+  "blindar_concierto": {
+    "t": "Blindar el Concierto Económico vasco",
+    "q": "Proteger el sistema por el que País Vasco y Navarra recaudan casi todos sus impuestos y pagan al Estado un cupo o aportación por los servicios comunes. Se pide asegurar su renovación, que sus normas fiscales solo puedan recurrirse ante el Constitucional y que la Unión Europea lo reconozca.",
+    "pro": [
+      "Da estabilidad a las haciendas forales, que pueden planificar impuestos e inversiones sin depender de pleitos constantes.",
+      "Mantiene un régimen histórico que la Constitución ampara y que se pacta entre administraciones."
+    ],
+    "con": [
+      "Otras comunidades sostienen que el cálculo del cupo favorece a País Vasco y Navarra frente al resto.",
+      "Limita la capacidad de otras administraciones y tribunales para frenar rebajas fiscales que atraen empresas de comunidades vecinas."
+    ],
+    "af": [
+      "imp",
+      "aut",
+      "eco"
+    ]
+  },
+  "nuevo_estatus": {
+    "t": "Reconocimiento nacional y nuevo estatus vasco",
+    "q": "Pactar con el Estado una nueva relación para Euskadi que la reconozca como nación, con relaciones bilaterales y garantías, superando el Estatuto de Gernika de 1979. Según la época se plantea con una consulta a la ciudadanía. Exige reformar el Estatuto y, en parte, la Constitución.",
+    "pro": [
+      "Responde a la mayoría del Parlamento Vasco que pide más autogobierno y el reconocimiento de su identidad.",
+      "Fijaría por pacto reglas estables de relación con el Estado y reduciría los conflictos de competencias."
+    ],
+    "con": [
+      "Choca con la Constitución, que reconoce una sola nación y atribuye la soberanía al conjunto del pueblo español.",
+      "Puede crear diferencias entre comunidades y tensión con los vascos que no comparten ese objetivo."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ]
+  },
+  "y_vasca": {
+    "t": "Tren de alta velocidad vasco (Y vasca)",
+    "q": "Red ferroviaria de alta velocidad y mercancías que une Bilbao, Vitoria-Gasteiz y Donostia, con salida hacia Madrid y Francia. La pagan el Estado y el Gobierno vasco, que construye el ramal guipuzcoano y lo descuenta del cupo. Las obras empezaron en 2006 y su final se ha retrasado varias veces.",
+    "pro": [
+      "Acortaría los viajes entre capitales vascas y con Madrid, y sacaría camiones de la carretera.",
+      "Conectaría el corredor atlántico europeo con la frontera francesa."
+    ],
+    "con": [
+      "Su coste es muy alto y acumula retrasos y sobrecostes.",
+      "Su impacto en el territorio y el medio ambiente ha generado oposición social."
+    ],
+    "pay": "De los Presupuestos del Estado, a través de Adif, y del Gobierno vasco, que adelanta parte de la obra y la descuenta del cupo; con apoyo de fondos europeos.",
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "selecciones_vascas": {
+    "t": "Selecciones deportivas vascas",
+    "q": "Que Euskadi pueda competir con selecciones propias en competiciones internacionales oficiales, como se ha logrado en pelota vasca. Depende de las federaciones internacionales y de la ley española del deporte, que da la representación internacional a las federaciones españolas.",
+    "pro": [
+      "Responde a una demanda de parte de la sociedad vasca y daría visibilidad internacional a su deporte.",
+      "Existen precedentes, como Escocia y Gales en fútbol o rugby."
+    ],
+    "con": [
+      "La mayoría de federaciones internacionales solo admiten Estados, por lo que es difícil en casi todos los deportes.",
+      "Podría restar deportistas a las selecciones españolas y enfrentar a federaciones."
+    ],
+    "af": [
+      "aut"
+    ]
+  },
+  "paz_normalizacion": {
+    "t": "Paz y normalización tras ETA",
+    "q": "Políticas para consolidar el fin de la violencia de ETA, que anunció el cese definitivo en 2011 y se disolvió en 2018: diálogo entre partidos, reconocimiento de las víctimas, convivencia y cambios en la política penitenciaria. Los partidos difieren en el papel del diálogo y en el trato a los presos.",
+    "pro": [
+      "Busca cerrar heridas y asegurar que la violencia no vuelva, con la participación de todos los partidos.",
+      "Atiende a víctimas de distintas violencias y favorece la convivencia en los pueblos."
+    ],
+    "con": [
+      "Asociaciones de víctimas temen que se equipare a víctimas y verdugos o se den beneficios sin arrepentimiento.",
+      "Dialogar sobre cuestiones políticas mientras había violencia podía verse como un premio al terrorismo."
+    ],
+    "af": [
+      "seg",
+      "der"
+    ]
+  },
+  "alternativa_kas": {
+    "t": "Alternativa KAS y Alternativa Democrática",
+    "q": "Programa de mínimos de la izquierda abertzale para negociar con el Estado el fin de la violencia de ETA: amnistía, salida de las fuerzas de seguridad del Estado, autodeterminación y unidad territorial con Navarra. En 1995 ETA lo actualizó como «Alternativa Democrática».",
+    "pro": [
+      "Sus defensores la presentaban como una salida negociada que acabaría con la violencia.",
+      "Recogía reivindicaciones con apoyo en parte de la sociedad vasca, como la autodeterminación."
+    ],
+    "con": [
+      "Los gobiernos la rechazaron porque una organización armada no podía imponer condiciones políticas.",
+      "Exigía cambios constitucionales, como la autodeterminación, sin mayoría en las Cortes ni en la sociedad vasca."
+    ],
+    "af": [
+      "inst",
+      "seg",
+      "aut"
+    ]
+  },
+  "amnistia_presos": {
+    "t": "Amnistía para los presos de ETA",
+    "q": "Extinguir las condenas de los presos de ETA y permitir el regreso de huidos y deportados. Hubo una amnistía general en 1977. Hoy exigiría una ley de las Cortes, y la Constitución prohíbe los indultos generales.",
+    "pro": [
+      "Sus defensores la veían como condición para un final dialogado de la violencia.",
+      "Permitiría participar en la vida política a presos y exiliados."
+    ],
+    "con": [
+      "Las víctimas y la mayoría de los partidos la rechazan porque deja sin castigo delitos graves, incluidos asesinatos.",
+      "Puede verse como un premio a la violencia y restar confianza en la ley."
+    ],
+    "af": [
+      "seg",
+      "der",
+      "inst"
+    ]
+  },
+  "retirada_fse": {
+    "t": "Retirada de Policía Nacional y Guardia Civil",
+    "q": "Que la Policía Nacional y la Guardia Civil dejen el País Vasco y Navarra y sus funciones pasen a la Ertzaintza y la Policía Foral. Hoy el Estado conserva tareas como fronteras, puertos, aeropuertos, armas o antiterrorismo.",
+    "pro": [
+      "Evita duplicar cuerpos policiales en un mismo territorio.",
+      "Sus defensores dicen que completa el autogobierno previsto en el Estatuto."
+    ],
+    "con": [
+      "El Estado perdería presencia directa en funciones que la ley le reserva, como fronteras o terrorismo.",
+      "Exige traspasar medios y personal y coordinar cuerpos en materias de ámbito estatal."
+    ],
+    "af": [
+      "seg",
+      "aut"
+    ]
+  },
+  "marco_laboral_vasco": {
+    "t": "Marco vasco de relaciones laborales",
+    "q": "Que la legislación laboral, la negociación colectiva, las políticas de empleo y el salario mínimo se decidan en el País Vasco y Navarra. Hoy la legislación laboral es competencia exclusiva del Estado (artículo 149.1.7 de la Constitución).",
+    "pro": [
+      "Convenios y salarios se adaptarían a la realidad económica vasca y navarra.",
+      "Da más peso a los sindicatos y patronales del territorio."
+    ],
+    "con": [
+      "Rompe la igualdad de condiciones laborales básicas entre trabajadores de toda España.",
+      "Exigiría reformar la Constitución y complicaría la gestión de empresas presentes en varias comunidades."
+    ],
+    "af": [
+      "trab",
+      "aut"
+    ]
+  },
+  "tav_navarra": {
+    "t": "Tren de alta velocidad en Navarra",
+    "q": "Construir el corredor ferroviario de alta velocidad que une Zaragoza con Pamplona y la Y vasca, para viajeros y mercancías. Es obra del Estado, aunque Navarra adelantó la financiación de algunos tramos mediante convenios con el Ministerio.",
+    "pro": [
+      "Acorta viajes a Madrid, Zaragoza, el País Vasco y Francia.",
+      "Facilita el transporte de mercancías de la industria navarra por tren."
+    ],
+    "con": [
+      "Su coste es alto y los plazos se han alargado durante años.",
+      "Algunos colectivos critican su impacto ambiental y prefieren mejorar la red convencional."
+    ],
+    "pay": "Presupuestos del Estado y fondos europeos; Navarra ha adelantado dinero de algunos tramos a cambio de descontarlo de su aportación al Estado.",
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "canal_navarra": {
+    "t": "Canal de Navarra",
+    "q": "Obra hidráulica que lleva agua del embalse de Itoiz hacia el sur de Navarra para regadío y abastecimiento. La primera fase está terminada; la segunda, hacia la Ribera, sigue pendiente de financiación y calendario entre Navarra y el Estado.",
+    "pro": [
+      "Amplía el regadío y da agua de calidad a la Ribera.",
+      "Asegura el abastecimiento industrial y humano ante sequías más frecuentes."
+    ],
+    "con": [
+      "Su coste es elevado y la financiación entre administraciones no está cerrada.",
+      "Grupos ecologistas critican su impacto y piden priorizar la modernización de regadíos existentes."
+    ],
+    "pay": "Presupuestos del Estado y de Navarra mediante convenio, con parte del coste repercutido a los regantes.",
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "cerrar_bardenas": {
+    "t": "Cerrar el polígono de tiro de las Bardenas",
+    "q": "Desmantelar el campo de tiro aéreo militar situado en el parque natural de las Bardenas Reales de Navarra, que el Ministerio de Defensa usa en virtud de un contrato con la comunidad de Bardenas.",
+    "pro": [
+      "Elimina el ruido y el riesgo de las prácticas militares en un espacio natural protegido.",
+      "Permite usos turísticos y ganaderos sin restricciones."
+    ],
+    "con": [
+      "El Ejército perdería una zona de entrenamiento difícil de sustituir.",
+      "La comunidad de Bardenas dejaría de cobrar el canon del contrato."
+    ],
+    "af": [
+      "def",
+      "der"
+    ]
+  },
+  "derogar_transitoria_cuarta": {
+    "t": "Suprimir la Disposición Transitoria Cuarta",
+    "q": "Eliminar de la Constitución la disposición que permite que Navarra se incorpore al País Vasco si lo deciden su parlamento y un referéndum de los navarros. Solo puede hacerse mediante reforma constitucional.",
+    "pro": [
+      "Despeja la incertidumbre sobre el estatus de Navarra como comunidad propia.",
+      "Responde a quienes ven la disposición como una puerta abierta a la anexión."
+    ],
+    "con": [
+      "Quita a los navarros una vía de decisión que hoy exige su voto en referéndum.",
+      "Exige una reforma constitucional con amplias mayorías."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ]
+  },
+  "derogar_art135": {
+    "t": "Derogar la regla de estabilidad presupuestaria",
+    "q": "Revertir la reforma de 2011 del artículo 135 de la Constitución, que da prioridad al pago de la deuda, y derogar la Ley de Estabilidad Presupuestaria y Sostenibilidad Financiera, que fija topes de déficit y de gasto a Estado, comunidades y ayuntamientos.",
+    "pro": [
+      "Da margen a ayuntamientos y comunidades para invertir sus superávits.",
+      "Evita recortes de servicios públicos en épocas de crisis."
+    ],
+    "con": [
+      "Puede aumentar el déficit y la deuda pública.",
+      "Las reglas fiscales de la UE seguirían obligando a controlar el gasto."
+    ],
+    "pay": "Más gasto financiado con superávits locales o con más deuda pública.",
+    "af": [
+      "eco",
+      "imp",
+      "aut"
+    ]
+  },
+  "cierre_nuclear": {
+    "t": "Cierre de las centrales nucleares",
+    "q": "Adelantar el apagado de las centrales nucleares y sustituir su electricidad por renovables. Garoña, en Burgos, cerró definitivamente en 2017; el calendario vigente prevé cerrar el resto entre 2027 y 2035.",
+    "pro": [
+      "Elimina el riesgo de accidentes y la generación de residuos radiactivos.",
+      "Impulsa la inversión y el empleo en energías renovables."
+    ],
+    "con": [
+      "Puede encarecer la electricidad y aumentar emisiones si se sustituye con gas.",
+      "Exige más almacenamiento y respaldo para garantizar el suministro."
+    ],
+    "af": [
+      "eco"
+    ]
+  },
+  "canon_digital": {
+    "t": "Suprimir el canon digital",
+    "q": "Eliminar la tasa que se cobraba al comprar aparatos y soportes de grabación (CD, memorias, discos duros) para compensar a los autores por las copias privadas. Se suprimió a finales de 2011 y se sustituyó por un pago desde los Presupuestos.",
+    "pro": [
+      "Evita cobrar a todos los compradores aunque no copien obras protegidas.",
+      "Abarata dispositivos y soportes digitales."
+    ],
+    "con": [
+      "Los autores pierden una compensación ligada al uso real de copias.",
+      "Si lo paga el Estado, se financia con impuestos de todos."
+    ],
+    "af": [
+      "der",
+      "eco"
+    ]
+  },
+  "memoria_democratica": {
+    "t": "Ampliar la memoria democrática",
+    "q": "Medidas de verdad, justicia y reparación para víctimas de la dictadura y de otras violencias políticas: buscar desaparecidos, ampliar el periodo que cubre la Ley de Memoria Democrática de 2022 o revisar la Ley de Amnistía de 1977, que impide juzgar crímenes franquistas.",
+    "pro": [
+      "Da reconocimiento y reparación a víctimas que siguen sin ella.",
+      "Permite a familias localizar a personas desaparecidas."
+    ],
+    "con": [
+      "Revisar la Ley de Amnistía choca con la seguridad jurídica y los acuerdos de la Transición.",
+      "Divide a la sociedad sobre hechos de hace décadas."
+    ],
+    "pay": "Presupuestos para exhumaciones, archivos e indemnizaciones a víctimas.",
+    "af": [
+      "der"
+    ]
+  },
+  "prohibir_homenajes_eta": {
+    "t": "Prohibir los homenajes a presos de ETA",
+    "q": "Cambiar la ley para impedir y sancionar actos públicos de recibimiento u homenaje a miembros de ETA y endurecer el acceso a beneficios penitenciarios de quienes no se arrepienten públicamente.",
+    "pro": [
+      "Protege la dignidad de las víctimas del terrorismo.",
+      "Evita que se ensalce la violencia en espacios públicos."
+    ],
+    "con": [
+      "Puede chocar con la libertad de expresión y de reunión.",
+      "La ley ya castiga el enaltecimiento del terrorismo cuando humilla a las víctimas."
+    ],
+    "af": [
+      "der",
+      "seg"
+    ]
+  },
+  "violencia_genero": {
+    "t": "Ley integral contra la violencia de género",
+    "q": "Una ley específica contra la violencia que sufren las mujeres a manos de sus parejas o exparejas, con juzgados especializados, medidas de protección, ayudas a las víctimas y prevención en la escuela y los medios.",
+    "pro": [
+      "Reconoce un tipo de violencia con causas propias y permite respuestas especializadas.",
+      "Reúne en un solo marco la protección penal, social y económica de las víctimas."
+    ],
+    "con": [
+      "Hay quien sostiene que trata de forma distinta a hombres y mujeres ante delitos parecidos.",
+      "Exige muchos recursos en juzgados y servicios sociales que no siempre llegan."
+    ],
+    "pay": "Juzgados, unidades de valoración y ayudas se pagan con los Presupuestos del Estado y de las comunidades autónomas.",
+    "af": [
+      "der",
+      "seg",
+      "soc"
+    ]
+  },
+  "educacion_0_3": {
+    "t": "Escuela infantil de 0 a 3 años",
+    "q": "Crear plazas públicas o subvencionadas de educación infantil para menores de tres años, una etapa no obligatoria, para facilitar la conciliación y la igualdad de oportunidades desde el principio.",
+    "pro": [
+      "Facilita que madres y padres trabajen y reduce el gasto de las familias.",
+      "Varios estudios asocian la escolarización temprana de calidad con mejores resultados escolares después."
+    ],
+    "con": [
+      "Requiere mucha inversión y personal en una etapa que gestionan sobre todo comunidades y ayuntamientos.",
+      "Algunas familias prefieren otras formas de cuidado y piden ayudas directas en lugar de plazas."
+    ],
+    "pay": "Con fondos del Estado transferidos a comunidades autónomas y ayuntamientos, y en parte con cuotas de las familias.",
+    "af": [
+      "edu",
+      "soc",
+      "trab"
+    ]
+  },
+  "copago_sanitario": {
+    "t": "Copago sanitario",
+    "q": "Que el paciente pague una parte del coste de algunos servicios sanitarios, como consultas, urgencias o medicamentos, además de lo que ya aporta con sus impuestos.",
+    "pro": [
+      "Puede reducir el uso innecesario de servicios y aportar ingresos al sistema.",
+      "Existe en varios países europeos con sanidad pública."
+    ],
+    "con": [
+      "Puede hacer que personas con pocos recursos dejen de ir al médico o de seguir tratamientos.",
+      "La recaudación suele ser baja comparada con el coste de gestionarlo."
+    ],
+    "af": [
+      "san",
+      "imp"
+    ]
+  },
+  "aforamientos": {
+    "t": "Suprimir los aforamientos",
+    "q": "El aforamiento hace que algunos cargos públicos, como diputados, senadores, ministros o jueces, solo puedan ser juzgados por tribunales superiores. Suprimirlo o limitarlo haría que respondan ante el juez ordinario, al menos por hechos ajenos a su cargo.",
+    "pro": [
+      "Acerca el trato judicial de los políticos al del resto de la ciudadanía.",
+      "España tiene muchos más aforados que los países de su entorno."
+    ],
+    "con": [
+      "Protege a los cargos frente a denuncias con fines políticos ante juzgados de primera instancia.",
+      "Exige reformar la Constitución y los estatutos de autonomía, lo que requiere amplias mayorías."
+    ],
+    "af": [
+      "inst",
+      "der"
+    ]
+  },
+  "consentimiento_sexual": {
+    "t": "Ley del «solo sí es sí»",
+    "q": "Reformar el Código Penal para que el consentimiento sea el eje de los delitos sexuales: si no hay consentimiento hay agresión, y desaparece la distinción entre abuso y agresión.",
+    "pro": [
+      "Centra el juicio en si hubo consentimiento y no en la resistencia de la víctima.",
+      "Unifica en un solo delito conductas que antes tenían nombres y penas distintas."
+    ],
+    "con": [
+      "Al unificar delitos y cambiar las penas, permitió en la práctica rebajas de condena a algunos condenados.",
+      "Algunos juristas advierten de dificultades para probar el consentimiento."
+    ],
+    "af": [
+      "der",
+      "seg"
+    ]
+  },
+  "abolir_prostitucion": {
+    "t": "Abolir la prostitución",
+    "q": "Perseguir todas las formas de proxenetismo, sancionar a quien paga por sexo y ofrecer alternativas a las personas que ejercen, con el objetivo de que la prostitución desaparezca.",
+    "pro": [
+      "Considera la prostitución una forma de explotación ligada a la trata de personas.",
+      "Ofrece ayudas y salidas laborales a quienes quieren dejarla."
+    ],
+    "con": [
+      "Colectivos de trabajadoras sexuales sostienen que empuja la actividad a la clandestinidad y aumenta su riesgo.",
+      "Es difícil de aplicar y sus resultados en otros países son discutidos."
+    ],
+    "pay": "Programas de inserción y ayudas a las víctimas con cargo a los Presupuestos del Estado y de las comunidades autónomas.",
+    "af": [
+      "der",
+      "seg",
+      "soc"
+    ]
+  },
+  "reforma_senado": {
+    "t": "Senado como cámara territorial",
+    "q": "Reformar la Constitución para que el Senado represente a las comunidades autónomas y se ocupe sobre todo de las leyes con impacto territorial, en lugar de repetir el trabajo del Congreso.",
+    "pro": [
+      "Daría a las comunidades autónomas un lugar estable para participar en las decisiones del Estado.",
+      "Evitaría que el Senado duplique tareas del Congreso con poco peso real."
+    ],
+    "con": [
+      "Exige reformar la Constitución, lo que requiere amplias mayorías difíciles de reunir.",
+      "No hay acuerdo sobre su composición y algunos temen que refuerce las diferencias entre territorios."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "parejas_hecho": {
+    "t": "Ley de parejas de hecho",
+    "q": "Reconocer por ley derechos y obligaciones a las parejas estables que conviven sin casarse, también a las del mismo sexo, en materias como herencias, pensiones, vivienda o trato ante terceros.",
+    "pro": [
+      "Da seguridad jurídica a muchas parejas que conviven sin casarse.",
+      "Evita la discriminación de parejas del mismo sexo, que entonces no podían casarse."
+    ],
+    "con": [
+      "Hay quien sostiene que crea un matrimonio de segunda y que bastan los contratos privados.",
+      "Puede generar conflictos sobre cómo acreditar que la pareja es estable."
+    ],
+    "af": [
+      "der",
+      "soc"
+    ]
+  },
+  "delitos_secesion": {
+    "t": "Castigar penalmente la secesión",
+    "q": "Volver a tipificar como delito la convocatoria de un referéndum ilegal, recuperar figuras como la rebelión impropia y prohibir indultar a condenados por rebelión o sedición.",
+    "pro": [
+      "Disuade de repetir procesos como el de Cataluña en 2017.",
+      "Refuerza el cumplimiento de la Constitución y de las sentencias judiciales."
+    ],
+    "con": [
+      "Lleva al terreno penal conflictos que algunos consideran políticos.",
+      "Limita la capacidad del Gobierno para usar el indulto como vía de distensión."
+    ],
+    "af": [
+      "inst",
+      "aut",
+      "seg"
+    ]
+  },
+  "lengua_vehicular": {
+    "t": "Castellano como lengua vehicular",
+    "q": "Garantizar por ley que en toda España se pueda estudiar en castellano y que sea lengua vehicular ordinaria de la enseñanza, junto a las lenguas cooficiales donde existan.",
+    "pro": [
+      "Asegura que las familias puedan elegir estudiar en la lengua común.",
+      "Facilita la movilidad de alumnos y profesores entre comunidades."
+    ],
+    "con": [
+      "Puede debilitar los modelos de inmersión en lenguas cooficiales.",
+      "Choca con competencias educativas que ejercen las comunidades autónomas."
+    ],
+    "af": [
+      "edu",
+      "aut",
+      "der"
+    ]
+  },
+  "cgpj_jueces": {
+    "t": "Que los jueces elijan a los jueces",
+    "q": "Cambiar la elección del Consejo General del Poder Judicial para que los vocales de origen judicial los elijan los propios jueces y no el Congreso y el Senado.",
+    "pro": [
+      "Reduce la influencia de los partidos en el gobierno de los jueces.",
+      "Sigue recomendaciones del Consejo de Europa y de la Comisión Europea."
+    ],
+    "con": [
+      "Puede dar más peso a las asociaciones judiciales mayoritarias.",
+      "Resta control democrático del Parlamento sobre un órgano del Estado."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "pensiones_capitalizacion": {
+    "t": "Pensiones mixtas de reparto y capitalización",
+    "q": "Que parte de la pensión salga, como hoy, de las cotizaciones de quienes trabajan (reparto) y otra parte del ahorro acumulado por cada trabajador en una cuenta propia (capitalización). Vox lo proponía en 2015 y 2019, en 2019 con carácter voluntario.",
+    "pro": [
+      "Reduce la dependencia de las pensiones respecto a la evolución demográfica.",
+      "El trabajador es dueño de lo ahorrado y puede dejarlo en herencia."
+    ],
+    "con": [
+      "Durante la transición hay que pagar las pensiones actuales y a la vez ahorrar para las futuras.",
+      "La pensión pasa a depender en parte de la rentabilidad de los mercados."
+    ],
+    "pay": "La transición exige financiar a la vez las pensiones en curso y las aportaciones a las cuentas individuales; Vox ponía como condición que no se disparara el déficit público.",
+    "af": [
+      "pen",
+      "eco"
+    ]
+  },
+  "derogar_aborto": {
+    "t": "Derogar la ley del aborto",
+    "q": "Anular la ley de 2010, que permite abortar libremente hasta la semana 14, y volver a un sistema de supuestos como el de 1985 (violación, riesgo para la madre o malformación). Vox lo proponía en 2015 y fijaba como meta a largo plazo el «aborto cero».",
+    "pro": [
+      "Sus defensores lo ven como protección de la vida desde la concepción.",
+      "Acompañaría a ayudas para que las embarazadas puedan continuar el embarazo."
+    ],
+    "con": [
+      "Sus críticos dicen que limita el derecho de la mujer a decidir sobre su embarazo.",
+      "Puede llevar a abortos clandestinos o a viajar a otros países para abortar."
+    ],
+    "af": [
+      "der",
+      "san"
+    ]
+  },
+  "politica_familiar": {
+    "t": "Ministerio y plan de apoyo a la familia",
+    "q": "Crear un Ministerio de la Familia, una ley de protección de la familia y un plan nacional de natalidad con ayudas por hijo y rebajas de impuestos a las familias. Vox lo proponía en 2015 y 2016 para frenar la caída de nacimientos.",
+    "pro": [
+      "Puede ayudar a frenar la baja natalidad y el envejecimiento de la población.",
+      "Alivia los gastos de las familias con hijos."
+    ],
+    "con": [
+      "La experiencia de otros países muestra efectos limitados de las ayudas sobre la natalidad.",
+      "Exige más gasto público o renunciar a ingresos fiscales."
+    ],
+    "pay": "Las ayudas y rebajas fiscales se pagarían con el presupuesto del Estado: más gasto, menos ingresos o recortes en otras partidas.",
+    "af": [
+      "soc",
+      "imp"
+    ]
+  },
+  "cheque_escolar": {
+    "t": "Cheque escolar",
+    "q": "El Estado entrega a cada familia un bono por hijo que puede usar en el colegio que elija, público o privado, en lugar de financiar directamente a los centros. Vox lo proponía en 2019 para favorecer la libre elección de centro.",
+    "pro": [
+      "Las familias eligen centro con independencia de sus ingresos.",
+      "Los colegios compiten por atraer alumnos, lo que puede mejorar la calidad."
+    ],
+    "con": [
+      "Puede detraer fondos de la escuela pública hacia centros privados.",
+      "Puede concentrar a los alumnos con más dificultades en ciertos centros."
+    ],
+    "pay": "Saldría del gasto educativo actual, que pasaría a repartirse por alumno en lugar de por centro; si se incluyen centros privados, el coste aumentaría.",
+    "af": [
+      "edu"
+    ]
+  },
+  "suprimir_tc": {
+    "t": "Suprimir el Tribunal Constitucional",
+    "q": "Eliminar el Tribunal Constitucional, que decide si las leyes respetan la Constitución, y pasar sus funciones a una sala del Tribunal Supremo formada por jueces de carrera. Vox lo proponía en 2018 y 2019. Exige reformar la Constitución.",
+    "pro": [
+      "Sus defensores dicen que acabaría con el reparto político de sus magistrados.",
+      "Unificaría en el Tribunal Supremo la última palabra judicial."
+    ],
+    "con": [
+      "Exige una reforma constitucional con mayoría de tres quintos en ambas cámaras.",
+      "Se perdería un tribunal especializado, modelo habitual en Europa."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "prioridad_nacional": {
+    "t": "Prioridad nacional",
+    "q": "Dar preferencia a los españoles frente a los extranjeros residentes en el acceso a vivienda pública, ayudas sociales, guarderías y otras prestaciones, y reservar algunas, como el Ingreso Mínimo Vital, solo a españoles. Vox la incluyó en su programa de 2023 y en su campaña de 2026.",
+    "pro": [
+      "Sus defensores dicen que el Estado debe proteger primero a sus ciudadanos.",
+      "Reservaría recursos escasos, como la vivienda pública, para los nacionales."
+    ],
+    "con": [
+      "Puede chocar con la igualdad de trato que exigen la Constitución y las normas europeas.",
+      "Dejaría sin ayudas a extranjeros residentes que trabajan y pagan impuestos."
+    ],
+    "af": [
+      "soc",
+      "der",
+      "viv"
+    ]
+  },
+  "remigracion": {
+    "t": "Remigración",
+    "q": "Hacer que vuelvan a sus países los inmigrantes en situación irregular, los que cometan delitos y los extranjeros que no trabajen o vivan de subsidios, y prohibir las regularizaciones masivas. Vox lo propone en su campaña de 2026.",
+    "pro": [
+      "Sus defensores dicen que reduciría la inmigración irregular y el efecto llamada.",
+      "Bajaría el gasto en ayudas a extranjeros sin empleo."
+    ],
+    "con": [
+      "Expulsar a residentes legales por no trabajar puede chocar con la ley y los derechos reconocidos.",
+      "Las repatriaciones dependen de la colaboración de los países de origen y son costosas."
+    ],
+    "af": [
+      "der",
+      "seg",
+      "soc"
+    ]
+  },
+  "subvenciones_partidos": {
+    "t": "Quitar subvenciones a partidos y sindicatos",
+    "q": "Eliminar el dinero público que reciben partidos políticos, sindicatos y organizaciones empresariales, además de organismos que Vox llama ideológicos. Hoy los partidos reciben subvenciones según sus votos y escaños. Vox lo proponía en 2019 y en 2026.",
+    "pro": [
+      "Ahorraría dinero público.",
+      "Haría que estas organizaciones dependan de sus afiliados y simpatizantes."
+    ],
+    "con": [
+      "Los partidos podrían depender más de grandes donantes privados.",
+      "Puede debilitar a sindicatos y patronales en la negociación colectiva."
+    ],
+    "af": [
+      "inst",
+      "eco"
+    ]
+  },
+  "limitar_mandatos": {
+    "t": "Limitar los mandatos",
+    "q": "Fijar por ley un máximo de mandatos, normalmente dos o unos ocho años, para quien ocupa un mismo cargo, como presidente del Gobierno, presidente autonómico o alcalde. Hoy no existe ese límite para el presidente del Gobierno.",
+    "pro": [
+      "Favorece la renovación de los dirigentes y de los propios partidos.",
+      "Reduce el riesgo de redes de favores ligadas a quien lleva mucho tiempo en el cargo."
+    ],
+    "con": [
+      "Impide a los votantes reelegir a alguien cuya gestión aprueban.",
+      "Se pierde experiencia de gestión y el último mandato puede tener menos incentivos."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "suprimir_sucesiones": {
+    "t": "Suprimir el impuesto de sucesiones",
+    "q": "Eliminar o bonificar al 100 % el impuesto que pagan quienes reciben una herencia o una donación, al menos entre padres, hijos y cónyuges, en toda España. Lo gestionan las comunidades autónomas, que hoy aplican rebajas muy distintas.",
+    "pro": [
+      "Evita que alguien renuncie a una herencia por no poder pagar el impuesto.",
+      "Acaba con las grandes diferencias de lo que se paga según la comunidad."
+    ],
+    "con": [
+      "Las comunidades perderían ingresos con los que pagan servicios públicos.",
+      "Beneficia sobre todo a quienes heredan patrimonios grandes y puede aumentar la desigualdad."
+    ],
+    "pay": "Lo dejarían de ingresar las comunidades autónomas; habría que compensarlo con otros impuestos, con menos gasto o con más transferencias del Estado.",
+    "af": [
+      "imp",
+      "aut"
+    ]
+  },
+  "gestacion_subrogada": {
+    "t": "Regular la gestación subrogada",
+    "q": "Permitir por ley que una mujer geste un hijo para otra persona o pareja, mediante un contrato con garantías y sin pago más allá de compensar gastos (modelo altruista). Hoy en España esos contratos son nulos.",
+    "pro": [
+      "Permite tener hijos a quienes no pueden gestar, como parejas de hombres o mujeres con problemas médicos.",
+      "Da seguridad jurídica a familias que hoy acuden a otros países."
+    ],
+    "con": [
+      "Sus críticos sostienen que usa el cuerpo de la mujer para fines ajenos y puede encubrir pagos.",
+      "Plantea dudas sobre los derechos del menor y de la gestante si cambia de opinión."
+    ],
+    "af": [
+      "der",
+      "san"
+    ]
+  },
+  "permisos_iguales": {
+    "t": "Permisos iguales e intransferibles",
+    "q": "Equiparar el permiso por nacimiento del padre al de la madre, con semanas reservadas a cada progenitor que no se pueden ceder al otro, para repartir el cuidado de los hijos.",
+    "pro": [
+      "Reparte el cuidado de los hijos entre padre y madre.",
+      "Reduce la discriminación laboral de las mujeres en edad de tener hijos."
+    ],
+    "con": [
+      "Aumenta el gasto de la Seguridad Social en prestaciones.",
+      "Algunas familias preferirían repartir libremente las semanas entre los dos."
+    ],
+    "pay": "Lo paga la Seguridad Social; ampliar las semanas exige más cotizaciones o más transferencias del Estado.",
+    "af": [
+      "trab",
+      "soc",
+      "der"
+    ]
+  },
+  "prestacion_hijo": {
+    "t": "Prestación universal por hijo",
+    "q": "Pagar a todas las familias una cantidad fija al mes por cada hijo menor de edad, sin depender de sus ingresos. UPyD proponía 100 euros al mes hasta los 18 años.",
+    "pro": [
+      "Ayuda a reducir la pobreza infantil y es sencilla de gestionar.",
+      "Apoya por igual a todas las familias con hijos."
+    ],
+    "con": [
+      "Al ser universal, también la cobran familias con ingresos altos.",
+      "Tiene un coste elevado para el presupuesto."
+    ],
+    "pay": "Saldría de los Presupuestos Generales del Estado: más impuestos, recorte de otras ayudas o más deuda.",
+    "af": [
+      "soc"
+    ]
+  },
+  "bases_eeuu": {
+    "t": "Bases militares de EE. UU. en España",
+    "q": "Cerrar o reducir las bases que Estados Unidos utiliza en España (Rota, Morón y, en los años 80, Torrejón y Zaragoza) en virtud del convenio bilateral de defensa.",
+    "pro": [
+      "Refuerza la soberanía nacional sobre el territorio y las decisiones militares.",
+      "Reduce el riesgo de que España se vea implicada en conflictos ajenos."
+    ],
+    "con": [
+      "Debilita la cooperación con un aliado clave y la disuasión colectiva.",
+      "Supone pérdida de empleo e ingresos en las zonas donde están las bases."
+    ],
+    "af": [
+      "def",
+      "eur"
+    ]
+  },
+  "escanos_vacios": {
+    "t": "Escaños vacíos por el voto de descontento",
+    "q": "Que una candidatura deje sin ocupar los escaños que gane, sin cobrar sueldos ni subvenciones, para que el rechazo a los partidos se vea en el Parlamento.",
+    "pro": [
+      "Da una forma visible y oficial al voto de quienes no se sienten representados.",
+      "Ahorra los sueldos y subvenciones asociados a esos escaños."
+    ],
+    "con": [
+      "Los escaños vacíos no votan, lo que facilita mayorías con menos apoyo real.",
+      "Esos votantes renuncian a influir en las leyes que se aprueban."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "eleccion_directa": {
+    "t": "Elección directa del Presidente del Gobierno",
+    "q": "Que los ciudadanos voten directamente al Presidente del Gobierno, a los presidentes autonómicos y a los alcaldes, en lugar de que los elija el Parlamento o el pleno.",
+    "pro": [
+      "Separa más el poder ejecutivo del legislativo y aclara quién gobierna.",
+      "Evita bloqueos y pactos posteriores a las elecciones para formar gobierno."
+    ],
+    "con": [
+      "Exige reformar la Constitución y cambiar el sistema parlamentario.",
+      "Puede dar lugar a un presidente sin mayoría en el Parlamento y a bloqueos legislativos."
+    ],
+    "af": [
+      "inst",
+      "aut"
+    ]
+  },
+  "republica": {
+    "t": "República",
+    "q": "Sustituir la monarquía parlamentaria por una república, normalmente mediante referéndum o reforma constitucional agravada (artículo 168), de modo que la jefatura del Estado sea electiva.",
+    "pro": [
+      "El jefe del Estado sería elegido y respondería ante la ciudadanía.",
+      "Permitiría votar la forma de Estado, que en 1978 se aprobó junto al resto de la Constitución."
+    ],
+    "con": [
+      "Exige una reforma constitucional muy difícil: dos tercios de las Cortes, disolución y referéndum.",
+      "Podría abrir un periodo de inestabilidad institucional y división política."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "cerrar_nucleares": {
+    "t": "Cerrar las centrales nucleares",
+    "q": "Fijar por ley o por decisión del Gobierno un calendario de cierre de las centrales nucleares, sin renovar sus permisos de explotación, y sustituir esa electricidad por renovables, ahorro y otras fuentes.",
+    "pro": [
+      "Evita los riesgos de accidente y la generación de residuos radiactivos de larga duración.",
+      "Impulsa la inversión en renovables y la eficiencia energética."
+    ],
+    "con": [
+      "Las nucleares producen electricidad estable y sin emisiones de CO2; sustituirlas puede exigir más gas.",
+      "Puede encarecer la electricidad y afectar al empleo en las comarcas donde están las centrales."
+    ],
+    "pay": "Sin coste directo para el Estado; el desmantelamiento lo financia Enresa con una tasa a las eléctricas. El coste de sustituir la producción recaería en el sistema eléctrico.",
+    "af": [
+      "eco",
+      "infra"
+    ]
+  },
+  "empresa_publica_energia": {
+    "t": "Empresa pública de energía",
+    "q": "Crear una empresa estatal que produzca o venda electricidad, por ejemplo gestionando las centrales hidroeléctricas cuando terminen las concesiones privadas, para influir en el precio y acelerar la transición energética.",
+    "pro": [
+      "Las concesiones hidroeléctricas que caducan pasan a dar ingresos al Estado en lugar de a empresas privadas.",
+      "Da al Estado una herramienta para moderar precios y orientar inversiones en renovables."
+    ],
+    "con": [
+      "Requiere capital público y gestión eficaz; una empresa estatal puede acumular pérdidas.",
+      "Las eléctricas privadas y sus críticos advierten de competencia desigual y riesgo de uso político."
+    ],
+    "pay": "Inversión pública inicial y presupuesto del Estado; en parte se compensa con los ingresos de las centrales hidroeléctricas revertidas.",
+    "af": [
+      "eco",
+      "infra"
+    ]
+  },
+  "listas_espera": {
+    "t": "Ley de listas de espera sanitarias",
+    "q": "Aprobar una ley estatal que fije tiempos máximos de espera para consultas, pruebas y operaciones en la sanidad pública, con un registro común y transparente de listas de espera en todas las comunidades.",
+    "pro": [
+      "Da a los pacientes un derecho exigible a ser atendidos en un plazo máximo.",
+      "Permite comparar comunidades con datos homogéneos y públicos."
+    ],
+    "con": [
+      "La sanidad es competencia autonómica y una ley estatal puede chocar con las comunidades.",
+      "Sin más médicos y presupuesto, los plazos máximos pueden quedarse en papel o derivar pacientes a la privada."
+    ],
+    "pay": "Más gasto sanitario autonómico y estatal (personal y actividad extra), financiado con presupuestos públicos.",
+    "af": [
+      "san",
+      "aut"
+    ]
+  },
+  "aborto": {
+    "t": "Aborto por plazos",
+    "q": "Sustituir la ley de supuestos de 1985 por una ley de plazos: la mujer puede decidir interrumpir el embarazo dentro de un periodo fijado, y la intervención se presta en la sanidad pública.",
+    "pro": [
+      "Reconoce a la mujer la decisión en las primeras semanas sin tener que acreditar un supuesto.",
+      "Da seguridad jurídica a pacientes y profesionales sanitarios."
+    ],
+    "con": [
+      "Quienes defienden la protección de la vida desde la concepción la consideran inaceptable.",
+      "Puede generar objeción de conciencia de profesionales y desigualdad territorial en el acceso."
+    ],
+    "pay": "Coste de las intervenciones en la sanidad pública, financiado con el presupuesto sanitario.",
+    "af": [
+      "der",
+      "san"
+    ]
+  },
+  "impuesto_vivienda_vacia": {
+    "t": "Impuesto a la vivienda vacía",
+    "q": "Gravar las viviendas que pasan largos periodos sin uso (ni residencia del propietario ni alquiler), normalmente con un impuesto local o un recargo del IBI, para que salgan al mercado.",
+    "pro": [
+      "Incentiva a los propietarios a alquilar o vender viviendas sin uso.",
+      "Aporta ingresos a los ayuntamientos para políticas de vivienda."
+    ],
+    "con": [
+      "Es difícil comprobar si una vivienda está realmente vacía.",
+      "Puede gravar a propietarios con viviendas en mal estado o en zonas sin demanda."
+    ],
+    "af": [
+      "viv",
+      "imp"
+    ]
+  },
+  "referendum_ue": {
+    "t": "Referéndum sobre tratados europeos",
+    "q": "Someter a votación popular la ratificación de un tratado de la Unión Europea, como el de Maastricht, en lugar de aprobarlo solo en las Cortes.",
+    "pro": [
+      "La ciudadanía decide directamente sobre cesiones importantes de soberanía.",
+      "Da más legitimidad democrática a la integración europea."
+    ],
+    "con": [
+      "Un tratado complejo se reduce a un sí o un no.",
+      "Un rechazo puede bloquear acuerdos negociados con el resto de países."
+    ],
+    "af": [
+      "eur",
+      "inst"
+    ]
+  },
+  "suprimir_concertada": {
+    "t": "Suprimir la educación concertada",
+    "q": "Dejar de financiar con dinero público, de forma progresiva, los colegios privados concertados e integrar esa demanda en la red pública.",
+    "pro": [
+      "Concentra los recursos públicos en la escuela pública.",
+      "Reduce la segregación escolar por origen social."
+    ],
+    "con": [
+      "Limita la elección de centro de muchas familias.",
+      "La red pública tendría que absorber a millones de alumnos, con inversión en plazas y personal."
+    ],
+    "pay": "Más gasto en plazas públicas, compensado en parte con lo que hoy se paga en conciertos; presupuestos autonómicos.",
+    "af": [
+      "edu"
+    ]
+  },
+  "limitar_compra_vivienda": {
+    "t": "Limitar la compra especulativa de vivienda",
+    "q": "Restringir la compra de viviendas por quienes no van a vivir en ellas, por ejemplo fondos, grandes tenedores o compradores que no son residentes, para frenar la subida de precios.",
+    "pro": [
+      "Reduce la competencia de los inversores con quienes buscan vivienda para vivir.",
+      "Puede moderar los precios en zonas tensionadas."
+    ],
+    "con": [
+      "Puede reducir la inversión en construcción y rehabilitación.",
+      "Choca con la libertad de empresa y, para compradores europeos, con el derecho de la UE."
+    ],
+    "af": [
+      "viv",
+      "eco"
+    ]
+  },
+  "gasto_militar": {
+    "t": "No aumentar el gasto militar",
+    "q": "Mantener o reducir el gasto en defensa frente a los compromisos de subirlo, y destinar esos recursos a servicios públicos.",
+    "pro": [
+      "Libera dinero para sanidad, educación o vivienda.",
+      "Prioriza la diplomacia y la cooperación frente al rearme."
+    ],
+    "con": [
+      "Puede incumplir los compromisos con la OTAN y la UE.",
+      "Puede reducir la capacidad de defensa en un contexto de tensión internacional."
+    ],
+    "af": [
+      "def",
+      "eur"
+    ]
+  },
+  "edad_jubilacion": {
+    "t": "Edad de jubilación",
+    "q": "Fijar la edad legal de jubilación por debajo de la prevista en la ley actual, que la eleva gradualmente hasta 67 años en 2027: por ejemplo, volver a 65 o bajarla a 60.",
+    "pro": [
+      "Permite retirarse antes, sobre todo en trabajos duros.",
+      "Libera puestos de trabajo para personas jóvenes."
+    ],
+    "con": [
+      "Aumenta el gasto en pensiones cuando la esperanza de vida crece.",
+      "Reduce el número de cotizantes por pensionista."
+    ],
+    "pay": "Más gasto en pensiones, con más cotizaciones (por ejemplo, subiendo o quitando el tope máximo) o transferencias del Estado.",
+    "af": [
+      "pen",
+      "trab"
+    ]
+  },
+  "voto_16": {
+    "t": "Voto a los 16 años",
+    "q": "Rebajar de 18 a 16 años la edad para votar en las elecciones, como ya ocurre en algunos países europeos.",
+    "pro": [
+      "Da voz a jóvenes afectados por decisiones a largo plazo.",
+      "Puede crear antes el hábito de votar."
+    ],
+    "con": [
+      "Se discute la madurez política a esa edad.",
+      "Habría que reformar la ley electoral y, según algunos juristas, la Constitución."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "rehabilitacion_energetica": {
+    "t": "Rehabilitación energética de viviendas",
+    "q": "Subvencionar obras de aislamiento, calefacción eficiente y renovables en edificios existentes para reducir su consumo de energía.",
+    "pro": [
+      "Baja la factura energética de las familias.",
+      "Reduce emisiones y crea empleo en la construcción."
+    ],
+    "con": [
+      "Exige mucha inversión pública durante años.",
+      "Las ayudas pueden subir el valor de las viviendas y los alquileres."
+    ],
+    "pay": "Presupuesto del Estado y fondos europeos, con aportación privada de los propietarios.",
+    "af": [
+      "viv",
+      "infra"
+    ]
+  },
+  "limitar_vuelos": {
+    "t": "Limitar vuelos cortos",
+    "q": "Restringir o encarecer los vuelos dentro de la península cuando haya una alternativa razonable en tren, por ejemplo con impuestos al queroseno o a los billetes.",
+    "pro": [
+      "Reduce emisiones, porque el tren contamina mucho menos que el avión.",
+      "Impulsa el uso y la inversión en el ferrocarril."
+    ],
+    "con": [
+      "Encarece los viajes y perjudica a aerolíneas y aeropuertos.",
+      "No todos los trayectos tienen un tren con horarios y precios comparables."
+    ],
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "proteccion_animal": {
+    "t": "Protección animal",
+    "q": "Ampliar las leyes de protección animal: ley marco estatal, penas más duras por maltrato, fiscalía especializada y límites a prácticas como el sacrificio de animales sanos.",
+    "pro": [
+      "Reduce el maltrato y el abandono de animales.",
+      "Unifica normas que hoy varían entre comunidades."
+    ],
+    "con": [
+      "Impone costes y obligaciones a ganaderos, cazadores y propietarios.",
+      "Algunas medidas chocan con tradiciones o prácticas religiosas."
+    ],
+    "af": [
+      "der",
+      "seg"
+    ]
+  },
+  "abolir_tauromaquia": {
+    "t": "Abolir las corridas de toros",
+    "q": "Prohibir las corridas y otros espectáculos con animales, como los circos con fieras o el tiro y arrastre.",
+    "pro": [
+      "Elimina espectáculos que causan sufrimiento y muerte a animales.",
+      "Responde al rechazo creciente de una parte de la sociedad."
+    ],
+    "con": [
+      "Afecta a una tradición cultural y al empleo del sector taurino.",
+      "La ley protege la tauromaquia como patrimonio cultural."
+    ],
+    "af": [
+      "der",
+      "eco"
+    ]
+  },
+  "prohibir_caza": {
+    "t": "Prohibir la caza",
+    "q": "Prohibir o restringir mucho la caza deportiva y el uso de animales para cazar.",
+    "pro": [
+      "Evita la muerte y el sufrimiento de animales salvajes.",
+      "Reduce accidentes y conflictos en el medio rural."
+    ],
+    "con": [
+      "Afecta a la economía y el empleo de muchas zonas rurales.",
+      "La caza se usa también para controlar poblaciones como jabalíes o conejos."
+    ],
+    "af": [
+      "der",
+      "eco"
+    ]
+  },
+  "prohibir_fracking": {
+    "t": "Prohibir el fracking",
+    "q": "Prohibir la fractura hidráulica y las nuevas prospecciones de petróleo y gas en el territorio y las costas.",
+    "pro": [
+      "Evita riesgos de contaminación de acuíferos y de seísmos.",
+      "Acelera el paso a energías renovables."
+    ],
+    "con": [
+      "Renuncia a posibles recursos propios de gas y petróleo.",
+      "Aumenta la dependencia de importaciones de energía."
+    ],
+    "af": [
+      "eco",
+      "infra"
+    ]
+  },
+  "veterinaria_asequible": {
+    "t": "Veterinario asequible",
+    "q": "Abaratar los cuidados veterinarios de los animales de compañía, rebajando el IVA del 21 % o con ayudas públicas.",
+    "pro": [
+      "Facilita que las familias con menos ingresos cuiden a sus animales.",
+      "Puede reducir el abandono por motivos económicos."
+    ],
+    "con": [
+      "Reduce la recaudación o exige gasto público.",
+      "Una rebaja de IVA beneficia también a quien tiene ingresos altos."
+    ],
+    "pay": "Menos recaudación por IVA o gasto en ayudas, a cargo del presupuesto del Estado.",
+    "af": [
+      "imp",
+      "soc"
+    ]
+  },
+  "salir_ue": {
+    "t": "Salir de la UE y del euro",
+    "q": "Abandonar la Unión Europea y la moneda única para recuperar el control de la política económica, monetaria y comercial.",
+    "pro": [
+      "Se recupera la capacidad de fijar moneda, tipos de interés y presupuestos.",
+      "Libera al país de normas y reglas fiscales europeas."
+    ],
+    "con": [
+      "Pierde el acceso libre al mercado europeo y los fondos de la UE.",
+      "Puede encarecer la deuda e importar inflación con una moneda más débil."
+    ],
+    "af": [
+      "eur",
+      "eco"
+    ]
+  },
+  "nacionalizar_sectores": {
+    "t": "Nacionalizar sectores estratégicos",
+    "q": "Que el Estado pase a ser propietario de empresas de sectores clave, como energía, banca o grandes industrias, o de las que quieran cerrar o deslocalizarse.",
+    "pro": [
+      "El Estado controla sectores esenciales y sus beneficios.",
+      "Puede evitar cierres y la pérdida de empleo industrial."
+    ],
+    "con": [
+      "Exige pagar indemnizaciones muy elevadas.",
+      "Las empresas públicas pueden ser menos eficientes y acumular pérdidas."
+    ],
+    "pay": "Indemnizaciones a los propietarios, financiadas con deuda pública o presupuesto del Estado.",
+    "af": [
+      "eco",
+      "trab"
+    ]
+  },
+  "traspaso_ap9": {
+    "t": "Traspaso de la AP-9 a Galicia y fin de sus peajes",
+    "q": "Que la autopista AP-9 (Ferrol-Tui), hoy estatal y gestionada por una concesionaria privada hasta 2048, pase a la Xunta, y que se rebajen o eliminen sus peajes, rescatando la concesión si hace falta.",
+    "pro": [
+      "Galicia decidiría sobre su principal eje viario y sus tarifas.",
+      "Los usuarios gallegos pagarían menos o nada por desplazarse."
+    ],
+    "con": [
+      "Rescatar o modificar la concesión exige indemnizar a la empresa.",
+      "Sin peaje, el mantenimiento pasa a pagarse con impuestos de todos."
+    ],
+    "pay": "Indemnización a la concesionaria y mantenimiento con presupuesto público, estatal o de la Xunta según el acuerdo de traspaso.",
+    "af": [
+      "infra",
+      "aut"
+    ]
+  },
+  "tarifa_electrica_galega": {
+    "t": "Tarifa eléctrica gallega",
+    "q": "Un precio de la luz más bajo para hogares y empresas de Galicia, por ser una comunidad que produce más electricidad de la que consume y soporta su impacto ambiental.",
+    "pro": [
+      "Compensaría a los territorios que soportan presas, centrales y parques eólicos.",
+      "Abarataría costes a la industria y a las familias gallegas."
+    ],
+    "con": [
+      "Rompe el precio único de la electricidad en todo el Estado.",
+      "Otros territorios pagarían más o habría que financiar la diferencia."
+    ],
+    "pay": "Rebaja de peajes o cargos del sistema eléctrico en Galicia, cubierta por el resto de consumidores o por presupuestos públicos.",
+    "af": [
+      "eco",
+      "aut"
+    ]
+  },
+  "jubilacion_65": {
+    "t": "Volver a la jubilación a los 65 años",
+    "q": "Revertir el retraso progresivo de la edad ordinaria de jubilación a 67 años y fijarla de nuevo en 65, con jubilación parcial desde los 61.",
+    "pro": [
+      "Permite retirarse antes a quienes tienen trabajos duros o largas carreras.",
+      "Libera puestos de trabajo para personas jóvenes."
+    ],
+    "con": [
+      "Aumenta los años de pensión que paga el sistema.",
+      "Choca con el aumento de la esperanza de vida y el envejecimiento."
+    ],
+    "pay": "Más gasto en pensiones, financiado con cotizaciones, impuestos o transferencias del Estado a la Seguridad Social.",
+    "af": [
+      "pen",
+      "trab"
+    ]
+  },
+  "irpf_rentas_altas": {
+    "t": "Subir el IRPF a las rentas altas",
+    "q": "Añadir tramos con tipos más altos en el IRPF para los ingresos más elevados, por ejemplo un 50 % a partir de 100.000 euros anuales.",
+    "pro": [
+      "Aumenta la recaudación con el esfuerzo de quien más gana.",
+      "Hace el sistema fiscal más progresivo."
+    ],
+    "con": [
+      "Puede animar a trasladar rentas o residencia para pagar menos.",
+      "Afecta a profesionales cualificados y puede desincentivar la actividad."
+    ],
+    "af": [
+      "imp"
+    ]
+  },
+  "reconocimiento_nacional": {
+    "t": "Reconocer a Galicia como nación",
+    "q": "Reformar la Constitución o el Estatuto para reconocer a Galicia como nación con soberanía compartida, más competencias propias y un Senado de representación de las naciones.",
+    "pro": [
+      "Responde a una identidad propia con lengua y cultura diferenciadas.",
+      "Daría a Galicia más capacidad de decidir sobre sus asuntos."
+    ],
+    "con": [
+      "Requiere amplias mayorías para reformar la Constitución.",
+      "Otros temen que genere desigualdades o tensiones territoriales."
+    ],
+    "af": [
+      "aut",
+      "inst"
+    ]
+  },
+  "ref_canarias": {
+    "t": "Régimen Económico y Fiscal de Canarias (REF)",
+    "q": "El REF es el conjunto de normas fiscales y económicas propias de Canarias: impuestos más bajos (IGIC en lugar de IVA), ayudas al transporte, la Reserva para Inversiones (RIC) y la obligación de que la inversión del Estado en las islas esté al menos en la media. Los partidos canarios piden blindarlo, cumplirlo o reformarlo.",
+    "pro": [
+      "Compensa los costes de la lejanía y la insularidad que encarecen bienes y servicios en las islas.",
+      "Da estabilidad a empresas e inversores al fijar por ley incentivos y compromisos del Estado."
+    ],
+    "con": [
+      "Reduce ingresos del Estado y obliga a gastar más en un territorio concreto.",
+      "Algunos incentivos fiscales pueden beneficiar más a empresas con grandes beneficios que al conjunto de la población."
+    ],
+    "pay": "Sale de los Presupuestos Generales del Estado y de menores ingresos fiscales; parte se financia con fondos europeos para regiones ultraperiféricas.",
+    "af": [
+      "imp",
+      "aut",
+      "eco"
+    ]
+  },
+  "descuento_residente": {
+    "t": "Descuento de residente en el transporte",
+    "q": "Los residentes en Canarias pagan solo una parte del billete de avión o barco entre islas y con el resto de España, porque el Estado cubre el 75 %. Las propuestas piden mantenerlo, ampliarlo a más destinos o vigilar que las compañías no suban precios.",
+    "pro": [
+      "Garantiza la movilidad de quienes viven en islas sin alternativa por carretera o tren.",
+      "Reduce la desventaja de vivir lejos de la Península para estudiar, trabajar o recibir atención médica."
+    ],
+    "con": [
+      "Tiene un coste elevado y creciente para el Estado.",
+      "Puede favorecer subidas de tarifas por parte de las compañías, que absorben parte de la ayuda."
+    ],
+    "pay": "Se paga con los Presupuestos Generales del Estado, en la partida de subvenciones al transporte de residentes no peninsulares.",
+    "af": [
+      "infra",
+      "aut",
+      "soc"
+    ]
+  },
+  "ley_residencia": {
+    "t": "Ley de residencia para Canarias",
+    "q": "Propuesta de exigir un tiempo mínimo de residencia en Canarias para acceder a ciertos derechos, como comprar vivienda o trabajar en algunos sectores, con el objetivo de frenar el crecimiento de población y la presión sobre el territorio. Choca con la libre circulación de la Unión Europea y debería encajar en ella.",
+    "pro": [
+      "Podría frenar la presión sobre la vivienda y el territorio en unas islas con suelo limitado.",
+      "Daría a la población residente prioridad en el acceso a bienes escasos."
+    ],
+    "con": [
+      "Entra en conflicto con la libertad de circulación y residencia en España y en la Unión Europea.",
+      "Podría desincentivar la llegada de trabajadores e inversión necesarios para la economía."
+    ],
+    "af": [
+      "viv",
+      "aut",
+      "eur",
+      "der"
+    ]
+  },
+  "compra_no_residentes": {
+    "t": "Limitar la compra de vivienda a no residentes",
+    "q": "Poner límites legales a la compra de viviendas por personas que no viven en el territorio o con fines especulativos, para que más casas queden disponibles para quienes residen allí. Puede hacerse con requisitos de residencia previa, impuestos más altos o autorizaciones.",
+    "pro": [
+      "Reduce la demanda especulativa que encarece la vivienda para la población local.",
+      "Aumenta las viviendas disponibles para residencia habitual en zonas muy tensionadas."
+    ],
+    "con": [
+      "Puede chocar con el derecho europeo de libre circulación de capitales.",
+      "Puede reducir la inversión y la actividad de la construcción y de la venta de inmuebles."
+    ],
+    "af": [
+      "viv",
+      "eco",
+      "eur"
+    ]
+  },
+  "migracion_canarias": {
+    "t": "Gestión de la migración que llega a Canarias",
+    "q": "Canarias recibe muchas llegadas por la ruta atlántica. Las propuestas piden que el Estado asuma más gestión y financiación, que haya centros de acogida estables y que los menores no acompañados se repartan de forma obligatoria entre comunidades, además de un pacto de Estado sobre inmigración.",
+    "pro": [
+      "Reparte la responsabilidad de acogida entre todo el país y no solo en la frontera de llegada.",
+      "Instalaciones estables evitan improvisar campamentos y mejoran la atención a las personas."
+    ],
+    "con": [
+      "El reparto obligatorio genera conflictos con las comunidades que deben recibir a las personas.",
+      "Más recursos estatales para un territorio exigen recortar o recaudar en otras partidas."
+    ],
+    "pay": "Presupuestos Generales del Estado y fondos europeos de asilo y migración.",
+    "af": [
+      "der",
+      "aut",
+      "soc",
+      "eur"
+    ]
+  },
+  "rebaja_cotizaciones": {
+    "t": "Rebajar las cotizaciones sociales en Canarias",
+    "q": "Reducir lo que empresas y autónomos pagan a la Seguridad Social por cada trabajador en Canarias, mientras el paro de las islas supere la media de España. El Estado compensaría a la Seguridad Social con dinero de los Presupuestos.",
+    "pro": [
+      "Abarata la contratación en un territorio con más paro que la media.",
+      "Ayuda a la competitividad de empresas que soportan costes extra por la insularidad."
+    ],
+    "con": [
+      "Reduce ingresos de la Seguridad Social que hay que cubrir con impuestos.",
+      "Puede subvencionar empleos que se habrían creado igualmente."
+    ],
+    "pay": "Transferencias de los Presupuestos Generales del Estado a la Seguridad Social para compensar lo que deja de ingresar.",
+    "af": [
+      "trab",
+      "eco",
+      "pen"
+    ]
+  },
+  "aguas_canarias": {
+    "t": "Aguas canarias",
+    "q": "Reconocer y delimitar las aguas entre las islas como un espacio marítimo canario, como hace la Ley 44/2010, e incluirlo en la Constitución, para que Canarias tenga más control sobre ese mar y sus recursos frente a otros países y al Estado.",
+    "pro": [
+      "Da seguridad jurídica al espacio marítimo del archipiélago y a sus recursos.",
+      "Refuerza la posición de Canarias en conflictos de límites con países vecinos."
+    ],
+    "con": [
+      "El derecho internacional del mar no reconoce aguas archipelágicas a Estados no archipelágicos como España.",
+      "Puede generar tensiones diplomáticas con países vecinos como Marruecos."
+    ],
+    "af": [
+      "aut",
+      "eur",
+      "def"
+    ]
+  },
+  "sahara": {
+    "t": "Referéndum en el Sáhara Occidental",
+    "q": "Defender que el pueblo saharaui decida su futuro en un referéndum de autodeterminación, como prevén las resoluciones de Naciones Unidas, frente al plan de autonomía bajo soberanía de Marruecos que apoya el Gobierno español desde 2022.",
+    "pro": [
+      "Se ajusta a las resoluciones de Naciones Unidas sobre la descolonización del territorio.",
+      "Atiende a la responsabilidad histórica de España como antigua potencia administradora."
+    ],
+    "con": [
+      "Puede tensar las relaciones con Marruecos en migración, comercio y pesca.",
+      "El referéndum lleva décadas bloqueado por desacuerdos sobre quién puede votar."
+    ],
+    "af": [
+      "eur",
+      "der"
+    ]
+  },
+  "decrecimiento_turistico": {
+    "t": "Decrecimiento turístico",
+    "q": "Reducir o limitar el número de turistas y de plazas turísticas en Canarias para aliviar la presión sobre el territorio, la vivienda y los servicios, y diversificar la economía hacia otros sectores.",
+    "pro": [
+      "Disminuye la presión sobre el territorio, el agua, la vivienda y los servicios públicos.",
+      "Empuja a diversificar una economía muy dependiente de un solo sector."
+    ],
+    "con": [
+      "Puede reducir empleo e ingresos en el principal sector económico de las islas.",
+      "Los nuevos sectores pueden tardar años en compensar la actividad perdida."
+    ],
+    "af": [
+      "eco",
+      "viv",
+      "trab"
+    ]
+  },
+  "gestion_aeropuertos": {
+    "t": "Gestión canaria de los aeropuertos",
+    "q": "Que las instituciones canarias participen en la gestión de los aeropuertos de las islas, hoy en manos de Aena, o que asuman esa competencia junto con la de costas y puertos.",
+    "pro": [
+      "Permitiría decidir inversiones y tasas según las necesidades de las islas.",
+      "Acerca la gestión de infraestructuras esenciales a quienes dependen de ellas."
+    ],
+    "con": [
+      "Puede romper la gestión en red de Aena, que compensa aeropuertos con pérdidas con los rentables.",
+      "Exige negociar con el Estado y con los accionistas privados de Aena."
+    ],
+    "af": [
+      "infra",
+      "aut"
+    ]
+  },
+  "seguridad_canarias": {
+    "t": "Plan de seguridad para Canarias",
+    "q": "Exigir al Estado más medios y un plan específico de seguridad para Canarias, o que el archipiélago tenga un modelo de seguridad propio con más competencias policiales.",
+    "pro": [
+      "Adapta los medios de seguridad a un territorio fragmentado en islas y con frontera exterior.",
+      "Puede mejorar la coordinación entre administraciones en las islas."
+    ],
+    "con": [
+      "Exige más gasto en personal y medios policiales.",
+      "Un modelo propio puede duplicar estructuras con las fuerzas del Estado."
+    ],
+    "pay": "Presupuestos del Estado o de la comunidad autónoma, según quién asuma los medios.",
+    "af": [
+      "seg",
+      "aut"
+    ]
+  },
+  "referendum_monarquia": {
+    "t": "Referéndum monarquía o república",
+    "q": "Convocar una consulta para que la ciudadanía elija entre mantener la monarquía parlamentaria o pasar a una república. Exigiría una reforma constitucional por el procedimiento agravado del artículo 168, con mayorías de dos tercios, disolución de las Cortes y referéndum.",
+    "pro": [
+      "Permitiría votar la forma de Estado, que en 1978 se aprobó dentro de un paquete constitucional único.",
+      "Daría legitimidad directa a la jefatura del Estado, sea cual sea el resultado."
+    ],
+    "con": [
+      "El artículo 168 exige mayorías amplias que hoy no existen, por lo que sería difícil de aplicar.",
+      "Podría abrir un periodo de división e incertidumbre institucional."
+    ],
+    "af": [
+      "inst"
+    ]
+  },
+  "autonomos": {
+    "t": "Mejoras para autónomos",
+    "q": "Medidas para trabajadores por cuenta propia: acercar sus pensiones a las de los asalariados, facilitar que contraten con la Administración, reducir la morosidad que sufren y mejorar su fiscalidad.",
+    "pro": [
+      "Los autónomos suelen cobrar pensiones más bajas que los asalariados.",
+      "Facilitar el acceso a contratos públicos y reducir impagos ayuda a pequeños negocios."
+    ],
+    "con": [
+      "Mejorar sus pensiones sin cotizar más aumenta el gasto de la Seguridad Social.",
+      "Puede crear diferencias de trato con otros colectivos que también reclaman ayudas."
+    ],
+    "pay": "Con mayores cotizaciones de los propios autónomos o transferencias del Estado a la Seguridad Social.",
+    "af": [
+      "trab",
+      "pen"
+    ]
+  },
+  "despoblacion": {
+    "t": "Plan de Estado contra la despoblación",
+    "q": "Un pacto o plan estatal con financiación estable para frenar la pérdida de población rural: servicios públicos cerca de cada pueblo, vivienda, empleo e inversión en las provincias más vacías.",
+    "pro": [
+      "Garantiza servicios básicos a quien vive en zonas rurales poco pobladas.",
+      "Reparte la actividad económica y reduce la presión sobre las grandes ciudades."
+    ],
+    "con": [
+      "Mantener servicios en núcleos muy pequeños tiene un coste por habitante elevado.",
+      "Los planes anteriores no lograron revertir la tendencia demográfica."
+    ],
+    "pay": "Presupuestos Generales del Estado y fondos europeos de cohesión y desarrollo rural.",
+    "af": [
+      "soc",
+      "eco",
+      "infra",
+      "aut"
+    ]
+  },
+  "fiscalidad_rural": {
+    "t": "Ayudas al funcionamiento y fiscalidad rural",
+    "q": "Rebajas de cotizaciones e impuestos para empresas y autónomos de provincias muy despobladas (Soria, Teruel, Cuenca), que la UE permite como ayudas al funcionamiento. Algunas propuestas piden aplicarlas al máximo o reducir a la mitad los impuestos en esas zonas.",
+    "pro": [
+      "Compensa los mayores costes de producir lejos de los mercados.",
+      "Puede atraer empresas y empleo a zonas que pierden población."
+    ],
+    "con": [
+      "Reduce la recaudación del Estado.",
+      "Puede beneficiar a empresas que se habrían instalado igualmente."
+    ],
+    "pay": "Menos ingresos por cotizaciones e impuestos, compensados con cargo a los Presupuestos Generales del Estado.",
+    "af": [
+      "imp",
+      "eco",
+      "trab"
+    ]
+  },
+  "conectividad": {
+    "t": "Banda ancha en todo el medio rural",
+    "q": "Garantizar fibra óptica, 5G o cobertura móvil de calidad en todos los municipios, incluidos los más pequeños, mediante inversión pública u obligaciones a las operadoras.",
+    "pro": [
+      "Permite teletrabajo, empresas y servicios digitales en los pueblos.",
+      "Reduce la brecha digital entre campo y ciudad."
+    ],
+    "con": [
+      "Llevar fibra a núcleos muy dispersos es caro por usuario.",
+      "Las operadoras pueden no mantener la red sin subvención continuada."
+    ],
+    "pay": "Fondos europeos de recuperación y Presupuestos Generales del Estado.",
+    "af": [
+      "infra",
+      "eco"
+    ]
+  },
+  "ayudas_agro": {
+    "t": "Apoyo público a agricultores y ganaderos",
+    "q": "Ayudas directas ante crisis como la sequía, créditos blandos, ventajas fiscales y leyes que obliguen a pagar al productor por encima de sus costes en la cadena alimentaria.",
+    "pro": [
+      "Protege la renta de un sector expuesto al clima y a los precios.",
+      "Ayuda a mantener población y actividad en el medio rural."
+    ],
+    "con": [
+      "Supone gasto público o más precio para el consumidor.",
+      "Puede mantener explotaciones poco rentables a largo plazo."
+    ],
+    "pay": "Presupuestos Generales del Estado y fondos de la Política Agraria Común.",
+    "af": [
+      "eco",
+      "imp"
+    ]
+  },
+  "moratoria_renovables": {
+    "t": "Freno a macroproyectos renovables",
+    "q": "Paralizar o limitar los grandes parques eólicos y solares, y otras obras de gran impacto en el paisaje, hasta ordenar dónde pueden instalarse y evaluar su efecto en el territorio.",
+    "pro": [
+      "Protege paisaje, biodiversidad y usos agrarios y turísticos.",
+      "Da más voz a los municipios afectados."
+    ],
+    "con": [
+      "Retrasa la transición energética y los objetivos climáticos.",
+      "Puede frenar inversiones y empleo en zonas rurales."
+    ],
+    "af": [
+      "eco",
+      "infra"
+    ]
+  },
+  "cooficialidad_lenguas": {
+    "t": "Cooficialidad del aragonés y el asturiano",
+    "q": "Reconocer como oficiales el aragonés y el asturiano en sus territorios y cumplir la Carta Europea de las Lenguas, con ayudas a contenidos y uso en las instituciones.",
+    "pro": [
+      "Protege lenguas minoritarias en riesgo de desaparecer.",
+      "Cumple compromisos internacionales firmados por España."
+    ],
+    "con": [
+      "Exige gasto en traducción, enseñanza y administración.",
+      "Tiene pocos hablantes y puede generar rechazo social."
+    ],
+    "pay": "Presupuestos autonómicos y estatales para enseñanza, traducción y medios.",
+    "af": [
+      "der",
+      "edu",
+      "aut"
+    ]
+  },
+  "atencion_primaria": {
+    "t": "Más presupuesto para atención primaria",
+    "q": "Destinar una parte fija del gasto sanitario, por ejemplo el 25 %, a centros de salud y consultorios, para reforzar plantillas y acortar esperas.",
+    "pro": [
+      "La atención primaria resuelve la mayoría de las consultas.",
+      "Mejora el acceso en zonas rurales con consultorios lejos de hospitales."
+    ],
+    "con": [
+      "Fijar porcentajes resta flexibilidad para otras necesidades sanitarias.",
+      "Sin médicos disponibles, más dinero no cubre las plazas."
+    ],
+    "pay": "Presupuestos sanitarios de las comunidades autónomas, con transferencias del Estado.",
+    "af": [
+      "san",
+      "aut"
+    ]
+  },
+  "deuda_historica": {
+    "t": "Pago de la deuda histórica a Andalucía",
+    "q": "Que el Estado abone a Andalucía una cantidad por la financiación y las inversiones que, según sus defensores, dejó de recibir en el pasado, con un calendario de pago fijado.",
+    "pro": [
+      "Compensaría años de inversión pública por debajo de su población.",
+      "Daría recursos para servicios públicos y para acercar la renta andaluza a la media."
+    ],
+    "con": [
+      "La cifra de la deuda depende del método de cálculo y es discutida.",
+      "Otras comunidades podrían reclamar compensaciones parecidas."
+    ],
+    "pay": "Presupuestos Generales del Estado, con más deuda pública o recortando otras partidas.",
+    "af": [
+      "aut",
+      "eco"
+    ]
+  },
+  "adelantar_jubilacion": {
+    "t": "Adelantar la edad de jubilación",
+    "q": "Rebajar la edad legal para cobrar la pensión completa (por ejemplo a 62 años), en lugar de los 66-67 actuales.",
+    "pro": [
+      "Liberaría puestos de trabajo para personas jóvenes.",
+      "Daría más años de descanso tras carreras laborales largas."
+    ],
+    "con": [
+      "Aumentaría el gasto en pensiones con menos años cotizados.",
+      "Con más esperanza de vida, presionaría la sostenibilidad del sistema."
+    ],
+    "pay": "Más cotizaciones o impuestos, o transferencias del Estado a la Seguridad Social.",
+    "af": [
+      "pen",
+      "trab"
+    ]
+  },
+  "supermercados_publicos": {
+    "t": "Red de supermercados públicos",
+    "q": "Crear tiendas de alimentación de titularidad pública que vendan a precios ajustados y compren a productores locales.",
+    "pro": [
+      "Podría contener el precio de los alimentos básicos.",
+      "Daría a los productores un comprador con precios estables."
+    ],
+    "con": [
+      "Necesita inversión y gestión pública en un sector con mucha competencia.",
+      "Puede perjudicar al pequeño comercio privado cercano."
+    ],
+    "pay": "Inversión inicial y posibles pérdidas a cargo de los presupuestos públicos.",
+    "af": [
+      "eco",
+      "soc"
+    ]
+  },
+  "poligono_bardenas": {
+    "t": "Cierre del polígono de tiro de las Bardenas",
+    "q": "Dejar de usar como campo de tiro militar aéreo el polígono de las Bardenas Reales (Navarra) y devolver el terreno a usos civiles.",
+    "pro": [
+      "Eliminaría ruido y riesgos para la población cercana.",
+      "Recuperaría un espacio natural protegido para usos civiles."
+    ],
+    "con": [
+      "El Ejército perdería una zona de entrenamiento difícil de sustituir.",
+      "Las localidades que cobran por el arrendamiento perderían ese ingreso."
+    ],
+    "af": [
+      "def",
+      "aut"
+    ]
+  },
+  "derogar_estabilidad": {
+    "t": "Derogar la Ley de Estabilidad Presupuestaria",
+    "q": "Eliminar la ley de 2012 que fija límites de déficit, deuda y gasto a Estado, comunidades y ayuntamientos.",
+    "pro": [
+      "Daría más margen a ayuntamientos y comunidades para invertir.",
+      "Permitiría usar superávits locales en servicios a la ciudadanía."
+    ],
+    "con": [
+      "Facilitaría que aumenten el déficit y la deuda pública.",
+      "Choca con las reglas fiscales europeas, que siguen vigentes."
+    ],
+    "af": [
+      "eco",
+      "aut",
+      "inst"
+    ]
+  },
+  "pasos_fronterizos": {
+    "t": "Reabrir pasos fronterizos con Francia",
+    "q": "Pedir al Gobierno que negocie con Francia la reapertura de los pasos de montaña cerrados desde 2021 en el Pirineo.",
+    "pro": [
+      "Facilitaría la vida diaria y el comercio en los valles fronterizos.",
+      "Recuperaría la libre circulación propia del espacio Schengen."
+    ],
+    "con": [
+      "Francia los cerró por motivos de control migratorio y seguridad.",
+      "Depende de la decisión de otro Estado."
+    ],
+    "af": [
+      "eur",
+      "aut"
+    ]
+  }
+}

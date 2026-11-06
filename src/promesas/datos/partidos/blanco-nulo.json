@@ -1,0 +1,33 @@
+{
+  "_nota": "Congreso, total estatal (incluye CERA). [blancos, nulos, validos, votantes]. Junta Electoral Central, Cuadro I del BOE. 1986-1996: las tablas publicadas no cuadran del todo; 1989 es la tabla consolidada de 1990 (papeletas leidas).",
+  "datos": {
+    "1986": [121186, 321939, 20069089, 20497912],
+    "1989": [141795, 152683, 20469817, 20633624],
+    "1993": [188679, 126952, 23590801, 23718051],
+    "1996": [243345, 125782, 25078874, 25202106],
+    "2000": [366823, 158200, 23181290, 23339490],
+    "2004": [407795, 264137, 25891299, 26155436],
+    "2008": [286182, 165576, 25734863, 25900439],
+    "2011": [333461, 317555, 24348837, 24666392],
+    "2015": [188132, 227219, 25211313, 25438532],
+    "2016": [179081, 225504, 24053755, 24279259],
+    "2019A": [199836, 276769, 26201371, 26478140],
+    "2019N": [217227, 249487, 24258228, 24507715],
+    "2023": [200673, 264360, 24688087, 24952447]
+  },
+  "fuentes": {
+    "1986": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1986-20864",
+    "1989": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1990-14391",
+    "1993": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1993-18739",
+    "1996": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-7025",
+    "2000": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-6480",
+    "2004": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-8358",
+    "2008": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-6851",
+    "2011": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19391",
+    "2015": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-867",
+    "2016": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-7133",
+    "2019A": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-8070",
+    "2019N": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-17344",
+    "2023": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18907"
+  }
+}

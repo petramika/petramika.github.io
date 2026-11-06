@@ -1,0 +1,48 @@
+/* Texto en dos columnas (con el cierre al final) y, debajo, preguntas y consejos lado a lado. En el movil, una columna. */
+:root{color-scheme:light;--bg:#FFFFFF;--soft:#F6F7F8;--ink:#1F2328;--muted:#5F6670;--line:#E3E5E8;--accent:#0B7A75;
+ --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.1;margin:8px 0 22px;text-wrap:balance}
+h2{font-size:21px;margin:36px 0 12px;text-wrap:balance}
+p{margin:0 0 14px}
+.lead{font-size:19px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.note{font-size:13px;color:var(--muted)}
+.qs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.qs li{background:var(--soft);border-radius:8px;padding:12px 16px;font-weight:600}
+.tips{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.tips li{display:grid;grid-template-columns:10px minmax(0,1fr);gap:14px;align-items:start;padding:10px 0;border-bottom:1px solid var(--line)}
+.tips li::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:9px}
+.tips li:last-child{border-bottom:0}
+.sign{margin-top:30px;padding:18px 20px;border-left:4px solid var(--accent);background:var(--soft);border-radius:0 8px 8px 0;font-size:18px;font-weight:600}
+.iwrap{position:relative;display:inline-flex;vertical-align:middle;line-height:1}
+.ibtn{appearance:none;box-sizing:border-box;width:14px;height:14px;position:relative;border-radius:50%;border:1.2px solid var(--muted);background:var(--bg);color:var(--muted);font:700 8.5px/1 Georgia,"Times New Roman",serif;cursor:pointer;padding:0;display:inline-flex;align-items:center;justify-content:center}
+.ibtn:hover,.ibtn[aria-expanded="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.ibtn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.ipop{position:fixed;z-index:20;width:min(360px,80vw);background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);padding:12px 14px;font-size:14px;line-height:1.5;font-weight:400}
+.closing{margin-top:28px;font-size:18px;font-weight:400}
+.closing p{margin:0 0 10px}
+.closing p:last-child{font-weight:600}
+
+.texto-cols{column-count:2;column-gap:48px}
+.texto-cols .lead{break-inside:avoid}
+.texto-cols .closing{break-inside:avoid;margin-top:6px}
+.dos-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:start;margin-top:20px}
+.dos-cols h2{margin-top:16px;min-height:2.6em}
+@media (max-width:820px){.texto-cols{column-count:1}.dos-cols{grid-template-columns:1fr;gap:8px}.dos-cols h2{min-height:0}}
+:root{--g-fondo:#EEF0F2;--g-fondo-on:#DDE1E5;--g-raya:#8A929B;--g-tip:#1F2328;--g-tip-texto:#FFFFFF;--g-letra:var(--f-body)}
+
+/* (i) pequeña, pero con zona de toque amplia para el dedo */
+.ibtn::after{content:"";position:absolute;inset:-9px}
+/* Grafica de reformas de la constitucion (panel de la autora) */
+.reformas{margin:18px 0 6px}
+.reformas figcaption{display:flex;flex-direction:column;gap:2px;margin-bottom:8px}
+.reformas figcaption span{font-size:13px;color:var(--muted)}
+.reformas svg{width:100%;height:auto;display:block;overflow:visible}
+.reformas .rf-eje{font:11px "IBM Plex Mono",ui-monospace,monospace;fill:var(--muted)}
+.reformas .rf-pais{font-size:12.5px}
+.reformas circle{cursor:help}
+.rf-fuente{font-size:12.5px;color:var(--muted);margin-top:8px}

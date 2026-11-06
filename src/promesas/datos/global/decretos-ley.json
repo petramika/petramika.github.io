@@ -1,0 +1,160 @@
+{
+  "nota": "Reales decretos-ley publicados en el BOE, contados por fecha de publicación. Cada legislatura va de unas elecciones a las siguientes (legislaturas.json: a y b); la que sigue en curso, hasta la fecha de consulta. Los Gobiernos en funciones también pueden aprobarlos: se cuentan en la legislatura en la que se publicaron. La numeración del BOE empieza en 1 cada año y no tiene huecos, así que el recuento de cada año coincide con el último número (salvo 3/1986 y 22/1993, publicados en enero del año siguiente).",
+  "fuente": {
+    "nombre": "BOE, buscador de legislación: ámbito estatal, rango «Real Decreto-ley», por fecha de publicación",
+    "url": "https://www.boe.es/buscar/legislacion_ava.php?campo%5B0%5D=ID_SRC&dato%5B0%5D=1&operador%5B0%5D=and&campo%5B4%5D=ID_RNGS&dato%5B4%5D=1320&operador%5B4%5D=and&campo%5B11%5D=FPU&dato%5B11%5D%5B0%5D=1986-01-01&dato%5B11%5D%5B1%5D=2026-11-06&operador%5B11%5D=and&page_hits=2000&sort_field%5B0%5D=FPU&sort_order%5B0%5D=asc&sort_field%5B1%5D=REF&sort_order%5B1%5D=asc&accion=Buscar",
+    "consulta": "2026-11-06"
+  },
+  "comprobacion": [
+    "Maldita.es (7-11-2022, con datos del Congreso): 90 decretos-ley en la XIV legislatura (desde el 3-12-2019) y 132 de los Gobiernos de Sánchez (desde el 1-6-2018). Aquí, con el BOE hasta esas fechas: 90 y 132.",
+    "Economist & Jurist (31-10-2026), por Gobierno o por legislatura del Congreso: González 129 (1982–1996), Aznar 85 y 42, Rajoy 76 (X) y 31 (2015–2018), Sánchez 35 (XII), 5 (XIII), 99 (XIV) y 57 (XV). Con el BOE salen las mismas cifras al usar sus cortes; la tabla da otras (86, 77, 4, 100, 63…) porque corta en el día de las elecciones y no en el cambio de Gobierno o de Cortes. Las 57 de la XV llegan al 26/2026 (29-9-2026); desde entonces se publicaron 6 más."
+  ],
+  "porAnio": {
+    "1986": 2,
+    "1987": 8,
+    "1988": 7,
+    "1989": 7,
+    "1990": 6,
+    "1991": 5,
+    "1992": 6,
+    "1993": 21,
+    "1994": 14,
+    "1995": 12,
+    "1996": 17,
+    "1997": 29,
+    "1998": 20,
+    "1999": 22,
+    "2000": 10,
+    "2001": 16,
+    "2002": 10,
+    "2003": 7,
+    "2004": 11,
+    "2005": 16,
+    "2006": 13,
+    "2007": 11,
+    "2008": 10,
+    "2009": 14,
+    "2010": 14,
+    "2011": 20,
+    "2012": 29,
+    "2013": 17,
+    "2014": 17,
+    "2015": 12,
+    "2016": 7,
+    "2017": 21,
+    "2018": 28,
+    "2019": 18,
+    "2020": 39,
+    "2021": 32,
+    "2022": 20,
+    "2023": 8,
+    "2024": 11,
+    "2025": 17,
+    "2026": 32
+  },
+  "porLegislatura": {
+    "1986": {
+      "n": 20,
+      "desde": "1986-06-22",
+      "hasta": "1989-10-29",
+      "primero": "3/1986",
+      "ultimo": "5/1989"
+    },
+    "1989": {
+      "n": 28,
+      "desde": "1989-10-29",
+      "hasta": "1993-06-06",
+      "primero": "6/1989",
+      "ultimo": "9/1993"
+    },
+    "1993": {
+      "n": 41,
+      "desde": "1993-06-06",
+      "hasta": "1996-03-03",
+      "primero": "10/1993",
+      "ultimo": "3/1996"
+    },
+    "1996": {
+      "n": 86,
+      "desde": "1996-03-03",
+      "hasta": "2000-03-12",
+      "primero": "4/1996",
+      "ultimo": "1/2000"
+    },
+    "2000": {
+      "n": 42,
+      "desde": "2000-03-12",
+      "hasta": "2004-03-14",
+      "primero": "2/2000",
+      "ultimo": "7/2003"
+    },
+    "2004": {
+      "n": 52,
+      "desde": "2004-03-14",
+      "hasta": "2008-03-09",
+      "primero": "1/2004",
+      "ultimo": "1/2008"
+    },
+    "2008": {
+      "n": 55,
+      "desde": "2008-03-09",
+      "hasta": "2011-11-20",
+      "primero": "2/2008",
+      "ultimo": "18/2011"
+    },
+    "2011": {
+      "n": 77,
+      "desde": "2011-11-20",
+      "hasta": "2015-12-20",
+      "primero": "19/2011",
+      "ultimo": "12/2015"
+    },
+    "2015": {
+      "n": 1,
+      "desde": "2015-12-20",
+      "hasta": "2016-06-26",
+      "primero": "1/2016",
+      "ultimo": "1/2016"
+    },
+    "2016": {
+      "n": 65,
+      "desde": "2016-06-26",
+      "hasta": "2019-04-28",
+      "primero": "2/2016",
+      "ultimo": "10/2019",
+      "tramos": [
+        {
+          "p": "PP",
+          "n": 30,
+          "hasta": "2018-06-01"
+        },
+        {
+          "p": "PSOE",
+          "n": 35,
+          "desde": "2018-06-01"
+        }
+      ]
+    },
+    "2019A": {
+      "n": 4,
+      "desde": "2019-04-28",
+      "hasta": "2019-11-10",
+      "primero": "11/2019",
+      "ultimo": "14/2019"
+    },
+    "2019N": {
+      "n": 100,
+      "desde": "2019-11-10",
+      "hasta": "2023-07-23",
+      "primero": "15/2019",
+      "ultimo": "5/2023"
+    },
+    "2023": {
+      "n": 63,
+      "desde": "2023-07-23",
+      "hasta": "2026-11-06",
+      "primero": "6/2023",
+      "ultimo": "32/2026"
+    }
+  }
+}

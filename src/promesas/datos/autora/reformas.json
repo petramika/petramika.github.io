@@ -1,0 +1,670 @@
+{
+ "España": {
+  "desde": 1978,
+  "reformas": [
+   {
+    "fecha": "1992-08-28",
+    "que": "art. 13.2, sufragio pasivo de ciudadanos UE en municipales"
+   },
+   {
+    "fecha": "2011-09-27",
+    "que": "art. 135, estabilidad presupuestaria"
+   },
+   {
+    "fecha": "2024-02-17",
+    "que": "art. 49, personas con discapacidad"
+   },
+   {
+    "fecha": "2026-05-20",
+    "que": "art. 69.3, circunscripciones de Ibiza y Formentera al Senado"
+   }
+  ],
+  "fuente": {
+   "nombre": "BOE, texto consolidado de la Constitución (BOE-A-1978-31229)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+  },
+  "nota": "Fecha = publicación y entrada en vigor en BOE. Refs: BOE-A-1992-20403, BOE-A-2011-15210, BOE-A-2024-3099, BOE-A-2026-10881 (Reforma de 19 de mayo de 2026)."
+ },
+ "Alemania": {
+  "desde": 1949,
+  "reformas": [
+   {
+    "fecha": "1951-08-30",
+    "que": "art. 143 derogado (Strafrechtsänderungsgesetz)"
+   },
+   {
+    "fecha": "1952-08-14",
+    "que": "art. 120a, compensación de cargas de guerra"
+   },
+   {
+    "fecha": "1953-04-20",
+    "que": "art. 107, reparto financiero"
+   },
+   {
+    "fecha": "1954-03-26",
+    "que": "arts. 73, 79 y 142a, defensa"
+   },
+   {
+    "fecha": "1954-12-25",
+    "que": "art. 107, reparto financiero"
+   },
+   {
+    "fecha": "1955-12-23",
+    "que": "arts. 106-107, Finanzverfassungsgesetz"
+   },
+   {
+    "fecha": "1956-03-19",
+    "que": "Wehrverfassung, creación de la Bundeswehr"
+   },
+   {
+    "fecha": "1956-12-24",
+    "que": "art. 106, impuestos"
+   },
+   {
+    "fecha": "1957-10-22",
+    "que": "art. 135a, obligaciones del Reich"
+   },
+   {
+    "fecha": "1959-12-23",
+    "que": "arts. 74 y 87c, energía nuclear"
+   },
+   {
+    "fecha": "1961-02-06",
+    "que": "art. 87d, administración del tráfico aéreo"
+   },
+   {
+    "fecha": "1961-03-06",
+    "que": "arts. 96 y 96a, tribunales"
+   },
+   {
+    "fecha": "1965-06-16",
+    "que": "art. 74, competencia legislativa"
+   },
+   {
+    "fecha": "1965-07-30",
+    "que": "art. 120, cargas de guerra"
+   },
+   {
+    "fecha": "1967-06-08",
+    "que": "art. 109, equilibrio económico"
+   },
+   {
+    "fecha": "1968-06-18",
+    "que": "arts. 92-100, tribunales federales"
+   },
+   {
+    "fecha": "1968-06-24",
+    "que": "Notstandsverfassung, estado de emergencia"
+   },
+   {
+    "fecha": "1968-11-15",
+    "que": "arts. 76 y 77, procedimiento legislativo"
+   },
+   {
+    "fecha": "1969-01-29",
+    "que": "arts. 93 y 94, recurso de amparo constitucional"
+   },
+   {
+    "fecha": "1969-05-12",
+    "que": "arts. 109-115, derecho presupuestario"
+   },
+   {
+    "fecha": "1969-05-12",
+    "que": "Finanzreformgesetz, reforma financiera"
+   },
+   {
+    "fecha": "1969-05-12",
+    "que": "arts. 74, 75 y 96"
+   },
+   {
+    "fecha": "1969-07-17",
+    "que": "art. 76, procedimiento legislativo"
+   },
+   {
+    "fecha": "1969-07-28",
+    "que": "art. 120, cargas de guerra"
+   },
+   {
+    "fecha": "1969-08-19",
+    "que": "art. 29, reorganización territorial"
+   },
+   {
+    "fecha": "1969-08-26",
+    "que": "art. 96, tribunales federales"
+   },
+   {
+    "fecha": "1970-07-31",
+    "que": "arts. 38 y 91a, voto a los 18 años"
+   },
+   {
+    "fecha": "1971-03-18",
+    "que": "art. 74a, retribución de funcionarios"
+   },
+   {
+    "fecha": "1971-03-18",
+    "que": "art. 74, competencia legislativa"
+   },
+   {
+    "fecha": "1972-04-12",
+    "que": "art. 74, protección del medio ambiente"
+   },
+   {
+    "fecha": "1972-07-28",
+    "que": "arts. 35, 73, 74 y 87"
+   },
+   {
+    "fecha": "1975-07-15",
+    "que": "art. 45c, Comisión de Peticiones"
+   },
+   {
+    "fecha": "1976-08-23",
+    "que": "arts. 29, 39, 45, 45a y 49"
+   },
+   {
+    "fecha": "1976-08-23",
+    "que": "art. 74 nº 4a, armas y explosivos"
+   },
+   {
+    "fecha": "1983-12-21",
+    "que": "art. 21.1, financiación de partidos"
+   },
+   {
+    "fecha": "1990-09-23",
+    "que": "Tratado de Unificación (preámbulo, arts. 23, 51, 135a, 143, 146)"
+   },
+   {
+    "fecha": "1992-07-14",
+    "que": "art. 87d, seguridad aérea"
+   },
+   {
+    "fecha": "1992-12-21",
+    "que": "art. 23 nuevo, Unión Europea (Maastricht)"
+   },
+   {
+    "fecha": "1993-06-28",
+    "que": "arts. 16, 16a y 18, derecho de asilo"
+   },
+   {
+    "fecha": "1993-12-20",
+    "que": "art. 87e, reforma ferroviaria"
+   },
+   {
+    "fecha": "1994-08-30",
+    "que": "art. 87f, correos y telecomunicaciones"
+   },
+   {
+    "fecha": "1994-10-27",
+    "que": "reforma constitucional de 1994 (art. 20a medio ambiente, art. 3 igualdad)"
+   },
+   {
+    "fecha": "1995-11-03",
+    "que": "art. 106, reparto de impuestos"
+   },
+   {
+    "fecha": "1997-10-20",
+    "que": "arts. 28 y 106, finanzas municipales"
+   },
+   {
+    "fecha": "1998-03-26",
+    "que": "art. 13, vigilancia acústica de domicilios"
+   },
+   {
+    "fecha": "1998-07-16",
+    "que": "art. 39, legislatura del Bundestag"
+   },
+   {
+    "fecha": "2000-11-29",
+    "que": "art. 16, extradición de alemanes (UE/tribunales internacionales)"
+   },
+   {
+    "fecha": "2000-12-19",
+    "que": "art. 12a, mujeres en servicio armado"
+   },
+   {
+    "fecha": "2001-11-26",
+    "que": "art. 108, administración tributaria"
+   },
+   {
+    "fecha": "2002-07-26",
+    "que": "art. 20a, protección animal"
+   },
+   {
+    "fecha": "2002-07-26",
+    "que": "art. 96, tribunales federales"
+   },
+   {
+    "fecha": "2006-08-28",
+    "que": "reforma del federalismo I"
+   },
+   {
+    "fecha": "2008-10-08",
+    "que": "arts. 23, 45 y 93, Tratado de Lisboa"
+   },
+   {
+    "fecha": "2009-03-19",
+    "que": "arts. 106, 106b, 107 y 108, impuesto de vehículos"
+   },
+   {
+    "fecha": "2009-07-17",
+    "que": "art. 45d, control parlamentario de los servicios de inteligencia"
+   },
+   {
+    "fecha": "2009-07-29",
+    "que": "art. 87d, control del tráfico aéreo"
+   },
+   {
+    "fecha": "2009-07-29",
+    "que": "reforma del federalismo II, freno de la deuda"
+   },
+   {
+    "fecha": "2010-07-21",
+    "que": "art. 91e, jobcenters"
+   },
+   {
+    "fecha": "2012-07-11",
+    "que": "art. 93, recurso de partidos no admitidos a elecciones"
+   },
+   {
+    "fecha": "2014-12-23",
+    "que": "art. 91b, cooperación en ciencia y universidades"
+   },
+   {
+    "fecha": "2017-07-13",
+    "que": "art. 21, exclusión de financiación pública de partidos anticonstitucionales"
+   },
+   {
+    "fecha": "2017-07-13",
+    "que": "relaciones financieras Bund-Länder (arts. 90, 104c, 143e-g...)"
+   },
+   {
+    "fecha": "2019-03-28",
+    "que": "arts. 104b-104d, inversiones en educación y vivienda (DigitalPakt)"
+   },
+   {
+    "fecha": "2019-11-15",
+    "que": "arts. 72, 105 y 125b, impuesto sobre bienes inmuebles"
+   },
+   {
+    "fecha": "2020-09-29",
+    "que": "arts. 104a y 143h, compensación a municipios (COVID)"
+   },
+   {
+    "fecha": "2022-06-28",
+    "que": "art. 87a, fondo especial Bundeswehr"
+   },
+   {
+    "fecha": "2022-12-19",
+    "que": "art. 82, Boletín Oficial electrónico"
+   },
+   {
+    "fecha": "2024-12-20",
+    "que": "arts. 93 y 94, protección del Tribunal Constitucional"
+   },
+   {
+    "fecha": "2025-03-22",
+    "que": "arts. 109, 115 y 143h, gasto en defensa y fondo especial de infraestructuras"
+   }
+  ],
+  "fuente": {
+   "nombre": "gesetze-im-internet.de (BMJ) + Wikipedia de «Grundgesetz für die Bundesrepublik Deutschland», sección Änderungsgesetze (con referencias BGBl)",
+   "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html"
+  },
+  "nota": "Fecha = fecha de la ley (Ausfertigung). La nº 36 es el Tratado de Unificación (ley de aprobación 23-09-1990), que se cuenta en la numeración estándar de 69 reformas. Lista completa por ley de Wikipedia de; la oficial confirma la última (22.3.2025, BGBl. 2025 I Nr. 94)."
+ },
+ "Francia": {
+  "desde": 1958,
+  "reformas": [
+   {
+    "fecha": "1960-06-04",
+    "que": "Comunidad francesa (arts. 85-86)"
+   },
+   {
+    "fecha": "1962-11-06",
+    "que": "elección directa del Presidente (por referéndum, art. 11)"
+   },
+   {
+    "fecha": "1963-12-30",
+    "que": "periodos de sesiones parlamentarias (art. 28)"
+   },
+   {
+    "fecha": "1974-10-29",
+    "que": "recurso al Consejo Constitucional por 60 diputados o senadores (art. 61)"
+   },
+   {
+    "fecha": "1976-06-18",
+    "que": "interinidad de la Presidencia (art. 7)"
+   },
+   {
+    "fecha": "1992-06-25",
+    "que": "Tratado de Maastricht, Unión Europea"
+   },
+   {
+    "fecha": "1993-07-27",
+    "que": "Tribunal de Justicia de la República y CSM"
+   },
+   {
+    "fecha": "1993-11-25",
+    "que": "derecho de asilo (art. 53-1)"
+   },
+   {
+    "fecha": "1995-08-04",
+    "que": "sesión parlamentaria única, inmunidad, referéndum"
+   },
+   {
+    "fecha": "1996-02-22",
+    "que": "leyes de financiación de la seguridad social"
+   },
+   {
+    "fecha": "1998-07-20",
+    "que": "Nueva Caledonia"
+   },
+   {
+    "fecha": "1999-01-25",
+    "que": "Tratado de Ámsterdam"
+   },
+   {
+    "fecha": "1999-07-08",
+    "que": "Corte Penal Internacional (art. 53-2)"
+   },
+   {
+    "fecha": "1999-07-08",
+    "que": "igualdad entre mujeres y hombres"
+   },
+   {
+    "fecha": "2000-10-02",
+    "que": "mandato presidencial de 5 años"
+   },
+   {
+    "fecha": "2003-03-25",
+    "que": "orden de detención europea"
+   },
+   {
+    "fecha": "2003-03-28",
+    "que": "organización descentralizada de la República"
+   },
+   {
+    "fecha": "2005-03-01",
+    "que": "Tratado constitucional europeo (título XV)"
+   },
+   {
+    "fecha": "2005-03-01",
+    "que": "Carta del Medio Ambiente"
+   },
+   {
+    "fecha": "2007-02-23",
+    "que": "cuerpo electoral de Nueva Caledonia (art. 77)"
+   },
+   {
+    "fecha": "2007-02-23",
+    "que": "responsabilidad del Presidente (título IX)"
+   },
+   {
+    "fecha": "2007-02-23",
+    "que": "abolición de la pena de muerte (art. 66-1)"
+   },
+   {
+    "fecha": "2008-02-04",
+    "que": "Tratado de Lisboa (título XV)"
+   },
+   {
+    "fecha": "2008-07-23",
+    "que": "modernización de las instituciones de la V República"
+   },
+   {
+    "fecha": "2024-03-08",
+    "que": "libertad de recurrir al aborto (art. 34)"
+   }
+  ],
+  "fuente": {
+   "nombre": "Conseil constitutionnel, «Les révisions constitutionnelles»",
+   "url": "https://www.conseil-constitutionnel.fr/la-constitution/les-revisions-constitutionnelles"
+  },
+  "nota": "Fecha = fecha de la loi constitutionnelle. Incluye la ley de 1962 aprobada por referéndum vía art. 11."
+ },
+ "Italia": {
+  "desde": 1948,
+  "reformas": [
+   {
+    "fecha": "1963-02-09",
+    "que": "arts. 56, 57 y 60, composición y duración de las Cámaras"
+   },
+   {
+    "fecha": "1963-12-27",
+    "que": "arts. 57 y 131, creación de la región de Molise"
+   },
+   {
+    "fecha": "1967-11-22",
+    "que": "art. 135, Tribunal Constitucional"
+   },
+   {
+    "fecha": "1989-01-16",
+    "que": "arts. 96, 134 y 135, delitos ministeriales"
+   },
+   {
+    "fecha": "1991-11-04",
+    "que": "art. 88, semestre blanco"
+   },
+   {
+    "fecha": "1992-03-06",
+    "que": "art. 79, amnistía e indulto"
+   },
+   {
+    "fecha": "1993-10-29",
+    "que": "art. 68, inmunidad parlamentaria"
+   },
+   {
+    "fecha": "1999-11-22",
+    "que": "arts. 121-126, elección directa de presidentes regionales"
+   },
+   {
+    "fecha": "1999-11-23",
+    "que": "art. 111, juicio justo"
+   },
+   {
+    "fecha": "2000-01-17",
+    "que": "art. 48, circunscripción Exterior"
+   },
+   {
+    "fecha": "2001-01-23",
+    "que": "arts. 56 y 57, parlamentarios de italianos en el extranjero"
+   },
+   {
+    "fecha": "2001-10-18",
+    "que": "reforma del Título V (regiones y autonomías)"
+   },
+   {
+    "fecha": "2003-05-30",
+    "que": "art. 51, igualdad de oportunidades hombre-mujer"
+   },
+   {
+    "fecha": "2007-10-02",
+    "que": "art. 27, abolición de la pena de muerte"
+   },
+   {
+    "fecha": "2012-04-20",
+    "que": "arts. 81, 97, 117 y 119, equilibrio presupuestario"
+   },
+   {
+    "fecha": "2020-10-19",
+    "que": "arts. 56, 57 y 59, reducción de parlamentarios"
+   },
+   {
+    "fecha": "2021-10-18",
+    "que": "art. 58, voto al Senado a los 18 años"
+   },
+   {
+    "fecha": "2022-02-11",
+    "que": "arts. 9 y 41, protección del medio ambiente"
+   },
+   {
+    "fecha": "2022-11-07",
+    "que": "art. 119, insularidad"
+   },
+   {
+    "fecha": "2023-09-26",
+    "que": "art. 33, deporte"
+   }
+  ],
+  "fuente": {
+   "nombre": "Camera dei deputati, Piattaforma didattica sulla Costituzione – Leggi costituzionali (leggi di revisione)",
+   "url": "https://piattaformacostituzione.camera.it/4?scheda_contenuto=2"
+  },
+  "nota": "Solo leyes de revisión que modifican el texto (20). Excluye estatutos especiales y otras leggi costituzionali. Fecha = fecha de la ley. La reforma Nordio (GU 30-10-2025) fue rechazada en referéndum 22-23/03/2026 y no está en vigor."
+ },
+ "Portugal": {
+  "desde": 1976,
+  "reformas": [
+   {
+    "fecha": "1982-09-30",
+    "que": "1ª revisión: fin del Consejo de la Revolución, Tribunal Constitucional"
+   },
+   {
+    "fecha": "1989-07-08",
+    "que": "2ª revisión: económica, fin de la irreversibilidad de nacionalizaciones"
+   },
+   {
+    "fecha": "1992-11-25",
+    "que": "3ª revisión: Tratado de Maastricht"
+   },
+   {
+    "fecha": "1997-09-20",
+    "que": "4ª revisión: Tratado de Ámsterdam, ampliación"
+   },
+   {
+    "fecha": "2001-12-12",
+    "que": "5ª revisión: Corte Penal Internacional"
+   },
+   {
+    "fecha": "2004-07-24",
+    "que": "6ª revisión: autonomía regional"
+   },
+   {
+    "fecha": "2005-08-12",
+    "que": "7ª revisión: referéndum sobre tratados europeos"
+   }
+  ],
+  "fuente": {
+   "nombre": "Assembleia da República, «Revisões constitucionais» (años) + Diário da República/vLex/NATLEX (fecha de cada Lei Constitucional)",
+   "url": "https://www.parlamento.pt/RevisoesConstitucionais/Paginas/default.aspx"
+  },
+  "nota": "Fecha = fecha de la Lei Constitucional 1/82, 1/89, 1/92, 1/97, 1/2001, 1/2004, 1/2005. Sin revisiones posteriores a 2005 a nov-2026 (proceso de 2026 en fase inicial)."
+ },
+ "Estados Unidos": {
+  "desde": 1789,
+  "reformas": [
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda I, religión, expresión, prensa (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda II, portar armas (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda III, alojamiento de tropas (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda IV, registros (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda V, debido proceso (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda VI, juicio penal (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda VII, jurado civil (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda VIII, penas crueles (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda IX, derechos no enumerados (Carta de Derechos)"
+   },
+   {
+    "fecha": "1791-12-15",
+    "que": "enmienda X, poderes reservados (Carta de Derechos)"
+   },
+   {
+    "fecha": "1795-02-07",
+    "que": "enmienda XI, demandas contra estados"
+   },
+   {
+    "fecha": "1804-06-15",
+    "que": "enmienda XII, elección Presidente/Vicepresidente"
+   },
+   {
+    "fecha": "1865-12-06",
+    "que": "enmienda XIII, abolición de la esclavitud"
+   },
+   {
+    "fecha": "1868-07-09",
+    "que": "enmienda XIV, ciudadanía e igual protección"
+   },
+   {
+    "fecha": "1870-02-03",
+    "que": "enmienda XV, voto sin distinción de raza"
+   },
+   {
+    "fecha": "1913-02-03",
+    "que": "enmienda XVI, impuesto sobre la renta"
+   },
+   {
+    "fecha": "1913-04-08",
+    "que": "enmienda XVII, elección directa de senadores"
+   },
+   {
+    "fecha": "1919-01-16",
+    "que": "enmienda XVIII, ley seca"
+   },
+   {
+    "fecha": "1920-08-18",
+    "que": "enmienda XIX, voto femenino"
+   },
+   {
+    "fecha": "1933-01-23",
+    "que": "enmienda XX, inicio de mandatos"
+   },
+   {
+    "fecha": "1933-12-05",
+    "que": "enmienda XXI, derogación de la ley seca"
+   },
+   {
+    "fecha": "1951-02-27",
+    "que": "enmienda XXII, límite de dos mandatos presidenciales"
+   },
+   {
+    "fecha": "1961-03-29",
+    "que": "enmienda XXIII, electores del Distrito de Columbia"
+   },
+   {
+    "fecha": "1964-01-23",
+    "que": "enmienda XXIV, prohibición del impuesto electoral"
+   },
+   {
+    "fecha": "1967-02-10",
+    "que": "enmienda XXV, sucesión e incapacidad presidencial"
+   },
+   {
+    "fecha": "1971-07-01",
+    "que": "enmienda XXVI, voto a los 18 años"
+   },
+   {
+    "fecha": "1992-05-07",
+    "que": "enmienda XXVII, salario de congresistas"
+   }
+  ],
+  "fuente": {
+   "nombre": "National Archives (archives.gov), Constitution Amendments 11-27 y Bill of Rights",
+   "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+  },
+  "nota": "Fecha = ratificación. Las enmiendas I-X (Carta de Derechos) se ratificaron juntas el 15-12-1791; aquí cuentan como 10."
+ }
+}

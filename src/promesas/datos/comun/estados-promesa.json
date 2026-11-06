@@ -1,0 +1,32 @@
+{
+  "c": {
+    "cls": "ok",
+    "ic": "✓",
+    "lab": "Cumplida",
+    "bar": "var(--ok)"
+  },
+  "p": {
+    "cls": "half",
+    "ic": "◐",
+    "lab": "A medias",
+    "bar": "var(--half-bar)"
+  },
+  "n": {
+    "cls": "sent",
+    "ic": "↻",
+    "lab": "Presentada, no aprobada",
+    "bar": "var(--sent-bar)"
+  },
+  "i": {
+    "cls": "ko",
+    "ic": "✕",
+    "lab": "Incumplida",
+    "bar": "var(--ko)"
+  },
+  "e": {
+    "cls": "wip",
+    "ic": "…",
+    "lab": "En curso",
+    "bar": "var(--wip-bar)"
+  }
+}

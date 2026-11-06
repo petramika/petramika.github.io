@@ -1,0 +1,206 @@
+{
+  "paroEspanoles": {
+    "2002": 11.2,
+    "2003": 11.1,
+    "2004": 10.7,
+    "2005": 8.9,
+    "2006": 8.0,
+    "2007": 7.6,
+    "2008": 10.2,
+    "2009": 16.0,
+    "2010": 18.1,
+    "2011": 19.5,
+    "2012": 23.0,
+    "2013": 24.4,
+    "2014": 23.0,
+    "2015": 20.9,
+    "2016": 18.7,
+    "2017": 16.3,
+    "2018": 14.3,
+    "2019": 13.2,
+    "2020": 14.1,
+    "2021": 13.6,
+    "2022": 12.0,
+    "2023": 11.2,
+    "2024": 10.3,
+    "2025": 9.5,
+    "2026": 9.3
+  },
+  "paroExtranjeros": {
+    "2002": 14.4,
+    "2003": 15.6,
+    "2004": 13.6,
+    "2005": 11.4,
+    "2006": 11.8,
+    "2007": 12.2,
+    "2008": 17.4,
+    "2009": 28.2,
+    "2010": 29.9,
+    "2011": 32.6,
+    "2012": 35.9,
+    "2013": 37.0,
+    "2014": 34.5,
+    "2015": 30.5,
+    "2016": 26.6,
+    "2017": 23.8,
+    "2018": 21.9,
+    "2019": 20.1,
+    "2020": 24.6,
+    "2021": 23.1,
+    "2022": 19.4,
+    "2023": 17.7,
+    "2024": 16.7,
+    "2025": 15.4,
+    "2026": 14.5
+  },
+  "empleo25a54": {
+    "espanolaSolo": 82.1,
+    "dobleNacionalidad": 80.8,
+    "extranjera": 70.5,
+    "fuente": "INE EPA medias anuales 2025, tablas 65963 (ocupados por edad) y 65946 (población por edad); cálculo propio ocupados/población 25-54."
+  },
+  "paro2025": {
+    "espanolaSolo": 9.42,
+    "dobleNacionalidad": 11.01,
+    "extranjera": 15.43,
+    "fuente": "INE EPA medias anuales 2025, tablas 65955 (activos) y 65963 (ocupados); cálculo propio 1−ocupados/activos."
+  },
+  "sectores": {
+    "anio": 2025,
+    "fuente": "Seguridad Social (Ministerio de Inclusión, Seguridad Social y Migraciones), afiliados medios anuales 2025 (media de 12 meses). españoles = total afiliados − afiliados extranjeros.",
+    "totales": {
+      "afiliadosTotal": 21635194,
+      "afiliadosExtranjeros": 3027014,
+      "afiliadosEspanoles": 18608181,
+      "pctExtranjeros": 14.0
+    },
+    "filas": [
+      {
+        "sector": "Hostelería",
+        "espanolesPct": 7.2,
+        "extranjerosPct": 17.4,
+        "pctExtranjerosEnSector": 28.2,
+        "afiliadosTotal": 1869596,
+        "afiliadosExtranjeros": 526686
+      },
+      {
+        "sector": "Agricultura, ganadería y pesca",
+        "espanolesPct": 3.9,
+        "extranjerosPct": 9.0,
+        "pctExtranjerosEnSector": 27.3,
+        "afiliadosTotal": 997573,
+        "afiliadosExtranjeros": 271939,
+        "nota": "Sección A (RG+RETA) + Sistema Especial Agrario. Excluye Régimen del Mar."
+      },
+      {
+        "sector": "Construcción",
+        "espanolesPct": 6.2,
+        "extranjerosPct": 10.0,
+        "pctExtranjerosEnSector": 20.7,
+        "afiliadosTotal": 1453517,
+        "afiliadosExtranjeros": 301313
+      },
+      {
+        "sector": "Empleo doméstico (hogares)",
+        "espanolesPct": 1.3,
+        "extranjerosPct": 4.9,
+        "pctExtranjerosEnSector": 39.1,
+        "afiliadosTotal": 382550,
+        "afiliadosExtranjeros": 149443,
+        "nota": "Sección T + Sistema Especial de Empleados de Hogar."
+      },
+      {
+        "sector": "Actividades administrativas y servicios auxiliares (limpieza, seguridad, ETT…)",
+        "espanolesPct": 7.2,
+        "extranjerosPct": 9.3,
+        "pctExtranjerosEnSector": 17.4,
+        "afiliadosTotal": 1626397,
+        "afiliadosExtranjeros": 282615
+      },
+      {
+        "sector": "Transporte y almacenamiento",
+        "espanolesPct": 5.1,
+        "extranjerosPct": 6.3,
+        "pctExtranjerosEnSector": 16.8,
+        "afiliadosTotal": 1138407,
+        "afiliadosExtranjeros": 191132
+      },
+      {
+        "sector": "Comercio",
+        "espanolesPct": 15.8,
+        "extranjerosPct": 14.1,
+        "pctExtranjerosEnSector": 12.7,
+        "afiliadosTotal": 3376314,
+        "afiliadosExtranjeros": 428204
+      },
+      {
+        "sector": "Industria (B-E)",
+        "espanolesPct": 11.9,
+        "extranjerosPct": 7.5,
+        "pctExtranjerosEnSector": 9.3,
+        "afiliadosTotal": 2441474,
+        "afiliadosExtranjeros": 227362
+      },
+      {
+        "sector": "Sanidad y servicios sociales (incl. residencias)",
+        "espanolesPct": 10.6,
+        "extranjerosPct": 4.3,
+        "pctExtranjerosEnSector": 6.2,
+        "afiliadosTotal": 2104869,
+        "afiliadosExtranjeros": 131524,
+        "nota": "No separable sanidad vs. cuidados con datos de afiliación extranjera por sección."
+      },
+      {
+        "sector": "Educación",
+        "espanolesPct": 6.9,
+        "extranjerosPct": 2.5,
+        "pctExtranjerosEnSector": 5.5,
+        "afiliadosTotal": 1367754,
+        "afiliadosExtranjeros": 75347
+      },
+      {
+        "sector": "Administración pública y defensa",
+        "espanolesPct": 6.3,
+        "extranjerosPct": 0.5,
+        "pctExtranjerosEnSector": 1.3,
+        "afiliadosTotal": 1190719,
+        "afiliadosExtranjeros": 16047
+      },
+      {
+        "sector": "Actividades financieras y seguros",
+        "espanolesPct": 2.0,
+        "extranjerosPct": 0.7,
+        "pctExtranjerosEnSector": 5.6,
+        "afiliadosTotal": 393145,
+        "afiliadosExtranjeros": 21857
+      }
+    ],
+    "nota": "% = porcentaje de los afiliados de cada grupo que trabaja en ese sector (columnas no suman 100: solo se muestran sectores seleccionados). pctExtranjerosEnSector = peso de extranjeros sobre total del sector. Denominador: todos los regímenes (incluye Mar y Carbón, que no se reparten por sección)."
+  },
+  "ocupacionesEPA": [
+    {
+      "ocupacion": "Directores y gerentes",
+      "espanolesPct": 4.5,
+      "dobleNacionalidadPct": 3.2,
+      "extranjerosPct": 3.2
+    },
+    {
+      "ocupacion": "Técnicos y profesionales científicos e intelectuales",
+      "espanolesPct": 22.9,
+      "dobleNacionalidadPct": 12.7,
+      "extranjerosPct": 9.9
+    },
+    {
+      "ocupacion": "Trabajadores de los servicios de restauración, personales, protección y vendedores",
+      "espanolesPct": 19.7,
+      "dobleNacionalidadPct": 28.2,
+      "extranjerosPct": 25.1
+    },
+    {
+      "ocupacion": "Ocupaciones elementales",
+      "espanolesPct": 8.6,
+      "dobleNacionalidadPct": 20.3,
+      "extranjerosPct": 26.4
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "gobierno-en-minoria": {
+    "t": "Gobierno en minoría",
+    "d": "El partido que gobierna no tiene la mitad de los diputados (176). Para aprobar cada ley tiene que convencer a otros partidos de que le voten."
+  },
+  "cortes-disueltas": {
+    "t": "Disolución de las Cortes",
+    "d": "El presidente del Gobierno cierra el Congreso y el Senado antes de tiempo y convoca elecciones, que se celebran unos 54 días después. Hasta entonces solo queda un pequeño grupo de diputados para lo urgente."
+  },
+  "cuestion-de-confianza": {
+    "t": "Cuestión de confianza",
+    "d": "El presidente del Gobierno pide al Congreso que vote si le sigue apoyando. Si pierde la votación, tiene que dimitir."
+  },
+  "irpf-maximo": {
+    "t": "IRPF máximo",
+    "d": "El impuesto sobre la renta sube por escalones: cuanto más se gana, más se paga por cada euro de más. El máximo es el del escalón más alto: con un 47 %, 47 céntimos de cada euro extra."
+  },
+  "cgpj": {
+    "t": "CGPJ (Consejo General del Poder Judicial)",
+    "d": "El órgano que gobierna a los jueces. Entre otras cosas, recoge y publica las cifras de lo que pasa en los juzgados."
+  },
+  "autoconsumo": {
+    "t": "Autoconsumo",
+    "d": "Placas solares que una casa, una comunidad de vecinos o una empresa pone en su tejado para usar su propia electricidad."
+  },
+  "gigavatio": {
+    "t": "Gigavatio (GW)",
+    "d": "Medida de cuánta electricidad pueden dar las centrales a la vez. Un gigavatio son mil millones de vatios: lo que gastan a la vez unos 500.000 hornos de casa encendidos."
+  },
+  "promesas-cumplidas": {
+    "t": "Promesas cumplidas (en esta web)",
+    "d": "De las promesas concretas que se pueden comprobar, qué parte sacó adelante cada Gobierno. Una cumplida cuenta entera; una a medias, la mitad. Las vagas («mejoraremos la sanidad») no entran."
+  },
+  "subida-de-precios": {
+    "t": "Subida de precios",
+    "d": "Cuánto subieron los precios desde unas elecciones hasta las siguientes, según el IPC del INE. «+12 %» quiere decir que lo que costaba 100 € pasó a costar 112 €."
+  },
+  "anios-de-sueldo": {
+    "t": "Años de sueldo para un piso",
+    "d": "Cuántos años de ingresos brutos de un hogar típico harían falta para pagar un piso medio (unos 94 m²) sin gastar en nada más. Lo calcula el Banco de España."
+  },
+  "edad-de-emancipacion": {
+    "t": "Edad de emancipación",
+    "d": "Edad media a la que los jóvenes se van de casa de sus padres, según Eurostat. Solo hay datos desde el año 2000."
+  }
+}

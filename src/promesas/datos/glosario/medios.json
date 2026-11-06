@@ -1,0 +1,22 @@
+{
+  "bulo": {"t": "Bulo", "d": "Noticia falsa que se hace pasar por verdadera y corre de mano en mano, a menudo por WhatsApp o redes. Por ejemplo, un audio que avisa de un peligro que no existe."},
+  "desinformacion": {"t": "Desinformación", "d": "Información falsa o engañosa que se difunde, a veces a propósito, para confundir o para sacar provecho. Un bulo es un ejemplo; una cifra real sacada de contexto, otro."},
+  "verificador": {"t": "Verificador (fact-checking)", "d": "Periodistas que comprueban si lo que circula es verdad y lo publican. Por ejemplo, Maldita.es o Newtral: miran de dónde sale una foto o una cifra y dicen si es falsa."},
+  "audiencia": {"t": "Audiencia", "d": "Cuánta gente ve, escucha o lee un medio. Si 8 de cada 10 personas vieron la tele ayer, la audiencia de la tele ese día es del 80 %."},
+  "egm": {"t": "EGM (Estudio General de Medios)", "d": "La gran encuesta que mide desde 1968 cuánta gente ve la tele, oye la radio, lee periódicos o usa internet en España. La hace AIMC, una asociación del propio sector."},
+  "audiencia-acumulada": {"t": "Audiencia acumulada", "d": "Personas que usaron un medio al menos un rato en un día, aunque fueran cinco minutos. Quien puso la radio solo en el coche ya cuenta."},
+  "infoadex": {"t": "InfoAdex", "d": "Empresa que cada año calcula cuánto dinero se gasta en publicidad en España y en qué medios: tele, radio, periódicos, internet, carteles…"},
+  "medios-controlados": {"t": "Medios controlados", "d": "Los medios en los que InfoAdex puede medir lo que se paga por los anuncios: tele, radio, prensa, internet, cine, carteles. Deja fuera, por ejemplo, el buzoneo o los regalos de empresa."},
+  "eurobarometro": {"t": "Eurobarómetro", "d": "Encuestas que hace la Comisión Europea en todos los países de la UE con las mismas preguntas. Sirven para comparar, por ejemplo, cuánto se fían los españoles y los alemanes de sus medios."},
+  "estado-de-derecho": {"t": "Estado de Derecho", "d": "Que todos, también el Gobierno, cumplan las leyes y que haya jueces y prensa libres para vigilarlo. La Comisión Europea revisa cada año cómo va en cada país."},
+  "administracion-general-del-estado": {"t": "Administración General del Estado", "d": "El Gobierno central y sus ministerios con todas sus oficinas. No incluye comunidades autónomas ni ayuntamientos."},
+  "publicidad-institucional": {"t": "Publicidad institucional", "d": "Anuncios que paga una administración con dinero público para informar a la gente: campañas de tráfico, de vacunación, de la declaración de la renta… Se pagan a los medios que los publican."},
+  "rtve": {"t": "RTVE", "d": "La radio y televisión públicas de España: La 1, La 2, el canal 24 horas, Radio Nacional… Se paga sobre todo con dinero público."},
+  "consejo-de-administracion-rtve": {"t": "Consejo de Administración de RTVE", "d": "El grupo de personas que dirige RTVE y elige a su presidente. Lo votan el Congreso y el Senado, así que depende de qué partidos sumen la mayoría."},
+  "media-pluralism-monitor": {"t": "Media Pluralism Monitor", "d": "Estudio anual de un instituto universitario europeo que mide en cada país el riesgo de que pocos dueños o el poder político controlen los medios. Cuanto más alto el %, más riesgo."},
+  "internauta": {"t": "Internauta", "d": "Persona que usa internet. Las encuestas de noticias por internet solo preguntan a quien lo usa, así que dejan fuera, sobre todo, a parte de las personas mayores."},
+  "algoritmo": {"t": "Algoritmo", "d": "Las reglas automáticas con las que una red social decide qué te enseña y en qué orden. Si te paras en vídeos de un tema, te pondrá más de ese tema."},
+  "meta": {"t": "Meta", "d": "La empresa dueña de Facebook, Instagram y WhatsApp. Lo que decide sobre noticias afecta a la vez a las tres redes."},
+  "chatbot": {"t": "Chatbot", "d": "Programa con el que se habla escribiendo, como si fuera una persona, y que contesta al momento. ChatGPT o Gemini son chatbots."},
+  "ia-generativa": {"t": "IA generativa", "d": "Inteligencia artificial que crea textos, imágenes o audios nuevos a partir de lo que le pides. Por ejemplo, pedir a ChatGPT que resuma una noticia o escriba una carta."}
+}
