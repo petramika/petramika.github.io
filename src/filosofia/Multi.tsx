@@ -1,7 +1,4 @@
-import {useEffect, useRef, useState, type ReactNode} from 'react';
-
-/** Chips que caben en la caja; el resto se resume en «+N» */
-const VISIBLES = 2;
+import {useEffect, useLayoutEffect, useRef, useState, type ReactNode} from 'react';
 
 export type Opcion = {id: string; nombre: string; color?: string; antes?: ReactNode; cuenta?: number; ayuda?: string};
 
@@ -53,27 +50,54 @@ export default function Multi({
   }, [abierto]);
 
   const marcadas = opciones.filter((o) => elegidos.has(o.id));
+
+  // Se ven los chips que caben en la caja; el resto se resume en «+N» (el primero siempre, encogido si hace falta)
+  const fila = useRef<HTMLSpanElement>(null);
+  const [caben, setCaben] = useState(marcadas.length);
+  const clave = marcadas.map((o) => o.id).join();
+  useLayoutEffect(() => {
+    const el = fila.current;
+    if (!el) return;
+    const medir = () => {
+      // Anchos naturales (los que no caben van fuera del flujo, pero se pueden medir igual)
+      let usado = 0;
+      let n = 0;
+      for (const c of [...el.children] as HTMLElement[]) {
+        usado += Math.max(c.offsetWidth, c.scrollWidth) + (n ? 5 : 0);
+        if (n && usado > el.clientWidth + 1) break;
+        n++;
+      }
+      setCaben(n);
+    };
+    medir();
+    const ro = new ResizeObserver(medir);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [clave]);
+  const ocultas = marcadas.slice(caben);
   const punto = (o: Opcion) => (o.antes ? <span className="multi-antes" aria-hidden="true">{o.antes}</span> : o.color ? <i className="multi-punto" style={{background: o.color}} aria-hidden="true" /> : null);
 
   return (
     <div className={`multi${abierto ? ' abierto' : ''}${marcadas.length ? ' con' : ''}${desactivado ? ' desactivado' : ''}`} ref={caja} title={ayuda}>
-      <div className="multi-caja" onClick={(e) => !desactivado && e.target === e.currentTarget && setAbierto((a) => !a)}>
+      <div className="multi-caja" onClick={(e) => !desactivado && (e.target === e.currentTarget || e.target === fila.current) && setAbierto((a) => !a)}>
         <button ref={boton} type="button" className="multi-titulo" aria-haspopup="listbox" aria-expanded={abierto} disabled={desactivado} onClick={() => setAbierto((a) => !a)}>
           {titulo}
           {!marcadas.length && <span className="multi-todos">Todos</span>}
         </button>
-        {marcadas.slice(0, VISIBLES).map((o) => (
-          <span key={o.id} className="multi-chip" style={o.color ? {['--c' as string]: o.color} : undefined}>
+        <span className="multi-fila" ref={fila}>
+        {marcadas.map((o, i) => (
+          <span key={o.id} className={`multi-chip${i >= caben ? ' fuera' : ''}`} style={o.color ? {['--c' as string]: o.color} : undefined} aria-hidden={i >= caben || undefined}>
             {punto(o)}
             <span className="multi-chip-nombre">{o.nombre}</span>
-            <button type="button" disabled={desactivado} onClick={() => alternar(o.id)} aria-label={`Quitar ${o.nombre}`}>
+            <button type="button" disabled={desactivado} tabIndex={i >= caben ? -1 : undefined} onClick={() => alternar(o.id)} aria-label={`Quitar ${o.nombre}`}>
               ×
             </button>
           </span>
         ))}
-        {marcadas.length > VISIBLES && (
-          <button type="button" className="multi-mas" disabled={desactivado} onClick={() => setAbierto(true)} title={marcadas.slice(VISIBLES).map((o) => o.nombre).join(', ')}>
-            +{marcadas.length - VISIBLES}
+        </span>
+        {ocultas.length > 0 && (
+          <button type="button" className="multi-mas" disabled={desactivado} onClick={() => setAbierto(true)} title={ocultas.map((o) => o.nombre).join(', ')}>
+            +{ocultas.length}
           </button>
         )}
         {marcadas.length > 0 && (

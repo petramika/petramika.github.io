@@ -284,7 +284,7 @@ export function pintarSiglo({
 
   const colocadas = apilarV(pills, (p) => Y(p.anio), 26, L);
   const caras = apilarV(filosofos, (f) => Y(f.fl), 46, R, 6);
-  // Lo que duro años (guerras…): una barra sobre el propio eje, solo si su pill se ve
+  // Lo que duro años (guerras…): una barra a la derecha del eje, solo si su pill se ve; tenue salvo que se filtre por su tipo
   const duran: {e: Evento; carril: number}[] = [];
   colocadas.forEach(({t}) => {
     if (t.k !== 'evento' || t.e.hasta == null || t.e.hasta <= t.e.anio + 1) return;
@@ -326,8 +326,8 @@ export function pintarSiglo({
         <button
           key={'d' + e.id}
           type="button"
-          className={`crono-dura${elegido?.id === e.id ? ' on' : ''}`}
-          style={{left: izqW + EJE - 2.5 - carril * 8, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
+          className={`crono-dura${elegido?.id === e.id ? ' on' : ''}${tipos.has(e.tipo) ? ' fuerte' : ''}`}
+          style={{left: izqW + EJE + 6 + carril * 6, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
           onClick={() => setSel(elegido?.id === e.id ? null : {id: e.id})}
           title={`${e.titulo} (${anioTxt(e.anio)} – ${anioTxt(e.hasta!)})`}
           aria-label={e.titulo}

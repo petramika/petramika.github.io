@@ -196,7 +196,7 @@ button { font: inherit; color: inherit; }
   .linea-tramos { grid-template-columns: repeat(2, 1fr); }
   .linea-anios { display: none; }
   .tramo-nombre small { display: none; }
-  .filtros { position: static; margin: 0; }
+  .filtros { position: relative; margin: 0; } /* relative: con su z-index los menus quedan por encima de las tarjetas */
   .pills { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
   .pills::-webkit-scrollbar { display: none; }
   .pill { flex: none; }
@@ -223,7 +223,7 @@ button { font: inherit; color: inherit; }
 
 /* Buscador con sugerencias */
 .buscador {
-  position: relative; flex: 1 1 560px; max-width: 720px; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  position: relative; flex: 1 1 560px; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
   background: var(--papel2); border: 1.5px solid var(--raya); border-radius: 22px; padding: 4px 6px 4px 8px; cursor: text;
 }
 .buscador:focus-within { border-color: var(--suave); }
@@ -324,13 +324,14 @@ button { font: inherit; color: inherit; }
 .siglo-der { position: relative; min-width: 0; }
 .con-historia .siglo-nombre { position: relative; }
 .crono-eje-marcas { position: absolute; inset: 0; pointer-events: none; }
-.crono-marca { position: absolute; left: 20px; transform: translateY(-50%); font: 10.5px var(--f-mono); font-style: normal; font-weight: 400; color: color-mix(in srgb, var(--suave) 75%, transparent); white-space: nowrap; }
+.crono-marca { position: absolute; left: 44px; transform: translateY(-50%); font: 10.5px var(--f-mono); font-style: normal; font-weight: 400; color: color-mix(in srgb, var(--suave) 75%, transparent); white-space: nowrap; }
 .crono-marca::before { content: ''; position: absolute; left: -12px; top: 50%; width: 8px; height: 1px; background: var(--suave); opacity: .5; }
 .crono-punto { position: absolute; left: 8px; width: 9px; height: 9px; transform: translate(-50%, -50%); border-radius: 50%; box-shadow: 0 0 0 2.5px var(--papel); z-index: 2; }
 .crono-punto.fil { width: 6px; height: 6px; background: var(--suave); }
 .crono-rayas { position: absolute; top: 0; left: 0; pointer-events: none; overflow: visible; }
-.crono-dura { position: absolute; z-index: 1; width: 5px; border-radius: 3px; border: 0; padding: 0; appearance: none; cursor: pointer; background: var(--c); opacity: .55; transition: opacity .15s, box-shadow .15s; }
-.crono-dura:hover, .crono-dura.on { opacity: 1; box-shadow: 0 0 0 2px var(--papel), 0 0 0 3.5px var(--c); }
+.crono-dura { position: absolute; z-index: 1; width: 4px; border-radius: 2px; border: 0; padding: 0; appearance: none; cursor: pointer; background: color-mix(in srgb, var(--c) 22%, transparent); transition: background .15s, box-shadow .15s; }
+.crono-dura.fuerte { background: var(--c); }
+.crono-dura:hover, .crono-dura.on { background: var(--c); box-shadow: 0 0 0 2px var(--papel), 0 0 0 3.5px var(--c); }
 
 /* Periodos: bandas verticales */
 .crono-banda { position: absolute; appearance: none; border: 0; padding: 0; cursor: pointer; overflow: hidden; background: color-mix(in srgb, var(--suave) 16%, var(--papel)); transition: background .15s; }
@@ -429,8 +430,17 @@ button { font: inherit; color: inherit; }
 .multi.desactivado .multi-caja:hover { border-color: var(--raya); }
 
 /* La caja no crece sin fin: dos chips y el resto en «+N» */
-.multi-caja { max-width: 340px; flex-wrap: nowrap; }
-.multi-chip { min-width: 0; max-width: 130px; white-space: nowrap; flex: 0 1 auto; }
+.multi-caja { flex-wrap: nowrap; width: 100%; box-sizing: border-box; }
+/* Toda la fila: una rejilla que llena el ancho, cajas iguales; dentro, los chips que quepan y «+N» */
+.multis { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr) minmax(0, 1.2fr) minmax(0, .85fr) minmax(0, 1.6fr); gap: 8px 10px; }
+.multis-historia > .multi { flex: 1 1 0; min-width: 0; }
+.multi { min-width: 0; }
+.multi-fila { position: relative; flex: 1 1 0; min-width: 0; display: flex; gap: 5px; overflow: hidden; }
+.multi-fila .multi-chip { flex: none; }
+.multi-fila .multi-chip:first-child { flex: 0 1 auto; }
+.multi-chip.fuera { position: absolute; visibility: hidden; }
+@media (max-width: 1000px) { .multis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .multis-historia { grid-column: 1 / -1; } .multi-chip > button { display: none; } .multi-chip { padding-right: 9px; } }
+.multi-chip { min-width: 0; max-width: 160px; white-space: nowrap; }
 .multi-chip > button { flex: none; }
 .multi-chip { overflow: hidden; }
 .multi-titulo { flex: none; }
@@ -454,3 +464,8 @@ button { font: inherit; color: inherit; }
 .toggle-texto input:focus-visible + .toggle-pista { outline: 2px solid var(--tinta); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .toggle-pista, .toggle-bola { transition: none; } }
 .multi-chip-nombre { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+/* Con algo elegido, el titulo sube al borde (como una etiqueta) y deja todo el sitio a los chips */
+.multi-caja { position: relative; }
+.multi.con .multi-titulo { position: absolute; top: -8px; left: 10px; padding: 0 5px; font-size: 9.5px; line-height: 14px; background: var(--papel); border-radius: 4px; z-index: 1; }
+.multi.con .multi-caja { padding-left: 6px; }
+.multi-fila .multi-chip:first-child { min-width: 70px; }
