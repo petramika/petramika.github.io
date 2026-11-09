@@ -207,21 +207,20 @@ export default function App() {
             Filosofía <em>comprimida</em>
           </h1>
           <p className="entradilla">
-            2.600 años de ideas en una línea del tiempo: {TODOS.length} pensadores, por qué son famosos y dónde leerlos. Sin tecnicismos: las
-            palabras raras, como <Texto>{'[[metafísica|metafisica]] o [[a priori|a-priori]]'}</Texto>, tienen fondo gris. Pasa el ratón por
-            encima, o tócalas, y te las explico.
+            2.600 años de ideas en{' '}
+            <button type="button" className="abrir-historia en-texto" onClick={() => setHistoria(true)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="M15.5 15.5 21 21M8 10.5h5M10.5 8v5" />
+              </svg>
+              una línea del tiempo
+            </button>
+            . {TODOS.length} pensadores: qué plantearon y dónde saber más de cada uno. Sin tecnicismos: las palabras raras, como{' '}
+            <Texto>{'[[metafísica|metafisica]] o [[a priori|a-priori]]'}</Texto>, tienen fondo gris. Pasa el ratón por encima, o tócalas, y te
+            las explico.
           </p>
         </header>
 
-        <div className="linea-cabeza">
-          <button type="button" className="abrir-historia" onClick={() => setHistoria(true)}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
-              <circle cx="10.5" cy="10.5" r="6.5" />
-              <path d="M15.5 15.5 21 21M8 10.5h5M10.5 8v5" />
-            </svg>
-            La historia con lupa
-          </button>
-        </div>
         <Linea todos={TODOS} visibles={ids} era={era} elegirEra={setEra} abrir={abrir} />
 
         <div className="filtros" ref={filtrosRef}>

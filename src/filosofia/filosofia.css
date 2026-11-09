@@ -443,3 +443,7 @@ button { font: inherit; color: inherit; }
 .linea-tip.izq::after { left: 22px; }
 .linea-tip.der { transform: translate(calc(-100% + 22px), calc(-100% - 10px)); }
 .linea-tip.der::after { left: auto; right: 17px; transform: rotate(45deg); }
+
+/* La pill de la linea del tiempo dentro de la entradilla */
+.abrir-historia.en-texto { font: inherit; font-size: .92em; color: var(--tinta); padding: 1px 13px 2px 9px; gap: 6px; vertical-align: baseline; position: relative; top: -1px; }
+.abrir-historia.en-texto svg { width: 16px; height: 16px; }
