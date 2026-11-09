@@ -1,0 +1,2182 @@
+[
+  {
+    "id": "catharine-trotter-cockburn",
+    "nombre": "Catharine Trotter Cockburn",
+    "fechas": "1679 – 1749",
+    "region": "Inglaterra y Escocia",
+    "escuela": "Empirismo (defensora de Locke)",
+    "categorias": [
+      "conocimiento",
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Salir en defensa de Locke siendo joven, con un libro sin firmar",
+    "resumen": "Fue una filósofa inglesa que también escribía teatro. En 1702 publicó, sin poner su nombre, una defensa del famoso libro de John Locke contra quienes lo atacaban. Locke quedó tan contento que le mandó regalos y le escribió cartas. Después siguió escribiendo sobre qué nos obliga a ser buenos.",
+    "ideas": [
+      "Defendió a Locke: lo que sabemos viene de la experiencia, y eso no nos lleva a no creer en nada.",
+      "Pensaba que saber qué está bien y qué está mal es algo que podemos descubrir con la [[razón|razon]], igual que un niño descubre que robar duele a otros.",
+      "Creía que el deber moral tiene que ver con cómo está hecho el mundo y con la voluntad de Dios, no solo con lo que nos conviene."
+    ],
+    "curiosidad": "Escribió su primera obra de teatro, «Agnes de Castro», siendo adolescente, y se estrenó en 1695. Se casó en 1708 y apenas publicó durante unos años.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Agnes de Castro",
+        "anio": "1695",
+        "deQueVa": "Una obra de teatro sobre amistad y celos en una corte."
+      },
+      {
+        "titulo": "Defensa del «Ensayo sobre el entendimiento humano» de Locke",
+        "anio": "1702",
+        "deQueVa": "Responde a las críticas contra Locke y defiende que su teoría no es peligrosa."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "christian-wolff",
+    "nombre": "Christian Wolff",
+    "fechas": "1679 – 1754",
+    "region": "Alemania",
+    "escuela": "Racionalismo alemán (wolffismo)",
+    "categorias": [
+      "metafisica",
+      "logica",
+      "conocimiento",
+      "politica"
+    ],
+    "conocidoPor": "Ordenar toda la filosofía en un sistema claro y escribirla en alemán, no en latín",
+    "resumen": "Fue el profesor de filosofía más famoso de Alemania antes de Kant. Tomó ideas de Leibniz y las convirtió en un sistema completo, como un manual donde todo encaja. Escribió en alemán y creó muchas palabras filosóficas que aún se usan. Casi todos los estudiantes alemanes del siglo XVIII aprendieron con sus libros.",
+    "ideas": [
+      "Todo se puede explicar con la [[razón|razon]] si se razona paso a paso, como en una demostración de matemáticas.",
+      "La filosofía debe ordenarse en partes: lógica, estudio de la realidad, moral y política.",
+      "Hacer el bien consiste en buscar la perfección propia y la de los demás, y eso se puede demostrar con razones."
+    ],
+    "curiosidad": "En 1723 el rey de Prusia le ordenó salir de la ciudad de Halle en 48 horas, con amenaza de horca, porque algunos teólogos lo acusaron de negar la libertad. Federico II lo llamó de vuelta en 1740.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pensamientos racionales sobre Dios, el mundo y el alma del hombre",
+        "anio": "1720",
+        "deQueVa": "Su libro de metafísica en alemán, conocido como «Metafísica alemana»."
+      },
+      {
+        "titulo": "Filosofía racional o lógica",
+        "anio": "1728",
+        "deQueVa": "Una introducción a cómo razonar y organizar el saber."
+      },
+      {
+        "titulo": "Derecho natural según el método científico",
+        "anio": "1740",
+        "deQueVa": "Un tratado largo sobre derechos y deberes de las personas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "immanuel-kant"
+    ]
+  },
+  {
+    "id": "joseph-butler",
+    "nombre": "Joseph Butler",
+    "fechas": "1692 – 1752",
+    "region": "Inglaterra",
+    "escuela": "Ética inglesa; teología natural",
+    "categorias": [
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Defender que la [[conciencia]] es la autoridad moral dentro de cada persona",
+    "resumen": "Fue un obispo anglicano inglés. Se hizo famoso por unos sermones sobre la naturaleza humana y por un libro que defiende la religión con argumentos prudentes. Dice que no somos solo egoístas: también nos importa de verdad el bien de los demás. Sigue siendo un clásico de la ética británica.",
+    "ideas": [
+      "Todos tenemos una voz interior que dice «esto está bien, esto está mal», y esa voz debe mandar sobre nuestros deseos.",
+      "Cuidar de uno mismo y cuidar de los demás no son enemigos: ayudar a un amigo también puede hacerte feliz.",
+      "Una religión no necesita pruebas perfectas: si las dificultades de la fe son parecidas a las de la vida normal, es razonable creer."
+    ],
+    "curiosidad": "Se crió en una familia presbiteriana, otra rama del cristianismo, y de joven pasó a la Iglesia anglicana. Acabó de obispo de Durham.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Quince sermones",
+        "anio": "1726",
+        "deQueVa": "Sobre cómo es la naturaleza humana, la conciencia y el amor a los demás."
+      },
+      {
+        "titulo": "Analogía de la religión",
+        "anio": "1736",
+        "deQueVa": "Defiende la religión comparando sus dudas con las de la vida natural."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "henry-home-lord-kames",
+    "nombre": "Lord Kames (Henry Home)",
+    "fechas": "1696 – 1782",
+    "region": "Escocia",
+    "escuela": "Ilustración escocesa",
+    "categorias": [
+      "estetica",
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Juez y pensador escocés que estudió el gusto y cómo cambian las sociedades",
+    "resumen": "Henry Home era juez en Escocia y tenía el título de Lord Kames. Escribió sobre moral, belleza, leyes e historia de la humanidad. Ayudó a jóvenes pensadores como Hume y Adam Smith. Su idea de que las sociedades pasan por etapas, de cazadores a comerciantes, influyó en la historia y la economía.",
+    "ideas": [
+      "El buen gusto se aprende y se puede estudiar: por qué algo nos parece bello se explica por cómo funciona nuestra mente.",
+      "Las sociedades cambian por etapas: primero cazadores, luego pastores, después agricultores y al final gente que comercia.",
+      "Tenemos un [[sentido moral|sentido-moral]] natural que nos dice qué está bien, aunque no sepamos explicarlo."
+    ],
+    "curiosidad": "Defendió que las razas humanas habían tenido orígenes separados. Hoy se sabe que esa idea es falsa y es una mancha en su obra.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayos sobre los principios de la moral y la religión natural",
+        "anio": "1751",
+        "deQueVa": "Sobre libertad, moral y creencias."
+      },
+      {
+        "titulo": "Elementos de crítica",
+        "anio": "1762",
+        "deQueVa": "Explica por qué sentimos belleza y cómo juzgar el arte."
+      },
+      {
+        "titulo": "Bosquejos de la historia del hombre",
+        "anio": "1774",
+        "deQueVa": "Una historia de cómo han cambiado las sociedades."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "adam-smith"
+    ]
+  },
+  {
+    "id": "anton-wilhelm-amo",
+    "nombre": "Anton Wilhelm Amo",
+    "fechas": "c. 1703 – c. 1759",
+    "region": "Ghana y Alemania",
+    "escuela": "Ilustración alemana",
+    "categorias": [
+      "mente",
+      "conocimiento",
+      "metafisica"
+    ],
+    "conocidoPor": "Ser un filósofo africano que enseñó en universidades alemanas del siglo XVIII",
+    "resumen": "Nació en la actual Ghana y siendo niño llegó a Europa. Fue educado en Alemania, estudió en varias universidades y enseñó en Halle, Wittenberg y Jena. Escribió sobre la mente y sobre cómo razonar bien. Su historia muestra que hubo pensadores africanos en la universidad europea mucho antes de lo que se suele contar.",
+    "ideas": [
+      "Defendió que la mente no siente dolor ni placer: lo siente el cuerpo, y la mente solo se da cuenta.",
+      "Pensaba que la mente piensa y el cuerpo siente, y que esto explica cómo las dos cosas se relacionan.",
+      "Escribió que para filosofar bien hay que hacerlo con cuidado y moderación."
+    ],
+    "curiosidad": "En 1729 presentó una tesis sobre los derechos de las personas africanas en Europa. Hoy no se conserva el texto.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre la ausencia de sensación en la mente humana",
+        "anio": "1734",
+        "deQueVa": "Su tesis sobre por qué la mente no siente y el cuerpo sí."
+      },
+      {
+        "titulo": "Tratado sobre el arte de filosofar con sobriedad y exactitud",
+        "anio": "1738",
+        "deQueVa": "Una guía de lógica para pensar con rigor."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "jonathan-edwards",
+    "nombre": "Jonathan Edwards",
+    "fechas": "1703 – 1758",
+    "region": "Colonias británicas de América (hoy EE. UU.)",
+    "escuela": "Teología puritana; Ilustración americana",
+    "categorias": [
+      "religion",
+      "existencia",
+      "mente"
+    ],
+    "conocidoPor": "Un pastor que defendió que somos libres aunque nuestras decisiones tengan causas",
+    "resumen": "Fue pastor y pensador de las colonias británicas en América. Es famoso por un sermón de fuego sobre el castigo divino y por un libro sobre la voluntad. Se tomó muy en serio la ciencia de su época. Su pregunta sigue viva: si todo tiene una causa, ¿somos libres? Es el viejo debate sobre el [[determinismo]].",
+    "ideas": [
+      "Elegimos siempre lo que más nos atrae en ese momento, y eso sigue siendo elegir libremente porque hacemos lo que queremos.",
+      "La religión de verdad no es solo ideas: se ve en lo que sentimos y en cómo vivimos.",
+      "Para él, ser bueno es amar todo lo que existe, no solo a los tuyos."
+    ],
+    "curiosidad": "Murió en 1758 poco después de ser nombrado presidente de lo que hoy es la Universidad de Princeton. Se había puesto una vacuna contra la viruela y enfermó.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pecadores en las manos de un Dios airado",
+        "anio": "1741",
+        "deQueVa": "Sermón famoso que describe el castigo divino con imágenes muy fuertes."
+      },
+      {
+        "titulo": "Afectos religiosos",
+        "anio": "1746",
+        "deQueVa": "Sobre cómo saber si una fe es auténtica."
+      },
+      {
+        "titulo": "La libertad de la voluntad",
+        "anio": "1754",
+        "deQueVa": "Sobre cómo se puede ser libre y tener motivos que nos mueven."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "david-hartley",
+    "nombre": "David Hartley",
+    "fechas": "1705 – 1757",
+    "region": "Inglaterra",
+    "escuela": "Empirismo; asociacionismo",
+    "categorias": [
+      "mente",
+      "ciencia"
+    ],
+    "conocidoPor": "Explicar la mente como una red de ideas que se enlazan por la costumbre",
+    "resumen": "Fue un médico inglés que quiso explicar la mente como se explica un reloj. Dijo que pensamos, recordamos y sentimos porque las ideas se pegan unas a otras por la experiencia. Así creó la idea de la «[[asociación de ideas|asociacion-de-ideas]]», una base de la psicología. También buscó cómo se movía el cerebro cuando pensábamos.",
+    "ideas": [
+      "Si dos cosas suceden juntas muchas veces, se pegan en la cabeza: oír la canción te recuerda aquel verano.",
+      "Pensó que las ideas se relacionan con pequeños temblores en los nervios y el cerebro.",
+      "Las ideas simples se juntan para formar ideas más complejas, igual que las letras forman palabras."
+    ],
+    "curiosidad": "Samuel Taylor Coleridge admiraba tanto a Hartley que llamó David Hartley a su primer hijo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Observaciones sobre el hombre: su estructura, su deber y sus expectativas",
+        "anio": "1749",
+        "deQueVa": "Su libro principal: cómo funcionan el cuerpo y la mente."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "joseph-priestley",
+      "samuel-taylor-coleridge"
+    ]
+  },
+  {
+    "id": "julien-offray-de-la-mettrie",
+    "nombre": "Julien Offray de La Mettrie",
+    "fechas": "1709 – 1751",
+    "region": "Francia",
+    "escuela": "Materialismo ilustrado",
+    "categorias": [
+      "mente",
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Escribir «El hombre máquina»: el ser humano funciona como una máquina",
+    "resumen": "Fue un médico francés que sostuvo que el ser humano es un cuerpo que funciona como una máquina. Dijo que la mente depende del cuerpo: una enfermedad, una copa de vino o el hambre cambian cómo pensamos. Sus libros fueron tan polémicos que tuvo que huir de Francia y de Holanda. Murió en la corte de Federico II de Prusia.",
+    "ideas": [
+      "El pensamiento depende del cuerpo: con fiebre, con sueño o con hambre pensamos distinto.",
+      "Los animales y las personas se diferencian en grado, no por tener o no tener un alma aparte.",
+      "Si el [[materialismo]] es cierto, se puede ser feliz y bueno sin miedo a un castigo divino."
+    ],
+    "curiosidad": "Su libro «El hombre máquina» se publicó en Leiden en 1747 y causó tal escándalo que fue condenado y quemado.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Historia natural del alma",
+        "anio": "1745",
+        "deQueVa": "Defiende que lo que llamamos alma depende del cuerpo."
+      },
+      {
+        "titulo": "El hombre máquina",
+        "anio": "1747",
+        "deQueVa": "Explica a las personas como un mecanismo muy complejo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "claude-adrien-helvetius",
+    "nombre": "Claude-Adrien Helvétius",
+    "fechas": "1715 – 1771",
+    "region": "Francia",
+    "escuela": "Ilustración francesa; sensualismo",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "mente"
+    ],
+    "conocidoPor": "Decir que somos lo que nos hace la educación y que buscamos nuestro interés",
+    "resumen": "Fue un rico recaudador de impuestos francés que dedicó su fortuna a escribir y ayudar a pensadores. Creía que casi todas las diferencias entre las personas vienen de la educación y de las circunstancias. Su libro «Del espíritu» fue condenado y quemado públicamente. Influyó en el [[utilitarismo]], la idea de que lo bueno es lo que da más felicidad.",
+    "ideas": [
+      "Casi nadie nace tonto o listo: lo que cambia es la educación que recibe.",
+      "Todos buscamos nuestro interés y lo bueno es lo que da más felicidad a la sociedad.",
+      "Las leyes y la enseñanza deberían hacer que lo que conviene a cada uno coincida con lo que conviene a todos."
+    ],
+    "curiosidad": "Fue «fermier général», una persona que cobraba impuestos para el rey. Su libro «Del espíritu» fue condenado y quemado en París.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Del espíritu",
+        "anio": "1758",
+        "deQueVa": "Sobre cómo piensa la gente y por qué actúa por interés."
+      },
+      {
+        "titulo": "Del hombre",
+        "anio": "1772",
+        "deQueVa": "Sobre el poder de la educación, publicado después de su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jeremy-bentham"
+    ]
+  },
+  {
+    "id": "jean-le-rond-d-alembert",
+    "nombre": "Jean Le Rond d'Alembert",
+    "fechas": "1717 – 1783",
+    "region": "Francia",
+    "escuela": "Ilustración francesa",
+    "categorias": [
+      "ciencia",
+      "conocimiento"
+    ],
+    "conocidoPor": "Matemático que dirigió con Diderot la Enciclopedia y escribió su famoso discurso preliminar",
+    "resumen": "Fue un gran matemático y físico francés, figura de la [[Ilustración|ilustracion]]. Junto con Diderot dirigió la «Enciclopedia», un enorme libro que reunía todo el saber de la época. Su introducción explica cómo se ordena el conocimiento y por qué merece la pena. Defendía que la ciencia debe ser humilde: llegar hasta donde llegan los hechos.",
+    "ideas": [
+      "Todo nuestro conocimiento empieza por los sentidos y la experiencia.",
+      "El saber humano se puede ordenar como un árbol: hay ramas distintas, pero un tronco común.",
+      "La ciencia debe ser humilde: explicar lo que podemos comprobar y reconocer lo que no sabemos."
+    ],
+    "curiosidad": "Lo abandonaron de recién nacido en los escalones de la iglesia de Saint-Jean-le-Rond, en París. De ahí viene su nombre.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Tratado de dinámica",
+        "anio": "1743",
+        "deQueVa": "Su gran libro de física sobre el movimiento de los cuerpos."
+      },
+      {
+        "titulo": "Discurso preliminar de la Enciclopedia",
+        "anio": "1751",
+        "deQueVa": "Explica cómo se ordena el saber humano y para qué sirve la Enciclopedia."
+      },
+      {
+        "titulo": "Ensayo sobre los elementos de filosofía",
+        "anio": "1759",
+        "deQueVa": "Resume los principios del conocimiento humano."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "im-yunjidang",
+    "nombre": "Im Yunjidang",
+    "fechas": "1721 – 1793",
+    "region": "Corea",
+    "escuela": "Neoconfucianismo coreano",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "metafisica"
+    ],
+    "conocidoPor": "Defender que las mujeres también pueden llegar a ser sabias y virtuosas",
+    "resumen": "Fue una pensadora coreana del [[neoconfucianismo]], en la época de la dinastía Joseon. Estudió los clásicos confucianos y escribió ensayos, cartas y poemas, algo muy raro para una mujer de su tiempo. Defendió que hombres y mujeres comparten la misma naturaleza, y que por tanto ellas también pueden aprender y ser sabias. Sus escritos se publicaron después de su muerte.",
+    "ideas": [
+      "Hombres y mujeres tienen la misma naturaleza moral, así que las dos pueden llegar a ser sabias.",
+      "Estudiar los libros clásicos y reflexionar sobre ellos es un camino para mejorar como persona.",
+      "Pensó que la moral se aprende con esfuerzo diario, no solo con ideas bonitas."
+    ],
+    "curiosidad": "Sus textos se reunieron en un libro de obras póstumas. Las mujeres de su época rara vez publicaban con su propio nombre.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Yunjidang yugo (Obras póstumas de Yunjidang)",
+        "anio": "",
+        "deQueVa": "Reúne ensayos, cartas y poemas sobre moral, estudio y vida."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "richard-price",
+    "nombre": "Richard Price",
+    "fechas": "1723 – 1791",
+    "region": "Gales e Inglaterra",
+    "escuela": "Intuicionismo ético; racionalismo moral",
+    "categorias": [
+      "etica",
+      "politica",
+      "ciencia"
+    ],
+    "conocidoPor": "Decir que sabemos qué es justo por la razón, y defender la libertad política",
+    "resumen": "Fue un pastor y pensador galés que vivió en Inglaterra. Dijo que lo bueno y lo malo se conocen con la inteligencia, igual que sabemos que dos más dos son cuatro. Apoyó la independencia de EE. UU. y la Revolución francesa. También trabajó con cálculos de seguros y probabilidades.",
+    "ideas": [
+      "Sabemos que la crueldad es mala de la misma forma que sabemos que dos más dos son cuatro: lo vemos con la razón.",
+      "La libertad es poder gobernarse a uno mismo, y un país libre es el que se gobierna por sí mismo.",
+      "Una persona virtuosa hace lo correcto porque es lo correcto, no por premio o miedo."
+    ],
+    "curiosidad": "Cuando murió su amigo Thomas Bayes, Price publicó en 1763 su trabajo sobre probabilidad. Hoy ese trabajo es la base del «[[teorema de Bayes|teorema-de-bayes]]».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Revisión de las principales cuestiones de la moral",
+        "anio": "1758",
+        "deQueVa": "Defiende que lo bueno y lo malo se conocen con la razón."
+      },
+      {
+        "titulo": "Observaciones sobre la naturaleza de la libertad civil",
+        "anio": "1776",
+        "deQueVa": "Sobre libertad, gobierno y la guerra con las colonias americanas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "adam-ferguson",
+    "nombre": "Adam Ferguson",
+    "fechas": "1723 – 1816",
+    "region": "Escocia",
+    "escuela": "Ilustración escocesa",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Ver la sociedad como algo que crece solo, sin que nadie lo haya diseñado",
+    "resumen": "Fue un pensador escocés que fue capellán de un regimiento de soldados y luego profesor en Edimburgo. Se le considera uno de los padres de la [[sociología|sociologia]]. Dijo que las sociedades son fruto de lo que hace la gente, no de un plan de nadie. Avisó de que una sociedad muy dedicada al dinero puede quedarse sin ciudadanos que se preocupen por lo común.",
+    "ideas": [
+      "Las instituciones, como el idioma o el mercado, nacen de lo que hace mucha gente, aunque nadie las planeara.",
+      "Los seres humanos somos sociales por naturaleza: no existimos antes de la sociedad.",
+      "Si todos solo se ocupan de su trabajo y su dinero, se olvidan de participar en lo común, y eso puede acabar mal."
+    ],
+    "curiosidad": "Hablaba gaélico y fue capellán del regimiento escocés Black Watch, el 42.º de infantería.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre la historia de la sociedad civil",
+        "anio": "1767",
+        "deQueVa": "Cómo se forman y cambian las sociedades, y qué peligros tienen."
+      },
+      {
+        "titulo": "Principios de ciencia moral y política",
+        "anio": "1792",
+        "deQueVa": "Un manual de sus ideas sobre moral y política."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "motoori-norinaga",
+    "nombre": "Motoori Norinaga",
+    "fechas": "1730 – 1801",
+    "region": "Japón",
+    "escuela": "Kokugaku (estudios nacionales)",
+    "categorias": [
+      "estetica",
+      "lenguaje",
+      "religion"
+    ],
+    "conocidoPor": "Defender que lo esencial de la literatura es sentir con intensidad: «[[mono no aware|mono-no-aware]]»",
+    "resumen": "Fue un médico japonés que dedicó su vida a estudiar los textos antiguos de Japón. Escribió un enorme comentario del «Kojiki», el libro más antiguo de la historia japonesa. Dijo que la literatura vale por hacernos sentir las cosas, no por darnos lecciones. Sus ideas fueron usadas más tarde por el [[nacionalismo]] japonés, algo que conviene recordar.",
+    "ideas": [
+      "«Mono no aware» es la emoción que sentimos ante la belleza breve de las cosas, como una flor que se cae.",
+      "Una buena historia no sirve para dar lecciones morales: sirve para sentir con quien la vive.",
+      "Los japoneses antiguos expresaban sus sentimientos de forma sincera, antes de las normas llegadas de China."
+    ],
+    "curiosidad": "Se hizo médico en Matsusaka. De noche escribía sobre literatura y trabajó más de treinta años en su comentario del «Kojiki».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Isonokami sasamegoto",
+        "anio": "c. 1763",
+        "deQueVa": "Sobre la poesía japonesa y la expresión de los sentimientos."
+      },
+      {
+        "titulo": "Kojiki-den",
+        "anio": "1798",
+        "deQueVa": "Un enorme comentario sobre el «Kojiki», libro antiguo de mitos e historia de Japón."
+      },
+      {
+        "titulo": "Genji monogatari tama no ogushi",
+        "anio": "1799",
+        "deQueVa": "Comentario sobre «La historia de Genji», novela clásica japonesa."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "johann-georg-hamann",
+    "nombre": "Johann Georg Hamann",
+    "fechas": "1730 – 1788",
+    "region": "Alemania (Prusia)",
+    "escuela": "Crítica de la Ilustración",
+    "categorias": [
+      "lenguaje",
+      "religion",
+      "conocimiento"
+    ],
+    "conocidoPor": "Decir que sin lenguaje no hay razón pura: pensamos con palabras de nuestra época",
+    "resumen": "Fue un pensador de Königsberg, amigo de Kant, al que llamaban «el mago del Norte». Criticó a la [[Ilustración|ilustracion]] por pensar que la razón puede funcionar sola. Para él, pensar siempre se hace con un idioma, con una historia y con fe. Influyó en Herder y en quienes estudian el lenguaje.",
+    "ideas": [
+      "La razón no es pura: siempre piensa con las palabras de un idioma concreto.",
+      "Entendemos el mundo con la experiencia, la fe y la tradición, no solo con razonamientos.",
+      "Un lenguaje es como un tesoro de la gente que lo habla: guarda su forma de ver el mundo."
+    ],
+    "curiosidad": "Sus contemporáneos lo llamaban «el mago del Norte» por su estilo oscuro y lleno de citas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Memorables socráticos",
+        "anio": "1759",
+        "deQueVa": "Un libro de estilo difícil donde defiende la fe y critica la Ilustración."
+      },
+      {
+        "titulo": "Metacrítica sobre el purismo de la razón",
+        "anio": "1784",
+        "deQueVa": "Dice que la razón no puede ser pura porque depende del lenguaje. Se publicó en 1800."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "johann-gottfried-herder"
+    ]
+  },
+  {
+    "id": "catharine-macaulay",
+    "nombre": "Catharine Macaulay",
+    "fechas": "1731 – 1791",
+    "region": "Inglaterra",
+    "escuela": "Republicanismo; pensamiento político radical",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Historiadora que defendió la libertad frente al poder de reyes y la educación igual para chicos y chicas",
+    "resumen": "Fue una historiadora y pensadora inglesa. Escribió una larga historia de Inglaterra desde un punto de vista [[republicano|republicanismo]], es decir, desconfiado del poder de los reyes. También defendió que niñas y niños deben recibir la misma educación. Mary Wollstonecraft la admiraba.",
+    "ideas": [
+      "Nadie debe tener un poder sin control: si un rey o un gobierno manda sin límites, tarde o temprano abusa.",
+      "Las diferencias entre chicos y chicas se deben más a la educación que a la naturaleza.",
+      "Estudiar historia sirve para entender la libertad y defenderla."
+    ],
+    "curiosidad": "En 1778, con 47 años, se casó con William Graham, un joven de 21. Muchos de sus amigos se escandalizaron y perdió prestigio.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Historia de Inglaterra desde la subida al trono de Jacobo I",
+        "anio": "1763–1783",
+        "deQueVa": "Ocho tomos de historia desde un punto de vista republicano."
+      },
+      {
+        "titulo": "Cartas sobre la educación",
+        "anio": "1790",
+        "deQueVa": "Defiende una educación igual para chicas y chicos."
+      },
+      {
+        "titulo": "Observaciones sobre las «Reflexiones» de Burke",
+        "anio": "1790",
+        "deQueVa": "Una respuesta a Burke sobre la Revolución francesa."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "mary-wollstonecraft"
+    ]
+  },
+  {
+    "id": "joseph-priestley",
+    "nombre": "Joseph Priestley",
+    "fechas": "1733 – 1804",
+    "region": "Inglaterra",
+    "escuela": "Materialismo; utilitarismo temprano",
+    "categorias": [
+      "mente",
+      "ciencia",
+      "politica",
+      "religion"
+    ],
+    "conocidoPor": "Químico que descubrió el oxígeno y defendió que el [[alma]] no es algo aparte del cuerpo",
+    "resumen": "Fue pastor, científico y pensador inglés. Descubrió el oxígeno en 1774 y escribió sobre política, religión y educación. Pensaba que el alma no es una cosa separada del cuerpo. Sus ideas políticas y religiosas eran tan polémicas que una multitud le quemó la casa y se tuvo que ir a vivir a EE. UU.",
+    "ideas": [
+      "No hay un [[alma]] separada del cuerpo: pensar es algo que hace el cerebro, y Dios nos resucitará.",
+      "Un buen gobierno es el que da más felicidad al mayor número de personas.",
+      "Todo lo que pasa tiene una causa, incluso nuestras decisiones, y eso no impide mejorar el mundo con ciencia y educación."
+    ],
+    "curiosidad": "En 1791 una multitud destrozó su casa y su laboratorio en Birmingham por sus ideas. En 1794 se fue a vivir a Pensilvania.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre los primeros principios del gobierno",
+        "anio": "1768",
+        "deQueVa": "Sobre libertad y la felicidad como meta del gobierno."
+      },
+      {
+        "titulo": "Investigaciones sobre la materia y el espíritu",
+        "anio": "1777",
+        "deQueVa": "Defiende que la mente depende del cuerpo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "jeremy-bentham"
+    ]
+  },
+  {
+    "id": "friedrich-heinrich-jacobi",
+    "nombre": "Friedrich Heinrich Jacobi",
+    "fechas": "1743 – 1819",
+    "region": "Alemania",
+    "escuela": "Filosofía de la fe; crítica del racionalismo",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "metafisica"
+    ],
+    "conocidoPor": "Avisar de que la razón llevada al extremo acaba negando a Dios y la libertad",
+    "resumen": "Fue un pensador alemán que provocó una gran discusión al decir que el filósofo Spinoza llevaba al [[ateísmo|ateismo]]. Defendía que lo más importante no se demuestra con razones, sino que se capta de forma directa, con la fe. Criticó a Kant y a Fichte. Usó la palabra «[[nihilismo]]» en una carta a Fichte.",
+    "ideas": [
+      "Si pretendemos demostrarlo todo con razones, acabamos negando a Dios, la libertad y casi cualquier cosa.",
+      "Sabemos que existe el mundo y que existimos nosotros por una certeza inmediata, sin necesidad de probarlo.",
+      "La fe es una forma de conocer tan válida como la razón."
+    ],
+    "curiosidad": "Según Jacobi, el escritor Lessing le confesó poco antes de morir que era spinozista. Cuando se supo, estalló una gran polémica en Alemania.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Cartas sobre la doctrina de Spinoza",
+        "anio": "1785",
+        "deQueVa": "Origen de la polémica sobre Spinoza en Alemania."
+      },
+      {
+        "titulo": "David Hume sobre la fe",
+        "anio": "1787",
+        "deQueVa": "Defiende que creemos en la realidad por fe inmediata."
+      },
+      {
+        "titulo": "Carta a Fichte",
+        "anio": "1799",
+        "deQueVa": "Critica el idealismo de Fichte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "salomon-maimon",
+    "nombre": "Salomon Maimon",
+    "fechas": "c. 1754 – 1800",
+    "region": "Lituania y Alemania",
+    "escuela": "Escepticismo; idealismo alemán temprano",
+    "categorias": [
+      "conocimiento",
+      "metafisica"
+    ],
+    "conocidoPor": "Criticar a Kant desde dentro, con tanta agudeza que Kant lo respetó",
+    "resumen": "Nació en una familia judía de Lituania y estudió desde niño el [[Talmud|talmud]] y luego filosofía. Se fue a Berlín. Allí leyó a Kant y le escribió una crítica tan inteligente que Kant dijo que nadie lo había entendido mejor. Su obra ayudó a pasar de Kant al [[idealismo]] alemán.",
+    "ideas": [
+      "Si Kant dice que hay una «[[cosa en sí|cosa-en-si]]» que no podemos conocer, ¿cómo sabemos que existe? Maimon dudaba de ello.",
+      "Dudó de que se pueda explicar cómo las ideas de la mente encajan con lo que percibimos por los sentidos.",
+      "Pensó que el conocimiento se construye con la mente, y que lo que parece venir de fuera tiene también su origen en ella."
+    ],
+    "curiosidad": "Tomó el apellido Maimon en honor a Maimónides, el gran filósofo judío medieval. Escribió una autobiografía muy leída.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre la filosofía trascendental",
+        "anio": "1790",
+        "deQueVa": "Su crítica a Kant, que Kant elogió."
+      },
+      {
+        "titulo": "Historia de la vida de Salomon Maimon",
+        "anio": "1792–1793",
+        "deQueVa": "Su autobiografía, con su infancia judía y su viaje."
+      },
+      {
+        "titulo": "Ensayo de una nueva lógica",
+        "anio": "1794",
+        "deQueVa": "Una nueva forma de entender la lógica."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "johann-gottlieb-fichte"
+    ]
+  },
+  {
+    "id": "william-godwin",
+    "nombre": "William Godwin",
+    "fechas": "1756 – 1836",
+    "region": "Inglaterra",
+    "escuela": "Anarquismo filosófico",
+    "categorias": [
+      "politica",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Defender que, con razón y educación, la gente podría vivir sin gobierno",
+    "resumen": "Fue un escritor y pensador inglés. Dijo que los gobiernos y la propiedad hacen daño porque nos vuelven dependientes y desiguales. Creía que, con buena educación y diálogo, la gente podría convivir sin que nadie mande. Se le considera uno de los primeros pensadores del [[anarquismo]]. También escribió novelas.",
+    "ideas": [
+      "Si cada persona razona con libertad y se le explica bien lo que está bien, no hace falta un gobierno que obligue.",
+      "Las leyes y la propiedad desigual crean injusticia y dependencia.",
+      "Hay que cambiar a la gente con educación y debate, no con violencia."
+    ],
+    "curiosidad": "Se casó con Mary Wollstonecraft en 1797. Ella murió días después de dar a luz a su hija Mary, que escribiría «Frankenstein».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Investigación sobre la justicia política",
+        "anio": "1793",
+        "deQueVa": "Su libro principal: critica el gobierno y la propiedad."
+      },
+      {
+        "titulo": "Las aventuras de Caleb Williams",
+        "anio": "1794",
+        "deQueVa": "Novela sobre un criado perseguido por un amo poderoso."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "friedrich-schiller",
+    "nombre": "Friedrich Schiller",
+    "fechas": "1759 – 1805",
+    "region": "Alemania",
+    "escuela": "Clasicismo de Weimar; estética kantiana",
+    "categorias": [
+      "estetica",
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Defender que el arte y el juego nos hacen libres y plenamente humanos",
+    "resumen": "Fue poeta, dramaturgo y pensador alemán. Escribió obras de teatro famosas y la «Oda a la alegría», que Beethoven usó en su Novena Sinfonía. Tras ver los excesos de la Revolución francesa, pensó que para cambiar la sociedad hay que educar el sentimiento con el arte. Para él, jugar es una de las cosas más serias que hacemos.",
+    "ideas": [
+      "El juego no es una pérdida de tiempo: cuando jugamos usamos a la vez la razón y los sentimientos.",
+      "El arte educa a las personas para ser libres sin necesidad de violencia.",
+      "Una sociedad mejor empieza por personas con sensibilidad y cultura, no solo por leyes."
+    ],
+    "curiosidad": "Su «Oda a la alegría», de 1785, la puso en música Beethoven en el final de su Novena Sinfonía.",
+    "frase": {
+      "texto": "El hombre solo juega cuando es hombre en el pleno sentido de la palabra, y solo es plenamente hombre cuando juega.",
+      "fuente": "Cartas sobre la educación estética del hombre, carta 15 (1795); traducción libre"
+    },
+    "obras": [
+      {
+        "titulo": "Los bandidos",
+        "anio": "1781",
+        "deQueVa": "Su primer gran drama, sobre un joven rebelde contra la injusticia."
+      },
+      {
+        "titulo": "Cartas sobre la educación estética del hombre",
+        "anio": "1795",
+        "deQueVa": "Cómo el arte y el juego nos hacen libres."
+      },
+      {
+        "titulo": "Guillermo Tell",
+        "anio": "1804",
+        "deQueVa": "Drama sobre el héroe suizo que se enfrenta a un tirano."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "chong-yagyong",
+    "nombre": "Jeong Yak-yong (Dasan)",
+    "fechas": "1762 – 1836",
+    "region": "Corea",
+    "escuela": "Silhak (aprendizaje práctico)",
+    "categorias": [
+      "politica",
+      "etica",
+      "ciencia"
+    ],
+    "conocidoPor": "Reformador coreano que pidió gobernar pensando en el pueblo y repartir mejor la tierra",
+    "resumen": "Fue un pensador coreano de la escuela Silhak, que significa «[[aprendizaje práctico|silhak]]». Sirvió al rey y luego pasó muchos años desterrado, donde escribió cientos de libros. Pidió que los gobernantes y funcionarios sirvieran al pueblo y que la tierra estuviera en manos de quien la trabaja. Lo conocen también por su nombre de pluma, Dasan.",
+    "ideas": [
+      "Los funcionarios existen para servir al pueblo y se les debe juzgar por cómo cuidan de la gente.",
+      "La tierra debería ser de quienes la trabajan, no de grandes propietarios que no la cultivan.",
+      "Hay que estudiar los clásicos y usar la ciencia para resolver problemas reales."
+    ],
+    "curiosidad": "Fue desterrado en 1801 y pasó unos 18 años en el exilio. Antes había diseñado una grúa que ayudó a construir la fortaleza de Suwon.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Mongmin simseo (Consejos para gobernar al pueblo)",
+        "anio": "",
+        "deQueVa": "Una guía para que los funcionarios gobiernen bien y con justicia."
+      },
+      {
+        "titulo": "Gyeongse yupyo (Proyecto para un buen gobierno)",
+        "anio": "",
+        "deQueVa": "Un plan de reformas para el Estado."
+      },
+      {
+        "titulo": "Heumheum sinseo (Nuevo libro sobre la justicia penal)",
+        "anio": "",
+        "deQueVa": "Sobre cómo juzgar con justicia y cuidado."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "sophie-de-condorcet",
+    "nombre": "Sophie de Condorcet",
+    "fechas": "1764 – 1822",
+    "region": "Francia",
+    "escuela": "Ilustración francesa; ética de la simpatía",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "mente"
+    ],
+    "conocidoPor": "Pensar que la moral nace de ponernos en el lugar de quien sufre",
+    "resumen": "Fue una pensadora francesa que dirigió un famoso salón en París, donde se reunían intelectuales de la época. Era esposa de Condorcet. Tradujo a Adam Smith al francés y escribió unas cartas sobre la simpatía, es decir, sobre cómo sentimos lo que sienten otros. Para ella, la moral empieza con esa capacidad.",
+    "ideas": [
+      "Sentimos con otros porque nos ponemos en su lugar: ver sufrir a alguien nos duele a nosotros también.",
+      "Esa capacidad de ponerse en el lugar del otro es la base de la moral.",
+      "Las emociones y el cuerpo importan para entender cómo nos relacionamos con los demás."
+    ],
+    "curiosidad": "Su marido, Condorcet, murió en la cárcel en 1794, durante la Revolución. Ella ayudó después a publicar sus obras.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Traducción de la «Teoría de los sentimientos morales» de Adam Smith",
+        "anio": "1798",
+        "deQueVa": "Llevó el libro de Smith al francés."
+      },
+      {
+        "titulo": "Cartas sobre la simpatía",
+        "anio": "1798",
+        "deQueVa": "Su propia reflexión sobre cómo sentimos con los demás."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "maine-de-biran",
+    "nombre": "Maine de Biran",
+    "fechas": "1766 – 1824",
+    "region": "Francia",
+    "escuela": "Espiritualismo francés",
+    "categorias": [
+      "mente",
+      "conocimiento",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que nos conocemos a nosotros mismos al hacer un esfuerzo contra una resistencia",
+    "resumen": "Fue un pensador francés que también fue político. Estudió cómo la costumbre y el esfuerzo forman nuestra mente. Dijo que sabemos que somos alguien, una persona activa, cuando queremos mover algo y notamos que algo se resiste. Con esta idea se opuso a quienes veían la mente como algo pasivo.",
+    "ideas": [
+      "Notamos que somos una persona cuando hacemos un esfuerzo, como empujar una puerta pesada.",
+      "La mente no es una cera blanda que recibe sensaciones: es activa y quiere.",
+      "La costumbre hace que algunas sensaciones se apaguen y que otras acciones se vuelvan automáticas."
+    ],
+    "curiosidad": "Fue guardia de corps del rey Luis XVI y estuvo en Versalles durante los sucesos de octubre de 1789. Mucho de lo que pensó está en su diario íntimo, publicado después de su muerte.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La influencia de la costumbre sobre la facultad de pensar",
+        "anio": "1802",
+        "deQueVa": "Cómo la repetición cambia lo que sentimos y hacemos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "henri-bergson"
+    ]
+  },
+  {
+    "id": "wilhelm-von-humboldt",
+    "nombre": "Wilhelm von Humboldt",
+    "fechas": "1767 – 1835",
+    "region": "Alemania",
+    "escuela": "Humanismo alemán; filosofía del lenguaje",
+    "categorias": [
+      "lenguaje",
+      "sociedad",
+      "politica"
+    ],
+    "conocidoPor": "Decir que cada idioma es una forma de ver el mundo; fundó la universidad moderna alemana",
+    "resumen": "Fue un pensador y político prusiano, hermano mayor del naturalista Alexander von Humboldt. Impulsó la fundación de la Universidad de Berlín, hoy llamada Humboldt. Estudió muchos idiomas y defendió que cada lengua es una forma de ver y entender el mundo. También pensó que el Estado no debe meterse en todo.",
+    "ideas": [
+      "Cada idioma da forma al pensamiento de quien lo habla: lo que puedes decir cambia lo que puedes pensar.",
+      "Un idioma no es un objeto terminado, sino algo que se hace al hablar.",
+      "La educación debe ayudar a cada persona a desarrollarse, y el Estado no debe decidirlo todo."
+    ],
+    "curiosidad": "Fue ministro de educación de Prusia en 1809–1810. Las universidades alemanas siguieron su idea de unir enseñanza e investigación.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ideas para un intento de determinar los límites de la acción del Estado",
+        "anio": "1792",
+        "deQueVa": "Defiende un Estado limitado, que deje espacio a la libertad."
+      },
+      {
+        "titulo": "Sobre la diversidad de la estructura del lenguaje humano",
+        "anio": "1836",
+        "deQueVa": "Su gran obra sobre los idiomas y el pensamiento."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "rahel-varnhagen",
+    "nombre": "Rahel Varnhagen",
+    "fechas": "1771 – 1833",
+    "region": "Alemania (Berlín)",
+    "escuela": "Romanticismo alemán",
+    "categorias": [
+      "sociedad",
+      "existencia"
+    ],
+    "conocidoPor": "Reunir en su salón de Berlín a escritores y pensadores, y pensar por carta",
+    "resumen": "Nació en Berlín en una familia judía. Tuvo un famoso salón en su casa, donde se juntaban escritores, nobles y artistas de toda clase. Pensaba y escribía sobre todo en cartas y diarios. Hannah Arendt escribió después un libro sobre su vida y sus dificultades por ser mujer y judía en esa época.",
+    "ideas": [
+      "Pensar no es solo cosa de libros: se piensa también hablando y escribiendo cartas.",
+      "Un salón es un lugar donde personas de grupos distintos pueden mezclarse y conversar de igual a igual.",
+      "Ser mujer y judía en su tiempo era una carga, y ella escribió con claridad sobre lo que eso significaba."
+    ],
+    "curiosidad": "Se casó en 1814 con el escritor Karl August Varnhagen von Ense. Ese año se bautizó. Sus cartas se publicaron en 1834, poco después de morir.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Rahel: un libro del recuerdo para sus amigos",
+        "anio": "1834",
+        "deQueVa": "Una selección de sus cartas y notas, publicada tras su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "friedrich-schlegel",
+    "nombre": "Friedrich Schlegel",
+    "fechas": "1772 – 1829",
+    "region": "Alemania",
+    "escuela": "Romanticismo alemán (Jena)",
+    "categorias": [
+      "estetica",
+      "lenguaje",
+      "conocimiento"
+    ],
+    "conocidoPor": "Fundar el primer romanticismo alemán y defender la ironía y los fragmentos",
+    "resumen": "Fue un escritor y pensador alemán, y uno de los fundadores del [[romanticismo]]. Con su hermano publicó la revista «Athenäum», llena de fragmentos breves y provocadores. Defendió la ironía: aceptar que ninguna idea lo dice todo. También escribió sobre las lenguas y la sabiduría de la India.",
+    "ideas": [
+      "La [[ironía romántica|ironia-romantica]] es reírse un poco de uno mismo y aceptar que lo que decimos nunca es completo.",
+      "Un fragmento, una frase corta, puede decir tanto como un libro entero.",
+      "El arte y la poesía deben mezclarse con la filosofía y la vida para mejorarla."
+    ],
+    "curiosidad": "En 1808 publicó un libro sobre la lengua y la sabiduría de la India. Ayudó a que en Europa se estudiara el sánscrito.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Fragmentos del «Athenäum»",
+        "anio": "1798",
+        "deQueVa": "Frases breves y atrevidas sobre arte, filosofía y vida."
+      },
+      {
+        "titulo": "Lucinde",
+        "anio": "1799",
+        "deQueVa": "Una novela escandalosa sobre el amor."
+      },
+      {
+        "titulo": "Sobre la lengua y la sabiduría de los indios",
+        "anio": "1808",
+        "deQueVa": "Un estudio sobre la lengua y la cultura de la India."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "samuel-taylor-coleridge",
+    "nombre": "Samuel Taylor Coleridge",
+    "fechas": "1772 – 1834",
+    "region": "Inglaterra",
+    "escuela": "Romanticismo inglés; idealismo",
+    "categorias": [
+      "estetica",
+      "conocimiento",
+      "religion"
+    ],
+    "conocidoPor": "Poeta que trajo a Inglaterra la filosofía de Kant y Schelling y habló de «suspender la incredulidad»",
+    "resumen": "Fue un famoso poeta inglés y también un pensador. Leyó a los filósofos alemanes y los explicó a sus compatriotas. En su libro «Biographia Literaria» habló de la imaginación y de cómo aceptamos una historia aunque sepamos que no es real. Esa expresión, «suspensión de la incredulidad», se usa hoy para hablar de cine y novelas.",
+    "ideas": [
+      "Cuando leemos un cuento o vemos una película, aceptamos por un rato que lo que vemos es real. Eso es la «suspensión voluntaria de la incredulidad».",
+      "La imaginación no solo copia lo que vemos: crea algo nuevo.",
+      "La mente no es un espejo pasivo: participa activamente en lo que conoce."
+    ],
+    "curiosidad": "Escribió poemas muy famosos, como «La balada del viejo marinero» y «Kubla Khan».",
+    "frase": {
+      "texto": "Esa suspensión voluntaria de la incredulidad, que constituye la fe poética.",
+      "fuente": "Biographia Literaria, capítulo 14 (1817); traducción libre del inglés «that willing suspension of disbelief for the moment, which constitutes poetic faith»"
+    },
+    "obras": [
+      {
+        "titulo": "Baladas líricas",
+        "anio": "1798",
+        "deQueVa": "Libro de poemas con Wordsworth, que incluye «La balada del viejo marinero»."
+      },
+      {
+        "titulo": "Biographia Literaria",
+        "anio": "1817",
+        "deQueVa": "Memorias y teoría de la poesía y de la imaginación."
+      },
+      {
+        "titulo": "Aids to Reflection (Ayudas para la reflexión)",
+        "anio": "1825",
+        "deQueVa": "Una guía de pensamiento religioso y moral."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Biographia Literaria, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/6081",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "johann-friedrich-herbart",
+    "nombre": "Johann Friedrich Herbart",
+    "fechas": "1776 – 1841",
+    "region": "Alemania",
+    "escuela": "Realismo filosófico; pedagogía",
+    "categorias": [
+      "mente",
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Fundar la pedagogía como ciencia y estudiar la mente como un juego de ideas",
+    "resumen": "Fue un filósofo y pedagogo alemán. Ocupó en Königsberg la cátedra que había sido de Kant. Pensó que educar es formar el carácter moral y que para aprender hay que despertar el interés de los alumnos. También quiso estudiar la mente con matemáticas, y dijo que las ideas compiten entre sí por ocupar nuestra conciencia.",
+    "ideas": [
+      "Educar no es solo enseñar datos: es formar el carácter y ayudar a querer lo bueno.",
+      "Se aprende mejor lo que nos interesa, y el profesor debe despertar ese interés.",
+      "Las ideas de nuestra cabeza luchan entre sí: las más fuertes pasan a la conciencia y las demás quedan por debajo."
+    ],
+    "curiosidad": null,
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pedagogía general",
+        "anio": "1806",
+        "deQueVa": "Un tratado sobre cómo educar, basado en la moral y el interés."
+      },
+      {
+        "titulo": "La psicología como ciencia",
+        "anio": "1824",
+        "deQueVa": "Propone estudiar la mente con método científico y matemáticas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "lady-mary-shepherd",
+    "nombre": "Mary Shepherd",
+    "fechas": "1777 – 1847",
+    "region": "Escocia e Inglaterra",
+    "escuela": "Empirismo; realismo",
+    "categorias": [
+      "conocimiento",
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Responder a Hume y decir que toda causa produce siempre su efecto, y que las cosas existen aunque no las miremos",
+    "resumen": "Fue una filósofa escocesa del siglo XIX. Escribió dos libros en los que criticó a Hume y a Berkeley. Defendió que las causas y los efectos están unidos de forma necesaria y que los objetos siguen ahí aunque nadie los mire. Casi se olvidó su nombre hasta que se ha vuelto a estudiar en los últimos años.",
+    "ideas": [
+      "Todo lo que empieza a existir tiene una causa: de la nada no sale nada.",
+      "Una causa produce siempre el mismo efecto: si pones el agua al fuego, se calienta siempre.",
+      "Las cosas siguen existiendo aunque nadie las perciba: la mesa sigue ahí cuando sales de la habitación."
+    ],
+    "curiosidad": "Nació como Mary Primrose y se casó en 1808 con Henry Shepherd. Escribió sus libros mientras criaba a su familia.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ensayo sobre la relación entre causa y efecto",
+        "anio": "1824",
+        "deQueVa": "Responde a Hume: las causas producen sus efectos de forma necesaria."
+      },
+      {
+        "titulo": "Ensayos sobre la percepción de un universo exterior",
+        "anio": "1827",
+        "deQueVa": "Defiende que las cosas existen independientemente de nuestra mente."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "bernard-bolzano",
+    "nombre": "Bernard Bolzano",
+    "fechas": "1781 – 1848",
+    "region": "Bohemia (hoy República Checa)",
+    "escuela": "Lógica y fundamentos de la matemática",
+    "categorias": [
+      "logica",
+      "ciencia",
+      "conocimiento"
+    ],
+    "conocidoPor": "Sacerdote y matemático de Praga que ordenó la lógica y pensó el infinito con rigor",
+    "resumen": "Fue un sacerdote y profesor de Praga que destacó en matemáticas y lógica. Dijo que las verdades existen aunque nadie las piense. Estudió el [[infinito]] y sus rarezas con mucho cuidado. Lo echaron de la universidad por sus ideas sobre paz y justicia. Su obra se descubrió después y influyó en Husserl.",
+    "ideas": [
+      "Una verdad es verdad aunque nadie la haya pensado: «2 + 2 = 4» ya lo era antes de que hubiera personas.",
+      "Se puede definir con precisión cuándo una conclusión se sigue de lo que se supone al empezar.",
+      "Hay conjuntos infinitos con rarezas: por ejemplo, tan grandes como una parte suya. Hay que estudiarlas con rigor."
+    ],
+    "curiosidad": "En 1819 perdió su puesto en la universidad por sus ideas. Siguió escribiendo en casa de amigos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Teoría de la ciencia",
+        "anio": "1837",
+        "deQueVa": "Cuatro tomos sobre lógica y cómo se organiza el saber."
+      },
+      {
+        "titulo": "Las paradojas del infinito",
+        "anio": "1851",
+        "deQueVa": "Sobre las rarezas de lo infinito. Se publicó después de su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "edmund-husserl",
+      "kazimierz-twardowski"
+    ]
+  },
+  {
+    "id": "victor-cousin",
+    "nombre": "Victor Cousin",
+    "fechas": "1792 – 1867",
+    "region": "Francia",
+    "escuela": "Eclecticismo espiritualista",
+    "categorias": [
+      "conocimiento",
+      "etica",
+      "estetica"
+    ],
+    "conocidoPor": "Defender que hay que tomar lo verdadero de cada escuela; dominó la enseñanza francesa",
+    "resumen": "Fue un filósofo y político francés. Defendió el «[[eclecticismo]]»: cada escuela filosófica tiene parte de verdad, y hay que tomar lo mejor de todas. Fue ministro de Educación y logró que la filosofía fuera materia obligatoria en los institutos. También tradujo a Platón al francés.",
+    "ideas": [
+      "Cada escuela filosófica tiene algo de verdad, y lo mejor es juntar lo bueno de todas.",
+      "Lo verdadero, lo bello y lo bueno son tres aspectos de una misma realidad.",
+      "La filosofía debe enseñarse en los institutos para formar ciudadanos que piensen."
+    ],
+    "curiosidad": "En 1824 lo detuvieron unos meses en Alemania, por sospechar que era liberal. Años después llegó a ser ministro en Francia.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Fragmentos filosóficos",
+        "anio": "1826",
+        "deQueVa": "Una colección de ensayos sobre historia de la filosofía."
+      },
+      {
+        "titulo": "Curso de historia de la filosofía",
+        "anio": "1828",
+        "deQueVa": "Sus clases sobre la historia de la filosofía."
+      },
+      {
+        "titulo": "De lo verdadero, lo bello y lo bueno",
+        "anio": "1853",
+        "deQueVa": "Su libro más popular, sobre los tres valores."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "william-whewell",
+    "nombre": "William Whewell",
+    "fechas": "1794 – 1866",
+    "region": "Inglaterra",
+    "escuela": "Filosofía de la ciencia; idealismo moderado",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Inventar la palabra «científico» y decir que la ciencia une hechos con ideas de la mente",
+    "resumen": "Fue un profesor de Cambridge con muchísimos intereses: historia de la ciencia, mineralogía, ética y [[teología|teologia]]. Inventó la palabra «scientist», «científico» en inglés. Defendió que la ciencia no es solo acumular datos: hay que ponerles una idea que los una y los explique. Se enfrentó a John Stuart Mill sobre cómo funciona la ciencia.",
+    "ideas": [
+      "Los hechos por sí solos no son ciencia: hace falta una idea que los una y los explique.",
+      "Una teoría es buena cuando explica cosas de campos distintos a la vez, como una llave que abre varias cerraduras.",
+      "La ciencia avanza por pasos: primero se recogen hechos, luego se buscan ideas que los expliquen y se comprueban."
+    ],
+    "curiosidad": "En 1833 propuso la palabra «scientist» (científico). También sugirió a Faraday palabras como «ion», «ánodo» y «cátodo».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Historia de las ciencias inductivas",
+        "anio": "1837",
+        "deQueVa": "Cómo se han descubierto las grandes ideas de la ciencia."
+      },
+      {
+        "titulo": "Filosofía de las ciencias inductivas",
+        "anio": "1840",
+        "deQueVa": "Cómo se construyen las teorías científicas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "antonio-rosmini",
+    "nombre": "Antonio Rosmini",
+    "fechas": "1797 – 1855",
+    "region": "Italia",
+    "escuela": "Filosofía católica; personalismo",
+    "categorias": [
+      "conocimiento",
+      "religion",
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Sacerdote italiano que pensó el conocimiento y los derechos de la persona; hoy es beato",
+    "resumen": "Fue un sacerdote y filósofo italiano que fundó una congregación religiosa. Dijo que la idea del «ser» está en toda mente humana y es la luz con la que conocemos cualquier cosa. También sostuvo que los derechos de la persona son la base de las leyes. Escribió un libro crítico con la Iglesia que fue prohibido.",
+    "ideas": [
+      "La idea más básica, la de «lo que existe», está en nuestra mente desde el principio, y a partir de ella conocemos lo demás.",
+      "Los derechos de la persona son la base de la ley: el Estado está para protegerlos.",
+      "La Iglesia necesita reformas, como más participación de los fieles y más educación."
+    ],
+    "curiosidad": "Su libro «Las cinco llagas de la santa Iglesia» (1848) fue prohibido. La Iglesia lo declaró beato en 2007.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Nuevo ensayo sobre el origen de las ideas",
+        "anio": "1830",
+        "deQueVa": "De dónde vienen las ideas y cómo conocemos."
+      },
+      {
+        "titulo": "Filosofía del derecho",
+        "anio": "1841–1843",
+        "deQueVa": "Los derechos de las personas como base de las leyes."
+      },
+      {
+        "titulo": "Las cinco llagas de la santa Iglesia",
+        "anio": "1848",
+        "deQueVa": "Cinco problemas que veía en la Iglesia de su tiempo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "gustav-fechner",
+    "nombre": "Gustav Fechner",
+    "fechas": "1801 – 1887",
+    "region": "Alemania",
+    "escuela": "Psicofísica; panpsiquismo",
+    "categorias": [
+      "mente",
+      "ciencia",
+      "metafisica"
+    ],
+    "conocidoPor": "Medir la relación entre un estímulo y lo que sentimos, y creer que todo tiene mente",
+    "resumen": "Fue un físico y filósofo alemán. Quiso medir la mente con números. Descubrió que lo que sentimos no crece al ritmo del estímulo: para notar un sonido más fuerte hay que subir mucho más el volumen. También defendió el [[panpsiquismo]]: plantas, planetas y todo el universo tienen vida mental.",
+    "ideas": [
+      "Podemos medir lo que sentimos: si ya hay mucho ruido, hace falta mucho más para notar la diferencia.",
+      "La mente y el cuerpo son dos caras de la misma cosa, como el interior y el exterior de una curva.",
+      "Todo el mundo está vivo y tiene alguna forma de mente, incluso las plantas y la Tierra."
+    ],
+    "curiosidad": "Mirando al Sol para estudiar las imágenes que quedan en el ojo, se dañó la vista. Pasó años enfermo y luego se recuperó.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Nanna o el alma de las plantas",
+        "anio": "1848",
+        "deQueVa": "Defiende que las plantas tienen vida mental."
+      },
+      {
+        "titulo": "Zend-Avesta",
+        "anio": "1851",
+        "deQueVa": "Una visión de un universo vivo y lleno de conciencia."
+      },
+      {
+        "titulo": "Elementos de psicofísica",
+        "anio": "1860",
+        "deQueVa": "Su método para medir la relación entre estímulo y sensación."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "wilhelm-wundt"
+    ]
+  },
+  {
+    "id": "harriet-martineau",
+    "nombre": "Harriet Martineau",
+    "fechas": "1802 – 1876",
+    "region": "Inglaterra",
+    "escuela": "Positivismo; economía política",
+    "categorias": [
+      "sociedad",
+      "ciencia",
+      "politica"
+    ],
+    "conocidoPor": "Estudiar la sociedad con método, explicar economía con cuentos y traducir a Comte",
+    "resumen": "Fue una escritora y pensadora inglesa. Explicó la economía a mucha gente mediante cuentos. Viajó por EE. UU. y escribió un libro sobre cómo era su sociedad. Fue [[abolicionista|abolicionismo]], es decir, estaba en contra de la esclavitud. Tradujo y resumió al filósofo Comte, y se la considera una pionera de la [[sociología|sociologia]].",
+    "ideas": [
+      "Para entender una sociedad hay que observar con atención cómo vive la gente, no solo leer libros.",
+      "Se puede juzgar un país por cómo trata a las mujeres, a los pobres y a los esclavizados.",
+      "Las ideas complicadas, como la economía, se pueden contar con historias para que las entienda todo el mundo."
+    ],
+    "curiosidad": "Desde joven era sorda y usaba una trompetilla. El propio Comte aprobó su versión resumida de su obra.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ilustraciones de economía política",
+        "anio": "1832–1834",
+        "deQueVa": "Cuentos que explican la economía a todo el mundo."
+      },
+      {
+        "titulo": "La sociedad en América",
+        "anio": "1837",
+        "deQueVa": "Su análisis de EE. UU. tras un viaje."
+      },
+      {
+        "titulo": "Cómo observar la moral y las costumbres",
+        "anio": "1838",
+        "deQueVa": "Un método para estudiar sociedades."
+      },
+      {
+        "titulo": "La filosofía positiva de Auguste Comte, traducida y condensada",
+        "anio": "1853",
+        "deQueVa": "Una versión resumida de Comte en inglés."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "max-stirner",
+    "nombre": "Max Stirner",
+    "fechas": "1806 – 1856",
+    "region": "Alemania",
+    "escuela": "Individualismo radical; egoísmo",
+    "categorias": [
+      "politica",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Decir que ninguna idea, ni Dios, ni el Estado, ni la humanidad, debe mandar sobre ti",
+    "resumen": "Fue un pensador alemán, [[joven hegeliano|jovenes-hegelianos]]. Su verdadero nombre era Johann Kaspar Schmidt. En «El único y su propiedad» sostuvo que cosas como Dios, el Estado o la humanidad son ideas que nos dominan, y que cada persona debe ser dueña de sí misma. Es uno de los autores más radicales del [[individualismo]].",
+    "ideas": [
+      "Muchas ideas, como la patria, el deber o la humanidad, mandan sobre nosotros como fantasmas, y deberíamos preguntarnos quién nos las puso.",
+      "Cada persona es única y solo ella puede decidir lo que le importa.",
+      "Las personas pueden asociarse libremente por interés mutuo, sin que ninguna asociación esté por encima de ellas."
+    ],
+    "curiosidad": "«Stirner» era un apodo que le pusieron por su frente muy ancha, en alemán «Stirn». Marx y Engels le dedicaron un largo capítulo para criticarlo en «La ideología alemana».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El único y su propiedad",
+        "anio": "1844",
+        "deQueVa": "Defiende que cada persona es única y no debe someterse a ninguna idea ajena."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "El único y su propiedad, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/34580",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "bruno-bauer",
+    "nombre": "Bruno Bauer",
+    "fechas": "1809 – 1882",
+    "region": "Alemania",
+    "escuela": "Hegelianismo de izquierda (jóvenes hegelianos)",
+    "categorias": [
+      "religion",
+      "politica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Estudiar los evangelios como textos literarios y dudar de que Jesús existiera",
+    "resumen": "Fue un teólogo y filósofo alemán, [[joven hegeliano|jovenes-hegelianos]]. Aplicó la crítica histórica a los evangelios y defendió que eran obras literarias de sus autores. Perdió su puesto de profesor en la universidad por sus ideas. Fue amigo de Marx, que luego lo criticó con dureza.",
+    "ideas": [
+      "Los evangelios son obras escritas por personas con intención literaria, no relatos de testigos.",
+      "La religión es algo que los seres humanos hacen, y para ser libres hay que cuestionarla.",
+      "La emancipación de un grupo, como los judíos, exige que todos dejen de depender de la religión."
+    ],
+    "curiosidad": "En 1842 le retiraron el permiso para dar clases en la Universidad de Bonn. Más tarde su pensamiento se volvió más conservador.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Crítica de la historia evangélica de los sinópticos",
+        "anio": "1841",
+        "deQueVa": "Argumenta que los evangelios de Mateo, Marcos y Lucas son creaciones literarias."
+      },
+      {
+        "titulo": "La cuestión judía",
+        "anio": "1843",
+        "deQueVa": "Sobre emancipación de los judíos y religión. Marx le respondió."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "pierre-joseph-proudhon",
+    "nombre": "Pierre-Joseph Proudhon",
+    "fechas": "1809 – 1865",
+    "region": "Francia",
+    "escuela": "Anarquismo; mutualismo",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Primero en llamarse [[anarquista|anarquismo]] y autor de «La propiedad es un robo»",
+    "resumen": "Fue un pensador y político francés, de familia humilde, que trabajó de impresor. Se hizo famoso al preguntarse «¿Qué es la propiedad?» y responder que la propiedad es un robo. Fue el primero en llamarse a sí mismo anarquista. Defendió que los trabajadores se organizaran en grupos que se ayudan entre sí: el [[mutualismo]].",
+    "ideas": [
+      "Quien vive de la propiedad de otros sin trabajar se queda con lo que otros han producido. Para Proudhon, eso es un robo.",
+      "El orden de la sociedad puede nacer de acuerdos libres entre las personas, sin un gobierno que mande.",
+      "Los trabajadores pueden crear sus propios bancos y cooperativas para ayudarse entre ellos."
+    ],
+    "curiosidad": "Fue elegido diputado en 1848. Marx respondió a su libro «Filosofía de la miseria» con otro llamado «Miseria de la filosofía».",
+    "frase": {
+      "texto": "¡La propiedad es un robo!",
+      "fuente": "¿Qué es la propiedad? (1840), cap. 1: «La propriété, c’est le vol» (traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "¿Qué es la propiedad?",
+        "anio": "1840",
+        "deQueVa": "Critica la propiedad y defiende que el poder no debería concentrarse."
+      },
+      {
+        "titulo": "Sistema de las contradicciones económicas, o Filosofía de la miseria",
+        "anio": "1846",
+        "deQueVa": "Analiza la economía y propone otras formas de organizarla."
+      },
+      {
+        "titulo": "Idea general de la revolución en el siglo XIX",
+        "anio": "1851",
+        "deQueVa": "Propone una sociedad sin Estado, basada en acuerdos libres."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "What is Property?, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/360",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "charles-darwin",
+    "nombre": "Charles Darwin",
+    "fechas": "1809 – 1882",
+    "region": "Inglaterra",
+    "escuela": "Teoría de la evolución (ciencias naturales)",
+    "categorias": [
+      "ciencia",
+      "metafisica",
+      "religion",
+      "existencia"
+    ],
+    "conocidoPor": "Explicar con la selección natural cómo evolucionan las especies, sin necesidad de un diseñador",
+    "resumen": "Fue un naturalista inglés. Tras un viaje de cinco años en el barco Beagle, propuso la [[evolución|evolucion]]: las especies cambian con el tiempo, y la [[selección natural|seleccion-natural]] lo explica. Con esto cambió la manera de pensar sobre la vida, el ser humano y el sentido de nuestra existencia. Sus ideas siguen siendo la base de la biología actual.",
+    "ideas": [
+      "Los seres vivos con rasgos que les ayudan a sobrevivir dejan más descendientes: es la [[selección natural|seleccion-natural]].",
+      "Todas las especies, incluida la humana, descienden de antepasados comunes.",
+      "Para explicar un ojo o un ala no hace falta un diseñador: el cambio lento y la selección bastan."
+    ],
+    "curiosidad": "Tardó más de veinte años en publicar su gran idea, y lo hizo en 1859, cuando Alfred Russel Wallace le escribió con una idea parecida.",
+    "frase": {
+      "texto": "Hay grandeza en esta concepción de la vida.",
+      "fuente": "El origen de las especies, última frase (1859); traducción libre"
+    },
+    "obras": [
+      {
+        "titulo": "El viaje del Beagle",
+        "anio": "1839",
+        "deQueVa": "Diario de su viaje alrededor del mundo."
+      },
+      {
+        "titulo": "El origen de las especies",
+        "anio": "1859",
+        "deQueVa": "Explica la evolución por selección natural."
+      },
+      {
+        "titulo": "El origen del hombre",
+        "anio": "1871",
+        "deQueVa": "Aplica la evolución al ser humano."
+      },
+      {
+        "titulo": "La expresión de las emociones en el hombre y en los animales",
+        "anio": "1872",
+        "deQueVa": "Cómo se expresan las emociones en personas y animales."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "El origen de las especies, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/1228",
+        "tipo": "texto"
+      },
+      {
+        "titulo": "El viaje del Beagle, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/3704",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "jaime-balmes",
+    "nombre": "Jaime Balmes",
+    "fechas": "1810 – 1848",
+    "region": "España (Cataluña)",
+    "escuela": "Filosofía católica; sentido común",
+    "categorias": [
+      "conocimiento",
+      "religion",
+      "politica"
+    ],
+    "conocidoPor": "Sacerdote catalán que escribió «El criterio», una guía práctica para pensar bien",
+    "resumen": "Fue un sacerdote y filósofo de Vic, en Cataluña. Escribió «El criterio», un libro para aprender a pensar bien en la vida diaria. Defendió que el [[sentido común|sentido-comun]] nos da certezas básicas que no hace falta demostrar. Murió joven, con 38 años, y su obra se leyó mucho en España y en América Latina.",
+    "ideas": [
+      "Pensar bien es una habilidad que se entrena: hay que atender, comparar y no dejarse llevar por la primera impresión.",
+      "Hay verdades básicas que todos reconocemos, como que existimos, y no hace falta demostrarlas para vivir.",
+      "La religión y la razón no se oponen: se ayudan."
+    ],
+    "curiosidad": "Murió con solo 38 años, de tuberculosis. Había escrito mucho sobre política, religión y filosofía.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El protestantismo comparado con el catolicismo",
+        "anio": "1842–1844",
+        "deQueVa": "Compara las dos tradiciones y su influencia en la civilización europea."
+      },
+      {
+        "titulo": "El criterio",
+        "anio": "1845",
+        "deQueVa": "Una guía práctica para pensar bien."
+      },
+      {
+        "titulo": "Filosofía fundamental",
+        "anio": "1846",
+        "deQueVa": "Su obra más sistemática sobre el conocimiento."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "julian-sanz-del-rio",
+    "nombre": "Julián Sanz del Río",
+    "fechas": "1814 – 1869",
+    "region": "España",
+    "escuela": "Krausismo",
+    "categorias": [
+      "etica",
+      "religion",
+      "sociedad"
+    ],
+    "conocidoPor": "Traer el krausismo a España; su gente fundó la Institución Libre de Enseñanza",
+    "resumen": "Fue un profesor español. El Gobierno lo envió a Alemania a estudiar y volvió convencido por el [[krausismo]], las ideas del filósofo Krause. Las explicó en Madrid y formó a toda una generación que quiso renovar España con educación y libertad. De ahí salió la Institución Libre de Enseñanza.",
+    "ideas": [
+      "La humanidad es una gran familia que avanza hacia la armonía, y la educación es el camino.",
+      "Dios no está fuera del mundo: lo envuelve y está presente en él, una idea que Krause llamó [[panenteísmo|panenteismo]].",
+      "La ética es vivir con un ideal de perfección y de convivencia, no solo cumplir normas."
+    ],
+    "curiosidad": "En 1867 lo apartaron de su cátedra por sus ideas. Murió dos años después.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ideal de la humanidad para la vida",
+        "anio": "1860",
+        "deQueVa": "Adapta una obra de Krause sobre cómo debe vivir la humanidad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "francisco-giner-de-los-rios"
+    ]
+  },
+  {
+    "id": "george-boole",
+    "nombre": "George Boole",
+    "fechas": "1815 – 1864",
+    "region": "Inglaterra e Irlanda",
+    "escuela": "Lógica algebraica",
+    "categorias": [
+      "logica",
+      "ciencia"
+    ],
+    "conocidoPor": "Convertir la lógica en álgebra de unos y ceros, base de la informática",
+    "resumen": "Fue un matemático inglés, en gran parte autodidacta, que acabó de profesor en Irlanda. Dijo que razonar se podía hacer como una cuenta, con símbolos. Su álgebra solo usa dos valores, verdadero y falso, o 1 y 0. Siglo y pico después, esa idea fue la base de los ordenadores.",
+    "ideas": [
+      "Los razonamientos se pueden escribir con símbolos y resolver como una ecuación.",
+      "Basta con dos valores, 1 (verdadero) y 0 (falso), con operaciones como «y», «o» y «no».",
+      "Esa lógica permite pensar con precisión, como se hace hoy en los circuitos de un ordenador."
+    ],
+    "curiosidad": "Fue profesor en Cork, en Irlanda, desde 1849. Murió en 1864. Un siglo después sus ideas se usaron en circuitos de ordenador.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El análisis matemático de la lógica",
+        "anio": "1847",
+        "deQueVa": "Primera versión de su álgebra de la lógica."
+      },
+      {
+        "titulo": "Una investigación sobre las leyes del pensamiento",
+        "anio": "1854",
+        "deQueVa": "Su obra principal: explica con símbolos cómo razonamos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "The Laws of Thought, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/15114",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "hermann-lotze",
+    "nombre": "Hermann Lotze",
+    "fechas": "1817 – 1881",
+    "region": "Alemania",
+    "escuela": "Idealismo teleológico; neokantismo",
+    "categorias": [
+      "metafisica",
+      "mente",
+      "etica"
+    ],
+    "conocidoPor": "Médico y filósofo que quiso unir la ciencia mecánica con un sentido o fin del mundo",
+    "resumen": "Fue un médico y filósofo alemán. Aceptó que la naturaleza funciona con leyes mecánicas, pero pensó que esas leyes sirven a un fin, a un sentido. Distinguió entre lo que «existe» y lo que «vale», como los valores. Su obra influyó en filósofos posteriores como Frege y Husserl.",
+    "ideas": [
+      "La naturaleza funciona con leyes exactas, pero esas leyes pueden tener un sentido o un fin.",
+      "Los valores, como el bien o la verdad, no existen como una cosa, pero «valen».",
+      "Para percibir el espacio, la mente usa pequeñas señales que llegan desde cada parte del cuerpo."
+    ],
+    "curiosidad": "Murió en 1881, a los pocos meses de mudarse a Berlín para dar clases allí.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Psicología médica",
+        "anio": "1852",
+        "deQueVa": "Cómo funcionan la mente y el cuerpo, desde la medicina."
+      },
+      {
+        "titulo": "Microcosmos",
+        "anio": "1856–1864",
+        "deQueVa": "Una gran obra sobre el ser humano y su lugar en el mundo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "carl-stumpf"
+    ]
+  },
+  {
+    "id": "frederick-douglass",
+    "nombre": "Frederick Douglass",
+    "fechas": "1818 – 1895",
+    "region": "Estados Unidos",
+    "escuela": "Abolicionismo; pensamiento político",
+    "categorias": [
+      "politica",
+      "sociedad",
+      "etica"
+    ],
+    "conocidoPor": "Escapó de la esclavitud y se convirtió en gran orador contra ella, defendiendo igualdad y educación",
+    "resumen": "Nació esclavizado en Maryland, EE. UU. Aprendió a leer a escondidas y se escapó en 1838. Fue periodista y orador y uno de los líderes del [[abolicionismo]], el movimiento para acabar con la esclavitud. Argumentó que el país no vivía según su propia Constitución, que decía defender la libertad.",
+    "ideas": [
+      "Saber leer es el camino hacia la libertad: por eso a los esclavizados se les prohibía aprender.",
+      "Un país que habla de libertad y mantiene esclavos es hipócrita.",
+      "Para ser libre no basta con que lo digan las leyes: la libertad se defiende cada día, con la palabra y con la acción."
+    ],
+    "curiosidad": "De niño aprendió a leer con ayuda de la mujer de su amo y, después, cambiando pan por lecciones con niños de la calle.",
+    "frase": {
+      "texto": "¿Qué es para el esclavo americano su Cuatro de Julio?",
+      "fuente": "Discurso «¿Qué es para el esclavo el Cuatro de Julio?», Rochester, 1852 (traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "Narración de la vida de Frederick Douglass, esclavo americano",
+        "anio": "1845",
+        "deQueVa": "Su autobiografía, de su esclavitud y su fuga."
+      },
+      {
+        "titulo": "Mi esclavitud y mi libertad",
+        "anio": "1855",
+        "deQueVa": "Segunda versión ampliada de su autobiografía."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Narrative of the Life of Frederick Douglass, texto completo en inglés (Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/23",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "concepcion-arenal",
+    "nombre": "Concepción Arenal",
+    "fechas": "1820 – 1893",
+    "region": "España (Galicia)",
+    "escuela": "Pensamiento jurídico y social; feminismo",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "etica"
+    ],
+    "conocidoPor": "Pionera española que defendió prisiones humanas y la educación de las mujeres",
+    "resumen": "Nació en Ferrol, en Galicia. Fue escritora y pensadora, y una de las primeras españolas en estudiar temas de justicia, cárceles y pobreza. Defendió que a los presos hay que tratarlos como personas para que puedan mejorar. También pidió que las mujeres tuvieran educación y trabajo.",
+    "ideas": [
+      "Los presos son personas, y las cárceles deben ayudar a que mejoren, no solo castigar.",
+      "Ayudar a los pobres no es solo caridad: hay que atender las causas de la pobreza.",
+      "Las mujeres deben poder estudiar y trabajar, como los hombres."
+    ],
+    "curiosidad": "Para asistir a clases de Derecho en la Universidad Central de Madrid se vistió de hombre, porque las mujeres no podían entrar.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La beneficencia, la filantropía y la caridad",
+        "anio": "1861",
+        "deQueVa": "Sobre cómo ayudar de verdad a los más pobres."
+      },
+      {
+        "titulo": "La mujer del porvenir",
+        "anio": "1869",
+        "deQueVa": "Defiende los derechos y la educación de las mujeres."
+      },
+      {
+        "titulo": "Estudios penales",
+        "anio": "1877",
+        "deQueVa": "Sobre justicia, delitos y cárceles."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "hermann-von-helmholtz",
+    "nombre": "Hermann von Helmholtz",
+    "fechas": "1821 – 1894",
+    "region": "Alemania",
+    "escuela": "Neokantismo; filosofía de la ciencia",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "mente"
+    ],
+    "conocidoPor": "Científico que midió la velocidad de los nervios y dijo que percibir es sacar conclusiones sin darnos cuenta",
+    "resumen": "Fue un médico, físico y filósofo alemán. Formuló con claridad que la energía no se crea ni se destruye, midió la velocidad a la que viajan los impulsos nerviosos e inventó el oftalmoscopio, que sirve para mirar dentro del ojo. Dijo que percibir es sacar conclusiones sin darnos cuenta. Quiso unir la ciencia con la filosofía de Kant.",
+    "ideas": [
+      "La energía no se crea ni se destruye, solo se transforma.",
+      "Al mirar, nuestro cerebro saca conclusiones sin que lo notemos, como cuando adivinamos qué es una cosa por su sombra.",
+      "Lo que percibimos son señales que nuestros sentidos interpretan, no copias exactas de las cosas."
+    ],
+    "curiosidad": "En 1851 inventó el oftalmoscopio, que permite a los médicos ver el fondo del ojo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre la conservación de la fuerza",
+        "anio": "1847",
+        "deQueVa": "Defiende que la energía se conserva."
+      },
+      {
+        "titulo": "Manual de óptica fisiológica",
+        "anio": "1856–1867",
+        "deQueVa": "Cómo funciona la visión."
+      },
+      {
+        "titulo": "La teoría de las sensaciones del tono",
+        "anio": "1863",
+        "deQueVa": "Cómo oímos la música y los sonidos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "wilhelm-wundt"
+    ]
+  },
+  {
+    "id": "frances-power-cobbe",
+    "nombre": "Frances Power Cobbe",
+    "fechas": "1822 – 1904",
+    "region": "Irlanda e Inglaterra",
+    "escuela": "Intuicionismo ético; teísmo",
+    "categorias": [
+      "etica",
+      "sociedad",
+      "religion"
+    ],
+    "conocidoPor": "Luchar contra la violencia hacia las mujeres y contra la experimentación con animales vivos",
+    "resumen": "Fue una escritora y pensadora irlandesa. Escribió sobre moral y religión y defendió los derechos de las mujeres. Se hizo famosa por denunciar la violencia en el matrimonio y por oponerse a que se experimentara con animales vivos. Fundó una de las primeras asociaciones contra la [[vivisección|viviseccion]].",
+    "ideas": [
+      "Sabemos qué está bien y qué está mal por una intuición moral que todos tenemos.",
+      "Las mujeres casadas necesitan leyes que las protejan de los malos tratos.",
+      "Los animales merecen respeto, y no se les debe hacer sufrir en nombre de la ciencia."
+    ],
+    "curiosidad": "Su folleto «La tortura de esposas en Inglaterra» (1878) ayudó a que se aprobara una ley que permitía a mujeres maltratadas separarse de sus maridos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Un ensayo sobre la moral intuitiva",
+        "anio": "1855",
+        "deQueVa": "Defiende que sabemos lo que es bueno por intuición."
+      },
+      {
+        "titulo": "La tortura de esposas en Inglaterra",
+        "anio": "1878",
+        "deQueVa": "Denuncia la violencia contra las esposas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "friedrich-albert-lange",
+    "nombre": "Friedrich Albert Lange",
+    "fechas": "1828 – 1875",
+    "region": "Alemania",
+    "escuela": "Neokantismo",
+    "categorias": [
+      "conocimiento",
+      "ciencia",
+      "sociedad"
+    ],
+    "conocidoPor": "Escribir una famosa «Historia del materialismo» y decir que solo conocemos el mundo a través de nuestros sentidos",
+    "resumen": "Fue un filósofo alemán, además de maestro y activista social. Escribió una famosa historia del [[materialismo]]. Dijo que la ciencia materialista es útil, pero que no puede explicar todo, porque solo conocemos el mundo a través de nuestros sentidos y nuestra mente. Nietzsche lo leyó con gran interés.",
+    "ideas": [
+      "El materialismo es útil para hacer ciencia, pero no basta para entenderlo todo.",
+      "Solo conocemos el mundo tal como lo capta nuestro cuerpo, con sus sentidos y su cerebro.",
+      "Los problemas de los trabajadores son cuestiones morales que la sociedad debe resolver."
+    ],
+    "curiosidad": "Nietzsche leyó su historia del materialismo en 1866 y la tuvo en gran estima.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La cuestión obrera",
+        "anio": "1865",
+        "deQueVa": "Sobre los problemas de los trabajadores."
+      },
+      {
+        "titulo": "Historia del materialismo y crítica de su importancia actual",
+        "anio": "1866",
+        "deQueVa": "Recorre la historia del materialismo y explica sus límites."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "friedrich-nietzsche"
+    ]
+  },
+  {
+    "id": "chauncey-wright",
+    "nombre": "Chauncey Wright",
+    "fechas": "1830 – 1875",
+    "region": "Estados Unidos",
+    "escuela": "Naturalismo evolutivo; precursor del pragmatismo",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "mente"
+    ],
+    "conocidoPor": "Defender la evolución de Darwin en EE. UU. y enseñar a pensar con rigor a Peirce y James",
+    "resumen": "Fue un filósofo estadounidense de Cambridge, en Massachusetts. Defendió la teoría de Darwin con argumentos sencillos y rechazó que hiciera falta una explicación religiosa o metafísica. Participó en el Club Metafísico, un grupo de amigos que discutían ideas y del que salió el [[pragmatismo]]. Murió joven y apenas publicó libros.",
+    "ideas": [
+      "La evolución no necesita un plan: los cambios van sin una meta y la naturaleza selecciona lo que funciona.",
+      "Las ideas deben comprobarse con la experiencia, y las que no se pueden comprobar importan poco.",
+      "La inteligencia humana es una consecuencia de la evolución, como lo es la de los animales."
+    ],
+    "curiosidad": "Fue miembro del Club Metafísico de Cambridge junto con Peirce y William James. Sus ensayos se reunieron en un libro después de su muerte.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Discusiones filosóficas",
+        "anio": "1877",
+        "deQueVa": "Libro con sus ensayos, publicado tras su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "charles-sanders-peirce",
+      "william-james"
+    ]
+  },
+  {
+    "id": "savitribai-phule",
+    "nombre": "Savitribai Phule",
+    "fechas": "1831 – 1897",
+    "region": "India",
+    "escuela": "Reforma social anticasta; feminismo",
+    "categorias": [
+      "sociedad",
+      "etica",
+      "politica"
+    ],
+    "conocidoPor": "Abrir escuelas para niñas y para personas de [[castas|casta]] bajas en la India del siglo XIX",
+    "resumen": "Fue maestra y poeta de Maharashtra, en la India. Con su marido, Jyotirao Phule, abrió en 1848 una escuela para niñas en Pune. Defendió que las mujeres y las personas de castas bajas tienen derecho a educación e igualdad. Murió en 1897 atendiendo a enfermos de peste.",
+    "ideas": [
+      "La educación es la herramienta más poderosa para liberarse de la desigualdad.",
+      "Las niñas deben aprender a leer y escribir igual que los niños.",
+      "Nadie vale menos por la casta en la que nace."
+    ],
+    "curiosidad": "Según se cuenta, cuando iba a dar clase la insultaban y le tiraban barro y piedras.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Kavya Phule (Flores de poesía)",
+        "anio": "1854",
+        "deQueVa": "Sus poemas, que defienden la educación y la igualdad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "edward-wilmot-blyden",
+    "nombre": "Edward Wilmot Blyden",
+    "fechas": "1832 – 1912",
+    "region": "Liberia y Sierra Leona (África occidental)",
+    "escuela": "Panafricanismo",
+    "categorias": [
+      "sociedad",
+      "politica",
+      "religion"
+    ],
+    "conocidoPor": "Pensar una personalidad africana propia y defender que África debía seguir su propio camino",
+    "resumen": "Nació en las Antillas, en una isla entonces danesa, y de joven se fue a Liberia. Allí fue profesor, escritor y político. Defendió que los pueblos africanos tienen una personalidad y una cultura propias y deben desarrollarlas a su manera. Se le considera un precursor del [[panafricanismo]].",
+    "ideas": [
+      "África tiene una cultura y una personalidad propias, que no deben copiar a Europa.",
+      "Las sociedades africanas deben desarrollarse con sus instituciones y su historia, no con las de otros.",
+      "Las religiones, como el islam y el cristianismo, deben juzgarse por lo que aportan a los pueblos africanos."
+    ],
+    "curiosidad": "Nació en la isla de Santo Tomás, entonces colonia danesa, y llegó a Liberia en 1851.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El cristianismo, el islam y la raza negra",
+        "anio": "1887",
+        "deQueVa": "Compara el efecto de las dos religiones en los pueblos africanos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "wilhelm-wundt",
+    "nombre": "Wilhelm Wundt",
+    "fechas": "1832 – 1920",
+    "region": "Alemania",
+    "escuela": "Psicología experimental",
+    "categorias": [
+      "mente",
+      "ciencia"
+    ],
+    "conocidoPor": "Fundar el primer laboratorio de psicología y convertir la mente en objeto de experimentos",
+    "resumen": "Fue un médico y filósofo alemán que abrió en Leipzig, en 1879, un laboratorio dedicado a estudiar la mente con experimentos. Se le considera el fundador de la psicología como ciencia propia. Midió cosas como el tiempo de reacción y pidió a personas que describieran con cuidado lo que sentían.",
+    "ideas": [
+      "La mente puede estudiarse con experimentos, como el cuerpo.",
+      "Los pensamientos se pueden analizar en partes simples, como sensaciones y sentimientos.",
+      "Para entender el lenguaje, los mitos y las costumbres hay que estudiar la psicología de los pueblos."
+    ],
+    "curiosidad": "Su laboratorio de Leipzig atrajo a estudiantes de muchos países, y de ahí salieron muchos psicólogos de otros lugares.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Principios de psicología fisiológica",
+        "anio": "1873–1874",
+        "deQueVa": "Un manual para estudiar la mente con experimentos."
+      },
+      {
+        "titulo": "Psicología de los pueblos",
+        "anio": "1900–1920",
+        "deQueVa": "Diez tomos sobre lenguaje, mitos y costumbres."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "william-stanley-jevons",
+    "nombre": "William Stanley Jevons",
+    "fechas": "1835 – 1882",
+    "region": "Inglaterra",
+    "escuela": "Economía marginalista; lógica",
+    "categorias": [
+      "ciencia",
+      "logica",
+      "sociedad"
+    ],
+    "conocidoPor": "Economista y lógico que dijo que el valor depende de cuánto nos sirve la última unidad",
+    "resumen": "Fue un economista y lógico inglés. Dijo que el valor de las cosas depende de cuánto nos sirve una unidad más: el cuarto vaso de agua vale menos que el primero. Avisó de que gastar el carbón con más eficiencia puede aumentar su consumo, un efecto que hoy se llama la [[paradoja de Jevons|paradoja-de-jevons]]. Construyó también una máquina que hacía lógica.",
+    "ideas": [
+      "El valor de algo depende de cuánto nos sirve la última unidad: el primer vaso de agua, con sed, vale mucho; el décimo casi nada.",
+      "Si una máquina gasta menos carbón, se usa más, y el consumo total puede subir.",
+      "La lógica puede hacerse con reglas simples, como la aritmética."
+    ],
+    "curiosidad": "En 1869 construyó un «piano lógico», una máquina mecánica con teclas que resolvía problemas de lógica. Murió ahogado mientras se bañaba, en 1882.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La cuestión del carbón",
+        "anio": "1865",
+        "deQueVa": "Avisa de que Inglaterra puede quedarse sin carbón."
+      },
+      {
+        "titulo": "La teoría de la economía política",
+        "anio": "1871",
+        "deQueVa": "Explica el valor por la utilidad de la última unidad."
+      },
+      {
+        "titulo": "Los principios de la ciencia",
+        "anio": "1874",
+        "deQueVa": "Sobre lógica y método científico."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "t-h-green",
+    "nombre": "Thomas Hill Green",
+    "fechas": "1836 – 1882",
+    "region": "Inglaterra",
+    "escuela": "Idealismo británico; liberalismo social",
+    "categorias": [
+      "politica",
+      "etica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Defender que ser libre no es solo no tener obstáculos, sino poder desarrollarse con otros",
+    "resumen": "Fue un profesor de Oxford que defendió la [[libertad positiva|libertad-positiva]]. Para él, no basta con que nadie te impida hacer algo: hay que tener la posibilidad real de hacer cosas valiosas. Por eso defendió que el Estado debe ayudar con educación y sanidad. Influyó en muchas reformas sociales en Inglaterra.",
+    "ideas": [
+      "La libertad de verdad es poder hacer algo que valga la pena, junto con otros.",
+      "El Estado debe quitar los obstáculos que impiden desarrollarse a la gente, como la ignorancia o la miseria.",
+      "El bien común es la base de la moral: nuestro bien está unido al de los demás."
+    ],
+    "curiosidad": "En su libro sobre Hume criticó duramente a los empiristas y ayudó a que el idealismo dominara Oxford durante años.",
+    "frase": {
+      "texto": "La libertad es un poder positivo o capacidad de hacer o disfrutar algo que merezca la pena hacer o disfrutar.",
+      "fuente": "Legislación liberal y libertad de contrato (1881), traducción libre"
+    },
+    "obras": [
+      {
+        "titulo": "Introducción a Hume",
+        "anio": "1874",
+        "deQueVa": "Critica el empirismo de Hume."
+      },
+      {
+        "titulo": "Lecciones sobre los principios de la obligación política",
+        "anio": "c. 1880",
+        "deQueVa": "Clases publicadas después de su muerte sobre por qué obedecemos al Estado y hasta dónde llegan sus deberes."
+      },
+      {
+        "titulo": "Prolegómenos a la ética",
+        "anio": "1883",
+        "deQueVa": "Su obra sobre moral y libertad, publicada después de su muerte."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "victoria-lady-welby",
+    "nombre": "Victoria Welby",
+    "fechas": "1837 – 1912",
+    "region": "Inglaterra",
+    "escuela": "Significa (estudio del significado)",
+    "categorias": [
+      "lenguaje",
+      "conocimiento",
+      "sociedad"
+    ],
+    "conocidoPor": "Estudiar cómo las palabras adquieren sentido; creó la «significa»",
+    "resumen": "Fue una pensadora inglesa que escribió sobre el significado de las palabras. Quiso entender cómo las palabras adquieren su sentido y cómo nos confundimos al usarlas. Llamó a ese estudio «[[significa]]». Mantuvo correspondencia con filósofos como Peirce y su trabajo influyó en estudios posteriores sobre el lenguaje.",
+    "ideas": [
+      "Una misma palabra puede significar cosas distintas según quién la diga y cuándo.",
+      "Hay que distinguir entre el sentido (cómo se entiende en cada momento), el significado (lo que quiere decir quien habla) y la significación (por qué importa).",
+      "Pensar con claridad sobre las palabras ayuda a pensar con claridad sobre todo."
+    ],
+    "curiosidad": "Mantuvo durante años correspondencia con el filósofo Charles Sanders Peirce, desde 1903.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Granos de sentido",
+        "anio": "1897",
+        "deQueVa": "Sobre cómo el lenguaje da sentido a nuestra experiencia."
+      },
+      {
+        "titulo": "¿Qué es el significado?",
+        "anio": "1903",
+        "deQueVa": "Estudio sobre sentido, significado y significación."
+      },
+      {
+        "titulo": "Significa y lenguaje",
+        "anio": "1911",
+        "deQueVa": "Explica su teoría de la significa."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "franz-brentano",
+    "nombre": "Franz Brentano",
+    "fechas": "1838 – 1917",
+    "region": "Alemania y Austria",
+    "escuela": "Psicología descriptiva; escuela de Brentano",
+    "categorias": [
+      "mente",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Decir que todo acto mental trata siempre de algo: la «intencionalidad»",
+    "resumen": "Fue un sacerdote que dejó el sacerdocio y se hizo filósofo y profesor en Viena. Dijo que lo propio de la mente es que siempre apunta a algo: cuando piensas, piensas en algo; cuando temes, temes algo. Lo llamó «[[intencionalidad]]». Tuvo alumnos famosos, como Husserl y Freud.",
+    "ideas": [
+      "Todo pensamiento, deseo o miedo apunta a algo: no se puede pensar sin pensar en alguna cosa.",
+      "La psicología debe describir con cuidado cómo es la experiencia, antes de explicarla.",
+      "Sabemos que algo es bueno o malo porque lo sentimos como correcto o incorrecto."
+    ],
+    "curiosidad": "Sus clases en Viena atrajeron a futuros famosos: Husserl, Meinong y Freud, entre otros, asistieron a ellas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre los múltiples significados del ser en Aristóteles",
+        "anio": "1862",
+        "deQueVa": "Su tesis sobre cómo Aristóteles entendía «ser»."
+      },
+      {
+        "titulo": "Psicología desde un punto de vista empírico",
+        "anio": "1874",
+        "deQueVa": "Presenta la intencionalidad como rasgo de lo mental."
+      },
+      {
+        "titulo": "El origen del conocimiento moral",
+        "anio": "1889",
+        "deQueVa": "Cómo sabemos lo que está bien."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "edmund-husserl",
+      "alexius-meinong",
+      "carl-stumpf"
+    ]
+  }
+]

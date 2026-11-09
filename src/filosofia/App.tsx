@@ -1,22 +1,63 @@
-import {useCallback, useEffect, useMemo, useState} from 'react';
-import {CATEGORIAS, ERAS, numSiglo, siglo, type CatId, type EraId} from './config';
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import {CAT, CATEGORIAS, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
+import Buscador from './Buscador';
+import {palabras, puntuar, type Sugerencia} from './buscar';
 import LISTA from './datos/lista.json';
 import Ficha from './Ficha';
 import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
-import GLOSARIO from './datos/glosario.json';
 import Pie from '../comun/Pie';
 import Linea from './Linea';
+import Historia from './Historia';
 import Tarjeta from './Tarjeta';
-import type {Filosofo} from './tipos';
+import type {Filosofo, Sexo} from './tipos';
 
 const TODOS = LISTA as unknown as Filosofo[];
 const idDeHash = () => decodeURIComponent(location.hash.slice(1));
-const sinTildes = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+// Palabras de cada filosofo para la busqueda aproximada
+const INDICE = new Map(
+  TODOS.map((f) => [
+    f.id,
+    palabras(`${f.nombre} ${f.escuela ?? ''} ${f.region ?? ''} ${plano(f.conocidoPor)} ${f.categorias.map((c) => CAT[c].nombre).join(' ')}`),
+  ]),
+);
+
+// Lo que se puede sugerir al escribir: filosofos, corrientes, lugares y temas
+const SUGERENCIAS: Sugerencia[] = (() => {
+  const cuenta = (k: 'escuela' | 'region') => {
+    const m = new Map<string, number>();
+    TODOS.forEach((f) => f[k] && m.set(f[k]!, (m.get(f[k]!) ?? 0) + 1));
+    return [...m.entries()];
+  };
+  return [
+    ...TODOS.map((f) => ({
+      texto: f.nombre,
+      tipo: f.sexo === 'mujer' ? 'Filósofa' : f.sexo === 'otro' ? 'Filósofe' : 'Filósofo',
+      detalle: f.fechas,
+      peso: 1000 - (f.fama?.puesto ?? 999) / 10,
+      clave: 'f:' + f.id,
+      palabras: palabras(f.nombre),
+      extra: INDICE.get(f.id),
+    })),
+    ...cuenta('escuela').map(([t, n]) => ({texto: t, tipo: 'Corriente', detalle: `${n}`, peso: n, clave: 'e:' + t, palabras: palabras(t)})),
+    ...cuenta('region').map(([t, n]) => ({texto: t, tipo: 'Lugar', detalle: `${n}`, peso: n, clave: 'r:' + t, palabras: palabras(t)})),
+    ...CATEGORIAS.map((c) => ({texto: c.nombre, tipo: 'Tema', peso: 500, clave: 'c:' + c.id, palabras: palabras(`${c.nombre} ${c.pregunta}`)})),
+  ];
+})();
 
 export default function App() {
   const [era, setEra] = useState<EraId | null>(null);
   const [cats, setCats] = useState<Set<CatId>>(new Set());
   const [q, setQ] = useState('');
+  // El glosario se baja despues de pintar: hasta entonces las palabras salen sin gris
+  const [glosario, setGlosario] = useState<Diccionario>({});
+  useEffect(() => {
+    import('./datos/glosario.json').then((m) => setGlosario(m.default as Diccionario));
+  }, []);
+  const [sexo, setSexo] = useState<Sexo | null>(null);
+  const [famas, setFamas] = useState<Set<number>>(new Set());
+  const [historia, setHistoria] = useState(false);
+  const cerrarHistoria = useCallback(() => setHistoria(false), []);
   const [sel, setSel] = useState<string | null>(() => (TODOS.some((f) => f.id === idDeHash()) ? idDeHash() : null));
 
   // La ficha abierta va en la direccion (#plato), asi se puede compartir y el boton atras la cierra
@@ -41,15 +82,33 @@ export default function App() {
       return n;
     });
 
+  const alternarFama = (n: number) =>
+    setFamas((s) => {
+      const x = new Set(s);
+      x.has(n) ? x.delete(n) : x.add(n);
+      return x;
+    });
+
   const visibles = useMemo(() => {
-    const b = sinTildes(q.trim());
+    const consulta = palabras(q);
     return TODOS.filter(
       (f) =>
         (!era || f.era === era) &&
         (!cats.size || f.categorias.some((c) => cats.has(c))) &&
-        (!b || sinTildes(`${f.nombre} ${f.escuela ?? ''} ${f.region ?? ''} ${plano(f.conocidoPor)}`).includes(b)),
+        (!sexo || f.sexo === sexo) &&
+        (!famas.size || (f.fama && famas.has(f.fama.n))) &&
+        (!consulta.length || puntuar(consulta, INDICE.get(f.id)!) > 0),
     );
-  }, [era, cats, q]);
+  }, [era, cats, q, sexo, famas]);
+
+  const elegirSugerencia = (s: Sugerencia) => {
+    const [tipo, valor] = [s.clave.slice(0, 1), s.clave.slice(2)];
+    if (tipo === 'f') abrir(valor);
+    else if (tipo === 'c') {
+      setCats((x) => new Set(x).add(valor as CatId));
+      setQ('');
+    } else setQ(s.texto);
+  };
   const ids = useMemo(() => new Set(visibles.map((f) => f.id)), [visibles]);
 
   // Por edad y, dentro, por siglo de nacimiento
@@ -63,16 +122,39 @@ export default function App() {
     return {e, suyos, siglos: [...siglos.entries()].sort((a, b) => a[0] - b[0])};
   }).filter((g) => g.suyos.length);
 
+  // Se pintan las tarjetas poco a poco segun se baja: con 750 filosofos, pintarlas todas de golpe pesa
+  const TANDA = 60;
+  const [limite, setLimite] = useState(TANDA);
+  const centinela = useRef<HTMLDivElement>(null);
+  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas]);
+  useEffect(() => {
+    const el = centinela.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([e]) => e.isIntersecting && setLimite((l) => l + TANDA), {rootMargin: '1200px 0px'});
+    io.observe(el);
+    return () => io.disconnect();
+  }, [limite, visibles.length]);
+  let quedan = limite;
+  const pintados = grupos
+    .map((g) => ({
+      ...g,
+      siglos: g.siglos
+        .map(([k, fs]) => {
+          const parte = fs.slice(0, Math.max(0, quedan));
+          quedan -= parte.length;
+          return [k, parte] as [number, Filosofo[]];
+        })
+        .filter(([, fs]) => fs.length),
+    }))
+    .filter((g) => g.siglos.length);
+
   const elegido = TODOS.find((f) => f.id === sel);
-  const filtrando = era || cats.size || q;
+  const filtrando = Boolean(era || cats.size || q || sexo || famas.size);
 
   return (
-    <ProveedorGlosario glosario={GLOSARIO as Diccionario}>
+    <ProveedorGlosario glosario={glosario}>
       <div className="pagina">
         <header className="cabecera">
-          <a href="/" className="volver">
-            ← petramika
-          </a>
           <h1>
             Filosofía <em>comprimida</em>
           </h1>
@@ -83,6 +165,15 @@ export default function App() {
           </p>
         </header>
 
+        <div className="linea-cabeza">
+          <button type="button" className="abrir-historia" onClick={() => setHistoria(true)}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" />
+              <path d="M15.5 15.5 21 21M8 10.5h5M10.5 8v5" />
+            </svg>
+            La historia con lupa
+          </button>
+        </div>
         <Linea todos={TODOS} visibles={ids} era={era} elegirEra={setEra} abrir={abrir} />
 
         <div className="filtros">
@@ -112,8 +203,29 @@ export default function App() {
               </button>
             ))}
           </div>
+          <div className="pills-fila">
+            <div className="pills" role="group" aria-label="Reconocimiento">
+              <span className="pills-titulo">Reconocimiento</span>
+              {FAMAS.map((x) => (
+                <button key={x.n} type="button" className="pill fama" aria-pressed={famas.has(x.n)} title={x.ayuda} onClick={() => alternarFama(x.n)}>
+                  <span className="fama-puntos" aria-hidden="true">
+                    {'●'.repeat(x.n)}
+                  </span>
+                  {x.nombre}
+                </button>
+              ))}
+            </div>
+            <div className="pills" role="group" aria-label="Sexo">
+              <span className="pills-titulo">Sexo</span>
+              {SEXOS.map((x) => (
+                <button key={x.id} type="button" className="pill" aria-pressed={sexo === x.id} onClick={() => setSexo(sexo === x.id ? null : x.id)}>
+                  {x.nombre} <small>{TODOS.filter((f) => f.sexo === x.id).length}</small>
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="filtros-fila">
-            <input type="search" className="buscar" placeholder="Buscar: Kant, estoicismo, Grecia…" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar filósofo" />
+            <Buscador valor={q} cambiar={setQ} todas={SUGERENCIAS} elegir={elegirSugerencia} />
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
             </span>
@@ -125,6 +237,8 @@ export default function App() {
                   setEra(null);
                   setCats(new Set());
                   setQ('');
+                  setSexo(null);
+                  setFamas(new Set());
                 }}
               >
                 Quitar filtros
@@ -135,7 +249,7 @@ export default function App() {
 
         <main>
           {grupos.length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
-          {grupos.map(({e, suyos, siglos}) => (
+          {pintados.map(({e, suyos, siglos}) => (
             <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
               <header className="edad-cabeza">
                 <h2 id={`edad-${e.id}`}>
@@ -162,10 +276,16 @@ export default function App() {
               ))}
             </section>
           ))}
+          {limite < visibles.length && (
+            <div ref={centinela} className="cargando-mas" aria-hidden="true">
+              Cargando más filósofos…
+            </div>
+          )}
         </main>
         <Pie marca="Filosofía" fuente='"Philosopher", Georgia, serif' />
 
       </div>
+      {historia && <Historia todos={TODOS} cerrar={cerrarHistoria} abrir={abrir} />}
       {elegido && <Ficha f={elegido} todos={TODOS} abrir={abrir} cerrar={cerrar} />}
     </ProveedorGlosario>
   );

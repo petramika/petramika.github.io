@@ -1,0 +1,2180 @@
+[
+ {
+  "id": "alvin-goldman",
+  "nombre": "Alvin Goldman",
+  "fechas": "1938 – 2024",
+  "region": "Estados Unidos",
+  "escuela": "Epistemología naturalizada y fiabilismo",
+  "categorias": [
+   "conocimiento",
+   "mente"
+  ],
+  "conocidoPor": "Defender que saber es creer algo verdadero por un camino [[fiable|fiabilismo]]",
+  "resumen": "Alvin Goldman fue un filósofo estadounidense que estudió qué es saber algo. Su idea: no basta con tener razón, hay que haber llegado a la creencia por un camino que suele funcionar, como ver bien o recordar bien. También se preguntó cómo la sociedad (periódicos, expertos, internet) nos ayuda a saber o nos engaña.",
+  "ideas": [
+   "Saber no es solo acertar: si adivinas el resultado de un partido por suerte, no lo sabías. Hace falta un [[camino fiable|fiabilismo]] para llegar a esa creencia.",
+   "La [[epistemología social|epistemologia-social]] estudia cómo conocemos gracias a otros: médicos, testigos, prensa o expertos.",
+   "Para entender el conocimiento conviene mirar cómo funciona de verdad el cerebro, con ayuda de la psicología y la ciencia."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "A Causal Theory of Knowing (Una teoría causal del conocimiento)",
+    "anio": "1967",
+    "deQueVa": "Dice que sabes algo si tu creencia está conectada con el hecho que la hace verdadera."
+   },
+   {
+    "titulo": "Epistemology and Cognition (Epistemología y cognición)",
+    "anio": "1986",
+    "deQueVa": "Une la teoría del conocimiento con lo que sabemos de la mente."
+   },
+   {
+    "titulo": "Knowledge in a Social World (El conocimiento en un mundo social)",
+    "anio": "1999",
+    "deQueVa": "Cómo la sociedad ayuda o estorba a que descubramos la verdad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "tom-beauchamp",
+  "nombre": "Tom Beauchamp",
+  "fechas": "1939 – 2025",
+  "region": "Estados Unidos",
+  "escuela": "Bioética (principialismo)",
+  "categorias": [
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Co-autor de los cuatro principios de la [[bioética|bioetica]] que se usan en hospitales de todo el mundo",
+  "resumen": "Tom Beauchamp fue un filósofo estadounidense que ayudó a crear la ética médica moderna. Con James Childress escribió «Principios de ética biomédica», donde propone cuatro ideas sencillas para decidir qué hacer en casos difíciles, por ejemplo si se puede tratar a un paciente que no quiere.",
+  "ideas": [
+   "Respetar la autonomía: cada persona decide sobre su propio cuerpo, y por eso el médico debe explicarle las cosas y pedir su permiso.",
+   "Los otros tres principios son hacer el bien (beneficencia), no hacer daño (no maleficencia) y repartir con justicia.",
+   "Estos cuatro principios sirven de guía sin imponer una única teoría: es el [[principialismo|principialismo]]."
+  ],
+  "curiosidad": "Trabajó en la comisión estadounidense que redactó el Informe Belmont (1979), un texto básico sobre cómo investigar con personas de forma ética.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Principios de ética biomédica (con James Childress)",
+    "anio": "1979",
+    "deQueVa": "Presenta los cuatro principios para decidir en medicina y en investigación."
+   },
+   {
+    "titulo": "A History and Theory of Informed Consent (Historia y teoría del consentimiento informado)",
+    "anio": "1986",
+    "deQueVa": "Explica por qué el paciente debe entender y aceptar lo que se le hace."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "val-plumwood",
+  "nombre": "Val Plumwood",
+  "fechas": "1939 – 2008",
+  "region": "Australia",
+  "escuela": "Ecofeminismo",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Mostrar que tratar la naturaleza como «inferior» viene de la misma idea que somete a mujeres y pueblos",
+  "resumen": "Val Plumwood fue una filósofa australiana y activista ecologista. Sostenía que Occidente separa la razón de la naturaleza y pone a la primera por encima, y que esa jerarquía justifica dominar a las mujeres, a otros pueblos y a la tierra. Su pensamiento sigue influyendo en la ecología actual.",
+  "ideas": [
+   "Occidente enseña pares como razón/naturaleza u hombre/mujer, y trata el primero como superior. A eso lo llamó [[dualismo|dualismo]] jerárquico.",
+   "Quien domina convierte a lo dominado en algo inferior, sin valor propio. Así pasa con un bosque que solo vale por su madera.",
+   "Somos parte de la naturaleza y dependemos de ella: no estamos por encima de la cadena alimentaria."
+  ],
+  "curiosidad": "En 1985 un cocodrilo la atacó en un parque de Australia y sobrevivió. Contó la experiencia en un texto muy leído sobre ser presa de otro animal.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Feminism and the Mastery of Nature (El feminismo y el dominio de la naturaleza)",
+    "anio": "1993",
+    "deQueVa": "Analiza cómo la idea de dominar la naturaleza se une a la dominación de las mujeres."
+   },
+   {
+    "titulo": "Environmental Culture: The Ecological Crisis of Reason (Cultura ambiental: la crisis ecológica de la razón)",
+    "anio": "2002",
+    "deQueVa": "Propone una forma de pensar y vivir más respetuosa con el entorno."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kendall-walton",
+  "nombre": "Kendall Walton",
+  "fechas": "1939 –",
+  "region": "Estados Unidos",
+  "escuela": "Estética analítica",
+  "categorias": [
+   "estetica",
+   "mente"
+  ],
+  "conocidoPor": "Explicar el arte y las ficciones como un gran juego de «hacer como si»",
+  "resumen": "Kendall Walton es un filósofo estadounidense de la estética. Propone que una novela, una película o un cuadro funcionan como los juegos de los niños: aceptamos jugar a «hacer como si» algo fuera cierto. Con eso explica por qué lloramos con una historia que sabemos inventada.",
+  "ideas": [
+   "Un niño juega a que un tronco es un oso. Con una novela hacemos algo parecido: la historia es el [[juego de ficción|juego-de-ficcion]] y nosotros jugamos.",
+   "Al ver una foto, parece que vemos a la persona a través de ella, no solo una imagen suya.",
+   "Para entender una obra de arte hay que saber a qué categoría pertenece: la misma mancha de color es una cosa en un cuadro y otra en un relieve."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Categories of Art (Categorías del arte)",
+    "anio": "1970",
+    "deQueVa": "Entender una obra depende de en qué grupo de obras la situamos."
+   },
+   {
+    "titulo": "Mimesis as Make-Believe (Mímesis como hacer-creer)",
+    "anio": "1990",
+    "deQueVa": "Su teoría de la ficción como juego de «hacer como si»."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "joseph-raz",
+  "nombre": "Joseph Raz",
+  "fechas": "1939 – 2022",
+  "region": "Israel y Reino Unido",
+  "escuela": "Positivismo jurídico y liberalismo perfeccionista",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Pensar la ley como algo que se identifica por su origen y defender una libertad con opciones valiosas",
+  "resumen": "Joseph Raz fue un filósofo del derecho nacido en Israel que enseñó en Oxford. Estudió por qué debemos obedecer la ley y qué hace que algo sea ley. También defendió que un Estado libre debe ayudar a que la gente tenga muchas opciones buenas entre las que elegir.",
+  "ideas": [
+   "Algo es ley por quién y cómo la ha dictado, no por ser justa. Esa es la idea del [[positivismo jurídico|positivismo-juridico]].",
+   "La autoridad de la ley sirve para ahorrarnos pensar todo desde cero: nos da razones ya pensadas, como un manual de instrucciones.",
+   "Ser libre no es solo que nadie te impida hacer algo: es tener opciones que valgan la pena, y eso lo debe cuidar el Estado."
+  ],
+  "curiosidad": "Fue discípulo de H. L. A. Hart, otro gran filósofo del derecho.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Razón práctica y normas",
+    "anio": "1975",
+    "deQueVa": "Cómo las normas nos dan razones para actuar."
+   },
+   {
+    "titulo": "La autoridad del derecho",
+    "anio": "1979",
+    "deQueVa": "Por qué y cuándo la ley tiene autoridad sobre nosotros."
+   },
+   {
+    "titulo": "The Morality of Freedom (La moralidad de la libertad)",
+    "anio": "1986",
+    "deQueVa": "Su defensa de la libertad con opciones valiosas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "t-m-scanlon",
+  "nombre": "T. M. Scanlon",
+  "fechas": "1940 –",
+  "region": "Estados Unidos",
+  "escuela": "Contractualismo moral",
+  "categorias": [
+   "etica"
+  ],
+  "conocidoPor": "Decir que algo está mal si ninguna persona podría aceptar razonablemente la norma que lo permite",
+  "resumen": "Thomas M. Scanlon es un filósofo estadounidense de Harvard. Su idea central es que la moral consiste en lo que nos debemos unos a otros. Una acción es incorrecta si se basa en reglas que alguien podría rechazar con buenas razones.",
+  "ideas": [
+   "Imagina una norma como «puedes colarte en la cola». Quien espera podría rechazarla con razón, así que colarse está mal.",
+   "La moral es una forma de vivir con los demás justificándonos ante ellos, no solo hacer cuentas de felicidad.",
+   "Este enfoque se llama [[contractualismo|contractualismo]]: las reglas buenas son las que podríamos acordar entre todos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "What We Owe to Each Other (Lo que nos debemos unos a otros)",
+    "anio": "1998",
+    "deQueVa": "Su teoría completa de la moral como justificación ante los demás."
+   },
+   {
+    "titulo": "Why Does Inequality Matter? (Por qué importa la desigualdad)",
+    "anio": "2018",
+    "deQueVa": "Razones por las que las grandes desigualdades son un problema moral."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "carole-pateman",
+  "nombre": "Carole Pateman",
+  "fechas": "1940 –",
+  "region": "Reino Unido",
+  "escuela": "Feminismo y teoría política",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que el [[contrato social|contrato-social]] ocultaba un «contrato sexual» que dejaba a las mujeres abajo",
+  "resumen": "Carole Pateman es una politóloga y filósofa británica. En «El contrato sexual» defendió que las teorías clásicas de la libertad hablaban de hombres libres e iguales, pero daban por hecho que los hombres mandaban sobre las mujeres en casa. También escribió sobre democracia en la que la gente participe más.",
+  "ideas": [
+   "Los filósofos del contrato social decían que todos nacemos libres. Pateman nota que el pacto para mandar sobre las mujeres no se discutía: era el [[contrato sexual|contrato-sexual]].",
+   "El hogar y el matrimonio no son «cosas privadas» al margen de la política: también hay poder ahí.",
+   "La democracia mejora cuando la gente participa de verdad, por ejemplo en su trabajo o su barrio, y no solo vota cada cuatro años."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Participation and Democratic Theory (Participación y teoría democrática)",
+    "anio": "1970",
+    "deQueVa": "Defiende que participar en decisiones educa a la gente y mejora la democracia."
+   },
+   {
+    "titulo": "El contrato sexual",
+    "anio": "1988",
+    "deQueVa": "Su gran crítica feminista a la teoría del contrato social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jean-luc-nancy",
+  "nombre": "Jean-Luc Nancy",
+  "fechas": "1940 – 2021",
+  "region": "Francia",
+  "escuela": "Posestructuralismo",
+  "categorias": [
+   "metafisica",
+   "politica",
+   "existencia"
+  ],
+  "conocidoPor": "Pensar que existir es siempre «estar con» otros: nadie existe del todo solo",
+  "resumen": "Jean-Luc Nancy fue un filósofo francés de Estrasburgo. Defendió que no existimos primero solos y luego nos juntamos: desde el principio somos «con otros». Escribió sobre la comunidad, el cuerpo y el sentido de vivir juntos.",
+  "ideas": [
+   "Nadie es un individuo aislado: ya al nacer estamos entre otros, como en una conversación que empieza antes que nosotros. A eso lo llamó [[ser-con|ser-con]].",
+   "Una comunidad no es un grupo con una esencia común: es un compartir entre personas distintas que no se funden en una sola cosa.",
+   "El cuerpo no es un adorno del pensamiento: tocar y ser tocado es parte de cómo hay sentido."
+  ],
+  "curiosidad": "En 1991 le hicieron un trasplante de corazón. Años después escribió «El intruso», un texto breve sobre cómo vivió tener dentro un órgano ajeno.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La comunidad desobrada",
+    "anio": "1986",
+    "deQueVa": "Pregunta qué puede ser una comunidad sin una identidad común fija."
+   },
+   {
+    "titulo": "Ser singular plural",
+    "anio": "1996",
+    "deQueVa": "Su tesis de que ser es siempre ser con otros."
+   },
+   {
+    "titulo": "El intruso",
+    "anio": "2000",
+    "deQueVa": "Reflexión personal sobre su trasplante de corazón."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ifeanyi-menkiti",
+  "nombre": "Ifeanyi Menkiti",
+  "fechas": "1940 – 2019",
+  "region": "Nigeria",
+  "escuela": "Pensamiento africano comunitario",
+  "categorias": [
+   "sociedad",
+   "etica",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que en el pensamiento africano uno se hace persona dentro de su comunidad",
+  "resumen": "Ifeanyi Menkiti fue un filósofo y poeta nigeriano (igbo) que dio clases en Estados Unidos. Propuso que en muchas tradiciones africanas ser persona no es algo que se tiene al nacer, sino algo que se va logrando con los años al cumplir tus deberes con los demás.",
+  "ideas": [
+   "En esta visión la comunidad va antes que el individuo: aprendes a ser persona gracias a los demás.",
+   "Ser persona no es solo tener cuerpo: es un logro gradual, como crecer y asumir responsabilidades hacia la familia y el grupo.",
+   "Los deberes hacia los demás cuentan más que los derechos individuales, algo que contrasta con la tradición occidental moderna."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Person and Community in Traditional African Thought (Persona y comunidad en el pensamiento tradicional africano)",
+    "anio": "1984",
+    "deQueVa": "Su texto más conocido sobre qué es una persona en la visión comunitaria."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "tu-weiming",
+  "nombre": "Tu Weiming",
+  "fechas": "1940 –",
+  "region": "China y Estados Unidos",
+  "escuela": "Neoconfucianismo contemporáneo",
+  "categorias": [
+   "etica",
+   "religion",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que el [[confucianismo|confucianismo]] tiene mucho que decir al mundo de hoy",
+  "resumen": "Tu Weiming es un filósofo nacido en China que enseñó muchos años en Harvard. Es una de las voces más conocidas del confucianismo actual. Defiende que crecer como persona y cuidar a la familia, la sociedad y la naturaleza van juntos, y que las culturas deben dialogar en vez de chocar.",
+  "ideas": [
+   "Ser persona es un camino de crecimiento que dura toda la vida, empezando por la familia y llegando hasta el mundo entero.",
+   "Las tradiciones religiosas y filosóficas de China, India, Occidente o el islam pueden aprender unas de otras mediante el diálogo.",
+   "El [[confucianismo|confucianismo]] no es solo del pasado: puede ayudar a pensar la modernidad sin copiar a Occidente."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Centrality and Commonality (Centralidad y lo común)",
+    "anio": "1989",
+    "deQueVa": "Sobre la idea confuciana de crecer como persona."
+   },
+   {
+    "titulo": "Confucian Thought: Selfhood as Creative Transformation (Pensamiento confuciano: el yo como transformación creadora)",
+    "anio": "1985",
+    "deQueVa": "Cómo se entiende el cambio personal en el confucianismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "fatema-mernissi",
+  "nombre": "Fatema Mernissi",
+  "fechas": "1940 – 2015",
+  "region": "Marruecos",
+  "escuela": "Feminismo islámico",
+  "categorias": [
+   "sociedad",
+   "religion",
+   "politica"
+  ],
+  "conocidoPor": "Pensadora marroquí que defendió que el islam y los derechos de las mujeres no se oponen",
+  "resumen": "Fatema Mernissi fue una socióloga y escritora marroquí, nacida en Fez. Estudió cómo se usó la religión para mantener a las mujeres sin poder, y buscó en las fuentes del islam otras lecturas más igualitarias. Escribió también recuerdos de su infancia en un harén familiar.",
+  "ideas": [
+   "Muchas normas contra las mujeres vienen de costumbres de cada época y de intereses políticos, no del mensaje original de la religión.",
+   "Releer los textos antiguos con ojos críticos puede mostrar mujeres que tuvieron poder y voz en la historia islámica.",
+   "El miedo a la libertad de las mujeres es también un miedo político al cambio."
+  ],
+  "curiosidad": "En 2003 recibió el Premio Príncipe de Asturias de las Letras, junto a Susan Sontag.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Beyond the Veil (Más allá del velo)",
+    "anio": "1975",
+    "deQueVa": "Estudio sobre la sexualidad y el poder entre hombres y mujeres en sociedades musulmanas."
+   },
+   {
+    "titulo": "El harén político",
+    "anio": "1987",
+    "deQueVa": "Analiza cómo se ha usado la tradición del Profeta contra las mujeres."
+   },
+   {
+    "titulo": "Sueños en el umbral",
+    "anio": "1994",
+    "deQueVa": "Memorias de su infancia en un harén de Fez."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ernest-sosa",
+  "nombre": "Ernest Sosa",
+  "fechas": "1940 –",
+  "region": "Cuba y Estados Unidos",
+  "escuela": "Epistemología de virtudes",
+  "categorias": [
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar el saber como un acierto que sale de una buena capacidad, como el de un buen arquero",
+  "resumen": "Ernest Sosa, nacido en Cuba y profesor en Estados Unidos, es una figura clave de la teoría del conocimiento actual. Defiende que saber es acertar gracias a tus buenas capacidades, y no por pura suerte. Lo compara con el tiro con arco.",
+  "ideas": [
+   "Un arquero puede dar en la diana por suerte o por habilidad. Saber algo es acertar por habilidad, no por casualidad.",
+   "Hay un saber «animal» (ver bien un objeto) y un saber «reflexivo» (entender por qué estás en lo cierto).",
+   "Esto se llama [[epistemología de virtudes|epistemologia-de-virtudes]]: las buenas capacidades de la persona son la base del conocimiento."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "A Virtue Epistemology (Una epistemología de virtudes)",
+    "anio": "2007",
+    "deQueVa": "Su teoría del conocimiento como acierto por capacidad."
+   },
+   {
+    "titulo": "Reflective Knowledge (Conocimiento reflexivo)",
+    "anio": "2009",
+    "deQueVa": "Sobre el saber que sabe por qué sabe."
+   },
+   {
+    "titulo": "Knowing Full Well (Sabiendo bien)",
+    "anio": "2011",
+    "deQueVa": "Continúa su teoría con la idea del arquero."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "quentin-skinner",
+  "nombre": "Quentin Skinner",
+  "fechas": "1940 –",
+  "region": "Reino Unido",
+  "escuela": "Escuela de Cambridge (historia de las ideas)",
+  "categorias": [
+   "politica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Mostrar que para entender un texto antiguo hay que saber qué quería hacer su autor en su época",
+  "resumen": "Quentin Skinner es un historiador de las ideas británico, de Cambridge. Dice que no podemos leer a Maquiavelo o a Hobbes como si hablaran de nuestros problemas: hay que ver qué hacían con sus palabras en su tiempo. También rescató una idea de libertad que se había olvidado.",
+  "ideas": [
+   "Escribir es hacer algo: avisar, criticar, defender. Para entender una obra hay que ver con quién discutía el autor.",
+   "Es un error buscar en los clásicos respuestas a preguntas de hoy sin mirar su contexto.",
+   "La libertad republicana consiste en no depender de la voluntad de otro. Un siervo con amo bueno sigue sin ser libre."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los fundamentos del pensamiento político moderno",
+    "anio": "1978",
+    "deQueVa": "Historia de las ideas políticas desde el Renacimiento hasta la Reforma."
+   },
+   {
+    "titulo": "La libertad antes del liberalismo",
+    "anio": "1998",
+    "deQueVa": "Recupera la idea republicana de libertad."
+   },
+   {
+    "titulo": "Meaning and Understanding in the History of Ideas (Significado y comprensión en la historia de las ideas)",
+    "anio": "1969",
+    "deQueVa": "Artículo clave sobre cómo leer textos antiguos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bas-van-fraassen",
+  "nombre": "Bas van Fraassen",
+  "fechas": "1941 –",
+  "region": "Países Bajos y Estados Unidos",
+  "escuela": "Empirismo constructivo",
+  "categorias": [
+   "ciencia",
+   "conocimiento"
+  ],
+  "conocidoPor": "Decir que la ciencia busca teorías que sirvan para lo que se ve, no una verdad sobre lo invisible",
+  "resumen": "Bas van Fraassen es un filósofo de la ciencia nacido en los Países Bajos. Piensa que cuando la ciencia habla de cosas que no podemos ver, como los electrones, basta con que la teoría funcione con lo que sí observamos. No hace falta creer que es la verdad sobre lo invisible.",
+  "ideas": [
+   "Un mapa es bueno si te lleva a tu destino, aunque no sea el territorio. Con las teorías científicas pasa algo parecido.",
+   "La teoría debe ser [[empíricamente adecuada|empirismo-constructivo]]: encajar con todo lo que se puede observar.",
+   "Podemos usar una teoría sin creer a ciegas todo lo que dice sobre lo que nadie ha visto."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La imagen científica",
+    "anio": "1980",
+    "deQueVa": "Presenta su empirismo constructivo."
+   },
+   {
+    "titulo": "Laws and Symmetry (Leyes y simetría)",
+    "anio": "1989",
+    "deQueVa": "Qué son las leyes de la naturaleza."
+   },
+   {
+    "titulo": "The Empirical Stance (La postura empírica)",
+    "anio": "2002",
+    "deQueVa": "Entiende el empirismo como una actitud y no como una teoría."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "david-lewis",
+  "nombre": "David Lewis",
+  "fechas": "1941 – 2001",
+  "region": "Estados Unidos",
+  "escuela": "Metafísica analítica",
+  "categorias": [
+   "metafisica",
+   "lenguaje",
+   "logica"
+  ],
+  "conocidoPor": "Defender que existen mundos posibles tan reales como el nuestro",
+  "resumen": "David Lewis fue un filósofo estadounidense de Princeton. Es famoso por una idea que sorprende: los otros mundos que imaginamos («si hubiera llovido ayer...») existen de verdad, igual de reales que este. Con ella explicó cosas como «podría haber sido» y «si pasara esto, pasaría aquello».",
+  "ideas": [
+   "Cuando decimos «yo podría haber sido médico», para Lewis hay otro mundo real donde alguien como yo lo es. Esta tesis es el [[realismo modal|realismo-modal]].",
+   "Frases como «si hubieras corrido, habrías llegado» se entienden mirando los [[mundos posibles|mundo-posible]] más parecidos al nuestro.",
+   "Las convenciones, como conducir por la derecha, son acuerdos que todos seguimos porque los demás los siguen."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Convention (Convención)",
+    "anio": "1969",
+    "deQueVa": "Cómo surgen las reglas que todos seguimos sin haberlas firmado."
+   },
+   {
+    "titulo": "Counterfactuals (Contrafácticos)",
+    "anio": "1973",
+    "deQueVa": "Teoría de los «y si hubiera...» con mundos posibles."
+   },
+   {
+    "titulo": "On the Plurality of Worlds (Sobre la pluralidad de mundos)",
+    "anio": "1986",
+    "deQueVa": "Defensa de que los mundos posibles son reales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "onora-o-neill",
+  "nombre": "Onora O'Neill",
+  "fechas": "1941 –",
+  "region": "Reino Unido",
+  "escuela": "Ética kantiana",
+  "categorias": [
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Mostrar que la confianza hay que ganarla, y que la ética de Kant sirve para hablar de justicia hoy",
+  "resumen": "Onora O'Neill es una filósofa británica nacida en Belfast. Trabaja sobre ética, justicia y confianza, y sigue la línea de Kant. Es muy conocida por decir que no hay que pedir que la gente confíe más, sino hacer que los demás sean dignos de confianza.",
+  "ideas": [
+   "La confianza no se exige: se gana. Lo que importa es confiar en quien lo merece, y saber distinguirlo.",
+   "Más normas y controles no siempre crean más honradez: pueden hacer que solo cumplamos el papel.",
+   "Los principios de Kant sirven para pensar deberes hacia todas las personas, también en otros países."
+  ],
+  "curiosidad": "En 2002 dio las conferencias Reith de la BBC con el título «Una cuestión de confianza».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Acting on Principle (Actuar según principios)",
+    "anio": "1975",
+    "deQueVa": "Introducción a la ética de Kant."
+   },
+   {
+    "titulo": "Constructions of Reason (Construcciones de la razón)",
+    "anio": "1989",
+    "deQueVa": "Sobre la razón práctica en Kant."
+   },
+   {
+    "titulo": "Towards Justice and Virtue (Hacia la justicia y la virtud)",
+    "anio": "1996",
+    "deQueVa": "Cómo unir deberes y virtudes."
+   },
+   {
+    "titulo": "A Question of Trust (Una cuestión de confianza)",
+    "anio": "2002",
+    "deQueVa": "Conferencias sobre por qué la confianza se ha vuelto frágil."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "genevieve-lloyd",
+  "nombre": "Genevieve Lloyd",
+  "fechas": "1941 –",
+  "region": "Australia",
+  "escuela": "Filosofía feminista",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Mostrar que el ideal de «razón» en la filosofía se construyó como algo masculino",
+  "resumen": "Genevieve Lloyd es una filósofa australiana. En «El hombre de razón» repasa la historia de la filosofía y muestra que la razón se describió con rasgos «masculinos» y que lo «femenino» se dejó fuera. Esto ayudó a excluir a las mujeres de la filosofía. También ha escrito sobre Spinoza.",
+  "ideas": [
+   "Desde la Antigüedad se dijo que pensar bien era cosa de hombres y que las emociones eran cosa de mujeres.",
+   "Esas imágenes parecen neutras, pero han hecho que se vea a las mujeres como menos capaces de razonar.",
+   "No se trata de quitar la razón, sino de verla de otra manera, sin separarla de los afectos ni del cuerpo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Man of Reason (El hombre de razón)",
+    "anio": "1984",
+    "deQueVa": "Historia de cómo la razón se asoció con lo masculino."
+   },
+   {
+    "titulo": "Spinoza and the Ethics (Spinoza y la Ética)",
+    "anio": "1996",
+    "deQueVa": "Introducción a la obra de Spinoza."
+   },
+   {
+    "titulo": "Being in Time (Ser en el tiempo)",
+    "anio": "1993",
+    "deQueVa": "Sobre cómo la filosofía ha pensado el tiempo y la narración."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "g-a-cohen",
+  "nombre": "Gerald A. Cohen",
+  "fechas": "1941 – 2009",
+  "region": "Canadá y Reino Unido",
+  "escuela": "Marxismo analítico",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Explicar a Marx con rigor lógico y preguntar cómo pueden ser justos los ricos en un mundo desigual",
+  "resumen": "G. A. Cohen fue un filósofo nacido en Montreal que enseñó en Oxford. Quiso explicar el marxismo con la precisión de la filosofía analítica, sin jerga. Más tarde criticó la teoría de justicia de Rawls y defendió que la igualdad pide una forma de vivir, no solo buenas leyes.",
+  "ideas": [
+   "Se puede ser marxista sin oscuridad: se pueden poner las ideas de Marx en frases claras y discutirlas.",
+   "Si de verdad creemos en la igualdad, no basta con impuestos: hay que preguntarse por qué alguien muy rico pide ganar más para trabajar.",
+   "La justicia no depende solo de las leyes, sino también de lo que hacemos cada uno en la vida diaria."
+  ],
+  "curiosidad": "Un libro suyo lleva el título provocador «Si eres igualitarista, ¿cómo es que eres tan rico?» (2000).",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La teoría de la historia de Karl Marx: una defensa",
+    "anio": "1978",
+    "deQueVa": "Reconstruye con claridad las ideas de Marx sobre la historia."
+   },
+   {
+    "titulo": "Self-Ownership, Freedom, and Equality (Autopropiedad, libertad e igualdad)",
+    "anio": "1995",
+    "deQueVa": "Crítica a quienes defienden que cada uno es dueño absoluto de sí y de lo que gana."
+   },
+   {
+    "titulo": "Rescatar la justicia y la igualdad",
+    "anio": "2008",
+    "deQueVa": "Su crítica a Rawls y su idea de justicia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "victoria-camps",
+  "nombre": "Victoria Camps",
+  "fechas": "1941 –",
+  "region": "España",
+  "escuela": "Ética pública y aplicada",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar cómo vivir bien juntos: las virtudes que necesita una sociedad democrática",
+  "resumen": "Victoria Camps es una filósofa española, catedrática en la Universidad Autónoma de Barcelona. Ha llevado la ética a la vida pública: política, medicina, medios y educación. Defiende que una democracia necesita ciudadanos con virtudes cívicas, no solo leyes.",
+  "ideas": [
+   "No basta con obedecer la ley: una sociedad funciona cuando la gente tiene [[virtudes públicas|virtud]] como la honestidad, la solidaridad o el respeto.",
+   "La ética no es solo asunto privado: afecta a cómo se gobierna, cómo se informa y cómo se cuida a los enfermos.",
+   "Hay que educar en valores para vivir con gente muy diferente, sin imponer una sola forma de vivir."
+  ],
+  "curiosidad": "Entre 1993 y 1996 fue senadora por el Partido de los Socialistas de Cataluña, además de catedrática de ética.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Virtudes públicas",
+    "anio": "1990",
+    "deQueVa": "Qué virtudes necesita una sociedad democrática."
+   },
+   {
+    "titulo": "El malestar de la vida pública",
+    "anio": "1996",
+    "deQueVa": "Sobre el desencanto con la política."
+   },
+   {
+    "titulo": "Breve historia de la ética",
+    "anio": "2013",
+    "deQueVa": "Recorrido sencillo por las ideas morales a lo largo del tiempo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jesus-mosterin",
+  "nombre": "Jesús Mosterín",
+  "fechas": "1941 – 2017",
+  "region": "España",
+  "escuela": "Filosofía analítica y de la ciencia",
+  "categorias": [
+   "logica",
+   "ciencia",
+   "etica"
+  ],
+  "conocidoPor": "Llevar la lógica y la ciencia a la filosofía en español y defender los derechos de los animales",
+  "resumen": "Jesús Mosterín fue un filósofo español, nacido en Bilbao y profesor en Barcelona. Escribió sobre lógica, ciencia, cultura y ética. Quiso que la filosofía en español fuera tan clara y rigurosa como la científica, y defendió que los animales merecen respeto.",
+  "ideas": [
+   "La filosofía debe ser clara y poder apoyarse en la ciencia y en la [[lógica|logica]] más que en frases oscuras.",
+   "La cultura humana no es opuesta a la naturaleza: viene de ella, pues somos animales que aprendemos y transmitimos información.",
+   "No es justo causar sufrimiento a los animales solo por tradición o por gusto: eso tiene que ver con el [[especismo]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lógica de primer orden",
+    "anio": "1970",
+    "deQueVa": "Manual de lógica moderna en español."
+   },
+   {
+    "titulo": "Los derechos de los animales",
+    "anio": "1995",
+    "deQueVa": "Por qué los animales merecen consideración moral."
+   },
+   {
+    "titulo": "La cultura de la libertad",
+    "anio": "1995",
+    "deQueVa": "Sobre la libertad y la ciencia en una vida buena."
+   },
+   {
+    "titulo": "Los lógicos",
+    "anio": "2000",
+    "deQueVa": "Historia de grandes lógicos y sus ideas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bolivar-echeverria",
+  "nombre": "Bolívar Echeverría",
+  "fechas": "1941 – 2010",
+  "region": "Ecuador y México",
+  "escuela": "Marxismo latinoamericano",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Pensar el «ethos barroco»: una forma latinoamericana de vivir dentro del capitalismo sin rendirse",
+  "resumen": "Bolívar Echeverría fue un filósofo ecuatoriano que vivió y enseñó en México. Releyó a Marx para entender la cultura, no solo la economía. Propuso que en América Latina el barroco no fue solo un estilo de arte, sino una manera de resistir y de reinventarse bajo la dominación.",
+  "ideas": [
+   "La cultura no es un adorno de la economía: la manera de vivir y celebrar también forma parte de cómo se produce y se reparte.",
+   "El [[ethos barroco|ethos-barroco]] es una forma de vivir donde la gente acepta las reglas del [[capitalismo]] pero las llena de otra vida, fiesta y mezcla.",
+   "El [[mestizaje]] cultural en América Latina fue creación nueva y no solo mezcla pasiva."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El discurso crítico de Marx",
+    "anio": "1986",
+    "deQueVa": "Lectura de Marx desde la cultura y la vida diaria."
+   },
+   {
+    "titulo": "La modernidad de lo barroco",
+    "anio": "1998",
+    "deQueVa": "Su teoría del ethos barroco."
+   },
+   {
+    "titulo": "Definición de la cultura",
+    "anio": "2001",
+    "deQueVa": "Qué es la cultura y cómo se produce."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "v-y-mudimbe",
+  "nombre": "Valentin-Yves Mudimbe",
+  "fechas": "1941 – 2025",
+  "region": "República Democrática del Congo y Estados Unidos",
+  "escuela": "Poscolonialismo y filosofía africana",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "lenguaje"
+  ],
+  "conocidoPor": "Mostrar que la «África» de los libros europeos fue en gran parte inventada por el [[colonialismo]]",
+  "resumen": "V. Y. Mudimbe fue un filósofo, novelista y poeta congoleño que enseñó en Estados Unidos. En «The Invention of Africa» (La invención de África) estudió cómo Europa hizo un saber sobre África que decía más de los europeos que de los africanos, y cómo pensar desde África exige cambiar esas ideas.",
+  "ideas": [
+   "Muchos libros sobre África no la describían, sino que la imaginaban según las ideas de Europa.",
+   "El saber nunca es neutro: quien estudia a otros suele traer sus propios prejuicios y su poder.",
+   "Los africanos pueden y deben pensar su historia con sus propias categorías, sin repetir las ajenas."
+  ],
+  "curiosidad": "Además de filósofo fue novelista y poeta.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Invention of Africa (La invención de África)",
+    "anio": "1988",
+    "deQueVa": "Cómo se creó un saber europeo sobre África."
+   },
+   {
+    "titulo": "The Idea of Africa (La idea de África)",
+    "anio": "1994",
+    "deQueVa": "Continúa con las ideas europeas sobre África."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "john-mcdowell",
+  "nombre": "John McDowell",
+  "fechas": "1942 –",
+  "region": "Sudáfrica, Reino Unido y Estados Unidos",
+  "escuela": "Filosofía analítica (neokantismo)",
+  "categorias": [
+   "mente",
+   "conocimiento",
+   "etica"
+  ],
+  "conocidoPor": "Defender que lo que vemos ya viene con conceptos y que la mente está en contacto directo con el mundo",
+  "resumen": "John McDowell, nacido en Sudáfrica, enseña en Pittsburgh. Su libro «Mente y mundo» sostiene que cuando vemos algo no recibimos solo «datos»: ya lo entendemos. Así, la mente no está encerrada dentro de la cabeza y puede estar en contacto con cómo son realmente las cosas.",
+  "ideas": [
+   "Cuando ves un árbol, ya ves «un árbol»: no ves primero manchas verdes y luego deduces el árbol.",
+   "Si la mente solo tuviera imágenes internas, no podríamos estar seguros del mundo. Él dice que sí lo tocamos directamente.",
+   "Una persona buena ve lo que importa en una situación, como ve el dolor de un amigo, sin hacer cálculos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Mente y mundo",
+    "anio": "1994",
+    "deQueVa": "Cómo la mente se relaciona con el mundo."
+   },
+   {
+    "titulo": "Virtue and Reason (Virtud y razón)",
+    "anio": "1979",
+    "deQueVa": "Artículo sobre cómo la persona virtuosa percibe lo que importa."
+   },
+   {
+    "titulo": "Values and Secondary Qualities (Valores y cualidades secundarias)",
+    "anio": "1985",
+    "deQueVa": "Sobre si los valores son parte del mundo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "crispin-wright",
+  "nombre": "Crispin Wright",
+  "fechas": "1942 –",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica del lenguaje y las matemáticas",
+  "categorias": [
+   "lenguaje",
+   "logica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Preguntar cuándo una frase es «verdadera» de verdad y cómo se fundan los números",
+  "resumen": "Crispin Wright es un filósofo británico, profesor en Escocia y Nueva York. Estudia qué queremos decir cuando afirmamos que algo es verdad y si los números pueden apoyarse solo en la lógica. Es de los grandes nombres actuales en filosofía del lenguaje.",
+  "ideas": [
+   "¿Qué significa decir que un chiste es gracioso o que una acción es mala? ¿Hay un hecho ahí o solo opinión? Wright da criterios para decidirlo.",
+   "Intentó apoyar la aritmética en principios casi de pura lógica: ese plan se llama [[neologicismo]].",
+   "Para él, no podemos demostrar que no soñamos, pero eso no impide confiar en lo que vemos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Wittgenstein on the Foundations of Mathematics (Wittgenstein sobre los fundamentos de las matemáticas)",
+    "anio": "1980",
+    "deQueVa": "Lectura crítica de Wittgenstein sobre las matemáticas."
+   },
+   {
+    "titulo": "Frege's Conception of Numbers as Objects (La concepción fregeana de los números como objetos)",
+    "anio": "1983",
+    "deQueVa": "Defensa del neologicismo."
+   },
+   {
+    "titulo": "Truth and Objectivity (Verdad y objetividad)",
+    "anio": "1992",
+    "deQueVa": "Cuándo una afirmación puede ser objetivamente verdadera."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "peter-van-inwagen",
+  "nombre": "Peter van Inwagen",
+  "fechas": "1942 –",
+  "region": "Estados Unidos",
+  "escuela": "Metafísica analítica",
+  "categorias": [
+   "metafisica",
+   "religion"
+  ],
+  "conocidoPor": "Argumentar que, si todo está determinado, no tendríamos [[libertad|libre-albedrio]] de verdad",
+  "resumen": "Peter van Inwagen es un filósofo estadounidense, profesor en Notre Dame, y cristiano. Es conocido por el argumento de la consecuencia, que dice que si todo lo que haces estuviera fijado desde antes de que nacieras, no serías libre. Cree que somos libres, así que concluye que no todo está fijado.",
+  "ideas": [
+   "Si el pasado y las leyes de la naturaleza deciden todo, entonces lo que haces no depende de ti: es el [[argumento de la consecuencia|argumento-de-la-consecuencia]].",
+   "Su conclusión es que nuestra libertad es real, aunque no sepamos explicar del todo cómo funciona.",
+   "Piensa que solo existen de verdad cosas como los seres vivos y las partículas básicas, no mesas ni sillas como objetos reales."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "An Essay on Free Will (Un ensayo sobre la libertad de la voluntad)",
+    "anio": "1983",
+    "deQueVa": "Su defensa de que la libertad es incompatible con el determinismo."
+   },
+   {
+    "titulo": "Material Beings (Seres materiales)",
+    "anio": "1990",
+    "deQueVa": "Qué cosas existen y cuándo varias partes forman un objeto."
+   },
+   {
+    "titulo": "Metaphysics (Metafísica)",
+    "anio": "1993",
+    "deQueVa": "Manual de introducción."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ned-block",
+  "nombre": "Ned Block",
+  "fechas": "1942 –",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía de la mente",
+  "categorias": [
+   "mente",
+   "ciencia"
+  ],
+  "conocidoPor": "Distinguir entre usar información y sentir algo, y criticar la idea de que la mente es solo un programa",
+  "resumen": "Ned Block es un filósofo estadounidense de la mente, profesor en Nueva York. Es conocido por separar dos cosas: la conciencia que sirve para pensar y actuar, y la conciencia de sentir cómo es algo. También criticó con un ejemplo muy gráfico la idea de que una mente es solo un programa.",
+  "ideas": [
+   "Una cosa es usar información (reconocer una cara) y otra distinta es sentir cómo es verla. Block llama a la segunda conciencia [[fenoménica|conciencia-fenomenica]].",
+   "Imagina que toda la población de China se coordinara por radio para imitar un cerebro: ¿tendría mente? Con este caso criticó el [[funcionalismo]].",
+   "Para estudiar la conciencia hay que separar lo que podemos medir de lo que se siente."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Troubles with Functionalism (Problemas del funcionalismo)",
+    "anio": "1978",
+    "deQueVa": "Incluye el ejemplo de la nación china."
+   },
+   {
+    "titulo": "On a Confusion about a Function of Consciousness (Sobre una confusión acerca de la función de la conciencia)",
+    "anio": "1995",
+    "deQueVa": "Separa conciencia de acceso y conciencia fenoménica."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "paul-churchland",
+  "nombre": "Paul Churchland",
+  "fechas": "1942 –",
+  "region": "Canadá y Estados Unidos",
+  "escuela": "Neurofilosofía",
+  "categorias": [
+   "mente",
+   "ciencia"
+  ],
+  "conocidoPor": "Defender que la neurociencia acabará cambiando cómo hablamos de la mente: creencias y deseos podrían desaparecer",
+  "resumen": "Paul Churchland, canadiense y profesor en California, defendió que muchas palabras con las que hablamos de la mente, como creer o desear, son teorías populares que quizás la ciencia sustituya. Cree que entenderemos mejor la mente estudiando el cerebro. Su pareja, Patricia Churchland, también es filósofa.",
+  "ideas": [
+   "Hablamos de creencias y deseos como antes se hablaba de espíritus o de humores: una explicación popular que puede ser errónea.",
+   "Esta idea se llama [[materialismo eliminativo|materialismo-eliminativo]]: la ciencia del cerebro podría reemplazar esas palabras.",
+   "Para entender cómo pensamos hay que mirar las redes de neuronas y no solo reglas como las de una frase."
+  ],
+  "curiosidad": "Está casado con Patricia Churchland, también filósofa de la mente y del cerebro.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Scientific Realism and the Plasticity of Mind (Realismo científico y plasticidad de la mente)",
+    "anio": "1979",
+    "deQueVa": "Cómo el lenguaje de la mente puede cambiar con la ciencia."
+   },
+   {
+    "titulo": "Materia y conciencia",
+    "anio": "1984",
+    "deQueVa": "Introducción a la filosofía de la mente."
+   },
+   {
+    "titulo": "El motor de la razón, la sede del alma",
+    "anio": "1995",
+    "deQueVa": "Explica cómo el cerebro piensa."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "etienne-balibar",
+  "nombre": "Étienne Balibar",
+  "fechas": "1942 –",
+  "region": "Francia",
+  "escuela": "Marxismo y filosofía política",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar la ciudadanía, las fronteras y el racismo desde Marx y la igualdad",
+  "resumen": "Étienne Balibar es un filósofo francés, discípulo de Althusser. Co-escribió «Para leer El capital» y luego se centró en la ciudadanía, el racismo, la nación y las fronteras de Europa. Defiende que la libertad y la igualdad van siempre juntas.",
+  "ideas": [
+   "Libertad e igualdad no se pueden separar: acuñó la palabra «igualibertad» para decirlo.",
+   "El racismo moderno no depende solo de la raza: cambia de forma, y hoy usa a veces la «cultura» o el origen como excusa.",
+   "Las fronteras no solo separan países: también separan a la gente dentro de las ciudades."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Para leer El capital (con Althusser y otros)",
+    "anio": "1965",
+    "deQueVa": "Lectura colectiva de la obra de Marx."
+   },
+   {
+    "titulo": "Raza, nación, clase (con Immanuel Wallerstein)",
+    "anio": "1988",
+    "deQueVa": "Estudio de las identidades modernas y el racismo."
+   },
+   {
+    "titulo": "Nosotros, ¿ciudadanos de Europa?",
+    "anio": "2001",
+    "deQueVa": "Sobre las fronteras y la ciudadanía europea."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eugenio-trias-sagnier",
+  "nombre": "Eugenio Trías",
+  "fechas": "1942 – 2013",
+  "region": "España",
+  "escuela": "Filosofía del límite",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "estetica"
+  ],
+  "conocidoPor": "Pensar que vivimos en una «frontera» entre lo conocido y el misterio",
+  "resumen": "Eugenio Trías fue un filósofo de Barcelona. Propuso que los humanos vivimos en una frontera: sabemos algo del mundo, pero más allá hay un misterio que no podemos conocer del todo. Escribió sobre arte, música, religión y el sentido de vivir.",
+  "ideas": [
+   "Vivimos en una línea entre lo que entendemos y lo que nos supera: él la llamó «el límite».",
+   "El arte y la religión ayudan a acercarnos a ese [[misterio]] sin pretender explicarlo todo.",
+   "Los [[símbolos|simbolo]] ayudan a vivir en el límite: unen lo visible con lo que no podemos ver."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía y su sombra",
+    "anio": "1969",
+    "deQueVa": "Sobre lo que la filosofía deja fuera."
+   },
+   {
+    "titulo": "Lo bello y lo siniestro",
+    "anio": "1982",
+    "deQueVa": "Relación entre belleza y horror en el arte."
+   },
+   {
+    "titulo": "Lógica del límite",
+    "anio": "1991",
+    "deQueVa": "Su sistema de filosofía de la frontera."
+   },
+   {
+    "titulo": "La razón fronteriza",
+    "anio": "1999",
+    "deQueVa": "Desarrolla el pensamiento del límite."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gloria-anzaldua",
+  "nombre": "Gloria Anzaldúa",
+  "fechas": "1942 – 2004",
+  "region": "Estados Unidos (frontera con México)",
+  "escuela": "Pensamiento chicano y feminista",
+  "categorias": [
+   "sociedad",
+   "existencia",
+   "lenguaje"
+  ],
+  "conocidoPor": "Pensar la vida «en la frontera»: entre dos culturas, dos lenguas y dos identidades",
+  "resumen": "Gloria Anzaldúa fue una escritora y pensadora chicana lesbiana, nacida en Texas, junto a la frontera con México. Habló de lo que se siente al vivir entre dos mundos, el inglés y el español, lo mexicano y lo estadounidense. Mezcló ensayo, poesía y memoria.",
+  "ideas": [
+   "Quien vive entre dos culturas no tiene por qué elegir una: puede ser algo nuevo con partes de ambas, la [[conciencia mestiza|conciencia-mestiza]].",
+   "La frontera no es solo una línea en el mapa: también está dentro de las personas y en el lenguaje.",
+   "Escribir en una mezcla de inglés y español es una forma de existir y de resistir."
+  ],
+  "curiosidad": "Coeditó «Esta puente, mi espalda», un libro clave de feministas de color.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Esta puente, mi espalda (con Cherríe Moraga)",
+    "anio": "1981",
+    "deQueVa": "Textos de mujeres de color sobre su vida y sus luchas."
+   },
+   {
+    "titulo": "Borderlands/La Frontera: la nueva mestiza",
+    "anio": "1987",
+    "deQueVa": "Su obra principal, mezcla de ensayo y poesía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "paulin-j-hountondji",
+  "nombre": "Paulin Hountondji",
+  "fechas": "1942 – 2024",
+  "region": "Benín",
+  "escuela": "Filosofía africana crítica",
+  "categorias": [
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que la filosofía africana es la que escriben filósofos africanos, no un pensamiento común «de toda África»",
+  "resumen": "Paulin Hountondji fue un filósofo de Benín. Criticó la «[[etnofilosofía|etnofilosofia]]», que describe las creencias de un pueblo como si fueran una filosofía colectiva. Para él, filosofar es discutir y argumentar, y eso lo hacen personas concretas, también en África.",
+  "ideas": [
+   "La filosofía no es una visión del mundo compartida por todo un pueblo: es un debate entre personas que razonan.",
+   "Decir que los africanos tienen «una sola filosofía» los trata como un grupo sin voces propias.",
+   "África debe producir su propio saber científico y no limitarse a proveer materias primas e ideas a otros."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sur la «philosophie africaine»: critique de l'ethnophilosophie (Sobre la «filosofía africana»: crítica de la etnofilosofía)",
+    "anio": "1976",
+    "deQueVa": "Su crítica a la etnofilosofía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "frank-cameron-jackson",
+  "nombre": "Frank Jackson",
+  "fechas": "1943 –",
+  "region": "Australia",
+  "escuela": "Filosofía analítica de la mente",
+  "categorias": [
+   "mente",
+   "metafisica"
+  ],
+  "conocidoPor": "Inventar el caso de Mary, que sabe todo sobre el color pero nunca lo ha visto",
+  "resumen": "Frank Jackson es un filósofo australiano. Es famoso por un experimento mental: Mary, una científica que lo sabe todo sobre cómo vemos el color, pero ha vivido siempre en una habitación en blanco y negro. ¿Aprende algo nuevo cuando ve el rojo? Con eso quiso mostrar que la mente no se reduce a datos físicos.",
+  "ideas": [
+   "Saber todo sobre cómo funciona la vista no es lo mismo que ver el rojo: Mary aprendería algo nuevo al salir de su habitación. Es el [[argumento del conocimiento|argumento-del-conocimiento]].",
+   "Si eso es cierto, hay cosas de la mente, como lo que se siente al ver rojo, que la física sola no explica.",
+   "Más tarde cambió de opinión y dejó de defender esa conclusión, algo poco común entre filósofos famosos."
+  ],
+  "curiosidad": "Después de usar su caso para defender que la mente no es solo física, él mismo dejó de aceptar ese argumento.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Epiphenomenal Qualia (Qualia epifenoménicos)",
+    "anio": "1982",
+    "deQueVa": "Presenta el caso de Mary."
+   },
+   {
+    "titulo": "What Mary Didn't Know (Lo que Mary no sabía)",
+    "anio": "1986",
+    "deQueVa": "Aclara el argumento del conocimiento."
+   },
+   {
+    "titulo": "From Metaphysics to Ethics (De la metafísica a la ética)",
+    "anio": "1998",
+    "deQueVa": "Cómo encajar los valores en un mundo físico."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "andrew-feenberg",
+  "nombre": "Andrew Feenberg",
+  "fechas": "1943 –",
+  "region": "Estados Unidos y Canadá",
+  "escuela": "Teoría crítica de la tecnología",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "ciencia"
+  ],
+  "conocidoPor": "Defender que la tecnología no es neutral y que la gente puede cambiar cómo se diseña",
+  "resumen": "Andrew Feenberg es un filósofo estadounidense que enseña en Canadá. Fue alumno de Herbert Marcuse. Dice que las máquinas y las redes no son neutras, porque llevan dentro decisiones humanas. Por eso la gente corriente puede exigir que se diseñen de otro modo.",
+  "ideas": [
+   "Una herramienta no es solo «útil»: según cómo se diseñe, favorece a unos y perjudica a otros.",
+   "Los usuarios pueden cambiar la tecnología, como cuando los pacientes con sida lograron que se investigara de otra forma.",
+   "Se trata de democratizar la tecnología: que no la decidan solo empresas y expertos."
+  ],
+  "curiosidad": "Fue alumno de Herbert Marcuse, uno de los filósofos de la Escuela de Fráncfort.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Critical Theory of Technology (Teoría crítica de la tecnología)",
+    "anio": "1991",
+    "deQueVa": "Su propuesta de cómo pensar la tecnología desde la política."
+   },
+   {
+    "titulo": "Questioning Technology (Cuestionando la tecnología)",
+    "anio": "1999",
+    "deQueVa": "Introducción a la filosofía de la tecnología."
+   },
+   {
+    "titulo": "Transforming Technology (Transformando la tecnología)",
+    "anio": "2002",
+    "deQueVa": "Sobre cómo la sociedad puede cambiar la tecnología."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "n-katherine-hayles",
+  "nombre": "N. Katherine Hayles",
+  "fechas": "1943 –",
+  "region": "Estados Unidos",
+  "escuela": "Posthumanismo",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Preguntar qué pasa con el cuerpo y la mente cuando vivimos rodeados de ordenadores",
+  "resumen": "N. Katherine Hayles es una pensadora estadounidense que une literatura, ciencia y tecnología. Estudió química antes de dedicarse a las humanidades. En «Cómo nos hicimos poshumanos» critica la idea de que la mente puede separarse del cuerpo y vivir dentro de un ordenador.",
+  "ideas": [
+   "La mente no es solo información: depende de tener un cuerpo y de vivir en un entorno.",
+   "Lo [[posthumano|posthumanismo]] no es dejar de ser personas, sino repensar qué significa serlo con las máquinas.",
+   "Leer en pantalla y leer en papel cambian la manera de atender y pensar."
+  ],
+  "curiosidad": "Antes de dedicarse a la literatura y la filosofía, estudió química.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "How We Became Posthuman (Cómo nos hicimos poshumanos)",
+    "anio": "1999",
+    "deQueVa": "Historia de la idea de que somos información."
+   },
+   {
+    "titulo": "My Mother Was a Computer (Mi madre era un ordenador)",
+    "anio": "2005",
+    "deQueVa": "Cómo las máquinas y los textos se influyen mutuamente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "helen-longino",
+  "nombre": "Helen Longino",
+  "fechas": "1944 –",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía feminista de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que la ciencia es objetiva gracias a la crítica entre muchas personas distintas",
+  "resumen": "Helen Longino es una filósofa estadounidense de la ciencia, profesora en Stanford. Sostiene que la ciencia no es objetiva porque cada científico sea neutral, sino porque trabaja en comunidades donde se critican unos a otros. Y esas comunidades deben incluir voces diversas.",
+  "ideas": [
+   "Ningún científico está libre de prejuicios, pero la crítica de otros ayuda a descubrirlos.",
+   "Para que esa crítica funcione, la comunidad científica debe ser abierta y diversa, no un club cerrado.",
+   "Los valores sociales influyen en la ciencia, así que es mejor reconocerlos que fingir que no existen."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Science as Social Knowledge (La ciencia como conocimiento social)",
+    "anio": "1990",
+    "deQueVa": "Su teoría de la objetividad como proceso social."
+   },
+   {
+    "titulo": "The Fate of Knowledge (El destino del conocimiento)",
+    "anio": "2002",
+    "deQueVa": "Sobre cómo conocemos en comunidad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "nancy-cartwright",
+  "nombre": "Nancy Cartwright",
+  "fechas": "1944 –",
+  "region": "Estados Unidos y Reino Unido",
+  "escuela": "Filosofía de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento"
+  ],
+  "conocidoPor": "Sostener que las leyes de la física son verdad solo en condiciones ideales, no en el mundo real",
+  "resumen": "Nancy Cartwright es una filósofa de la ciencia estadounidense. Su libro «Cómo mienten las leyes de la física» defiende que las leyes se cumplen de verdad solo en situaciones preparadas, y que el mundo real es un mosaico de cosas distintas. Eso importa al decidir políticas con ayuda de datos.",
+  "ideas": [
+   "Una ley dice que una pelota cae igual que otra, pero en la vida real el aire, el viento y la forma lo cambian. La ley es verdad en condiciones ideales.",
+   "El mundo no está regido por una sola gran teoría: es más bien un mosaico, con reglas distintas en cada zona.",
+   "Que algo funcione en un estudio no garantiza que funcione en tu ciudad: hay que saber qué otras cosas intervienen."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "How the Laws of Physics Lie (Cómo mienten las leyes de la física)",
+    "anio": "1983",
+    "deQueVa": "Defiende que las leyes son idealizaciones."
+   },
+   {
+    "titulo": "Nature's Capacities and Their Measurement (Capacidades de la naturaleza y su medición)",
+    "anio": "1989",
+    "deQueVa": "Sobre los poderes causales de las cosas."
+   },
+   {
+    "titulo": "The Dappled World (El mundo moteado)",
+    "anio": "1999",
+    "deQueVa": "Su visión de una ciencia con leyes locales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "simon-blackburn",
+  "nombre": "Simon Blackburn",
+  "fechas": "1944 –",
+  "region": "Reino Unido",
+  "escuela": "Cuasi-realismo moral",
+  "categorias": [
+   "etica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Sostener que los juicios morales expresan nuestros sentimientos pero aun así podemos hablar de verdad y error",
+  "resumen": "Simon Blackburn es un filósofo británico muy conocido por divulgar la filosofía. Propone que cuando decimos «robar está mal» expresamos lo que sentimos, pero no por eso todo es opinión: podemos razonar y mejorar nuestros juicios. Ha escrito libros muy accesibles.",
+  "ideas": [
+   "Decir «eso está mal» se parece más a mostrar tu actitud que a describir un hecho como «llueve».",
+   "Aun así podemos hablar de verdades morales y equivocarnos: lo llama [[cuasi-realismo|cuasi-realismo]].",
+   "La ética no necesita fundamentos misteriosos: sale de lo que nos importa y de cómo lo discutimos."
+  ],
+  "curiosidad": "Escribió el Diccionario Oxford de Filosofía y varios libros de divulgación, como «Pensar» y «Verdad».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Spreading the Word (Difundiendo la palabra)",
+    "anio": "1984",
+    "deQueVa": "Sobre el lenguaje, la verdad y los valores."
+   },
+   {
+    "titulo": "Ruling Passions (Pasiones que mandan)",
+    "anio": "1998",
+    "deQueVa": "Su teoría de la ética."
+   },
+   {
+    "titulo": "Pensar",
+    "anio": "1999",
+    "deQueVa": "Introducción a la filosofía para todos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "langdon-winner",
+  "nombre": "Langdon Winner",
+  "fechas": "1944 –",
+  "region": "Estados Unidos",
+  "escuela": "Estudios de ciencia, tecnología y sociedad",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "ciencia"
+  ],
+  "conocidoPor": "Preguntar si los objetos y técnicas tienen política: si un puente o una máquina favorecen a unos sobre otros",
+  "resumen": "Langdon Winner es un filósofo político estadounidense que estudia la tecnología. Su artículo «¿Tienen política los artefactos?» dice que algunas técnicas favorecen cierta forma de poder. Nos invita a preguntar quién decide cómo son las cosas y a quién benefician.",
+  "ideas": [
+   "Una técnica no es solo una herramienta: puede reforzar formas de poder, igual que un diseño puede dejar fuera a algunos.",
+   "Winner cuenta que ciertos puentes bajos en Nueva York se construyeron para impedir el paso de autobuses con gente pobre. Otros investigadores han discutido que fuera así.",
+   "Antes de adoptar una tecnología conviene preguntar quién la decide y a quién beneficia."
+  ],
+  "curiosidad": "Su ejemplo de los puentes de Long Island es muy famoso, pero algunos historiadores dudan de que ocurriera tal como él lo cuenta.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Autonomous Technology (Tecnología autónoma)",
+    "anio": "1977",
+    "deQueVa": "Cómo la técnica parece escapar al control humano."
+   },
+   {
+    "titulo": "Do Artifacts Have Politics? (¿Tienen política los artefactos?)",
+    "anio": "1980",
+    "deQueVa": "Artículo clave sobre tecnología y poder."
+   },
+   {
+    "titulo": "La ballena y el reactor",
+    "anio": "1986",
+    "deQueVa": "Sobre cómo decidimos sobre la tecnología."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "roger-scruton",
+  "nombre": "Roger Scruton",
+  "fechas": "1944 – 2020",
+  "region": "Reino Unido",
+  "escuela": "Conservadurismo y estética",
+  "categorias": [
+   "estetica",
+   "politica"
+  ],
+  "conocidoPor": "Defender un [[conservadurismo]] ilustrado y la idea de que la belleza importa",
+  "resumen": "Roger Scruton fue un filósofo británico conservador que escribió sobre arte, música, arquitectura y política. Sostuvo que las costumbres y las instituciones heredadas guardan sabiduría, y que la belleza no es cuestión de gustos, sino algo que da sentido a nuestra vida.",
+  "ideas": [
+   "Las costumbres e instituciones que heredamos guardan sabiduría: conviene cambiarlas con cuidado, no a lo loco.",
+   "La belleza no es una simple preferencia: en arquitectura y arte revela cómo queremos vivir juntos.",
+   "Una vida buena necesita sentirse en casa: pertenecer a un lugar y a una comunidad."
+  ],
+  "curiosidad": "Además de filósofo, escribió sobre vino y compuso música.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Aesthetics of Architecture (La estética de la arquitectura)",
+    "anio": "1979",
+    "deQueVa": "Cómo entendemos y valoramos los edificios."
+   },
+   {
+    "titulo": "The Meaning of Conservatism (El significado del conservadurismo)",
+    "anio": "1980",
+    "deQueVa": "Defensa filosófica de la tradición."
+   },
+   {
+    "titulo": "Sexual Desire (Deseo sexual)",
+    "anio": "1986",
+    "deQueVa": "Reflexión sobre el deseo y la vida moral."
+   },
+   {
+    "titulo": "Beauty (Belleza)",
+    "anio": "2009",
+    "deQueVa": "Por qué importa la belleza."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "maria-lugones",
+  "nombre": "María Lugones",
+  "fechas": "1944 – 2020",
+  "region": "Argentina y Estados Unidos",
+  "escuela": "Feminismo descolonial",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Mostrar que el colonialismo impuso una idea de género y raza que aún nos organiza",
+  "resumen": "María Lugones fue una filósofa argentina que vivió y enseñó en Estados Unidos. Sostuvo que, al colonizar América, los europeos impusieron sus ideas de hombre, mujer y raza, y destruyeron otras formas de organizar la vida de los pueblos. De ahí vino el feminismo descolonial.",
+  "ideas": [
+   "Antes de la colonización, muchos pueblos no organizaban la vida solo en hombres y mujeres como en Europa. Ese sistema se impuso con la fuerza.",
+   "La colonialidad del género une la raza, el género y el poder: no se entiende uno sin los otros.",
+   "Propuso «viajar a los mundos» de otras personas con cariño y curiosidad, para entenderlas de verdad."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Playfulness, «World»-Travelling, and Loving Perception (Juego, viaje por los «mundos» y percepción amorosa)",
+    "anio": "1987",
+    "deQueVa": "Sobre cómo entender a las personas de otras culturas con cariño."
+   },
+   {
+    "titulo": "Peregrinajes",
+    "anio": "2003",
+    "deQueVa": "Reúne sus textos sobre feminismo y teoría."
+   },
+   {
+    "titulo": "Colonialidad y género",
+    "anio": "2008",
+    "deQueVa": "Su tesis central sobre género y colonialismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "henry-odera-oruka",
+  "nombre": "Henry Odera Oruka",
+  "fechas": "1944 – 1995",
+  "region": "Kenia",
+  "escuela": "Filosofía de la sagacidad (Sage Philosophy)",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Buscar a los «sabios» de las aldeas africanas que piensan con espíritu crítico, sin haber ido a la universidad",
+  "resumen": "Henry Odera Oruka fue un filósofo keniano de la Universidad de Nairobi. Entrevistó a personas mayores sabias de distintas comunidades de Kenia para mostrar que la filosofía crítica también existe entre quienes no han estudiado en escuelas occidentales. Llamó a esto filosofía de la sagacidad.",
+  "ideas": [
+   "Hay personas sabias en las comunidades que piensan por sí mismas y cuestionan las tradiciones, no solo las repiten.",
+   "Eso demuestra que la filosofía no es solo de universidades: también la hace gente de aldea.",
+   "Distinguió entre la sabiduría popular que todos repiten y la sagacidad crítica de quienes razonan de manera personal."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sage Philosophy (Filosofía de la sagacidad)",
+    "anio": "1990",
+    "deQueVa": "Su estudio y entrevistas con sabios kenianos."
+   },
+   {
+    "titulo": "Four Trends in Current African Philosophy (Cuatro corrientes de la filosofía africana actual)",
+    "anio": "1978",
+    "deQueVa": "Mapa de las grandes corrientes de la filosofía africana."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "celia-amoros",
+  "nombre": "Celia Amorós",
+  "fechas": "1944 –",
+  "region": "España",
+  "escuela": "Feminismo filosófico ilustrado",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Pensar el feminismo como hijo de la [[Ilustración|ilustracion]]: pedir para las mujeres la igualdad que ya se pedía para los hombres",
+  "resumen": "Celia Amorós es una filósofa española nacida en Valencia y catedrática en la UNED. Es una de las figuras principales del feminismo filosófico en español. Piensa que el feminismo es heredero de la Ilustración y que la razón, usada bien, debe servir a todas las personas.",
+  "ideas": [
+   "La Ilustración dijo que todos somos iguales, pero dejó fuera a las mujeres. El feminismo reclama que esa promesa valga para todos.",
+   "Para entender la opresión de las mujeres hay que analizar cómo el poder y las ideas la sostienen.",
+   "Los hombres tenían espacios de poder compartido y las mujeres no. Ella pide que las mujeres tengan los suyos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Hacia una crítica de la razón patriarcal",
+    "anio": "1985",
+    "deQueVa": "Estudia cómo la razón se ha usado para justificar el dominio masculino."
+   },
+   {
+    "titulo": "Feminismo: igualdad y diferencia",
+    "anio": "1994",
+    "deQueVa": "Sobre los debates dentro del feminismo."
+   },
+   {
+    "titulo": "Tiempo de feminismo",
+    "anio": "1997",
+    "deQueVa": "Sobre la historia y el futuro del movimiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "taha-abdurrahman",
+  "nombre": "Taha Abderrahmán",
+  "fechas": "1944 –",
+  "region": "Marruecos",
+  "escuela": "Filosofía islámica contemporánea",
+  "categorias": [
+   "etica",
+   "religion",
+   "lenguaje"
+  ],
+  "conocidoPor": "Defender una modernidad con raíz islámica en la que la ética es central",
+  "resumen": "Taha Abderrahmán es un filósofo marroquí, de la Universidad Mohammed V de Rabat. Estudió lógica y lenguaje y escribió sobre ética y religión. Defiende que los musulmanes pueden construir su propia modernidad desde su tradición, en vez de copiar a Occidente.",
+  "ideas": [
+   "La ética debe ir primero: la razón sin valores puede ser fría y dañina.",
+   "La lógica y el lenguaje de la tradición árabe sirven para pensar con rigor, igual que los de Occidente.",
+   "Una modernidad propia no se impone desde fuera: se crea en diálogo con la propia cultura y con el mundo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Al-lisān wa-l-mīzān (El lenguaje y la balanza)",
+    "anio": "1998",
+    "deQueVa": "Sobre lógica y lenguaje en la tradición árabe."
+   },
+   {
+    "titulo": "Rūḥ al-ḥadātha (El espíritu de la modernidad)",
+    "anio": "2006",
+    "deQueVa": "Su propuesta de modernidad islámica."
+   },
+   {
+    "titulo": "Suʾāl al-akhlāq (La cuestión de la ética)",
+    "anio": "2000",
+    "deQueVa": "Sobre el lugar de la ética en el pensamiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "susan-haack",
+  "nombre": "Susan Haack",
+  "fechas": "1945 – 2026",
+  "region": "Reino Unido y Estados Unidos",
+  "escuela": "Pragmatismo y epistemología",
+  "categorias": [
+   "conocimiento",
+   "logica",
+   "ciencia"
+  ],
+  "conocidoPor": "Comparar el conocimiento con un crucigrama: cada pista se apoya en las demás y en la realidad",
+  "resumen": "Susan Haack fue una filósofa nacida en Inglaterra que dio clases en Miami. Escribió sobre lógica, ciencia y teoría del conocimiento. Su idea es que una creencia queda justificada de dos formas a la vez: porque encaja con las otras y porque se apoya en la experiencia.",
+  "ideas": [
+   "Imagina un crucigrama: una respuesta se apoya en las pistas y en las palabras que se cruzan con ella. Con nuestras creencias pasa igual.",
+   "Esta teoría mezcla las dos ideas clásicas, la de apoyarse en la experiencia y la de encajar entre sí: es el [[fundherentismo]].",
+   "La ciencia no usa un método especial: es una forma de pensar con más cuidado y más ayuda de otros."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Deviant Logic (Lógica desviada)",
+    "anio": "1974",
+    "deQueVa": "Sobre lógicas alternativas."
+   },
+   {
+    "titulo": "Evidencia e investigación",
+    "anio": "1993",
+    "deQueVa": "Su teoría del conocimiento."
+   },
+   {
+    "titulo": "Defending Science—Within Reason (Defendiendo la ciencia con razón)",
+    "anio": "2003",
+    "deQueVa": "Cómo funciona la ciencia y cómo defenderla."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "shulamith-firestone",
+  "nombre": "Shulamith Firestone",
+  "fechas": "1945 – 2012",
+  "region": "Canadá y Estados Unidos",
+  "escuela": "Feminismo radical",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Sostener que la desigualdad entre sexos nace en la biología de la reproducción y que la técnica puede cambiarla",
+  "resumen": "Shulamith Firestone fue una feminista canadiense-estadounidense. Con solo veinticinco años escribió «La dialéctica del sexo», donde planteó que la desigualdad entre hombres y mujeres tiene raíces en el papel de las mujeres al tener hijos. Fue una de las voces del feminismo radical.",
+  "ideas": [
+   "Según ella, las mujeres quedaron en desventaja porque cargaban con el embarazo y la crianza.",
+   "Propuso que la técnica podría repartir mejor esa carga, y esa idea sigue siendo muy polémica.",
+   "No bastaba con cambiar las leyes: había que cambiar la familia y las ideas sobre el amor y los hijos."
+  ],
+  "curiosidad": "Dedicó «La dialéctica del sexo» a Simone de Beauvoir.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La dialéctica del sexo",
+    "anio": "1970",
+    "deQueVa": "Su obra principal sobre el origen de la desigualdad entre sexos."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "The Dialectic of Sex, capítulo inicial (en inglés)",
+    "url": "https://www.marxists.org/subject/women/authors/firestone-shulamith/dialectic-sex.htm",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "philip-pettit",
+  "nombre": "Philip Pettit",
+  "fechas": "1945 –",
+  "region": "Irlanda y Estados Unidos",
+  "escuela": "Republicanismo",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Definir la libertad como no depender de la voluntad de otro: no ser dominado",
+  "resumen": "Philip Pettit es un filósofo irlandés, profesor en Princeton. Revivió el republicanismo, una vieja idea política. Para él ser libre no es solo que nadie te frene ahora, sino que nadie pueda mandarte a su antojo. Un empleado con jefe amable sigue dependiendo de su buena voluntad.",
+  "ideas": [
+   "Una persona con un jefe amable que podría despedirla sin razón no es del todo libre: depende de su capricho. Esa es la libertad como [[no dominación|no-dominacion]].",
+   "El Estado debe proteger a la gente de ser dominada, también por empresas y poderosos.",
+   "Los ciudadanos deben poder vigilar y discutir las decisiones del gobierno."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Republicanismo: una teoría sobre la libertad y el gobierno",
+    "anio": "1997",
+    "deQueVa": "Su gran obra sobre la libertad como no dominación."
+   },
+   {
+    "titulo": "The Common Mind (La mente común)",
+    "anio": "1996",
+    "deQueVa": "Cómo las personas pensamos con otros."
+   },
+   {
+    "titulo": "On the People's Terms (En los términos del pueblo)",
+    "anio": "2012",
+    "deQueVa": "Sobre qué hace legítimo a un gobierno."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kit-fine",
+  "nombre": "Kit Fine",
+  "fechas": "1946 –",
+  "region": "Reino Unido y Estados Unidos",
+  "escuela": "Metafísica analítica",
+  "categorias": [
+   "metafisica",
+   "logica"
+  ],
+  "conocidoPor": "Mostrar que la esencia de algo es lo que lo hace ser lo que es, no solo lo que le sucede necesariamente",
+  "resumen": "Kit Fine es un filósofo británico que enseña en Nueva York. Trabajó sobre la esencia, es decir, lo que una cosa es por sí misma, y sobre qué es lo que hace que algo sea verdadero. Sus ideas cambiaron la metafísica actual.",
+  "ideas": [
+   "Que Sócrates pertenezca al conjunto «Sócrates solo» es necesario, pero no es parte de lo que él es. Por eso no basta con decir «necesario» para hablar de esencia.",
+   "La [[esencia]] responde a «¿qué es esto?», y esa pregunta no es lo mismo que «¿qué tiene que cumplirse siempre?».",
+   "Algunas verdades se explican por otras más básicas: que «llueve o hace sol» es verdad porque llueve. A esa relación de «es verdad por culpa de» la llama [[fundamento|fundamento-metafisico]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Essence and Modality (Esencia y modalidad)",
+    "anio": "1994",
+    "deQueVa": "Artículo clave sobre la esencia."
+   },
+   {
+    "titulo": "The Limits of Abstraction (Los límites de la abstracción)",
+    "anio": "2002",
+    "deQueVa": "Sobre cómo hablamos de entidades abstractas."
+   },
+   {
+    "titulo": "Modality and Tense (Modalidad y tiempo)",
+    "anio": "2005",
+    "deQueVa": "Reúne sus textos sobre posibilidad y tiempo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "linda-zagzebski",
+  "nombre": "Linda Zagzebski",
+  "fechas": "1946 –",
+  "region": "Estados Unidos",
+  "escuela": "Epistemología de virtudes",
+  "categorias": [
+   "conocimiento",
+   "etica",
+   "religion"
+  ],
+  "conocidoPor": "Aplicar las virtudes, como la honestidad o la humildad, a la forma de buscar la verdad",
+  "resumen": "Linda Zagzebski es una filósofa estadounidense, profesora en Oklahoma. Defiende que saber bien depende de virtudes del carácter, como ser curioso, abierto y honesto, igual que ser buena persona depende de las virtudes morales. También escribe sobre filosofía de la religión.",
+  "ideas": [
+   "Buscar la verdad es también una cuestión moral: hay virtudes intelectuales como la curiosidad, la humildad o la valentía de dudar.",
+   "Conocer bien no es solo tener buena vista o memoria: es tener buenos hábitos al pensar.",
+   "Confiar en expertos y en otras personas puede ser racional, y a veces el mejor camino para saber."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Dilemma of Freedom and Foreknowledge (El dilema de la libertad y la presciencia)",
+    "anio": "1991",
+    "deQueVa": "Sobre si Dios, sabiéndolo todo, deja libres a las personas."
+   },
+   {
+    "titulo": "Virtues of the Mind (Virtudes de la mente)",
+    "anio": "1996",
+    "deQueVa": "Su teoría del conocimiento basada en virtudes."
+   },
+   {
+    "titulo": "Epistemic Authority (Autoridad epistémica)",
+    "anio": "2012",
+    "deQueVa": "Sobre cuándo es razonable confiar en otros."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "francisco-varela",
+  "nombre": "Francisco Varela",
+  "fechas": "1946 – 2001",
+  "region": "Chile y Francia",
+  "escuela": "Enactivismo y ciencias cognitivas",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "existencia"
+  ],
+  "conocidoPor": "Explicar la mente como algo que se hace al actuar en el mundo, no como una copia dentro de la cabeza",
+  "resumen": "Francisco Varela fue un biólogo y filósofo chileno que trabajó en Francia. Con Humberto Maturana creó la idea de que los seres vivos se crean a sí mismos. Después defendió que la mente nace de la relación entre cuerpo, cerebro y mundo, y estudió la experiencia vivida, incluida la meditación.",
+  "ideas": [
+   "Un ser vivo se construye y se repara a sí mismo, como una célula. Esa característica se llama [[autopoiesis]].",
+   "La mente no es un espejo del mundo: surge al actuar, mirar y moverse. Esta visión es el [[enactivismo]].",
+   "Para estudiar la conciencia hay que unir la ciencia del cerebro con lo que la persona vive por dentro: la [[neurofenomenología|neurofenomenologia]]."
+  ],
+  "curiosidad": "Fue uno de los impulsores del Mind and Life Institute, donde científicos dialogan con el Dalái Lama.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "De máquinas y seres vivos (con Humberto Maturana)",
+    "anio": "1972",
+    "deQueVa": "Presenta la autopoiesis."
+   },
+   {
+    "titulo": "De cuerpo presente (The Embodied Mind, con Evan Thompson y Eleanor Rosch)",
+    "anio": "1991",
+    "deQueVa": "Propone el enactivismo."
+   },
+   {
+    "titulo": "Neurophenomenology (Neurofenomenología)",
+    "anio": "1996",
+    "deQueVa": "Cómo unir ciencia de la mente y experiencia vivida."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eva-kittay",
+  "nombre": "Eva Kittay",
+  "fechas": "1946 –",
+  "region": "Estados Unidos",
+  "escuela": "Ética del cuidado y feminismo",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que todos dependemos de otros y que cuidar es un trabajo que la justicia debe tener en cuenta",
+  "resumen": "Eva Kittay es una filósofa estadounidense de Stony Brook. Su pensamiento parte de una idea simple: todos hemos sido bebés, y la mayoría seremos mayores o enfermos. Dependemos de otros, y quienes cuidan merecen respeto y ayuda. Su hija con discapacidad la llevó a pensar en eso.",
+  "ideas": [
+   "Nadie se vale solo: todos hemos necesitado cuidados y los volveremos a necesitar.",
+   "Quien cuida a otras personas también es vulnerable, y la sociedad debe apoyarlo y no solo dejarlo en casa.",
+   "Una teoría de justicia que ignore la dependencia olvida a niños, mayores y personas con discapacidad."
+  ],
+  "curiosidad": "Su hija Sesha tiene una discapacidad intelectual grave, y eso influyó mucho en su filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Love's Labor (El trabajo del amor: ensayos sobre mujeres, igualdad y dependencia)",
+    "anio": "1999",
+    "deQueVa": "Su obra principal sobre dependencia y cuidado."
+   },
+   {
+    "titulo": "Learning from My Daughter (Aprendiendo de mi hija)",
+    "anio": "2019",
+    "deQueVa": "Sobre lo que aprendió de vivir con su hija."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "catharine-a-mackinnon",
+  "nombre": "Catharine MacKinnon",
+  "fechas": "1946 –",
+  "region": "Estados Unidos",
+  "escuela": "Feminismo jurídico",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Defender que el acoso sexual es una forma de discriminación contra las mujeres",
+  "resumen": "Catharine MacKinnon es una jurista y teórica feminista estadounidense. Defendió que el acoso sexual en el trabajo no es solo una falta de educación sino una discriminación que debe castigar la ley. Sus ideas influyeron en leyes y tribunales y siguen siendo muy discutidas, sobre todo su postura sobre la pornografía.",
+  "ideas": [
+   "El acoso sexual en el trabajo es discriminación: impide a las mujeres trabajar en igualdad.",
+   "La ley parece neutra pero a menudo refleja el punto de vista masculino, y eso hay que cuestionarlo.",
+   "Con Andrea Dworkin defendió leyes contra la pornografía como violación de derechos civiles, una propuesta polémica."
+  ],
+  "curiosidad": "En 1986 el Tribunal Supremo de Estados Unidos reconoció que el acoso sexual puede ser discriminación (caso Meritor contra Vinson). Ella fue coabogada de la demandante y redactó el escrito ante el Tribunal.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sexual Harassment of Working Women (El acoso sexual de las mujeres trabajadoras)",
+    "anio": "1979",
+    "deQueVa": "Presenta el acoso como discriminación."
+   },
+   {
+    "titulo": "Feminism Unmodified (El feminismo sin modificar)",
+    "anio": "1987",
+    "deQueVa": "Reúne sus discursos y ensayos."
+   },
+   {
+    "titulo": "Hacia una teoría feminista del Estado",
+    "anio": "1989",
+    "deQueVa": "Su teoría general sobre poder y género."
+   },
+   {
+    "titulo": "Only Words (Solo palabras)",
+    "anio": "1993",
+    "deQueVa": "Sobre pornografía y libertad de expresión."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "susan-moller-okin",
+  "nombre": "Susan Moller Okin",
+  "fechas": "1946 – 2004",
+  "region": "Nueva Zelanda y Estados Unidos",
+  "escuela": "Feminismo liberal",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Mostrar que la justicia también tiene que llegar a la familia y al reparto de tareas en casa",
+  "resumen": "Susan Moller Okin fue una filósofa política nacida en Nueva Zelanda y profesora en Estados Unidos. Criticó a Rawls y a otros por hablar de justicia sin mirar la familia, donde la desigualdad entre hombres y mujeres empieza. También discutió si respetar todas las culturas puede perjudicar a las mujeres.",
+  "ideas": [
+   "Una sociedad justa no puede ignorar lo que pasa en casa: quién cuida, quién cocina, quién gana menos.",
+   "La justicia empieza en la familia: ahí aprendemos desde niños qué es justo.",
+   "El [[multiculturalismo]] debe proteger a las mujeres: no todas las costumbres son iguales de buenas para ellas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Women in Western Political Thought (Las mujeres en el pensamiento político occidental)",
+    "anio": "1979",
+    "deQueVa": "Cómo los grandes filósofos hablaron de las mujeres."
+   },
+   {
+    "titulo": "Justice, Gender, and the Family (Justicia, género y familia)",
+    "anio": "1989",
+    "deQueVa": "Su crítica a las teorías de la justicia que olvidan la familia."
+   },
+   {
+    "titulo": "Is Multiculturalism Bad for Women? (¿Es el multiculturalismo malo para las mujeres?)",
+    "anio": "1999",
+    "deQueVa": "Ensayo y debate sobre cultura e igualdad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "steve-biko",
+  "nombre": "Steve Biko",
+  "fechas": "1946 – 1977",
+  "region": "Sudáfrica",
+  "escuela": "Conciencia Negra",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Líder de la Conciencia Negra: pedía orgullo y libertad interior a los negros frente al [[apartheid]]",
+  "resumen": "Steve Biko fue un activista y pensador sudafricano. En tiempos del apartheid, defendió que los negros debían liberarse primero del sentimiento de inferioridad que el racismo les imponía y organizarse por sí mismos. Murió en 1977 bajo custodia de la policía.",
+  "ideas": [
+   "El racismo no solo quita derechos: también hace creer a quien lo sufre que vale menos. Primero hay que liberar la mente.",
+   "La [[Conciencia Negra|conciencia-negra]] es orgullo, unión y acción de las personas negras por sí mismas.",
+   "Una sociedad justa debe construirse con respeto a todas las personas, sin que unos manden y otros obedezcan."
+  ],
+  "curiosidad": "Murió el 12 de septiembre de 1977 mientras estaba detenido por la policía sudafricana. Su muerte causó protestas en todo el mundo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "I Write What I Like (Escribo lo que quiero)",
+    "anio": "1978",
+    "deQueVa": "Colección de sus textos, publicada tras su muerte."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jean-luc-marion",
+  "nombre": "Jean-Luc Marion",
+  "fechas": "1946 –",
+  "region": "Francia",
+  "escuela": "Fenomenología y filosofía de la religión",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Pensar que hay experiencias que nos desbordan, como las que da Dios, el amor o el arte",
+  "resumen": "Jean-Luc Marion es un filósofo francés católico, miembro de la Academia Francesa. Parte de la [[fenomenología|fenomenologia]] y propone que algunas experiencias nos llegan con tanta fuerza que no podemos encerrarlas en conceptos. Escribió sobre Descartes y sobre la relación entre filosofía y religión.",
+  "ideas": [
+   "Algunas experiencias, como enamorarse o ante una obra maestra, son tan intensas que se nos escapan: él las llama [[fenómenos saturados|fenomeno-saturado]].",
+   "Lo importante es ser dado: algo que recibimos antes de entenderlo.",
+   "Dios no debería pensarse como un «ser» más, sino como alguien que se da y se escapa a nuestros conceptos."
+  ],
+  "curiosidad": "Es miembro de la Academia Francesa desde 2008.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El ídolo y la distancia",
+    "anio": "1977",
+    "deQueVa": "Sobre cómo evitar convertir a Dios en una imagen limitada."
+   },
+   {
+    "titulo": "Dios sin el ser",
+    "anio": "1982",
+    "deQueVa": "Intenta pensar a Dios más allá de la idea de «ser»."
+   },
+   {
+    "titulo": "Siendo dado",
+    "anio": "1997",
+    "deQueVa": "Su obra principal sobre la fenomenología de lo dado."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "philip-kitcher",
+  "nombre": "Philip Kitcher",
+  "fechas": "1947 –",
+  "region": "Reino Unido y Estados Unidos",
+  "escuela": "Filosofía de la ciencia y pragmatismo",
+  "categorias": [
+   "ciencia",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Defender que la ciencia debe elegir sus preguntas pensando en el bien de todos, y criticar el [[creacionismo]]",
+  "resumen": "Philip Kitcher es un filósofo de la ciencia nacido en Londres y profesor en la Universidad de Columbia. Estudió la biología evolutiva y criticó el creacionismo. También defendió que no todas las investigaciones son igual de importantes: la sociedad debe poder debatir qué estudiar y para quién.",
+  "ideas": [
+   "La ciencia no es neutra en qué estudia: elegir investigar una enfermedad antes que otra es una decisión que afecta a todos.",
+   "Su ciencia bien ordenada: lo que se investiga debe decidirse tras un debate público, con gente informada y de distintos puntos de vista.",
+   "El creacionismo no es ciencia: sus afirmaciones no se pueden comprobar ni explican mejor que la evolución."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Abusing Science (Abusando de la ciencia)",
+    "anio": "1982",
+    "deQueVa": "Crítica del creacionismo."
+   },
+   {
+    "titulo": "Vaulting Ambition (Ambición desmedida)",
+    "anio": "1985",
+    "deQueVa": "Crítica a ciertas teorías que explican todo con la biología."
+   },
+   {
+    "titulo": "Science, Truth, and Democracy (Ciencia, verdad y democracia)",
+    "anio": "2001",
+    "deQueVa": "Sobre cómo la sociedad debe orientar la ciencia."
+   },
+   {
+    "titulo": "Science in a Democratic Society (La ciencia en una sociedad democrática)",
+    "anio": "2011",
+    "deQueVa": "Continúa con la idea de una ciencia al servicio de todos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "barbara-cassin",
+  "nombre": "Barbara Cassin",
+  "fechas": "1947 –",
+  "region": "Francia",
+  "escuela": "Filosofía del lenguaje y de la Antigüedad",
+  "categorias": [
+   "lenguaje",
+   "conocimiento"
+  ],
+  "conocidoPor": "Dirigir un gran diccionario de palabras filosóficas «intraducibles» y defender a los sofistas",
+  "resumen": "Barbara Cassin es una filósofa y filóloga francesa, especialista en la Grecia antigua. Dirigió un gran diccionario de las palabras que no se dejan traducir de una lengua a otra, y rehabilitó a los [[sofistas|sofista]], que desde Platón tenían mala fama. Para ella las lenguas piensan de forma distinta.",
+  "ideas": [
+   "Algunas palabras no tienen traducción exacta, como «saudade» en portugués. Y eso muestra que cada lengua piensa un poco distinto.",
+   "Los sofistas no eran solo mentirosos: estudiaron cómo las palabras influyen en la gente, algo que importa en política hoy.",
+   "Hablar es actuar: las palabras no solo describen, también hacen cosas."
+  ],
+  "curiosidad": "Entró en la Academia Francesa en 2018.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El efecto sofístico",
+    "anio": "1995",
+    "deQueVa": "Defiende a los sofistas como filósofos del lenguaje."
+   },
+   {
+    "titulo": "Vocabulario europeo de las filosofías: diccionario de los intraducibles",
+    "anio": "2004",
+    "deQueVa": "Diccionario dirigido por ella sobre palabras difíciles de traducir."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "noel-carroll",
+  "nombre": "Noël Carroll",
+  "fechas": "1947 –",
+  "region": "Estados Unidos",
+  "escuela": "Estética analítica y filosofía del cine",
+  "categorias": [
+   "estetica",
+   "mente"
+  ],
+  "conocidoPor": "Preguntar por qué nos gustan las historias de miedo si nos asustan",
+  "resumen": "Noël Carroll es un filósofo estadounidense especializado en cine y arte popular. Escribió sobre el género de terror y se preguntó por qué disfrutamos de películas que nos dan miedo. También defendió que la cultura de masas merece ser estudiada en serio.",
+  "ideas": [
+   "¿Por qué vamos al cine a pasar miedo? Es la [[paradoja del horror|paradoja-del-horror]].",
+   "Los monstruos de las películas dan miedo y asco a la vez, y por eso nos atraen: son seres que no encajan en nuestras categorías.",
+   "Una película, una canción popular o una serie también son arte y se pueden analizar con rigor."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Filosofía del terror o paradojas del corazón",
+    "anio": "1990",
+    "deQueVa": "Sobre por qué nos gusta el terror."
+   },
+   {
+    "titulo": "Theorizing the Moving Image (Teorizando la imagen en movimiento)",
+    "anio": "1996",
+    "deQueVa": "Reúne sus ideas sobre el cine."
+   },
+   {
+    "titulo": "A Philosophy of Mass Art (Una filosofía del arte de masas)",
+    "anio": "1998",
+    "deQueVa": "Defiende que el arte popular merece ser pensado en serio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "clave": "apoha",
+  "termino": "Apoha",
+  "def": "Teoría budista: una palabra significa dejando fuera lo que no es. «Perro» quiere decir «no es gato, ni vaca, ni mesa…». Entendemos las cosas por contraste."
+ },
+ {
+  "clave": "armonia",
+  "termino": "Armonía",
+  "def": "Cuando varias cosas distintas encajan bien entre sí, como las notas de una canción que suenan bien juntas. Los pitagóricos pensaban que el universo entero funciona así."
+ },
+ {
+  "clave": "escuela-de-los-nombres",
+  "termino": "Escuela de los Nombres",
+  "def": "Grupo de pensadores chinos antiguos a quienes interesaba cómo las palabras se refieren a las cosas. Jugaban con acertijos del lenguaje, por ejemplo: «¿Un caballo blanco es un caballo?»."
+ },
+ {
+  "clave": "limite-e-ilimitado",
+  "termino": "Límite e ilimitado",
+  "def": "Dos ingredientes de todo, según los pitagóricos: lo que pone orden y medida, como una regla, y lo que no tiene fin ni forma, como el espacio vacío. Juntos hacen las cosas."
+ },
+ {
+  "clave": "logica-modal",
+  "termino": "Lógica modal",
+  "def": "Parte de la lógica que estudia lo posible, lo imposible y lo necesario. Por ejemplo: «es posible que llueva mañana» y «es necesario que 2 y 2 sean 4» no significan lo mismo que «llueve»."
+ },
+ {
+  "clave": "megarica",
+  "termino": "Escuela megárica",
+  "def": "Grupo de filósofos griegos de la ciudad de Megara. Les gustaban los acertijos y los argumentos difíciles de lógica, y discutían con los demás hasta dejarlos sin respuesta."
+ },
+ {
+  "clave": "pirronismo",
+  "termino": "Pirronismo",
+  "def": "Forma de escepticismo que viene de Pirrón. Consiste en no afirmar nada como seguro y vivir tranquilo sin decidir si algo es cierto o falso."
+ },
+ {
+  "clave": "pitagorismo",
+  "termino": "Pitagorismo",
+  "def": "Movimiento que seguía las ideas de Pitágoras. Pensaban que el mundo se explica con números y proporciones, y vivían con reglas casi religiosas, como comunidad."
+ },
+ {
+  "clave": "sphota",
+  "termino": "Sphoṭa",
+  "def": "Idea india: entendemos una frase de golpe, como una chispa de sentido, y no sumando letras o palabras sueltas. Por eso notas que alguien dice «hola» antes de oír cada letra."
+ },
+ {
+  "clave": "tropos",
+  "termino": "Modos o tropos",
+  "def": "Razones que usaban los escépticos para dudar. Por ejemplo: la misma sopa sabe distinto según tengas hambre o no, así que ¿cómo saber cómo es de verdad?"
+ },
+ {
+  "clave": "yoga",
+  "termino": "Yoga",
+  "def": "En la India, un camino de entrenamiento de la mente y del cuerpo para calmarse y alcanzar la liberación. Las posturas son solo una parte; incluye respirar, concentrarse y meditar."
+ },
+ {
+  "clave": "yogacara",
+  "termino": "Yogācāra",
+  "def": "Escuela del budismo indio que estudia cómo funciona la mente. Defiende que lo que vivimos depende de cómo la mente interpreta las cosas, y usa la meditación para investigarla."
+ }
+]

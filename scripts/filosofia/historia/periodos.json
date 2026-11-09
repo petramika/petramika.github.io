@@ -1,0 +1,642 @@
+[
+ {
+  "id": "cultura-olmeca",
+  "desde": -1200,
+  "hasta": -400,
+  "nombre": "Cultura olmeca",
+  "region": "América",
+  "nivel": 2,
+  "texto": "Primera gran cultura de Mesoamérica. Famosa por sus cabezas de piedra. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Cultura_olmeca"
+ },
+ {
+  "id": "reino-kush",
+  "desde": -1070,
+  "hasta": 350,
+  "nombre": "Reino de Kush",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Reino africano al sur de Egipto, con faraones propios y pirámides.",
+  "wiki": "https://es.wikipedia.org/wiki/Reino_de_Kush"
+ },
+ {
+  "id": "imperio-neoasirio",
+  "desde": -911,
+  "hasta": -609,
+  "nombre": "Imperio neoasirio",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Un imperio militar de Mesopotamia que impone su poder por la fuerza.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_neoasirio"
+ },
+ {
+  "id": "cartago-periodo",
+  "desde": -814,
+  "hasta": -146,
+  "nombre": "Cartago",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Ciudad fenicia del norte de África y gran potencia comercial hasta que Roma la destruye. La fecha de fundación es la tradicional.",
+  "wiki": "https://es.wikipedia.org/wiki/Cartago"
+ },
+ {
+  "id": "grecia-arcaica",
+  "desde": -800,
+  "hasta": -480,
+  "nombre": "Grecia arcaica",
+  "region": "Europa",
+  "nivel": 2,
+  "texto": "Nacen las ciudades-Estado griegas, el alfabeto griego y los primeros filósofos.",
+  "wiki": "https://es.wikipedia.org/wiki/%C3%89poca_arcaica"
+ },
+ {
+  "id": "expansion-polinesia",
+  "desde": -800,
+  "hasta": 1280,
+  "nombre": "Expansión polinesia",
+  "region": "Oceanía",
+  "nivel": 2,
+  "texto": "Navegantes del Pacífico llegan a casi todas sus islas, hasta Nueva Zelanda. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Polinesia"
+ },
+ {
+  "id": "imperio-neobabilonico",
+  "desde": -626,
+  "hasta": -539,
+  "nombre": "Imperio neobabilónico",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Babilonia vuelve a ser una gran potencia con Nabucodonosor II.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_neobabil%C3%B3nico"
+ },
+ {
+  "id": "imperio-aqueamenida",
+  "desde": -550,
+  "hasta": -330,
+  "nombre": "Imperio persa aqueménida",
+  "region": "Oriente Próximo",
+  "nivel": 1,
+  "texto": "El primer gran imperio multicultural, de Egipto a la India.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_aquem%C3%A9nida"
+ },
+ {
+  "id": "republica-romana",
+  "desde": -509,
+  "hasta": -27,
+  "nombre": "República romana",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Roma pasa de ciudad pequeña a dueña del Mediterráneo.",
+  "wiki": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_romana"
+ },
+ {
+  "id": "grecia-clasica",
+  "desde": -480,
+  "hasta": -323,
+  "nombre": "Grecia clásica",
+  "region": "Europa",
+  "nivel": 2,
+  "texto": "Época de Atenas y Esparta, del teatro, de la democracia y de Sócrates, Platón y Aristóteles.",
+  "wiki": "https://es.wikipedia.org/wiki/Grecia_cl%C3%A1sica"
+ },
+ {
+  "id": "reinos-combatientes",
+  "desde": -475,
+  "hasta": -221,
+  "nombre": "Período de los Reinos Combatientes",
+  "region": "Asia",
+  "nivel": 2,
+  "texto": "Siete reinos chinos luchan hasta que gana Qin.",
+  "wiki": "https://es.wikipedia.org/wiki/Reinos_combatientes"
+ },
+ {
+  "id": "periodo-helenistico",
+  "desde": -323,
+  "hasta": -31,
+  "nombre": "Período helenístico",
+  "region": "Europa",
+  "nivel": 2,
+  "texto": "Tras Alejandro, la cultura griega se extiende desde Egipto hasta la India.",
+  "wiki": "https://es.wikipedia.org/wiki/Per%C3%ADodo_helen%C3%ADstico"
+ },
+ {
+  "id": "imperio-maurya",
+  "desde": -322,
+  "hasta": -185,
+  "nombre": "Imperio Maurya",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Primer gran imperio de la India. Su emperador Ashoka se hizo budista.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_Maurya"
+ },
+ {
+  "id": "imperio-seleucida",
+  "desde": -312,
+  "hasta": -63,
+  "nombre": "Imperio seléucida",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Heredero de Alejandro en Asia, mezcla culturas griegas y orientales.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_sel%C3%A9ucida"
+ },
+ {
+  "id": "imperio-parto",
+  "desde": -247,
+  "hasta": 224,
+  "nombre": "Imperio parto",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Gran rival de Roma en Oriente, controla la Ruta de la Seda.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_parto"
+ },
+ {
+  "id": "dinastia-han",
+  "desde": -206,
+  "hasta": 220,
+  "nombre": "Dinastía Han",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Cuatro siglos de imperio chino, con papel, Ruta de la Seda y confucianismo como doctrina oficial.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Han"
+ },
+ {
+  "id": "teotihuacan",
+  "desde": -100,
+  "hasta": 550,
+  "nombre": "Teotihuacán",
+  "region": "América",
+  "nivel": 2,
+  "texto": "Una de las mayores ciudades del mundo antiguo, con la Pirámide del Sol. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Teotihuac%C3%A1n"
+ },
+ {
+  "id": "imperio-romano",
+  "desde": -27,
+  "hasta": 476,
+  "nombre": "Imperio romano",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Un solo imperio con emperador, leyes comunes y carreteras, de Britania a Egipto.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_romano"
+ },
+ {
+  "id": "reino-aksum",
+  "desde": 100,
+  "hasta": 940,
+  "nombre": "Reino de Aksum",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Imperio comercial de Etiopía y Eritrea. Uno de los primeros cristianos. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Reino_de_Axum"
+ },
+ {
+  "id": "imperio-sasanida",
+  "desde": 224,
+  "hasta": 651,
+  "nombre": "Imperio sasánida",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "La última gran Persia antes del islam.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_sas%C3%A1nida"
+ },
+ {
+  "id": "civilizacion-maya",
+  "desde": 250,
+  "hasta": 900,
+  "nombre": "Civilización maya clásica",
+  "region": "América",
+  "nivel": 1,
+  "texto": "Ciudades como Tikal, con escritura, matemáticas y calendario avanzados.",
+  "wiki": "https://es.wikipedia.org/wiki/Cultura_maya"
+ },
+ {
+  "id": "imperio-gupta",
+  "desde": 320,
+  "hasta": 550,
+  "nombre": "Imperio Gupta",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Gran época de ciencia y arte en la India. Aparece el cero como número.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_gupta"
+ },
+ {
+  "id": "imperio-bizantino",
+  "desde": 395,
+  "hasta": 1453,
+  "nombre": "Imperio bizantino",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "La parte oriental de Roma sigue viva otros mil años, con capital en Constantinopla.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_bizantino"
+ },
+ {
+  "id": "edad-media",
+  "desde": 476,
+  "hasta": 1492,
+  "nombre": "Edad Media",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Mil años entre la caída de Roma y el fin del siglo XV. Los límites son una convención.",
+  "wiki": "https://es.wikipedia.org/wiki/Edad_Media"
+ },
+ {
+  "id": "dinastia-tang",
+  "desde": 618,
+  "hasta": 907,
+  "nombre": "Dinastía Tang",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Edad de oro de China, con grandes poetas y la ciudad más grande del mundo.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Tang"
+ },
+ {
+  "id": "califato-omeya-periodo",
+  "desde": 661,
+  "hasta": 750,
+  "nombre": "Califato omeya",
+  "region": "Oriente Próximo",
+  "nivel": 1,
+  "texto": "Gobierna desde Damasco y llega de Hispania a la India.",
+  "wiki": "https://es.wikipedia.org/wiki/Califato_omeya"
+ },
+ {
+  "id": "al-andalus",
+  "desde": 711,
+  "hasta": 1492,
+  "nombre": "Al-Ándalus",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "La península ibérica musulmana. Allí convivieron judíos, cristianos y musulmanes.",
+  "wiki": "https://es.wikipedia.org/wiki/Al-%C3%81ndalus"
+ },
+ {
+  "id": "califato-abasi-periodo",
+  "desde": 750,
+  "hasta": 1258,
+  "nombre": "Califato abasí",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Capital en Bagdad. Se traducen y mejoran los saberes antiguos.",
+  "wiki": "https://es.wikipedia.org/wiki/Califato_abas%C3%AD"
+ },
+ {
+  "id": "edad-oro-islam",
+  "desde": 750,
+  "hasta": 1258,
+  "nombre": "Edad de oro del islam",
+  "region": "Oriente Próximo",
+  "nivel": 1,
+  "texto": "Sabios de Bagdad a Córdoba avanzan en medicina, matemáticas y filosofía.",
+  "wiki": "https://es.wikipedia.org/wiki/Edad_de_Oro_del_islam"
+ },
+ {
+  "id": "dinastia-song",
+  "desde": 960,
+  "hasta": 1279,
+  "nombre": "Dinastía Song",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "China inventa o mejora la brújula, la pólvora, el papel moneda y la imprenta.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Song"
+ },
+ {
+  "id": "sacro-imperio-periodo",
+  "desde": 962,
+  "hasta": 1806,
+  "nombre": "Sacro Imperio Romano Germánico",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Unión de territorios, sobre todo alemanes, bajo un emperador.",
+  "wiki": "https://es.wikipedia.org/wiki/Sacro_Imperio_Romano_Germ%C3%A1nico"
+ },
+ {
+  "id": "cruzadas",
+  "desde": 1096,
+  "hasta": 1291,
+  "nombre": "Cruzadas",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Ejércitos europeos intentan conquistar Tierra Santa durante casi dos siglos.",
+  "wiki": "https://es.wikipedia.org/wiki/Cruzadas"
+ },
+ {
+  "id": "gran-zimbabue",
+  "desde": 1100,
+  "hasta": 1450,
+  "nombre": "Gran Zimbabue",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Ciudad de piedra y centro de comercio del sur de África. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Gran_Zimbabue"
+ },
+ {
+  "id": "reino-benin",
+  "desde": 1180,
+  "hasta": 1897,
+  "nombre": "Reino de Benín",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Reino de África occidental, famoso por sus bronces. Fecha de inicio aproximada.",
+  "wiki": "https://es.wikipedia.org/wiki/Reino_de_Ben%C3%ADn"
+ },
+ {
+  "id": "imperio-mongol",
+  "desde": 1206,
+  "hasta": 1368,
+  "nombre": "Imperio mongol",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "El mayor imperio de territorio continuo de la historia, de China a Europa del Este.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_mongol"
+ },
+ {
+  "id": "imperio-mali",
+  "desde": 1235,
+  "hasta": 1670,
+  "nombre": "Imperio de Mali",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Reino rico en oro con la ciudad de Tombuctú como centro de saber.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_de_Mali"
+ },
+ {
+  "id": "dinastia-yuan",
+  "desde": 1271,
+  "hasta": 1368,
+  "nombre": "Dinastía Yuan",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "China bajo el gobierno de los mongoles de Kublai Kan.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Yuan"
+ },
+ {
+  "id": "imperio-otomano",
+  "desde": 1299,
+  "hasta": 1922,
+  "nombre": "Imperio otomano",
+  "region": "Oriente Próximo",
+  "nivel": 1,
+  "texto": "Un imperio turco que domina Oriente Próximo, el sureste de Europa y el norte de África.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_otomano"
+ },
+ {
+  "id": "dinastia-ming",
+  "desde": 1368,
+  "hasta": 1644,
+  "nombre": "Dinastía Ming",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "China expulsa a los mongoles y construye la Ciudad Prohibida.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Ming"
+ },
+ {
+  "id": "renacimiento",
+  "desde": 1400,
+  "hasta": 1600,
+  "nombre": "Renacimiento",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Vuelta al interés por los clásicos griegos y romanos. Arte, ciencia y humanismo. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Renacimiento"
+ },
+ {
+  "id": "era-descubrimientos",
+  "desde": 1415,
+  "hasta": 1600,
+  "nombre": "Era de los descubrimientos",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "Los barcos europeos recorren todo el planeta y conectan los continentes.",
+  "wiki": "https://es.wikipedia.org/wiki/Era_de_los_Descubrimientos"
+ },
+ {
+  "id": "imperio-azteca",
+  "desde": 1428,
+  "hasta": 1521,
+  "nombre": "Imperio azteca",
+  "region": "América",
+  "nivel": 1,
+  "texto": "La Triple Alianza domina el centro de México desde Tenochtitlan.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_azteca"
+ },
+ {
+  "id": "imperio-songhai",
+  "desde": 1430,
+  "hasta": 1591,
+  "nombre": "Imperio songhai",
+  "region": "África",
+  "nivel": 2,
+  "texto": "El mayor imperio de África occidental, con Gao y Tombuctú.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_songhai"
+ },
+ {
+  "id": "imperio-inca",
+  "desde": 1438,
+  "hasta": 1533,
+  "nombre": "Imperio inca",
+  "region": "América",
+  "nivel": 1,
+  "texto": "El mayor imperio de la América precolombina, a lo largo de los Andes.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_incaico"
+ },
+ {
+  "id": "imperio-espanol",
+  "desde": 1492,
+  "hasta": 1898,
+  "nombre": "Imperio español",
+  "region": "Mundo",
+  "nivel": 1,
+  "texto": "Un imperio que llega a tener territorios en cuatro continentes.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_espa%C3%B1ol"
+ },
+ {
+  "id": "imperio-safavida",
+  "desde": 1501,
+  "hasta": 1736,
+  "nombre": "Imperio safávida",
+  "region": "Oriente Próximo",
+  "nivel": 2,
+  "texto": "Persia vuelve a ser un gran imperio y se hace chií.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_saf%C3%A1vida"
+ },
+ {
+  "id": "trata-atlantica",
+  "desde": 1501,
+  "hasta": 1866,
+  "nombre": "Trata atlántica de esclavos",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "Millones de africanos son llevados a América como esclavos.",
+  "wiki": "https://es.wikipedia.org/wiki/Comercio_atl%C3%A1ntico_de_esclavos"
+ },
+ {
+  "id": "reforma-protestante",
+  "desde": 1517,
+  "hasta": 1648,
+  "nombre": "Reforma protestante y guerras de religión",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Europa se divide entre católicos y protestantes. Hay muchas guerras.",
+  "wiki": "https://es.wikipedia.org/wiki/Reforma_protestante"
+ },
+ {
+  "id": "imperio-mogol",
+  "desde": 1526,
+  "hasta": 1857,
+  "nombre": "Imperio mogol",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Un imperio musulmán que gobierna casi toda la India. Construye el Taj Mahal.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_mogol"
+ },
+ {
+  "id": "revolucion-cientifica",
+  "desde": 1543,
+  "hasta": 1687,
+  "nombre": "Revolución científica",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "De Copérnico a Newton, la ciencia cambia la imagen del universo.",
+  "wiki": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_cient%C3%ADfica"
+ },
+ {
+  "id": "imperio-britanico",
+  "desde": 1583,
+  "hasta": 1997,
+  "nombre": "Imperio británico",
+  "region": "Mundo",
+  "nivel": 1,
+  "texto": "El mayor imperio de la historia. Las fechas varían según cómo se cuente.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+ },
+ {
+  "id": "periodo-edo",
+  "desde": 1603,
+  "hasta": 1868,
+  "nombre": "Período Edo",
+  "region": "Asia",
+  "nivel": 2,
+  "texto": "Los shogunes Tokugawa gobiernan Japón en paz y casi sin contacto con el exterior.",
+  "wiki": "https://es.wikipedia.org/wiki/Per%C3%ADodo_Edo"
+ },
+ {
+  "id": "dinastia-qing",
+  "desde": 1644,
+  "hasta": 1912,
+  "nombre": "Dinastía Qing",
+  "region": "Asia",
+  "nivel": 1,
+  "texto": "Último imperio chino, gobernado por los manchúes.",
+  "wiki": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Qing"
+ },
+ {
+  "id": "ilustracion",
+  "desde": 1715,
+  "hasta": 1789,
+  "nombre": "Ilustración",
+  "region": "Europa",
+  "nivel": 1,
+  "texto": "Se apuesta por la razón, la ciencia y la libertad. Prepara las revoluciones.",
+  "wiki": "https://es.wikipedia.org/wiki/Ilustraci%C3%B3n"
+ },
+ {
+  "id": "imperio-ruso",
+  "desde": 1721,
+  "hasta": 1917,
+  "nombre": "Imperio ruso",
+  "region": "Europa",
+  "nivel": 2,
+  "texto": "El imperio más extenso de Europa, gobernado por zares.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperio_ruso"
+ },
+ {
+  "id": "revolucion-industrial",
+  "desde": 1760,
+  "hasta": 1840,
+  "nombre": "Revolución Industrial",
+  "region": "Mundo",
+  "nivel": 1,
+  "texto": "Máquinas y fábricas cambian el trabajo y las ciudades. Fechas aproximadas.",
+  "wiki": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_Industrial"
+ },
+ {
+  "id": "era-meiji",
+  "desde": 1868,
+  "hasta": 1912,
+  "nombre": "Era Meiji",
+  "region": "Asia",
+  "nivel": 2,
+  "texto": "Japón se moderniza y se hace potencia industrial y militar.",
+  "wiki": "https://es.wikipedia.org/wiki/Era_Meiji"
+ },
+ {
+  "id": "nuevo-imperialismo",
+  "desde": 1870,
+  "hasta": 1914,
+  "nombre": "Nuevo imperialismo",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "Potencias europeas, EE. UU. y Japón se reparten África y Asia.",
+  "wiki": "https://es.wikipedia.org/wiki/Imperialismo"
+ },
+ {
+  "id": "entreguerras",
+  "desde": 1918,
+  "hasta": 1939,
+  "nombre": "Período de entreguerras",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "Entre las dos guerras mundiales hay crisis, dictaduras y avances en ciencia y arte.",
+  "wiki": "https://es.wikipedia.org/wiki/Per%C3%ADodo_de_entreguerras"
+ },
+ {
+  "id": "union-sovietica",
+  "desde": 1922,
+  "hasta": 1991,
+  "nombre": "Unión Soviética",
+  "region": "Europa",
+  "nivel": 2,
+  "texto": "Un Estado comunista enorme que fue una de las dos superpotencias.",
+  "wiki": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Sovi%C3%A9tica"
+ },
+ {
+  "id": "descolonizacion",
+  "desde": 1945,
+  "hasta": 1975,
+  "nombre": "Descolonización",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "Docenas de colonias de Asia y África se hacen países independientes.",
+  "wiki": "https://es.wikipedia.org/wiki/Descolonizaci%C3%B3n"
+ },
+ {
+  "id": "guerra-fria",
+  "desde": 1947,
+  "hasta": 1991,
+  "nombre": "Guerra Fría",
+  "region": "Mundo",
+  "nivel": 1,
+  "texto": "EE. UU. y la URSS compiten sin enfrentarse directamente.",
+  "wiki": "https://es.wikipedia.org/wiki/Guerra_Fr%C3%ADa"
+ },
+ {
+  "id": "apartheid-periodo",
+  "desde": 1948,
+  "hasta": 1994,
+  "nombre": "Apartheid",
+  "region": "África",
+  "nivel": 2,
+  "texto": "Sudáfrica separa por ley a las personas según su «raza».",
+  "wiki": "https://es.wikipedia.org/wiki/Apartheid"
+ },
+ {
+  "id": "globalizacion",
+  "desde": 1990,
+  "hasta": 2025,
+  "nombre": "Globalización",
+  "region": "Mundo",
+  "nivel": 2,
+  "texto": "El mundo se conecta más por internet, comercio y viajes.",
+  "wiki": "https://es.wikipedia.org/wiki/Globalizaci%C3%B3n"
+ }
+]

@@ -1,0 +1,262 @@
+[
+ {
+  "clave": "aceleracion-social",
+  "termino": "Aceleración social",
+  "def": "Que todo cambie cada vez más rápido: el trabajo, la tecnología, las modas. Por eso muchos sentimos que no llegamos a todo, aunque tengamos más aparatos que ahorran tiempo."
+ },
+ {
+  "clave": "analogia",
+  "termino": "Analogía",
+  "def": "Parecerse sin ser idéntico. Dos hermanos se parecen, pero no son iguales. Sirve para comparar cosas sin decir que son lo mismo ni que no tienen nada en común."
+ },
+ {
+  "clave": "argumento-de-la-simulacion",
+  "termino": "Argumento de la simulación",
+  "def": "Idea de Nick Bostrom: si algún día se pueden crear mundos virtuales muy realistas con personas dentro, quizá nosotros ya vivamos en uno. Es una posibilidad que plantea, no algo que él dé por seguro."
+ },
+ {
+  "clave": "armario",
+  "termino": "Armario",
+  "def": "Imagen para hablar de esconder que eres gay o lesbiana, o de no decirlo. «Salir del armario» es contarlo. Sedgwick lo usa para ver cómo ese secreto afecta a toda la sociedad."
+ },
+ {
+  "clave": "chixi",
+  "termino": "Ch'ixi",
+  "def": "Palabra aimara que usa Silvia Rivera Cusicanqui para una mezcla que no se funde: como un gris hecho de puntitos blancos y negros que siguen siendo distintos, aunque se vean juntos."
+ },
+ {
+  "clave": "comunidad-esposito",
+  "termino": "Comunidad",
+  "def": "Para Roberto Esposito, en latín «comunidad» tiene que ver con una deuda o una carga compartida. Estar en comunidad no es solo tener cosas en común, sino también deberse algo unos a otros."
+ },
+ {
+  "clave": "conocimiento-primero",
+  "termino": "Conocimiento primero",
+  "def": "Idea de Williamson: saber algo no es «creer algo verdadero con buenas razones», sino un estado básico de la mente, que no se descompone. Por ejemplo, saber que tienes llaves en el bolsillo."
+ },
+ {
+  "clave": "constructo-social",
+  "termino": "Construcción social",
+  "def": "Algo que no viene de la naturaleza, sino que lo crea la sociedad. Por ejemplo, el dinero: un papel vale algo solo porque todos acordamos que vale. Género y raza se han analizado así."
+ },
+ {
+  "clave": "contrato-racial",
+  "termino": "Contrato racial",
+  "def": "Idea de Charles Mills: un pacto no escrito entre blancos para tratar a las personas no blancas como inferiores y beneficiarse de ello, aunque en las leyes se hablara de igualdad."
+ },
+ {
+  "clave": "correlacionismo",
+  "termino": "Correlacionismo",
+  "def": "Idea de que solo podemos conocer cómo las cosas son para nosotros, nunca cómo son por sí mismas. Meillassoux la critica porque la ciencia habla de un mundo anterior a los humanos."
+ },
+ {
+  "clave": "cosmopolitica",
+  "termino": "Cosmopolítica",
+  "def": "Idea de Isabelle Stengers: una forma de decidir en común en la que se escucha a todos los implicados, no solo a los expertos, y se piensa que hay muchos modos de saber."
+ },
+ {
+  "clave": "dialeteismo",
+  "termino": "Dialeteísmo",
+  "def": "Idea de que algunas frases pueden ser verdaderas y falsas a la vez. Por ejemplo, «esta frase es falsa»: si lo es, es verdadera, y al revés. Graham Priest la defiende."
+ },
+ {
+  "clave": "enactivismo",
+  "termino": "Enactivismo",
+  "def": "Idea de que pensar y percibir no pasan solo en el cerebro, sino que son algo que hacemos con el cuerpo en el mundo. Por ejemplo, para notar la forma de un objeto, lo tocas y lo mueves."
+ },
+ {
+  "clave": "farmaco",
+  "termino": "Fármaco (en Stiegler)",
+  "def": "Algo que puede ser remedio y veneno a la vez, según cómo se use. Stiegler dice que la técnica es así: un móvil te ayuda a comunicarte, pero también puede robarte la atención."
+ },
+ {
+  "clave": "fenomenologia-queer",
+  "termino": "Fenomenología queer",
+  "def": "Forma de estudiar cómo vivimos el espacio y los objetos según nuestro cuerpo y deseo, y cómo algunos caminos parecen «normales» y otros no. Idea de Sara Ahmed."
+ },
+ {
+  "clave": "hermeneutica-analogica",
+  "termino": "Hermenéutica analógica",
+  "def": "Forma de interpretar propuesta por Mauricio Beuchot: ni una sola lectura correcta ni todas valen igual. Busca un punto medio donde se pueda comparar interpretaciones, algunas mejores que otras."
+ },
+ {
+  "clave": "identidad-practica",
+  "termino": "Identidad práctica",
+  "def": "Lo que cada uno cree que es y quiere ser, y que le sirve para decidir qué hacer. Si haces algo que va contra eso, sientes que dejas de ser tú. Idea de Christine Korsgaard."
+ },
+ {
+  "clave": "igualitarismo-democratico",
+  "termino": "Igualitarismo democrático",
+  "def": "Idea de que lo importante de la igualdad es que nadie mande sobre los demás ni los humille, y que todos puedan participar como iguales. No es que todos tengan exactamente lo mismo."
+ },
+ {
+  "clave": "inferencialismo",
+  "termino": "Inferencialismo",
+  "def": "Idea de que el significado de una frase está en lo que se puede deducir de ella y en las razones que la apoyan. Si dices «llueve», se sigue que el suelo estará mojado."
+ },
+ {
+  "clave": "infosfera",
+  "termino": "Infosfera",
+  "def": "Término de Floridi para el mundo donde vivimos hoy: el de las cosas y el de la información digital ya están mezclados. Por ejemplo, consultar el móvil mientras caminas por la calle."
+ },
+ {
+  "clave": "injusticia-epistemica",
+  "termino": "Injusticia epistémica",
+  "def": "Hacer daño a alguien como persona que sabe cosas: por ejemplo, no creerle por su sexo o su origen, o no darle palabras para explicar lo que vive. Idea de Miranda Fricker."
+ },
+ {
+  "clave": "injusticia-hermeneutica",
+  "termino": "Injusticia hermenéutica",
+  "def": "Cuando faltan palabras o ideas para entender y explicar un daño que sufres. Antes de que existiera «acoso sexual», muchas mujeres no tenían forma de nombrar lo que les pasaba."
+ },
+ {
+  "clave": "injusticia-testimonial",
+  "termino": "Injusticia testimonial",
+  "def": "Que no te crean lo que cuentas por un prejuicio sobre quién eres, y no porque tus razones sean malas. Por ejemplo, que dudaran de una mujer solo por ser mujer."
+ },
+ {
+  "clave": "inmunitas",
+  "termino": "Inmunidad",
+  "def": "Capacidad de protegerse de lo que viene de fuera, como el cuerpo con los virus. Esposito la usa para hablar de cómo las sociedades se defienden de lo extraño, y de sus peligros."
+ },
+ {
+  "clave": "interseccionalidad",
+  "termino": "Interseccionalidad",
+  "def": "Idea de que las discriminaciones (por raza, sexo, clase) no se suman, sino que se cruzan. Una mujer negra puede sufrir cosas distintas de las que sufre un hombre negro o una mujer blanca."
+ },
+ {
+  "clave": "largoplacismo",
+  "termino": "Largoplacismo",
+  "def": "Idea de que lo más importante que podemos hacer es mejorar el futuro lejano, porque vivirán muchísimas personas en los próximos siglos. Defendida por William MacAskill."
+ },
+ {
+  "clave": "logica-clasica",
+  "termino": "Lógica clásica",
+  "def": "La lógica tradicional, la que se enseña normalmente. Una de sus reglas es que una contradicción lo estropea todo: si aceptas una, podrías «demostrar» cualquier cosa."
+ },
+ {
+  "clave": "logica-paraconsistente",
+  "termino": "Lógica paraconsistente",
+  "def": "Lógica con reglas especiales que permite tener una contradicción sin que todo se vuelva absurdo. Es como aislar una avería para que no se estropee toda la casa."
+ },
+ {
+  "clave": "materialismo-vital",
+  "termino": "Materialismo vital",
+  "def": "Idea de Jane Bennett: las cosas, la materia, no son inertes, sino que tienen fuerza propia y actúan. Por ejemplo, un apagón no lo causa solo una persona, sino una red de cosas."
+ },
+ {
+  "clave": "matriz-de-dominacion",
+  "termino": "Matriz de dominación",
+  "def": "Idea de Patricia Hill Collins: racismo, machismo, pobreza y otros poderes forman una red que actúa a la vez, y no cada cosa por separado."
+ },
+ {
+  "clave": "misoginia",
+  "termino": "Misoginia",
+  "def": "Hostilidad hacia las mujeres. Para Kate Manne, no es solo odio, sino un modo de vigilar y castigar a las mujeres que no hacen el papel que se espera de ellas."
+ },
+ {
+  "clave": "neoliberalismo",
+  "termino": "Neoliberalismo",
+  "def": "Forma de pensar que defiende que el mercado y la competencia deben guiar casi todo, incluso la educación o la salud, y que cada uno debe ocuparse de sí mismo, como una empresa."
+ },
+ {
+  "clave": "normatividad",
+  "termino": "Normatividad",
+  "def": "El hecho de que haya normas que nos obligan, como «no mientas». Los filósofos se preguntan de dónde sacan su fuerza esas normas, por ejemplo la moral."
+ },
+ {
+  "clave": "nuevo-materialismo",
+  "termino": "Nuevo materialismo",
+  "def": "Corriente actual que toma en serio la materia (cuerpos, cosas, naturaleza) y piensa que tiene fuerza propia y no es solo un material pasivo para los humanos."
+ },
+ {
+  "clave": "nuevo-realismo",
+  "termino": "Nuevo realismo",
+  "def": "Corriente alemana que defiende que las cosas existen aunque no las pensemos, y que también existen los pensamientos y los productos de la imaginación, cada uno a su manera."
+ },
+ {
+  "clave": "objetividad",
+  "termino": "Objetividad",
+  "def": "Intentar mirar las cosas sin que cuenten tus gustos o tu opinión. La historiadora Lorraine Daston explica que la idea de ser «objetivo» ha cambiado con el tiempo."
+ },
+ {
+  "clave": "ontologia-orientada-a-objetos",
+  "termino": "Ontología orientada a objetos",
+  "def": "Corriente de Graham Harman: todos los objetos (una piedra, una empresa, una persona) existen por sí mismos y nunca los conocemos del todo, siempre guardan algo oculto."
+ },
+ {
+  "clave": "opresion-estructural",
+  "termino": "Opresión estructural",
+  "def": "Injusticia que no viene de una persona mala, sino de normas y costumbres de toda la sociedad que perjudican a un grupo. Idea de Iris Marion Young."
+ },
+ {
+  "clave": "plasticidad-cerebral",
+  "termino": "Plasticidad cerebral",
+  "def": "Capacidad del cerebro de cambiar su estructura según lo que vivimos y aprendemos, como el barro que se moldea. Malabou la usa para pensar la libertad y el trauma."
+ },
+ {
+  "clave": "posthumanismo",
+  "termino": "Posthumanismo",
+  "def": "Corriente que cuestiona que «el ser humano» sea el centro de todo, y piensa que humanos, animales, máquinas y naturaleza forman parte del mismo mundo."
+ },
+ {
+  "clave": "privacidad",
+  "termino": "Privacidad",
+  "def": "El derecho a tener un espacio o unos datos solo para ti, sin que los demás los vean. Por ejemplo, tu diario o tus mensajes. Anita Allen estudia por qué es importante para la libertad."
+ },
+ {
+  "clave": "procesamiento-predictivo",
+  "termino": "Procesamiento predictivo",
+  "def": "Idea de que el cerebro adivina constantemente lo que va a pasar y corrige sus errores, y que así percibimos. Es como esperar un escalón y notar enseguida que no está."
+ },
+ {
+  "clave": "proletarizacion",
+  "termino": "Proletarización",
+  "def": "Para Stiegler, perder el saber hacer de algo porque lo hacen las máquinas. Por ejemplo, ya no recordamos teléfonos o caminos porque el móvil lo hace por nosotros."
+ },
+ {
+  "clave": "realismo-agencial",
+  "termino": "Realismo agencial",
+  "def": "Idea de Karen Barad: las cosas no existen primero y luego se relacionan, sino que se hacen en las relaciones. Incluye al que mide y a lo medido, como en la física cuántica."
+ },
+ {
+  "clave": "realismo-especulativo",
+  "termino": "Realismo especulativo",
+  "def": "Corriente reciente que defiende que se puede pensar cómo es el mundo al margen de los humanos, sin limitarse a cómo nos aparece. Incluye a Meillassoux y Harman."
+ },
+ {
+  "clave": "resonancia",
+  "termino": "Resonancia",
+  "def": "Idea de Hartmut Rosa: la sensación de que el mundo te responde y te conmueve, como una canción que te toca. Para él, vivir bien es tener muchas experiencias así."
+ },
+ {
+  "clave": "riesgo-existencial",
+  "termino": "Riesgo existencial",
+  "def": "Peligro que podría acabar con toda la humanidad o dejarla dañada para siempre, como una guerra nuclear o una inteligencia artificial fuera de control."
+ },
+ {
+  "clave": "sistema-sexo-genero",
+  "termino": "Sistema sexo-género",
+  "def": "Idea de Gayle Rubin: cada sociedad convierte las diferencias de sexo en reglas sobre lo que deben hacer los hombres y las mujeres. Por ejemplo, quién cuida a los niños o quién manda."
+ },
+ {
+  "clave": "soberania",
+  "termino": "Soberanía",
+  "def": "El poder más alto de un Estado para mandar en su territorio sin que otro mande sobre él. Por ejemplo, decidir quién entra por sus fronteras."
+ },
+ {
+  "clave": "superinteligencia",
+  "termino": "Superinteligencia",
+  "def": "Una inteligencia artificial mucho más inteligente que cualquier persona. Bostrom advierte que sería muy difícil controlarla si sus objetivos no coinciden con los nuestros."
+ },
+ {
+  "clave": "teoria-critica-de-la-raza",
+  "termino": "Teoría crítica de la raza",
+  "def": "Corriente de juristas y pensadores que estudia cómo el racismo está metido en las leyes y las instituciones, aunque nadie diga que es racista. Crenshaw es una de sus figuras."
+ },
+ {
+  "clave": "vaguedad",
+  "termino": "Vaguedad",
+  "def": "Cuando una palabra no tiene un límite claro. ¿Cuántos pelos hacen falta para no ser calvo? No hay un número evidente. Es un problema clásico en la lógica."
+ }
+]

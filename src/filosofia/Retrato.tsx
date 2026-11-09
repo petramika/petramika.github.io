@@ -24,7 +24,7 @@ export default function Retrato({nombre, img, cats, size = 64, eager}: {nombre: 
   return (
     <span className="retrato" style={{width: size, height: size, background: anillo(cats)}} aria-hidden="true">
       {img && !fallo ? (
-        <img src={img} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" onError={() => setFallo(true)} />
+        <img src={size > 40 ? img.replace('/120px-', '/250px-').replace('-120px-', '-250px-') : img} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" onError={() => setFallo(true)} />
       ) : (
         <span className="iniciales" style={{fontSize: size * 0.32}}>
           {iniciales(nombre)}

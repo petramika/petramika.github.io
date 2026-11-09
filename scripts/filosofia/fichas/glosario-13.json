@@ -1,0 +1,167 @@
+[
+ {
+  "clave": "apartheid",
+  "termino": "Apartheid",
+  "def": "Régimen de Sudáfrica (1948 a 1994) que separaba por ley a las personas según su color de piel y daba todos los privilegios a los blancos."
+ },
+ {
+  "clave": "argumento-de-la-consecuencia",
+  "termino": "Argumento de la consecuencia",
+  "def": "Si todo lo que haces estaba ya fijado antes de nacer por el pasado y las leyes naturales, entonces no depende de ti. Por eso no habría libertad."
+ },
+ {
+  "clave": "argumento-del-conocimiento",
+  "termino": "Argumento del conocimiento",
+  "def": "Caso de Mary, que sabe todo sobre el color pero nunca lo ha visto. Si aprende algo al verlo, saber los datos físicos no basta para entender la experiencia."
+ },
+ {
+  "clave": "autopoiesis",
+  "termino": "Autopoiesis",
+  "def": "Capacidad de un ser vivo de fabricarse y repararse a sí mismo. Por ejemplo, una célula produce las piezas que la mantienen viva."
+ },
+ {
+  "clave": "bioetica",
+  "termino": "Bioética",
+  "def": "Parte de la ética que se ocupa de la vida y la medicina. Por ejemplo, si se puede tratar a un enfermo sin su permiso."
+ },
+ {
+  "clave": "conciencia-fenomenica",
+  "termino": "Conciencia fenoménica",
+  "def": "Lo que se siente al vivir algo: cómo es ver el rojo o notar un dolor. No es lo mismo que usar esa información para actuar."
+ },
+ {
+  "clave": "conciencia-mestiza",
+  "termino": "Conciencia mestiza",
+  "def": "Forma de ser de quien vive entre dos culturas y no elige una sola: mezcla ambas y crea algo nuevo, como quien habla dos lenguas a la vez."
+ },
+ {
+  "clave": "conciencia-negra",
+  "termino": "Conciencia Negra",
+  "def": "Movimiento de Sudáfrica que pedía a las personas negras sentir orgullo de sí mismas, unirse y liberarse del sentimiento de inferioridad impuesto por el racismo."
+ },
+ {
+  "clave": "contractualismo",
+  "termino": "Contractualismo",
+  "def": "Idea de que las reglas morales justas son las que todos podríamos aceptar. Colarse en la fila está mal porque nadie aceptaría esa regla."
+ },
+ {
+  "clave": "contrato-sexual",
+  "termino": "Contrato sexual",
+  "def": "Idea de Carole Pateman: junto al pacto entre ciudadanos libres existía un pacto no dicho por el cual los hombres mandaban sobre las mujeres."
+ },
+ {
+  "clave": "creacionismo",
+  "termino": "Creacionismo",
+  "def": "Creencia de que Dios creó el mundo y los seres vivos tal como son, sin evolución. La ciencia no lo considera una explicación comprobable."
+ },
+ {
+  "clave": "cuasi-realismo",
+  "termino": "Cuasi-realismo",
+  "def": "Idea de que decir «esto está mal» expresa lo que sentimos, pero aun así podemos hablar de verdad y de error como si fuera un hecho."
+ },
+ {
+  "clave": "empirismo-constructivo",
+  "termino": "Empirismo constructivo",
+  "def": "Idea de que una buena teoría científica no tiene que ser verdad sobre lo invisible: basta con que funcione bien con lo que podemos observar."
+ },
+ {
+  "clave": "enactivismo",
+  "termino": "Enactivismo",
+  "def": "Idea de que la mente surge al actuar y moverse en el mundo con el cuerpo, no al copiar el mundo dentro de la cabeza."
+ },
+ {
+  "clave": "epistemologia-de-virtudes",
+  "termino": "Epistemología de virtudes",
+  "def": "Enfoque según el cual saber bien depende de buenas cualidades de quien piensa, como la atención, la honestidad o la curiosidad."
+ },
+ {
+  "clave": "epistemologia-social",
+  "termino": "Epistemología social",
+  "def": "Estudia cómo conocemos con ayuda de otros: expertos, periódicos, testigos o internet. Por ejemplo, ¿por qué confías en tu médico?"
+ },
+ {
+  "clave": "ethos-barroco",
+  "termino": "Ethos barroco",
+  "def": "Idea de Bolívar Echeverría: forma de vivir en América Latina que acepta las reglas del sistema pero las llena de fiesta, mezcla y creatividad."
+ },
+ {
+  "clave": "etnofilosofia",
+  "termino": "Etnofilosofía",
+  "def": "Describir las creencias de un pueblo como si fueran su filosofía común. Sus críticos dicen que así se ignora que filosofar es razonar por uno mismo."
+ },
+ {
+  "clave": "fenomeno-saturado",
+  "termino": "Fenómeno saturado",
+  "def": "Experiencia tan intensa que ninguna idea la puede abarcar entera, como enamorarse, un gran cuadro o una experiencia religiosa."
+ },
+ {
+  "clave": "fiabilismo",
+  "termino": "Fiabilismo",
+  "def": "Idea de que sabes algo si lo crees por un camino que suele acertar, como ver bien o recordar bien, y no por simple suerte."
+ },
+ {
+  "clave": "fundamento-metafisico",
+  "termino": "Fundamento",
+  "def": "Relación de «ser verdad por culpa de» otra cosa. Que llueva o haga sol es verdad porque llueve."
+ },
+ {
+  "clave": "fundherentismo",
+  "termino": "Fundherentismo",
+  "def": "Teoría de Susan Haack: una creencia está bien apoyada por la experiencia y por encajar con otras, como las pistas de un crucigrama."
+ },
+ {
+  "clave": "juego-de-ficcion",
+  "termino": "Juego de ficción",
+  "def": "Idea de Kendall Walton: ver una película o leer una novela es como un juego infantil de «hacer como si» algo fuera cierto."
+ },
+ {
+  "clave": "materialismo-eliminativo",
+  "termino": "Materialismo eliminativo",
+  "def": "Idea de que creer o desear son teorías populares sobre la mente que la neurociencia podría sustituir, como se dejó de hablar de espíritus de enfermedad."
+ },
+ {
+  "clave": "neologicismo",
+  "termino": "Neologicismo",
+  "def": "Intento moderno de apoyar las matemáticas, sobre todo los números, en principios casi de pura lógica."
+ },
+ {
+  "clave": "neurofenomenologia",
+  "termino": "Neurofenomenología",
+  "def": "Método de Francisco Varela: unir lo que mide la ciencia del cerebro con lo que la persona cuenta de su experiencia vivida."
+ },
+ {
+  "clave": "no-dominacion",
+  "termino": "No dominación",
+  "def": "Libertad entendida como que nadie pueda mandarte a su antojo. Un trabajador con jefe amable sigue dominado si el jefe puede despedirlo sin motivo."
+ },
+ {
+  "clave": "paradoja-del-horror",
+  "termino": "Paradoja del horror",
+  "def": "Pregunta de por qué disfrutamos con películas que nos dan miedo o asco, si en la vida real huimos de eso."
+ },
+ {
+  "clave": "positivismo-juridico",
+  "termino": "Positivismo jurídico",
+  "def": "Idea de que algo es ley por quién y cómo se aprobó, y no porque sea justa. Una ley injusta sigue siendo ley."
+ },
+ {
+  "clave": "posthumanismo",
+  "termino": "Posthumanismo",
+  "def": "Corriente que repiensa qué es ser persona en un mundo con máquinas, ordenadores y biotecnología."
+ },
+ {
+  "clave": "principialismo",
+  "termino": "Principialismo",
+  "def": "Forma de decidir en medicina con cuatro principios: respetar la decisión del paciente, hacer el bien, no hacer daño y ser justo."
+ },
+ {
+  "clave": "realismo-modal",
+  "termino": "Realismo modal",
+  "def": "Idea de David Lewis de que los mundos posibles existen de verdad, tan reales como el nuestro, y por eso es cierto que «podría haber sido otra cosa»."
+ },
+ {
+  "clave": "ser-con",
+  "termino": "Ser-con",
+  "def": "Idea de Jean-Luc Nancy: nadie existe antes de estar con otros. Desde el principio somos con los demás, como en una conversación."
+ }
+]

@@ -1,0 +1,117 @@
+[
+ {
+  "clave": "beguina",
+  "termino": "Beguina",
+  "def": "Mujer religiosa de la Edad Media que vivía en comunidad con otras mujeres, rezando y ayudando a los demás, pero sin hacerse monja ni vivir encerrada en un convento."
+ },
+ {
+  "clave": "iluminacion-divina",
+  "termino": "Iluminación divina",
+  "def": "Idea de que para conocer verdades seguras la mente necesita una ayuda de Dios, como cuando alguien enciende la luz en una habitación oscura para que podamos ver."
+ },
+ {
+  "clave": "voluntarismo",
+  "termino": "Voluntarismo",
+  "def": "Postura que da más importancia al querer y a la voluntad que a la razón. Por ejemplo: elegimos lo que hacemos porque queremos, no porque la razón nos obligue."
+ },
+ {
+  "clave": "gracia",
+  "termino": "Gracia",
+  "def": "En el cristianismo, un regalo de Dios que no se puede ganar con esfuerzo. Es como un premio que recibes sin haberlo merecido."
+ },
+ {
+  "clave": "pelagianismo",
+  "termino": "Pelagianismo",
+  "def": "Idea cristiana antigua de que las personas pueden hacer el bien y salvarse con su propio esfuerzo, sin la ayuda especial de Dios. La Iglesia la consideró un error."
+ },
+ {
+  "clave": "hesicasmo",
+  "termino": "Hesicasmo",
+  "def": "Forma de oración de los monjes orientales: estar en silencio, respirar con calma y repetir una breve oración muchas veces para sentir cerca a Dios."
+ },
+ {
+  "clave": "sofismas",
+  "termino": "Sofismas",
+  "def": "Razonamientos o frases que parecen correctos pero esconden una trampa. Por ejemplo: «Lo que no has perdido, lo tienes; no has perdido los cuernos; luego tienes cuernos»."
+ },
+ {
+  "clave": "reforma-protestante",
+  "termino": "Reforma protestante",
+  "def": "Movimiento religioso del siglo XVI que empezó con Lutero. Criticó a la Iglesia de Roma y dio lugar a nuevas iglesias cristianas, como la luterana o la calvinista."
+ },
+ {
+  "clave": "realismo",
+  "termino": "Realismo (en filosofía medieval)",
+  "def": "Idea de que las cosas generales, como «hombre» o «belleza», existen de verdad y no son solo palabras. Es lo contrario del nominalismo."
+ },
+ {
+  "clave": "anacoreta",
+  "termino": "Anacoreta",
+  "def": "Persona que vive aislada y dedicada a rezar. Juliana vivía en una pequeña celda unida a una iglesia, desde donde atendía a quienes iban a pedirle consejo."
+ },
+ {
+  "clave": "tlatoani",
+  "termino": "Tlatoani",
+  "def": "Palabra náhuatl que significa «el que habla». Era el título del gobernante de una ciudad en el México antiguo, algo así como rey."
+ },
+ {
+  "clave": "justificacion-por-la-fe",
+  "termino": "Justificación por la fe",
+  "def": "Idea de Lutero: una persona se salva por confiar en Dios, no por sus buenas obras ni por comprar perdones. Es como un regalo, no un sueldo."
+ },
+ {
+  "clave": "animal-maquina",
+  "termino": "Animal-máquina",
+  "def": "Idea de que los animales funcionan como máquinas, como un reloj, y no piensan ni sienten como las personas. Hoy sabemos que sienten, pero entonces fue una idea muy discutida."
+ },
+ {
+  "clave": "ciencia-media",
+  "termino": "Ciencia media",
+  "def": "Idea de Molina: Dios sabe lo que haría cada persona en cada situación posible, aunque nunca ocurra. Es como saber lo que elegirías en un menú que no has visto."
+ },
+ {
+  "clave": "neoestoicismo",
+  "termino": "Neoestoicismo",
+  "def": "Estoicismo renovado en el siglo XVI: unir las ideas de los estoicos, como mantener la calma y aceptar lo que no se puede cambiar, con la fe cristiana."
+ },
+ {
+  "clave": "jansenismo",
+  "termino": "Jansenismo",
+  "def": "Movimiento católico del siglo XVII muy estricto en moral, que insistía en que sin la gracia de Dios no podemos hacer el bien. Causó grandes enfrentamientos en Francia."
+ },
+ {
+  "clave": "platonicos-de-cambridge",
+  "termino": "Platónicos de Cambridge",
+  "def": "Grupo de pensadores ingleses del siglo XVII, de la Universidad de Cambridge. Defendían que la razón y la fe van juntas y que hay verdades eternas, como en Platón."
+ },
+ {
+  "clave": "naturaleza-plastica",
+  "termino": "Naturaleza plástica",
+  "def": "Fuerza que, según algunos filósofos del siglo XVII, ordena la vida sin pensar, como la que hace que una semilla crezca con forma de planta y no de piedra."
+ },
+ {
+  "clave": "filosofia-mecanica",
+  "termino": "Filosofía mecánica",
+  "def": "Forma de entender el mundo como una gran máquina: todo se explica con piezas que se mueven y chocan, sin fuerzas misteriosas."
+ },
+ {
+  "clave": "corpusculos",
+  "termino": "Corpúsculos",
+  "def": "Partículas diminutas de materia, demasiado pequeñas para verlas. Se pensaba que todo estaba hecho de ellas, como un muro está hecho de ladrillos."
+ },
+ {
+  "clave": "gravitacion-universal",
+  "termino": "Gravitación universal",
+  "def": "Ley de Newton: todos los objetos se atraen entre sí con una fuerza. Es la misma fuerza que hace caer una manzana y que mantiene a la Luna girando alrededor de la Tierra."
+ },
+ {
+  "clave": "espacio-absoluto",
+  "termino": "Espacio absoluto",
+  "def": "Idea de que el espacio existe por sí mismo, como una gran caja vacía, aunque no haya nada dentro. Newton y Clarke la defendían frente a Leibniz."
+ },
+ {
+  "clave": "libre-pensamiento",
+  "termino": "Libre pensamiento",
+  "def": "Postura de quien quiere pensar por sí mismo, sobre todo en religión, sin aceptar algo solo porque lo diga una autoridad."
+ }
+]

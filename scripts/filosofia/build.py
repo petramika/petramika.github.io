@@ -34,21 +34,57 @@ def deTexto(t):
     if len(lados) > 1 and ac[1] and not ac[0]: ac[0] = True
     return (-a if ac[0] else a, (-b if ac[1] else b) if b is not None else None)
 
+# Reconocimiento: percentil de cada señal (en escala logaritmica, para que
+# Platon no aplaste a todos) y media de las dos mejores. Niveles por puesto.
+import math, os
+fama = json.load(open('fama.json')) if os.path.exists('fama.json') else {}
+def percentiles(campo):
+    v = sorted((math.log1p(x[campo]), k) for k, x in fama.items() if k in wd and x.get(campo) is not None)
+    return {k: round(100 * i / max(1, len(v) - 1)) for i, (_, k) in enumerate(v)}
+pp, pv, pi = percentiles('papers'), percentiles('visitas'), percentiles('idiomas')
+# La señal mas floja no cuenta: si los papers fallan por como se le nombra
+# («Seneca the Younger») o casi nadie lo lee en Wikipedia, no lo hunde.
+def media(k):
+    s = sorted(x for x in [pp.get(k), pv.get(k), pi.get(k)] if x is not None)
+    return sum(s[-2:]) / len(s[-2:])  # sin papers todavia: con visitas e idiomas
+nota = {k: media(k) for k in pv if k in fichas}
+orden = sorted(nota, key=lambda k: -nota[k])
+FAMA = {}
+for i, k in enumerate(orden):
+    q = i / len(orden)
+    FAMA[k] = {'n': 4 if q < .10 else 3 if q < .35 else 2 if q < .70 else 1, 'puesto': i + 1}
+
+import hashlib
+def miniatura(url, px):
+    """Direccion directa de la miniatura en Wikimedia (sin la redireccion de Special:FilePath).
+    La web cambia «120px-» por «250px-» cuando el retrato se ve grande."""
+    nombre = urllib.parse.unquote(url.rsplit('/', 1)[1]).replace(' ', '_')
+    h = hashlib.md5(nombre.encode()).hexdigest()
+    q = urllib.parse.quote(nombre)
+    base = f'https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/'
+    ext = nombre.rsplit('.', 1)[-1].lower()
+    if ext == 'svg': return base + f'{px}px-{q}.png'
+    if ext in ('tif', 'tiff'): return base + f'lossy-page1-{px}px-{q}.jpg'
+    if ext in ('djvu', 'pdf'): return base + f'page1-{px}px-{q}.jpg'
+    return base + f'{px}px-{q}'
+
 lista, detalle = [], {}
+sinFicha = [k for k in wd if k not in fichas]
+if sinFicha: print('sin ficha todavia (no salen):', len(sinFicha))
 for id_, w in wd.items():
-    fi = fichas.get(id_, {})
+    if id_ not in fichas: continue
+    fi = fichas[id_]
     n, m = anio(w.get('nac')), anio(w.get('mue'))
     dt = deTexto(fi.get('fechas'))
     if dt: n, m = dt[0], (dt[1] if dt[1] is not None else m)
     fl = n + 35 if n is not None else (m - 30 if m is not None else 0)
-    img = w.get('img')
-    if img:
-        img = img.replace('http://', 'https://') + '?width=240'
+    img = miniatura(w['img'], 120) if w.get('img') else None
     lista.append({
         'id': id_, 'nombre': fi.get('nombre') or w.get('esLabel') or w['enTitulo'],
         'fechas': fi.get('fechas') or fechas(n, m), 'nace': n, 'muere': m, 'fl': fl, 'era': era(fl),
         'region': fi.get('region'), 'escuela': fi.get('escuela'), 'categorias': fi.get('categorias', []),
         'conocidoPor': fi.get('conocidoPor'), 'img': img,
+        'sexo': w.get('sexo'), 'fama': FAMA.get(id_),
     })
     enl = []
     if w.get('es'): enl.append({'titulo': 'Wikipedia', 'url': w['es'], 'tipo': 'wiki'})
@@ -85,7 +121,33 @@ for x in lista: marcas(x['conocidoPor'])
 for d in detalle.values():
     marcas(d['resumen']); marcas(d['curiosidad']); [marcas(i) for i in d['ideas'] or []]
 faltan = sorted(usados - set(glos))
+# Quien le influyo (al reves que influyeEn), para no tener que leer todas las fichas
+for k, d in detalle.items():
+    d['influidoPor'] = [o for o, x in detalle.items() if k in (x.get('influyeEn') or [])]
+
+# Las fichas, en trozos de 40 por orden cronologico: al abrir una se baja solo su trozo
+import shutil
+TROZO = 40
+shutil.rmtree(f'{DEST}/fichas', ignore_errors=True); os.makedirs(f'{DEST}/fichas')
+if os.path.exists(f'{DEST}/fichas.json'): os.remove(f'{DEST}/fichas.json')
+for i, x in enumerate(lista):
+    x['t'] = i // TROZO
+for t in range(-(-len(lista) // TROZO)):
+    suyos = {x['id']: detalle[x['id']] for x in lista if x['t'] == t}
+    json.dump(suyos, open(f'{DEST}/fichas/{t:02d}.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 json.dump(lista, open(f'{DEST}/lista.json', 'w'), ensure_ascii=False, separators=(',', ':'))
-json.dump(detalle, open(f'{DEST}/fichas.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 json.dump({k: {'t': g['termino'], 'd': g['def']} for k, g in glos.items()}, open(f'{DEST}/glosario.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 print('filosofos', len(lista), 'con ficha', len(fichas), 'glosario', len(glos), 'usados', len(usados), 'faltan', faltan[:30], len(faltan))
+
+# La historia con lupa: acontecimientos y periodos (historia/*.json)
+if os.path.exists('historia/eventos.json'):
+    ev = sorted(json.load(open('historia/eventos.json')), key=lambda e: e['anio'])
+    pe = sorted(json.load(open('historia/periodos.json')), key=lambda p: p['desde'])
+    fr = sorted(json.load(open('historia/frases.json')), key=lambda f: f['anio']) if os.path.exists('historia/frases.json') else []
+    ids = {x['id'] for x in lista}
+    for f in fr:
+        if f.get('autor') and f['autor'] not in ids: f['autor'] = None
+    # La frase de cada filosofo que sale en la linea del tiempo (reconocimiento alto o muy alto)
+    frasesFil = {x['id']: detalle[x['id']]['frase'] for x in lista if (x.get('fama') or {}).get('n', 0) >= 3 and detalle[x['id']].get('frase')}
+    json.dump({'eventos': ev, 'periodos': pe, 'frases': fr, 'frasesFil': frasesFil}, open(f'{DEST}/historia.json', 'w'), ensure_ascii=False, separators=(',', ':'))
+    print('historia', len(ev), 'eventos', len(pe), 'periodos', len(fr), 'frases')

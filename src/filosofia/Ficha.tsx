@@ -1,27 +1,52 @@
 import {useEffect, useRef, useState} from 'react';
-import {CAT, ERAS} from './config';
+import {CAT, ERAS, FAMAS} from './config';
 import {Texto} from '../comun/Glosario';
 import Retrato from './Retrato';
 import type {Ficha as FichaT, Filosofo} from './tipos';
 
-// Las fichas pesan: se descargan la primera vez que se abre una
-let fichas: Record<string, FichaT> | null = null;
-const cargar = () => import('./datos/fichas.json').then((m) => (fichas = m.default as unknown as Record<string, FichaT>));
+// Las fichas pesan: estan en trozos de 40 y se baja solo el de la que se abre
+const TROZOS = import.meta.glob<{default: Record<string, FichaT>}>('./datos/fichas/*.json');
+const cache = new Map<number, Record<string, FichaT>>();
+export const cargarFicha = async (f: Filosofo) => {
+  if (!cache.has(f.t)) cache.set(f.t, (await TROZOS[`./datos/fichas/${String(f.t).padStart(2, '0')}.json`]()).default);
+  return cache.get(f.t)![f.id];
+};
 
 const ICONO: Record<string, string> = {wiki: 'W', enciclopedia: '📚', texto: '📜', libro: '📖', frases: '❝', articulo: '📰', video: '▶', web: '↗'};
 
 type Props = {f: Filosofo; todos: Filosofo[]; abrir: (id: string) => void; cerrar: () => void};
 
+/** Reconocimiento: cuatro puntos y su nivel (Baja, Media, Alta, Muy alta) */
+function Relevancia({f}: {f: Filosofo}) {
+  const x = f.fama;
+  if (!x) return null;
+  const nivel = FAMAS.find((n) => n.n === x.n)!;
+  return (
+    <p className="ficha-relevancia" title="Según cuántos papers académicos lo nombran, cuánta gente lee su Wikipedia y en cuántos idiomas está">
+      <span className="fr-titulo">Reconocimiento</span>
+      <span className="fama-puntos" aria-hidden="true">
+        {'●'.repeat(x.n)}
+        <span className="apagados">{'●'.repeat(4 - x.n)}</span>
+      </span>
+      <strong>{nivel.nombre}</strong>
+    </p>
+  );
+}
+
 export default function Ficha({f, todos, abrir, cerrar}: Props) {
-  const [d, setD] = useState<FichaT | null>(fichas?.[f.id] ?? null);
+  const [d, setD] = useState<FichaT | null>(cache.get(f.t)?.[f.id] ?? null);
   const panel = useRef<HTMLDivElement>(null);
   const cierre = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    if (fichas) setD(fichas[f.id]);
-    else cargar().then((x) => setD(x[f.id]));
+    let vivo = true;
+    setD(cache.get(f.t)?.[f.id] ?? null);
+    cargarFicha(f).then((x) => vivo && setD(x));
     panel.current?.scrollTo({top: 0});
-  }, [f.id]);
+    return () => {
+      vivo = false;
+    };
+  }, [f]);
 
   // Foco dentro, Esc cierra, el fondo no se mueve
   useEffect(() => {
@@ -34,14 +59,14 @@ export default function Ficha({f, todos, abrir, cerrar}: Props) {
     document.body.style.overflow = 'hidden';
     return () => {
       document.removeEventListener('keydown', tecla);
-      document.body.style.overflow = '';
+      document.body.style.overflow = document.querySelector('.hist-fondo') ? 'hidden' : '';
       antes?.focus?.({preventScroll: true});
     };
   }, [cerrar]);
 
   const nombreDe = (id: string) => todos.find((x) => x.id === id);
   const influyeEn = (d?.influyeEn ?? []).map(nombreDe).filter(Boolean) as Filosofo[];
-  const influidoPor = todos.filter((x) => x.id !== f.id && (fichas?.[x.id]?.influyeEn ?? []).includes(f.id));
+  const influidoPor = (d?.influidoPor ?? []).map(nombreDe).filter(Boolean) as Filosofo[];
   const era = ERAS.find((e) => e.id === f.era)!;
 
   return (
@@ -72,13 +97,23 @@ export default function Ficha({f, todos, abrir, cerrar}: Props) {
           </p>
         )}
 
+        <Relevancia f={f} />
+
         {!d ? (
-          <p className="ficha-cargando">Cargando…</p>
+          <div className="ficha-esqueleto" aria-label="Cargando" role="status">
+            <i className="e-titulo" />
+            <i />
+            <i />
+            <i className="corta" />
+            <i className="e-titulo" />
+            <i />
+            <i className="corta" />
+          </div>
         ) : (
           <>
             {d.resumen && (
               <section>
-                <h3>Por qué es famoso</h3>
+                <h3>En qué destacó</h3>
                 <p className="ficha-resumen">
                   <Texto>{d.resumen}</Texto>
                 </p>

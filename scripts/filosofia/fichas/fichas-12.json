@@ -1,0 +1,2249 @@
+[
+ {
+  "id": "gilbert-simondon",
+  "nombre": "Gilbert Simondon",
+  "fechas": "1924 – 1989",
+  "region": "Francia",
+  "escuela": "Filosofía de la técnica",
+  "categorias": [
+   "metafisica",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar las máquinas como seres que evolucionan y pensar cómo se forman las cosas",
+  "resumen": "Simondon fue un filósofo francés que se tomó en serio las máquinas. Decía que la gente las ve como simples herramientas o como amenazas, y que así no las entiende. Su idea de la [[individuación|individuacion]] explica cómo cualquier cosa, desde un cristal hasta una persona, se va formando poco a poco.",
+  "ideas": [
+   "Un [[objeto técnico|objeto-tecnico]], como un motor, evoluciona de forma parecida a un ser vivo: sus piezas se van ajustando hasta funcionar juntas.",
+   "Para vivir bien con la tecnología hay que entender cómo funciona, no verla como una caja negra ni como un enemigo.",
+   "Una cosa no viene terminada de fábrica: es un proceso. Un cristal se forma poco a poco en el agua, y una persona también se va formando con los demás."
+  ],
+  "curiosidad": "El filósofo Gilles Deleuze reconoció su deuda con Simondon y habló muy bien de su libro sobre la individuación.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El modo de existencia de los objetos técnicos",
+    "anio": "1958",
+    "deQueVa": "Cómo nacen y evolucionan las máquinas y qué relación tenemos con ellas."
+   },
+   {
+    "titulo": "La individuación a la luz de las nociones de forma y de información",
+    "anio": "1958",
+    "deQueVa": "Su tesis principal: cómo se forman las cosas y los seres."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "gilles-deleuze",
+   "bernard-stiegler"
+  ]
+ },
+ {
+  "id": "arthur-danto",
+  "nombre": "Arthur C. Danto",
+  "fechas": "1924 – 2013",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica del arte",
+  "categorias": [
+   "estetica",
+   "metafisica"
+  ],
+  "conocidoPor": "Preguntar qué hace que una cosa sea arte cuando dos objetos idénticos se ven igual",
+  "resumen": "Danto fue un filósofo estadounidense y también crítico de arte. Se hizo famoso al ver las cajas de detergente Brillo de Andy Warhol y preguntarse por qué eran arte si eran casi iguales que las de un supermercado. Su respuesta cambió la manera de hablar del arte moderno.",
+  "ideas": [
+   "Dos objetos pueden verse idénticos y uno ser arte y el otro no, como una caja Brillo de Warhol y una del súper. Lo que cambia es lo que sabemos y pensamos sobre ellos.",
+   "Para ver algo como arte hace falta un [[mundo del arte|mundo-del-arte]]: gente, museos y teorías que lo hacen posible.",
+   "Con «el [[fin del arte|fin-del-arte]]» no dijo que se acabara el arte, sino que ya no hay una sola manera correcta de hacerlo: hoy todo vale como posibilidad."
+  ],
+  "curiosidad": "Fue durante muchos años crítico de arte de la revista The Nation.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La transfiguración del lugar común",
+    "anio": "1981",
+    "deQueVa": "Qué diferencia una obra de arte de un objeto idéntico que no lo es."
+   },
+   {
+    "titulo": "Después del fin del arte",
+    "anio": "1997",
+    "deQueVa": "Cómo es el arte cuando ya no hay un único camino que seguir."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "amilcar-cabral",
+  "nombre": "Amílcar Cabral",
+  "fechas": "1924 – 1973",
+  "region": "Guinea-Bisáu y Cabo Verde",
+  "escuela": "Pensamiento anticolonial (marxismo africano)",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar la lucha por la independencia de África como una lucha también por la cultura",
+  "resumen": "Cabral era ingeniero agrónomo y fundó el partido que lideró la lucha por la independencia de Guinea-Bisáu y Cabo Verde, entonces colonias de Portugal. Fue asesinado en 1973, antes de ver la independencia. Pensó la [[liberación nacional|liberacion-nacional]] como algo más que echar a los colonizadores: también era recuperar la propia cultura.",
+  "ideas": [
+   "La cultura de un pueblo es su fuerza para resistir: sin ella, una independencia política queda a medias.",
+   "Las teorías políticas no se copian de otros países: hay que adaptarlas a la realidad de cada lugar, como decía en «El arma de la teoría».",
+   "Cuando un pueblo se libera, hace un acto de cultura, porque vuelve a ser dueño de su propia historia."
+  ],
+  "curiosidad": "Como agrónomo estudió el suelo y los cultivos de su país, y ese trabajo le sirvió para conocer de cerca la vida del campo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El arma de la teoría",
+    "anio": "1966",
+    "deQueVa": "Un discurso en el que defiende que la lucha necesita ideas propias, no recetas de fuera."
+   },
+   {
+    "titulo": "Cultura y liberación nacional",
+    "anio": "1970",
+    "deQueVa": "Una conferencia sobre el papel de la cultura en las luchas por la independencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michael-dummett",
+  "nombre": "Michael Dummett",
+  "fechas": "1925 – 2011",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "lenguaje",
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que el significado de una frase depende de cómo podemos comprobar que es verdadera",
+  "resumen": "Dummett fue un filósofo británico de Oxford. Se dedicó a estudiar al lógico Gottlob Frege y ayudó a que se le reconociera como uno de los grandes. También propuso una idea polémica: que algo no es verdadero si no hay manera, ni siquiera en teoría, de comprobarlo.",
+  "ideas": [
+   "Entender una frase es saber cómo se comprobaría que es verdadera. «Hay café en la cocina» se comprueba yendo a mirar.",
+   "El [[antirrealismo]] dice que la verdad no puede quedar fuera de lo que podemos descubrir: sobre el pasado sin pruebas no hay una verdad escondida que nadie pueda ver.",
+   "La filosofía del lenguaje debe ir antes que el resto, porque pensar bien exige entender bien las palabras."
+  ],
+  "curiosidad": "Además de filósofo fue un gran experto en la historia de los juegos de cartas del tarot y escribió libros sobre ellos. También se implicó en la lucha contra el racismo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Frege: filosofía del lenguaje",
+    "anio": "1973",
+    "deQueVa": "Explica con detalle el pensamiento de Frege sobre el lenguaje."
+   },
+   {
+    "titulo": "Verdad y otros enigmas",
+    "anio": "1978",
+    "deQueVa": "Ensayos sobre la verdad, el pasado y el significado."
+   },
+   {
+    "titulo": "Los fundamentos lógicos de la metafísica",
+    "anio": "1991",
+    "deQueVa": "Cómo la lógica y el lenguaje ayudan a pensar la realidad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "manuel-sacristan",
+  "nombre": "Manuel Sacristán",
+  "fechas": "1925 – 1985",
+  "region": "España",
+  "escuela": "Marxismo y lógica contemporánea",
+  "categorias": [
+   "logica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Traer a España la lógica moderna y un marxismo sin dogmas, y avisar pronto de la crisis ecológica",
+  "resumen": "Sacristán fue un filósofo español que enseñó en Barcelona. Fue de los primeros en explicar la [[lógica moderna|logica-moderna]] en España y tradujo a autores como Quine, Marx o Lukács. Por su actividad política fue apartado de la universidad en 1965.",
+  "ideas": [
+   "La [[lógica moderna|logica-moderna]] sirve para razonar con rigor, como un buen manual de instrucciones del pensamiento, y en España casi no se enseñaba.",
+   "El [[marxismo]] debe discutirse con cabeza y con ciencia, no repetirse como un catecismo.",
+   "Hay que pensar en los límites de la naturaleza: fue pionero del [[ecologismo]] en España, cuando casi nadie hablaba de ello."
+  ],
+  "curiosidad": "Fundó en 1979 la revista «mientras tanto», que sigue publicándose.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Introducción a la lógica y al análisis formal",
+    "anio": "1964",
+    "deQueVa": "Un manual para aprender lógica moderna en español."
+   },
+   {
+    "titulo": "Las ideas gnoseológicas de Heidegger",
+    "anio": "1959",
+    "deQueVa": "Su tesis sobre cómo piensa Heidegger el conocimiento."
+   },
+   {
+    "titulo": "Panfletos y materiales",
+    "anio": "1983",
+    "deQueVa": "Colección de sus escritos políticos y ecologistas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "augusto-salazar-bondy",
+  "nombre": "Augusto Salazar Bondy",
+  "fechas": "1925 – 1974",
+  "region": "Perú",
+  "escuela": "Filosofía de la liberación latinoamericana",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Preguntarse por qué la filosofía de América Latina imita a Europa y qué haría falta para liberarla",
+  "resumen": "Salazar Bondy fue un filósofo peruano. En un libro muy discutido preguntó si existe una filosofía propia de América Latina. Su respuesta fue que no, porque vivíamos en países dominados, y que pensar con libertad exigía cambiar también esa situación social.",
+  "ideas": [
+   "Un país dependiente tiende a copiar las ideas de los poderosos. Por eso la filosofía latinoamericana ha sido muchas veces una imitación.",
+   "Para tener un pensamiento propio no basta con querer: hay que cambiar la situación de dominación y desigualdad.",
+   "La [[filosofía de la liberación|filosofia-de-la-liberacion]] nace de esa idea: pensar desde los problemas reales de nuestra gente."
+  ],
+  "curiosidad": "Participó en la reforma educativa del Perú de finales de los años sesenta.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "¿Existe una filosofía de nuestra América?",
+    "anio": "1968",
+    "deQueVa": "Se pregunta si hay un pensamiento propio en América Latina."
+   },
+   {
+    "titulo": "Sentido y problema del Perú",
+    "anio": "1969",
+    "deQueVa": "Ensayo sobre la realidad social y cultural de su país."
+   },
+   {
+    "titulo": "Entre Escila y Caribdis",
+    "anio": "1969",
+    "deQueVa": "Reflexiones sobre la educación y la cultura en América Latina."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "enrique-dussel"
+  ]
+ },
+ {
+  "id": "stanley-cavell",
+  "nombre": "Stanley Cavell",
+  "fechas": "1926 – 2018",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía del lenguaje ordinario",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "existencia",
+   "estetica"
+  ],
+  "conocidoPor": "Mostrar que dudar de que existan los demás no se arregla con pruebas, sino con reconocerlos",
+  "resumen": "Cavell fue un filósofo estadounidense de Harvard. Leyó a Wittgenstein, a Thoreau y a Emerson, y también tomó en serio el cine de Hollywood como una forma de pensar. Para él, la duda sobre si conocemos de verdad a los demás es parte de ser humano.",
+  "ideas": [
+   "No conocemos a otra persona como conocemos una mesa. Con ella hace falta confianza y reconocimiento, no datos.",
+   "Las palabras de cada día, usadas en su contexto, esconden mucha filosofía. Basta escuchar cómo las usamos.",
+   "Una buena película puede ser tan filosófica como un libro: las comedias clásicas de Hollywood hablan del matrimonio y de la igualdad."
+  ],
+  "curiosidad": "Empezó estudiando música y quería ser compositor antes de dedicarse a la filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "¿Debemos querer decir lo que decimos?",
+    "anio": "1969",
+    "deQueVa": "Ensayos sobre cómo hablamos y qué significa."
+   },
+   {
+    "titulo": "Los sentidos de Walden",
+    "anio": "1972",
+    "deQueVa": "Una lectura filosófica del libro de Thoreau."
+   },
+   {
+    "titulo": "La reivindicación de la razón",
+    "anio": "1979",
+    "deQueVa": "Su gran libro sobre la duda y el reconocimiento de los demás."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "miguel-leon-portilla",
+  "nombre": "Miguel León Portilla",
+  "fechas": "1926 – 2019",
+  "region": "México",
+  "escuela": "Estudios nahuas",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Demostrar que los nahuas tuvieron una filosofía propia y dar voz a lo que contaron los vencidos",
+  "resumen": "León Portilla fue un historiador y filósofo mexicano. Su maestro fue Ángel María Garibay. Estudió textos en [[náhuatl|nahuatl]], la lengua de los mexicas, y defendió que los sabios nahuas ya pensaban sobre la verdad, la muerte y el sentido de la vida antes de la llegada de los españoles.",
+  "ideas": [
+   "Los sabios nahuas, llamados «tlamatinime», se preguntaban cómo decir verdades en un mundo que pasa deprisa.",
+   "Para ellos la poesía, la «[[flor y canto|flor-y-canto]]», era el camino para acercarse a lo verdadero.",
+   "La historia de la conquista de México también debe contarse con los testimonios de los pueblos indígenas, no solo con los de los españoles."
+  ],
+  "curiosidad": "Fue maestro de generaciones de estudiosos en la UNAM y trabajó durante décadas con textos antiguos escritos en náhuatl.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía náhuatl estudiada en sus fuentes",
+    "anio": "1956",
+    "deQueVa": "Muestra que los nahuas pensaron de forma filosófica."
+   },
+   {
+    "titulo": "Visión de los vencidos",
+    "anio": "1959",
+    "deQueVa": "Reúne testimonios indígenas sobre la conquista de México."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "niklas-luhmann",
+  "nombre": "Niklas Luhmann",
+  "fechas": "1927 – 1998",
+  "region": "Alemania",
+  "escuela": "Teoría de sistemas",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar la sociedad como una red de comunicaciones y no como un grupo de personas",
+  "resumen": "Luhmann fue un sociólogo alemán que quiso hacer una teoría de toda la sociedad. Decía que lo importante no son las personas sino lo que se comunican, y que cada ámbito, como el derecho, la economía o la ciencia, funciona con sus propias reglas.",
+  "ideas": [
+   "La sociedad está hecha de comunicaciones: lo que se dicen, pagan o deciden unos y otros, más que de personas sueltas.",
+   "Cada sistema social, como la justicia o el dinero, se organiza a su manera. Un juez piensa «legal o ilegal» y un banco «pagar o no pagar».",
+   "Los sistemas se reproducen a sí mismos, algo que llamó [[autopoiesis]], como un ser vivo que se renueva sin parar."
+  ],
+  "curiosidad": "Organizó su trabajo con un enorme fichero de papel, con decenas de miles de fichas que le ayudaban a relacionar ideas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sistemas sociales",
+    "anio": "1984",
+    "deQueVa": "La base de su teoría: cómo funcionan los sistemas sociales."
+   },
+   {
+    "titulo": "La sociedad de la sociedad",
+    "anio": "1997",
+    "deQueVa": "Su obra final, una teoría completa de la sociedad moderna."
+   },
+   {
+    "titulo": "Sociología del riesgo",
+    "anio": "1991",
+    "deQueVa": "Cómo la sociedad vive el peligro y el riesgo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "leszek-koakowski",
+  "nombre": "Leszek Kołakowski",
+  "fechas": "1927 – 2009",
+  "region": "Polonia",
+  "escuela": "Filosofía de la religión y crítica del marxismo",
+  "categorias": [
+   "politica",
+   "religion",
+   "metafisica"
+  ],
+  "conocidoPor": "Pasar de ser un marxista polaco a su crítico más sólido y defender que la religión plantea preguntas que no se van",
+  "resumen": "Kołakowski fue un filósofo polaco. De joven creyó en el [[marxismo]], pero criticó al régimen comunista de su país y fue expulsado de la universidad de Varsovia en 1968. Tuvo que exiliarse y trabajó en Oxford. Escribió una historia crítica del marxismo y libros sobre religión.",
+  "ideas": [
+   "Las ideas políticas absolutas son peligrosas: quien cree tener la verdad total acaba justificando obligar a los demás.",
+   "Aunque no podamos demostrar nada sobre Dios, las preguntas de la religión sobre el mal y el sentido de la vida siguen siendo reales.",
+   "Una cosa puede ser un mito y seguir siendo importante: los mitos nos dan sentido, aunque no sean ciencia."
+  ],
+  "curiosidad": "Su gran libro «Las principales corrientes del marxismo» lo escribió en el exilio y se publicó en tres tomos a finales de los años setenta.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Las principales corrientes del marxismo",
+    "anio": "1976",
+    "deQueVa": "Una historia del marxismo, de sus orígenes a su desarrollo en el siglo XX."
+   },
+   {
+    "titulo": "Religión",
+    "anio": "1982",
+    "deQueVa": "Una reflexión sobre qué papel tiene la religión incluso para quienes no creen."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "emilio-lledo",
+  "nombre": "Emilio Lledó",
+  "fechas": "1927 –",
+  "region": "España",
+  "escuela": "Hermenéutica",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que leer y recordar nos hace libres y nos hace personas",
+  "resumen": "Lledó es un filósofo español nacido en Sevilla. Estudió en Alemania con Hans-Georg Gadamer, el gran pensador de la [[hermenéutica|hermeneutica]]. Ha escrito mucho sobre la lectura, la memoria y la palabra. Recibió el Premio Princesa de Asturias de Comunicación y Humanidades en 2015.",
+  "ideas": [
+   "Leer es hablar con alguien que no está: la escritura guarda la memoria de las personas y permite pensar con ellas.",
+   "Sin memoria no hay identidad. Somos lo que recordamos y lo que hacemos con ello.",
+   "El lenguaje no solo comunica: nos da la manera de pensar y de ser libres."
+  ],
+  "curiosidad": "Fue alumno de Gadamer en Heidelberg y ha defendido siempre la importancia de la lectura en la escuela.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El epicureísmo",
+    "anio": "1984",
+    "deQueVa": "Una introducción a la filosofía de Epicuro."
+   },
+   {
+    "titulo": "El silencio de la escritura",
+    "anio": "1991",
+    "deQueVa": "Sobre la escritura, la lectura y la memoria."
+   },
+   {
+    "titulo": "Memoria de la ética",
+    "anio": "1994",
+    "deQueVa": "Un repaso al pensamiento sobre cómo vivir bien."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "judith-n-shklar",
+  "nombre": "Judith Shklar",
+  "fechas": "1928 – 1992",
+  "region": "Estados Unidos",
+  "escuela": "Liberalismo político",
+  "categorias": [
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Decir que lo peor que se puede hacer es ser cruel y que el Estado debe protegernos del miedo",
+  "resumen": "Shklar fue una pensadora política nacida en Riga, hoy Letonia. Su familia judía huyó de los nazis y ella acabó enseñando en Harvard. Defendió un [[liberalismo del miedo|liberalismo-del-miedo]]: el primer deber de un gobierno es evitar que la gente viva con terror, sobre todo ante la crueldad de quienes tienen poder.",
+  "ideas": [
+   "Lo peor que hacemos unos a otros es ser crueles. Una sociedad decente empieza evitando eso.",
+   "No basta con no hacer daño: también hay injusticia en mirar para otro lado cuando alguien sufre.",
+   "Los pequeños vicios de cada día, como la hipocresía o la traición, importan tanto para la política como las grandes ideas."
+  ],
+  "curiosidad": "Fue la primera mujer en conseguir plaza fija en el departamento de Gobierno de Harvard.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Legalismo",
+    "anio": "1964",
+    "deQueVa": "Cómo pensamos que las reglas y los jueces resuelven los problemas."
+   },
+   {
+    "titulo": "Vicios ordinarios",
+    "anio": "1984",
+    "deQueVa": "Un estudio de la crueldad, la hipocresía y otros defectos comunes."
+   },
+   {
+    "titulo": "Los rostros de la injusticia",
+    "anio": "1990",
+    "deQueVa": "Qué es la injusticia y cuándo somos responsables de ella."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "richard-rorty"
+  ]
+ },
+ {
+  "id": "gustavo-gutierrez",
+  "nombre": "Gustavo Gutiérrez",
+  "fechas": "1928 – 2024",
+  "region": "Perú",
+  "escuela": "Teología de la liberación",
+  "categorias": [
+   "religion",
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Fundar la teología de la liberación: leer la fe cristiana desde los pobres y su sufrimiento",
+  "resumen": "Gutiérrez fue un sacerdote y teólogo peruano. Su libro de 1971 dio nombre a la [[teología de la liberación|teologia-de-la-liberacion]]. Defendió que la fe cristiana no puede ignorar la pobreza y que Dios tiene una «opción preferencial por los pobres». Vivió y trabajó mucho tiempo en los barrios pobres de Lima.",
+  "ideas": [
+   "La pobreza no es una desgracia natural: es una injusticia causada por la sociedad, y quien cree en Dios debe combatirla.",
+   "Dios se pone del lado de los pobres, por eso la Iglesia debe empezar por escucharlos y acompañarlos.",
+   "Se puede hablar de Dios desde el sufrimiento de los inocentes, como en el libro bíblico de Job."
+  ],
+  "curiosidad": "Entró en la orden de los dominicos ya con fama mundial, hacia el año 2000 (las fuentes dan 1999 o 2001).",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Teología de la liberación: perspectivas",
+    "anio": "1971",
+    "deQueVa": "El libro que dio nombre y forma a esta corriente."
+   },
+   {
+    "titulo": "Beber en su propio pozo",
+    "anio": "1983",
+    "deQueVa": "Sobre la espiritualidad que nace de la lucha de los pobres."
+   },
+   {
+    "titulo": "Sobre Job",
+    "anio": "1986",
+    "deQueVa": "Cómo hablar de Dios ante el dolor de quien no tiene culpa."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sylvia-wynter",
+  "nombre": "Sylvia Wynter",
+  "fechas": "1928 –",
+  "region": "Jamaica y Caribe",
+  "escuela": "Pensamiento caribeño y poscolonial",
+  "categorias": [
+   "sociedad",
+   "conocimiento",
+   "existencia"
+  ],
+  "conocidoPor": "Criticar que el «Hombre» europeo se presente como si fuera todo el ser humano",
+  "resumen": "Wynter nació en Cuba, de padres jamaicanos, y creció en Jamaica. Escribió novelas, obras de teatro y ensayos, y fue profesora en Stanford. Sostuvo que la idea de «ser humano» que usamos fue construida en Europa a partir de un modelo concreto, y que dejó fuera a otros pueblos.",
+  "ideas": [
+   "Ser humano no es solo tener cuerpo: es también las historias que nos contamos sobre quiénes somos.",
+   "La idea occidental del «Hombre» se presenta como universal, pero deja fuera a mucha gente, sobre todo a las personas negras e indígenas.",
+   "Hace falta imaginar otras maneras de ser humanos, que no pongan a unos por encima de otros."
+  ],
+  "curiosidad": "Escribió la novela «The Hills of Hebron», sobre una comunidad religiosa en Jamaica, antes de dedicarse sobre todo al ensayo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Hills of Hebron",
+    "anio": "1962",
+    "deQueVa": "Novela sobre una comunidad religiosa en Jamaica."
+   },
+   {
+    "titulo": "Unsettling the Coloniality of Being/Power/Truth/Freedom",
+    "anio": "2003",
+    "deQueVa": "Su ensayo más conocido sobre la idea de «Hombre» y el colonialismo."
+   },
+   {
+    "titulo": "On Being Human as Praxis",
+    "anio": "2015",
+    "deQueVa": "Recopilación de sus textos, editada por Katherine McKittrick."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "edouard-glissant",
+  "nombre": "Édouard Glissant",
+  "fechas": "1928 – 2011",
+  "region": "Martinica (Caribe francés)",
+  "escuela": "Pensamiento caribeño y poscolonial",
+  "categorias": [
+   "sociedad",
+   "estetica",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que las culturas se mezclan sin perder lo suyo y que tenemos derecho a no ser entendidos del todo",
+  "resumen": "Glissant fue un poeta, novelista y pensador de Martinica, isla del Caribe. Vio en el Caribe, nacido del encuentro de pueblos africanos, europeos e indígenas, un modelo del mundo actual. Propuso que las culturas se encuentren sin que unas absorban a otras.",
+  "ideas": [
+   "La [[creolización|creolizacion]] es la mezcla de culturas cuyo resultado nadie puede prever, como una nueva lengua que nace entre dos.",
+   "Cada persona tiene derecho a la [[opacidad]]: a no ser entendida del todo, porque entender a otro no debe significar reducirlo a lo mío.",
+   "La identidad no tiene por qué tener una sola raíz. Puede ser una red de relaciones, como un archipiélago de islas."
+  ],
+  "curiosidad": "Su novela «La Lézarde» ganó el premio Renaudot, un importante premio literario francés, en 1958.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La Lézarde",
+    "anio": "1958",
+    "deQueVa": "Novela sobre un grupo de jóvenes en Martinica."
+   },
+   {
+    "titulo": "El discurso antillano",
+    "anio": "1981",
+    "deQueVa": "Ensayos sobre la identidad y la historia del Caribe."
+   },
+   {
+    "titulo": "Poética de la relación",
+    "anio": "1990",
+    "deQueVa": "Su idea de que las culturas se definen por sus relaciones."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "harry-frankfurt",
+  "nombre": "Harry G. Frankfurt",
+  "fechas": "1929 – 2023",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "etica",
+   "mente",
+   "metafisica"
+  ],
+  "conocidoPor": "Distinguir al mentiroso del que habla sin que le importe la verdad, y pensar la libertad",
+  "resumen": "Frankfurt fue un filósofo estadounidense que enseñó en Princeton. Escribió sobre la libertad, la responsabilidad y el amor. Se hizo famoso con un librito sobre la «[[bullshit]]»: hablar sin que te importe si lo que dices es verdad o no.",
+  "ideas": [
+   "El mentiroso sabe la verdad y la oculta. El que suelta [[bullshit]] ni se molesta en saberla: solo quiere quedar bien o convencer.",
+   "Además de desear cosas, podemos desear qué deseos tener. Es un [[deseo de segundo orden|deseo-de-segundo-orden]]: quien quiere dejar de fumar quiere no querer fumar.",
+   "Con el [[ejemplo de Frankfurt|ejemplo-de-frankfurt]] mostró que alguien puede ser responsable de lo que hace aunque no hubiera podido hacer otra cosa."
+  ],
+  "curiosidad": "Su ensayo sobre la «bullshit» era corto y de 1986, pero en 2005 salió como libro y fue un éxito de ventas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Alternate Possibilities and Moral Responsibility",
+    "anio": "1969",
+    "deQueVa": "Artículo con su famoso argumento sobre responsabilidad y libertad."
+   },
+   {
+    "titulo": "La libertad de la voluntad y el concepto de persona",
+    "anio": "1971",
+    "deQueVa": "Qué significa tener voluntad propia."
+   },
+   {
+    "titulo": "Sobre la manipulación de la verdad (On Bullshit)",
+    "anio": "2005",
+    "deQueVa": "Qué es hablar sin preocuparse por la verdad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hubert-dreyfus",
+  "nombre": "Hubert Dreyfus",
+  "fechas": "1929 – 2017",
+  "region": "Estados Unidos",
+  "escuela": "Fenomenología",
+  "categorias": [
+   "mente",
+   "conocimiento",
+   "ciencia"
+  ],
+  "conocidoPor": "Criticar los programas de inteligencia artificial usando la filosofía de Heidegger y de la vida real del cuerpo",
+  "resumen": "Dreyfus fue un filósofo estadounidense, profesor en Berkeley. Desde los años sesenta dijo que las máquinas de su época no podrían imitar la inteligencia humana, porque nuestro saber se apoya en el cuerpo y en vivir en el mundo, no solo en reglas. Su visión se apoyó en la [[fenomenología|fenomenologia]] de Heidegger.",
+  "ideas": [
+   "Un experto, como un conductor veterano, no sigue reglas paso a paso: actúa con intuición, fruto de años de práctica.",
+   "Pensar no es solo manejar símbolos: necesitamos cuerpo, sentidos y vivir entre cosas y personas.",
+   "Una [[inteligencia artificial|inteligencia-artificial]] que no tenga nada parecido a un cuerpo y a un mundo tendrá límites."
+  ],
+  "curiosidad": "En 1967 perdió una partida de ajedrez contra un programa del MIT, tras haber dicho que las máquinas no sabrían jugar bien.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "What Computers Can't Do",
+    "anio": "1972",
+    "deQueVa": "Una crítica a los intentos de crear inteligencia artificial."
+   },
+   {
+    "titulo": "Mind over Machine",
+    "anio": "1986",
+    "deQueVa": "Escrito con su hermano Stuart: cómo aprendemos hasta ser expertos."
+   },
+   {
+    "titulo": "Being-in-the-World",
+    "anio": "1991",
+    "deQueVa": "Un comentario sobre «Ser y tiempo» de Heidegger."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "judith-jarvis-thomson",
+  "nombre": "Judith Jarvis Thomson",
+  "fechas": "1929 – 2020",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica moral",
+  "categorias": [
+   "etica",
+   "metafisica"
+  ],
+  "conocidoPor": "Inventar casos imaginarios, como el violinista o el tranvía, que ponen a prueba nuestras ideas sobre lo correcto",
+  "resumen": "Thomson fue una filósofa estadounidense que enseñó en el MIT. Usó ejemplos imaginarios muy claros para discutir cuestiones morales difíciles. Su artículo de 1971 sobre el aborto, con el caso del violinista, es uno de los más leídos de la filosofía moral.",
+  "ideas": [
+   "En el [[argumento del violinista|argumento-del-violinista]], te despiertas conectada a un violinista famoso que necesita tu cuerpo nueve meses para vivir. ¿Estás obligada a seguir? Concluye que no siempre se debe ceder el propio cuerpo.",
+   "No se trata de decidir si el feto es persona. Aun admitiéndolo, se pregunta si eso da derecho a usar el cuerpo de otra persona.",
+   "El [[dilema del tranvía|dilema-del-tranvia]] sirve para comparar casos que parecen iguales: matar a una persona o dejarla morir son cosas distintas para muchos."
+  ],
+  "curiosidad": "El nombre «problema del tranvía» lo puso ella en 1976. El caso original lo había planteado antes la filósofa Philippa Foot.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Una defensa del aborto",
+    "anio": "1971",
+    "deQueVa": "Su artículo con el caso del violinista."
+   },
+   {
+    "titulo": "Matar, dejar morir y el problema del tranvía",
+    "anio": "1976",
+    "deQueVa": "Donde nombra el problema del tranvía."
+   },
+   {
+    "titulo": "The Realm of Rights",
+    "anio": "1990",
+    "deQueVa": "Una teoría de qué son los derechos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "annette-baier",
+  "nombre": "Annette Baier",
+  "fechas": "1929 – 2012",
+  "region": "Nueva Zelanda y Estados Unidos",
+  "escuela": "Ética de los afectos (lectura de Hume)",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "mente"
+  ],
+  "conocidoPor": "Defender que la ética se basa en la confianza entre personas y no solo en reglas",
+  "resumen": "Baier fue una filósofa nacida en Nueva Zelanda que trabajó sobre todo en Estados Unidos. Leyó a David Hume con ojos nuevos y le dio mucha importancia a la confianza. Vivimos dependiendo unos de otros desde bebés, y por eso la ética debe partir de esas relaciones.",
+  "ideas": [
+   "Confiar es dejar algo importante en manos de otra persona. Sin confianza no podríamos vivir ni en pareja ni en sociedad.",
+   "Casi nadie elige entre desconocidos iguales: nacemos dependiendo de otros, y la ética debe contar con eso.",
+   "Los sentimientos, como la simpatía, pueden ser una base de la moral tan buena como la razón."
+  ],
+  "curiosidad": "Llamó a Hume «el filósofo moral de las mujeres» porque creía que daba importancia a los afectos y a las relaciones.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Postures of the Mind",
+    "anio": "1985",
+    "deQueVa": "Ensayos sobre mente, ética y confianza."
+   },
+   {
+    "titulo": "A Progress of Sentiments",
+    "anio": "1991",
+    "deQueVa": "Una lectura del «Tratado de la naturaleza humana» de Hume."
+   },
+   {
+    "titulo": "Moral Prejudices",
+    "anio": "1994",
+    "deQueVa": "Ensayos sobre ética, confianza y vida en común."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "nel-noddings",
+  "nombre": "Nel Noddings",
+  "fechas": "1929 – 2022",
+  "region": "Estados Unidos",
+  "escuela": "Ética del cuidado",
+  "categorias": [
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Basar la ética y la educación en el cuidado de unas personas por otras",
+  "resumen": "Noddings fue una pedagoga y filósofa estadounidense. Antes de dar clases en la universidad fue maestra de matemáticas en un colegio. Defendió que la moral parte del cuidado que damos y recibimos, y que la escuela debe enseñar a cuidar, no solo a sacar buenas notas.",
+  "ideas": [
+   "La [[ética del cuidado|etica-del-cuidado]] dice que lo moral nace de atender de verdad a las necesidades de quien tenemos delante.",
+   "Un buen profesor no solo explica: se interesa por cada alumno y crea una relación de confianza.",
+   "Se puede aprender a ser bueno viviendo relaciones de cuidado, no solo estudiando normas."
+  ],
+  "curiosidad": "Fue maestra de matemáticas en un colegio antes de ser profesora universitaria.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Caring",
+    "anio": "1984",
+    "deQueVa": "Una ética basada en el cuidado y la educación moral."
+   },
+   {
+    "titulo": "Women and Evil",
+    "anio": "1989",
+    "deQueVa": "Sobre el mal, desde una perspectiva femenina."
+   },
+   {
+    "titulo": "Starting at Home",
+    "anio": "2002",
+    "deQueVa": "Cómo el cuidado en el hogar puede guiar la vida social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "agnes-heller",
+  "nombre": "Ágnes Heller",
+  "fechas": "1929 – 2019",
+  "region": "Hungría",
+  "escuela": "Escuela de Budapest (marxismo crítico)",
+  "categorias": [
+   "sociedad",
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Pensar la vida cotidiana y las necesidades de las personas desde un marxismo abierto",
+  "resumen": "Heller fue una filósofa húngara, alumna de György Lukács. Sobrevivió al Holocausto en Budapest. Formó parte de la [[Escuela de Budapest|escuela-de-budapest]], se alejó del comunismo oficial y acabó enseñando en Australia y Nueva York. Estudió cómo vivimos lo cotidiano.",
+  "ideas": [
+   "En la vida de cada día, con la familia, el trabajo o las costumbres, se forma la persona, y por eso merece estudio serio.",
+   "Las personas tenemos [[necesidades radicales|necesidades-radicales]]: querer más libertad y más sentido, cosas que el sistema actual no puede dar.",
+   "La moral moderna no tiene un fundamento único: cada persona debe elegir con responsabilidad."
+  ],
+  "curiosidad": "Su padre murió en Auschwitz. Ella murió en 2019 mientras nadaba en el lago Balatón, en Hungría.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sociología de la vida cotidiana",
+    "anio": "1970",
+    "deQueVa": "Cómo se forma la vida de cada día."
+   },
+   {
+    "titulo": "Teoría de las necesidades en Marx",
+    "anio": "1974",
+    "deQueVa": "Estudio de las necesidades humanas según Marx."
+   },
+   {
+    "titulo": "Una teoría de la modernidad",
+    "anio": "1999",
+    "deQueVa": "Reflexión sobre cómo es el mundo moderno."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "martin-luther-king-jr",
+  "nombre": "Martin Luther King",
+  "fechas": "1929 – 1968",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía de la no violencia",
+  "categorias": [
+   "politica",
+   "etica",
+   "religion",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender con ideas y con actos la lucha sin violencia contra la segregación racial",
+  "resumen": "King fue un pastor bautista y doctor en teología que lideró el movimiento por los derechos civiles de la población negra en Estados Unidos. Aprendió de Gandhi y de Thoreau que se puede resistir a una ley injusta sin usar la violencia. Recibió el Premio Nobel de la Paz en 1964 y fue asesinado en 1968.",
+  "ideas": [
+   "La [[no violencia|no-violencia]] no es pasividad: es resistir con firmeza y sin odiar, para ganar al adversario como amigo.",
+   "Una ley injusta no obliga en conciencia, y la [[desobediencia civil|desobediencia-civil]] pacífica es una forma de respeto a la justicia.",
+   "La [[segregación racial|segregacion-racial]] daña a quien la sufre y también a quien la practica, porque rompe la humanidad de ambos."
+  ],
+  "curiosidad": "Viajó a la India en 1959 para conocer de cerca el legado de Gandhi.",
+  "frase": {
+   "texto": "Una injusticia en cualquier lugar es una amenaza para la justicia en todas partes.",
+   "fuente": "Carta desde la cárcel de Birmingham (1963)"
+  },
+  "obras": [
+   {
+    "titulo": "Carta desde la cárcel de Birmingham",
+    "anio": "1963",
+    "deQueVa": "Responde a críticos que le pedían esperar y explica por qué hay que actuar ya."
+   },
+   {
+    "titulo": "La fuerza de amar",
+    "anio": "1963",
+    "deQueVa": "Colección de sermones sobre amor, perdón y justicia."
+   },
+   {
+    "titulo": "Por qué no podemos esperar",
+    "anio": "1964",
+    "deQueVa": "Sobre el movimiento por los derechos civiles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jaakko-hintikka",
+  "nombre": "Jaakko Hintikka",
+  "fechas": "1929 – 2015",
+  "region": "Finlandia",
+  "escuela": "Lógica y filosofía analítica",
+  "categorias": [
+   "logica",
+   "conocimiento",
+   "lenguaje"
+  ],
+  "conocidoPor": "Aplicar la lógica a saber y a creer, y usar «mundos posibles» para entender el significado",
+  "resumen": "Hintikka fue un filósofo finlandés que enseñó en Estados Unidos. Su libro «Conocimiento y creencia» creó la lógica del conocimiento, que estudia con rigor frases como «yo sé que» o «yo creo que». También usó los [[mundos posibles|mundo-posible]] para entender lo que significan.",
+  "ideas": [
+   "Saber algo es poder descartar todas las situaciones posibles en que eso no sería cierto.",
+   "Si sé que mi llave está en el cajón, no puedo creer a la vez que no lo está. La lógica ayuda a ver estas reglas.",
+   "Investigar es hacer preguntas: es un juego en el que preguntamos a la naturaleza y a los textos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Conocimiento y creencia",
+    "anio": "1962",
+    "deQueVa": "Aplica la lógica a las ideas de saber y creer."
+   },
+   {
+    "titulo": "The Principles of Mathematics Revisited",
+    "anio": "1996",
+    "deQueVa": "Propone un nuevo modo de entender la lógica y las matemáticas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "pierre-bourdieu",
+  "nombre": "Pierre Bourdieu",
+  "fechas": "1930 – 2002",
+  "region": "Francia",
+  "escuela": "Sociología crítica",
+  "categorias": [
+   "sociedad",
+   "conocimiento",
+   "politica"
+  ],
+  "conocidoPor": "Mostrar que la escuela y el gusto reproducen las clases sociales sin que lo notemos",
+  "resumen": "Bourdieu fue un sociólogo francés, hijo de un cartero de un pueblo pequeño del sur de Francia. Su obra explica cómo la desigualdad se mantiene aunque nadie lo decida, a través de la escuela, de la cultura y hasta de los gustos. Tuvo mucha influencia en todo el mundo.",
+  "ideas": [
+   "El [[capital cultural|capital-cultural]] son los conocimientos y las maneras que se heredan de casa: hablar bien, leer, ir a museos. Ayudan a triunfar en la escuela.",
+   "El [[habitus]] es la forma de pensar y de actuar que nos queda grabada por cómo crecimos, aunque creamos que es elección propia.",
+   "Lo que parece buen gusto también marca la clase social. Escuchar ópera o ir a un museo distingue a unos de otros: de ahí «La distinción»."
+  ],
+  "curiosidad": "Hizo el servicio militar en Argelia en plena guerra y luego investigó allí la sociedad, lo que le llevó de la filosofía a la sociología.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los herederos",
+    "anio": "1964",
+    "deQueVa": "Escrito con J.-C. Passeron: por qué los hijos de familias cultas llegan más lejos en la universidad."
+   },
+   {
+    "titulo": "La reproducción",
+    "anio": "1970",
+    "deQueVa": "Cómo la escuela mantiene las desigualdades."
+   },
+   {
+    "titulo": "La distinción",
+    "anio": "1979",
+    "deQueVa": "Cómo el gusto y la cultura marcan la clase social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "anibal-quijano",
+  "nombre": "Aníbal Quijano",
+  "fechas": "1930 – 2018",
+  "region": "Perú",
+  "escuela": "Pensamiento decolonial",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar que el colonialismo terminó como régimen pero sigue vivo en el poder y en la idea de «raza»",
+  "resumen": "Quijano fue un sociólogo peruano. Propuso el concepto de [[colonialidad del poder|colonialidad-del-poder]]: aunque los países ganaron su independencia, siguen vigentes las jerarquías que nacieron con la conquista de América, como el racismo, que clasifica a las personas por su «raza».",
+  "ideas": [
+   "La idea de «raza» se inventó con la conquista de América para justificar que unos mandaran y otros trabajaran.",
+   "Después de la independencia, quedó la [[colonialidad|colonialidad-del-poder]]: el modo de pensar y de organizar el trabajo heredado del colonialismo.",
+   "Entender América Latina exige ver cómo se relaciona con el [[capitalismo]] mundial desde hace siglos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Colonialidad y modernidad/racionalidad",
+    "anio": "1992",
+    "deQueVa": "Cómo la modernidad europea y el colonialismo van de la mano."
+   },
+   {
+    "titulo": "Colonialidad del poder, eurocentrismo y América Latina",
+    "anio": "2000",
+    "deQueVa": "Su texto más conocido sobre el tema."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "maria-lugones"
+  ]
+ },
+ {
+  "id": "ignacio-ellacuria",
+  "nombre": "Ignacio Ellacuría",
+  "fechas": "1930 – 1989",
+  "region": "El Salvador y España",
+  "escuela": "Filosofía y teología de la liberación",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Pensar la realidad desde la historia de los pueblos pobres y comprometerse con ellos hasta el final",
+  "resumen": "Ellacuría nació en España, fue jesuita y vivió en El Salvador. Era discípulo del filósofo Xavier Zubiri y rector de la Universidad Centroamericana. Pensó la realidad como algo histórico y defendió a los pobres. En 1989 fue asesinado por militares junto a cinco jesuitas más y dos mujeres.",
+  "ideas": [
+   "Hay que «hacerse cargo» de la realidad, «cargar con ella» y «encargarse de ella», es decir, entenderla, soportar su peso y actuar para cambiarla.",
+   "La [[realidad histórica|realidad-historica]] es la realidad más completa: la historia que hacemos entre todos.",
+   "Propuso una «civilización de la pobreza», en lugar de una que consume sin límite y deja a muchos fuera."
+  ],
+  "curiosidad": "Fue asesinado el 16 de noviembre de 1989 en la universidad donde trabajaba, junto a otros compañeros y a dos mujeres que vivían allí.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Teología política",
+    "anio": "1973",
+    "deQueVa": "Sobre cómo la fe tiene consecuencias en la vida política."
+   },
+   {
+    "titulo": "Conversión de la Iglesia al Reino de Dios",
+    "anio": "1985",
+    "deQueVa": "Sobre cómo debe cambiar la Iglesia."
+   },
+   {
+    "titulo": "Filosofía de la realidad histórica",
+    "anio": "1990",
+    "deQueVa": "Su obra filosófica principal, publicada tras su muerte."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michel-serres",
+  "nombre": "Michel Serres",
+  "fechas": "1930 – 2019",
+  "region": "Francia",
+  "escuela": "Filosofía de la ciencia y de la comunicación",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Unir la ciencia, las letras y la vida diaria, y pedir un contrato con la naturaleza",
+  "resumen": "Serres fue un filósofo francés que enseñó en París y en Stanford. Estudió en la Escuela Naval antes de dedicarse a la filosofía, y llegó a la Academia Francesa. Le gustaba conectar la ciencia con la literatura y escribía con un estilo claro y cercano.",
+  "ideas": [
+   "Las ciencias y las humanidades no están separadas: se entienden mejor si se hablan entre sí.",
+   "Propuso un [[contrato natural|contrato-natural]]: igual que firmamos contratos entre personas, deberíamos reconocer derechos a la Tierra.",
+   "En «Pulgarcita» habla de los jóvenes con móvil: el saber ya no está solo en la cabeza, sino al alcance de la mano, y la escuela debe cambiar."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Hermes",
+    "anio": "1969",
+    "deQueVa": "Serie de libros sobre comunicación, ciencia y filosofía."
+   },
+   {
+    "titulo": "El contrato natural",
+    "anio": "1990",
+    "deQueVa": "Propone una relación nueva y justa con la naturaleza."
+   },
+   {
+    "titulo": "Pulgarcita",
+    "anio": "2012",
+    "deQueVa": "Sobre cómo la tecnología cambia el saber y la juventud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "bruno-latour"
+  ]
+ },
+ {
+  "id": "felix-guattari",
+  "nombre": "Félix Guattari",
+  "fechas": "1930 – 1992",
+  "region": "Francia",
+  "escuela": "Postestructuralismo",
+  "categorias": [
+   "mente",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar junto a Deleuze cómo el deseo y el poder se mezclan, desde su trabajo como psicoanalista",
+  "resumen": "Guattari fue un psicoanalista y filósofo francés. Trabajó en la clínica psiquiátrica de La Borde, donde buscaban tratar a los pacientes de forma más libre. Con Gilles Deleuze escribió «El Anti-Edipo» y «Mil mesetas», libros muy influyentes y difíciles.",
+  "ideas": [
+   "El deseo no es solo algo íntimo: es una fuerza que mueve a la sociedad entera, y el poder intenta controlarla.",
+   "El [[rizoma]] es una imagen: una red sin centro, como el césped, en lugar de un árbol con un tronco que manda.",
+   "La [[ecosofía|ecosofia]] une tres cuidados: el de la naturaleza, el de las relaciones sociales y el de nuestra propia mente."
+  ],
+  "curiosidad": "Trabajó durante décadas en la clínica de La Borde, en la que se probaban formas nuevas de tratar la enfermedad mental.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El Anti-Edipo",
+    "anio": "1972",
+    "deQueVa": "Escrito con Deleuze: crítica del psicoanálisis y del capitalismo."
+   },
+   {
+    "titulo": "Mil mesetas",
+    "anio": "1980",
+    "deQueVa": "Escrito con Deleuze: continuación de «El Anti-Edipo»."
+   },
+   {
+    "titulo": "Las tres ecologías",
+    "anio": "1989",
+    "deQueVa": "Propone pensar juntas la naturaleza, la sociedad y la mente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "guy-debord",
+  "nombre": "Guy Debord",
+  "fechas": "1931 – 1994",
+  "region": "Francia",
+  "escuela": "Situacionismo (crítica cultural)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Decir que vivimos en una «sociedad del espectáculo» donde las imágenes sustituyen la vida real",
+  "resumen": "Debord fue un escritor, cineasta y pensador francés, figura clave de la [[Internacional Situacionista|internacional-situacionista]], un grupo de artistas y revolucionarios. En «La sociedad del espectáculo» dijo que en el [[capitalismo]] todo se convierte en imagen y que miramos la vida en lugar de vivirla.",
+  "ideas": [
+   "El [[espectáculo|espectaculo]] no son solo los medios: son las relaciones entre personas convertidas en imágenes, como cuando vivimos pendientes de la foto de una experiencia.",
+   "En lugar de actuar, nos volvemos espectadores: cuanto más miramos, menos vivimos.",
+   "Propuso la [[deriva]]: pasear por la ciudad sin plan, dejándose llevar, para ver el mundo de otra manera."
+  ],
+  "curiosidad": "La Internacional Situacionista, que ayudó a fundar en 1957, influyó en las protestas de mayo de 1968 en Francia.",
+  "frase": {
+   "texto": "Todo lo que era vivido directamente se aleja en una representación.",
+   "fuente": "La sociedad del espectáculo (1967), tesis 1, traducción libre"
+  },
+  "obras": [
+   {
+    "titulo": "La sociedad del espectáculo",
+    "anio": "1967",
+    "deQueVa": "Su gran obra, en 221 tesis cortas sobre la sociedad de las imágenes."
+   },
+   {
+    "titulo": "Comentarios sobre la sociedad del espectáculo",
+    "anio": "1988",
+    "deQueVa": "Lo que ha cambiado desde su libro anterior."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "La sociedad del espectáculo, texto completo (en inglés)",
+    "url": "https://www.marxists.org/reference/archive/debord/society.htm",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "kwasi-wiredu",
+  "nombre": "Kwasi Wiredu",
+  "fechas": "1931 – 2022",
+  "region": "Ghana",
+  "escuela": "Filosofía africana contemporánea",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "politica"
+  ],
+  "conocidoPor": "Pedir una «descolonización conceptual»: revisar las ideas que usamos y que vienen de lenguas coloniales",
+  "resumen": "Wiredu fue un filósofo de Ghana, del pueblo akan. Enseñó en la Universidad de Ghana y en Estados Unidos. Sostuvo que el pensamiento africano debía repensarse desde sus propias lenguas, sin aceptar sin más los conceptos que llegaron con el colonialismo.",
+  "ideas": [
+   "La [[descolonización conceptual|descolonizacion-conceptual]] consiste en revisar qué palabras e ideas heredamos de la colonia y si de verdad nos sirven.",
+   "Hay que comparar cómo expresan las cosas distintas lenguas: el idioma [[akan]] dice «ser» o «verdad» de una manera diferente al inglés.",
+   "Propuso una [[democracia por consenso|democracia-consensual]], inspirada en cómo se decidía en algunas sociedades africanas: hablar hasta llegar a un acuerdo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Philosophy and an African Culture",
+    "anio": "1980",
+    "deQueVa": "Pensar la filosofía africana desde la propia cultura."
+   },
+   {
+    "titulo": "Cultural Universals and Particulars",
+    "anio": "1996",
+    "deQueVa": "Qué tienen en común las culturas y qué tienen de propio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "john-mbiti",
+  "nombre": "John Mbiti",
+  "fechas": "1931 – 2019",
+  "region": "Kenia",
+  "escuela": "Teología y filosofía africanas",
+  "categorias": [
+   "religion",
+   "existencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar la religión y la idea del tiempo en África y resumir que la persona existe en comunidad",
+  "resumen": "Mbiti fue un sacerdote anglicano y teólogo de Kenia, con doctorado en Cambridge. Escribió uno de los primeros libros muy leídos sobre las religiones africanas. Sostuvo que en muchos pueblos africanos la persona se entiende dentro de su comunidad, y propuso una manera de entender el tiempo que fue muy discutida.",
+  "ideas": [
+   "La persona no existe sola: se es persona a través de la comunidad. Cada uno forma parte de un «nosotros».",
+   "Describió el tiempo con dos ideas: [[sasa y zamani|sasa-y-zamani]], el presente cercano y el pasado lejano. Mucha gente lo criticó por generalizar para toda África.",
+   "Las religiones africanas tienen ideas propias sobre Dios, los antepasados y el mundo, y merecen un estudio serio."
+  ],
+  "curiosidad": "Su libro «African Religions and Philosophy» fue de lectura obligada en muchas universidades de África y del mundo.",
+  "frase": {
+   "texto": "Yo soy porque nosotros somos, y puesto que nosotros somos, por lo tanto yo soy.",
+   "fuente": "African Religions and Philosophy (1969); frase original en inglés («I am because we are, and since we are, therefore I am»); traducción libre"
+  },
+  "obras": [
+   {
+    "titulo": "African Religions and Philosophy",
+    "anio": "1969",
+    "deQueVa": "Sobre las ideas de Dios, el tiempo y la comunidad en las religiones africanas."
+   },
+   {
+    "titulo": "Concepts of God in Africa",
+    "anio": "1970",
+    "deQueVa": "Cómo se ha pensado a Dios en distintos pueblos de África."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "ifeanyi-menkiti"
+  ]
+ },
+ {
+  "id": "alvin-plantinga",
+  "nombre": "Alvin Plantinga",
+  "fechas": "1932 –",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica de la religión",
+  "categorias": [
+   "religion",
+   "conocimiento",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender con argumentos rigurosos que creer en Dios puede ser razonable sin pruebas",
+  "resumen": "Plantinga es un filósofo cristiano estadounidense que enseñó en la Universidad de Notre Dame. Con su trabajo hizo que la filosofía de la religión volviera a tomarse en serio en el mundo académico. Defendió que creer en Dios puede ser tan razonable como confiar en la propia memoria.",
+  "ideas": [
+   "Algunas creencias no necesitan pruebas, como confiar en que existen otras personas. Para él, creer en Dios puede ser una [[creencia básica|creencia-basica]] así.",
+   "Frente al [[problema del mal|problema-del-mal]], dijo que Dios puede permitir el mal para darnos libertad, y que eso no es contradictorio.",
+   "Un argumento famoso suyo dice que, si fuéramos solo producto de la [[evolución|evolucion]] sin Dios, no tendríamos razones para fiarnos de nuestros pensamientos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "God and Other Minds",
+    "anio": "1967",
+    "deQueVa": "Compara la creencia en Dios con la creencia en otras mentes."
+   },
+   {
+    "titulo": "The Nature of Necessity",
+    "anio": "1974",
+    "deQueVa": "Metafísica de lo posible y lo necesario."
+   },
+   {
+    "titulo": "Warranted Christian Belief",
+    "anio": "2000",
+    "deQueVa": "Cuándo una creencia religiosa cuenta como conocimiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "umberto-eco",
+  "nombre": "Umberto Eco",
+  "fechas": "1932 – 2016",
+  "region": "Italia",
+  "escuela": "Semiótica",
+  "categorias": [
+   "lenguaje",
+   "estetica",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar los signos, desde la cultura de masas hasta la Edad Media, y escribir novelas llenas de filosofía",
+  "resumen": "Eco fue un filósofo, semiólogo y novelista italiano. Es muy famoso por su novela «El nombre de la rosa», un misterio en un monasterio medieval. Estudió cómo damos sentido a los [[signos|signo]]: palabras, imágenes, gestos, anuncios, cómics. Se interesó por la cultura popular tanto como por los libros antiguos.",
+  "ideas": [
+   "La [[semiótica|semiotica]] estudia todo lo que usamos para comunicar: un semáforo, un anuncio o una frase son signos.",
+   "Una obra «abierta» no tiene un solo significado: el lector colabora para interpretarla. Pero no vale cualquier interpretación.",
+   "Advirtió de los rasgos comunes de los movimientos fascistas, en un texto sobre el «fascismo eterno»."
+  ],
+  "curiosidad": "Su tesis universitaria trató sobre la estética de Tomás de Aquino, el gran filósofo medieval.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Obra abierta",
+    "anio": "1962",
+    "deQueVa": "Sobre obras de arte que cada lector o espectador interpreta a su manera."
+   },
+   {
+    "titulo": "Apocalípticos e integrados",
+    "anio": "1964",
+    "deQueVa": "Sobre la cultura de masas, los cómics y la televisión."
+   },
+   {
+    "titulo": "El nombre de la rosa",
+    "anio": "1980",
+    "deQueVa": "Novela de misterio y filosofía en la Edad Media."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Ur-Fascism» (El fascismo eterno), artículo en inglés",
+    "url": "https://www.nybooks.com/articles/1995/06/22/ur-fascism/",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "antonio-negri",
+  "nombre": "Antonio Negri",
+  "fechas": "1933 – 2023",
+  "region": "Italia",
+  "escuela": "Posmarxismo (autonomía)",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar cómo es el poder global y cómo las multitudes pueden resistir, junto con Michael Hardt",
+  "resumen": "Negri fue un filósofo y político italiano. Con Michael Hardt escribió «Imperio» (2000), donde dice que el poder mundial ya no depende de un solo país sino de una red de grandes empresas, Estados e instituciones. Como respuesta, hablaron de la [[multitud]].",
+  "ideas": [
+   "El [[Imperio|imperio]] es el poder global actual: sin capital ni ejército central, es una red que gobierna el mundo.",
+   "La [[multitud]] es el conjunto de todos los que trabajan y viven bajo ese poder, y pueden unirse y actuar sin una dirección única.",
+   "Hoy mucho trabajo es [[trabajo inmaterial|trabajo-inmaterial]]: ideas, atención, relaciones. Eso cambia cómo se produce y cómo se explota."
+  ],
+  "curiosidad": "En 1979 fue detenido en Italia bajo acusaciones relacionadas con terrorismo, que él negó. Se exilió en Francia y volvió voluntariamente a Italia en 1997.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Marx más allá de Marx",
+    "anio": "1979",
+    "deQueVa": "Una relectura de Marx desde las luchas obreras."
+   },
+   {
+    "titulo": "La anomalía salvaje",
+    "anio": "1981",
+    "deQueVa": "Sobre Spinoza como pensador de la libertad."
+   },
+   {
+    "titulo": "Imperio",
+    "anio": "2000",
+    "deQueVa": "Escrito con Michael Hardt: una teoría del poder global."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "cheikh-anta-diop",
+  "nombre": "Cheikh Anta Diop",
+  "fechas": "1923 – 1986",
+  "region": "Senegal",
+  "escuela": "Afrocentrismo y pensamiento panafricano",
+  "categorias": [
+   "sociedad",
+   "ciencia",
+   "politica"
+  ],
+  "conocidoPor": "Defender que el antiguo Egipto fue una civilización africana y que África tiene una historia propia",
+  "resumen": "Diop fue un historiador, físico y político de Senegal. Sostuvo que el antiguo Egipto fue una civilización africana y que Europa había ocultado la historia de África. Muchos historiadores aceptan su defensa de la historia africana, pero discuten varias de sus tesis sobre Egipto.",
+  "ideas": [
+   "La historia de África no empieza con la llegada de los europeos: antes hubo grandes civilizaciones, como la egipcia.",
+   "El [[afrocentrismo]] propone mirar el pasado desde África y no desde Europa. Es una tesis discutida entre los especialistas.",
+   "Las lenguas africanas, como el wolof, pueden usarse para la ciencia moderna, y no solo las lenguas europeas."
+  ],
+  "curiosidad": "La Universidad de Dakar lleva hoy su nombre, Universidad Cheikh Anta Diop.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Naciones negras y cultura",
+    "anio": "1954",
+    "deQueVa": "Sobre la historia y la cultura de los pueblos africanos."
+   },
+   {
+    "titulo": "Anterioridad de las civilizaciones negras",
+    "anio": "1967",
+    "deQueVa": "Defiende el origen africano de la civilización egipcia."
+   },
+   {
+    "titulo": "Civilización o barbarie",
+    "anio": "1981",
+    "deQueVa": "Resumen de sus ideas sobre África y su historia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ali-shariati",
+  "nombre": "Alí Shariatí",
+  "fechas": "1933 – 1977",
+  "region": "Irán",
+  "escuela": "Sociología religiosa y pensamiento islámico",
+  "categorias": [
+   "religion",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Pensar el islam chií como una fuerza de justicia y liberación frente a las dictaduras",
+  "resumen": "Shariatí fue un sociólogo y pensador iraní. Estudió en París y dio conferencias muy seguidas en Teherán. Defendió que la religión puede ser una fuerza para cambiar la sociedad y luchar contra la injusticia. Murió en Inglaterra en 1977, en circunstancias aún discutidas.",
+  "ideas": [
+   "Distinguió un [[chiismo]] «rojo», de resistencia y sacrificio por la justicia, y uno «negro», más ligado al poder y al lamento.",
+   "Hay que recuperar la propia identidad cultural en vez de copiar sin pensar a Occidente.",
+   "La fe no es solo ritual: es un compromiso para construir una sociedad más justa."
+  ],
+  "curiosidad": "Sus conferencias en Teherán eran tan populares que las copiaban y repartían en cintas y folletos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Fátima es Fátima",
+    "anio": "",
+    "deQueVa": "Sobre la figura de Fátima, hija de Mahoma, como modelo para las mujeres."
+   },
+   {
+    "titulo": "Chiismo rojo y chiismo negro",
+    "anio": "",
+    "deQueVa": "Dos maneras de entender el chiismo, una de lucha y otra de resignación."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "vine-deloria-jr",
+  "nombre": "Vine Deloria Jr.",
+  "fechas": "1933 – 2005",
+  "region": "Estados Unidos (pueblo sioux)",
+  "escuela": "Pensamiento indígena norteamericano",
+  "categorias": [
+   "sociedad",
+   "religion",
+   "politica"
+  ],
+  "conocidoPor": "Dar voz a los pueblos indígenas de Estados Unidos y mostrar que sus religiones y saberes tienen sentido propio",
+  "resumen": "Deloria fue un escritor, abogado y pensador del pueblo sioux. Estudió teología y derecho, y dirigió el National Congress of American Indians. Su libro «Custer murió por vuestros pecados» fue un gran éxito. Criticó a los antropólogos y a la ciencia que hablaban de los indígenas sin escucharlos.",
+  "ideas": [
+   "Las religiones indígenas están muy ligadas a lugares concretos, como montañas y ríos, y no tanto a una historia universal.",
+   "Los pueblos indígenas tienen derecho a decidir su futuro: defendió la [[soberanía tribal|soberania-tribal]].",
+   "Los relatos orales son una forma válida de conocimiento y no deben descartarse por no estar escritos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Custer Died for Your Sins",
+    "anio": "1969",
+    "deQueVa": "Una crítica humorística y dura de cómo se trató a los indígenas."
+   },
+   {
+    "titulo": "God Is Red",
+    "anio": "1973",
+    "deQueVa": "Compara las religiones indígenas con el cristianismo."
+   },
+   {
+    "titulo": "Red Earth, White Lies",
+    "anio": "1995",
+    "deQueVa": "Critica ideas científicas sobre el pasado indígena."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jaegwon-kim",
+  "nombre": "Jaegwon Kim",
+  "fechas": "1934 – 2019",
+  "region": "Corea del Sur y Estados Unidos",
+  "escuela": "Fisicalismo (filosofía de la mente)",
+  "categorias": [
+   "mente",
+   "metafisica"
+  ],
+  "conocidoPor": "Preguntar cómo puede la mente causar algo si el cerebro ya lo explica todo",
+  "resumen": "Kim nació en Corea y se hizo filósofo en Estados Unidos, donde fue profesor en Brown. Planteó un problema muy discutido: si todo lo que pasa en el cuerpo tiene ya una causa física, ¿qué papel queda para la mente?",
+  "ideas": [
+   "Si decido levantar el brazo, el cerebro ya tiene causas físicas suficientes. Entonces, ¿qué hace mi decisión? Esto es el [[argumento de exclusión|exclusion-causal]].",
+   "La [[superveniencia]] dice que la mente depende del cuerpo: si dos cerebros son idénticos, las mentes también lo serían.",
+   "El [[fisicalismo]] dice que todo es físico. Kim pensó que eso era difícil de mantener si se quiere que lo mental sea real y cause cosas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Supervenience and Mind",
+    "anio": "1993",
+    "deQueVa": "Ensayos sobre cómo lo mental depende de lo físico."
+   },
+   {
+    "titulo": "Mind in a Physical World",
+    "anio": "1998",
+    "deQueVa": "El argumento de exclusión causal explicado paso a paso."
+   },
+   {
+    "titulo": "Physicalism, or Something Near Enough",
+    "anio": "2005",
+    "deQueVa": "Hasta dónde se puede defender que todo es físico."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "audre-lorde",
+  "nombre": "Audre Lorde",
+  "fechas": "1934 – 1992",
+  "region": "Estados Unidos",
+  "escuela": "Feminismo negro",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "existencia",
+   "estetica"
+  ],
+  "conocidoPor": "Hablar como poeta, mujer negra y lesbiana, y mostrar que la diferencia no divide, sino que da fuerza",
+  "resumen": "Lorde fue una poeta y pensadora estadounidense, hija de inmigrantes del Caribe. Se definía como negra, lesbiana, madre y poeta. Escribió sobre racismo, sexismo y homofobia, y mostró que muchas personas viven varias opresiones a la vez, algo que hoy llamamos [[interseccionalidad]].",
+  "ideas": [
+   "Las diferencias entre mujeres, como raza o clase, no deben esconderse: hay que reconocerlas para luchar juntas.",
+   "Callar no nos protege. Hablar da miedo, pero el silencio nos deja más solas.",
+   "Lo [[erótico|erotico]] no es solo sexo: es una fuerza de energía y alegría que nos hace exigir más de la vida."
+  ],
+  "curiosidad": "Fue poeta oficial del estado de Nueva York entre 1991 y 1993.",
+  "frase": {
+   "texto": "Las herramientas del amo nunca desmontarán la casa del amo.",
+   "fuente": "Texto de una charla de 1979, «The Master's Tools Will Never Dismantle the Master's House», recogido en La hermana, la extranjera (Sister Outsider, 1984); traducción libre"
+  },
+  "obras": [
+   {
+    "titulo": "Los diarios del cáncer",
+    "anio": "1980",
+    "deQueVa": "Cuenta su experiencia con el cáncer de mama."
+   },
+   {
+    "titulo": "Zami, una biomitografía",
+    "anio": "1982",
+    "deQueVa": "Mezcla de novela y memorias sobre su vida."
+   },
+   {
+    "titulo": "La hermana, la extranjera (Sister Outsider)",
+    "anio": "1984",
+    "deQueVa": "Colección de ensayos y discursos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "fredric-jameson",
+  "nombre": "Fredric Jameson",
+  "fechas": "1934 – 2024",
+  "region": "Estados Unidos",
+  "escuela": "Marxismo cultural",
+  "categorias": [
+   "sociedad",
+   "estetica",
+   "politica"
+  ],
+  "conocidoPor": "Explicar el posmodernismo como la cultura propia del capitalismo actual",
+  "resumen": "Jameson fue un crítico cultural estadounidense, de formación marxista. Leyó novelas, películas y arquitectura para entender cómo es la sociedad. Es famoso por decir que el [[posmodernismo]] es «la lógica cultural del [[capitalismo tardío|capitalismo-tardio]]».",
+  "ideas": [
+   "El arte y la cultura de una época dicen cómo funciona su economía: un centro comercial gigante nos muestra mucho del mundo actual.",
+   "En la cultura posmoderna se mezclan estilos del pasado sin profundidad, como una película que imita otras películas.",
+   "Hay que [[historizar]] siempre: entender cada cosa en su tiempo y sus condiciones."
+  ],
+  "curiosidad": "Escribió también sobre la ciencia ficción, que veía como una forma de imaginar otros futuros posibles.",
+  "frase": {
+   "texto": "¡Siempre historizar!",
+   "fuente": "El inconsciente político (1981), primera línea («Always historicize!»); traducción libre"
+  },
+  "obras": [
+   {
+    "titulo": "Marxismo y forma",
+    "anio": "1971",
+    "deQueVa": "Ideas marxistas aplicadas a la crítica literaria."
+   },
+   {
+    "titulo": "El inconsciente político",
+    "anio": "1981",
+    "deQueVa": "Cómo leer los textos pensando en su contexto social."
+   },
+   {
+    "titulo": "Posmodernismo: la lógica cultural del capitalismo tardío",
+    "anio": "1991",
+    "deQueVa": "Su libro más conocido sobre el posmodernismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sandra-harding",
+  "nombre": "Sandra Harding",
+  "fechas": "1935 – 2025",
+  "region": "Estados Unidos",
+  "escuela": "Epistemología feminista",
+  "categorias": [
+   "conocimiento",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que la ciencia no es neutral y que ver desde los márgenes puede dar un saber más completo",
+  "resumen": "Harding es una filósofa estadounidense de la ciencia que enseñó en la Universidad de California en Los Ángeles. Defendió que la ciencia también depende de quién la hace, de qué se pregunta y de a quién se escucha, y que las personas marginadas pueden notar cosas que otras no ven.",
+  "ideas": [
+   "La [[teoría del punto de vista|teoria-del-punto-de-vista]] dice que quien vive la desigualdad puede ver mejor cómo funciona la sociedad.",
+   "Hay que mejorar la [[objetividad]]: una ciencia más justa hace preguntas distintas y escucha a más gente.",
+   "La ciencia occidental no es la única: otras culturas tienen sus propios saberes valiosos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Science Question in Feminism",
+    "anio": "1986",
+    "deQueVa": "Pregunta si la ciencia moderna es neutral."
+   },
+   {
+    "titulo": "Whose Science? Whose Knowledge?",
+    "anio": "1991",
+    "deQueVa": "Sobre quién decide qué es conocimiento."
+   },
+   {
+    "titulo": "Is Science Multicultural?",
+    "anio": "1998",
+    "deQueVa": "Sobre ciencia, colonialismo y otras culturas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jerry-fodor",
+  "nombre": "Jerry Fodor",
+  "fechas": "1935 – 2017",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía de la mente (funcionalismo computacional)",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "ciencia"
+  ],
+  "conocidoPor": "Defender que pensar funciona como un programa de ordenador que manipula símbolos",
+  "resumen": "Fodor fue un filósofo estadounidense de la mente, profesor en Rutgers. Sostuvo que pensar se parece a calcular con símbolos, como en un idioma interno. También defendió que la mente tiene módulos separados, como el de la visión.",
+  "ideas": [
+   "Existe un «[[lenguaje del pensamiento|lenguaje-del-pensamiento]]»: pensamos con símbolos internos, igual que un programa usa códigos.",
+   "La mente es [[modular|modularidad]] en parte: la visión o el habla funcionan como cajas separadas, rápidas y automáticas.",
+   "Muchos conceptos básicos serían innatos: nacemos con ellos y no los aprendemos de cero."
+  ],
+  "curiosidad": "Escribió un libro titulado «The Mind Doesn't Work That Way», para decir que la teoría computacional explica solo una parte del pensamiento.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El lenguaje del pensamiento",
+    "anio": "1975",
+    "deQueVa": "Propone que pensar usa un lenguaje interno."
+   },
+   {
+    "titulo": "La modularidad de la mente",
+    "anio": "1983",
+    "deQueVa": "Dice que la mente tiene partes especializadas."
+   },
+   {
+    "titulo": "The Mind Doesn't Work That Way",
+    "anio": "2000",
+    "deQueVa": "Sobre los límites de la mente como ordenador."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michael-walzer",
+  "nombre": "Michael Walzer",
+  "fechas": "1935 –",
+  "region": "Estados Unidos",
+  "escuela": "Comunitarismo",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que la justicia no es igual para todos los bienes y pensar cuándo es justa una guerra",
+  "resumen": "Walzer es un filósofo político estadounidense, durante años editor de la revista Dissent. Defendió que cada bien, como el dinero, la salud o el cargo, debe repartirse según su propio sentido social. También escribió mucho sobre la [[guerra justa|guerra-justa]].",
+  "ideas": [
+   "En las [[esferas de la justicia|esferas-de-la-justicia]] cada cosa se reparte con su propia regla: el dinero no debe comprar votos ni sentencias.",
+   "Una guerra puede ser justa o injusta por sus causas y también por cómo se hace: no se puede atacar a civiles.",
+   "La justicia depende de la cultura y de lo que cada comunidad entiende por ella, aunque haya mínimos comunes."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Guerras justas e injustas",
+    "anio": "1977",
+    "deQueVa": "Cuándo es justo ir a la guerra y cómo hacerla."
+   },
+   {
+    "titulo": "Esferas de la justicia",
+    "anio": "1983",
+    "deQueVa": "Cada tipo de bien debe repartirse con su propia regla."
+   },
+   {
+    "titulo": "Tratado sobre la tolerancia",
+    "anio": "1997",
+    "deQueVa": "Cómo conviven personas con creencias distintas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "lelia-gonzalez",
+  "nombre": "Lélia Gonzalez",
+  "fechas": "1935 – 1994",
+  "region": "Brasil",
+  "escuela": "Feminismo negro latinoamericano",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Pensar el racismo y el sexismo en Brasil y crear el concepto de «amefricanidad»",
+  "resumen": "Gonzalez fue una pensadora y activista brasileña, profesora en Río de Janeiro. Participó en la fundación del Movimiento Negro Unificado. Dijo que el feminismo de América Latina debía contar con las mujeres negras e indígenas, y propuso mirar la región desde su herencia africana e indígena.",
+  "ideas": [
+   "La [[amefricanidad]] une las experiencias de los pueblos africanos e indígenas en América, y da un nombre propio a esa herencia.",
+   "En el Brasil real las mujeres negras sufren a la vez racismo y machismo, y a menudo el feminismo blanco no las ve.",
+   "El portugués de Brasil tiene huella africana: ella lo llamó [[pretuguês|pretugues]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lugar de negro",
+    "anio": "1982",
+    "deQueVa": "Escrito con Carlos Hasenbalg: sobre la vida de la población negra en Brasil."
+   },
+   {
+    "titulo": "Racismo y sexismo en la cultura brasileña",
+    "anio": "1984",
+    "deQueVa": "Cómo se cruzan ambos en la sociedad."
+   },
+   {
+    "titulo": "La categoría político-cultural de amefricanidad",
+    "anio": "1988",
+    "deQueVa": "Donde presenta su idea más conocida."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sophie-oluwole",
+  "nombre": "Sophie Oluwole",
+  "fechas": "1935 – 2018",
+  "region": "Nigeria",
+  "escuela": "Filosofía africana (tradición yoruba)",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Mostrar que la tradición oral yoruba es filosofía y compararla con Sócrates",
+  "resumen": "Oluwole fue una filósofa nigeriana que enseñó en la Universidad de Lagos. Frente a quienes decían que África no tuvo filosofía, defendió que las tradiciones orales, como la del pueblo yoruba, contienen pensamiento tan serio como el griego. Comparó a Sócrates con Orunmila, sabio yoruba.",
+  "ideas": [
+   "La [[tradición oral|tradicion-oral]] también es filosofía: no hace falta que un pensamiento esté escrito para ser riguroso.",
+   "En el [[Ifá|ifa]], los versos tradicionales yoruba, hay ideas sobre el destino, el bien y el conocimiento.",
+   "Sócrates y [[Orunmila|orunmila]] enseñaron hablando y no dejaron escritos: ella los comparó como dos grandes maestros."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Witchcraft, Reincarnation and the God-Head",
+    "anio": "1992",
+    "deQueVa": "Sobre ideas yoruba de brujería, reencarnación y divinidad."
+   },
+   {
+    "titulo": "Philosophy and Oral Tradition",
+    "anio": "1999",
+    "deQueVa": "Sobre la filosofía en las tradiciones orales."
+   },
+   {
+    "titulo": "Socrates and Orunmila",
+    "anio": "2014",
+    "deQueVa": "Compara a dos maestros que no escribieron nada."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bimal-krishna-matilal",
+  "nombre": "Bimal Krishna Matilal",
+  "fechas": "1935 – 1991",
+  "region": "India",
+  "escuela": "Filosofía india y filosofía analítica",
+  "categorias": [
+   "conocimiento",
+   "logica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Explicar a Occidente con rigor la lógica y la teoría del conocimiento de la India",
+  "resumen": "Matilal fue un filósofo indio que enseñó en la Universidad de Oxford. Mostró que los pensadores de la India antigua y medieval debatían sobre lógica, percepción y verdad con un rigor comparable al de la filosofía analítica, y los explicó a los lectores de Occidente.",
+  "ideas": [
+   "Los pensadores de la escuela [[Nyāya|nyaya]] estudiaron cómo conocemos: por percepción, por deducción o por lo que nos cuentan.",
+   "Los filósofos indios discutían, por ejemplo, qué significa decir «no hay una jarra en la mesa»: cómo se percibe una ausencia.",
+   "Escribió sobre el [[anekantavada]] del jainismo: la verdad tiene muchos lados y ningún punto de vista la agota."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Navya-Nyaya Doctrine of Negation",
+    "anio": "1968",
+    "deQueVa": "Cómo la lógica india entendió la negación."
+   },
+   {
+    "titulo": "Perception",
+    "anio": "1986",
+    "deQueVa": "Teorías indias sobre cómo percibimos."
+   },
+   {
+    "titulo": "The Central Philosophy of Jainism",
+    "anio": "1981",
+    "deQueVa": "Sobre la idea jainista de verdades de muchos lados."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "mohammed-abed-al-jabri",
+  "nombre": "Mohammed Abed al-Jabri",
+  "fechas": "1935 – 2010",
+  "region": "Marruecos",
+  "escuela": "Pensamiento árabe contemporáneo",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Analizar de qué está hecha la razón árabe y defender la herencia racionalista de Averroes",
+  "resumen": "Al-Jabri fue un filósofo marroquí, profesor en Rabat. En su serie «Crítica de la razón árabe» estudió cómo ha pensado la cultura árabe e islámica. Propuso renovar ese pensamiento recuperando a figuras racionalistas como Averroes, Ibn Hazm o Ibn Jaldún, de al-Ándalus y el Magreb.",
+  "ideas": [
+   "En el pensamiento árabe hay tres maneras de saber: el [[bayan]] (explicar textos), el [[irfan]] (intuición mística) y el [[burhan]] (demostrar con razón).",
+   "Con tanto peso de la tradición, hay que revisarla con espíritu crítico, sin rechazarla.",
+   "El pensamiento del occidente islámico (Magreb y al-Ándalus) tuvo un lado muy racional que merece recuperarse."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Crítica de la razón árabe",
+    "anio": "1984",
+    "deQueVa": "Serie en tres partes sobre cómo se ha formado el pensamiento árabe."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "evelyn-fox-keller",
+  "nombre": "Evelyn Fox Keller",
+  "fechas": "1936 – 2023",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía feminista de la ciencia",
+  "categorias": [
+   "ciencia",
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Mostrar cómo las ideas de género y las metáforas influyen en cómo se hace la ciencia",
+  "resumen": "Fox Keller fue una física que se hizo historiadora y filósofa de la biología. Escribió la biografía de la genetista Barbara McClintock y analizó cómo el lenguaje y los prejuicios sobre hombres y mujeres influyen en la ciencia, sin dejar de valorar el conocimiento científico.",
+  "ideas": [
+   "La ciencia usa metáforas, como llamar «dirigente» a un gen. Esas imágenes orientan lo que vemos y lo que preguntamos.",
+   "A veces se asocia lo objetivo con lo masculino y lo emocional con lo femenino. Eso influye en quién hace ciencia y cómo.",
+   "Conocer bien un organismo puede requerir paciencia y cercanía, como hacía McClintock con sus plantas de maíz."
+  ],
+  "curiosidad": "Con el matemático Lee Segel, propuso un modelo que explica cómo ciertas amebas se reúnen en grupo. Hoy se conoce como modelo de Keller-Segel.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "A Feeling for the Organism",
+    "anio": "1983",
+    "deQueVa": "Biografía de la científica Barbara McClintock."
+   },
+   {
+    "titulo": "Reflections on Gender and Science",
+    "anio": "1985",
+    "deQueVa": "Sobre género e imágenes en la ciencia."
+   },
+   {
+    "titulo": "The Century of the Gene",
+    "anio": "2000",
+    "deQueVa": "Cómo cambió la idea de gen a lo largo del siglo XX."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ian-hacking",
+  "nombre": "Ian Hacking",
+  "fechas": "1936 – 2023",
+  "region": "Canadá",
+  "escuela": "Filosofía de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar cómo la estadística y la clasificación de personas cambian lo que somos",
+  "resumen": "Hacking fue un filósofo canadiense de la ciencia. Escribió sobre cómo nació la idea de probabilidad, sobre qué quiere decir que algo exista en ciencia y sobre cómo las etiquetas que ponemos a las personas, como «hiperactivo» o «talentoso», acaban cambiándolas. Fue profesor en el Collège de France.",
+  "ideas": [
+   "Si puedes usar una cosa para hacer otra, como disparar electrones para estudiar algo, entonces tienes buenas razones para creer que existe. Es el [[realismo de entidades|realismo-de-entidades]].",
+   "Los [[tipos humanos|tipos-humanos]] cambian con la etiqueta: cuando clasificamos a la gente, esta reacciona y la clasificación también cambia.",
+   "En el siglo XIX los Estados empezaron a contar y medir todo, y eso hizo que viéramos la vida en términos de azar y estadística."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La domesticación del azar",
+    "anio": "1990",
+    "deQueVa": "Cómo nació la estadística y cambió nuestra idea de sociedad."
+   },
+   {
+    "titulo": "Representar e intervenir",
+    "anio": "1983",
+    "deQueVa": "Qué es una teoría científica y qué es un experimento."
+   },
+   {
+    "titulo": "¿La construcción social de qué?",
+    "anio": "1999",
+    "deQueVa": "Qué quiere decir que algo sea una construcción social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "carol-gilligan",
+  "nombre": "Carol Gilligan",
+  "fechas": "1936 –",
+  "region": "Estados Unidos",
+  "escuela": "Ética del cuidado",
+  "categorias": [
+   "etica",
+   "mente",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que existe una «voz diferente» en la moral, basada en las relaciones y el cuidado",
+  "resumen": "Gilligan es una psicóloga y filósofa estadounidense. Trabajó con Lawrence Kohlberg y criticó que sus pruebas morales dieran por bueno solo un modo de razonar, el de las normas abstractas. Descubrió otro modo, que da importancia a las relaciones, y esto dio origen a la [[ética del cuidado|etica-del-cuidado]].",
+  "ideas": [
+   "En vez de preguntar solo «¿qué norma se aplica?», se puede preguntar «¿a quién afecta y cómo cuidarlo?».",
+   "En un famoso dilema, un niño razonó con derechos y una niña con relaciones. Ninguna respuesta es peor, solo distinta.",
+   "La psicología debe escuchar la experiencia de las mujeres, que había quedado fuera de las teorías."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La moral y la teoría (In a Different Voice)",
+    "anio": "1982",
+    "deQueVa": "En inglés «In a Different Voice»: el libro que dio origen a la ética del cuidado."
+   },
+   {
+    "titulo": "Meeting at the Crossroads",
+    "anio": "1992",
+    "deQueVa": "Sobre la adolescencia de las chicas."
+   },
+   {
+    "titulo": "Joining the Resistance",
+    "anio": "2011",
+    "deQueVa": "Sobre cómo resistir a ideas dañinas sobre género."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "nel-noddings"
+  ]
+ },
+ {
+  "id": "carolyn-merchant",
+  "nombre": "Carolyn Merchant",
+  "fechas": "1936 –",
+  "region": "Estados Unidos",
+  "escuela": "Ecofeminismo",
+  "categorias": [
+   "ciencia",
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Contar cómo la ciencia moderna pasó de ver la naturaleza como un organismo vivo a verla como una máquina",
+  "resumen": "Merchant es una historiadora de la ciencia estadounidense, profesora en Berkeley. En «La muerte de la naturaleza» explica que antes de la ciencia moderna se veía la Tierra como un ser vivo, a menudo una madre, y que el cambio a la visión de máquina ayudó a justificar su explotación y la subordinación de las mujeres.",
+  "ideas": [
+   "Antes del siglo XVII mucha gente veía la naturaleza como una madre viva. Eso frenaba que se la explotara sin límites.",
+   "El [[mecanicismo]] la convirtió en una máquina: algo que se puede desmontar y usar sin remordimientos.",
+   "El [[ecofeminismo]] une la defensa de la naturaleza y la de las mujeres, porque ambas han sido dominadas de formas parecidas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Death of Nature",
+    "anio": "1980",
+    "deQueVa": "Historia del cambio hacia la ciencia mecanicista y sus efectos."
+   },
+   {
+    "titulo": "Ecological Revolutions",
+    "anio": "1989",
+    "deQueVa": "Cómo han cambiado las relaciones con la naturaleza."
+   },
+   {
+    "titulo": "Radical Ecology",
+    "anio": "1992",
+    "deQueVa": "Un repaso a distintas corrientes ecologistas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gianni-vattimo",
+  "nombre": "Gianni Vattimo",
+  "fechas": "1936 – 2023",
+  "region": "Italia",
+  "escuela": "Hermenéutica nihilista",
+  "categorias": [
+   "conocimiento",
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Defender el «pensamiento débil»: sin verdades absolutas, más convivencia y menos violencia",
+  "resumen": "Vattimo fue un filósofo italiano de Turín, discípulo de Luigi Pareyson. Leyó a Nietzsche y a Heidegger y dijo que ya no creemos en verdades absolutas. Para él eso era una oportunidad. También fue eurodiputado entre 1999 y 2009.",
+  "ideas": [
+   "El [[pensamiento débil|pensamiento-debil]] renuncia a verdades definitivas, y por eso es menos violento: no impone una sola forma de ver el mundo.",
+   "Hay que mirar el mundo con [[hermenéutica|hermeneutica]]: todo es interpretación, y esto nos exige escuchar otras interpretaciones.",
+   "La [[secularización|secularizacion]] del mundo moderno viene del propio cristianismo, que predica el amor y no la imposición."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La sociedad transparente",
+    "anio": "1989",
+    "deQueVa": "Cómo los medios de comunicación nos dan muchos puntos de vista."
+   },
+   {
+    "titulo": "El fin de la modernidad",
+    "anio": "1985",
+    "deQueVa": "Nihilismo y hermenéutica en la cultura posmoderna."
+   },
+   {
+    "titulo": "Creer que se cree",
+    "anio": "1996",
+    "deQueVa": "Su visión de la religión desde su pensamiento débil."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "javier-muguerza",
+  "nombre": "Javier Muguerza",
+  "fechas": "1936 – 2019",
+  "region": "España",
+  "escuela": "Ética kantiana y filosofía analítica",
+  "categorias": [
+   "etica",
+   "conocimiento",
+   "politica"
+  ],
+  "conocidoPor": "Defender el derecho a la disidencia moral, a decir «no» incluso cuando todos los demás dicen «sí»",
+  "resumen": "Muguerza fue un filósofo español, discípulo de la filosofía analítica y gran lector de Kant. Introdujo la filosofía analítica en España con un libro de 1974. Su idea más conocida es la ética de la disidencia: en ocasiones una persona debe oponerse a lo que decide la mayoría.",
+  "ideas": [
+   "La [[ética de la disidencia|etica-de-la-disidencia]] defiende que cada persona decide por sí misma, aunque esto la separe del consenso.",
+   "Heredó de Kant la idea de que somos autónomos: nos damos nuestras propias leyes morales.",
+   "La mayoría puede equivocarse. Un caso límite es la objeción de conciencia, negarse a hacer algo que la conciencia no acepta."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La concepción analítica de la filosofía",
+    "anio": "1974",
+    "deQueVa": "Presenta la filosofía analítica a los lectores españoles."
+   },
+   {
+    "titulo": "La razón sin esperanza",
+    "anio": "1977",
+    "deQueVa": "Ensayos sobre razón, moral y política."
+   },
+   {
+    "titulo": "Desde la perplejidad",
+    "anio": "1990",
+    "deQueVa": "Ensayos sobre ética, razón y diálogo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "cora-diamond",
+  "nombre": "Cora Diamond",
+  "fechas": "1937 –",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía wittgensteiniana",
+  "categorias": [
+   "etica",
+   "lenguaje",
+   "mente"
+  ],
+  "conocidoPor": "Leer a Wittgenstein sin trucos y pensar las relaciones con los animales con sensibilidad moral",
+  "resumen": "Diamond es una filósofa estadounidense que enseña en la Universidad de Virginia. Es muy conocida por su lectura «resoluta» del primer libro de Wittgenstein y por sus textos sobre cómo tratamos a los animales. Cree que la filosofía moral debe tomar en serio la literatura y la imaginación.",
+  "ideas": [
+   "En la [[lectura resoluta|lectura-resoluta]] del «Tractatus», las frases finales son sinsentido que se tira, como una escalera ya usada, y no teorías secretas.",
+   "No comemos a nuestras mascotas muertas. Eso muestra que vemos a los animales como compañeros y no solo como objetos de reglas.",
+   "Hay casos en que la realidad nos duele tanto que cuesta pensarla. La literatura puede ayudarnos a verla."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Realistic Spirit",
+    "anio": "1991",
+    "deQueVa": "Ensayos sobre Wittgenstein, ética y animales."
+   },
+   {
+    "titulo": "The New Wittgenstein",
+    "anio": "2000",
+    "deQueVa": "Editado con Alice Crary: nuevas lecturas de Wittgenstein."
+   },
+   {
+    "titulo": "Reading Wittgenstein with Anscombe, Going on to Ethics",
+    "anio": "2019",
+    "deQueVa": "Su lectura de Wittgenstein con Anscombe, y el paso a la ética."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "helene-cixous",
+  "nombre": "Hélène Cixous",
+  "fechas": "1937 –",
+  "region": "Francia (nacida en Argelia)",
+  "escuela": "Feminismo francés y deconstrucción",
+  "categorias": [
+   "sociedad",
+   "lenguaje",
+   "estetica"
+  ],
+  "conocidoPor": "Pedir una «escritura femenina» en la que las mujeres escriban con su propia voz y su cuerpo",
+  "resumen": "Cixous es una escritora y pensadora francesa nacida en Orán, Argelia. Llamó a las mujeres a escribir desde sí mismas y a romper los pares de ideas que ponen al hombre arriba, como activo y pasivo. Fundó un centro de estudios feministas en la Universidad de París VIII.",
+  "ideas": [
+   "La [[escritura femenina|escritura-femenina]] no es solo escribir cosas de mujeres: es escribir sin las reglas que otros fijaron.",
+   "Muchas ideas vienen en pares donde uno vale más, como hombre y mujer, razón y emoción. Hay que cuestionar ese orden.",
+   "Escribir es una forma de libertad: dejar de callar y ocupar la palabra."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La risa de la Medusa",
+    "anio": "1975",
+    "deQueVa": "Su manifiesto sobre la escritura de las mujeres."
+   },
+   {
+    "titulo": "La joven nacida",
+    "anio": "1975",
+    "deQueVa": "Escrito con Catherine Clément: sobre mujeres, mitos y poder."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "tom-regan",
+  "nombre": "Tom Regan",
+  "fechas": "1938 – 2017",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía de los derechos de los animales",
+  "categorias": [
+   "etica",
+   "mente"
+  ],
+  "conocidoPor": "Defender que los animales tienen derechos porque cada uno es un sujeto con una vida propia",
+  "resumen": "Regan fue un filósofo estadounidense, profesor en la Universidad Estatal de Carolina del Norte. En «En defensa de los derechos de los animales» argumentó que los animales no son meros recursos. Cada uno tiene valor por sí mismo y por eso tiene derechos que no dependen de su utilidad.",
+  "ideas": [
+   "Un animal es un [[sujeto de una vida|sujeto-de-una-vida]]: tiene deseos, memoria y bienestar propio, y a él le importa lo que le pasa.",
+   "Si un ser tiene valor propio, no basta con que sufra poco: no es justo usarlo solo como medio para nuestros fines.",
+   "Regan pidió acabar con la cría de animales para comer y con su uso en experimentos, no solo tratarlos mejor."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Animal Rights and Human Obligations",
+    "anio": "1976",
+    "deQueVa": "Editado con Peter Singer: textos clásicos sobre el tema."
+   },
+   {
+    "titulo": "En defensa de los derechos de los animales",
+    "anio": "1983",
+    "deQueVa": "Su obra principal: por qué los animales tienen derechos."
+   },
+   {
+    "titulo": "Empty Cages",
+    "anio": "2004",
+    "deQueVa": "Una versión corta y divulgativa de sus ideas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "teresa-de-lauretis",
+  "nombre": "Teresa de Lauretis",
+  "fechas": "1938 – 2026",
+  "region": "Italia y Estados Unidos",
+  "escuela": "Teoría feminista y teoría queer",
+  "categorias": [
+   "sociedad",
+   "estetica",
+   "mente"
+  ],
+  "conocidoPor": "Dar nombre a la «teoría queer» y estudiar cómo el cine y la cultura fabrican el género",
+  "resumen": "De Lauretis nació en Bolonia, Italia, y enseñó en Estados Unidos, en la Universidad de California en Santa Cruz. En 1990 usó la expresión «[[teoría queer|teoria-queer]]» en una conferencia. Estudió cómo el cine, la literatura y otras formas de cultura construyen lo que entendemos por hombre y mujer.",
+  "ideas": [
+   "El género no es algo natural sin más: las imágenes y los relatos del cine, la publicidad y la cultura nos lo enseñan, como si fueran «tecnologías del género».",
+   "Se puede pensar la sexualidad sin dar por sentado que hay una norma, y dar espacio a otras formas de vivir y de amar.",
+   "El cine puede contar una historia y a la vez decirnos cómo mirar, y casi siempre mira desde un punto de vista masculino."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Alice Doesn't",
+    "anio": "1984",
+    "deQueVa": "Feminismo, cine y significado."
+   },
+   {
+    "titulo": "Tecnologías del género",
+    "anio": "1987",
+    "deQueVa": "Cómo la cultura fabrica el género."
+   },
+   {
+    "titulo": "Queer Theory: Lesbian and Gay Sexualities",
+    "anio": "1991",
+    "deQueVa": "Número de revista que presentó la expresión «teoría queer»."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]

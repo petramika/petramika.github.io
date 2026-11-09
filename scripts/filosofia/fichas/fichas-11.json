@@ -1,0 +1,2328 @@
+[
+ {
+  "id": "leo-strauss",
+  "nombre": "Leo Strauss",
+  "fechas": "1899 – 1973",
+  "region": "Alemania y Estados Unidos",
+  "escuela": "Filosofía política (conservadurismo)",
+  "categorias": [
+   "politica",
+   "etica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Releer despacio a los clásicos y defender que la política necesita preguntarse qué es una buena vida",
+  "resumen": "Nació en Alemania, era judío y se fue a Estados Unidos huyendo de los nazis. Allí enseñó años en la Universidad de Chicago y formó a muchos alumnos. Defendía que los grandes pensadores del pasado siguen teniendo algo que enseñarnos sobre cómo organizar una sociedad justa. Hoy se le lee y se le discute mucho, para bien y para mal.",
+  "ideas": [
+   "Cuando un autor vivía perseguido, a veces escribía con [[mensajes entre líneas|lectura-esoterica]]: lo que dice por fuera no es todo lo que piensa.",
+   "Las ciencias sociales no pueden fingir que no tienen valores: hay que preguntarse de verdad qué es lo bueno y lo justo, y no decir «cada uno con lo suyo» según el [[relativismo]].",
+   "Existen cosas justas por naturaleza, no solo por lo que mande cada país: es la vieja idea del [[derecho natural|derecho-natural]]."
+  ],
+  "curiosidad": "Mantuvo un famoso debate por carta con Alexandre Kojève, que se publicó junto a su libro «Sobre la tiranía».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La persecución y el arte de escribir",
+    "anio": "1952",
+    "deQueVa": "Cómo escribían los autores cuando decir lo que pensaban era peligroso."
+   },
+   {
+    "titulo": "Derecho natural e historia",
+    "anio": "1953",
+    "deQueVa": "Defiende que hay criterios de justicia más allá de las modas de cada época."
+   },
+   {
+    "titulo": "Pensamientos sobre Maquiavelo",
+    "anio": "1958",
+    "deQueVa": "Una lectura muy personal de Maquiavelo y de su política sin escrúpulos."
+   },
+   {
+    "titulo": "¿Qué es la filosofía política?",
+    "anio": "1959",
+    "deQueVa": "Reúne ensayos sobre para qué sirve pensar la política."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "friedrich-hayek",
+  "nombre": "Friedrich Hayek",
+  "fechas": "1899 – 1992",
+  "region": "Austria y Reino Unido",
+  "escuela": "Liberalismo (Escuela austriaca)",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender el [[mercado libre|laissez-faire]] porque nadie sabe lo bastante para planificar toda la economía",
+  "resumen": "Era un economista y pensador austriaco que acabó viviendo en Reino Unido y Estados Unidos. Ganó el premio Nobel de Economía en 1974. Sostenía que ningún gobierno puede conocer todo lo que saben millones de personas, así que planificarlo todo desde arriba acaba mal. Sus ideas inspiraron a muchos políticos liberales.",
+  "ideas": [
+   "Cada persona sabe cosas pequeñas de su barrio o su trabajo que nadie más sabe, y los precios ayudan a coordinar todo ese saber disperso.",
+   "Muchas cosas funcionan bien sin que nadie las diseñe, como el idioma o los mercados. Lo llamaba [[orden espontáneo|orden-espontaneo]].",
+   "Si el Estado lo planifica todo, acaba teniendo que mandar sobre la vida de la gente y se pierde libertad."
+  ],
+  "curiosidad": "Era pariente lejano de Ludwig Wittgenstein, otro gran pensador de Viena. Compartió el Nobel de 1974 con Gunnar Myrdal, que pensaba casi lo contrario que él.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Camino de servidumbre",
+    "anio": "1944",
+    "deQueVa": "Avisa de que el control total de la economía por el Estado amenaza la libertad."
+   },
+   {
+    "titulo": "Los fundamentos de la libertad",
+    "anio": "1960",
+    "deQueVa": "Explica qué es ser libre y qué leyes la protegen."
+   },
+   {
+    "titulo": "Derecho, legislación y libertad",
+    "anio": "1973 – 1979",
+    "deQueVa": "Tres tomos sobre cómo deben ser las leyes en una sociedad libre."
+   },
+   {
+    "titulo": "La arrogancia fatal",
+    "anio": "1988",
+    "deQueVa": "Critica a quienes creen que pueden rediseñar la sociedad entera."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«El uso del conocimiento en la sociedad», artículo de 1945 (en inglés)",
+    "url": "https://www.econlib.org/library/Essays/hykKnw1.html",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "alfred-schutz",
+  "nombre": "Alfred Schütz",
+  "fechas": "1899 – 1959",
+  "region": "Austria y Estados Unidos",
+  "escuela": "Fenomenología social",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar cómo damos sentido al mundo cada día usando la [[fenomenología|fenomenologia]] para entender la vida social",
+  "resumen": "Nació en Viena y de día trabajaba en un banco: la filosofía la hacía en su tiempo libre. Huyó de los nazis a Nueva York en 1939. Quiso entender cómo la gente corriente construye el mundo social en su vida diaria. Sus ideas son muy usadas hoy en sociología.",
+  "ideas": [
+   "Vivimos en un [[mundo de la vida|mundo-de-la-vida]]: el de lo evidente, como saludar o coger el autobús, que casi nunca ponemos en duda.",
+   "Entendemos a los demás poniéndolos en «tipos» (el cartero, el vecino, el turista) y esperando de ellos lo normal.",
+   "Tenemos varias realidades: la del trabajo, la de los sueños, la del juego o la de la ciencia, y pasar de una a otra es como un pequeño salto."
+  ],
+  "curiosidad": "Trabajó toda la vida como empleado y directivo de banca y filosofaba por las tardes y noches.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La construcción significativa del mundo social",
+    "anio": "1932",
+    "deQueVa": "Une las ideas de Husserl y de Max Weber para explicar la acción humana con sentido."
+   },
+   {
+    "titulo": "El problema de la realidad social",
+    "anio": "1962",
+    "deQueVa": "Reúne ensayos suyos sobre la vida diaria y las distintas realidades."
+   },
+   {
+    "titulo": "Las estructuras del mundo de la vida",
+    "anio": "1973",
+    "deQueVa": "Libro final, que completó y publicó Thomas Luckmann tras su muerte."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jose-gaos",
+  "nombre": "José Gaos",
+  "fechas": "1900 – 1969",
+  "region": "España y México",
+  "escuela": "Filosofía española del exilio (discípulo de Ortega)",
+  "categorias": [
+   "conocimiento",
+   "existencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Traducir «Ser y tiempo» al español y formar en México a una generación de filósofos",
+  "resumen": "Nació en Gijón y fue discípulo de Ortega y Gasset. Fue rector de la Universidad de Madrid en 1936 y, al estallar la Guerra Civil, defendió la República. Se exilió en México, donde dio clases en la UNAM y marcó a muchos alumnos. Tradujo al español la obra más importante de Heidegger.",
+  "ideas": [
+   "Filosofar es contar quién eres: cada filosofía tiene algo de confesión personal, y por eso no hay una sola verdad igual para todos.",
+   "Hay que pensar en nuestra propia lengua: la filosofía en español tiene su historia y merece ser estudiada.",
+   "Para entender una idea hay que ver desde qué situación vivió su autor, algo cercano al [[historicismo]]."
+  ],
+  "curiosidad": "Su traducción de «Ser y tiempo», de Heidegger, publicada en 1951, fue la primera que tuvo el español.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Pensamiento de lengua española",
+    "anio": "1945",
+    "deQueVa": "Un repaso a cómo se ha pensado en español."
+   },
+   {
+    "titulo": "Del hombre",
+    "anio": "1970",
+    "deQueVa": "Su gran reflexión sobre qué es el ser humano."
+   },
+   {
+    "titulo": "Historia de nuestra idea del mundo",
+    "anio": "1973",
+    "deQueVa": "Cómo ha cambiado la forma de ver el mundo a lo largo del tiempo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "luis-villoro",
+   "leopoldo-zea"
+  ]
+ },
+ {
+  "id": "keiji-nishitani",
+  "nombre": "Keiji Nishitani",
+  "fechas": "1900 – 1990",
+  "region": "Japón",
+  "escuela": "Escuela de Kioto",
+  "categorias": [
+   "religion",
+   "existencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Responder al [[nihilismo]] de Occidente con la «nada» del budismo, entendida como apertura y no como vacío",
+  "resumen": "Fue uno de los grandes de la [[escuela de Kioto|escuela-de-kioto]], un grupo japonés que juntó el budismo y la filosofía europea. Estudió con Nishida y también con Heidegger en Alemania. Se preguntaba cómo vivir cuando sentimos que nada tiene sentido. Su respuesta viene del budismo zen.",
+  "ideas": [
+   "Cuando todo parece sin sentido aparece el [[nihilismo]], y es una crisis de nuestra época, no solo un problema personal.",
+   "Para el budismo, la [[vacuidad]] no es un hueco triste: es darse cuenta de que nada existe por sí solo, y eso libera.",
+   "La religión no es un adorno: nace de preguntarse «¿para qué estoy aquí?» de verdad."
+  ],
+  "curiosidad": "Estudió en Alemania con Martin Heidegger entre 1936 y 1939.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La religión y la nada",
+    "anio": "1961",
+    "deQueVa": "Su obra más famosa, sobre religión, nihilismo y vacuidad."
+   },
+   {
+    "titulo": "El nihilismo (Nihirizumu)",
+    "anio": "1949",
+    "deQueVa": "Estudio sobre cómo la falta de sentido afecta al mundo moderno."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alfred-tarski",
+  "nombre": "Alfred Tarski",
+  "fechas": "1901 – 1983",
+  "region": "Polonia y Estados Unidos",
+  "escuela": "Lógica y filosofía del lenguaje",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "conocimiento"
+  ],
+  "conocidoPor": "Definir qué significa que una frase sea verdadera, con un ejemplo tan simple como la nieve blanca",
+  "resumen": "Era un lógico y matemático polaco, nacido en Varsovia. Cambió su apellido, que era Teitelbaum, en 1923. Explicó con rigor qué significa decir que algo es verdad, y por eso es famoso. También fundó la [[teoría de modelos|teoria-de-modelos]], una rama de la lógica.",
+  "ideas": [
+   "La frase «la nieve es blanca» es verdadera si, y solo si, la nieve es blanca. Parece obvio, pero así se evita enredarse con [[paradojas|paradoja]] como la del mentiroso.",
+   "Para hablar con orden de la verdad hay que separar el idioma del que hablamos del idioma con el que hablamos de él.",
+   "La lógica puede estudiar qué significan las fórmulas, no solo si se pueden demostrar: eso es la [[semántica|semantica]]."
+  ],
+  "curiosidad": "En 1939 viajó a un congreso en Estados Unidos y estalló la Segunda Guerra Mundial, así que no pudo volver a Polonia. Su familia se quedó allí y no se reunieron hasta 1946.",
+  "frase": {
+   "texto": "«La nieve es blanca» es verdadera si y solo si la nieve es blanca.",
+   "fuente": "Ejemplo clásico de su teoría de la verdad, en «La concepción semántica de la verdad» (1944)"
+  },
+  "obras": [
+   {
+    "titulo": "El concepto de verdad en los lenguajes formalizados",
+    "anio": "1933",
+    "deQueVa": "Su definición precisa de verdad, escrita primero en polaco."
+   },
+   {
+    "titulo": "Introducción a la lógica",
+    "anio": "1936",
+    "deQueVa": "Un manual claro para aprender a razonar con lógica."
+   },
+   {
+    "titulo": "La concepción semántica de la verdad",
+    "anio": "1944",
+    "deQueVa": "Explica sin fórmulas su idea de verdad."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«La concepción semántica de la verdad» (1944), texto en inglés",
+    "url": "https://www.ditext.com/tarski/tarski.html",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "donald-davidson"
+  ]
+ },
+ {
+  "id": "henri-lefebvre",
+  "nombre": "Henri Lefebvre",
+  "fechas": "1901 – 1991",
+  "region": "Francia",
+  "escuela": "Marxismo humanista",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Pensar la vida cotidiana y la ciudad, y reclamar el «derecho a la ciudad» para quien la vive",
+  "resumen": "Fue un pensador francés del [[marxismo]] muy original. Miró lo que parece aburrido: levantarse, ir al trabajo, comprar. Y vio ahí cómo funciona el [[capitalismo]]. Sus ideas sobre la ciudad se usan hoy en urbanismo y en movimientos vecinales.",
+  "ideas": [
+   "La vida cotidiana importa: allí se vive la [[alienación|alienacion]], es decir, sentirse extraño en tu propia vida, pero también puede cambiar todo.",
+   "El espacio no es neutro: una ciudad se hace entre todos, y el poder y el dinero la moldean.",
+   "Todos los habitantes tienen [[derecho a la ciudad|derecho-a-la-ciudad]]: usarla, disfrutarla y decidir cómo es, y no solo vivir en ella."
+  ],
+  "curiosidad": "Lo expulsaron del Partido Comunista Francés en 1958, y su obra influyó en los jóvenes de Mayo del 68.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Crítica de la vida cotidiana",
+    "anio": "1947",
+    "deQueVa": "Analiza lo que hacemos cada día y cómo nos domina."
+   },
+   {
+    "titulo": "El derecho a la ciudad",
+    "anio": "1968",
+    "deQueVa": "Pide que la ciudad sea de quienes la habitan."
+   },
+   {
+    "titulo": "La producción del espacio",
+    "anio": "1974",
+    "deQueVa": "Explica cómo la sociedad fabrica los espacios en que vivimos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "guy-debord"
+  ]
+ },
+ {
+  "id": "jacques-lacan",
+  "nombre": "Jacques Lacan",
+  "fechas": "1901 – 1981",
+  "region": "Francia",
+  "escuela": "Psicoanálisis (estructuralismo)",
+  "categorias": [
+   "mente",
+   "lenguaje",
+   "existencia"
+  ],
+  "conocidoPor": "Releer a Freud con el lenguaje: el [[inconsciente]] funciona como un idioma que no controlamos",
+  "resumen": "Fue un psiquiatra y psicoanalista francés. Quiso volver a las ideas de Freud, pero leyéndolas con la lingüística y la filosofía. Dio un seminario en París durante más de veinticinco años, al que iban muchos intelectuales. Es famoso, y también difícil de leer: muchos le reprochan oscuridad.",
+  "ideas": [
+   "El [[inconsciente]] está hecho de palabras y juegos de lenguaje: los lapsus, los chistes y los sueños dicen cosas que no sabíamos que decíamos.",
+   "En el «estadio del espejo» el bebé se reconoce en una imagen suya y se forma así la idea de «yo», que siempre es algo ajeno.",
+   "Distinguía tres planos de la experiencia: lo imaginario, lo simbólico (las reglas y el lenguaje) y lo real (lo que se escapa a las palabras)."
+  ],
+  "curiosidad": null,
+  "frase": {
+   "texto": "El inconsciente está estructurado como un lenguaje.",
+   "fuente": "Fórmula célebre de Lacan; aparece, entre otros lugares, en el Seminario XI (1964). Traducción libre del francés «L'inconscient est structuré comme un langage»"
+  },
+  "obras": [
+   {
+    "titulo": "Escritos",
+    "anio": "1966",
+    "deQueVa": "Reúne sus artículos principales, famosos por su estilo difícil."
+   },
+   {
+    "titulo": "Seminarios",
+    "anio": "1953 – 1980",
+    "deQueVa": "Sus clases habladas, publicadas en muchos tomos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "slavoj-zizek"
+  ]
+ },
+ {
+  "id": "juan-david-garcia-bacca",
+  "nombre": "Juan David García Bacca",
+  "fechas": "1901 – 1992",
+  "region": "España, México y Venezuela",
+  "escuela": "Filosofía de la ciencia y de la técnica",
+  "categorias": [
+   "logica",
+   "ciencia",
+   "existencia"
+  ],
+  "conocidoPor": "Acercar la lógica moderna al mundo hispano y ver la técnica como el modo en que el ser humano se hace a sí mismo",
+  "resumen": "Nació en Pamplona y estudió y enseñó en España. Tras la Guerra Civil se exilió: vivió en Ecuador, México y, sobre todo, Venezuela, donde enseñó muchos años. Escribió de lógica, de ciencia y de técnica. Defendía que usar herramientas es parte de lo que nos hace humanos.",
+  "ideas": [
+   "La [[lógica|logica]] moderna, con símbolos y fórmulas, es una nueva herramienta para pensar mejor, y hay que enseñarla en español.",
+   "La técnica no es solo hacer cosas útiles: al transformar el mundo, el ser humano también se transforma a sí mismo.",
+   "La ciencia moderna cambió tanto la idea de realidad que la filosofía tiene que ponerse al día con ella."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Introducción a la lógica moderna",
+    "anio": "1936",
+    "deQueVa": "Una de las primeras presentaciones de la lógica simbólica en español."
+   },
+   {
+    "titulo": "Invitación a filosofar",
+    "anio": "1940",
+    "deQueVa": "Un acercamiento a la filosofía a través de textos clásicos."
+   },
+   {
+    "titulo": "Elogio de la técnica",
+    "anio": "1987",
+    "deQueVa": "Defiende que la técnica es una forma de crear al ser humano."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gunther-anders",
+  "nombre": "Günther Anders",
+  "fechas": "1902 – 1992",
+  "region": "Alemania y Austria",
+  "escuela": "Filosofía de la técnica",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Avisar de que con la bomba atómica la humanidad puede destruirse y de que no sabemos imaginar lo que fabricamos",
+  "resumen": "Nació en Breslavia, que entonces era alemana, y era judío. Huyó de los nazis y vivió en Francia y Estados Unidos antes de instalarse en Viena. Se casó con Hannah Arendt, aunque se separaron. Tras Hiroshima dedicó su vida a advertir del peligro atómico y de cómo las máquinas nos desbordan.",
+  "ideas": [
+   "Existe un «desnivel prometeico»: somos capaces de fabricar cosas, como una bomba, que somos incapaces de imaginar o de sentir.",
+   "Sentimos una especie de vergüenza ante lo perfectas que son las máquinas comparadas con nosotros.",
+   "Desde 1945 la humanidad sabe que puede acabar consigo misma, y eso cambia para siempre cómo debemos pensar."
+  ],
+  "curiosidad": "Estuvo casado con Hannah Arendt entre 1929 y 1937. Entonces firmaba como Günther Stern: «Anders» («distinto») fue un seudónimo que adoptó después.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La obsolescencia del hombre",
+    "anio": "1956",
+    "deQueVa": "Cómo la técnica nos deja anticuados y nos engaña."
+   },
+   {
+    "titulo": "Nosotros, los hijos de Eichmann",
+    "anio": "1964",
+    "deQueVa": "Carta abierta al hijo de un nazi sobre culpa y obediencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alexandre-kojeve",
+  "nombre": "Alexandre Kojève",
+  "fechas": "1902 – 1968",
+  "region": "Rusia y Francia",
+  "escuela": "Hegelianismo",
+  "categorias": [
+   "politica",
+   "metafisica",
+   "existencia"
+  ],
+  "conocidoPor": "Dar en París unas clases sobre Hegel que cambiaron el pensamiento francés del siglo XX",
+  "resumen": "Nació en Moscú y acabó viviendo en Francia. Entre 1933 y 1939 dio un curso sobre la «Fenomenología del espíritu» de Hegel que escucharon futuros pensadores muy importantes. Su lectura de Hegel, centrada en el deseo y la lucha, marcó a toda una generación. Más tarde trabajó como alto funcionario.",
+  "ideas": [
+   "La historia avanza por la lucha entre quien manda y quien obedece, la [[dialéctica del amo y el esclavo|dialectica-amo-esclavo]]: el esclavo se transforma trabajando.",
+   "Los humanos no solo queremos cosas: queremos que los demás nos reconozcan, y ese deseo mueve la historia.",
+   "Pensaba que la historia podía llegar a un final, el [[fin de la historia|fin-de-la-historia]], cuando todos se reconocen como iguales."
+  ],
+  "curiosidad": "A su curso fueron, entre otros, Raymond Aron, Jacques Lacan, Georges Bataille y Maurice Merleau-Ponty. Después trabajó como alto funcionario en el Ministerio de Economía francés.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Introducción a la lectura de Hegel",
+    "anio": "1947",
+    "deQueVa": "Recoge sus clases sobre Hegel, ordenadas por Raymond Queneau."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "jacques-lacan",
+   "georges-bataille"
+  ]
+ },
+ {
+  "id": "frank-p-ramsey",
+  "nombre": "Frank P. Ramsey",
+  "fechas": "1903 – 1930",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "logica",
+   "conocimiento",
+   "lenguaje"
+  ],
+  "conocidoPor": "Medir cuánto creemos algo con apuestas y hacer, muerto a los 26 años, avances en lógica y economía",
+  "resumen": "Fue un genio británico que murió con 26 años, en 1930, por una enfermedad del hígado. En ese poco tiempo dejó ideas importantes de lógica, filosofía y economía. Era amigo de Keynes y discutió con Wittgenstein. Hoy se le recuerda como uno de los pensadores más brillantes del siglo XX.",
+  "ideas": [
+   "Lo seguros que estamos de algo se puede medir por lo que apostaríamos: esa es la idea de [[probabilidad subjetiva|probabilidad-subjetiva]].",
+   "Decir «es verdad que llueve» no añade nada a decir «llueve»: la palabra «verdad» casi sobra.",
+   "En economía calculó cuánto debe ahorrar un país hoy pensando en las generaciones futuras."
+  ],
+  "curiosidad": "Con unos 19 años ayudó a traducir al inglés el «Tractatus» de Wittgenstein, y luego viajó a Austria para discutirlo con él.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Verdad y probabilidad",
+    "anio": "1926",
+    "deQueVa": "Propone medir las creencias con apuestas."
+   },
+   {
+    "titulo": "Hechos y proposiciones (Facts and Propositions)",
+    "anio": "1927",
+    "deQueVa": "Sobre qué quiere decir que una frase sea verdadera."
+   },
+   {
+    "titulo": "Una teoría matemática del ahorro (A Mathematical Theory of Saving)",
+    "anio": "1928",
+    "deQueVa": "Un modelo de economía sobre cuánto ahorrar."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Truth and Probability» (1926), texto en inglés",
+    "url": "https://fitelson.org/probability/ramsey.pdf",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "joseph-b-soloveitchik",
+  "nombre": "Joseph B. Soloveitchik",
+  "fechas": "1903 – 1993",
+  "region": "Bielorrusia, Alemania y Estados Unidos",
+  "escuela": "Judaísmo ortodoxo moderno",
+  "categorias": [
+   "religion",
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Mostrar que se puede ser un judío muy fiel a la [[halajá|halaja]] y a la vez un hombre moderno y culto",
+  "resumen": "Nació en un pueblo de la actual Bielorrusia, en una familia de grandes sabios del Talmud. Estudió filosofía en Berlín y se fue a Estados Unidos en 1932. Allí se instaló en Boston y fue maestro durante décadas en la Universidad Yeshiva de Nueva York. Es la gran figura del judaísmo ortodoxo moderno.",
+  "ideas": [
+   "La [[halajá|halaja]], la ley judía, no es solo cumplir reglas: el creyente la usa para ordenar su vida con la mente y con el corazón.",
+   "Cada persona tiene dos lados: el que quiere dominar y construir el mundo, y el que busca una relación de compromiso con Dios y con los demás. Hacen falta los dos.",
+   "Ser religioso en serio incluye vivir con dudas y con soledad, no solo con certezas."
+  ],
+  "curiosidad": "Se doctoró en Berlín con una tesis sobre el filósofo Hermann Cohen.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El hombre de la halajá",
+    "anio": "1944",
+    "deQueVa": "Retrato del creyente que vive ordenando su vida con la ley judía."
+   },
+   {
+    "titulo": "El hombre solitario de fe",
+    "anio": "1965",
+    "deQueVa": "Sobre los dos lados de la persona y la soledad del creyente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alonzo-church",
+  "nombre": "Alonzo Church",
+  "fechas": "1903 – 1995",
+  "region": "Estados Unidos",
+  "escuela": "Lógica matemática",
+  "categorias": [
+   "logica",
+   "ciencia"
+  ],
+  "conocidoPor": "Inventar el [[cálculo lambda|calculo-lambda]] y ser maestro de Alan Turing en los orígenes de la informática",
+  "resumen": "Fue un lógico estadounidense, profesor en Princeton durante décadas. Cuando aún no había ordenadores, se preguntó qué problemas se pueden resolver con un [[algoritmo]], es decir, con una receta de pasos. Sus ideas son una de las bases de la informática teórica y de los lenguajes de programación.",
+  "ideas": [
+   "El [[cálculo lambda|calculo-lambda]] es un modo muy simple de escribir funciones, y con él se puede describir cualquier cálculo.",
+   "Hay problemas lógicos que ninguna receta mecánica puede resolver siempre, como decidir si cualquier frase lógica es cierta.",
+   "Todo lo que se puede calcular siguiendo una receta paso a paso se puede hacer con su sistema: es la [[tesis de Church-Turing|tesis-de-church-turing]]."
+  ],
+  "curiosidad": "Alan Turing fue su alumno de doctorado en Princeton, y también lo fueron muchos otros pioneros de la informática. Fundó en 1936 la revista «Journal of Symbolic Logic».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Una nota sobre el problema de la decisión (A Note on the Entscheidungsproblem)",
+    "anio": "1936",
+    "deQueVa": "Demuestra que no existe método general para decidir toda cuestión lógica."
+   },
+   {
+    "titulo": "Los cálculos de la conversión lambda (The Calculi of Lambda-Conversion)",
+    "anio": "1941",
+    "deQueVa": "Presenta su cálculo lambda."
+   },
+   {
+    "titulo": "Introducción a la lógica matemática",
+    "anio": "1956",
+    "deQueVa": "Un gran manual de lógica."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "alan-turing"
+  ]
+ },
+ {
+  "id": "georges-canguilhem",
+  "nombre": "Georges Canguilhem",
+  "fechas": "1904 – 1995",
+  "region": "Francia",
+  "escuela": "Historia y filosofía de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Preguntarse qué es estar sano o enfermo: lo «normal» no es lo más frecuente, sino lo que permite vivir",
+  "resumen": "Fue médico y filósofo francés. Participó en la Resistencia contra los nazis y luego fue un profesor muy influyente. Estudió cómo la medicina y la biología hablan de «lo normal» y «lo patológico». Entre sus alumnos estuvo Michel Foucault.",
+  "ideas": [
+   "Estar sano no es parecerse al promedio: es poder adaptarse y crear tus propias normas de vida.",
+   "La enfermedad no es solo «menos salud»: es otra manera de vivir, con otros límites.",
+   "Los seres vivos no son simples máquinas: tienen sus propios fines y se organizan de una forma que no se explica solo con piezas."
+  ],
+  "curiosidad": "Fue director de la tesis de Michel Foucault sobre la historia de la locura.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lo normal y lo patológico",
+    "anio": "1943",
+    "deQueVa": "Qué quiere decir normal en medicina y en biología."
+   },
+   {
+    "titulo": "El conocimiento de la vida",
+    "anio": "1952",
+    "deQueVa": "Ensayos sobre cómo la ciencia estudia lo vivo."
+   },
+   {
+    "titulo": "Ideología y racionalidad en la historia de las ciencias de la vida",
+    "anio": "1977",
+    "deQueVa": "Cómo las ideas de cada época influyen en la ciencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "michel-foucault"
+  ]
+ },
+ {
+  "id": "carl-gustav-hempel",
+  "nombre": "Carl Gustav Hempel",
+  "fechas": "1905 – 1997",
+  "region": "Alemania y Estados Unidos",
+  "escuela": "Empirismo lógico",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "logica"
+  ],
+  "conocidoPor": "Explicar cómo explica la ciencia: partiendo de leyes y de datos, y no solo describiendo",
+  "resumen": "Nació en Alemania, estuvo cerca del [[Círculo de Viena|circulo-de-viena]] y, ante el nazismo, acabó en Estados Unidos, donde enseñó en Princeton. Se dedicó a aclarar qué es una buena explicación científica y cuándo una prueba confirma una teoría.",
+  "ideas": [
+   "Explicar un hecho es mostrar que era de esperar, a partir de unas leyes generales y de unas condiciones concretas.",
+   "Un dato puede confirmar ideas que no esperamos: ver una manzana verde confirma, en teoría, que «todos los cuervos son negros». Es la [[paradoja de los cuervos|paradoja-de-los-cuervos]].",
+   "Una teoría científica debe poder comprobarse con la experiencia, como pedían los [[positivistas|positivismo]] lógicos."
+  ],
+  "curiosidad": "La paradoja de los cuervos, que lleva su nombre, todavía se discute: ¿de verdad una manzana verde dice algo sobre los cuervos?",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Estudios sobre la lógica de la confirmación",
+    "anio": "1945",
+    "deQueVa": "Cuándo una observación apoya una hipótesis."
+   },
+   {
+    "titulo": "Aspectos de la explicación científica",
+    "anio": "1965",
+    "deQueVa": "Reúne sus ideas sobre cómo explica la ciencia."
+   },
+   {
+    "titulo": "Filosofía de la ciencia natural",
+    "anio": "1966",
+    "deQueVa": "Una introducción sencilla a la ciencia y su método."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "raymond-aron",
+  "nombre": "Raymond Aron",
+  "fechas": "1905 – 1983",
+  "region": "Francia",
+  "escuela": "Liberalismo y sociología política",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Criticar el [[totalitarismo]] y el [[marxismo]] cuando estaban de moda entre los intelectuales franceses",
+  "resumen": "Fue un filósofo y sociólogo francés, compañero de estudios de Sartre. Mientras muchos intelectuales admiraban la Unión Soviética, él defendió la democracia liberal. Escribió sobre la guerra, la historia y la política internacional, y fue periodista durante años.",
+  "ideas": [
+   "Para algunos intelectuales el marxismo es casi una religión: promete salvación y no admite críticas.",
+   "La historia no está escrita de antemano: las personas eligen y pueden equivocarse.",
+   "Para entender la guerra y la paz entre países hay que mirar la realidad de los intereses y de la fuerza, sin ingenuidad."
+  ],
+  "curiosidad": "Cuando estudió en Alemania, en 1932, descubrió la fenomenología y se la contó a Sartre, que quedó fascinado. Simone de Beauvoir lo cuenta en sus memorias.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Introducción a la filosofía de la historia",
+    "anio": "1938",
+    "deQueVa": "Sobre si la historia tiene sentido o no."
+   },
+   {
+    "titulo": "El opio de los intelectuales",
+    "anio": "1955",
+    "deQueVa": "Critica la fe ciega de muchos intelectuales en el comunismo."
+   },
+   {
+    "titulo": "Paz y guerra entre las naciones",
+    "anio": "1962",
+    "deQueVa": "Un análisis de las relaciones entre países."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kurt-godel",
+  "nombre": "Kurt Gödel",
+  "fechas": "1906 – 1978",
+  "region": "Austria y Estados Unidos",
+  "escuela": "Lógica matemática (platonismo matemático)",
+  "categorias": [
+   "logica",
+   "conocimiento",
+   "metafisica"
+  ],
+  "conocidoPor": "Demostrar que en matemáticas siempre hay verdades que no se pueden demostrar dentro del propio sistema",
+  "resumen": "Nació en Brno, entonces parte del Imperio austrohúngaro, y fue un genio de la lógica. En 1931 publicó sus [[teoremas de incompletitud|teorema-incompletitud]], que sorprendieron al mundo. Huyó de los nazis a Estados Unidos y trabajó en Princeton. Fue amigo de Einstein.",
+  "ideas": [
+   "En cualquier sistema de reglas matemáticas que sea bastante potente, hay frases verdaderas que ese sistema no puede demostrar.",
+   "Además, un sistema así no puede demostrar por sí mismo que no se contradice.",
+   "Creía que los números y los objetos matemáticos existen de verdad, aunque no los veamos: es una forma de [[platonismo matemático|platonismo-matematico]]."
+  ],
+  "curiosidad": "Einstein y él paseaban juntos casi a diario en Princeton. Hacia el final de su vida, convencido de que querían envenenarlo, dejó de comer y murió desnutrido.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre proposiciones formalmente indecidibles de Principia Mathematica y sistemas afines",
+    "anio": "1931",
+    "deQueVa": "El artículo de los teoremas de incompletitud."
+   },
+   {
+    "titulo": "La consistencia de la hipótesis del continuo",
+    "anio": "1940",
+    "deQueVa": "Un resultado importante sobre los distintos tamaños del infinito."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "alan-turing",
+   "alonzo-church"
+  ]
+ },
+ {
+  "id": "nelson-goodman",
+  "nombre": "Nelson Goodman",
+  "fechas": "1906 – 1998",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "conocimiento",
+   "estetica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Inventar el acertijo del «verdeazul», que muestra lo difícil que es justificar que el futuro será como el pasado",
+  "resumen": "Fue un filósofo estadounidense, profesor sobre todo en Harvard. Estudió cómo aprendemos de la experiencia y cómo funcionan los símbolos en la ciencia y en el arte. Antes de dedicarse a la universidad dirigió una galería de arte en Boston.",
+  "ideas": [
+   "Si todas las esmeraldas que vimos eran verdes, ¿qué nos dice que sigan siéndolo? Inventó el color [[verdeazul]] (verde hasta cierta fecha y azul después) para mostrar que la [[inducción|induccion]] no es tan obvia.",
+   "El arte funciona como un lenguaje: un cuadro, una música o un baile son símbolos que nos dicen cosas.",
+   "No hay una sola descripción verdadera del mundo: hay muchas versiones que pueden ser correctas a la vez."
+  ],
+  "curiosidad": "Antes de ser profesor dirigió en Boston una galería de arte, hasta 1941.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La estructura de la apariencia",
+    "anio": "1951",
+    "deQueVa": "Cómo construir un mundo a partir de lo que percibimos."
+   },
+   {
+    "titulo": "Hechos, ficción y pronóstico",
+    "anio": "1955",
+    "deQueVa": "Donde plantea el acertijo del verdeazul."
+   },
+   {
+    "titulo": "Los lenguajes del arte",
+    "anio": "1968",
+    "deQueVa": "Por qué el arte es una forma de conocer."
+   },
+   {
+    "titulo": "Maneras de hacer mundos",
+    "anio": "1978",
+    "deQueVa": "Sobre las muchas versiones del mundo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "placide-tempels",
+  "nombre": "Placide Tempels",
+  "fechas": "1906 – 1977",
+  "region": "Bélgica y Congo",
+  "escuela": "Etnofilosofía africana",
+  "categorias": [
+   "metafisica",
+   "sociedad",
+   "religion"
+  ],
+  "conocidoPor": "Su libro «La filosofía bantú», que abrió el debate sobre si existe una filosofía africana",
+  "resumen": "Fue un misionero franciscano belga que vivió años en el Congo, entonces colonia de Bélgica. En 1945 publicó «La filosofía bantú», sobre cómo ven el mundo los pueblos de lengua luba. El libro fue muy criticado: muchos africanos dijeron que era una mirada de fuera, a medida de los colonizadores.",
+  "ideas": [
+   "Según él, para los pueblos bantúes lo que de verdad existe es la «fuerza vital», y todo lo vivo está lleno de ella.",
+   "Defendió que los africanos tienen una filosofía propia, cuando muchos europeos de su época decían que eran pueblos sin pensamiento.",
+   "Pero su estudio nació para ayudar a evangelizar y gobernar mejor a los colonizados, y por eso lo critican hoy; este tipo de trabajo se llama [[etnofilosofía|etnofilosofia]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía bantú",
+    "anio": "1945",
+    "deQueVa": "Describe, desde su punto de vista de misionero, la idea de fuerza vital entre los luba."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "leopold-sedar-senghor",
+  "nombre": "Léopold Sédar Senghor",
+  "fechas": "1906 – 2001",
+  "region": "Senegal y Francia",
+  "escuela": "Negritud",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Poeta, cofundador de la [[negritud]] y primer presidente de Senegal tras la independencia",
+  "resumen": "Fue poeta, pensador y político. Estudió en París y allí, con Aimé Césaire y Léon Damas, impulsó la negritud, que reivindicaba el valor de las culturas negras. Fue el primer presidente de Senegal, de 1960 a 1980. En 1983 entró en la Academia Francesa.",
+  "ideas": [
+   "La [[negritud]] es sentirse orgulloso de la cultura y la historia negras, frente al desprecio colonial.",
+   "Soñaba con un «humanismo» que mezclase las culturas del mundo, sin que unas se impongan a otras.",
+   "Sus ideas han sido criticadas porque a veces presentaba a los africanos como más «emocionales» y a los europeos como más «racionales»: muchos dicen que eso cae en un tópico."
+  ],
+  "curiosidad": "Fue el primer africano en ser miembro de la Academia Francesa, en 1983.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Cantos de sombra",
+    "anio": "1945",
+    "deQueVa": "Su primer libro de poemas."
+   },
+   {
+    "titulo": "Hostias negras",
+    "anio": "1948",
+    "deQueVa": "Poemas sobre la guerra y el sufrimiento de los soldados africanos."
+   },
+   {
+    "titulo": "Libertad I: Negritud y humanismo",
+    "anio": "1964",
+    "deQueVa": "Ensayos sobre su idea de negritud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "h-l-a-hart",
+  "nombre": "H. L. A. Hart",
+  "fechas": "1907 – 1992",
+  "region": "Reino Unido",
+  "escuela": "Positivismo jurídico",
+  "categorias": [
+   "politica",
+   "etica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Explicar qué es el derecho con reglas y no con simples órdenes bajo amenaza, en «El concepto de derecho»",
+  "resumen": "Fue un filósofo del derecho británico, profesor en Oxford. Durante la guerra trabajó en los servicios de inteligencia. Su libro «El concepto de derecho» es una de las obras más leídas sobre qué es una ley y por qué se obedece.",
+  "ideas": [
+   "Una ley no es igual que la orden de un atracador con una pistola: la gente la ve como una regla que debe cumplirse, no solo como una amenaza.",
+   "Un sistema legal necesita una regla que diga qué cuenta como ley y cómo se cambia: la [[regla de reconocimiento|regla-de-reconocimiento]].",
+   "Que algo sea ley no significa que sea justo, es el [[positivismo jurídico|positivismo-juridico]], aunque toda sociedad necesita unas normas mínimas, como prohibir matar."
+  ],
+  "curiosidad": "Durante la Segunda Guerra Mundial trabajó para el servicio de inteligencia británico MI5.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El concepto de derecho",
+    "anio": "1961",
+    "deQueVa": "Qué es una ley y cómo funciona un sistema legal."
+   },
+   {
+    "titulo": "Derecho, libertad y moralidad",
+    "anio": "1963",
+    "deQueVa": "Debate si las leyes deben imponer la moral."
+   },
+   {
+    "titulo": "Castigo y responsabilidad",
+    "anio": "1968",
+    "deQueVa": "Ensayos sobre por qué y cuándo castigar."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "joseph-raz"
+  ]
+ },
+ {
+  "id": "jan-patocka",
+  "nombre": "Jan Patočka",
+  "fechas": "1907 – 1977",
+  "region": "Checoslovaquia",
+  "escuela": "Fenomenología",
+  "categorias": [
+   "existencia",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Fenomenólogo checo que se convirtió en símbolo de la resistencia al comunismo con la Carta 77",
+  "resumen": "Fue un filósofo checo discípulo de Husserl. Con el comunismo lo apartaron de la universidad, pero siguió enseñando en casa. En 1977 fue uno de los primeros portavoces de la [[Carta 77|carta-77]], un manifiesto por los derechos humanos. Murió ese mismo año, tras largos interrogatorios de la policía.",
+  "ideas": [
+   "Vivir bien es «cuidar del alma», es decir, preocuparse por la verdad y por cómo vivimos, y no solo de tener cosas.",
+   "Hay momentos en la historia en que la vida se sacude y se pierde la seguridad; los que lo viven comparten una «solidaridad de los conmocionados».",
+   "Hay cosas por las que merece la pena arriesgarse, aunque sea difícil: la libertad y la verdad."
+  ],
+  "curiosidad": "Murió el 13 de marzo de 1977 en Praga, tras ser interrogado durante horas por la policía secreta, pocas semanas después de dar a conocer la Carta 77.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El mundo natural como problema filosófico",
+    "anio": "1936",
+    "deQueVa": "Aplica la fenomenología al mundo en que vivimos cada día."
+   },
+   {
+    "titulo": "Ensayos heréticos sobre la filosofía de la historia",
+    "anio": "1975",
+    "deQueVa": "Su obra más conocida, sobre el sentido de la historia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eduardo-nicol",
+  "nombre": "Eduardo Nicol",
+  "fechas": "1907 – 1990",
+  "region": "España y México",
+  "escuela": "Filosofía del exilio (metafísica de la expresión)",
+  "categorias": [
+   "metafisica",
+   "lenguaje",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que el ser humano es un ser que se expresa y que la verdad nace del diálogo",
+  "resumen": "Nació en Barcelona y se exilió a México tras la Guerra Civil. Dio clases en la UNAM y formó a muchos alumnos. Pensaba que los humanos nos entendemos al expresarnos con palabras, gestos y obras, y que la filosofía es una vocación compartida.",
+  "ideas": [
+   "Los humanos somos seres que se expresan: hablamos, escribimos y creamos para mostrarnos a los demás.",
+   "La verdad no se descubre a solas: surge cuando varias personas dialogan y se escuchan.",
+   "La filosofía no es un juego raro: es una vocación, una tarea que da sentido a la vida."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La vocación humana",
+    "anio": "1953",
+    "deQueVa": "Sobre lo que significa dedicar la vida a pensar."
+   },
+   {
+    "titulo": "Metafísica de la expresión",
+    "anio": "1957",
+    "deQueVa": "Su obra principal, sobre el ser humano como ser expresivo."
+   },
+   {
+    "titulo": "Los principios de la ciencia",
+    "anio": "1965",
+    "deQueVa": "Cómo se funda y se justifica el conocimiento científico."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "abraham-joshua-heschel",
+  "nombre": "Abraham Joshua Heschel",
+  "fechas": "1907 – 1972",
+  "region": "Polonia y Estados Unidos",
+  "escuela": "Filosofía judía de la religión",
+  "categorias": [
+   "religion",
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Presentar la religión como asombro ante el mundo y a un Dios que busca al ser humano, y no al revés",
+  "resumen": "Nació en Varsovia, en una familia de tradición [[jasídica|jasidismo]], y estudió en Berlín. Escapó de los nazis y se instaló en Estados Unidos en 1940, donde fue profesor y escritor. Escribió sobre la fe de un modo muy humano y poético. También luchó por los derechos civiles y contra la guerra de Vietnam.",
+  "ideas": [
+   "La religión empieza con el asombro: mirar un amanecer y sentir que no es algo que nos debían.",
+   "En vez de preguntar «¿dónde está Dios?», propone preguntarse qué espera Dios de nosotros: es Dios quien busca al ser humano.",
+   "El Sabbat, el día de descanso judío, es como un «palacio en el tiempo»: parar para valorar el tiempo y no solo las cosas."
+  ],
+  "curiosidad": "En 1965 marchó al lado de Martin Luther King en Selma (Alabama), en la lucha por el derecho al voto de la población negra.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El Sabbat",
+    "anio": "1951",
+    "deQueVa": "Un bello ensayo sobre el día de descanso como tiempo sagrado."
+   },
+   {
+    "titulo": "El hombre no está solo",
+    "anio": "1951",
+    "deQueVa": "Sobre la experiencia de lo divino y el asombro."
+   },
+   {
+    "titulo": "Dios en busca del hombre",
+    "anio": "1955",
+    "deQueVa": "Su gran libro de filosofía de la religión."
+   },
+   {
+    "titulo": "Los profetas",
+    "anio": "1962",
+    "deQueVa": "Cómo vivieron los profetas la llamada de Dios y la justicia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "martin-luther-king-jr"
+  ]
+ },
+ {
+  "id": "maurice-blanchot",
+  "nombre": "Maurice Blanchot",
+  "fechas": "1907 – 2003",
+  "region": "Francia",
+  "escuela": "Crítica literaria y filosofía de la literatura",
+  "categorias": [
+   "estetica",
+   "lenguaje",
+   "existencia"
+  ],
+  "conocidoPor": "Pensar qué pasa cuando escribimos: la literatura como lugar donde el autor desaparece",
+  "resumen": "Fue un escritor, novelista y crítico francés. Vivió muy apartado y casi no dejó fotos. Escribió novelas extrañas y ensayos sobre la literatura, la muerte y el lenguaje. Tuvo gran influencia en pensadores como Foucault o Derrida.",
+  "ideas": [
+   "Escribir es entrar en un espacio donde el autor se borra: el texto empieza a hablar solo.",
+   "La literatura se acerca a lo que las palabras normales no alcanzan, como la muerte o el silencio.",
+   "Hay experiencias, como una catástrofe, que no se pueden contar del todo: escribir sobre ellas es chocar con un límite."
+  ],
+  "curiosidad": "Fue muy discreto: casi no concedió entrevistas y apenas hay fotografías suyas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Thomas el oscuro",
+    "anio": "1941",
+    "deQueVa": "Su primera novela, rara y poética."
+   },
+   {
+    "titulo": "El espacio literario",
+    "anio": "1955",
+    "deQueVa": "Su gran ensayo sobre escribir y la soledad del escritor."
+   },
+   {
+    "titulo": "La conversación infinita",
+    "anio": "1969",
+    "deQueVa": "Ensayos sobre lenguaje, escritura y pensamiento."
+   },
+   {
+    "titulo": "La escritura del desastre",
+    "anio": "1980",
+    "deQueVa": "Fragmentos sobre el sufrimiento y lo que no se puede decir."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "jacques-derrida",
+   "michel-foucault"
+  ]
+ },
+ {
+  "id": "jose-luis-lopez-aranguren",
+  "nombre": "José Luis López Aranguren",
+  "fechas": "1909 – 1996",
+  "region": "España",
+  "escuela": "Ética y filosofía moral",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "religion"
+  ],
+  "conocidoPor": "Hacer de la ética una disciplina moderna en España y criticar el poder desde la libertad de conciencia",
+  "resumen": "Nació en Ávila y fue catedrático de Ética. Fue católico, pero crítico con la Iglesia y con el régimen de Franco. En 1965 lo expulsaron de la universidad por apoyar a los estudiantes, y volvió tras el fin de la dictadura. Escribió sobre ética, política y sociedad con un estilo claro.",
+  "ideas": [
+   "La ética no es solo una lista de normas: es aprender a vivir con sentido y responsabilidad en la vida real.",
+   "La moral cambia con la sociedad, pero siempre hay que preguntarse si lo que hacemos es justo.",
+   "Se puede ser creyente y pensar con libertad, criticando lo que se haga mal en nombre de la fe."
+  ],
+  "curiosidad": "En 1965 lo apartaron de su cátedra en Madrid junto con otros profesores, como Tierno Galván y García Calvo, por apoyar las protestas de estudiantes.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Catolicismo y protestantismo como formas de existencia",
+    "anio": "1952",
+    "deQueVa": "Compara dos maneras de vivir la fe cristiana."
+   },
+   {
+    "titulo": "Ética",
+    "anio": "1958",
+    "deQueVa": "Su manual y obra principal de ética."
+   },
+   {
+    "titulo": "Ética y política",
+    "anio": "1963",
+    "deQueVa": "Relaciona la moral personal con el poder."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kwame-nkrumah",
+  "nombre": "Kwame Nkrumah",
+  "fechas": "1909 – 1972",
+  "region": "Ghana",
+  "escuela": "Panafricanismo y socialismo africano",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Llevar a Ghana a la independencia en 1957 y soñar con unir África con una filosofía propia, el [[consciencismo]]",
+  "resumen": "Fue el líder de la independencia de Ghana, primer país del África subsahariana que dejó de ser colonia británica, en 1957. Fue su primer ministro y presidente hasta que lo derrocó un golpe de Estado en 1966. Además de político, escribió sobre filosofía: quería unir África y dejar atrás el dominio extranjero.",
+  "ideas": [
+   "El [[consciencismo]] propone mezclar lo mejor de las tradiciones africanas con las influencias islámica y europea para hacer una forma de pensar propia.",
+   "El [[panafricanismo]] defiende que los países africanos deben unirse para ser fuertes.",
+   "El [[neocolonialismo]] es cuando un país es «libre» sobre el papel, pero otros siguen mandando en su economía."
+  ],
+  "curiosidad": "Cuando lo derrocaron, en 1966, estaba de viaje oficial en Asia. Murió en el exilio, en Rumanía, en 1972.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Consciencismo",
+    "anio": "1964",
+    "deQueVa": "Su obra filosófica principal."
+   },
+   {
+    "titulo": "África debe unirse",
+    "anio": "1963",
+    "deQueVa": "Defiende un gobierno común para todo el continente."
+   },
+   {
+    "titulo": "Neocolonialismo, última etapa del imperialismo",
+    "anio": "1965",
+    "deQueVa": "Cómo las potencias siguen dominando países ya independientes."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "mou-tsung-san",
+  "nombre": "Mou Zongsan",
+  "fechas": "1909 – 1995",
+  "region": "China, Taiwán y Hong Kong",
+  "escuela": "Nuevo confucianismo",
+  "categorias": [
+   "metafisica",
+   "etica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Leer el pensamiento chino con ojos de Kant y defender que los humanos podemos conocer lo profundo con la mente moral",
+  "resumen": "Nació en China, enseñó en Taiwán y Hong Kong y fue la figura mayor del [[nuevo confucianismo|nuevo-confucianismo]], un movimiento que quiso renovar el confucianismo para el mundo moderno. Tradujo al chino las tres «Críticas» de Kant y las discutió con las tradiciones china y budista.",
+  "ideas": [
+   "Kant decía que los humanos no podemos conocer las cosas «en sí mismas». Mou pensaba que la filosofía china sí dice cómo hacerlo, con la [[intuición intelectual|intuicion-intelectual]].",
+   "La moral no es solo obedecer normas: es el centro de la vida humana y abre el camino a lo más profundo de la realidad.",
+   "China puede ser moderna sin renunciar a su cultura: debe aprender de Occidente su ciencia y su democracia, y a la vez mantener su sabiduría moral."
+  ],
+  "curiosidad": "Tradujo al chino las tres «Críticas» de Kant, una gran empresa.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La mente y la naturaleza moral (Xinti yu xingti)",
+    "anio": "1968",
+    "deQueVa": "Sobre la moral en el neoconfucianismo."
+   },
+   {
+    "titulo": "Intuición intelectual y filosofía china",
+    "anio": "1971",
+    "deQueVa": "Sostiene que el pensamiento chino admite una intuición que Kant negaba."
+   },
+   {
+    "titulo": "Fenómeno y cosa en sí",
+    "anio": "1975",
+    "deQueVa": "Su lectura de Kant desde el pensamiento chino."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "tang-chun-i",
+  "nombre": "Tang Junyi",
+  "fechas": "1909 – 1978",
+  "region": "China y Hong Kong",
+  "escuela": "Nuevo confucianismo",
+  "categorias": [
+   "etica",
+   "metafisica",
+   "sociedad"
+  ],
+  "conocidoPor": "Defender un humanismo moral que rescata la cultura china sin cerrarla al mundo",
+  "resumen": "Fue uno de los grandes pensadores del [[nuevo confucianismo|nuevo-confucianismo]]. Tras la revolución de 1949 se instaló en Hong Kong y ayudó a fundar el Colegio Nueva Asia. En 1958 firmó con otros tres pensadores un manifiesto sobre el valor de la cultura china en el mundo moderno.",
+  "ideas": [
+   "La persona se hace moral trabajando sobre sí misma, no solo con leyes o dinero.",
+   "La cultura es el modo en que el espíritu humano se expresa, y por eso cada cultura tiene un valor propio.",
+   "China y Occidente pueden aprender uno de otro sin dejar de ser ellos mismos."
+  ],
+  "curiosidad": "En 1958 firmó junto a Mou Zongsan y otros dos pensadores un manifiesto sobre cultura china y mundo moderno.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La construcción del yo moral (Daode ziwo zhi jianli)",
+    "anio": "1943",
+    "deQueVa": "Sobre cómo la persona se forma moralmente."
+   },
+   {
+    "titulo": "Vida, existencia y horizontes del espíritu (Shengming cunzai yu xinling jingjie)",
+    "anio": "1977",
+    "deQueVa": "Su obra más amplia sobre la vida y los grados de conciencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "a-j-ayer",
+  "nombre": "A. J. Ayer",
+  "fechas": "1910 – 1989",
+  "region": "Reino Unido",
+  "escuela": "Positivismo lógico",
+  "categorias": [
+   "conocimiento",
+   "lenguaje",
+   "etica"
+  ],
+  "conocidoPor": "Su libro «Lenguaje, verdad y lógica», que llevó el [[positivismo]] lógico a los países de habla inglesa",
+  "resumen": "Fue un filósofo inglés, profesor en Oxford y Londres. Con unos 25 años publicó «Lenguaje, verdad y lógica», un libro provocador y muy claro. Dijo que muchas frases de la metafísica y la religión no son ni verdaderas ni falsas: son frases sin sentido que no se pueden comprobar.",
+  "ideas": [
+   "Una frase tiene sentido si es una verdad de lógica o si se puede comprobar con la experiencia: es el [[principio de verificación|principio-de-verificacion]].",
+   "Según esto, frases como «Dios existe» o «el Absoluto es perfecto» no se pueden comprobar, así que no dicen nada que sea verdadero o falso.",
+   "Decir «robar está mal» no describe un hecho, sino que expresa lo que sentimos, como un «¡Abajo el robo!»: es el [[emotivismo]]."
+  ],
+  "curiosidad": "En 1988 se atragantó con un salmón en un hospital y estuvo unos minutos clínicamente muerto. Contó que había visto una luz roja, y que eso debilitó un poco su convicción de que la muerte es el final.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lenguaje, verdad y lógica",
+    "anio": "1936",
+    "deQueVa": "Un ataque a la metafísica con el criterio de verificación."
+   },
+   {
+    "titulo": "Los fundamentos del conocimiento empírico",
+    "anio": "1940",
+    "deQueVa": "Sobre cómo la experiencia fundamenta lo que sabemos."
+   },
+   {
+    "titulo": "El problema del conocimiento",
+    "anio": "1956",
+    "deQueVa": "Introducción a qué es saber y cómo sabemos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "marshall-mcluhan",
+  "nombre": "Marshall McLuhan",
+  "fechas": "1911 – 1980",
+  "region": "Canadá",
+  "escuela": "Teoría de los medios de comunicación",
+  "categorias": [
+   "sociedad",
+   "conocimiento",
+   "estetica"
+  ],
+  "conocidoPor": "Decir que «el medio es el mensaje»: cómo nos comunicamos nos cambia más que lo que decimos",
+  "resumen": "Fue un profesor canadiense de literatura que se hizo famoso en los años sesenta por sus ideas sobre la televisión, la imprenta y los medios. Inventó expresiones como «aldea global». Hoy se le cita al hablar de internet y las redes sociales.",
+  "ideas": [
+   "Cada medio, como la imprenta o la tele, cambia nuestra forma de pensar y de relacionarnos, sin importar el contenido.",
+   "Con los medios eléctricos el mundo se hace pequeño, como un pueblo: es la [[aldea global|aldea-global]].",
+   "Los medios «calientes», como la radio, dan mucha información; los «fríos», como los tebeos, piden que pongamos algo de nuestra parte."
+  ],
+  "curiosidad": "Apareció en la película «Annie Hall» (1977) de Woody Allen, donde le dice a un pesado que no sabe nada de su obra.",
+  "frase": {
+   "texto": "El medio es el mensaje.",
+   "fuente": "«Comprender los medios de comunicación» (1964)"
+  },
+  "obras": [
+   {
+    "titulo": "La galaxia Gutenberg",
+    "anio": "1962",
+    "deQueVa": "Cómo la imprenta cambió la mente de Occidente."
+   },
+   {
+    "titulo": "Comprender los medios de comunicación",
+    "anio": "1964",
+    "deQueVa": "Su libro más famoso, sobre cómo nos transforman los medios."
+   },
+   {
+    "titulo": "El medio es el masaje",
+    "anio": "1967",
+    "deQueVa": "Un libro de imágenes y frases con sus ideas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alan-turing",
+  "nombre": "Alan Turing",
+  "fechas": "1912 – 1954",
+  "region": "Reino Unido",
+  "escuela": "Computación y filosofía de la inteligencia artificial",
+  "categorias": [
+   "mente",
+   "logica",
+   "ciencia"
+  ],
+  "conocidoPor": "Imaginar la [[máquina de Turing|maquina-de-turing]], descifrar códigos nazis y preguntar si las máquinas pueden pensar",
+  "resumen": "Fue un matemático británico, creador de las bases de la informática. En la Segunda Guerra Mundial trabajó en Bletchley Park para descifrar los mensajes nazis. Luego se preguntó si una máquina puede pensar. En 1952 lo condenaron por una relación con otro hombre, algo que entonces era delito en su país, y murió en 1954.",
+  "ideas": [
+   "Cualquier cálculo hecho con una receta puede hacerlo una máquina sencilla con una cinta, la [[máquina de Turing|maquina-de-turing]]: así se entiende qué es calcular.",
+   "En lugar de discutir qué es «pensar», propuso un juego: si hablando por escrito no distinguimos a la máquina de una persona, deberíamos decir que piensa. Es el [[test de Turing|test-de-turing]].",
+   "Pensaba que las máquinas podrían aprender, como los niños, y no solo seguir órdenes."
+  ],
+  "curiosidad": "En 2013 la reina Isabel II le concedió un indulto, y desde 2021 su rostro aparece en los billetes de 50 libras.",
+  "frase": {
+   "texto": "Propongo considerar la pregunta: «¿Pueden pensar las máquinas?»",
+   "fuente": "«Maquinaria computacional e inteligencia» (1950), primera frase"
+  },
+  "obras": [
+   {
+    "titulo": "Sobre números computables",
+    "anio": "1936",
+    "deQueVa": "Donde describe su máquina y los límites de lo que se puede calcular."
+   },
+   {
+    "titulo": "Maquinaria computacional e inteligencia",
+    "anio": "1950",
+    "deQueVa": "Plantea la pregunta de si las máquinas piensan y propone su test."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Computing Machinery and Intelligence» (1950), en inglés",
+    "url": "https://www.csee.umbc.edu/courses/471/papers/turing.pdf",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "wilfrid-sellars",
+  "nombre": "Wilfrid Sellars",
+  "fechas": "1912 – 1989",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica (naturalismo)",
+  "categorias": [
+   "conocimiento",
+   "mente",
+   "lenguaje"
+  ],
+  "conocidoPor": "Criticar el «[[mito de lo dado|mito-de-lo-dado]]»: lo que percibimos no es una base segura, sin ideas previas",
+  "resumen": "Fue un filósofo estadounidense, hijo de otro filósofo, Roy Wood Sellars. Enseñó sobre todo en la Universidad de Pittsburgh. Su escritura es difícil, pero muchos filósofos actuales parten de él. Se preguntó cómo se relacionan lo que vemos cada día y lo que dice la ciencia.",
+  "ideas": [
+   "Ver «una mancha roja» no es un dato puro: ya supone saber usar la idea de rojo. Por eso no hay un «dato» que sea la base segura del conocimiento: es el [[mito de lo dado|mito-de-lo-dado]].",
+   "Tenemos dos imágenes del mundo: la de todos los días, con mesas y personas, y la de la ciencia, con partículas. Hay que mirar cómo encajan.",
+   "Hablar de pensamientos y sensaciones es una manera de explicarnos entre nosotros, aprendida socialmente."
+  ],
+  "curiosidad": "Su padre, Roy Wood Sellars, también fue un filósofo conocido.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Empirismo y filosofía de la mente (Empiricism and the Philosophy of Mind)",
+    "anio": "1956",
+    "deQueVa": "Su ensayo más famoso: ataca el mito de lo dado."
+   },
+   {
+    "titulo": "Filosofía y la imagen científica del hombre (Philosophy and the Scientific Image of Man)",
+    "anio": "1962",
+    "deQueVa": "Compara la imagen cotidiana y la imagen científica del mundo."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Empiricism and the Philosophy of Mind» (1956), en inglés",
+    "url": "https://www.ditext.com/sellars/epm.html",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "robert-brandom",
+   "john-mcdowell",
+   "richard-rorty"
+  ]
+ },
+ {
+  "id": "arne-nss",
+  "nombre": "Arne Næss",
+  "fechas": "1912 – 2009",
+  "region": "Noruega",
+  "escuela": "Ecología profunda",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Fundar la [[ecología profunda|ecologia-profunda]]: la naturaleza vale por sí misma y no solo por lo que nos sirve",
+  "resumen": "Fue un filósofo noruego y gran alpinista. Fue profesor de la Universidad de Oslo desde muy joven. En 1973 habló de ecología «profunda», frente a otra «superficial» que solo cuida la naturaleza para uso humano. Inspiró a muchos movimientos ecologistas.",
+  "ideas": [
+   "Todos los seres vivos tienen valor por sí mismos, aunque no nos sean útiles: un bosque no vale solo por la madera.",
+   "La ecología superficial arregla los síntomas, como la contaminación; la profunda pregunta por la forma de vivir que nos lleva a ella.",
+   "Cuando nos sentimos parte de la naturaleza, cuidarla no es un sacrificio, porque nos estamos cuidando a nosotros."
+  ],
+  "curiosidad": "Fue alpinista: en 1950 formó parte de la primera expedición que subió al Tirich Mir, de 7.708 metros, en Pakistán.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El movimiento ecologista superficial y el profundo a largo plazo: un resumen (The Shallow and the Deep, Long-Range Ecology Movement: A Summary)",
+    "anio": "1973",
+    "deQueVa": "Artículo donde presenta la ecología profunda."
+   },
+   {
+    "titulo": "Ecología, comunidad y estilo de vida",
+    "anio": "1989",
+    "deQueVa": "Libro con su filosofía ecológica."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jacques-ellul",
+  "nombre": "Jacques Ellul",
+  "fechas": "1912 – 1994",
+  "region": "Francia",
+  "escuela": "Crítica de la sociedad técnica (pensamiento cristiano)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Avisar de que la técnica se ha hecho dueña de la sociedad y de que mandan la eficacia y el rendimiento",
+  "resumen": "Fue un pensador francés, profesor en Burdeos y cristiano protestante. Escribió sobre cómo la tecnología y la lógica del rendimiento moldean nuestra vida. También fue activo en la Resistencia contra los nazis. Hoy se le lee al hablar de propaganda, internet y progreso.",
+  "ideas": [
+   "En la [[sociedad técnica|sociedad-tecnica]] lo único que importa es lo eficaz: si algo se puede hacer, se hace, aunque no sea bueno.",
+   "La propaganda no solo engaña: hace que la gente quiera lo que el sistema necesita.",
+   "Defendía un cristianismo cercano al [[anarquismo]]: sin jerarquías ni poder sobre los demás."
+  ],
+  "curiosidad": "En 2001, Yad Vashem lo reconoció junto a su esposa como «Justo entre las Naciones» por ayudar a salvar judíos durante la ocupación nazi.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La edad de la técnica",
+    "anio": "1954",
+    "deQueVa": "Su obra principal, sobre cómo la técnica gobierna la sociedad."
+   },
+   {
+    "titulo": "Propagandas",
+    "anio": "1962",
+    "deQueVa": "Cómo funciona la propaganda en las sociedades modernas."
+   },
+   {
+    "titulo": "Anarquía y cristianismo",
+    "anio": "1988",
+    "deQueVa": "Defiende que el mensaje cristiano va contra el poder."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jose-ferrater-mora",
+  "nombre": "José Ferrater Mora",
+  "fechas": "1912 – 1991",
+  "region": "España, Chile y Estados Unidos",
+  "escuela": "Integracionismo",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "existencia"
+  ],
+  "conocidoPor": "Autor del «Diccionario de filosofía», que ayudó a generaciones de hispanohablantes a entender la filosofía",
+  "resumen": "Nació en Barcelona y se exilió tras la Guerra Civil: vivió en Cuba, Chile y Estados Unidos, donde fue catedrático. Su «Diccionario de filosofía» es una obra de referencia en español. También escribió libros propios sobre la vida, la muerte y la realidad.",
+  "ideas": [
+   "Muchas discusiones filosóficas son falsas parejas, como cuerpo contra mente: él proponía [[integrar|integracionismo]] los opuestos.",
+   "La muerte da sentido a la vida: sin final, nada sería urgente.",
+   "Lo que existe es una realidad continua y con muchos niveles, de la materia a la razón."
+  ],
+  "curiosidad": "La primera edición de su «Diccionario de filosofía» salió en 1941 y fue creciendo en ediciones sucesivas hasta ocupar varios tomos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Diccionario de filosofía",
+    "anio": "1941",
+    "deQueVa": "Obra de consulta sobre conceptos y autores de toda la historia."
+   },
+   {
+    "titulo": "El ser y la muerte",
+    "anio": "1962",
+    "deQueVa": "Cómo la idea de la muerte ilumina lo que somos."
+   },
+   {
+    "titulo": "De la materia a la razón",
+    "anio": "1979",
+    "deQueVa": "Su visión del mundo como realidad continua y variada."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alexis-kagame",
+  "nombre": "Alexis Kagame",
+  "fechas": "1912 – 1981",
+  "region": "Ruanda",
+  "escuela": "Filosofía bantú",
+  "categorias": [
+   "metafisica",
+   "lenguaje",
+   "religion"
+  ],
+  "conocidoPor": "Estudiar la lengua kinyarwanda para descubrir cómo piensan el ser y el mundo los pueblos bantúes de Ruanda",
+  "resumen": "Fue un sacerdote católico ruandés, lingüista, historiador y poeta. Estudió su lengua, el kinyarwanda, para mostrar que la gramática contiene toda una filosofía. Compara el pensamiento de su cultura con el de Aristóteles. Se le ha criticado que mezcla filosofía con etnología, pero también se le reconoce como pionero.",
+  "ideas": [
+   "En kinyarwanda, la gramática distingue cuatro clases de cosas: personas, cosas, lugar y tiempo, y modos. Para Kagame son como las categorías de Aristóteles.",
+   "Quiso mostrar que la filosofía no es solo cosa de Europa: cada cultura piensa a su manera qué es ser.",
+   "El lenguaje de un pueblo guarda su manera de entender el mundo, y por eso estudiarlo es hacer filosofía."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La filosofía bantú-ruandesa del Ser (La philosophie bantu-rwandaise de l'Être)",
+    "anio": "1956",
+    "deQueVa": "Análisis de la idea de ser en kinyarwanda."
+   },
+   {
+    "titulo": "La filosofía bantú comparada (La philosophie bantu comparée)",
+    "anio": "1976",
+    "deQueVa": "Compara el pensamiento bantú con otras filosofías."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "paul-grice",
+  "nombre": "Paul Grice",
+  "fechas": "1913 – 1988",
+  "region": "Reino Unido y Estados Unidos",
+  "escuela": "Filosofía del lenguaje (pragmática)",
+  "categorias": [
+   "lenguaje",
+   "mente"
+  ],
+  "conocidoPor": "Explicar por qué decimos más de lo que decimos: la [[implicatura]] y las reglas de la conversación",
+  "resumen": "Fue un filósofo inglés del lenguaje que enseñó en Oxford y luego en Berkeley. Se fijó en lo que queremos decir al hablar, que muchas veces va más allá de las palabras. Sus ideas son básicas en lingüística, en pragmática y en el estudio de la comunicación.",
+  "ideas": [
+   "Cuando hablamos cooperamos: damos la información justa, decimos la verdad, vamos al tema y nos hacemos entender.",
+   "Si alguien rompe esas reglas, lo notamos y buscamos otro sentido. Si preguntas «¿vienes a la fiesta?» y te dicen «tengo examen mañana», entiendes que no.",
+   "El significado de una frase depende de lo que el hablante quiere que entienda su oyente."
+  ],
+  "curiosidad": "En 1956 escribió con su colega Strawson «En defensa de un dogma», un artículo que respondía a una crítica de Quine.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Significado",
+    "anio": "1957",
+    "deQueVa": "Qué quiere decir «querer decir algo»."
+   },
+   {
+    "titulo": "Lógica y conversación",
+    "anio": "1975",
+    "deQueVa": "Sus reglas de la conversación y la implicatura."
+   },
+   {
+    "titulo": "Estudios sobre el camino de las palabras (Studies in the Way of Words)",
+    "anio": "1989",
+    "deQueVa": "Reúne sus ensayos, publicado tras su muerte."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "aime-cesaire",
+  "nombre": "Aimé Césaire",
+  "fechas": "1913 – 2008",
+  "region": "Martinica y Francia",
+  "escuela": "Negritud",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Poeta y político de Martinica que acuñó la «negritud» y denunció con dureza el colonialismo europeo",
+  "resumen": "Fue un poeta, dramaturgo y político de Martinica, isla del Caribe que es territorio francés. Con Senghor y Damas dio vida al movimiento de la [[negritud]]. Fue alcalde de Fort-de-France durante más de cincuenta años. Su «Discurso sobre el colonialismo» sigue siendo muy leído.",
+  "ideas": [
+   "El [[colonialismo]] no civilizó a nadie: embruteció al colonizador y destruyó culturas.",
+   "Los métodos que Europa usó contra los pueblos colonizados terminaron aplicándose dentro de Europa, con el nazismo.",
+   "Hay que sentirse orgulloso de ser negro y de la historia propia, y no copiar a Europa."
+  ],
+  "curiosidad": "Fue profesor del joven Frantz Fanon y del poeta Édouard Glissant en Martinica.",
+  "frase": {
+   "texto": "Una civilización que se muestra incapaz de resolver los problemas que suscita su funcionamiento es una civilización decadente.",
+   "fuente": "«Discurso sobre el colonialismo» (1950), primera frase"
+  },
+  "obras": [
+   {
+    "titulo": "Cuaderno de un retorno al país natal",
+    "anio": "1939",
+    "deQueVa": "Un gran poema sobre su identidad y su tierra."
+   },
+   {
+    "titulo": "Discurso sobre el colonialismo",
+    "anio": "1950",
+    "deQueVa": "Un ensayo corto y feroz contra el colonialismo."
+   },
+   {
+    "titulo": "La tragedia del rey Christophe",
+    "anio": "1963",
+    "deQueVa": "Obra de teatro sobre el poder tras la independencia de Haití."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "frantz-fanon",
+   "edouard-glissant"
+  ]
+ },
+ {
+  "id": "julian-marias",
+  "nombre": "Julián Marías",
+  "fechas": "1914 – 2005",
+  "region": "España",
+  "escuela": "Escuela de Madrid (razón vital)",
+  "categorias": [
+   "existencia",
+   "sociedad",
+   "metafisica"
+  ],
+  "conocidoPor": "Discípulo de Ortega que desarrolló la [[razón vital|razon-vital]] y escribió una «Historia de la filosofía» muy leída",
+  "resumen": "Nació en Valladolid y fue el discípulo más conocido de Ortega y Gasset. Escribió sobre todo para el público general y dio clases en universidades de Estados Unidos. Su «Historia de la filosofía», de 1941, es una de las más leídas en español. Fue miembro de la Real Academia Española.",
+  "ideas": [
+   "La [[razón vital|razon-vital]] dice que para entender algo hay que ver cómo se vive: la vida de cada persona, con su situación, es el punto de partida.",
+   "Una persona no es una cosa: es alguien, con una historia y con un futuro que imagina.",
+   "Hay que mirar con atención lo que cambia en cada época, como el papel de la mujer, para entender cómo vivimos."
+  ],
+  "curiosidad": "Por haber estado con la República en la Guerra Civil, durante años no pudo dar clases en la universidad española.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Historia de la filosofía",
+    "anio": "1941",
+    "deQueVa": "Un recorrido claro por toda la filosofía occidental."
+   },
+   {
+    "titulo": "Introducción a la filosofía",
+    "anio": "1947",
+    "deQueVa": "Una invitación a pensar para quien empieza."
+   },
+   {
+    "titulo": "Antropología metafísica",
+    "anio": "1970",
+    "deQueVa": "Su teoría sobre qué es la persona humana."
+   },
+   {
+    "titulo": "Breve tratado de la ilusión",
+    "anio": "1984",
+    "deQueVa": "Sobre el papel de la ilusión en la vida."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "arthur-prior",
+  "nombre": "Arthur Prior",
+  "fechas": "1914 – 1969",
+  "region": "Nueva Zelanda y Reino Unido",
+  "escuela": "Lógica y filosofía del tiempo",
+  "categorias": [
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Crear la [[lógica temporal|logica-temporal]], que razona sobre «antes», «ahora» y «después»",
+  "resumen": "Nació en Nueva Zelanda y trabajó en Reino Unido, en Manchester y Oxford. Fue pionero al crear una lógica para hablar del tiempo. Esa lógica hoy se usa en informática para comprobar que los programas se comportan bien. Murió en 1969 en Noruega, durante un viaje de trabajo.",
+  "ideas": [
+   "Se puede hacer una [[lógica temporal|logica-temporal]] con frases como «siempre fue así» o «algún día ocurrirá».",
+   "Cuando tras una operación decimos «¡Qué alivio que ya pasó!», nos alegramos de que el dolor esté en el pasado. Eso, según él, muestra que el tiempo pasa de verdad.",
+   "Entender el tiempo y el futuro es entender cómo se puede razonar sobre algo que aún no ha pasado."
+  ],
+  "curiosidad": "Murió en Trondheim, en Noruega, en 1969.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lógica formal (Formal Logic)",
+    "anio": "1955",
+    "deQueVa": "Un manual de lógica."
+   },
+   {
+    "titulo": "Tiempo y modalidad (Time and Modality)",
+    "anio": "1957",
+    "deQueVa": "Donde nace su lógica del tiempo."
+   },
+   {
+    "titulo": "Pasado, presente y futuro (Past, Present and Future)",
+    "anio": "1967",
+    "deQueVa": "Su libro más completo sobre la lógica temporal."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "roderick-chisholm",
+  "nombre": "Roderick Chisholm",
+  "fechas": "1916 – 1999",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica (fundacionalismo)",
+  "categorias": [
+   "conocimiento",
+   "metafisica",
+   "mente"
+  ],
+  "conocidoPor": "Estudiar con detalle qué es saber, qué es percibir y si somos realmente libres",
+  "resumen": "Fue un filósofo estadounidense, profesor en la Universidad de Brown durante décadas. Escribió con mucho rigor sobre el conocimiento, la percepción, la identidad y la libertad. Dio a conocer en los países de habla inglesa a Franz Brentano.",
+  "ideas": [
+   "Nuestro conocimiento se apoya en unas creencias básicas, que sirven de base a las demás, igual que los cimientos de una casa.",
+   "Somos libres porque cada persona puede causar sus actos sin que nada la obligue: es la «causalidad del agente».",
+   "Pensar y desear tienen siempre un objeto: se piensa en algo. Esto es la [[intencionalidad]], y él la estudió con detalle."
+  ],
+  "curiosidad": "En 1960 editó un libro que dio a conocer en inglés a Brentano, Husserl y Meinong.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Percibir (Perceiving)",
+    "anio": "1957",
+    "deQueVa": "Un estudio filosófico de qué es percibir."
+   },
+   {
+    "titulo": "Teoría del conocimiento (Theory of Knowledge)",
+    "anio": "1966",
+    "deQueVa": "Una introducción corta y clara a qué es saber."
+   },
+   {
+    "titulo": "Persona y objeto (Person and Object)",
+    "anio": "1976",
+    "deQueVa": "Sobre qué somos y cómo existen las cosas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "ernest-sosa"
+  ]
+ },
+ {
+  "id": "j-l-mackie",
+  "nombre": "J. L. Mackie",
+  "fechas": "1917 – 1981",
+  "region": "Australia y Reino Unido",
+  "escuela": "Filosofía analítica (teoría del error moral)",
+  "categorias": [
+   "etica",
+   "religion",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender que los valores morales no existen en el mundo, aunque creamos que sí: la [[teoría del error|teoria-del-error]]",
+  "resumen": "Nació en Sídney y enseñó en Oxford. Escribió sobre ética, religión y causalidad. Era ateo y razonaba con mucha claridad. Su libro «Ética: la invención de lo bueno y lo malo» provocó un gran debate sobre si hay verdades morales.",
+  "ideas": [
+   "Cuando decimos «matar es malo», hablamos como si fuera un hecho del mundo, como la altura de una montaña, pero no hay nada así en el mundo: por eso toda moral «objetiva» es un error.",
+   "Que la moral no sea objetiva no significa que valga todo: podemos inventar buenas normas de convivencia.",
+   "Si Dios es todopoderoso y bueno, ¿por qué existe el mal? Mackie pensaba que esta [[paradoja]] es difícil de resolver."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Mal y omnipotencia (Evil and Omnipotence)",
+    "anio": "1955",
+    "deQueVa": "Artículo sobre el problema del mal y la idea de un Dios bueno y todopoderoso."
+   },
+   {
+    "titulo": "El cemento del universo (The Cement of the Universe)",
+    "anio": "1974",
+    "deQueVa": "Sobre qué es la causalidad."
+   },
+   {
+    "titulo": "Ética: la invención de lo bueno y lo malo",
+    "anio": "1977",
+    "deQueVa": "Su obra principal, que defiende la teoría del error."
+   },
+   {
+    "titulo": "El milagro del teísmo",
+    "anio": "1982",
+    "deQueVa": "Examina los argumentos a favor y en contra de Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "p-f-strawson",
+  "nombre": "P. F. Strawson",
+  "fechas": "1919 – 2006",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica (metafísica descriptiva)",
+  "categorias": [
+   "metafisica",
+   "lenguaje",
+   "etica"
+  ],
+  "conocidoPor": "Describir cómo pensamos el mundo en vez de inventar otro, y explicar cómo la culpa y el agradecimiento son naturales",
+  "resumen": "Fue un filósofo inglés, profesor en Oxford. Recibió el título de «Sir» en 1977. Escribió sobre cómo hablamos de personas y cosas, sobre Kant y sobre la responsabilidad. Se le reconoce por unir claridad y profundidad.",
+  "ideas": [
+   "La [[metafísica descriptiva|metafisica-descriptiva]] no inventa teorías raras sobre el mundo: describe cómo pensamos todos, con personas, cosas, tiempo y espacio.",
+   "Cuando alguien nos hace daño, sentimos rabia, y cuando nos ayuda, gratitud. Son reacciones naturales que no dependen de que sepamos si hay [[determinismo]] o libertad.",
+   "Al hablar, no son las frases las que se refieren a algo, sino las personas que las usan."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre el referir",
+    "anio": "1950",
+    "deQueVa": "Critica a Russell sobre cómo las palabras se refieren a cosas."
+   },
+   {
+    "titulo": "Individuos",
+    "anio": "1959",
+    "deQueVa": "Un ensayo de metafísica descriptiva."
+   },
+   {
+    "titulo": "Libertad y resentimiento",
+    "anio": "1962",
+    "deQueVa": "Sobre por qué reaccionamos con enfado o gratitud ante los actos ajenos."
+   },
+   {
+    "titulo": "Los límites del sentido",
+    "anio": "1966",
+    "deQueVa": "Una lectura de la «Crítica de la razón pura» de Kant."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "r-m-hare",
+  "nombre": "R. M. Hare",
+  "fechas": "1919 – 2002",
+  "region": "Reino Unido",
+  "escuela": "Prescriptivismo y utilitarismo",
+  "categorias": [
+   "etica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Explicar los juicios morales como órdenes que debemos aplicar a todos por igual: el [[prescriptivismo]]",
+  "resumen": "Fue un filósofo inglés, profesor en Oxford. Estuvo preso de los japoneses en la Segunda Guerra Mundial. Estudió cómo hablamos de lo bueno y lo malo, y defendió una moral basada en [[utilitarismo]] y en tratar a todos por igual.",
+  "ideas": [
+   "Decir «hay que ayudar a los pobres» es más que describir: es un consejo o una orden que damos, el [[prescriptivismo]].",
+   "Un juicio moral solo vale si estamos dispuestos a aplicarlo a todos, incluidos nosotros: si tú lo harías con otros, debes aceptar que lo hagan contigo.",
+   "Para decidir, a veces usamos reglas de siempre, y otras veces calculamos qué da más bien a todos."
+  ],
+  "curiosidad": "Estuvo tres años como prisionero de guerra de los japoneses. Peter Singer fue alumno suyo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El lenguaje de la moral",
+    "anio": "1952",
+    "deQueVa": "Cómo funcionan las palabras como «bueno» y «debe»."
+   },
+   {
+    "titulo": "Libertad y razón",
+    "anio": "1963",
+    "deQueVa": "Cómo razonar sobre problemas morales reales."
+   },
+   {
+    "titulo": "Pensar moralmente",
+    "anio": "1981",
+    "deQueVa": "Su teoría completa, mezcla de prescriptivismo y utilitarismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "peter-singer"
+  ]
+ },
+ {
+  "id": "mario-bunge",
+  "nombre": "Mario Bunge",
+  "fechas": "1919 – 2020",
+  "region": "Argentina y Canadá",
+  "escuela": "Realismo científico y materialismo",
+  "categorias": [
+   "ciencia",
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender una filosofía basada en la ciencia y atacar la [[pseudociencia]] con un enorme tratado de filosofía",
+  "resumen": "Nació en Buenos Aires y estudió Física antes de dedicarse a la filosofía. Se marchó a Canadá, donde fue profesor en la Universidad McGill, en Montreal, desde 1966. Murió con 100 años. Dejó una obra enorme sobre ciencia, ética y política.",
+  "ideas": [
+   "El mundo existe aunque nadie lo piense, y la ciencia es la mejor manera de conocerlo: es el [[realismo científico|realismo-cientifico]].",
+   "Hay que distinguir ciencia de pseudociencia, como la astrología, que parece ciencia pero no se comprueba.",
+   "La sociedad y los seres vivos son sistemas: no solo suma de partes, sino partes que se relacionan y forman algo nuevo; es el [[sistemismo]]."
+  ],
+  "curiosidad": "Se doctoró en Física, no en Filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Causalidad",
+    "anio": "1959",
+    "deQueVa": "Qué quiere decir que una cosa cause otra."
+   },
+   {
+    "titulo": "La ciencia, su método y su filosofía",
+    "anio": "1960",
+    "deQueVa": "Una introducción a cómo funciona la ciencia."
+   },
+   {
+    "titulo": "Tratado de filosofía básica",
+    "anio": "1974 – 1989",
+    "deQueVa": "Ocho tomos con su visión completa del mundo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ruth-barcan-marcus",
+  "nombre": "Ruth Barcan Marcus",
+  "fechas": "1921 – 2012",
+  "region": "Estados Unidos",
+  "escuela": "Lógica modal y filosofía del lenguaje",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "metafisica"
+  ],
+  "conocidoPor": "Crear la lógica modal con cuantificadores y defender que los nombres se refieren directamente a las cosas",
+  "resumen": "Fue una filósofa y lógica estadounidense, profesora durante años en Yale. Siendo estudiante publicó en 1946 un trabajo de [[lógica modal|logica-modal]], que habla de lo posible y lo necesario. Hoy una fórmula lleva su nombre. Sus ideas sobre los nombres influyeron mucho en la filosofía del lenguaje.",
+  "ideas": [
+   "La [[lógica modal|logica-modal]] razona con palabras como «es necesario» y «es posible», y ella la hizo capaz de hablar de «todos» y de «algunos».",
+   "Un nombre propio es como una etiqueta puesta a una cosa: señala a la persona sin describirla.",
+   "Si «Cicerón» y «Tulio» nombran a la misma persona, entonces necesariamente son la misma."
+  ],
+  "curiosidad": "La «fórmula de Barcan», que lleva su apellido de soltera, es famosa entre los lógicos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Un cálculo funcional de primer orden basado en la implicación estricta (A Functional Calculus of First Order Based on Strict Implication)",
+    "anio": "1946",
+    "deQueVa": "El trabajo que fundó la lógica modal cuantificada."
+   },
+   {
+    "titulo": "Modalidades (Modalities)",
+    "anio": "1993",
+    "deQueVa": "Reúne sus ensayos sobre lo necesario, lo posible y los nombres."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "saul-kripke"
+  ]
+ },
+ {
+  "id": "murray-bookchin",
+  "nombre": "Murray Bookchin",
+  "fechas": "1921 – 2006",
+  "region": "Estados Unidos",
+  "escuela": "Ecología social y anarquismo",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Unir ecología y política: para cuidar la naturaleza hay que acabar con el dominio entre personas",
+  "resumen": "Fue un pensador estadounidense, hijo de inmigrantes judíos de Rusia. Fue uno de los primeros en hablar de crisis ecológica y política juntas. Propuso la [[ecología social|ecologia-social]] y el [[municipalismo libertario|municipalismo-libertario]]. Sus ideas han influido en movimientos de Kurdistán y de otros lugares.",
+  "ideas": [
+   "Los problemas del medio ambiente nacen de problemas sociales: dominamos la naturaleza porque unas personas dominan a otras.",
+   "Cada barrio o pueblo podría decidir en asambleas abiertas, y unirse en federación con otros: es el municipalismo libertario.",
+   "La tecnología puede liberar tiempo de trabajo si se usa para el bien común, y no solo para ganar dinero."
+  ],
+  "curiosidad": "En 1962 publicó «Nuestro entorno sintético» con el seudónimo Lewis Herber, meses antes de «Primavera silenciosa» de Rachel Carson.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Nuestro entorno sintético",
+    "anio": "1962",
+    "deQueVa": "Sobre cómo los productos químicos dañan la salud y el ambiente."
+   },
+   {
+    "titulo": "Anarquismo del posescasez",
+    "anio": "1971",
+    "deQueVa": "Imagina una sociedad libre con tecnología al servicio de todos."
+   },
+   {
+    "titulo": "La ecología de la libertad",
+    "anio": "1982",
+    "deQueVa": "Su gran libro sobre la historia del dominio humano y la naturaleza."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«The Ecology of Freedom», texto completo en inglés",
+    "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-ecology-of-freedom",
+    "tipo": "libro"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "cornelius-castoriadis",
+  "nombre": "Cornelius Castoriadis",
+  "fechas": "1922 – 1997",
+  "region": "Grecia y Francia",
+  "escuela": "Filosofía política y psicoanálisis",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que las sociedades se inventan a sí mismas con su [[imaginario|imaginario-social]] y que podemos ser autónomos",
+  "resumen": "Nació en Constantinopla, creció en Grecia y se fue a Francia en 1945. Fue economista, político de izquierda, psicoanalista y filósofo. Criticó la Unión Soviética desde la izquierda. Sostuvo que la democracia es una creación de la sociedad que se gobierna a sí misma.",
+  "ideas": [
+   "Una sociedad no viene dada: la creamos entre todos con ideas, símbolos y leyes. A esa fuerza la llamó [[imaginario social|imaginario-social]].",
+   "Ser «autónomo» es darse uno mismo las leyes. Una sociedad es libre si decide sus normas, y no si las recibe de dioses o de jefes.",
+   "Pensaba que la antigua Grecia fue donde nacieron a la vez la filosofía y la democracia."
+  ],
+  "curiosidad": "Trabajó como economista en la OCDE en París durante más de veinte años, mientras escribía sobre política con seudónimos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La institución imaginaria de la sociedad",
+    "anio": "1975",
+    "deQueVa": "Su obra principal, sobre cómo crea la sociedad sus propias reglas."
+   },
+   {
+    "titulo": "Las encrucijadas del laberinto",
+    "anio": "1978",
+    "deQueVa": "Serie de ensayos sobre política, sociedad y pensamiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "pierre-hadot",
+  "nombre": "Pierre Hadot",
+  "fechas": "1922 – 2010",
+  "region": "Francia",
+  "escuela": "Historia de la filosofía antigua",
+  "categorias": [
+   "etica",
+   "existencia"
+  ],
+  "conocidoPor": "Mostrar que para los antiguos la filosofía era una forma de vivir, con [[ejercicios espirituales|ejercicio-espiritual]] diarios",
+  "resumen": "Fue un estudioso francés de la filosofía antigua. En su juventud se preparó para ser sacerdote católico y lo dejó en 1952. Fue profesor en el Collège de France. Mostró que los filósofos griegos y romanos no solo escribían teorías: entrenaban su vida cada día.",
+  "ideas": [
+   "Para estoicos, epicúreos y otros, la filosofía era una práctica para vivir mejor, como ir al gimnasio, pero con la mente.",
+   "Hacían ejercicios espirituales: meditar, imaginar lo peor que podía pasar o mirar el mundo desde arriba para quitarle importancia a nuestros problemas.",
+   "Marco Aurelio no escribió sus «Meditaciones» para publicar: eran ejercicios para sí mismo."
+  ],
+  "curiosidad": "Su obra sobre la filosofía como forma de vida interesó mucho a Michel Foucault en sus últimos años.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Ejercicios espirituales y filosofía antigua",
+    "anio": "1981",
+    "deQueVa": "Su libro más conocido, sobre la filosofía como práctica."
+   },
+   {
+    "titulo": "La ciudadela interior",
+    "anio": "1992",
+    "deQueVa": "Un estudio de las «Meditaciones» de Marco Aurelio."
+   },
+   {
+    "titulo": "¿Qué es la filosofía antigua?",
+    "anio": "1995",
+    "deQueVa": "Una introducción a cómo vivían la filosofía los antiguos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "michel-foucault"
+  ]
+ },
+ {
+  "id": "arturo-andres-roig",
+  "nombre": "Arturo Andrés Roig",
+  "fechas": "1922 – 2012",
+  "region": "Argentina",
+  "escuela": "Filosofía latinoamericana",
+  "categorias": [
+   "sociedad",
+   "conocimiento",
+   "politica"
+  ],
+  "conocidoPor": "Defender que los latinoamericanos deben pensar su propia historia como [[sujetos|sujeto]] y no como imitadores",
+  "resumen": "Nació en Mendoza, Argentina. La dictadura argentina lo empujó al exilio en 1976 y vivió años en Ecuador. Estudió cómo se ha pensado en América Latina desde sus propias ideas. Fue una de las figuras más importantes de la historia de las ideas en la región.",
+  "ideas": [
+   "Los pueblos de América Latina son [[sujeto]] de su propio pensamiento: no tienen por qué copiar a Europa.",
+   "La historia de las ideas debe leer a los autores en su contexto: quién habla, para quién y qué quiere cambiar.",
+   "Todo pensamiento tiene una dimensión política: sirve a ciertos intereses o los critica."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Teoría y crítica del pensamiento latinoamericano",
+    "anio": "1981",
+    "deQueVa": "Cómo estudiar el pensamiento de América Latina desde ella misma."
+   },
+   {
+    "titulo": "Rostro y filosofía de América Latina",
+    "anio": "1993",
+    "deQueVa": "Ensayos sobre la identidad y el pensamiento latinoamericano."
+   },
+   {
+    "titulo": "El pensamiento latinoamericano y su aventura",
+    "anio": "1994",
+    "deQueVa": "Recoge sus ideas sobre la historia de las ideas en la región."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "luis-villoro",
+  "nombre": "Luis Villoro",
+  "fechas": "1922 – 2014",
+  "region": "México",
+  "escuela": "Filosofía mexicana (epistemología y filosofía política)",
+  "categorias": [
+   "conocimiento",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar qué es saber y defender un Estado plural que respete a los pueblos indígenas",
+  "resumen": "Nació en Barcelona, se formó en México y fue alumno de José Gaos. Formó parte del grupo Hiperión, que estudió qué significa ser mexicano. Escribió sobre el conocimiento, el poder y las culturas. Apoyó al movimiento zapatista de Chiapas.",
+  "ideas": [
+   "Saber algo es más que creerlo: hace falta tener buenas razones que otros puedan comprobar.",
+   "México es un país de muchos pueblos y culturas, y el Estado debe reconocerlo: es un [[Estado plural|estado-plural]] y no uno solo para todos.",
+   "El poder debe servir a la gente. Hay que repensar la democracia desde abajo, con las comunidades."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los grandes momentos del indigenismo en México",
+    "anio": "1950",
+    "deQueVa": "Repaso de cómo se ha pensado a los pueblos indígenas."
+   },
+   {
+    "titulo": "Creer, saber, conocer",
+    "anio": "1982",
+    "deQueVa": "Cuál es la diferencia entre creer algo y saberlo."
+   },
+   {
+    "titulo": "Estado plural, pluralidad de culturas",
+    "anio": "1998",
+    "deQueVa": "Cómo organizar un país con muchas culturas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "julius-nyerere",
+  "nombre": "Julius Nyerere",
+  "fechas": "1922 – 1999",
+  "region": "Tanzania",
+  "escuela": "Socialismo africano (ujamaa)",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Llevar a Tanzania a la independencia y defender un socialismo basado en la vida en comunidad, el [[ujamaa]]",
+  "resumen": "Fue maestro, político y pensador. Lo llamaban «Mwalimu», que en suajili significa «maestro». Fue el primer presidente de Tanzania, de 1964 a 1985, y dejó el cargo por voluntad propia. Propuso un camino de desarrollo propio basado en la ayuda mutua.",
+  "ideas": [
+   "El [[ujamaa]] (palabra suajili que significa algo como «vida en familia») es un socialismo basado en la ayuda mutua, como en las aldeas tradicionales.",
+   "El país debe apoyarse en sus propias fuerzas y no depender de ayuda extranjera: es la autosuficiencia.",
+   "La educación debe formar personas útiles a su comunidad, y no ayudar solo a salir del pueblo."
+  ],
+  "curiosidad": "Tradujo al suajili «Julio César» y «El mercader de Venecia», de Shakespeare.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Libertad y unidad (Freedom and Unity)",
+    "anio": "1966",
+    "deQueVa": "Reúne sus discursos y escritos políticos."
+   },
+   {
+    "titulo": "Educación para la autosuficiencia (Education for Self-Reliance)",
+    "anio": "1967",
+    "deQueVa": "Cómo debe ser la escuela en un país pobre que quiere ser independiente."
+   },
+   {
+    "titulo": "Ujamaa: ensayos sobre socialismo (Ujamaa: Essays on Socialism)",
+    "anio": "1968",
+    "deQueVa": "Explica su idea de socialismo africano."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michel-henry",
+  "nombre": "Michel Henry",
+  "fechas": "1922 – 2002",
+  "region": "Francia",
+  "escuela": "Fenomenología de la vida",
+  "categorias": [
+   "mente",
+   "existencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que la vida se siente por dentro, sin distancia, antes de mirar el mundo con los ojos",
+  "resumen": "Nació en Vietnam, entonces colonia francesa, y fue profesor en la Universidad de Montpellier. Siguió la [[fenomenología|fenomenologia]], pero dijo que lo más importante no es lo que vemos, sino cómo sentimos nuestra propia vida. Criticó que la ciencia y la técnica olviden eso. También escribió novelas.",
+  "ideas": [
+   "Antes de ver el mundo, ya nos sentimos vivos: el dolor o la alegría no se miran, se viven.",
+   "Nuestro cuerpo no es solo un objeto que otros ven: lo vivimos desde dentro.",
+   "Si una sociedad reduce todo a datos y cifras, olvida la vida y cae en una especie de barbarie, decía."
+  ],
+  "curiosidad": "Su novela «El amor a los ojos cerrados» ganó en 1976 el premio Renaudot.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La esencia de la manifestación",
+    "anio": "1963",
+    "deQueVa": "Su obra principal, sobre cómo aparece lo que existe."
+   },
+   {
+    "titulo": "Filosofía y fenomenología del cuerpo",
+    "anio": "1965",
+    "deQueVa": "El cuerpo vivido desde dentro."
+   },
+   {
+    "titulo": "La barbarie",
+    "anio": "1987",
+    "deQueVa": "Una crítica a la ciencia y la técnica que olvidan la vida."
+   },
+   {
+    "titulo": "Encarnación",
+    "anio": "2000",
+    "deQueVa": "Sobre la carne, el cuerpo vivo, y el cristianismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "jean-luc-marion"
+  ]
+ },
+ {
+  "id": "rodolfo-kusch",
+  "nombre": "Rodolfo Kusch",
+  "fechas": "1922 – 1979",
+  "region": "Argentina y Bolivia",
+  "escuela": "Filosofía latinoamericana (pensamiento indígena y popular)",
+  "categorias": [
+   "sociedad",
+   "existencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Estudiar el pensamiento indígena y popular de América desde el «estar» en vez del «ser alguien»",
+  "resumen": "Nació en Buenos Aires, vivió en Bolivia y trabajó en el norte de Argentina, donde convivió con comunidades quechuas y aimaras. Su pensamiento parte de la cultura popular y de los pueblos originarios, que no ve como algo atrasado. Su obra más conocida es «América profunda».",
+  "ideas": [
+   "En la cultura occidental urbana, lo importante es «ser alguien», triunfar. En el pensamiento andino, según Kusch, lo importante es [[estar nomás|estar-nomas]]: estar en un lugar y en armonía con él.",
+   "Lo indígena y lo popular no son un pasado que superar, sino una forma de pensar con valor propio.",
+   "Hay que escuchar el pensamiento de la gente del pueblo, y no solo los libros de la academia."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "América profunda",
+    "anio": "1962",
+    "deQueVa": "Su libro más conocido, sobre la mentalidad indígena y la mestiza."
+   },
+   {
+    "titulo": "El pensamiento indígena y popular en América",
+    "anio": "1973",
+    "deQueVa": "Sobre la forma de pensar de los pueblos originarios."
+   },
+   {
+    "titulo": "Esbozo de una antropología filosófica americana",
+    "anio": "1978",
+    "deQueVa": "Resumen de su pensamiento sobre la persona en América."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eduardo-lourenco",
+  "nombre": "Eduardo Lourenço",
+  "fechas": "1923 – 2020",
+  "region": "Portugal",
+  "escuela": "Ensayo y crítica de la cultura portuguesa",
+  "categorias": [
+   "sociedad",
+   "estetica",
+   "existencia"
+  ],
+  "conocidoPor": "Pensar la identidad de Portugal, su historia y su cultura, con ensayos sobre Pessoa y la «saudade»",
+  "resumen": "Fue el gran ensayista portugués del siglo XX y principios del XXI. Vivió en Francia muchos años y dio clases en Burdeos y en Niza. Escribió sobre cómo se ven los portugueses a sí mismos y sobre el poeta Fernando Pessoa. Recibió el Premio Camões en 1996.",
+  "ideas": [
+   "Portugal tiene una imagen de sí mismo, hecha de recuerdos y de mitos, y hay que mirarla con ojos críticos.",
+   "La [[saudade]], esa nostalgia tan portuguesa, es también una forma de vivir mirando atrás.",
+   "Pessoa, con sus muchos «yo» o heterónimos, muestra el desasosiego del mundo moderno."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Heterodoxia",
+    "anio": "1949",
+    "deQueVa": "Sus primeros ensayos, críticos con la cultura oficial."
+   },
+   {
+    "titulo": "Pessoa revisitado",
+    "anio": "1973",
+    "deQueVa": "Una lectura clave de la obra de Fernando Pessoa."
+   },
+   {
+    "titulo": "El laberinto de la saudade (O labirinto da saudade)",
+    "anio": "1978",
+    "deQueVa": "Un ensayo sobre la identidad portuguesa."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]

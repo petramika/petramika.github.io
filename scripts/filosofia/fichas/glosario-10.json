@@ -1,0 +1,182 @@
+[
+ {
+  "clave": "absoluto",
+  "termino": "Absoluto",
+  "def": "En el idealismo, la realidad entera vista como un único Todo donde todo está conectado. Es como pensar en el mar entero, y no en cada gota por separado."
+ },
+ {
+  "clave": "arielismo",
+  "termino": "Arielismo",
+  "def": "Corriente latinoamericana que, a partir del libro «Ariel» de Rodó, defiende la cultura, la belleza y el espíritu frente a pensar solo en el dinero y lo útil."
+ },
+ {
+  "clave": "carnaval",
+  "termino": "Carnaval (según Bajtín)",
+  "def": "Fiesta popular medieval donde el mundo se ponía al revés: la gente se disfrazaba y se reía de los poderosos. Para Bajtín era un momento de libertad y de igualdad."
+ },
+ {
+  "clave": "casta",
+  "termino": "Casta",
+  "def": "Grupo social cerrado en el que se nace y del que no se puede salir. En la India, la casta marcaba el trabajo, con quién casarse y cuánto se respetaba a cada persona."
+ },
+ {
+  "clave": "conocimiento-tacito",
+  "termino": "Conocimiento tácito",
+  "def": "Lo que sabemos hacer pero no sabemos explicar con palabras. Por ejemplo, ir en bicicleta o reconocer la cara de un amigo entre mil personas."
+ },
+ {
+  "clave": "convencionalismo",
+  "termino": "Convencionalismo",
+  "def": "Idea de que algunas reglas de la ciencia son acuerdos cómodos y no verdades obligadas por la naturaleza, igual que elegir si medimos en metros o en pies."
+ },
+ {
+  "clave": "dalit",
+  "termino": "Dalit",
+  "def": "Persona de los grupos más discriminados del sistema de castas de la India, antes llamados «intocables». Muchos de ellos luchan hoy por la igualdad y el respeto."
+ },
+ {
+  "clave": "dialogismo",
+  "termino": "Dialogismo",
+  "def": "Idea de Bajtín: lo que decimos siempre responde a lo que otros dijeron y espera respuesta. Nadie habla desde cero, ni siquiera cuando habla solo."
+ },
+ {
+  "clave": "erotismo",
+  "termino": "Erotismo",
+  "def": "Para Bataille, la parte de la vida donde el deseo y el amor se mezclan con lo prohibido, el misterio y hasta con la idea de la muerte."
+ },
+ {
+  "clave": "etica-de-la-tierra",
+  "termino": "Ética de la tierra",
+  "def": "Idea de Aldo Leopold: los deberes morales no son solo con las personas, sino también con el suelo, el agua, las plantas y los animales, que forman una comunidad."
+ },
+ {
+  "clave": "ficciones-utiles",
+  "termino": "Ficciones útiles",
+  "def": "Ideas que sabemos que no son del todo ciertas pero que nos sirven. Por ejemplo, un mapa de metro es útil aunque no sea el trazado real de las calles."
+ },
+ {
+  "clave": "fisicalismo",
+  "termino": "Fisicalismo",
+  "def": "Idea de que todo conocimiento científico puede decirse en el lenguaje de lo que se puede observar y medir, como en la física, para que todas las ciencias hablen igual."
+ },
+ {
+  "clave": "gestalt",
+  "termino": "Gestalt",
+  "def": "Palabra alemana que significa «forma». Dice que percibimos las cosas como un todo y no como piezas sueltas: reconoces una melodía aunque la cantes en otro tono."
+ },
+ {
+  "clave": "heterodoxo",
+  "termino": "Heterodoxo",
+  "def": "Persona que piensa de forma distinta a la doctrina oficial, sobre todo en religión. Es lo contrario de ortodoxo, el que sigue la doctrina oficial al pie de la letra."
+ },
+ {
+  "clave": "idiografico",
+  "termino": "Idiográfico",
+  "def": "Que describe un caso único que no se repite, como la historia de una guerra concreta. Se opone a lo «nomotético», que busca leyes generales."
+ },
+ {
+  "clave": "intuicionismo",
+  "termino": "Intuicionismo (en matemáticas)",
+  "def": "Idea de Brouwer de que las matemáticas son una construcción de la mente: algo existe solo si podemos construirlo paso a paso, no si alguien dice que debe existir."
+ },
+ {
+  "clave": "khudi",
+  "termino": "Khudi",
+  "def": "Palabra persa que usa Iqbal para decir «el yo» o «el sí mismo»: la fuerza creadora de cada persona, que se hace más fuerte cuando actúa y crea."
+ },
+ {
+  "clave": "koan",
+  "termino": "Koan",
+  "def": "Pregunta o historia breve del zen, que no se puede resolver con la lógica, como «¿cómo suena aplaudir con una sola mano?». Sirve para romper el pensamiento rutinario."
+ },
+ {
+  "clave": "krausismo",
+  "termino": "Krausismo",
+  "def": "Filosofía alemana que llegó a España en el siglo XIX. Defendía la libertad de conciencia, la educación y una vida moral y armoniosa. Inspiró a Giner de los Ríos."
+ },
+ {
+  "clave": "metanoetica",
+  "termino": "Metanoética",
+  "def": "Filosofía del arrepentimiento de Tanabe: pensar de verdad empieza reconociendo nuestros límites y errores, y de ahí sale un cambio profundo de vida."
+ },
+ {
+  "clave": "neokantismo",
+  "termino": "Neokantismo",
+  "def": "Corriente alemana del siglo XIX que volvió a leer a Kant para explicar cómo funcionan la ciencia, la moral y la cultura."
+ },
+ {
+  "clave": "nomotetico",
+  "termino": "Nomotético",
+  "def": "Que busca leyes generales que valgan para todos los casos, como la física. Se opone a lo «idiográfico», que describe casos únicos."
+ },
+ {
+  "clave": "norma-fundamental",
+  "termino": "Norma fundamental",
+  "def": "En la teoría de Kelsen, la regla que se supone al inicio de todo orden jurídico: la que dice que hay que obedecer la primera Constitución."
+ },
+ {
+  "clave": "numero-de-mach",
+  "termino": "Número de Mach",
+  "def": "Medida de la velocidad respecto a la del sonido. «Mach 1» es la velocidad del sonido; «Mach 2», el doble. Se llama así por Ernst Mach."
+ },
+ {
+  "clave": "obstaculo-epistemologico",
+  "termino": "Obstáculo epistemológico",
+  "def": "Idea que nos parece obvia y que, sin darnos cuenta, nos impide entender algo nuevo. Por ejemplo, creer lo que vemos a primera vista."
+ },
+ {
+  "clave": "parte-maldita",
+  "termino": "Parte maldita",
+  "def": "Idea de Bataille: toda sociedad tiene energía de sobra que debe gastar, en fiestas, arte o incluso guerras, porque si no, esa energía se desborda."
+ },
+ {
+  "clave": "polifonia",
+  "termino": "Polifonía",
+  "def": "Muchas voces a la vez. En las novelas polifónicas, cada personaje piensa y habla por sí mismo, y el autor no los obliga a decir lo que él piensa."
+ },
+ {
+  "clave": "redencion",
+  "termino": "Redención",
+  "def": "Liberación o salvación de algo malo, como el sufrimiento o la culpa. En la religión, que Dios salve al mundo y a las personas."
+ },
+ {
+  "clave": "series-a-y-b",
+  "termino": "Series A y B",
+  "def": "Dos formas de ordenar el tiempo según McTaggart: la A, con pasado, presente y futuro, que cambian; la B, con antes y después, que no cambian."
+ },
+ {
+  "clave": "teologia-politica",
+  "termino": "Teología política",
+  "def": "Idea de Schmitt: muchos conceptos del Estado, como el soberano que decide en una emergencia, son versiones de ideas religiosas, como un Dios que puede hacer milagros."
+ },
+ {
+  "clave": "tercero-excluido",
+  "termino": "Tercero excluido",
+  "def": "Regla de la lógica clásica: toda afirmación es verdadera o falsa, sin término medio. Brouwer dudó de ella cuando se habla de infinitos."
+ },
+ {
+  "clave": "tesis-de-duhem",
+  "termino": "Tesis de Duhem",
+  "def": "Cuando un experimento no sale como esperabas, no sabes cuál de tus ideas falla, porque siempre pruebas varias a la vez, incluidos los aparatos."
+ },
+ {
+  "clave": "transgresion",
+  "termino": "Transgresión",
+  "def": "Romper una prohibición o una norma, como pasar una línea que nos habían dicho que no se podía cruzar."
+ },
+ {
+  "clave": "vedanta",
+  "termino": "Vedānta",
+  "def": "Escuela de pensamiento de la India basada en los Upanishads. Dice que lo divino y lo real son uno y que cada persona, en el fondo, es parte de ello."
+ },
+ {
+  "clave": "voluntad-real",
+  "termino": "Voluntad real",
+  "def": "Para Bosanquet, lo que de verdad queremos como personas en el fondo, que a veces no coincide con lo que nos apetece ahora mismo."
+ },
+ {
+  "clave": "yogas",
+  "termino": "Yogas",
+  "def": "Los distintos caminos de la India para acercarse a lo divino: por el conocimiento, la acción, el amor o la meditación. No se refiere solo a los ejercicios físicos."
+ }
+]

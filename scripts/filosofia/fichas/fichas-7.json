@@ -1,0 +1,1954 @@
+[
+  {
+    "id": "philolaus",
+    "nombre": "Filolao",
+    "fechas": "c. 470 – c. 385 a. C.",
+    "region": "Grecia (Magna Grecia)",
+    "escuela": "Pitagorismo",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Pitagórico que puso el número y la [[armonía|armonia]] en el centro del cosmos y movió la Tierra",
+    "resumen": "Filolao fue un seguidor de [[Pitágoras|pitagorismo]] que vivió en el sur de Italia y en Grecia. Pensaba que el universo se entiende con números y que todo es mezcla de cosas que ponen límite y cosas sin límite. Fue de los primeros en decir que la Tierra no está quieta en el centro del mundo.",
+    "ideas": [
+      "Todo lo que existe combina lo [[limitado e ilimitado|limite-e-ilimitado]], como una canción mezcla notas y silencios.",
+      "Todo se puede conocer gracias al número: sin números no podríamos contar, comparar ni pensar nada.",
+      "Ponía en el centro del universo un fuego, y la Tierra daba vueltas a su alrededor como un planeta más."
+    ],
+    "curiosidad": "Según una tradición antigua, Platón compró sus libros, aunque no se sabe si es cierto. De su obra solo quedan fragmentos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre la naturaleza",
+        "anio": "",
+        "deQueVa": "Libro perdido; solo quedan trozos citados por otros autores. Explicaba el cosmos con límite, ilimitado y armonía."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "plato"
+    ]
+  },
+  {
+    "id": "archytas",
+    "nombre": "Arquitas de Tarento",
+    "fechas": "c. 400 – c. 350 a. C.",
+    "region": "Grecia (Magna Grecia)",
+    "escuela": "Pitagorismo",
+    "categorias": [
+      "ciencia",
+      "politica",
+      "logica"
+    ],
+    "conocidoPor": "Matemático y gobernante pitagórico, amigo de Platón, que aplicó los números a la música y la mecánica",
+    "resumen": "Arquitas gobernó la ciudad de Tarento, en el sur de Italia, y era además matemático. Fue amigo de Platón y siguió las ideas de [[Pitágoras|pitagorismo]]. Mostró que se pueden usar los números para entender la música y que un buen gobernante puede ser también un sabio.",
+    "ideas": [
+      "La música se puede explicar con proporciones: dos cuerdas de distinto largo suenan distinto según su razón numérica.",
+      "Resolvió, con una construcción en el espacio, el problema de duplicar el volumen de un cubo.",
+      "Un buen gobernante usa el cálculo y la razón, no solo la fuerza."
+    ],
+    "curiosidad": "Se cuenta que fabricó una paloma de madera que volaba, aunque esa historia llegó muy tarde y no hay forma de comprobarla.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Fragmentos sobre matemáticas y armonía",
+        "anio": "",
+        "deQueVa": "Solo se conservan trozos de sus escritos, sobre números, música y geometría."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "speusippus",
+    "nombre": "Espeusipo",
+    "fechas": "c. 408 – 339 a. C.",
+    "region": "Grecia",
+    "escuela": "Academia platónica",
+    "categorias": [
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Sobrino y sucesor de Platón al frente de la [[Academia|academia]], que partió del Uno y los números",
+    "resumen": "Espeusipo era sobrino de Platón y dirigió la [[Academia|academia]] cuando este murió. Cambió algunas ideas de su tío y dio más peso a las matemáticas. De sus libros no se conserva casi nada, así que lo conocemos sobre todo por lo que dicen de él otros autores, como Aristóteles.",
+    "ideas": [
+      "Pensaba que la realidad se ordena en niveles, que empiezan en el Uno y en los números.",
+      "Rechazó que las [[ideas de Platón|ideas-platon]] fueran números, como sostenían otros platónicos.",
+      "Escribió sobre cómo clasificar y comparar cosas parecidas."
+    ],
+    "curiosidad": null,
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "xenocrates"
+    ]
+  },
+  {
+    "id": "diodorus-cronus",
+    "nombre": "Diodoro Cronos",
+    "fechas": "siglo IV – c. 284 a. C.",
+    "region": "Grecia",
+    "escuela": "Escuela megárica",
+    "categorias": [
+      "logica",
+      "metafisica"
+    ],
+    "conocidoPor": "Lógico griego del «argumento dominador» sobre lo posible y lo necesario",
+    "resumen": "Diodoro fue un pensador de la [[escuela megárica|megarica]], famosa por sus acertijos de lógica. Se hizo célebre por un argumento que trata de qué significa que algo sea «posible». Sus ideas sobre lo posible y lo necesario siguen en las bases de la [[lógica modal|logica-modal]].",
+    "ideas": [
+      "Para él, algo es posible solo si es verdad ahora o lo será en el futuro. Lo que nunca ocurrirá, es imposible.",
+      "Su «argumento dominador» intentaba probar esa idea con tres afirmaciones que no pueden ser ciertas a la vez.",
+      "Negaba que existiera el movimiento: algo solo está en un sitio, nunca moviéndose."
+    ],
+    "curiosidad": "Según Diógenes Laercio, murió de vergüenza al no saber responder a un acertijo del filósofo Estilpón delante del rey Ptolomeo.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "xenocrates",
+    "nombre": "Jenócrates",
+    "fechas": "c. 396 – 314 a. C.",
+    "region": "Grecia",
+    "escuela": "Academia platónica",
+    "categorias": [
+      "etica",
+      "metafisica",
+      "mente"
+    ],
+    "conocidoPor": "Director de la [[Academia|academia]] que dividió la filosofía en tres partes y definió el [[alma]] como número",
+    "resumen": "Jenócrates nació en Calcedonia y estudió con Platón. Dirigió la [[Academia|academia]] durante unos 25 años. Era conocido por su carácter serio y su vida sobria. Puso orden en las enseñanzas de Platón.",
+    "ideas": [
+      "Se le atribuye dividir la filosofía en tres partes: naturaleza, [[ética|etica]] y razonamiento.",
+      "Definía el [[alma]] como un «número que se mueve a sí mismo».",
+      "Creía en seres intermedios, los «démones», que estarían entre los dioses y los humanos."
+    ],
+    "curiosidad": "Según Diógenes Laercio, Platón le dijo en broma que «sacrificara a las Gracias» porque era demasiado serio.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "gongsun-long",
+    "nombre": "Gongsun Long",
+    "fechas": "c. 320 – c. 250 a. C.",
+    "region": "China",
+    "escuela": "Escuela de los Nombres",
+    "categorias": [
+      "logica",
+      "lenguaje"
+    ],
+    "conocidoPor": "Pensador chino que defendió que «un caballo blanco no es un caballo»",
+    "resumen": "Gong Sunlong fue un pensador chino de la [[Escuela de los Nombres|escuela-de-los-nombres]], un grupo que investigaba cómo las palabras se relacionan con las cosas. Su paradoja más famosa suena absurda, pero obliga a pensar qué quiere decir cada palabra. Se conserva un libro con su nombre, aunque parte no es seguro que sea suyo.",
+    "ideas": [
+      "Decía que «caballo» nombra una forma, y «blanco» nombra un color, por eso «caballo blanco» no es lo mismo que «caballo».",
+      "Si te piden un caballo, te sirve uno de cualquier color. Si te piden uno blanco, solo te sirve uno blanco.",
+      "Un objeto duro y blanco: con la vista ves lo blanco, con el tacto notas lo duro, y cada cosa se capta por separado."
+    ],
+    "curiosidad": "La leyenda dice que usó este argumento para cruzar una frontera con su caballo, pero esa historia aparece en textos tardíos y otras fuentes la cuentan de otro debatiente. No se sabe si pasó de verdad.",
+    "frase": {
+      "texto": "Un caballo blanco no es un caballo.",
+      "fuente": "Es la tesis del diálogo «Sobre el caballo blanco» (Bái mǎ lùn)"
+    },
+    "obras": [
+      {
+        "titulo": "Gongsun Longzi",
+        "anio": "",
+        "deQueVa": "Pequeño libro de diálogos sobre nombres y cosas. Contiene el diálogo del caballo blanco."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Gongsun Longzi, texto original chino con traducción",
+        "url": "https://ctext.org/gongsun-longzi",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "timon-of-phlius",
+    "nombre": "Timón de Fliunte",
+    "fechas": "c. 320 – c. 230 a. C.",
+    "region": "Grecia",
+    "escuela": "Escepticismo pirrónico",
+    "categorias": [
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Poeta y discípulo de Pirrón que se burló de los filósofos y difundió el [[escepticismo]]",
+    "resumen": "Timón fue discípulo de Pirrón, el primer gran escéptico. Gracias a él conocemos mejor las ideas de su maestro, que no escribió nada. Timón era además poeta: usó versos para burlarse de los filósofos que presumían de saberlo todo.",
+    "ideas": [
+      "Según él, las cosas no se pueden distinguir con seguridad, así que no se puede afirmar nada.",
+      "Por eso hay que [[suspender el juicio|epoje]], es decir, no decidir si algo es verdad o mentira.",
+      "Quien suspende el juicio logra la [[tranquilidad de ánimo|ataraxia]], que es vivir sin agobios."
+    ],
+    "curiosidad": "Su famoso poema se llamaba «Sillos», palabra griega para sátiras, y de él solo quedan trozos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sillos (Sátiras)",
+        "anio": "",
+        "deQueVa": "Poema burlón contra los filósofos; solo se conservan fragmentos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "sextus-empiricus"
+    ]
+  },
+  {
+    "id": "kanada",
+    "nombre": "Kanada",
+    "fechas": "fecha incierta (hacia el siglo II a. C.)",
+    "region": "India",
+    "escuela": "Vaiśeṣika",
+    "categorias": [
+      "metafisica",
+      "ciencia"
+    ],
+    "conocidoPor": "Fundador de la escuela india Vaiśeṣika, que explicó el mundo con [[átomos|atomo]] y categorías",
+    "resumen": "Kanada es el nombre que la tradición da al autor de los «Vaiśeṣika Sūtra», el libro base de la escuela Vaiśeṣika. Esta escuela intentó explicar todo lo que existe haciendo una lista de tipos de cosas. Sabemos muy poco de su vida y de cuándo vivió.",
+    "ideas": [
+      "Todo está hecho de [[átomos|atomo]] eternos que se juntan y separan.",
+      "Todo lo que existe cabe en unas pocas «categorías»: sustancia, cualidad, acción, lo general, lo particular y la unión de cosas.",
+      "Conocer bien cómo es el mundo ayuda a alcanzar la liberación del sufrimiento."
+    ],
+    "curiosidad": "Su nombre puede venir de «kaṇa», que significa partícula o grano, y por eso se le relaciona con los átomos.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Vaiśeṣika Sūtra",
+        "anio": "",
+        "deQueVa": "Frases cortas que resumen la teoría de los átomos y las categorías de la realidad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "philo-of-larissa",
+    "nombre": "Filón de Larisa",
+    "fechas": "c. 159 – c. 84 a. C.",
+    "region": "Grecia",
+    "escuela": "Academia escéptica",
+    "categorias": [
+      "conocimiento"
+    ],
+    "conocidoPor": "Último director de la [[Academia|academia]] de Platón y maestro de Cicerón",
+    "resumen": "Filón dirigió la [[Academia|academia]] de Atenas en una época de guerras. Huyó a Roma, donde tuvo como oyente a Cicerón. Defendió un [[escepticismo]] más suave, que no pide certeza total para vivir y pensar.",
+    "ideas": [
+      "No tenemos pruebas absolutas de nada, pero eso no impide actuar con buen criterio.",
+      "Pensaba que Platón y sus seguidores siempre habían defendido, en el fondo, las mismas ideas.",
+      "La mejor guía en la vida es lo que parece probable, no lo que parece seguro."
+    ],
+    "curiosidad": "Se marchó de Atenas hacia el año 88 a. C. por la guerra contra el rey Mitrídates y ya no volvió. Murió en Roma.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "cicero"
+    ]
+  },
+  {
+    "id": "posidonius",
+    "nombre": "Posidonio",
+    "fechas": "c. 135 – c. 51 a. C.",
+    "region": "Siria y Rodas",
+    "escuela": "Estoicismo",
+    "categorias": [
+      "ciencia",
+      "etica",
+      "mente"
+    ],
+    "conocidoPor": "Sabio [[estoico|estoicismo]] que estudió las mareas, la Tierra y el alma, y fue maestro de Cicerón",
+    "resumen": "Posidonio nació en Siria y vivió en la isla de Rodas. Era [[estoico|estoicismo]], pero también geógrafo, astrónomo e historiador. Viajó mucho, incluso a Hispania, y escribió sobre casi todo. Casi toda su obra se ha perdido.",
+    "ideas": [
+      "El cosmos es como un gran ser vivo: todas sus partes están conectadas y se influyen, como la Luna y las mareas.",
+      "Los sentimientos fuertes vienen de partes del [[alma]] que no obedecen a la [[razón|razon]], no de simples errores de juicio.",
+      "La ciencia y la filosofía van juntas: para vivir bien hay que conocer el mundo."
+    ],
+    "curiosidad": "Estudió las mareas en Cádiz y las relacionó con la Luna. El geógrafo Estrabón cuenta que Pompeyo visitó su casa en Rodas para conocerlo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre el océano",
+        "anio": "",
+        "deQueVa": "Obra perdida sobre geografía, mareas y el mar."
+      },
+      {
+        "titulo": "Historias",
+        "anio": "",
+        "deQueVa": "Historia del mundo mediterráneo; no se conserva."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "cicero"
+    ]
+  },
+  {
+    "id": "antiochus-of-ascalon",
+    "nombre": "Antíoco de Ascalón",
+    "fechas": "c. 125 – c. 68 a. C.",
+    "region": "Grecia",
+    "escuela": "Academia / eclecticismo",
+    "categorias": [
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Platónico que dejó el [[escepticismo]] y mezcló ideas de Platón, Aristóteles y los estoicos",
+    "resumen": "Antíoco estudió con Filón de Larisa, pero acabó discrepando de él. Creyó que sí es posible conocer la verdad y volvió a las ideas de los primeros platónicos. Para él, Platón, Aristóteles y los [[estoicos|estoicismo]] decían casi lo mismo. Cicerón lo escuchó en Atenas.",
+    "ideas": [
+      "Sí se puede conocer la verdad con seguridad: negar todo conocimiento le parecía un error.",
+      "Platón, Aristóteles y los estoicos defendían casi lo mismo y solo cambiaban las palabras.",
+      "Se puede vivir bien siendo virtuoso, aunque otras cosas, como la salud, ayudan."
+    ],
+    "curiosidad": "Cicerón asistió a sus clases en Atenas hacia el año 79 a. C.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "philodemus",
+    "nombre": "Filodemo de Gádara",
+    "fechas": "c. 110 – c. 40 a. C.",
+    "region": "Siria y Roma",
+    "escuela": "Epicureísmo",
+    "categorias": [
+      "estetica",
+      "logica",
+      "etica"
+    ],
+    "conocidoPor": "Filósofo [[epicúreo|epicureismo]] cuyos papiros se salvaron del Vesubio",
+    "resumen": "Filodemo nació en Gádara, en Siria, y vivió en Italia. Era [[epicúreo|epicureismo]], seguidor de Epicuro, y también poeta. Escribió sobre poesía, música, el enfado y cómo sacar conclusiones. Muchos de sus libros se conocen porque aparecieron en Herculano.",
+    "ideas": [
+      "Sacar conclusiones de lo que vemos, como pensar «hay humo, luego hay fuego», debe hacerse con cuidado.",
+      "Reflexionó sobre qué hace buenos a un poema o una pieza de música.",
+      "La amistad y hablar con sinceridad ayudan a vivir sin angustia."
+    ],
+    "curiosidad": "Sus papiros estaban en una villa de Herculano que cubrió la erupción del Vesubio en el año 79 d. C. Hoy se leen con ordenador y rayos X.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre los poemas",
+        "anio": "",
+        "deQueVa": "Reflexiona sobre qué hace buena a la poesía."
+      },
+      {
+        "titulo": "Sobre los signos",
+        "anio": "",
+        "deQueVa": "Cómo sacar conclusiones a partir de indicios."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "aenesidemus",
+    "nombre": "Enesidemo",
+    "fechas": "siglo I a. C.",
+    "region": "Grecia (Creta) y Alejandría",
+    "escuela": "Escepticismo pirrónico",
+    "categorias": [
+      "conocimiento"
+    ],
+    "conocidoPor": "Renovador del [[escepticismo]] de Pirrón y autor de los «diez modos» para dudar",
+    "resumen": "Enesidemo nació en Cnosos, en Creta, y vivió en Alejandría. Volvió a poner de moda el [[pirronismo]], la forma más radical de [[escepticismo]]. Se le atribuyen los «diez [[modos|tropos]]»: razones para dudar de lo que parece cierto.",
+    "ideas": [
+      "Un mismo objeto parece distinto según quién lo mire: los animales y los humanos perciben de forma diferente.",
+      "Las cosas cambian de aspecto según la distancia, la luz o nuestro estado de ánimo.",
+      "Por eso conviene [[suspender el juicio|epoje]], es decir, no afirmar nada con seguridad."
+    ],
+    "curiosidad": "Acusó a su antigua escuela, la Academia, de haberse vuelto casi como los estoicos y de ya no ser escéptica de verdad.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Discursos pirrónicos",
+        "anio": "",
+        "deQueVa": "Ocho libros sobre el escepticismo, hoy perdidos; conocemos un resumen antiguo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "sextus-empiricus"
+    ]
+  },
+  {
+    "id": "patanjali",
+    "nombre": "Patañjali",
+    "fechas": "fecha incierta (entre los siglos II a. C. y IV d. C.)",
+    "region": "India",
+    "escuela": "Yoga clásico",
+    "categorias": [
+      "mente",
+      "metafisica",
+      "etica"
+    ],
+    "conocidoPor": "Se le atribuye el «Yoga Sūtra», el libro base del [[yoga]] clásico y sus ocho pasos",
+    "resumen": "Patañjali es el nombre que la tradición india da a quien reunió el «Yoga Sūtra», un libro corto sobre cómo calmar la mente. No sabemos con certeza quién era ni cuándo vivió. Su yoga no trata solo de posturas del cuerpo: es sobre todo un camino para entrenar la atención.",
+    "ideas": [
+      "El sufrimiento viene en gran parte de una mente agitada, y el yoga ayuda a calmarla.",
+      "El camino tiene ocho pasos: normas de conducta, posturas, respiración, concentración y meditación, entre otros.",
+      "Se apoya en la idea de que quien mira, el espíritu, es distinto de la materia, incluida la mente."
+    ],
+    "curiosidad": "Existió también un gramático llamado Patañjali, y los expertos discuten si es la misma persona.",
+    "frase": {
+      "texto": "El yoga consiste en detener las agitaciones de la mente.",
+      "fuente": "Yoga Sūtra, 1.2 (traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "Yoga Sūtra",
+        "anio": "",
+        "deQueVa": "Casi 200 frases breves sobre cómo calmar la mente y llegar a la liberación."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Yoga Sutras, texto completo en inglés (traducción de Johnston, Wikisource)",
+        "url": "https://en.wikisource.org/wiki/The_Yoga_Sutras_of_Patanjali",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "wang-chong",
+    "nombre": "Wang Chong",
+    "fechas": "27 – c. 97",
+    "region": "China",
+    "escuela": "Naturalismo de la dinastía Han",
+    "categorias": [
+      "ciencia",
+      "conocimiento",
+      "religion"
+    ],
+    "conocidoPor": "Pensador chino que criticó supersticiones y creencias sin pruebas en el «Lunheng»",
+    "resumen": "Wang Chong vivió en la China de la dinastía Han. En su gran libro, el «Lunheng», criticó muchas creencias populares, como que el cielo premia o castiga a las personas por lo que hacen. Para él, la naturaleza funciona sin planes ni intenciones.",
+    "ideas": [
+      "El cielo y la naturaleza actúan por sí mismos, sin querer premiar ni castigar a nadie.",
+      "Hay que comprobar las afirmaciones con ejemplos y pruebas, no creerlas solo porque lo digan los antiguos.",
+      "Cuando uno muere, el cuerpo y la vida se acaban, y no hay fantasmas que vuelvan."
+    ],
+    "curiosidad": "Según la tradición, era pobre y leía de pie en las librerías de la capital, y memorizaba lo que leía.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Lunheng («Discusiones equilibradas»)",
+        "anio": "",
+        "deQueVa": "Libro grande que examina y critica muchas creencias de su época."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Lunheng, texto original chino (Chinese Text Project)",
+        "url": "https://ctext.org/lunheng",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": []
+  },
+  {
+    "id": "ban-zhao",
+    "nombre": "Ban Zhao",
+    "fechas": "c. 45 – c. 116",
+    "region": "China",
+    "escuela": "Confucianismo",
+    "categorias": [
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Historiadora y pensadora china que escribió «Lecciones para mujeres» y defendió la educación de las niñas",
+    "resumen": "Ban Zhao fue historiadora y maestra en la China de la dinastía Han. Terminó el «Libro de Han», una gran historia que empezaron su padre y su hermano. Escribió «Lecciones para mujeres», un texto de consejos para las hijas. Hoy se lee como un reflejo de su época, pero también defiende que las niñas deben estudiar.",
+    "ideas": [
+      "Las niñas deben recibir educación igual que los niños, y no solo en tareas de casa.",
+      "Propone un ideal de conducta basado en la humildad y el respeto, pensado para el mundo de su tiempo.",
+      "Ve la [[virtud]] como algo que se aprende y se cultiva a diario."
+    ],
+    "curiosidad": "Trabajó en la corte como maestra de la emperatriz y de otras damas del palacio.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Lecciones para mujeres (Nüjie)",
+        "anio": "c. 100",
+        "deQueVa": "Siete capítulos de consejos a las jóvenes sobre cómo comportarse y por qué educarse."
+      },
+      {
+        "titulo": "Libro de Han (parte final)",
+        "anio": "",
+        "deQueVa": "Completó esta historia de la dinastía Han que dejó sin acabar su hermano."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "clement-of-alexandria",
+    "nombre": "Clemente de Alejandría",
+    "fechas": "c. 150 – c. 215",
+    "region": "Egipto (Alejandría)",
+    "escuela": "Patrística",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Padre de la Iglesia que defendió que la [[filosofía|filosofia]] griega preparó el camino al cristianismo",
+    "resumen": "Clemente enseñó en Alejandría, una gran ciudad de saber. Fue cristiano y conocía muy bien a Platón y a los demás griegos. Pensaba que la filosofía no era enemiga de la fe, sino una ayuda para entenderla.",
+    "ideas": [
+      "La filosofía griega fue para los griegos una preparación para el cristianismo, como la Ley lo fue para los judíos.",
+      "El cristiano maduro busca entender su fe, no solo aceptarla.",
+      "Dios no se puede describir con palabras humanas: se sabe más lo que no es que lo que es."
+    ],
+    "curiosidad": "Su libro «Stromata» significa «tapices» o «mezclas»: lo hizo como un revoltijo de temas, a propósito.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Protréptico (Exhortación a los griegos)",
+        "anio": "",
+        "deQueVa": "Invita a los paganos a abandonar sus mitos y hacerse cristianos."
+      },
+      {
+        "titulo": "El pedagogo",
+        "anio": "",
+        "deQueVa": "Cómo debe vivir y comportarse un cristiano en la vida diaria."
+      },
+      {
+        "titulo": "Stromata",
+        "anio": "",
+        "deQueVa": "Mezcla de temas sobre fe, filosofía y vida cristiana."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Exhortación a los paganos (Protréptico), traducción en inglés",
+        "url": "https://www.newadvent.org/fathers/0208.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "origen"
+    ]
+  },
+  {
+    "id": "origen",
+    "nombre": "Orígenes",
+    "fechas": "c. 185 – c. 253",
+    "region": "Egipto (Alejandría) y Palestina",
+    "escuela": "Patrística / platonismo cristiano",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Teólogo cristiano que explicó la fe con ideas de Platón y leyó la Biblia en varios niveles",
+    "resumen": "Orígenes fue un teólogo y sabio de Alejandría y Cesarea. Escribió muchísimo. Fue el primero en construir un gran sistema de ideas cristianas, con ayuda de la filosofía de [[Platón|ideas-platon]]. Algunas de sus ideas más audaces fueron discutidas siglos después.",
+    "ideas": [
+      "La Biblia tiene varios niveles: lo que cuenta, lo que enseña para vivir y un sentido más profundo.",
+      "Las personas somos libres y respondemos de nuestras decisiones.",
+      "Esperaba que al final todo y todos volvieran a Dios, idea que luego la Iglesia condenó."
+    ],
+    "curiosidad": "Hizo la «Héxapla»: una Biblia en seis columnas para comparar el texto hebreo con varias traducciones griegas.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre los principios",
+        "anio": "",
+        "deQueVa": "Primer gran sistema de ideas cristianas: Dios, el mundo, las almas y la libertad."
+      },
+      {
+        "titulo": "Contra Celso",
+        "anio": "c. 248",
+        "deQueVa": "Respuesta a un filósofo que criticó el cristianismo."
+      },
+      {
+        "titulo": "Héxapla",
+        "anio": "",
+        "deQueVa": "Biblia en seis columnas para comparar textos."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Sobre los principios (De Principiis), libro I, en inglés",
+        "url": "https://www.newadvent.org/fathers/04121.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "gregory-of-nyssa"
+    ]
+  },
+  {
+    "id": "alexander-of-aphrodisias",
+    "nombre": "Alejandro de Afrodisias",
+    "fechas": "activo hacia el año 200",
+    "region": "Grecia / Asia Menor",
+    "escuela": "Aristotelismo",
+    "categorias": [
+      "conocimiento",
+      "mente",
+      "metafisica"
+    ],
+    "conocidoPor": "El gran comentarista antiguo de Aristóteles, que ayudó a explicar el [[intelecto]] y el destino",
+    "resumen": "Alejandro enseñó a Aristóteles en Atenas hacia el año 200. Escribió comentarios muy claros sobre las obras de Aristóteles que se siguieron leyendo durante siglos, también en árabe y latín. Defendió que las personas somos libres y que no todo está decidido de antemano.",
+    "ideas": [
+      "Somos libres: lo que hacemos depende de nosotros, no de un destino fijo.",
+      "El [[alma]] es la forma del cuerpo: cuando el cuerpo muere, el alma personal no sigue viva.",
+      "Explicaba el [[intelecto]] humano como algo que recibe ideas de un intelecto superior, que identificó con Dios."
+    ],
+    "curiosidad": "Dedicó su libro «Sobre el destino» a los emperadores Septimio Severo y Caracalla.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre el destino",
+        "anio": "",
+        "deQueVa": "Defiende la libertad frente a la idea de que todo está fijado."
+      },
+      {
+        "titulo": "Sobre el alma",
+        "anio": "",
+        "deQueVa": "Cómo entender el alma y el pensamiento según Aristóteles."
+      },
+      {
+        "titulo": "Comentario a la Metafísica de Aristóteles",
+        "anio": "",
+        "deQueVa": "Explica paso a paso el libro de Aristóteles."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "averroes"
+    ]
+  },
+  {
+    "id": "wang-bi",
+    "nombre": "Wang Bi",
+    "fechas": "226 – 249",
+    "region": "China",
+    "escuela": "Xuanxue (Aprendizaje misterioso)",
+    "categorias": [
+      "metafisica",
+      "conocimiento",
+      "politica"
+    ],
+    "conocidoPor": "Joven genio chino que comentó el «Daodejing» y el «Yijing» y puso el «no ser» como raíz de todo",
+    "resumen": "Wang Bi murió con unos 23 años y aun así cambió el pensamiento chino. Fue una figura central del «Xuanxue», una corriente que mezcló ideas del [[taoísmo|taoismo]] y del [[confucianismo]]. Sus comentarios al «Daodejing» se siguen leyendo hoy.",
+    "ideas": [
+      "La raíz de todo es el «no ser» (wu): no una nada vacía, sino lo que permite que las cosas existan.",
+      "Un buen gobernante no se mete en todo, deja que cada cosa siga su curso: es el [[wu-wei]].",
+      "Las palabras y los símbolos sirven para captar una idea: una vez entendida, no hace falta aferrarse a ellos."
+    ],
+    "curiosidad": "Escribió sus comentarios más importantes siendo muy joven y murió de una enfermedad.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario al Daodejing",
+        "anio": "",
+        "deQueVa": "Explica el libro de Laozi como una filosofía del «no ser»."
+      },
+      {
+        "titulo": "Comentario al Yijing",
+        "anio": "",
+        "deQueVa": "Lee el «Libro de los cambios» como filosofía, no como adivinación."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "vasubandhu",
+    "nombre": "Vasubandhu",
+    "fechas": "siglo IV o V",
+    "region": "India (Gandhara)",
+    "escuela": "Yogācāra",
+    "categorias": [
+      "mente",
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Filósofo budista indio del [[Yogācāra|yogacara]]: lo que vivimos es obra de la mente",
+    "resumen": "Vasubandhu fue un filósofo budista indio, hermano de Asanga. Escribió un gran resumen de las ideas budistas llamado «Abhidharmakośa». Después defendió que lo que llamamos mundo se da en nuestra conciencia. Es una de las grandes figuras del [[budismo]] indio.",
+    "ideas": [
+      "Solo conocemos nuestras experiencias: lo que llamamos «mundo» está hecho de representaciones de la mente.",
+      "Un sueño parece real mientras dura, y esto muestra que se puede tener experiencia sin un mundo exterior.",
+      "Liberarse es darse cuenta de que esa separación entre quien mira y lo mirado es un hábito de la mente."
+    ],
+    "curiosidad": "La tradición cuenta que antes criticaba el Mahāyāna y que su hermano lo convenció de cambiar. Es una leyenda, no un hecho comprobado.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Abhidharmakośa («Tesoro del Abhidharma»)",
+        "anio": "",
+        "deQueVa": "Resumen ordenado de las ideas budistas sobre mente y mundo."
+      },
+      {
+        "titulo": "Veinte versos (Viṃśatikā)",
+        "anio": "",
+        "deQueVa": "Argumenta que todo es solo representación mental."
+      },
+      {
+        "titulo": "Treinta versos (Triṃśikā)",
+        "anio": "",
+        "deQueVa": "Cómo funciona la mente en niveles, en 30 versos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "dignaga"
+    ]
+  },
+  {
+    "id": "asanga",
+    "nombre": "Asanga",
+    "fechas": "siglo IV",
+    "region": "India (Gandhara)",
+    "escuela": "Yogācāra",
+    "categorias": [
+      "mente",
+      "metafisica",
+      "religion"
+    ],
+    "conocidoPor": "Fundador del [[Yogācāra|yogacara]], el idealismo budista de la «sola mente»",
+    "resumen": "Asanga fue un monje y filósofo budista, hermano de Vasubandhu. Con él se funda la escuela del [[Yogācāra|yogacara]], que estudia cómo funciona la mente. Para ellos, la meditación es la herramienta para investigarla.",
+    "ideas": [
+      "Debajo de nuestra mente consciente hay una «conciencia-almacén» que guarda semillas de recuerdos y costumbres.",
+      "Lo que percibimos depende mucho de cómo piensa la mente.",
+      "Meditar permite ver la mente tal como es y liberarse."
+    ],
+    "curiosidad": "La tradición cuenta que meditó doce años y recibió enseñanzas del futuro Buda Maitreya. Es una leyenda.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Mahāyānasaṃgraha (Compendio del Gran Vehículo)",
+        "anio": "",
+        "deQueVa": "Resumen de las ideas principales del Yogācāra."
+      },
+      {
+        "titulo": "Abhidharmasamuccaya",
+        "anio": "",
+        "deQueVa": "Lista y explica los conceptos básicos del budismo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "vasubandhu"
+    ]
+  },
+  {
+    "id": "gregory-of-nyssa",
+    "nombre": "Gregorio de Nisa",
+    "fechas": "c. 335 – c. 395",
+    "region": "Capadocia (actual Turquía)",
+    "escuela": "Patrística capadocia",
+    "categorias": [
+      "religion",
+      "mente",
+      "etica"
+    ],
+    "conocidoPor": "Obispo y pensador cristiano para quien Dios es [[infinito]] y el camino hacia Él nunca acaba",
+    "resumen": "Gregorio fue obispo de Nisa, hermano de san Basilio y de santa Macrina. Fue uno de los grandes pensadores cristianos de su tiempo. Unió la fe con ideas de Platón. Defendió que el ser humano es libre y que nadie puede ser propiedad de otro.",
+    "ideas": [
+      "Dios es [[infinito]], así que acercarse a Él no tiene final: siempre se puede ir más allá.",
+      "Dios no se puede describir del todo con palabras: es más fácil decir lo que no es.",
+      "Los seres humanos son imagen de Dios, y por eso nadie debería ser esclavo de otro."
+    ],
+    "curiosidad": "Fue de los primeros en condenar la esclavitud de forma total, en una homilía sobre el Eclesiastés.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Sobre la creación del hombre",
+        "anio": "",
+        "deQueVa": "Qué somos las personas: cuerpo, alma e imagen de Dios."
+      },
+      {
+        "titulo": "Vida de Moisés",
+        "anio": "",
+        "deQueVa": "Lee la vida de Moisés como un camino espiritual sin fin."
+      },
+      {
+        "titulo": "Sobre el alma y la resurrección",
+        "anio": "",
+        "deQueVa": "Diálogo con su hermana Macrina sobre qué pasa tras la muerte."
+      }
+    ],
+    "enlaces": [
+      {
+        "titulo": "Sobre la creación del hombre, traducción en inglés",
+        "url": "https://www.newadvent.org/fathers/2914.htm",
+        "tipo": "texto"
+      }
+    ],
+    "influyeEn": [
+      "maximus-the-confessor"
+    ]
+  },
+  {
+    "id": "sengzhao",
+    "nombre": "Sengzhao",
+    "fechas": "384 – 414",
+    "region": "China",
+    "escuela": "Budismo chino (Madhyamaka)",
+    "categorias": [
+      "metafisica",
+      "lenguaje",
+      "religion"
+    ],
+    "conocidoPor": "Monje chino que explicó la [[vacuidad]] budista con el vocabulario del [[taoísmo|taoismo]]",
+    "resumen": "Sengzhao fue discípulo de Kumārajīva, el gran traductor de textos budistas al chino. Murió joven, hacia los 30 años. Usó las palabras del taoísmo para hacer más fácil de entender el budismo en China. Sus ensayos se reunieron en el «Zhaolun».",
+    "ideas": [
+      "Las cosas existen y a la vez son [[vacías|vacuidad]]: no tienen una esencia fija y aparte.",
+      "Nada viaja de verdad del pasado al presente: cada cosa está en su momento.",
+      "La sabiduría no «sabe» como sabemos una cosa corriente: no atrapa su objeto."
+    ],
+    "curiosidad": "Su obra es una de las primeras en que el pensamiento budista suena de verdad chino.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Zhaolun («Tratados de Zhao»)",
+        "anio": "",
+        "deQueVa": "Cuatro ensayos sobre el cambio, la vacuidad, la sabiduría y el nirvana."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "dignaga",
+    "nombre": "Dignāga",
+    "fechas": "c. 480 – c. 540",
+    "region": "India",
+    "escuela": "Lógica y epistemología budista",
+    "categorias": [
+      "logica",
+      "conocimiento",
+      "lenguaje"
+    ],
+    "conocidoPor": "Fundador de la lógica budista: solo hay dos fuentes de conocimiento, percibir y razonar",
+    "resumen": "Dignāga fue un filósofo budista indio que estudió cómo sabemos lo que sabemos. Puso orden en la lógica india y propuso reglas claras para razonar bien. Su obra marcó a los filósofos budistas de India y del Tíbet.",
+    "ideas": [
+      "Solo hay dos fuentes fiables de conocimiento: la percepción y el razonamiento.",
+      "Una buena conclusión se apoya en una razón que se cumple en casos parecidos y no en los distintos, como «hay humo, luego hay fuego».",
+      "Las palabras significan por exclusión: «vaca» quiere decir «no es no-vaca». Es su teoría del [[apoha]]."
+    ],
+    "curiosidad": "Su obra principal se llama «Pramāṇasamuccaya», que significa «Compendio de los medios de conocimiento».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pramāṇasamuccaya",
+        "anio": "",
+        "deQueVa": "Resumen de cómo conocemos: percepción, razonamiento y lenguaje."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "dharmakirti"
+    ]
+  },
+  {
+    "id": "syrianus",
+    "nombre": "Siriano de Alejandría",
+    "fechas": "c. 380 – c. 437",
+    "region": "Grecia (Atenas) y Egipto",
+    "escuela": "Neoplatonismo",
+    "categorias": [
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Director de la escuela platónica de Atenas y maestro de Proclo",
+    "resumen": "Siriano nació en Alejandría y dirigió la escuela de Platón en Atenas. Su alumno más famoso fue Proclo. Defendió a Platón frente a las críticas de Aristóteles. Sus escritos se conservan solo en parte.",
+    "ideas": [
+      "Las [[ideas de Platón|ideas-platon]] existen de verdad y no son simples nombres.",
+      "Platón, los poemas antiguos y la sabiduría religiosa de su tiempo comparten una misma verdad.",
+      "Aristóteles se equivocó al criticar a Platón: lo entendió mal."
+    ],
+    "curiosidad": "Según su biógrafo Marino, Proclo estudió con él toda la obra de Aristóteles en dos años, antes de pasar a Platón.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario a la Metafísica de Aristóteles",
+        "anio": "",
+        "deQueVa": "Parte de sus comentarios; defiende a Platón frente a Aristóteles."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "proclus"
+    ]
+  },
+  {
+    "id": "bhartrhari",
+    "nombre": "Bhartṛhari",
+    "fechas": "siglo V (fechas discutidas)",
+    "region": "India",
+    "escuela": "Gramática y filosofía del lenguaje",
+    "categorias": [
+      "lenguaje",
+      "metafisica",
+      "mente"
+    ],
+    "conocidoPor": "Gramático indio que defendió que el lenguaje y el pensamiento van unidos",
+    "resumen": "Bhartṛhari fue un gramático y filósofo indio. Pensó que no hay pensamiento sin palabras y que una frase se entiende de golpe, no letra a letra. Su obra más famosa es el «Vākyapadīya», sobre frases y palabras. Sabemos poco de su vida, y las fechas se discuten.",
+    "ideas": [
+      "No hay pensamiento sin lenguaje: pensamos con palabras, aunque sea en silencio.",
+      "Entendemos el sentido de una frase de golpe, como una «chispa» llamada [[sphoṭa|sphota]], y no sumando letras.",
+      "La realidad entera se puede ver como un gran «Verbo» o palabra eterna."
+    ],
+    "curiosidad": "El monje chino Yijing cuenta que dejó siete veces la vida monástica y que volvía al mundo.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Vākyapadīya",
+        "anio": "",
+        "deQueVa": "Tratado sobre frases, palabras y el sentido, en tres partes."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "maximus-the-confessor",
+    "nombre": "Máximo el Confesor",
+    "fechas": "c. 580 – 662",
+    "region": "Bizancio",
+    "escuela": "Patrística bizantina",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "etica"
+    ],
+    "conocidoPor": "Monje bizantino que unió fe cristiana y filosofía y defendió que Cristo tiene voluntad humana",
+    "resumen": "Máximo fue un monje y teólogo del Imperio bizantino. Escribió una síntesis de los grandes pensadores cristianos anteriores, con ideas de Platón y Aristóteles. Defendió su fe incluso ante el emperador, y por eso lo castigaron.",
+    "ideas": [
+      "Todo lo que existe tiene una «razón» o plan dentro del Logos, que es la Palabra de Dios.",
+      "El ser humano es un puente entre lo material y lo espiritual y puede unirse a Dios.",
+      "Cristo tiene a la vez una voluntad divina y una humana, y así la voluntad humana es libre."
+    ],
+    "curiosidad": "Por oponerse al emperador, lo juzgaron y le cortaron la lengua y la mano derecha, según la tradición. Murió en el destierro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ambigua",
+        "anio": "",
+        "deQueVa": "Explica pasajes difíciles de otros autores cristianos."
+      },
+      {
+        "titulo": "Cuestiones a Talasio",
+        "anio": "",
+        "deQueVa": "Respuestas a dudas sobre pasajes de la Biblia."
+      },
+      {
+        "titulo": "Capítulos sobre la caridad",
+        "anio": "",
+        "deQueVa": "Consejos cortos sobre el amor y la vida espiritual."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "john-scotus-eriugena"
+    ]
+  },
+  {
+    "id": "chandrakirti",
+    "nombre": "Chandrakirti",
+    "fechas": "c. 600 – c. 650",
+    "region": "India",
+    "escuela": "Madhyamaka prasaṅgika",
+    "categorias": [
+      "metafisica",
+      "conocimiento",
+      "logica"
+    ],
+    "conocidoPor": "Filósofo budista del [[Madhyamaka|madhyamaka]] cuyo método de mostrar contradicciones marcó el budismo tibetano",
+    "resumen": "Chandrakirti fue un filósofo budista indio que explicó las ideas de Nāgārjuna. Defendió la [[vacuidad]]: ninguna cosa existe por sí sola. Sus libros son muy importantes en el Tíbet.",
+    "ideas": [
+      "Para mostrar los errores de otro, basta con deducir las contradicciones de lo que él mismo afirma.",
+      "Hay dos verdades: la de la vida diaria y la última, que es la [[vacuidad]].",
+      "Ninguna cosa existe por sí misma, sino por sus relaciones con las demás."
+    ],
+    "curiosidad": "Una leyenda tibetana cuenta que dibujó una vaca y la ordeñó. Es solo una historia para mostrar su poder.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Madhyamakāvatāra («Entrada al Camino Medio»)",
+        "anio": "",
+        "deQueVa": "Guía en versos del camino de bodhisattva y de la vacuidad."
+      },
+      {
+        "titulo": "Prasannapadā («Palabras claras»)",
+        "anio": "",
+        "deQueVa": "Comentario a la obra principal de Nāgārjuna."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "je-tsongkhapa"
+    ]
+  },
+  {
+    "id": "wonhyo",
+    "nombre": "Wonhyo",
+    "fechas": "617 – 686",
+    "region": "Corea (Silla)",
+    "escuela": "Budismo coreano",
+    "categorias": [
+      "religion",
+      "mente",
+      "conocimiento"
+    ],
+    "conocidoPor": "Monje coreano que quiso unir las escuelas budistas rivales",
+    "resumen": "Wonhyo fue un monje de Corea, en el reino de Silla. Intentó armonizar las escuelas budistas que discutían entre sí, buscando lo que las unía. Escribió muchos comentarios. Fue un monje popular que llevó el budismo a la gente común.",
+    "ideas": [
+      "Las escuelas budistas parecen opuestas, pero todas hablan de la misma verdad con otras palabras.",
+      "Todo depende de la mente: el mundo que vivimos se forma desde ella.",
+      "La liberación no es solo para monjes y sabios, también para la gente común."
+    ],
+    "curiosidad": "La leyenda cuenta que renunció a viajar a China cuando bebió agua de un cuenco de noche y al día siguiente vio que era una calavera, y entendió que todo depende de la mente.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario al Despertar de la fe en el Mahāyāna",
+        "anio": "",
+        "deQueVa": "Explica un texto clave del budismo del Gran Vehículo."
+      },
+      {
+        "titulo": "Esencias doctrinales del Sutra del Nirvana",
+        "anio": "",
+        "deQueVa": "Resume lo central de un sutra importante."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "huineng",
+    "nombre": "Huineng",
+    "fechas": "638 – 713",
+    "region": "China",
+    "escuela": "Chan (zen)",
+    "categorias": [
+      "mente",
+      "religion",
+      "conocimiento"
+    ],
+    "conocidoPor": "Sexto patriarca del Chan: la iluminación llega de golpe, no con estudios",
+    "resumen": "Huineng es el gran maestro del Chan, que en Japón se llama [[zen]]. Según la tradición fue un leñador sin estudios que llegó a ser patriarca. Defendió una iluminación súbita, que viene de mirar la propia mente. Su libro es el «Sutra de la plataforma».",
+    "ideas": [
+      "Todos tenemos ya la naturaleza de Buda: solo hay que darse cuenta.",
+      "La [[iluminación|iluminacion]] llega de golpe, no se alcanza leyendo ni acumulando méritos.",
+      "Meditar no es quedarse inmóvil: es vivir sin que los pensamientos nos atrapen."
+    ],
+    "curiosidad": "La tradición cuenta que ganó el puesto de patriarca con un poema contra el de su rival Shenxiu, que hablaba de limpiar el espejo de la mente del polvo.",
+    "frase": {
+      "texto": "Desde el principio no hay nada: ¿dónde puede posarse el polvo?",
+      "fuente": "Sutra de la plataforma, poema atribuido a Huineng (versión resumida; traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "Sutra de la plataforma",
+        "anio": "",
+        "deQueVa": "Su vida y sus enseñanzas, recogidas por sus discípulos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "john-of-damascus",
+    "nombre": "Juan Damasceno",
+    "fechas": "c. 675 – 749",
+    "region": "Siria y Bizancio",
+    "escuela": "Patrística bizantina",
+    "categorias": [
+      "religion",
+      "logica"
+    ],
+    "conocidoPor": "Monje que resumió la fe cristiana oriental y defendió el uso de imágenes sagradas",
+    "resumen": "Juan nació en Damasco y se hizo monje cerca de Jerusalén. Fue de los últimos grandes Padres de la Iglesia de Oriente. En su obra recogió el saber cristiano y la lógica de Aristóteles. Defendió con fuerza las imágenes religiosas cuando el emperador quería prohibirlas.",
+    "ideas": [
+      "La filosofía es una sirvienta de la fe: sirve para explicarla con claridad.",
+      "Si Dios se hizo visible en Cristo, se puede representar en imágenes sin caer en idolatría.",
+      "Las ideas deben exponerse en orden, con definiciones claras."
+    ],
+    "curiosidad": "Se le considera doctor de la Iglesia. Su obra principal se llama «Fuente del conocimiento».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Fuente del conocimiento",
+        "anio": "",
+        "deQueVa": "Resumen de lógica, herejías y fe cristiana, en tres partes."
+      },
+      {
+        "titulo": "Discursos contra los que atacan las imágenes",
+        "anio": "",
+        "deQueVa": "Defiende el uso de imágenes sagradas."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "thomas-aquinas"
+    ]
+  },
+  {
+    "id": "dharmakirti",
+    "nombre": "Dharmakīrti",
+    "fechas": "siglo VII",
+    "region": "India",
+    "escuela": "Lógica y epistemología budista",
+    "categorias": [
+      "logica",
+      "conocimiento",
+      "metafisica"
+    ],
+    "conocidoPor": "Gran lógico budista: lo real es lo que produce efectos",
+    "resumen": "Dharmakīrti continuó la obra de Dignāga y es la gran figura de la teoría budista del conocimiento. Sus ideas se estudiaron en India y en el Tíbet durante siglos. Exponía de forma muy exacta cómo razonamos y por qué lo que vemos es fiable.",
+    "ideas": [
+      "Lo real es lo que puede producir efectos, como el fuego que quema.",
+      "Solo existen cosas concretas y únicas, no «universales» como la idea general de «vaca».",
+      "Una conclusión válida depende de que haya una relación real entre las cosas, por ejemplo entre humo y fuego."
+    ],
+    "curiosidad": null,
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Pramāṇavārttika",
+        "anio": "",
+        "deQueVa": "Comentario y mejora de la teoría de Dignāga."
+      },
+      {
+        "titulo": "Nyāyabindu",
+        "anio": "",
+        "deQueVa": "Breve introducción a su lógica."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "rabia-basri",
+    "nombre": "Rabia al-Adawiyya",
+    "fechas": "c. 714 – 801",
+    "region": "Irak (Basora)",
+    "escuela": "Sufismo",
+    "categorias": [
+      "religion",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Mística [[sufí|sufismo]] que enseñó a amar a Dios por Dios mismo, sin miedo ni premio",
+    "resumen": "Rabia fue una mujer sufí de Basora, en el actual Irak. Casi todo lo que sabemos de ella viene de relatos de autores posteriores, y mezcla historia y leyenda. Se la recuerda por defender que a Dios se le ama sin pedir nada a cambio. Su ejemplo marcó mucho al [[sufismo]].",
+    "ideas": [
+      "Se debe amar a Dios solo por amor, no por miedo al castigo ni por querer un premio.",
+      "El amor es el camino más corto hacia Dios.",
+      "Vivir con pobreza y sencillez ayuda a que el corazón no se distraiga."
+    ],
+    "curiosidad": "Una historia cuenta que caminaba con una antorcha y un cubo de agua para quemar el paraíso y apagar el infierno, pero es una leyenda.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "kukai",
+    "nombre": "Kūkai",
+    "fechas": "774 – 835",
+    "region": "Japón",
+    "escuela": "Budismo Shingon",
+    "categorias": [
+      "religion",
+      "lenguaje",
+      "mente"
+    ],
+    "conocidoPor": "Monje japonés, fundador del Shingon, que veía los sonidos y los símbolos como camino a la iluminación",
+    "resumen": "Kūkai fue un monje japonés que viajó a China, aprendió allí un budismo esotérico y lo llevó a Japón, donde fundó la escuela Shingon. Fue también escritor, y el pueblo lo conoce como Kōbō Daishi. Pensaba que las palabras, los sonidos y las imágenes podían mostrar la verdad.",
+    "ideas": [
+      "Se puede alcanzar la [[iluminación|iluminacion]] en esta misma vida, con este mismo cuerpo.",
+      "Los sonidos, los gestos y las imágenes, como un [[mantra]], pueden mostrar la verdad.",
+      "Hay diez etapas de la mente, desde la que solo busca comer y vivir hasta la más profunda."
+    ],
+    "curiosidad": "Creó una escuela abierta a la gente corriente en Kioto, una de las primeras de Japón con ese fin.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Diez etapas del desarrollo de la mente",
+        "anio": "c. 830",
+        "deQueVa": "Ordena en diez peldaños los modos de pensar y vivir, hasta la iluminación."
+      },
+      {
+        "titulo": "Sentido de alcanzar la budeidad en este cuerpo",
+        "anio": "",
+        "deQueVa": "Explica cómo llegar a la iluminación aquí y ahora."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "saadia-gaon",
+    "nombre": "Saadia Gaon",
+    "fechas": "882 – 942",
+    "region": "Egipto e Irak (Bagdad)",
+    "escuela": "Filosofía judía medieval",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Primer gran filósofo judío medieval: razón y fe dicen lo mismo",
+    "resumen": "Saadia nació en Egipto y llegó a ser director de la academia de Sura, cerca de Bagdad, con el título de «gaón». Tradujo la Biblia al árabe y escribió el primer gran libro de filosofía judía. Para él, la [[razón|razon]] y la fe no se contradicen.",
+    "ideas": [
+      "La razón y la revelación llegan a las mismas verdades, y la fe se apoya en el pensamiento.",
+      "El mundo tuvo un comienzo y fue creado, y lo prueba su cambio continuo.",
+      "Si una frase de la Biblia choca con la razón, se debe leer como imagen o símbolo."
+    ],
+    "curiosidad": "Su traducción de la Biblia al árabe, la «Tafsir», sigue usándose entre algunos judíos de lengua árabe.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Libro de las creencias y de las opiniones",
+        "anio": "933",
+        "deQueVa": "Explica y defiende la fe judía con argumentos de razón."
+      },
+      {
+        "titulo": "Tafsir",
+        "anio": "",
+        "deQueVa": "Traducción de la Biblia al árabe con comentarios."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "maimonides"
+    ]
+  },
+  {
+    "id": "miskawayh",
+    "nombre": "Miskawayh",
+    "fechas": "c. 932 – 1030",
+    "region": "Persia (Rayy e Isfahán)",
+    "escuela": "Ética filosófica islámica",
+    "categorias": [
+      "etica",
+      "sociedad"
+    ],
+    "conocidoPor": "Filósofo persa que escribió el gran tratado de [[ética|etica]] «Refinamiento del carácter»",
+    "resumen": "Miskawayh fue historiador y filósofo en la corte de Persia. Escribió un famoso libro sobre cómo mejorar el carácter. Mezcló ideas de Platón, Aristóteles y del islam. Fue también bibliotecario de un visir.",
+    "ideas": [
+      "El carácter se puede educar, como se educa un cuerpo: con práctica y hábitos.",
+      "La [[virtud]] está en el término medio: ni demasiado, ni demasiado poco.",
+      "La amistad y la vida en comunidad son necesarias para ser feliz."
+    ],
+    "curiosidad": "Fue bibliotecario del visir Ibn al-Amid, y tuvo así acceso a una gran colección de libros.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Tahdhib al-akhlaq (Refinamiento del carácter)",
+        "anio": "",
+        "deQueVa": "Cómo se forma el carácter y cómo corregir los defectos."
+      },
+      {
+        "titulo": "Experiencias de las naciones",
+        "anio": "",
+        "deQueVa": "Historia del mundo hasta su época."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "nasir-al-din-al-tusi"
+    ]
+  },
+  {
+    "id": "abhinavagupta",
+    "nombre": "Abhinavagupta",
+    "fechas": "c. 950 – c. 1020",
+    "region": "India (Cachemira)",
+    "escuela": "Śaivismo de Cachemira",
+    "categorias": [
+      "metafisica",
+      "estetica",
+      "mente"
+    ],
+    "conocidoPor": "Gran pensador de Cachemira que unió [[mística|mistica]] y teoría del arte y de las emociones",
+    "resumen": "Abhinavagupta vivió en Cachemira y fue un maestro de la mística, la filosofía y la teoría del arte. Escribió sobre cómo la conciencia y el mundo forman una sola realidad. También explicó por qué el teatro y la poesía nos conmueven.",
+    "ideas": [
+      "Todo es conciencia divina, y el mundo es su manifestación, no una ilusión.",
+      "Cuando vemos una obra, sentimos las emociones sin quedar atrapados en ellas, como una experiencia compartida: es la teoría del «rasa».",
+      "Reconocerse como parte de lo divino, es decir, «reconocer» quién eres, es la forma de liberarse."
+    ],
+    "curiosidad": "La tradición cuenta que, al final de su vida, entró en una cueva con muchos discípulos y no volvió a salir.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Tantrāloka («Luz sobre el tantra»)",
+        "anio": "",
+        "deQueVa": "Gran resumen de su filosofía y prácticas espirituales."
+      },
+      {
+        "titulo": "Abhinavabhāratī",
+        "anio": "",
+        "deQueVa": "Comentario sobre un antiguo tratado de teatro, base de su teoría estética."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "ibn-hazm",
+    "nombre": "Ibn Hazm de Córdoba",
+    "fechas": "994 – 1064",
+    "region": "al-Ándalus (Córdoba)",
+    "escuela": "Escuela zahirí",
+    "categorias": [
+      "religion",
+      "etica",
+      "logica"
+    ],
+    "conocidoPor": "Sabio cordobés autor de «El collar de la paloma» y de un estudio comparado de religiones",
+    "resumen": "Ibn Hazm nació en Córdoba, entonces capital de al-Ándalus. Fue jurista, poeta, filósofo e historiador. Su libro más popular, «El collar de la paloma», habla del amor. También escribió uno de los primeros estudios comparados de las religiones.",
+    "ideas": [
+      "Hay que entender los textos sagrados por su sentido claro y literal, sin añadir interpretaciones ocultas.",
+      "La [[lógica|logica]] es una herramienta útil para todos, creyentes o no, y sirve para razonar bien.",
+      "El amor es una fuerza real y poderosa: lo describe con ejemplos de la vida de cada día."
+    ],
+    "curiosidad": "Sus libros fueron quemados en público en Sevilla, por orden de un gobernante.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El collar de la paloma",
+        "anio": "c. 1022",
+        "deQueVa": "Sobre el amor y los amantes, con historias reales."
+      },
+      {
+        "titulo": "Libro de las religiones y las sectas",
+        "anio": "",
+        "deQueVa": "Compara y critica muchas religiones y escuelas."
+      },
+      {
+        "titulo": "Los caracteres y la conducta",
+        "anio": "",
+        "deQueVa": "Sobre cómo vivir bien y controlar las pasiones."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "zhou-dunyi",
+    "nombre": "Zhou Dunyi",
+    "fechas": "1017 – 1073",
+    "region": "China",
+    "escuela": "Neoconfucianismo",
+    "categorias": [
+      "metafisica",
+      "etica"
+    ],
+    "conocidoPor": "Iniciador del neoconfucianismo con su dibujo del Taiji, el origen y orden de todo",
+    "resumen": "Zhou Dunyi fue un funcionario y pensador de la dinastía Song. Se le considera el inicio del [[neoconfucianismo]], que renovó el confucianismo con ideas sobre cómo está hecho el universo. Su «Explicación del diagrama del Taiji» cuenta cómo de un principio único surge todo.",
+    "ideas": [
+      "Del Taiji, que se suele traducir como «el supremo extremo», nacen el yin y el yang, y de ellos, todas las cosas.",
+      "El ser humano recibe lo mejor de las fuerzas del cosmos y puede cultivar un carácter tranquilo y justo.",
+      "La buena persona es como el loto: crece en el barro y no se mancha."
+    ],
+    "curiosidad": "Escribió un famoso elogio del loto, que tomó como símbolo de la persona íntegra.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Explicación del diagrama del Taiji",
+        "anio": "",
+        "deQueVa": "Breve texto que describe cómo surge el universo, del Taiji al ser humano."
+      },
+      {
+        "titulo": "Tongshu («Comprender el Libro de los cambios»)",
+        "anio": "",
+        "deQueVa": "Reflexiones sobre ética y sabiduría."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "zhu-xi"
+    ]
+  },
+  {
+    "id": "michael-psellos",
+    "nombre": "Miguel Pselo",
+    "fechas": "1018 – c. 1078",
+    "region": "Bizancio",
+    "escuela": "Platonismo bizantino",
+    "categorias": [
+      "conocimiento",
+      "religion",
+      "logica"
+    ],
+    "conocidoPor": "Sabio bizantino, consejero de emperadores, que renovó el estudio de Platón y escribió la «Cronografía»",
+    "resumen": "Miguel Pselo fue un sabio, profesor y político de Constantinopla. Sirvió a varios emperadores. Reavivó el estudio de Platón y de los neoplatónicos. Su «Cronografía» cuenta los años de los emperadores que conoció, con intrigas y retratos vivos.",
+    "ideas": [
+      "Defendió que la filosofía antigua se podía estudiar sin renunciar a la fe cristiana.",
+      "Revivió el estudio de Platón y de los [[neoplatónicos|neoplatonismo]], como Proclo, poco leídos entonces.",
+      "Pensaba que la lógica y la retórica son la base de una buena educación."
+    ],
+    "curiosidad": "Llegó a tener el título de «cónsul de los filósofos» en Constantinopla.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Cronografía",
+        "anio": "",
+        "deQueVa": "Historia de los emperadores bizantinos de su tiempo, contada por quien los conoció."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "cheng-yi",
+    "nombre": "Cheng Yi",
+    "fechas": "1033 – 1107",
+    "region": "China",
+    "escuela": "Neoconfucianismo",
+    "categorias": [
+      "metafisica",
+      "etica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Neoconfuciano que defendió que las cosas tienen un [[principio|li]] que se descubre estudiando",
+    "resumen": "Cheng Yi fue un filósofo chino de la dinastía Song y una figura clave del [[neoconfucianismo]]. Enseñó con su hermano Cheng Hao. Su idea del «li», el principio o patrón de cada cosa, fue desarrollada después por Zhu Xi.",
+    "ideas": [
+      "Cada cosa tiene un [[principio|li]], su patrón o razón de ser, y se descubre estudiando las cosas.",
+      "Hay que unir el respeto interior con el estudio para mejorar como persona.",
+      "La naturaleza humana, en el fondo, es buena."
+    ],
+    "curiosidad": "Se cuenta que dos discípulos esperaron de pie en la nieve a que se despertara de la siesta para no molestarlo. Hoy la expresión «de pie en la nieve» significa respeto por el maestro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario al Libro de los cambios (Yichuan yizhuan)",
+        "anio": "",
+        "deQueVa": "Lee el Yijing como guía moral y no como adivinación."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "zhu-xi"
+    ]
+  },
+  {
+    "id": "bahya-ibn-paquda",
+    "nombre": "Bahya ibn Paquda",
+    "fechas": "siglo XI",
+    "region": "al-Ándalus (Zaragoza)",
+    "escuela": "Filosofía judía andalusí",
+    "categorias": [
+      "etica",
+      "religion"
+    ],
+    "conocidoPor": "Autor de «Deberes de los corazones», sobre la vida interior y la [[virtud]] en el judaísmo",
+    "resumen": "Bahya ibn Paquda vivió en Zaragoza y fue juez de la comunidad judía. Escribió un libro, «Deberes de los corazones», que se lee todavía hoy. Defendió que no basta cumplir normas externas: lo importante es la vida interior.",
+    "ideas": [
+      "Además de los deberes del cuerpo, como rezar y cumplir rituales, hay deberes del corazón: confiar, ser humilde y sincero.",
+      "La razón nos lleva a creer en un único Dios.",
+      "La sencillez y la vida sobria ayudan a mejorar el espíritu."
+    ],
+    "curiosidad": "Escribió su libro en árabe, pero se tradujo al hebreo en 1161 y se hizo muy popular.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Deberes de los corazones",
+        "anio": "c. 1080",
+        "deQueVa": "Diez capítulos sobre la vida interior y la relación con Dios."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "william-of-champeaux",
+    "nombre": "Guillermo de Champeaux",
+    "fechas": "c. 1070 – 1121",
+    "region": "Francia",
+    "escuela": "Escolástica / realismo",
+    "categorias": [
+      "metafisica",
+      "logica"
+    ],
+    "conocidoPor": "Maestro de París que defendía que las ideas generales, como «hombre», existen de verdad; Abelardo lo cuestionó",
+    "resumen": "Guillermo enseñó en París, en la escuela de la catedral, y fundó el monasterio de San Víctor. Más tarde fue obispo. Participó en la gran disputa de los [[universales]]: ¿existe «el ser humano» además de cada persona concreta? Él decía que sí.",
+    "ideas": [
+      "Las ideas generales, como «hombre» o «caballo», existen de verdad y no son solo palabras.",
+      "Todas las personas comparten una misma naturaleza humana, aunque sean distintas.",
+      "Cambió de opinión tras las críticas de su alumno Abelardo."
+    ],
+    "curiosidad": "Según el propio Abelardo, que lo cuenta en sus memorias, sus preguntas lo obligaron a cambiar su teoría. Quizá exageró.",
+    "frase": null,
+    "obras": [],
+    "enlaces": [],
+    "influyeEn": [
+      "peter-abelard"
+    ]
+  },
+  {
+    "id": "judah-halevi",
+    "nombre": "Yehudá Haleví",
+    "fechas": "c. 1075 – 1141",
+    "region": "al-Ándalus",
+    "escuela": "Filosofía judía medieval",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "estetica"
+    ],
+    "conocidoPor": "Poeta y pensador andalusí que escribió el «Kuzari», defensa del judaísmo frente a la filosofía",
+    "resumen": "Yehudá Haleví fue médico y poeta en la España medieval. Su libro «Kuzari» imagina un diálogo entre un rey y un sabio judío, además de un filósofo, un cristiano y un musulmán. Defiende que la fe nace de la experiencia de un pueblo y no solo de la razón.",
+    "ideas": [
+      "El Dios de Abraham, que actúa en la historia, es distinto del Dios abstracto de los filósofos.",
+      "La verdad religiosa no se obtiene solo razonando: se vive y se transmite en una comunidad.",
+      "La tierra de Israel tiene un valor especial para el pueblo judío."
+    ],
+    "curiosidad": "El rey jázaro del libro está inspirado en una conversión real de un reino, aunque el diálogo es una ficción.",
+    "frase": {
+      "texto": "Mi corazón está en Oriente y yo estoy en el extremo de Occidente.",
+      "fuente": "Poema «Libi ba-mizrach» («Mi corazón está en Oriente»), traducción libre del hebreo"
+    },
+    "obras": [
+      {
+        "titulo": "Kuzari",
+        "anio": "c. 1140",
+        "deQueVa": "Diálogo ficticio entre un rey y un sabio sobre cuál es la religión verdadera."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "abraham-ibn-ezra",
+    "nombre": "Abraham ibn Ezra",
+    "fechas": "1089 – 1167",
+    "region": "al-Ándalus y Europa",
+    "escuela": "Filosofía judía medieval",
+    "categorias": [
+      "religion",
+      "ciencia",
+      "conocimiento"
+    ],
+    "conocidoPor": "Poeta, matemático y comentarista andalusí de la Biblia, con ideas muy adelantadas a su tiempo",
+    "resumen": "Ibn Ezra nació en Tudela y vivió viajando por Italia, Francia e Inglaterra. Era poeta, gramático, astrónomo y matemático. Escribió comentarios a la Biblia con lógica y con respeto por el texto. En algunos pasajes dejó pistas de que ciertos versos eran posteriores a Moisés.",
+    "ideas": [
+      "Para entender la Biblia hay que conocer bien la gramática y el sentido de las palabras.",
+      "Algunos pasajes parecen añadidos después de la época de Moisés, y lo insinúa con cuidado.",
+      "La astronomía y las matemáticas nos acercan a la obra de Dios."
+    ],
+    "curiosidad": "Se le atribuye un poema en que se queja de su mala suerte: si vendiera velas, el sol no se pondría nunca.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario a la Torá",
+        "anio": "",
+        "deQueVa": "Explica la Biblia con gramática y razón."
+      },
+      {
+        "titulo": "Libro del número",
+        "anio": "",
+        "deQueVa": "Introducción a las matemáticas y los números."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "hugh-of-saint-victor",
+    "nombre": "Hugo de San Víctor",
+    "fechas": "c. 1096 – 1141",
+    "region": "Francia (París)",
+    "escuela": "Escuela de San Víctor / escolástica",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "etica"
+    ],
+    "conocidoPor": "Teólogo y maestro de París que dio un plan para estudiar todo el saber y la fe",
+    "resumen": "Hugo enseñó en la abadía de San Víctor, en París, en el siglo XII. Escribió una guía para estudiar todas las ciencias, el «Didascalicon», y una gran obra de teología sobre los sacramentos. Unía el estudio y la vida espiritual.",
+    "ideas": [
+      "Hay que aprender todo, porque el conocimiento ordenado ayuda a entender la fe.",
+      "Se puede leer la Biblia en varios sentidos: historia, símbolo y vida moral.",
+      "El saber mejora a la persona, no solo la llena de datos."
+    ],
+    "curiosidad": null,
+    "frase": {
+      "texto": "Aprende todo; verás después que nada es superfluo.",
+      "fuente": "Didascalicon, libro VI (traducción libre del latín «Omnia disce, videbis postea nihil esse superfluum»)"
+    },
+    "obras": [
+      {
+        "titulo": "Didascalicon",
+        "anio": "c. 1127",
+        "deQueVa": "Guía para estudiar las artes y las ciencias y cómo leer."
+      },
+      {
+        "titulo": "Sobre los sacramentos de la fe cristiana",
+        "anio": "c. 1134",
+        "deQueVa": "Una de las primeras grandes síntesis de teología."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "peter-lombard",
+    "nombre": "Pedro Lombardo",
+    "fechas": "c. 1100 – 1160",
+    "region": "Italia y Francia",
+    "escuela": "Escolástica",
+    "categorias": [
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Autor de las «Sentencias», el manual de teología que todos los estudiantes comentaron durante siglos",
+    "resumen": "Pedro Lombardo nació en el norte de Italia y enseñó en París. Terminó siendo obispo de la ciudad. Su libro, las «Sentencias», ordena las respuestas de los grandes autores cristianos en cuatro partes. Se hizo el libro de texto obligatorio de las universidades.",
+    "ideas": [
+      "Para hacer teología hay que reunir y ordenar lo que dicen los autores más importantes.",
+      "Presentó cuatro temas: Dios, las criaturas, Cristo y las virtudes, y los sacramentos.",
+      "Fijó la lista de siete sacramentos."
+    ],
+    "curiosidad": "Tomás de Aquino, Buenaventura, Duns Escoto y Guillermo de Ockham escribieron comentarios a su libro.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Libro de las Sentencias",
+        "anio": "c. 1155",
+        "deQueVa": "Manual en cuatro libros sobre Dios, creación, Cristo y sacramentos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "thomas-aquinas",
+      "bonaventure",
+      "duns-scotus",
+      "william-of-ockham"
+    ]
+  },
+  {
+    "id": "abraham-ibn-daud",
+    "nombre": "Abraham ibn Daud",
+    "fechas": "c. 1110 – c. 1180",
+    "region": "al-Ándalus (Toledo)",
+    "escuela": "Aristotelismo judío",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "conocimiento"
+    ],
+    "conocidoPor": "Primer gran aristotélico judío: unió la fe y la filosofía de Aristóteles y Avicena",
+    "resumen": "Abraham ibn Daud vivió en Toledo. Fue historiador y filósofo. En «La fe sublime» defendió que se puede explicar la fe judía con el pensamiento de Aristóteles y de Avicena. Abrió el camino a Maimónides.",
+    "ideas": [
+      "Razón y fe pueden ir juntas, y la filosofía ayuda a entender la Biblia.",
+      "Hay un ser que existe por sí mismo y no necesita nada más, una idea tomada de Avicena.",
+      "Dios sabe todo, y aun así las personas siguen siendo libres."
+    ],
+    "curiosidad": "Escribió también un libro de historia que traza la cadena de maestros judíos hasta su época. Según la tradición, murió como mártir.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "La fe sublime",
+        "anio": "c. 1160",
+        "deQueVa": "Defiende que la filosofía y la fe judía van de la mano."
+      },
+      {
+        "titulo": "Libro de la tradición (Séfer ha-Kabalá)",
+        "anio": "c. 1161",
+        "deQueVa": "Historia de la transmisión de la enseñanza judía."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "maimonides"
+    ]
+  },
+  {
+    "id": "lu-jiuyuan",
+    "nombre": "Lu Jiuyuan",
+    "fechas": "1139 – 1193",
+    "region": "China",
+    "escuela": "Escuela de la mente (neoconfucianismo)",
+    "categorias": [
+      "conocimiento",
+      "etica",
+      "metafisica"
+    ],
+    "conocidoPor": "Neoconfuciano que defendió que el [[principio|li]] está en la propia mente",
+    "resumen": "Lu Jiuyuan fue un filósofo chino de la dinastía Song. Frente a Zhu Xi, defendía que no hace falta estudiar tantos libros para entender el [[principio|li]]. Basta con mirar la propia mente y tener buen corazón. Fue la base de la «escuela de la mente».",
+    "ideas": [
+      "El orden del mundo y el de nuestra mente son lo mismo.",
+      "Todos tenemos un corazón que sabe distinguir el bien, hay que cultivarlo.",
+      "Estudiar mucho no sirve si antes no se aclara la propia mente."
+    ],
+    "curiosidad": "Debatió con Zhu Xi en 1175 en el templo del Lago del Ganso. Fue una de las polémicas más célebres de la filosofía china.",
+    "frase": {
+      "texto": "El universo es mi mente, y mi mente es el universo.",
+      "fuente": "Atribuida a Lu Jiuyuan, recogida en sus obras (Xiangshan quanji); traducción libre. Confirmada en fuentes secundarias (原文 «宇宙便是吾心，吾心便是宇宙»)"
+    },
+    "obras": [
+      {
+        "titulo": "Obras completas (Xiangshan quanji)",
+        "anio": "",
+        "deQueVa": "Cartas y conversaciones recogidas por sus discípulos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "wang-yangming"
+    ]
+  },
+  {
+    "id": "fakhr-al-din-al-razi",
+    "nombre": "Fakhr al-Din al-Razi",
+    "fechas": "c. 1150 – 1210",
+    "region": "Persia",
+    "escuela": "Kalam asharí",
+    "categorias": [
+      "religion",
+      "conocimiento",
+      "ciencia"
+    ],
+    "conocidoPor": "Gran teólogo persa que discutió con Avicena y planteó que podría haber más de un mundo",
+    "resumen": "Al-Razi fue un teólogo y filósofo persa que escribió una gran obra de comentario del Corán. Conoció muy bien a Avicena y lo criticó con argumentos. Usó la lógica para defender la fe, y también hizo preguntas sobre el cosmos.",
+    "ideas": [
+      "Los argumentos de los filósofos, como Avicena, a veces no son tan firmes como parecen.",
+      "La razón tiene límites, aunque sirve para defender la fe.",
+      "Quizá existan otros mundos además del nuestro."
+    ],
+    "curiosidad": "Su gran comentario del Corán se llama «Mafatih al-ghayb», que significa «Las llaves de lo oculto».",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Las llaves de lo oculto (Mafatih al-ghayb)",
+        "anio": "",
+        "deQueVa": "Enorme comentario al Corán con mucha filosofía."
+      },
+      {
+        "titulo": "Las investigaciones orientales",
+        "anio": "",
+        "deQueVa": "Discute temas de lógica, física y metafísica."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "jinul",
+    "nombre": "Jinul",
+    "fechas": "1158 – 1210",
+    "region": "Corea (Goryeo)",
+    "escuela": "Seon (zen coreano)",
+    "categorias": [
+      "religion",
+      "mente"
+    ],
+    "conocidoPor": "Reformador del Seon coreano: iluminación súbita y práctica gradual",
+    "resumen": "Jinul fue un monje coreano que reformó el budismo de su país. Fundó una comunidad en el monasterio de Songgwangsa. Unió la meditación del [[zen]] con el estudio de los textos. Sostuvo que la iluminación puede llegar de golpe, pero luego hay que seguir practicando.",
+    "ideas": [
+      "Todos tenemos ya la naturaleza de Buda: la [[iluminación|iluminacion]] es darse cuenta de ello.",
+      "Tras ese despertar súbito, hace falta práctica gradual para que cambie la vida diaria.",
+      "La meditación y el estudio de los textos no se oponen, se complementan."
+    ],
+    "curiosidad": "Fundó una comunidad de práctica lejos de la capital, para buscar una vida más sencilla.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Secretos para cultivar la mente",
+        "anio": "",
+        "deQueVa": "Guía breve para entrenar la mente según el Seon."
+      },
+      {
+        "titulo": "Advertencias a los principiantes",
+        "anio": "",
+        "deQueVa": "Consejos de conducta a quienes empiezan la vida monástica."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "shinran",
+    "nombre": "Shinran",
+    "fechas": "1173 – 1263",
+    "region": "Japón",
+    "escuela": "Jōdo Shinshū (Tierra Pura)",
+    "categorias": [
+      "religion",
+      "etica",
+      "existencia"
+    ],
+    "conocidoPor": "Monje japonés que enseñó que la salvación llega por la fe y no por méritos propios",
+    "resumen": "Shinran fue un monje japonés, discípulo de Hōnen. Defendió que la salvación no se gana con esfuerzo, sino que se recibe con fe en el Buda Amida. Se casó y tuvo hijos, y se llamaba a sí mismo «ni monje ni laico». Fue desterrado por sus ideas.",
+    "ideas": [
+      "Nadie se salva por sus propios méritos: se confía en la fuerza de Amida, el «poder del otro».",
+      "Incluso las personas con grandes defectos pueden salvarse.",
+      "Se puede vivir la fe en la vida normal, sin hacerse monje."
+    ],
+    "curiosidad": "Fue enviado al exilio en 1207 y en esa época empezó a enseñar a campesinos y pescadores.",
+    "frase": {
+      "texto": "Si incluso el bueno renace en la Tierra Pura, cuánto más el malvado.",
+      "fuente": "Tannishō, cap. 3, recogida por su discípulo Yuien (traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "Kyōgyōshinshō",
+        "anio": "",
+        "deQueVa": "Su obra principal sobre enseñanza, práctica, fe y salvación."
+      },
+      {
+        "titulo": "Notas del calvo ignorante",
+        "anio": "",
+        "deQueVa": "Escrito personal con el que se presentaba con humildad."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "william-of-auvergne",
+    "nombre": "Guillermo de Auvernia",
+    "fechas": "c. 1180 – 1249",
+    "region": "Francia (París)",
+    "escuela": "Escolástica temprana",
+    "categorias": [
+      "religion",
+      "metafisica",
+      "mente"
+    ],
+    "conocidoPor": "Obispo de París que fue de los primeros en usar a Aristóteles y a Avicena en la teología cristiana",
+    "resumen": "Guillermo nació en Aurillac y fue obispo de París de 1228 a 1249. Fue de los primeros europeos en usar a Aristóteles y a Avicena para pensar la fe cristiana. Aunque los aprovechó mucho, también criticó lo que le parecía contrario a la fe.",
+    "ideas": [
+      "Dios creó el mundo en el tiempo, que no es eterno como pensaba Aristóteles.",
+      "Aprovechó la distinción de Avicena entre lo que una cosa es y el hecho de que exista.",
+      "El [[alma]] humana es individual y sigue viva tras la muerte."
+    ],
+    "curiosidad": "Fue obispo de París en el momento en que nacía la Universidad.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "El universo (De universo)",
+        "anio": "",
+        "deQueVa": "Gran obra sobre el mundo, los ángeles y las almas."
+      },
+      {
+        "titulo": "El alma (De anima)",
+        "anio": "",
+        "deQueVa": "Sobre la naturaleza del alma."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "madhvacharya",
+    "nombre": "Madhva",
+    "fechas": "siglo XIII (fechas discutidas)",
+    "region": "India",
+    "escuela": "Dvaita Vedānta",
+    "categorias": [
+      "religion",
+      "metafisica"
+    ],
+    "conocidoPor": "Fundador del Dvaita Vedānta: Dios y las almas son distintos, y el mundo es real",
+    "resumen": "Madhva fue un filósofo y maestro religioso del sur de la India. Frente a quienes decían que todo es una sola cosa, defendió que Dios, las almas y el mundo son realidades distintas. Para él, el mundo es real y no una ilusión. Su escuela se llama Dvaita, «dualismo».",
+    "ideas": [
+      "Hay cinco diferencias reales: entre Dios y el alma, Dios y la materia, las almas entre sí, el alma y la materia, y las cosas materiales entre sí.",
+      "El mundo es real y no una [[ilusión|maya]].",
+      "La devoción a Dios, Visnú, es el camino hacia la liberación."
+    ],
+    "curiosidad": "La tradición dice que fundó el templo de Krishna en Udupi, que sigue en pie.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Comentario a los Brahma Sūtra",
+        "anio": "",
+        "deQueVa": "Lee el texto clásico del Vedānta desde su dualismo."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "nasir-al-din-al-tusi",
+    "nombre": "Nasir al-Din al-Tusi",
+    "fechas": "1201 – 1274",
+    "region": "Persia",
+    "escuela": "Filosofía islámica / astronomía",
+    "categorias": [
+      "etica",
+      "ciencia",
+      "logica"
+    ],
+    "conocidoPor": "Sabio persa que escribió sobre ética, lógica y astronomía y dirigió el observatorio de Maraga",
+    "resumen": "Al-Tusi fue filósofo, matemático y astrónomo persa. Asesoró al jefe mongol Hulagu y dirigió el gran observatorio de Maraga. Escribió una famosa obra de ética en persa y trabajó en trigonometría y astronomía.",
+    "ideas": [
+      "La ética se divide en cuidar de uno mismo, de la casa y de la ciudad.",
+      "La trigonometría puede estudiarse como una ciencia propia, aparte de la astronomía.",
+      "Inventó el «par de Tusi», un truco geométrico para explicar el movimiento de los planetas."
+    ],
+    "curiosidad": "Un mecanismo igual al «par de Tusi» aparece después en la obra de Copérnico.",
+    "frase": null,
+    "obras": [
+      {
+        "titulo": "Ética nasireana",
+        "anio": "1235",
+        "deQueVa": "Tratado de ética en persa sobre cómo vivir bien, en casa y en la ciudad."
+      },
+      {
+        "titulo": "Tablas iljaníes",
+        "anio": "",
+        "deQueVa": "Tablas astronómicas hechas en el observatorio de Maraga."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": []
+  },
+  {
+    "id": "rumi",
+    "nombre": "Rumi",
+    "fechas": "1207 – 1273",
+    "region": "Persia y Anatolia",
+    "escuela": "Sufismo",
+    "categorias": [
+      "religion",
+      "existencia",
+      "estetica"
+    ],
+    "conocidoPor": "Poeta [[sufí|sufismo]] persa del amor divino y de los derviches giróvagos",
+    "resumen": "Rumi fue un poeta persa que vivió en Konya, en la actual Turquía. Sus poemas hablan del amor a Dios como un deseo de volver al origen. Se hizo maestro del [[sufismo]]. Tras él nació la orden de los mevlevíes, los «derviches giróvagos».",
+    "ideas": [
+      "El amor es el camino para acercarse a Dios, más que los argumentos.",
+      "El alma humana añora su origen, como la caña de la flauta, cortada de su cañaveral, llora separada de él.",
+      "La poesía, la música y la danza pueden abrir el corazón."
+    ],
+    "curiosidad": "Su amistad con Shams de Tabriz inspiró una enorme colección de poemas, que lleva el nombre de Shams.",
+    "frase": {
+      "texto": "Escucha la flauta de caña, cómo cuenta su historia, cómo se lamenta de la separación.",
+      "fuente": "Masnaví, libro I, primeros versos (traducción libre)"
+    },
+    "obras": [
+      {
+        "titulo": "Masnaví",
+        "anio": "",
+        "deQueVa": "Gran poema en seis libros con historias y enseñanzas sobre el amor a Dios."
+      },
+      {
+        "titulo": "Diván de Shams de Tabriz",
+        "anio": "",
+        "deQueVa": "Poemas de amor y de éxtasis dedicados a su amigo y guía."
+      },
+      {
+        "titulo": "Fihi ma fihi",
+        "anio": "",
+        "deQueVa": "Charlas del maestro con sus discípulos."
+      }
+    ],
+    "enlaces": [],
+    "influyeEn": [
+      "muhammad-iqbal"
+    ]
+  }
+]

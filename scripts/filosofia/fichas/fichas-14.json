@@ -1,0 +1,2020 @@
+[
+ {
+  "id": "graham-priest",
+  "nombre": "Graham Priest",
+  "fechas": "1948 –",
+  "region": "Reino Unido / Australia",
+  "escuela": "Lógica no clásica (dialeteísmo)",
+  "categorias": [
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que algunas contradicciones pueden ser verdaderas, con una [[lógica paraconsistente|logica-paraconsistente]]",
+  "resumen": "Es un lógico británico que ha trabajado mucho tiempo en Australia y en Nueva York. Es famoso por defender el [[dialeteísmo|dialeteismo]]: la idea de que hay unas pocas frases que son a la vez verdaderas y falsas. Suena raro, pero con ello intenta resolver [[paradojas|paradoja]] muy antiguas, como la de «esta frase es falsa».",
+  "ideas": [
+   "En la [[lógica clásica|logica-clasica]], si aceptas una sola contradicción, puedes «demostrar» cualquier cosa. Priest propone reglas distintas para que una contradicción no lo rompa todo.",
+   "Pone el ejemplo de la frase «esta frase es falsa»: si es verdadera, es falsa; si es falsa, es verdadera. Para él, ahí hay una contradicción de verdad.",
+   "Se interesa por el pensamiento budista y lo compara con la lógica occidental, porque algunos textos orientales aceptan contradicciones sin escándalo."
+  ],
+  "curiosidad": "Ha escrito sobre filosofía budista, en especial sobre Nagarjuna, y defiende que se pueden entender mejor algunas de sus ideas con su lógica.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "In Contradiction (En la contradicción)",
+    "anio": "1987",
+    "deQueVa": "Defiende que hay contradicciones verdaderas y explica por qué no hay que tenerles miedo."
+   },
+   {
+    "titulo": "Beyond the Limits of Thought (Más allá de los límites del pensamiento)",
+    "anio": "1995",
+    "deQueVa": "Estudia los límites de lo que podemos pensar y decir, y por qué chocamos con contradicciones."
+   },
+   {
+    "titulo": "An Introduction to Non-Classical Logic (Introducción a la lógica no clásica)",
+    "anio": "2001",
+    "deQueVa": "Manual para aprender lógicas distintas de la tradicional."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "michele-le-duff",
+  "nombre": "Michèle Le Dœuff",
+  "fechas": "1948 –",
+  "region": "Francia",
+  "escuela": "Feminismo filosófico",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Mostrar que la filosofía usa imágenes y metáforas, y que muchas veces dejó fuera a las mujeres",
+  "resumen": "Es una filósofa francesa que estudia cómo se hace la filosofía y quién puede hacerla. Dice que los filósofos presumen de usar solo la [[razón|razon]], pero llenan sus libros de imágenes y cuentos. También analiza cómo se ha mantenido a las mujeres fuera del saber.",
+  "ideas": [
+   "Los grandes libros de filosofía están llenos de [[metáforas|metafora]] (islas, barcos, caminos, sombras) aunque digan que solo usan ideas puras.",
+   "A las mujeres se les ha permitido, como mucho, ser ayudantes o discípulas de los filósofos, pero casi nunca ser maestras.",
+   "Pensar bien no es solo tener ideas: depende también de quién tiene derecho a estudiar, a hablar y a que le hagan caso."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "L'imaginaire philosophique (El imaginario filosófico)",
+    "anio": "1980",
+    "deQueVa": "Analiza las imágenes y las metáforas que usan los filósofos, aunque digan que no las necesitan."
+   },
+   {
+    "titulo": "El estudio y la rueca",
+    "anio": "1989",
+    "deQueVa": "Cuenta cómo las mujeres han sido apartadas de la filosofía y cómo se han abierto camino."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "patricia-hill-collins",
+  "nombre": "Patricia Hill Collins",
+  "fechas": "1948 –",
+  "region": "Estados Unidos",
+  "escuela": "Pensamiento feminista negro",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Pensar la vida de las mujeres negras con la [[matriz de dominación|matriz-de-dominacion]] y el feminismo negro",
+  "resumen": "Es una socióloga y pensadora estadounidense. Su libro «Pensamiento feminista negro» explica que las mujeres negras han creado su propio saber a partir de su vida diaria. Fue la primera mujer negra presidenta de la Asociación Americana de Sociología, en 2009.",
+  "ideas": [
+   "El saber no solo sale de las universidades: las mujeres negras han construido ideas importantes en la familia, la iglesia, la música y el trabajo.",
+   "Con la [[matriz de dominación|matriz-de-dominacion]] explica que el racismo, el machismo y la pobreza no se suman sin más: forman una red que funciona a la vez.",
+   "Según ella, una misma persona puede sufrir discriminación en un lugar y tener privilegios en otro, y hay que mirar las dos cosas."
+  ],
+  "curiosidad": "Fue la primera mujer negra en presidir la Asociación Americana de Sociología, en 2009.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Black Feminist Thought (Pensamiento feminista negro)",
+    "anio": "1990",
+    "deQueVa": "Explica el saber propio de las mujeres negras y cómo piensan el poder."
+   },
+   {
+    "titulo": "Black Sexual Politics",
+    "anio": "2004",
+    "deQueVa": "Analiza el racismo y la sexualidad en la cultura de Estados Unidos."
+   },
+   {
+    "titulo": "From Black Power to Hip Hop",
+    "anio": "2006",
+    "deQueVa": "Estudia el racismo, el nacionalismo y el feminismo en la cultura negra."
+   },
+   {
+    "titulo": "On Intellectual Activism",
+    "anio": "2013",
+    "deQueVa": "Reflexiona sobre cómo unir el pensamiento y la lucha social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "kimberle-crenshaw"
+  ]
+ },
+ {
+  "id": "isabelle-stengers",
+  "nombre": "Isabelle Stengers",
+  "fechas": "1949 –",
+  "region": "Bélgica",
+  "escuela": "Filosofía de la ciencia / Filosofía del proceso",
+  "categorias": [
+   "ciencia",
+   "metafisica",
+   "politica"
+  ],
+  "conocidoPor": "Preguntar cómo debería la ciencia convivir con otros saberes, y leer a Whitehead",
+  "resumen": "Es una filósofa belga de la ciencia que empezó estudiando química. Escribió con el químico Ilya Prigogine «La nueva alianza». Defiende que la ciencia debe dejar de creerse la única autoridad y aprender a escuchar a otros que también saben cosas.",
+  "ideas": [
+   "La ciencia moderna no es mala, pero a veces pretende hablar en nombre de todos y descalifica otros modos de saber, como los de los campesinos o los de los enfermos.",
+   "Propone la [[cosmopolítica|cosmopolitica]]: imaginar una forma de decidir en común donde se escuche también a quienes casi nunca se les pregunta.",
+   "Lee a Alfred North Whitehead para pensar el mundo como algo que cambia y se hace, no como un montón de cosas fijas."
+  ],
+  "curiosidad": "Se formó como química antes de dedicarse a la filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La nueva alianza (con Ilya Prigogine)",
+    "anio": "1979",
+    "deQueVa": "Defiende que la ciencia debe dialogar con el tiempo y el cambio, no solo con leyes eternas."
+   },
+   {
+    "titulo": "Cosmopolitiques (Cosmopolíticas)",
+    "anio": "1997",
+    "deQueVa": "Propone una nueva manera de relacionar la ciencia con la política."
+   },
+   {
+    "titulo": "Penser avec Whitehead (Pensar con Whitehead)",
+    "anio": "2002",
+    "deQueVa": "Una introducción personal a las ideas de Whitehead."
+   },
+   {
+    "titulo": "En tiempos de catástrofes",
+    "anio": "2009",
+    "deQueVa": "Reflexiona sobre cómo vivir la crisis ecológica sin caer en la resignación."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "vinciane-despret"
+  ]
+ },
+ {
+  "id": "gayle-rubin",
+  "nombre": "Gayle Rubin",
+  "fechas": "1949 –",
+  "region": "Estados Unidos",
+  "escuela": "Antropología feminista / Teoría queer",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Inventar el «[[sistema sexo-género|sistema-sexo-genero]]» para explicar cómo se organiza la desigualdad entre sexos",
+  "resumen": "Es una antropóloga estadounidense. Su ensayo «El tráfico de mujeres» (1975) se convirtió en un clásico del [[feminismo]]. Más tarde, en «Pensando el sexo», defendió que la sociedad castiga de forma injusta a quienes viven la sexualidad de maneras distintas.",
+  "ideas": [
+   "El sexo con el que nacemos es un hecho, pero lo que cada sociedad espera de un hombre o de una mujer lo inventa la cultura. A eso lo llama [[sistema sexo-género|sistema-sexo-genero]].",
+   "Estudia cómo en muchas sociedades se ha tratado a las mujeres como moneda de intercambio entre familias, con ejemplos de [[parentesco]].",
+   "Dice que la sociedad pone una línea entre el sexo «bueno» y el «malo», y que esa línea se usa para marginar a mucha gente."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El tráfico de mujeres: notas sobre la «economía política» del sexo",
+    "anio": "1975",
+    "deQueVa": "Explica cómo la sociedad convierte las diferencias de sexo en desigualdad."
+   },
+   {
+    "titulo": "Reflexionando sobre el sexo: notas para una teoría radical de la sexualidad",
+    "anio": "1984",
+    "deQueVa": "Analiza cómo se persigue y se estigmatiza a las sexualidades «raras» y propone otra forma de pensarlas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "judith-butler"
+  ]
+ },
+ {
+  "id": "iris-marion-young",
+  "nombre": "Iris Marion Young",
+  "fechas": "1949 – 2006",
+  "region": "Estados Unidos",
+  "escuela": "Teoría crítica / Feminismo",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Explicar la injusticia como [[opresión estructural|opresion-estructural]] y no solo como mala suerte o malas personas",
+  "resumen": "Fue una filósofa política estadounidense. Defendió que la justicia no consiste solo en repartir dinero, sino en que nadie sea dominado ni quede fuera de las decisiones. También escribió sobre cómo el cuerpo de las mujeres vive el mundo.",
+  "ideas": [
+   "La [[opresión estructural|opresion-estructural]] es la que nace de reglas y costumbres de toda la sociedad, aunque nadie en concreto tenga mala intención.",
+   "Propone cinco «caras» de la opresión: explotación, marginación, falta de poder, imperialismo cultural y violencia.",
+   "Cree que tratar a todos igual no basta: a veces hay que tener en cuenta las diferencias para que los grupos menos escuchados puedan participar."
+  ],
+  "curiosidad": "Murió en 2006 y su último libro, «Responsabilidad por la justicia», salió publicado después de su muerte, en 2011.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La justicia y la política de la diferencia",
+    "anio": "1990",
+    "deQueVa": "Critica la idea de justicia que ignora las diferencias entre grupos y explica las cinco caras de la opresión."
+   },
+   {
+    "titulo": "Inclusion and Democracy (Inclusión y democracia)",
+    "anio": "2000",
+    "deQueVa": "Defiende una democracia donde todos los grupos puedan hablar y ser oídos."
+   },
+   {
+    "titulo": "On Female Body Experience (Sobre la experiencia del cuerpo femenino)",
+    "anio": "2005",
+    "deQueVa": "Reúne ensayos sobre cómo viven las mujeres su cuerpo, como el famoso «Lanzar como una chica»."
+   },
+   {
+    "titulo": "Responsabilidad por la justicia",
+    "anio": "2011",
+    "deQueVa": "Pregunta quién debe hacerse cargo de injusticias que causamos todos sin darnos cuenta."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "axel-honneth",
+  "nombre": "Axel Honneth",
+  "fechas": "1949 –",
+  "region": "Alemania",
+  "escuela": "Teoría crítica (Escuela de Fráncfort)",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que las personas necesitan [[reconocimiento]] de los demás y que su falta produce injusticia",
+  "resumen": "Es un filósofo alemán de la tercera generación de la [[Escuela de Fráncfort|escuela-de-francfort]]. Fue ayudante de Habermas y dirigió el Instituto de Investigación Social de Fráncfort de 2001 a 2018. Sostiene que para ser alguien necesitamos que los demás nos valoren.",
+  "ideas": [
+   "Según él, lo que más sufrimos no es solo la pobreza, sino sentirnos despreciados o invisibles, como cuando nadie te toma en serio.",
+   "Distingue tres formas de reconocimiento: el amor de la familia y los amigos, el respeto de tus derechos y la valoración de lo que haces por los demás.",
+   "Para Honneth, una sociedad es más justa cuando nos permite recibir esos tres tipos de reconocimiento."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Crítica del poder",
+    "anio": "1985",
+    "deQueVa": "Repasa cómo la teoría crítica ha entendido el poder en la sociedad."
+   },
+   {
+    "titulo": "La lucha por el reconocimiento",
+    "anio": "1992",
+    "deQueVa": "Defiende que los conflictos sociales nacen de la falta de respeto y de reconocimiento."
+   },
+   {
+    "titulo": "Reificación",
+    "anio": "2005",
+    "deQueVa": "Estudia cómo tratamos a las personas como si fueran cosas."
+   },
+   {
+    "titulo": "El derecho de la libertad",
+    "anio": "2011",
+    "deQueVa": "Analiza qué significa ser libre en las sociedades modernas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "rahel-jaeggi"
+  ]
+ },
+ {
+  "id": "silvia-rivera-cusicanqui",
+  "nombre": "Silvia Rivera Cusicanqui",
+  "fechas": "1949 –",
+  "region": "Bolivia",
+  "escuela": "Pensamiento descolonial andino",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Pensar la mezcla andina con lo [[ch'ixi|chixi]] y criticar el colonialismo que sigue vivo",
+  "resumen": "Es una socióloga e historiadora boliviana que trabaja con comunidades aimaras y quechuas. Es famosa por ideas como lo ch'ixi y por su crítica de las universidades que copian el pensamiento de Europa. Cree que el saber se hace también en la calle, en las imágenes y en la vida comunitaria.",
+  "ideas": [
+   "Lo [[ch'ixi|chixi]] es una mezcla que no se funde: como el gris de puntos blancos y negros que siguen siendo distintos. Así ve ella la convivencia de lo indígena y lo europeo en Bolivia.",
+   "Critica el [[colonialismo]] que sigue vivo aunque los países sean independientes, por ejemplo cuando se desprecia lo indígena.",
+   "Defiende que se puede pensar con imágenes, con la historia oral y con la práctica, y no solo con libros académicos."
+  ],
+  "curiosidad": "Fue una de las fundadoras del Taller de Historia Oral Andina (THOA), en Bolivia.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Oprimidos pero no vencidos",
+    "anio": "1984",
+    "deQueVa": "Historia de las luchas de los pueblos aimara y quechua en Bolivia."
+   },
+   {
+    "titulo": "Ch'ixinakax utxiwa",
+    "anio": "2010",
+    "deQueVa": "Una reflexión sobre prácticas y discursos que quieren descolonizar de verdad."
+   },
+   {
+    "titulo": "Sociología de la imagen",
+    "anio": "2015",
+    "deQueVa": "Usa imágenes para entender la historia y la sociedad andinas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "robert-brandom",
+  "nombre": "Robert Brandom",
+  "fechas": "1950 –",
+  "region": "Estados Unidos",
+  "escuela": "Filosofía analítica / Pragmatismo",
+  "categorias": [
+   "lenguaje",
+   "logica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar el significado de las palabras por las razones que damos y pedimos, con el [[inferencialismo]]",
+  "resumen": "Es un filósofo estadounidense. Defiende que hablar es como jugar a dar y pedir razones: una frase significa lo que se puede sacar de ella y lo que la apoya. Es un gran lector de Hegel y de Wilfrid Sellars, que le influyeron mucho.",
+  "ideas": [
+   "Una palabra tiene sentido por lo que se puede deducir de ella. Si dices «esto es un perro», ya estás diciendo que tiene cuatro patas y que no es un gato.",
+   "Hablar es un juego social en el que cada uno puede pedir razones y debe poder darlas.",
+   "Hegel, aunque difícil, ya había visto que pensar es algo que hacemos juntos y que va mejorando con el tiempo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Making It Explicit (Hacerlo explícito)",
+    "anio": "1994",
+    "deQueVa": "Su obra principal: explica el significado por el «juego de dar y pedir razones»."
+   },
+   {
+    "titulo": "Articulando razones",
+    "anio": "2000",
+    "deQueVa": "Introducción más corta a sus ideas."
+   },
+   {
+    "titulo": "A Spirit of Trust (Un espíritu de confianza)",
+    "anio": "2019",
+    "deQueVa": "Una lectura larga y personal de la «Fenomenología del espíritu» de Hegel."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eve-kosofsky-sedgwick",
+  "nombre": "Eve Kosofsky Sedgwick",
+  "fechas": "1950 – 2009",
+  "region": "Estados Unidos",
+  "escuela": "Teoría queer",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Mostrar cómo la idea del [[armario]] marca lo que sabemos y lo que callamos sobre la sexualidad",
+  "resumen": "Fue una teórica de la literatura y pensadora estadounidense, una de las fundadoras de la [[teoría queer|teoria-queer]]. En «Epistemología del armario» estudió cómo la división entre hetero y homosexual ha organizado la cultura moderna. Escribía con humor y con mucha emoción.",
+  "ideas": [
+   "El [[armario]] no es solo un secreto de una persona: es una forma de ocultar y saber a la vez que afecta a toda la sociedad.",
+   "La división entre homosexual y heterosexual parece natural, pero es bastante reciente en la historia y condiciona muchas otras ideas.",
+   "Pensar no es solo razonar: las emociones, el cuerpo y el tacto también son maneras de conocer."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Between Men (Entre hombres)",
+    "anio": "1985",
+    "deQueVa": "Estudia la amistad masculina y el deseo en la literatura inglesa."
+   },
+   {
+    "titulo": "Epistemología del armario",
+    "anio": "1990",
+    "deQueVa": "Analiza cómo la oposición hetero/homosexual organiza la cultura occidental."
+   },
+   {
+    "titulo": "Touching Feeling (Tocar y sentir)",
+    "anio": "2003",
+    "deQueVa": "Reflexiona sobre las emociones y el tacto como modos de conocer."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "sara-ahmed"
+  ]
+ },
+ {
+  "id": "roberto-esposito",
+  "nombre": "Roberto Esposito",
+  "fechas": "1950 –",
+  "region": "Italia",
+  "escuela": "Biopolítica italiana",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Relacionar [[comunidad|comunidad-esposito]] e inmunidad, y pensar la [[biopolítica|biopolitica]]",
+  "resumen": "Es un filósofo italiano nacido en Nápoles. Piensa por qué las sociedades se protegen de lo que viene de fuera, igual que el cuerpo se defiende de los virus. Su obra sirve para entender temas como la salud pública, las fronteras y el miedo al otro.",
+  "ideas": [
+   "En latín, comunidad (communitas) comparte raíz con «deber» o «regalo»: estar en común es tener una carga hacia los demás, no solo compartir cosas.",
+   "Con [[inmunidad|inmunitas]] habla de cómo las sociedades se protegen del contagio y del extraño, como un cuerpo que se defiende.",
+   "El problema surge cuando la defensa es tan fuerte que acaba destruyendo la comunidad que quería proteger, igual que un cuerpo que se ataca a sí mismo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Communitas",
+    "anio": "1998",
+    "deQueVa": "Piensa qué significa «estar en comunidad» a partir del significado de la palabra."
+   },
+   {
+    "titulo": "Immunitas",
+    "anio": "2002",
+    "deQueVa": "Compara la protección de las sociedades con el sistema inmunitario del cuerpo."
+   },
+   {
+    "titulo": "Bíos",
+    "anio": "2004",
+    "deQueVa": "Estudia cómo el poder se ocupa de la vida y de los cuerpos."
+   },
+   {
+    "titulo": "Tercera persona",
+    "anio": "2007",
+    "deQueVa": "Critica pensar a las personas como si fueran solo «sujetos» o solo «cosas»."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "linda-tuhiwai-smith",
+  "nombre": "Linda Tuhiwai Smith",
+  "fechas": "1950 –",
+  "region": "Nueva Zelanda (pueblo maorí)",
+  "escuela": "Estudios indígenas / Descolonización",
+  "categorias": [
+   "conocimiento",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Preguntar quién investiga a los pueblos indígenas y proponer investigar de otra manera, sin dañarlos",
+  "resumen": "Es una investigadora maorí de Nueva Zelanda, experta en educación. Su libro «Decolonizing Methodologies» muestra que la investigación científica ha sido muchas veces una forma de [[colonialismo]]: los pueblos estudiados no decidían nada. Propone que los pueblos indígenas investiguen sus propios temas con sus propios saberes.",
+  "ideas": [
+   "En muchos pueblos indígenas, la palabra «investigación» recuerda a gente que llegó, tomó datos y se fue sin devolver nada.",
+   "Se pueden hacer estudios que respeten a las comunidades, que les pregunten y que les sirvan a ellas.",
+   "Los saberes indígenas son conocimiento válido, no solo «creencias» o «tradiciones»."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Decolonizing Methodologies (Descolonizar las metodologías)",
+    "anio": "1999",
+    "deQueVa": "Explica cómo la investigación occidental trató a los pueblos indígenas y cómo hacerlo mejor."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "mauricio-beuchot",
+  "nombre": "Mauricio Beuchot",
+  "fechas": "1950 –",
+  "region": "México",
+  "escuela": "Hermenéutica analógica",
+  "categorias": [
+   "lenguaje",
+   "conocimiento",
+   "etica"
+  ],
+  "conocidoPor": "Crear la [[hermenéutica analógica|hermeneutica-analogica]]: interpretar sin creer en una sola verdad ni en infinitas",
+  "resumen": "Es un filósofo mexicano, sacerdote dominico y profesor de la UNAM. Estudia la historia de la filosofía en México y propone una forma de interpretar los textos y la vida que busca un punto medio. Es muy conocido en el mundo hispano.",
+  "ideas": [
+   "Hay dos extremos al interpretar: pensar que solo hay una interpretación correcta o pensar que todas valen igual. Él busca el término medio.",
+   "La [[analogía|analogia]] es parecerse sin ser idéntico: como un hermano que se parece a otro pero no es igual. Con ese criterio se puede comparar interpretaciones.",
+   "Esa manera de interpretar sirve para la ética, el derecho y los derechos humanos: reconocer diferencias sin caer en el «todo vale»."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado de hermenéutica analógica",
+    "anio": "1997",
+    "deQueVa": "Expone su propuesta para interpretar textos sin caer en los extremos."
+   },
+   {
+    "titulo": "Historia de la filosofía en el México colonial",
+    "anio": "1996",
+    "deQueVa": "Cuenta cómo se hizo filosofía en México en la época colonial."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "lorraine-daston",
+  "nombre": "Lorraine Daston",
+  "fechas": "1951 –",
+  "region": "Estados Unidos / Alemania",
+  "escuela": "Historia y filosofía de la ciencia",
+  "categorias": [
+   "ciencia",
+   "conocimiento"
+  ],
+  "conocidoPor": "Contar la historia de ideas científicas como la [[objetividad]] y cómo han cambiado con el tiempo",
+  "resumen": "Es una historiadora de la ciencia estadounidense que dirigió el Instituto Max Planck para la Historia de la Ciencia, en Berlín. Muestra que ideas que damos por eternas, como «ser objetivo», tienen una historia y han significado cosas distintas según la época.",
+  "ideas": [
+   "Ser [[objetivo|objetividad]] no siempre significó lo mismo: en el siglo XIX los científicos empezaron a intentar «borrar» su propia opinión al dibujar o medir.",
+   "Las reglas, los atlas y las tablas que usan los científicos son herramientas con una historia, no verdades caídas del cielo.",
+   "Hubo épocas en que la curiosidad y lo maravilloso se consideraban parte de la ciencia, y otras en que se miraban con sospecha."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Classical Probability in the Enlightenment (La probabilidad clásica en la Ilustración)",
+    "anio": "1988",
+    "deQueVa": "Historia de cómo nació la idea de probabilidad."
+   },
+   {
+    "titulo": "Wonders and the Order of Nature (Maravillas y el orden de la naturaleza, con Katharine Park)",
+    "anio": "1998",
+    "deQueVa": "Cuenta cómo se veían los prodigios y lo extraño en la ciencia antigua."
+   },
+   {
+    "titulo": "Objectivity (Objetividad, con Peter Galison)",
+    "anio": "2007",
+    "deQueVa": "Historia de cómo la objetividad se volvió el ideal de la ciencia."
+   },
+   {
+    "titulo": "Rules: A Short History of What We Live By (Reglas)",
+    "anio": "2022",
+    "deQueVa": "Una historia corta de las reglas que seguimos en la vida."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "charles-w-mills",
+  "nombre": "Charles W. Mills",
+  "fechas": "1951 – 2021",
+  "region": "Jamaica / Estados Unidos",
+  "escuela": "Filosofía política / Teoría crítica de la raza",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Mostrar que la teoría del [[contrato social|contrato-social]] escondía un [[contrato racial|contrato-racial]] a favor de los blancos",
+  "resumen": "Fue un filósofo nacido en Londres y criado en Jamaica, que trabajó en Estados Unidos. En «El contrato racial» mostró que la gran filosofía política europea hablaba de «todos los hombres», pero en la práctica dejaba fuera a muchas personas por su raza. Eso cambió el modo de estudiar la justicia.",
+  "ideas": [
+   "El [[contrato social|contrato-social]] (la idea de que la sociedad nace de un pacto entre iguales) no incluía de verdad a todos.",
+   "Según él, existió un [[contrato racial|contrato-racial]] oculto: reglas no escritas que trataban a las personas no blancas como inferiores.",
+   "Propone una teoría de la justicia que parta de cómo es el mundo de verdad, con su racismo, y no de un mundo ideal."
+  ],
+  "curiosidad": "Nació en Londres y se crió en Jamaica, y se doctoró en Toronto. Al morir daba clases en la City University de Nueva York.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El contrato racial",
+    "anio": "1997",
+    "deQueVa": "Muestra que la teoría política europea escondía un pacto a favor de los blancos."
+   },
+   {
+    "titulo": "Blackness Visible (Negritud visible)",
+    "anio": "1998",
+    "deQueVa": "Ensayos sobre raza y filosofía."
+   },
+   {
+    "titulo": "Black Rights/White Wrongs (Derechos de los negros, errores de los blancos)",
+    "anio": "2017",
+    "deQueVa": "Defiende un liberalismo que reconozca el racismo y lo corrija."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "eduardo-viveiros-de-castro",
+  "nombre": "Eduardo Viveiros de Castro",
+  "fechas": "1951 –",
+  "region": "Brasil",
+  "escuela": "Antropología / Perspectivismo amerindio",
+  "categorias": [
+   "metafisica",
+   "sociedad",
+   "mente"
+  ],
+  "conocidoPor": "Explicar el [[perspectivismo]] amerindio: para muchos pueblos de la Amazonía, los animales se ven como personas",
+  "resumen": "Es un antropólogo brasileño. Estudió a pueblos amazónicos, como los araweté, y propuso ideas que sacuden la filosofía occidental. Dice que debemos tomar en serio cómo piensan esos pueblos, y no tratarlos como simples «creencias».",
+  "ideas": [
+   "En varias cosmologías de la Amazonía, cada ser (jaguar, pecarí, persona) se ve a sí mismo como persona y ve a los demás como presas o depredadores.",
+   "Un ejemplo muy citado: lo que para nosotros es sangre, para el jaguar es cerveza de mandioca. Cambia el cuerpo, cambia el modo de ver el mundo.",
+   "Defiende que la antropología debe aprender de los pueblos y no solo explicarlos, y a eso se le llama «giro ontológico»."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Araweté: os deuses canibais (Araweté: los dioses caníbales)",
+    "anio": "1986",
+    "deQueVa": "Estudio sobre los araweté, un pueblo amazónico, y su idea de la guerra y la divinidad."
+   },
+   {
+    "titulo": "Metafísicas caníbales",
+    "anio": "2009",
+    "deQueVa": "Resume el perspectivismo amerindio y su reto para el pensamiento occidental."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "christine-korsgaard",
+  "nombre": "Christine Korsgaard",
+  "fechas": "1952 –",
+  "region": "Estados Unidos",
+  "escuela": "Kantismo contemporáneo",
+  "categorias": [
+   "etica"
+  ],
+  "conocidoPor": "Explicar por qué las normas morales nos obligan, a partir de quiénes decidimos ser",
+  "resumen": "Es una filósofa estadounidense, discípula de John Rawls y profesora en Harvard. Continúa la tradición de Kant. Escribió sobre por qué debemos ser morales y, más tarde, sobre cómo debemos tratar a los animales.",
+  "ideas": [
+   "Cada persona tiene una [[identidad práctica|identidad-practica]]: lo que cree que es y quiere ser. Si la traicionas, sientes que dejas de ser tú.",
+   "Las [[normas|normatividad]] morales nos obligan porque somos seres que piensan y deciden qué hacer, y necesitamos razones para actuar.",
+   "En «Fellow Creatures» defiende que los animales importan moralmente por sí mismos y no solo como medios para nuestros fines."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Creating the Kingdom of Ends (Creando el reino de los fines)",
+    "anio": "1996",
+    "deQueVa": "Ensayos sobre la ética de Kant."
+   },
+   {
+    "titulo": "Las fuentes de la normatividad",
+    "anio": "1996",
+    "deQueVa": "Busca de dónde sacan su fuerza las obligaciones morales."
+   },
+   {
+    "titulo": "Self-Constitution (Autoconstitución)",
+    "anio": "2009",
+    "deQueVa": "Dice que actuando nos «construimos» como personas."
+   },
+   {
+    "titulo": "Fellow Creatures (Criaturas compañeras)",
+    "anio": "2018",
+    "deQueVa": "Defiende que los animales tienen valor moral propio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bernard-stiegler",
+  "nombre": "Bernard Stiegler",
+  "fechas": "1952 – 2020",
+  "region": "Francia",
+  "escuela": "Filosofía de la técnica",
+  "categorias": [
+   "metafisica",
+   "sociedad",
+   "mente"
+  ],
+  "conocidoPor": "Pensar la técnica como parte de lo humano y criticar la [[proletarización|proletarizacion]] de nuestros saberes",
+  "resumen": "Fue un filósofo francés que estudió cómo la técnica (herramientas, escritura, pantallas) ha formado la memoria y la vida de los humanos. Alertó de que las tecnologías digitales pueden quitarnos habilidades y atención. Aun así, pensaba que se podían usar para cuidar y no para dominar.",
+  "ideas": [
+   "Los humanos no existimos primero y luego inventamos herramientas: nos hemos hecho humanos con ellas, como la escritura, que guarda la memoria fuera del cuerpo.",
+   "Veía la técnica como un [[fármaco|farmaco]]: puede ser veneno y remedio a la vez, como un medicamento que depende de la dosis.",
+   "La [[proletarización|proletarizacion]] es perder el saber hacer por culpa de las máquinas: por ejemplo, ya no sabemos orientarnos sin el GPS."
+  ],
+  "curiosidad": "Empezó a estudiar filosofía en la cárcel, donde cumplió condena de 1978 a 1983 por atraco a mano armada, y luego se hizo filósofo profesional.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La técnica y el tiempo",
+    "anio": "1994",
+    "deQueVa": "Serie de libros donde defiende que la técnica es parte esencial de lo humano."
+   },
+   {
+    "titulo": "Miseria simbólica",
+    "anio": "2004",
+    "deQueVa": "Analiza cómo la industria cultural empobrece la vida de la gente."
+   },
+   {
+    "titulo": "Réenchanter le monde (Reencantar el mundo)",
+    "anio": "2006",
+    "deQueVa": "Propone usar el pensamiento contra el populismo industrial."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "elizabeth-grosz",
+  "nombre": "Elizabeth Grosz",
+  "fechas": "1952 –",
+  "region": "Australia / Estados Unidos",
+  "escuela": "Feminismo de la diferencia sexual / Materialismo",
+  "categorias": [
+   "sociedad",
+   "metafisica",
+   "mente"
+  ],
+  "conocidoPor": "Poner el cuerpo en el centro del pensamiento y del [[feminismo]], y pensar el tiempo y la vida",
+  "resumen": "Es una filósofa feminista australiana. Piensa cómo vivimos en cuerpos concretos, y cómo la filosofía tradicional los ha ignorado. También escribió sobre el tiempo, el arte y la evolución, con ideas de Darwin y Bergson.",
+  "ideas": [
+   "La filosofía ha tratado a la mente como lo importante y al cuerpo como un estorbo, y eso ha perjudicado sobre todo a las mujeres, asociadas al cuerpo.",
+   "El cuerpo no es una cosa fija: se hace y se transforma con la cultura, como un recipiente que cambia de forma.",
+   "Piensa el tiempo y la vida como algo abierto, que siempre puede producir novedad."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Volatile Bodies (Cuerpos volátiles)",
+    "anio": "1994",
+    "deQueVa": "Replantea cómo se piensa el cuerpo desde el feminismo y la filosofía."
+   },
+   {
+    "titulo": "Space, Time, and Perversion (Espacio, tiempo y perversión)",
+    "anio": "1995",
+    "deQueVa": "Ensayos sobre el cuerpo, el espacio y el deseo."
+   },
+   {
+    "titulo": "The Nick of Time (El instante justo)",
+    "anio": "2004",
+    "deQueVa": "Piensa el tiempo y la vida con Darwin, Nietzsche y Bergson."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "ailton-krenak",
+  "nombre": "Ailton Krenak",
+  "fechas": "1953 –",
+  "region": "Brasil (pueblo krenak)",
+  "escuela": "Pensamiento indígena",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que los humanos no somos dueños de la naturaleza y que podemos «postergar el fin del mundo»",
+  "resumen": "Es un líder y pensador indígena brasileño del pueblo krenak. Es conocido por defender los derechos de los pueblos indígenas y por criticar la idea de que los humanos están separados de la naturaleza. Sus libros son breves y se leen como conversaciones.",
+  "ideas": [
+   "Critica la idea de «humanidad» como algo aparte de la Tierra: para muchos pueblos, el río, la montaña y el bosque son parte de la familia.",
+   "Dice que el modelo de «progreso» que arrasa los bosques lleva a muchos al desastre, y que otras formas de vivir pueden retrasar ese final.",
+   "Cree que contar historias y soñar son formas de cuidar el mundo."
+  ],
+  "curiosidad": "En 1987, durante la Asamblea Constituyente de Brasil, se pintó la cara con tinta negra de jenipapo mientras hablaba en defensa de los derechos indígenas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Ideas para postergar el fin del mundo",
+    "anio": "2019",
+    "deQueVa": "Breves charlas sobre la relación de los humanos con la Tierra."
+   },
+   {
+    "titulo": "O amanhã não está à venda (El mañana no está en venta)",
+    "anio": "2020",
+    "deQueVa": "Reflexiones sobre el futuro y la pandemia."
+   },
+   {
+    "titulo": "A vida não é útil (La vida no es útil)",
+    "anio": "2020",
+    "deQueVa": "Ensayos sobre cómo vivir sin medir todo por su utilidad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "anita-l-allen",
+  "nombre": "Anita L. Allen",
+  "fechas": "1953 –",
+  "region": "Estados Unidos",
+  "escuela": "Ética aplicada / Filosofía del derecho",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Estudiar por qué la [[privacidad]] importa, sobre todo para las mujeres y en la era digital",
+  "resumen": "Es una filósofa y jurista estadounidense, profesora en la Universidad de Pensilvania. Se ha dedicado a la ética de la privacidad: qué datos o espacios deberían ser solo nuestros y por qué. Formó parte de una comisión de bioética del presidente Obama.",
+  "ideas": [
+   "La privacidad es un bien para poder ser libres: sin un espacio propio es difícil pensar, equivocarse o ser uno mismo.",
+   "Hay que cuidar la privacidad de todos, también la de las mujeres, que muchas veces han tenido menos espacio propio.",
+   "No siempre se puede tener privacidad total, y hay que pensar cuándo es justo protegerla y cuándo no."
+  ],
+  "curiosidad": "Formó parte de la Comisión Presidencial para el Estudio de Asuntos Bioéticos durante el gobierno de Obama.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Uneasy Access (Acceso incómodo)",
+    "anio": "1988",
+    "deQueVa": "Defiende que la privacidad es clave para la libertad de las mujeres."
+   },
+   {
+    "titulo": "Why Privacy Isn't Everything (Por qué la privacidad no lo es todo)",
+    "anio": "2003",
+    "deQueVa": "Analiza los límites de la privacidad."
+   },
+   {
+    "titulo": "Unpopular Privacy (Privacidad impopular)",
+    "anio": "2011",
+    "deQueVa": "Defiende proteger la privacidad incluso cuando mucha gente no la valora."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "rosi-braidotti",
+  "nombre": "Rosi Braidotti",
+  "fechas": "1954 –",
+  "region": "Italia / Países Bajos",
+  "escuela": "Posthumanismo / Feminismo",
+  "categorias": [
+   "sociedad",
+   "metafisica",
+   "etica"
+  ],
+  "conocidoPor": "Repensar lo humano con el [[posthumanismo]] y la idea del sujeto «nómada»",
+  "resumen": "Es una filósofa italiana, criada en Australia y profesora en la Universidad de Utrecht, en los Países Bajos. Es conocida por su filosofía feminista y por su pensamiento sobre el [[posthumanismo]]. Pregunta qué significa ser humano en un mundo con tecnología, animales y planeta en crisis.",
+  "ideas": [
+   "Las personas somos «nómadas»: nuestra identidad no es fija, cambia con lo que vivimos y con los lugares por los que pasamos.",
+   "La idea de «el hombre» como medida de todo ha dejado fuera a mujeres, animales y otros pueblos.",
+   "Propone una ética en la que humanos, animales, máquinas y naturaleza forman parte del mismo mundo."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Nomadic Subjects (Sujetos nómadas)",
+    "anio": "1994",
+    "deQueVa": "Defiende una identidad móvil, sin fronteras rígidas."
+   },
+   {
+    "titulo": "Metamorphoses (Metamorfosis)",
+    "anio": "2002",
+    "deQueVa": "Piensa el cambio y el devenir con ideas de Deleuze y del feminismo."
+   },
+   {
+    "titulo": "Lo posthumano",
+    "anio": "2013",
+    "deQueVa": "Explica qué significa dejar atrás la idea clásica del ser humano."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "timothy-williamson",
+  "nombre": "Timothy Williamson",
+  "fechas": "1955 –",
+  "region": "Reino Unido",
+  "escuela": "Filosofía analítica",
+  "categorias": [
+   "conocimiento",
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que conocer es un estado básico de la mente y que la [[vaguedad]] esconde límites exactos que no vemos",
+  "resumen": "Es un filósofo británico nacido en Suecia, durante años catedrático de Lógica en Oxford. Es famoso por sus ideas sobre el conocimiento y sobre las palabras vagas como «calvo» o «montón». Su estilo es muy preciso y a veces choca con el sentido común.",
+  "ideas": [
+   "Según él, conocer no se puede definir como «creer algo verdadero con buenas razones»: conocer es un estado mental básico, que no se descompone en partes. Es el «[[conocimiento primero|conocimiento-primero]]».",
+   "Una palabra vaga es «calvo»: no sabemos cuántos pelos hacen falta para no serlo. Williamson dice que sí existe un límite exacto, pero no podemos conocerlo.",
+   "Cree que en filosofía se puede discutir con argumentos precisos, como en la ciencia."
+  ],
+  "curiosidad": "Nació en Uppsala (Suecia), pero es británico y fue catedrático Wykeham de Lógica en Oxford.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Vagueness (Vaguedad)",
+    "anio": "1994",
+    "deQueVa": "Defiende que las palabras vagas tienen límites exactos que no podemos conocer."
+   },
+   {
+    "titulo": "Knowledge and its Limits (El conocimiento y sus límites)",
+    "anio": "2000",
+    "deQueVa": "Defiende que conocer es un estado básico de la mente."
+   },
+   {
+    "titulo": "The Philosophy of Philosophy (La filosofía de la filosofía)",
+    "anio": "2007",
+    "deQueVa": "Reflexiona sobre cómo funciona el método filosófico."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sally-haslanger",
+  "nombre": "Sally Haslanger",
+  "fechas": "1955 –",
+  "region": "Estados Unidos",
+  "escuela": "Metafísica social feminista",
+  "categorias": [
+   "metafisica",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Explicar que género y raza son [[construcciones sociales|constructo-social]] y preguntar qué hacen realmente",
+  "resumen": "Es una filósofa estadounidense del MIT. Se pregunta qué son realmente cosas como «mujer», «raza» o «matrimonio», que existen porque la sociedad las ha creado. Defiende que debemos mirar qué efectos tienen esas ideas y, si hacen daño, cambiarlas.",
+  "ideas": [
+   "Género y raza no son hechos de la naturaleza: son categorías creadas por las sociedades y que ponen a unos por encima de otros.",
+   "En vez de preguntar qué significa una palabra en el uso corriente, pregunta qué debería significar para ayudar a que la sociedad sea más justa.",
+   "Dice que muchas injusticias están en las estructuras y las costumbres, y no solo en las intenciones de la gente."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Resisting Reality: Social Construction and Social Critique (Resistir a la realidad)",
+    "anio": "2012",
+    "deQueVa": "Reúne sus ensayos sobre género, raza y construcción social."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "wendy-brown",
+  "nombre": "Wendy Brown",
+  "fechas": "1955 –",
+  "region": "Estados Unidos",
+  "escuela": "Teoría política crítica",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar cómo el [[neoliberalismo]] convierte todo en mercado y debilita la democracia",
+  "resumen": "Es una teórica política estadounidense, profesora en Berkeley y luego en el Instituto de Estudios Avanzados de Princeton. Estudia cómo el [[neoliberalismo]] ha cambiado no solo la economía, sino también cómo nos vemos a nosotros mismos y a la democracia.",
+  "ideas": [
+   "Según ella, el neoliberalismo nos enseña a vernos como empresas: cada uno debe invertir en sí mismo y competir, aunque sea con sus amigos.",
+   "Cuando todo se mide con dinero, se debilita la idea de que los ciudadanos deciden juntos cómo vivir.",
+   "Observó que los países levantan muros fronterizos justo cuando el poder del Estado parece menor, como un modo de aparentar [[soberanía|soberania]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "States of Injury (Estados de agravio)",
+    "anio": "1995",
+    "deQueVa": "Critica cómo las identidades basadas en el daño pueden atrapar a los grupos."
+   },
+   {
+    "titulo": "Estados amurallados, soberanía en declive",
+    "anio": "2010",
+    "deQueVa": "Explica por qué se construyen muros entre países."
+   },
+   {
+    "titulo": "El pueblo sin atributos: la secreta revolución del neoliberalismo",
+    "anio": "2015",
+    "deQueVa": "Muestra cómo el neoliberalismo debilita la democracia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "souleymane-bachir-diagne",
+  "nombre": "Souleymane Bachir Diagne",
+  "fechas": "1955 –",
+  "region": "Senegal",
+  "escuela": "Filosofía africana / Filosofía islámica",
+  "categorias": [
+   "conocimiento",
+   "religion",
+   "logica"
+  ],
+  "conocidoPor": "Unir lógica, filosofía islámica y pensamiento africano, y defender la traducción como forma de convivir",
+  "resumen": "Es un filósofo senegalés, profesor en la Universidad de Columbia, en Nueva York. Ha escrito sobre lógica, sobre la filosofía en el mundo islámico y sobre el pensamiento africano. Defiende que ninguna cultura tiene el monopolio de la filosofía.",
+  "ideas": [
+   "Hay filosofía en África y en el mundo islámico, y hay que leerla sin pensar que Europa es la medida de todo.",
+   "Considera la traducción un modo de hospitalidad: aprender del otro sin convertirlo en lo mismo que uno.",
+   "Estudió al filósofo musulmán Muhammad Iqbal y al francés Henri Bergson para mostrar cómo dialogan culturas distintas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Boole, l'oiseau de nuit en plein jour (Boole, el pájaro nocturno a plena luz)",
+    "anio": "1989",
+    "deQueVa": "Sobre la vida y la lógica de George Boole."
+   },
+   {
+    "titulo": "Bergson postcolonial (Bergson poscolonial)",
+    "anio": "2011",
+    "deQueVa": "Cómo la filosofía de Bergson influyó en pensadores de África y del mundo islámico."
+   },
+   {
+    "titulo": "L'encre des savants (La tinta de los sabios)",
+    "anio": "2013",
+    "deQueVa": "Sobre filosofía en África y la importancia de los saberes locales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "karen-barad",
+  "nombre": "Karen Barad",
+  "fechas": "1956 –",
+  "region": "Estados Unidos",
+  "escuela": "Realismo agencial / Nuevo materialismo",
+  "categorias": [
+   "metafisica",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Proponer el [[realismo agencial|realismo-agencial]]: las cosas no existen antes de relacionarse",
+  "resumen": "Es una figura de la física y de la filosofía feminista, que se formó como física teórica. Parte de la física cuántica y de las ideas de Niels Bohr para decir que el mundo se hace en las relaciones. Su obra principal es «Meeting the Universe Halfway».",
+  "ideas": [
+   "Según su [[realismo agencial|realismo-agencial]], las cosas no existen primero y se relacionan después: nacen de sus relaciones, como el «enredo» de partículas en la física cuántica.",
+   "Los instrumentos con los que medimos y las preguntas que hacemos forman parte de lo que descubrimos, y no son neutrales.",
+   "Esa visión se usa para pensar la materia, el género y la política de forma conectada, dentro del [[nuevo materialismo|nuevo-materialismo]]."
+  ],
+  "curiosidad": "Se doctoró en física teórica de partículas antes de dedicarse a la filosofía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Meeting the Universe Halfway (Encontrar el universo a medio camino)",
+    "anio": "2007",
+    "deQueVa": "Su obra principal: une física cuántica, filosofía y feminismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "davi-kopenawa-yanomami",
+  "nombre": "Davi Kopenawa",
+  "fechas": "1956 –",
+  "region": "Brasil (pueblo yanomami)",
+  "escuela": "Cosmología yanomami",
+  "categorias": [
+   "sociedad",
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Contar la visión del mundo yanomami y avisar de que, si destruimos el bosque, «el cielo puede caer»",
+  "resumen": "Es un chamán y portavoz del pueblo yanomami, en la Amazonía de Brasil. Es una de las voces más conocidas en defensa de los pueblos indígenas y del bosque. Su libro «La caída del cielo», escrito con el antropólogo Bruce Albert, cuenta su vida y su manera de ver el mundo.",
+  "ideas": [
+   "Para los yanomami, el bosque está vivo y lleno de espíritus, los xapiri, que sostienen el mundo y que los chamanes ven en sus visiones.",
+   "Teme que, si destruimos el bosque, se rompa el sostén del cielo y caiga sobre todos, no solo sobre los yanomami.",
+   "Llama «gente de la mercancía» a quienes viven acumulando objetos y arrasan la naturaleza por dinero, y les pide que escuchen otra forma de vivir."
+  ],
+  "curiosidad": "En 2004 fundó con otros yanomamis la asociación Hutukara, que defiende los derechos de su pueblo. En 2019 recibió con ella el Right Livelihood Award, llamado el «Nobel alternativo».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La caída del cielo (con Bruce Albert)",
+    "anio": "2010",
+    "deQueVa": "Cuenta la vida de Kopenawa, la cosmología yanomami y su aviso a los blancos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "andy-clark",
+  "nombre": "Andy Clark",
+  "fechas": "1957 –",
+  "region": "Reino Unido",
+  "escuela": "Ciencia cognitiva / Filosofía de la mente",
+  "categorias": [
+   "mente",
+   "ciencia"
+  ],
+  "conocidoPor": "Defender que la mente se extiende más allá del cerebro, hasta cuadernos y móviles, y que el cerebro predice",
+  "resumen": "Es un filósofo británico de la mente. Con David Chalmers escribió el artículo «La mente extendida» (1998), que sostiene que pensamos también con lo que nos rodea. Estudia cómo el cerebro funciona como una máquina de predecir lo que va a pasar.",
+  "ideas": [
+   "La [[mente extendida|mente-extendida]] dice que una libreta o un móvil pueden ser parte de tu memoria, si los usas siempre y confías en ellos.",
+   "Según el [[procesamiento predictivo|procesamiento-predictivo]], el cerebro adivina lo que vas a ver o sentir y corrige sus errores, y así percibimos.",
+   "Dice que somos «cíborgs naturales»: siempre hemos usado herramientas para pensar mejor, desde el lenguaje hasta la tecnología."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Estar ahí",
+    "anio": "1997",
+    "deQueVa": "Defiende que pensar es algo que hacemos con el cuerpo y el entorno."
+   },
+   {
+    "titulo": "Natural-Born Cyborgs (Cíborgs naturales)",
+    "anio": "2003",
+    "deQueVa": "Dice que los humanos siempre se han fusionado con sus herramientas."
+   },
+   {
+    "titulo": "Supersizing the Mind (La mente a lo grande)",
+    "anio": "2008",
+    "deQueVa": "Desarrolla la idea de la mente extendida."
+   },
+   {
+    "titulo": "Surfing Uncertainty (Surfeando la incertidumbre)",
+    "anio": "2016",
+    "deQueVa": "Explica el cerebro como una máquina que predice."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«The Extended Mind» (La mente extendida), de Andy Clark y David Chalmers, en inglés",
+    "url": "https://consc.net/papers/extended.html",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "jane-bennett",
+  "nombre": "Jane Bennett",
+  "fechas": "1957 –",
+  "region": "Estados Unidos",
+  "escuela": "Materialismo vital / Nuevo materialismo",
+  "categorias": [
+   "metafisica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Decir que las cosas también tienen fuerza y «agencia»: el [[materialismo vital|materialismo-vital]]",
+  "resumen": "Es una teórica política estadounidense, profesora en la Universidad Johns Hopkins. Defiende que las cosas (un apagón, un residuo, la comida) también actúan y tienen efectos, y que no solo los humanos tienen poder. Su libro «Vibrant Matter» es muy conocido.",
+  "ideas": [
+   "Según su [[materialismo vital|materialismo-vital]], las cosas no son objetos inertes: tienen fuerza propia y empujan la vida de los humanos.",
+   "Un ejemplo de su libro: un guante, polen, una rata muerta y un tapón de botella, que ve tirados en una calle, forman una pequeña «escena» donde las cosas parecen actuar.",
+   "Cree que si miramos las cosas con respeto, cuidaremos más el medio ambiente."
+  ],
+  "curiosidad": "En «Vibrant Matter» analiza el gran apagón eléctrico de 2003 en Norteamérica como ejemplo de cómo una red de cosas actúa.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Enchantment of Modern Life (El encanto de la vida moderna)",
+    "anio": "2001",
+    "deQueVa": "Defiende que el mundo moderno todavía puede asombrar."
+   },
+   {
+    "titulo": "Vibrant Matter (Materia vibrante)",
+    "anio": "2010",
+    "deQueVa": "Su libro principal: defiende que las cosas tienen una fuerza propia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "oyeronke-oyewumi",
+  "nombre": "Oyèrónkẹ́ Oyěwùmí",
+  "fechas": "1957 –",
+  "region": "Nigeria (pueblo yoruba)",
+  "escuela": "Estudios de género africanos / Pensamiento descolonial",
+  "categorias": [
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Sostener que el género como lo entiende Occidente no existía en la sociedad yoruba antigua",
+  "resumen": "Es una socióloga nigeriana. En «The Invention of Women» defiende que en la sociedad yoruba tradicional lo importante era la edad y no ser hombre o mujer. Según ella, el [[feminismo]] occidental aplicó ideas europeas sobre género a otras culturas sin preguntarles.",
+  "ideas": [
+   "Dice que en la sociedad yoruba antigua la posición social dependía sobre todo de la edad, no del sexo.",
+   "Señala que la lengua yoruba no marca el género en muchos términos, y lo usa como ejemplo.",
+   "Critica que los estudios occidentales hayan impuesto sus categorías sobre género a las sociedades africanas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Invention of Women: Making an African Sense of Western Gender Discourses (La invención de las mujeres)",
+    "anio": "1997",
+    "deQueVa": "Cuestiona que el género sea una categoría universal y estudia el caso yoruba."
+   },
+   {
+    "titulo": "What Gender is Motherhood? (¿Qué género tiene la maternidad?)",
+    "anio": "2016",
+    "deQueVa": "Reflexiona sobre la maternidad y el género en África."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "vinciane-despret",
+  "nombre": "Vinciane Despret",
+  "fechas": "1959 –",
+  "region": "Bélgica",
+  "escuela": "Filosofía de la etología",
+  "categorias": [
+   "ciencia",
+   "mente",
+   "sociedad"
+  ],
+  "conocidoPor": "Pensar a los animales como seres con intenciones propias y preguntar cómo los estudian los científicos",
+  "resumen": "Es una filósofa belga que estudia cómo los científicos observan a los animales. Se pregunta cuánto de lo que vemos depende de cómo preguntamos. Defiende escuchar a los animales con curiosidad y respeto, en vez de usarlos solo como cobayas.",
+  "ideas": [
+   "La forma en que se hace un experimento influye en lo que hace el animal: una rata se comporta distinto si se la trata como una «máquina» o como un ser que entiende.",
+   "Los animales no son solo naturaleza: tienen vida propia y sus gestos pueden entenderse si prestamos atención.",
+   "Cree que la ciencia mejora cuando los investigadores se dejan sorprender por los animales."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Penser comme un rat (Pensar como una rata)",
+    "anio": "2009",
+    "deQueVa": "Cómo es trabajar con ratas de laboratorio y qué aprendemos de ellas."
+   },
+   {
+    "titulo": "Que diraient les animaux, si... on leur posait les bonnes questions? (¿Qué dirían los animales si les hiciéramos las preguntas adecuadas?)",
+    "anio": "2012",
+    "deQueVa": "Cómo cambia la ciencia cuando se pregunta mejor a los animales."
+   },
+   {
+    "titulo": "Habiter en oiseau (Habitar como un pájaro)",
+    "anio": "2019",
+    "deQueVa": "Sobre cómo los pájaros viven en su territorio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "elizabeth-s-anderson",
+  "nombre": "Elizabeth S. Anderson",
+  "fechas": "1959 –",
+  "region": "Estados Unidos",
+  "escuela": "Igualitarismo democrático / Filosofía política",
+  "categorias": [
+   "politica",
+   "etica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender el [[igualitarismo democrático|igualitarismo-democratico]]: lo importante es que nadie mande sobre otros ni quede humillado",
+  "resumen": "Es una filósofa estadounidense, profesora en la Universidad de Míchigan. Estudia qué significa la igualdad y cómo se relaciona con la economía y el trabajo. En «Private Government» (Gobierno privado) critica que muchas empresas mandan sobre sus empleados como si fueran pequeños gobiernos.",
+  "ideas": [
+   "La igualdad no es que todos tengan lo mismo, sino que todos se traten como iguales y nadie sea dominado.",
+   "Según «Private Government», muchas empresas ejercen sobre sus empleados un poder muy grande (horarios, normas, vigilancia) sin que los trabajadores puedan opinar.",
+   "Cree que la integración de grupos, como en las escuelas, es necesaria para vencer la segregación."
+  ],
+  "curiosidad": "Recibió una beca MacArthur, a veces llamada «premio de los genios», en 2019.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Value in Ethics and Economics (El valor en la ética y la economía)",
+    "anio": "1993",
+    "deQueVa": "Defiende que no todo lo valioso se puede medir en dinero."
+   },
+   {
+    "titulo": "The Imperative of Integration (El imperativo de la integración)",
+    "anio": "2010",
+    "deQueVa": "Defiende que integrar grupos es necesario para vencer la segregación racial."
+   },
+   {
+    "titulo": "Private Government (Gobierno privado)",
+    "anio": "2017",
+    "deQueVa": "Critica el poder de los jefes sobre los trabajadores."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "catherine-malabou",
+  "nombre": "Catherine Malabou",
+  "fechas": "1959 –",
+  "region": "Francia",
+  "escuela": "Filosofía contemporánea francesa",
+  "categorias": [
+   "mente",
+   "metafisica",
+   "ciencia"
+  ],
+  "conocidoPor": "Pensar la [[plasticidad cerebral|plasticidad-cerebral]]: el cerebro se transforma y no es una máquina fija",
+  "resumen": "Es una filósofa francesa, nacida en Argelia, que fue alumna de Jacques Derrida. Estudió a Hegel y después se interesó por las neurociencias. Defiende que el cerebro cambia con lo que vivimos, y que eso tiene consecuencias para entender la libertad y el trauma.",
+  "ideas": [
+   "La [[plasticidad cerebral|plasticidad-cerebral]] es la capacidad del cerebro para cambiar su forma según lo que vives, como el barro que se moldea pero también puede romperse.",
+   "Dice que no somos solo un cerebro programado: podemos cambiar, pero también podemos quedar marcados por accidentes graves o traumas.",
+   "Propone que la filosofía hable con las neurociencias sin tenerles miedo ni aceptar todo lo que dicen."
+  ],
+  "curiosidad": "Escribió su tesis con Jacques Derrida, y lo hizo sobre Hegel.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "L'avenir de Hegel (El porvenir de Hegel)",
+    "anio": "1996",
+    "deQueVa": "Relee a Hegel con la idea de plasticidad."
+   },
+   {
+    "titulo": "Que faire de notre cerveau? (¿Qué hacemos con nuestro cerebro?)",
+    "anio": "2004",
+    "deQueVa": "Explica la plasticidad del cerebro y su sentido político."
+   },
+   {
+    "titulo": "Les nouveaux blessés (Los nuevos heridos)",
+    "anio": "2007",
+    "deQueVa": "Sobre cómo cambian las personas tras daños cerebrales graves."
+   },
+   {
+    "titulo": "Ontologie de l'accident (Ontología del accidente)",
+    "anio": "2009",
+    "deQueVa": "Piensa cómo los accidentes pueden transformar a una persona."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kimberle-crenshaw",
+  "nombre": "Kimberlé Crenshaw",
+  "fechas": "1959 –",
+  "region": "Estados Unidos",
+  "escuela": "Teoría crítica de la raza / Feminismo negro",
+  "categorias": [
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Inventar el término [[interseccionalidad]] para explicar cómo se cruzan racismo y machismo",
+  "resumen": "Es una jurista y académica estadounidense. En 1989 puso nombre a la [[interseccionalidad]]: las discriminaciones no solo se suman, sino que se cruzan y producen situaciones que no se ven mirando solo el sexo o solo la raza. Es una de las figuras de la [[teoría crítica de la raza|teoria-critica-de-la-raza]].",
+  "ideas": [
+   "Una mujer negra puede sufrir una discriminación distinta de la que sufre un hombre negro o una mujer blanca, y a veces las leyes no la ven.",
+   "Su ejemplo famoso: en un caso de 1976 contra General Motors, un tribunal consideró por separado la discriminación por raza y por sexo, y las mujeres negras se quedaron sin protección.",
+   "Esta idea ayuda a mirar quién queda sin ayuda cuando solo se piensa en un tipo de discriminación a la vez."
+  ],
+  "curiosidad": "Usó la imagen de un cruce de calles, con coches que vienen de varias direcciones, para explicar la interseccionalidad.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Demarginalizing the Intersection of Race and Sex (Desmarginar la intersección de raza y sexo)",
+    "anio": "1989",
+    "deQueVa": "Artículo donde presenta la interseccionalidad con casos reales de tribunales."
+   },
+   {
+    "titulo": "Mapping the Margins (Mapeando los márgenes)",
+    "anio": "1991",
+    "deQueVa": "Amplía la idea para hablar de violencia contra las mujeres de color."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Demarginalizing the Intersection of Race and Sex» (1989), en inglés",
+    "url": "https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "will-kymlicka",
+  "nombre": "Will Kymlicka",
+  "fechas": "1962 –",
+  "region": "Canadá",
+  "escuela": "Liberalismo / Multiculturalismo",
+  "categorias": [
+   "politica",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Defender el [[multiculturalismo]] liberal: derechos para minorías culturales sin dejar de respetar la libertad individual",
+  "resumen": "Es un filósofo político canadiense. Propone que los países con varias culturas deben reconocer derechos especiales a las minorías (lengua, tierra, gobierno propio) y a la vez proteger las libertades de cada persona. Más tarde escribió sobre derechos de los animales.",
+  "ideas": [
+   "Canadá tiene el ejemplo de los pueblos indígenas y de Quebec: a veces la igualdad exige trato distinto para que una cultura pueda sobrevivir.",
+   "Distingue entre minorías que ya estaban antes de crearse el país (como los pueblos indígenas) y las que llegaron por inmigración, y cree que no necesitan lo mismo.",
+   "Con Sue Donaldson, en «Zoopolis», propone pensar a los animales como si fueran ciudadanos o vecinos con derechos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Liberalism, Community and Culture (Liberalismo, comunidad y cultura)",
+    "anio": "1989",
+    "deQueVa": "Defiende que la cultura es importante para la libertad personal."
+   },
+   {
+    "titulo": "Ciudadanía multicultural",
+    "anio": "1995",
+    "deQueVa": "Su libro principal: derechos para las minorías dentro de un país liberal."
+   },
+   {
+    "titulo": "Zoopolis (con Sue Donaldson)",
+    "anio": "2011",
+    "deQueVa": "Propone una teoría política de los derechos de los animales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "lewis-gordon",
+  "nombre": "Lewis Gordon",
+  "fechas": "1962 –",
+  "region": "Jamaica / Estados Unidos",
+  "escuela": "Existencialismo negro / Filosofía de la raza",
+  "categorias": [
+   "existencia",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Usar el [[existencialismo]] para pensar el racismo y lo que es ser una persona negra en un mundo racista",
+  "resumen": "Es un filósofo jamaicano-estadounidense, profesor en la Universidad de Connecticut. Une el existencialismo, el pensamiento negro y la filosofía de la raza. Estudia sobre todo a Frantz Fanon y a W. E. B. Du Bois.",
+  "ideas": [
+   "Con la [[mala fe|mala-fe]] de Sartre explica cómo la gente se engaña para no ver el racismo, o para fingir que no existe.",
+   "Muestra que en un mundo racista algunas personas son tratadas como si no contaran, como si fueran invisibles.",
+   "Dice que no hay que limitarse a la filosofía europea: la reflexión de pensadores negros y africanos es filosofía de pleno derecho."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Bad Faith and Antiblack Racism (Mala fe y racismo antinegro)",
+    "anio": "1995",
+    "deQueVa": "Usa la mala fe de Sartre para explicar el racismo."
+   },
+   {
+    "titulo": "Existentia Africana",
+    "anio": "2000",
+    "deQueVa": "Introducción a la filosofía africana y negra."
+   },
+   {
+    "titulo": "What Fanon Said (Lo que dijo Fanon)",
+    "anio": "2015",
+    "deQueVa": "Una introducción al pensamiento de Frantz Fanon."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alva-noe",
+  "nombre": "Alva Noë",
+  "fechas": "1964 –",
+  "region": "Estados Unidos",
+  "escuela": "Enactivismo / Filosofía de la mente",
+  "categorias": [
+   "mente",
+   "estetica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender que percibir es algo que hacemos con el cuerpo, con el [[enactivismo]], y que la mente no está solo en la cabeza",
+  "resumen": "Es un filósofo estadounidense de la percepción y del arte, profesor en la Universidad de California en Berkeley. Defiende que ver no es recibir imágenes en el cerebro, sino explorar el mundo con el cuerpo. También escribió sobre el arte como forma de entendernos.",
+  "ideas": [
+   "Según el [[enactivismo]], percibir es una acción: para sentir la forma de un objeto hay que moverse y tocarlo, como cuando exploras algo en la oscuridad.",
+   "Dice que la conciencia no está encerrada en la cabeza, sino que se produce en la relación del cuerpo con el mundo.",
+   "Cree que el arte nos enseña a mirar y a darnos cuenta de cómo percibimos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Action in Perception (Acción en la percepción)",
+    "anio": "2004",
+    "deQueVa": "Defiende que percibir es una actividad."
+   },
+   {
+    "titulo": "Out of Our Heads (Fuera de nuestras cabezas)",
+    "anio": "2009",
+    "deQueVa": "Dice que la conciencia no es un asunto solo del cerebro."
+   },
+   {
+    "titulo": "Strange Tools (Herramientas extrañas)",
+    "anio": "2015",
+    "deQueVa": "Explica el arte como actividad que nos revela cómo somos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "luciano-floridi",
+  "nombre": "Luciano Floridi",
+  "fechas": "1964 –",
+  "region": "Italia / Reino Unido",
+  "escuela": "Filosofía de la información",
+  "categorias": [
+   "ciencia",
+   "etica",
+   "metafisica"
+  ],
+  "conocidoPor": "Crear la filosofía de la información y pensar la ética de internet y de la inteligencia artificial",
+  "resumen": "Es un filósofo italiano que ha trabajado en Oxford y en Yale. Es uno de los fundadores de la filosofía de la información y de la ética digital. Piensa cómo cambian nuestra vida y nuestra idea de la realidad con internet, los datos y la IA.",
+  "ideas": [
+   "Dice que ha habido cuatro revoluciones que cambiaron cómo nos vemos: Copérnico, Darwin, Freud y la revolución digital de Turing.",
+   "La [[infosfera]] es el mundo donde vivimos: lo que hay fuera de internet y lo que hay dentro ya se mezclan, como cuando miras el móvil en la calle.",
+   "Defiende una ética para tratar bien la información y a las personas que dependen de ella."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Philosophy of Information (La filosofía de la información)",
+    "anio": "2011",
+    "deQueVa": "Establece las bases de su filosofía."
+   },
+   {
+    "titulo": "The Ethics of Information (La ética de la información)",
+    "anio": "2013",
+    "deQueVa": "Propone una ética para el mundo digital."
+   },
+   {
+    "titulo": "La cuarta revolución",
+    "anio": "2014",
+    "deQueVa": "Cuenta cómo las tecnologías de la información cambian lo que somos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "hartmut-rosa",
+  "nombre": "Hartmut Rosa",
+  "fechas": "1965 –",
+  "region": "Alemania",
+  "escuela": "Teoría crítica (Escuela de Fráncfort)",
+  "categorias": [
+   "sociedad",
+   "existencia",
+   "politica"
+  ],
+  "conocidoPor": "Explicar por qué vamos cada vez más deprisa y proponer la «[[resonancia]]» como forma de vivir bien",
+  "resumen": "Es un sociólogo y filósofo alemán de la Universidad de Jena. Estudia cómo la vida moderna se acelera y por qué, aunque tengamos más cosas, nos sentimos cada vez más agotados. Propone la resonancia como alternativa.",
+  "ideas": [
+   "La [[aceleración social|aceleracion-social]] consiste en que todo cambia más rápido: la tecnología, el trabajo, las modas. Así, sentimos que nunca llegamos a todo.",
+   "La [[resonancia]] es sentir que el mundo te responde y te toca, como cuando una canción o un paseo te conmueve. Para él, eso es una vida lograda.",
+   "Cree que no se puede controlar todo, y que aceptar lo que no controlamos es parte de vivir bien."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Beschleunigung (Aceleración)",
+    "anio": "2005",
+    "deQueVa": "Analiza la aceleración social en la modernidad tardía."
+   },
+   {
+    "titulo": "Resonancia",
+    "anio": "2016",
+    "deQueVa": "Su libro más conocido: propone la resonancia como modo de relación con el mundo."
+   },
+   {
+    "titulo": "Unverfügbarkeit (Lo indisponible)",
+    "anio": "2018",
+    "deQueVa": "Reflexiona sobre por qué intentar controlarlo todo nos empobrece."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "miranda-fricker",
+  "nombre": "Miranda Fricker",
+  "fechas": "1966 –",
+  "region": "Reino Unido",
+  "escuela": "Epistemología social / Ética de las virtudes",
+  "categorias": [
+   "conocimiento",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Mostrar que hay [[injusticias epistémicas|injusticia-epistemica]]: no se cree a alguien por quién es",
+  "resumen": "Es una filósofa británica. En «Injusticia epistémica» explica que hay una injusticia propia del conocimiento: que a una persona no se le crea, o no se le den palabras para contar lo que vive, por prejuicios sobre su grupo.",
+  "ideas": [
+   "En la [[injusticia testimonial|injusticia-testimonial]] no te creen por prejuicio. Fricker usa el caso de Marge, en la novela «El talento de Mr. Ripley», a quien el padre de Dickie descarta diciéndole que una cosa es la «intuición femenina» y otra los hechos.",
+   "La [[injusticia hermenéutica|injusticia-hermeneutica]] ocurre cuando falta el vocabulario para nombrar un daño. Antes de que existiera la expresión «acoso sexual», a muchas mujeres les costaba explicar lo que sufrían.",
+   "Defiende que ser justos con lo que sabe cada persona es también una virtud moral."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Cambridge Companion to Feminism in Philosophy (con Jennifer Hornsby)",
+    "anio": "2000",
+    "deQueVa": "Libro colectivo que presenta el feminismo en filosofía."
+   },
+   {
+    "titulo": "Injusticia epistémica",
+    "anio": "2007",
+    "deQueVa": "Su libro principal: explica las injusticias del testimonio y de la comprensión."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "rahel-jaeggi",
+  "nombre": "Rahel Jaeggi",
+  "fechas": "1966 –",
+  "region": "Alemania",
+  "escuela": "Teoría crítica (Escuela de Fráncfort)",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad"
+  ],
+  "conocidoPor": "Renovar la [[alienación|alienacion]] y criticar no solo las normas, sino las formas de vida enteras",
+  "resumen": "Es una filósofa alemana, profesora en la Universidad Humboldt de Berlín, y una de las figuras actuales de la [[teoría crítica|teoria-critica]]. Estudia qué es vivir una vida propia en una sociedad capitalista, y cómo juzgar si una forma de vivir es buena o mala.",
+  "ideas": [
+   "La [[alienación|alienacion]] es sentir que tu vida no es realmente tuya. Ella la entiende como una relación rota con uno mismo y con el mundo.",
+   "Propone criticar formas de vida enteras (familia, trabajo, casa) y no solo normas aisladas.",
+   "Cree que las formas de vida son como soluciones a problemas, y que se pueden juzgar viendo si aprenden o se atascan."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Entfremdung (Alienación)",
+    "anio": "2005",
+    "deQueVa": "Revisa el concepto de alienación para el mundo actual."
+   },
+   {
+    "titulo": "Kritik von Lebensformen (Crítica de las formas de vida)",
+    "anio": "2014",
+    "deQueVa": "Propone cómo evaluar críticamente las formas de vida."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "dan-zahavi",
+  "nombre": "Dan Zahavi",
+  "fechas": "1967 –",
+  "region": "Dinamarca",
+  "escuela": "Fenomenología",
+  "categorias": [
+   "mente",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar qué es el «yo» desde la [[fenomenología|fenomenologia]]: una experiencia básica de ser alguien",
+  "resumen": "Es un filósofo danés, profesor en Copenhague, que dirigió el Centro para la Investigación de la Subjetividad. Parte de Husserl y de otros fenomenólogos para estudiar qué significa ser un «yo» y vivir en primera persona.",
+  "ideas": [
+   "Cuando tienes una experiencia, como oír una canción, siempre notas que eres tú quien la vive. Esa sensación básica es el «yo mínimo».",
+   "El yo no se reduce a una historia sobre uno mismo: es primero una forma de experimentar.",
+   "Defiende que los demás son importantes para el yo, y que nos entendemos con ellos desde el principio, con la [[empatía|empatia]]."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Husserl's Phenomenology (La fenomenología de Husserl)",
+    "anio": "2003",
+    "deQueVa": "Introducción a Husserl."
+   },
+   {
+    "titulo": "Subjectivity and Selfhood (Subjetividad y yo)",
+    "anio": "2005",
+    "deQueVa": "Defiende un yo mínimo que forma parte de toda experiencia."
+   },
+   {
+    "titulo": "The Phenomenological Mind (con Shaun Gallagher)",
+    "anio": "2008",
+    "deQueVa": "Une fenomenología y ciencias de la mente."
+   },
+   {
+    "titulo": "Self and Other (Yo y otro)",
+    "anio": "2014",
+    "deQueVa": "Sobre el yo, la empatía y los demás."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "quentin-meillassoux",
+  "nombre": "Quentin Meillassoux",
+  "fechas": "1967 –",
+  "region": "Francia",
+  "escuela": "Realismo especulativo",
+  "categorias": [
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Criticar el [[correlacionismo]] y defender que podemos pensar un mundo que existe sin nosotros",
+  "resumen": "Es un filósofo francés. En «Después de la finitud» critica a quienes dicen que solo podemos conocer el mundo tal como lo vemos. Defiende que sí podemos pensar cosas anteriores a los humanos, como el origen de la Tierra, y que nada en la naturaleza es necesario.",
+  "ideas": [
+   "El [[correlacionismo]] dice que no podemos pensar nada al margen de nuestro pensamiento. Meillassoux cree que esto no explica cómo la ciencia habla de un mundo anterior a la vida.",
+   "Un ejemplo es un fósil muy antiguo, que llama «arqui-fósil»: nos habla de un tiempo en el que nadie observaba nada.",
+   "Sostiene que las leyes de la naturaleza podrían cambiar sin razón: lo único necesario es que todo puede ser de otra manera."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Después de la finitud",
+    "anio": "2006",
+    "deQueVa": "Su libro principal: critica el correlacionismo y defiende que lo real puede pensarse."
+   },
+   {
+    "titulo": "Le Nombre et la sirène (El número y la sirena)",
+    "anio": "2011",
+    "deQueVa": "Lee un poema de Mallarmé con su teoría del azar."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "graham-harman",
+  "nombre": "Graham Harman",
+  "fechas": "1968 –",
+  "region": "Estados Unidos",
+  "escuela": "Realismo especulativo / Ontología orientada a objetos",
+  "categorias": [
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que todo objeto, humano o no, guarda siempre algo oculto: la [[ontología orientada a objetos|ontologia-orientada-a-objetos]]",
+  "resumen": "Es un filósofo estadounidense, que dio clases en la Universidad Americana de El Cairo. Parte de la idea de Heidegger sobre las herramientas para decir que ningún objeto se agota en lo que sabemos de él. Es una de las figuras del [[realismo especulativo|realismo-especulativo]].",
+  "ideas": [
+   "Todos los objetos, desde una piedra hasta una empresa, existen por sí mismos y no solo por lo que significan para las personas.",
+   "Nunca conocemos un objeto del todo: siempre se nos escapa algo, como un martillo, que solo notamos cuando se rompe.",
+   "Pide pensar con la misma seriedad en humanos, cosas, instituciones y animales."
+  ],
+  "curiosidad": "Dio clases en la Universidad Americana de El Cairo, en Egipto.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tool-Being (Ser-herramienta)",
+    "anio": "2002",
+    "deQueVa": "Relee a Heidegger y su idea de las herramientas."
+   },
+   {
+    "titulo": "Guerrilla Metaphysics (Metafísica de guerrillas)",
+    "anio": "2005",
+    "deQueVa": "Presenta su teoría de los objetos."
+   },
+   {
+    "titulo": "The Quadruple Object (El objeto cuádruple)",
+    "anio": "2011",
+    "deQueVa": "Resume su teoría: cada objeto tiene cuatro dimensiones."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "sara-ahmed",
+  "nombre": "Sara Ahmed",
+  "fechas": "1969 –",
+  "region": "Reino Unido / Australia",
+  "escuela": "Teoría queer / Feminismo",
+  "categorias": [
+   "sociedad",
+   "mente",
+   "politica"
+  ],
+  "conocidoPor": "Pensar las emociones, la diversidad y la vida feminista, con la «feminista aguafiestas»",
+  "resumen": "Es una pensadora británica-australiana de la teoría feminista y [[teoría queer|teoria-queer]]. Estudia cómo las emociones, como la alegría o la ira, nos orientan en la sociedad. En 2016 renunció a su puesto en Goldsmiths para protestar por cómo se gestionaban las denuncias de acoso sexual.",
+  "ideas": [
+   "La «feminista aguafiestas» es quien rompe el ambiente cuando señala algo injusto, aunque nadie quiera verlo. Para Ahmed, ser aguafiestas puede ser una forma de cuidar.",
+   "Las emociones no son solo algo privado: circulan entre la gente y pegan unas personas a otras o las separan.",
+   "Con la [[fenomenología queer|fenomenologia-queer]] pregunta hacia dónde nos orientan las cosas y qué caminos resultan «normales» o no."
+  ],
+  "curiosidad": "En 2016 dimitió de su puesto en Goldsmiths (Universidad de Londres) en protesta por la gestión de casos de acoso sexual.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La política cultural de las emociones",
+    "anio": "2004",
+    "deQueVa": "Estudia cómo las emociones organizan la vida social."
+   },
+   {
+    "titulo": "Fenomenología queer",
+    "anio": "2006",
+    "deQueVa": "Pregunta hacia dónde nos orientan los cuerpos y los objetos."
+   },
+   {
+    "titulo": "Vivir una vida feminista",
+    "anio": "2017",
+    "deQueVa": "Reflexiones sobre qué significa vivir el feminismo cada día."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Feminist Killjoys, el blog de Sara Ahmed (en inglés)",
+    "url": "https://feministkilljoys.com/",
+    "tipo": "web"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "nick-bostrom",
+  "nombre": "Nick Bostrom",
+  "fechas": "1973 –",
+  "region": "Suecia / Reino Unido",
+  "escuela": "Filosofía del futuro / Transhumanismo",
+  "categorias": [
+   "etica",
+   "ciencia",
+   "metafisica"
+  ],
+  "conocidoPor": "Estudiar los [[riesgos existenciales|riesgo-existencial]], la [[superinteligencia]] y el argumento de la simulación",
+  "resumen": "Es un filósofo sueco que trabajó en Oxford, donde fundó el Instituto del Futuro de la Humanidad. Se pregunta qué amenazas podrían acabar con la humanidad y cómo prepararnos para máquinas más inteligentes que nosotros. Su libro «Superinteligencia» (2014) influyó en el debate sobre la IA.",
+  "ideas": [
+   "Un [[riesgo existencial|riesgo-existencial]] es algo que podría acabar con la humanidad o dejarla muy dañada para siempre, como una guerra nuclear o una IA fuera de control.",
+   "Si algún día existe una [[superinteligencia]], sería muy difícil controlarla. Imagina una máquina que solo quiere fabricar clips y lo sacrifica todo para hacer más.",
+   "Su [[argumento de la simulación|argumento-de-la-simulacion]] dice que, si las civilizaciones pudieran crear mundos simulados, quizás vivamos en uno. No lo afirma: dice que una de tres cosas es cierta."
+  ],
+  "curiosidad": "Fundó en 2005 el Instituto del Futuro de la Humanidad, en Oxford, que cerró en 2024.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Existential Risks (Riesgos existenciales)",
+    "anio": "2002",
+    "deQueVa": "Artículo que presenta qué son los riesgos que podrían acabar con la humanidad."
+   },
+   {
+    "titulo": "Are You Living in a Computer Simulation? (¿Vives en una simulación por ordenador?)",
+    "anio": "2003",
+    "deQueVa": "Presenta el argumento de la simulación."
+   },
+   {
+    "titulo": "Superinteligencia",
+    "anio": "2014",
+    "deQueVa": "Analiza los riesgos y retos de máquinas más inteligentes que las personas."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Are You Living in a Computer Simulation?», en inglés",
+    "url": "https://simulation-argument.com/simulation.pdf",
+    "tipo": "articulo"
+   },
+   {
+    "titulo": "«Existential Risks», en inglés",
+    "url": "https://nickbostrom.com/existential/risks",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": [
+   "william-macaskill"
+  ]
+ },
+ {
+  "id": "markus-gabriel",
+  "nombre": "Markus Gabriel",
+  "fechas": "1980 –",
+  "region": "Alemania",
+  "escuela": "Nuevo realismo",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "mente"
+  ],
+  "conocidoPor": "Sostener que «el mundo no existe» y defender el [[nuevo realismo|nuevo-realismo]]",
+  "resumen": "Es un filósofo alemán, profesor en la Universidad de Bonn y uno de los catedráticos de filosofía más jóvenes de Alemania. Su libro «Por qué el mundo no existe» le dio fama. Defiende que hay muchas cosas reales, pero ninguna que las contenga a todas.",
+  "ideas": [
+   "Dice que el «mundo» como todo lo que existe no existe. Existen cosas, como los unicornios en los cuentos, la Luna o las leyes, y cada una aparece en un «campo de sentido» distinto.",
+   "Su [[nuevo realismo|nuevo-realismo]] sostiene que las cosas son como son, aunque no las conozcamos, y que los pensamientos o las obras de arte también existen.",
+   "En «Yo no soy mi cerebro» critica la idea de que somos solo neuronas, y defiende que somos sujetos libres."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Por qué el mundo no existe",
+    "anio": "2013",
+    "deQueVa": "Explica que ninguna totalidad lo contiene todo y que hay muchos campos de sentido."
+   },
+   {
+    "titulo": "Yo no soy mi cerebro",
+    "anio": "2015",
+    "deQueVa": "Critica la idea de que la mente es solo el cerebro."
+   },
+   {
+    "titulo": "Moralischer Fortschritt in dunklen Zeiten (Ética para tiempos oscuros)",
+    "anio": "2020",
+    "deQueVa": "Defiende que hay valores morales universales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "kate-manne",
+  "nombre": "Kate Manne",
+  "fechas": "1983 –",
+  "region": "Australia / Estados Unidos",
+  "escuela": "Ética feminista",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "politica"
+  ],
+  "conocidoPor": "Explicar la [[misoginia]] como un sistema que vigila a las mujeres y las castiga si no cumplen su papel",
+  "resumen": "Es una filósofa australiana que enseña en la Universidad de Cornell. En «Down Girl» propone entender la misoginia de otra manera: no como odio general a las mujeres, sino como el modo en que se castiga a las que no hacen lo que se espera de ellas.",
+  "ideas": [
+   "Para ella, el sexismo es la ideología que dice que hombres y mujeres son distintos, y la misoginia es la «policía» que castiga a quienes no encajan.",
+   "Habla de «himpatía»: la simpatía excesiva hacia un hombre que ha hecho algo malo, que hace que se olviden las víctimas.",
+   "Muestra que muchas mujeres deben dar cuidado, atención y cariño, y se las critica cuando no lo hacen."
+  ],
+  "curiosidad": "Inventó la palabra «himpathy» (himpatía) para hablar de la simpatía excesiva hacia hombres que hacen daño.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Down Girl: The Logic of Misogyny (Abajo, chica: la lógica de la misoginia)",
+    "anio": "2018",
+    "deQueVa": "Analiza qué es la misoginia y cómo funciona."
+   },
+   {
+    "titulo": "Entitled (Con derecho a todo)",
+    "anio": "2020",
+    "deQueVa": "Explica cómo el privilegio masculino perjudica a las mujeres."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "amia-srinivasan",
+  "nombre": "Amia Srinivasan",
+  "fechas": "1984 –",
+  "region": "Reino Unido",
+  "escuela": "Ética feminista / Teoría política",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Preguntar si el deseo está moldeado por la política, en «El derecho al sexo», y defender la ira justa",
+  "resumen": "Es una filósofa británica, catedrática Chichele de Teoría Social y Política en Oxford. Es conocida por su libro «El derecho al sexo», en el que pregunta cómo el [[feminismo]], el racismo y el poder influyen en lo que deseamos. Escribe con claridad y para el gran público.",
+  "ideas": [
+   "En su ensayo sobre el derecho al sexo, que nació en la London Review of Books, se pregunta si nuestros deseos son totalmente «naturales» o los forma la sociedad.",
+   "En «The Aptness of Anger» defiende que la ira puede ser una respuesta adecuada a la injusticia.",
+   "Cree que la filosofía puede ayudar a pensar sobre asuntos cotidianos como el sexo, la política y las emociones, y no solo cuestiones abstractas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "The Aptness of Anger (Lo adecuado de la ira)",
+    "anio": "2018",
+    "deQueVa": "Artículo que defiende que la ira puede ser una respuesta justa a la injusticia."
+   },
+   {
+    "titulo": "The Right to Sex (El derecho al sexo)",
+    "anio": "2021",
+    "deQueVa": "Ensayos sobre feminismo, deseo, poder y política."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "«Does anyone have the right to sex?», en la London Review of Books (en inglés)",
+    "url": "https://www.lrb.co.uk/the-paper/v40/n06/amia-srinivasan/does-anyone-have-the-right-to-sex",
+    "tipo": "articulo"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "william-macaskill",
+  "nombre": "William MacAskill",
+  "fechas": "1987 –",
+  "region": "Reino Unido",
+  "escuela": "Altruismo eficaz / Utilitarismo",
+  "categorias": [
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Impulsar el [[altruismo eficaz|altruismo-eficaz]] y el [[largoplacismo]]: ayudar lo más posible, también a las generaciones futuras",
+  "resumen": "Es un filósofo escocés de la Universidad de Oxford. Es uno de los fundadores del [[altruismo eficaz|altruismo-eficaz]], que propone usar la razón y los datos para hacer el mayor bien posible con nuestro tiempo y dinero. Su libro «What We Owe the Future» defiende pensar más en el futuro lejano.",
+  "ideas": [
+   "Antes de dar dinero, conviene preguntar qué ayuda más por euro: una misma donación puede salvar muchas más vidas en un sitio que en otro.",
+   "El [[largoplacismo]] dice que las personas que vivirán dentro de siglos importan tanto como las de hoy, y que deberíamos cuidar el futuro.",
+   "Según él, la gente puede elegir su carrera pensando en el bien que podrá hacer, y no solo en el sueldo."
+  ],
+  "curiosidad": "Con Toby Ord fundó la organización Giving What We Can, en la que los socios prometen donar parte de sus ingresos.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Doing Good Better (Hacer el bien mejor)",
+    "anio": "2015",
+    "deQueVa": "Explica cómo ayudar con eficacia usando datos y razones."
+   },
+   {
+    "titulo": "Moral Uncertainty (Incertidumbre moral, con Krister Bykvist y Toby Ord)",
+    "anio": "2020",
+    "deQueVa": "Cómo decidir qué hacer cuando no sabemos cuál es la teoría moral correcta."
+   },
+   {
+    "titulo": "What We Owe the Future (Lo que le debemos al futuro)",
+    "anio": "2022",
+    "deQueVa": "Defiende el largoplacismo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]

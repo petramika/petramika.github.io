@@ -1,0 +1,272 @@
+[
+ {
+  "clave": "aldea-global",
+  "termino": "Aldea global",
+  "def": "El mundo hecho pequeño por los medios de comunicación: gracias a la tele o internet, lo que pasa en un país lejano nos llega al instante, como las noticias de un pueblo."
+ },
+ {
+  "clave": "calculo-lambda",
+  "termino": "Cálculo lambda",
+  "def": "Una forma muy sencilla de escribir funciones, como recetas con entrada y salida. Con solo esas reglas se puede describir cualquier cálculo. Está en la base de muchos lenguajes de programación."
+ },
+ {
+  "clave": "carta-77",
+  "termino": "Carta 77",
+  "def": "Manifiesto firmado en 1977 por ciudadanos de Checoslovaquia que pedían que el gobierno comunista respetara los derechos humanos que ya había prometido. Fue una señal de resistencia pacífica."
+ },
+ {
+  "clave": "consciencismo",
+  "termino": "Consciencismo",
+  "def": "Filosofía de Kwame Nkrumah: unir lo mejor de las tradiciones africanas con las influencias islámica y europea, para que África tenga una forma de pensar propia que sirva para su libertad."
+ },
+ {
+  "clave": "derecho-a-la-ciudad",
+  "termino": "Derecho a la ciudad",
+  "def": "La idea de que quienes viven en una ciudad tienen derecho a usarla, disfrutarla y decidir cómo es, y no solo a vivir en ella mientras mandan el dinero y los negocios."
+ },
+ {
+  "clave": "dialectica-amo-esclavo",
+  "termino": "Dialéctica del amo y el esclavo",
+  "def": "Idea de Hegel: dos personas luchan y una acaba mandando y otra obedeciendo. Pero el que trabaja aprende y transforma el mundo, y el que manda depende de él."
+ },
+ {
+  "clave": "ecologia-profunda",
+  "termino": "Ecología profunda",
+  "def": "Corriente que dice que la naturaleza vale por sí misma, no solo por lo que nos sirve. Por ejemplo, un bosque merece protección aunque no nos dé madera ni dinero."
+ },
+ {
+  "clave": "ecologia-social",
+  "termino": "Ecología social",
+  "def": "Idea de que los problemas del medio ambiente nacen de problemas entre personas: dominamos la naturaleza porque unos dominamos a otros. Para cuidar el planeta hay que cambiar la sociedad."
+ },
+ {
+  "clave": "ejercicio-espiritual",
+  "termino": "Ejercicio espiritual",
+  "def": "En la filosofía antigua, una práctica diaria para entrenar la mente, como meditar, imaginar lo peor que puede pasar o mirar los problemas desde lejos. Es como ir al gimnasio, pero para vivir mejor."
+ },
+ {
+  "clave": "emotivismo",
+  "termino": "Emotivismo",
+  "def": "Idea de que decir «robar está mal» no describe un hecho, sino que expresa lo que sentimos y trata de que otros sientan igual, como un «¡abajo el robo!»."
+ },
+ {
+  "clave": "estado-plural",
+  "termino": "Estado plural",
+  "def": "Un país que reconoce que dentro viven pueblos y culturas distintas, y les da derechos y voz propios, en vez de tratar a todo el mundo como si fuera igual."
+ },
+ {
+  "clave": "estar-nomas",
+  "termino": "Estar nomás",
+  "def": "Expresión de Rodolfo Kusch: en el pensamiento andino, lo importante es estar en un lugar y en armonía con él, no «ser alguien» que triunfa. Como estar sentado tranquilo en tu pueblo."
+ },
+ {
+  "clave": "etnofilosofia",
+  "termino": "Etnofilosofía",
+  "def": "Estudiar la visión del mundo de un pueblo y llamarla su filosofía, sin que haya un autor que razone. Críticos dicen que, hecha desde fuera, trata a los africanos como una masa sin pensadores propios."
+ },
+ {
+  "clave": "fin-de-la-historia",
+  "termino": "Fin de la historia",
+  "def": "Idea de que la historia, vista como lucha por sistemas mejores, podría llegar a un punto final cuando una forma de sociedad satisface a todos, por ejemplo cuando todos se reconocen como iguales."
+ },
+ {
+  "clave": "halaja",
+  "termino": "Halajá",
+  "def": "El conjunto de leyes y costumbres del judaísmo, que dicen cómo vivir cada día: qué comer, cómo rezar, cómo tratar a los demás. La palabra viene de «caminar»: el camino que se sigue."
+ },
+ {
+  "clave": "historicismo",
+  "termino": "Historicismo",
+  "def": "Pensar que las ideas y las cosas solo se entienden dentro de su época y su historia. Por ejemplo, para entender a un filósofo hay que saber cuándo y dónde vivió."
+ },
+ {
+  "clave": "imaginario-social",
+  "termino": "Imaginario social",
+  "def": "El conjunto de ideas, símbolos y creencias que una sociedad se inventa y comparte, como los dioses, el dinero o la nación. Gracias a ellos las personas sienten que viven juntas."
+ },
+ {
+  "clave": "implicatura",
+  "termino": "Implicatura",
+  "def": "Lo que se entiende al hablar sin que se diga con palabras. Si preguntas «¿vienes?» y te contestan «tengo examen mañana», entiendes que no. Lo dicho y lo entendido no son iguales."
+ },
+ {
+  "clave": "integracionismo",
+  "termino": "Integracionismo",
+  "def": "Idea de Ferrater Mora: muchas parejas filosóficas, como mente y cuerpo, no se oponen, sino que se pueden unir. En vez de elegir una, se busca juntarlas."
+ },
+ {
+  "clave": "intuicion-intelectual",
+  "termino": "Intuición intelectual",
+  "def": "Un modo de conocer algo de golpe, sin pasos ni pruebas, con la mente. Kant decía que los humanos no la tenemos. Mou Zongsan creía que la sabiduría china sí la admite."
+ },
+ {
+  "clave": "lectura-esoterica",
+  "termino": "Lectura entre líneas",
+  "def": "Idea de Leo Strauss: en tiempos de censura, un autor puede escribir para la mayoría de una manera y dejar un mensaje distinto para quien lea despacio. Hay que leer con mucho cuidado."
+ },
+ {
+  "clave": "logica-modal",
+  "termino": "Lógica modal",
+  "def": "Lógica que razona con ideas como «es posible» y «es necesario». Por ejemplo, de «necesariamente 2 + 2 = 4» se deduce que «es posible que 2 + 2 = 4»."
+ },
+ {
+  "clave": "logica-temporal",
+  "termino": "Lógica temporal",
+  "def": "Lógica que razona con el tiempo: «ahora», «antes», «siempre» o «alguna vez». Sirve, por ejemplo, para comprobar que un programa nunca se bloqueará."
+ },
+ {
+  "clave": "maquina-de-turing",
+  "termino": "Máquina de Turing",
+  "def": "Máquina imaginada por Alan Turing: una cinta con símbolos y un cabezal que lee y escribe siguiendo reglas simples. Con ella se puede hacer cualquier cálculo, como un ordenador actual."
+ },
+ {
+  "clave": "metafisica-descriptiva",
+  "termino": "Metafísica descriptiva",
+  "def": "Idea de Strawson: en vez de inventar teorías sobre cómo es el mundo, describir cómo pensamos todos, con personas, cosas, tiempo y espacio, tal como lo hacemos al hablar."
+ },
+ {
+  "clave": "mito-de-lo-dado",
+  "termino": "Mito de lo dado",
+  "def": "Creencia, que Sellars critica, de que la experiencia nos da datos puros, sin ideas previas, para fundar el conocimiento. Ver una «mancha roja» ya supone saber qué es rojo."
+ },
+ {
+  "clave": "mundo-de-la-vida",
+  "termino": "Mundo de la vida",
+  "def": "El mundo de todos los días que damos por sabido, con saludar, comprar pan o coger el tren. Casi nunca lo ponemos en duda; es el suelo donde pisa todo lo demás."
+ },
+ {
+  "clave": "municipalismo-libertario",
+  "termino": "Municipalismo libertario",
+  "def": "Propuesta de que cada pueblo o barrio decida sus asuntos en asambleas abiertas, y que esas comunidades se unan en federación, en vez de depender de un gobierno central."
+ },
+ {
+  "clave": "negritud",
+  "termino": "Negritud",
+  "def": "Movimiento nacido en los años treinta, de Césaire, Senghor y Damas, que defiende el valor de la cultura y la historia negras frente al desprecio colonial."
+ },
+ {
+  "clave": "neocolonialismo",
+  "termino": "Neocolonialismo",
+  "def": "Cuando un país es independiente en teoría, pero otros países poderosos siguen mandando en su economía o su política, como si siguiera siendo una colonia."
+ },
+ {
+  "clave": "nuevo-confucianismo",
+  "termino": "Nuevo confucianismo",
+  "def": "Movimiento chino del siglo XX que quiso renovar las ideas de Confucio, basadas en la moral y la convivencia, para ponerlas en diálogo con la ciencia, la democracia y la filosofía occidental."
+ },
+ {
+  "clave": "orden-espontaneo",
+  "termino": "Orden espontáneo",
+  "def": "Orden que surge sin que nadie lo planee, de las decisiones de mucha gente. Por ejemplo, el idioma o el mercado funcionan sin que un jefe los diseñe."
+ },
+ {
+  "clave": "panafricanismo",
+  "termino": "Panafricanismo",
+  "def": "Idea de que los pueblos africanos y sus descendientes tienen intereses comunes y deben unirse, para ser más fuertes frente a la dominación extranjera."
+ },
+ {
+  "clave": "paradoja-de-los-cuervos",
+  "termino": "Paradoja de los cuervos",
+  "def": "Si «todos los cuervos son negros» es lo mismo que «todo lo que no es negro no es cuervo», entonces una manzana verde confirmaría la frase. Suena raro, pero la lógica lo permite."
+ },
+ {
+  "clave": "platonismo-matematico",
+  "termino": "Platonismo matemático",
+  "def": "Creer que los números y las figuras existen de verdad, fuera de nuestra cabeza, y que los matemáticos los descubren, como se descubre una isla, en lugar de inventarlos."
+ },
+ {
+  "clave": "positivismo-juridico",
+  "termino": "Positivismo jurídico",
+  "def": "Idea de que una norma es ley por haber sido dictada con los pasos que el sistema pide, no por ser justa. Puede haber leyes injustas que siguen siendo leyes."
+ },
+ {
+  "clave": "prescriptivismo",
+  "termino": "Prescriptivismo",
+  "def": "Idea de que los juicios morales son como órdenes o consejos. Decir «hay que ayudar» no describe algo: pide a todos, incluido uno mismo, actuar de cierta manera."
+ },
+ {
+  "clave": "principio-de-verificacion",
+  "termino": "Principio de verificación",
+  "def": "Regla del positivismo lógico: una frase solo tiene sentido si es una verdad de lógica o si se puede comprobar con la experiencia. Por eso «el Absoluto es perfecto» no diría nada."
+ },
+ {
+  "clave": "probabilidad-subjetiva",
+  "termino": "Probabilidad subjetiva",
+  "def": "Idea de que la probabilidad mide cuánto creemos algo, y se ve por lo que apostaríamos. Si apuestas poco a que lloverá, es que crees que es poco probable."
+ },
+ {
+  "clave": "pseudociencia",
+  "termino": "Pseudociencia",
+  "def": "Algo que presume de ciencia pero no se comprueba ni acepta críticas. Por ejemplo, la astrología dice cosas del futuro, pero no puede demostrar que acierta."
+ },
+ {
+  "clave": "razon-vital",
+  "termino": "Razón vital",
+  "def": "Idea de Ortega y Gasset: pensar no se hace desde fuera de la vida. Para entender algo hay que verlo desde la vida real de cada persona, con su situación e historia."
+ },
+ {
+  "clave": "realismo-cientifico",
+  "termino": "Realismo científico",
+  "def": "Creer que el mundo existe aunque nadie lo piense, y que la ciencia, cuando funciona, nos dice cómo es de verdad, y no solo cómo nos lo parece."
+ },
+ {
+  "clave": "regla-de-reconocimiento",
+  "termino": "Regla de reconocimiento",
+  "def": "En la teoría de Hart, la regla básica de un país que dice qué cuenta como ley válida. Por ejemplo, que lo aprobado por el parlamento con ciertos pasos es ley."
+ },
+ {
+  "clave": "saudade",
+  "termino": "Saudade",
+  "def": "Palabra portuguesa para una nostalgia dulce y triste: echar de menos algo o a alguien que se fue o que quizá nunca existió. Se considera muy típica de la cultura de Portugal."
+ },
+ {
+  "clave": "semantica",
+  "termino": "Semántica",
+  "def": "Parte de la lógica y la lingüística que estudia qué significan las palabras y las frases, y cuándo son verdaderas o falsas, no solo cómo se escriben."
+ },
+ {
+  "clave": "sistemismo",
+  "termino": "Sistemismo",
+  "def": "Idea de que casi todo, como una familia, una célula o un país, es un sistema: partes que se relacionan y forman un todo con propiedades que las partes solas no tienen."
+ },
+ {
+  "clave": "sociedad-tecnica",
+  "termino": "Sociedad técnica",
+  "def": "Para Ellul, una sociedad donde lo eficaz manda sobre todo: lo que se puede hacer con técnica se hace, y las personas se adaptan a las máquinas y a los métodos."
+ },
+ {
+  "clave": "teorema-incompletitud",
+  "termino": "Teoremas de incompletitud",
+  "def": "Resultados de Gödel (1931): en cualquier sistema matemático potente hay frases verdaderas que no se pueden demostrar dentro de él, y ese sistema no puede probar que no se contradice."
+ },
+ {
+  "clave": "teoria-de-modelos",
+  "termino": "Teoría de modelos",
+  "def": "Rama de la lógica que estudia qué mundos o estructuras hacen verdaderas unas fórmulas. Es como comprobar con ejemplos concretos si una regla general funciona."
+ },
+ {
+  "clave": "teoria-del-error",
+  "termino": "Teoría del error",
+  "def": "Idea de Mackie: cuando decimos que algo es moralmente bueno o malo hablamos como si fuera un hecho objetivo del mundo, pero no lo es, así que esos juicios son falsos."
+ },
+ {
+  "clave": "tesis-de-church-turing",
+  "termino": "Tesis de Church-Turing",
+  "def": "Idea de que todo lo que se puede calcular siguiendo una receta paso a paso se puede hacer con una máquina de Turing o con el cálculo lambda. Define qué significa calcular."
+ },
+ {
+  "clave": "test-de-turing",
+  "termino": "Test de Turing",
+  "def": "Prueba propuesta por Alan Turing: una persona conversa por escrito con alguien y no sabe si es una máquina o una persona. Si no distingue, diríamos que la máquina piensa."
+ },
+ {
+  "clave": "ujamaa",
+  "termino": "Ujamaa",
+  "def": "Palabra suajili que significa «familiaridad» o «vida en familia». Nyerere la usó para su socialismo africano, basado en la ayuda mutua de las aldeas y en trabajar juntos."
+ },
+ {
+  "clave": "verdeazul",
+  "termino": "Verdeazul (grue)",
+  "def": "Color inventado por Goodman: algo es «verdeazul» si es verde hasta cierta fecha y azul después. Muestra que, con los mismos datos del pasado, caben predicciones del futuro opuestas."
+ }
+]

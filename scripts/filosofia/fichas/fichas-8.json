@@ -1,0 +1,2028 @@
+[
+ {
+  "id": "mechthild-of-magdeburg",
+  "nombre": "Matilde de Magdeburgo",
+  "fechas": "c. 1207 – c. 1282",
+  "region": "Alemania",
+  "escuela": "Mística medieval",
+  "categorias": [
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Escribir en alemán, y no en latín, sus visiones del amor entre el alma y Dios",
+  "resumen": "Matilde fue una mujer laica que vivió como [[beguina]] y puso por escrito sus experiencias [[místicas|mistica]]. Lo hizo en su lengua, el alemán, para que lo pudiera leer gente corriente y no solo los curas. Al final de su vida vivió en el convento de Helfta, en Sajonia. Sigue importando porque muestra que también las mujeres pensaban y escribían sobre Dios en la Edad Media.",
+  "ideas": [
+   "Para ella, Dios no es un juez lejano sino alguien que busca al alma como se buscan dos enamorados.",
+   "El alma puede acercarse a Dios por el amor, sin necesitar grandes estudios.",
+   "Dios se puede describir con imágenes de luz, fuego y agua que fluye, no solo con palabras difíciles."
+  ],
+  "curiosidad": "Su libro se fue escribiendo por partes durante unos treinta años, y se conserva sobre todo en traducciones, porque el original en bajo alemán se perdió.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La luz que fluye de la Divinidad",
+    "anio": "c. 1250 – 1282",
+    "deQueVa": "Visiones, poemas y diálogos sobre el amor entre el alma y Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "henry-of-ghent",
+  "nombre": "Enrique de Gante",
+  "fechas": "c. 1217 – 1293",
+  "region": "Flandes y Francia",
+  "escuela": "Escolástica",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "religion"
+  ],
+  "conocidoPor": "Maestro de la universidad de París que discutió con santo Tomás sobre qué es el ser y cómo conocemos",
+  "resumen": "Enrique fue un profesor de [[teología|teologia]] muy respetado en París en el siglo XIII, conocido como el «Doctor Solemne». Era [[escolástico|escolastica]]: usaba la razón para explicar la fe. Sus largos debates públicos con otros maestros influyeron en quienes vinieron después.",
+  "ideas": [
+   "Para conocer la verdad de forma segura, necesitamos una ayuda de Dios, una especie de luz que ilumina la mente ([[iluminación divina|iluminacion-divina]]).",
+   "Las cosas no son lo que son solo por casualidad: Dios las piensa antes de crearlas.",
+   "Daba mucho peso a la voluntad ([[voluntarismo]] moderado): elegimos de verdad y la razón sola no nos obliga."
+  ],
+  "curiosidad": "Formó parte del grupo de maestros de París que asesoró al obispo en la gran condena de ideas de 1277.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Quodlibeta",
+    "anio": "c. 1276 – 1292",
+    "deQueVa": "Respuestas a preguntas que le planteaban en debates públicos, sobre todo de teología y filosofía."
+   },
+   {
+    "titulo": "Suma de cuestiones ordinarias",
+    "anio": "c. 1276 – 1293",
+    "deQueVa": "Su gran obra, sin terminar, sobre Dios, el ser y el conocimiento."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "duns-scotus"
+  ]
+ },
+ {
+  "id": "siger-of-brabant",
+  "nombre": "Siger de Brabant",
+  "fechas": "c. 1240 – c. 1284",
+  "region": "Brabante y Francia",
+  "escuela": "Aristotelismo radical",
+  "categorias": [
+   "conocimiento",
+   "mente",
+   "religion"
+  ],
+  "conocidoPor": "Enseñar en París a Aristóteles hasta donde llegaba la razón, aunque chocara con la Iglesia",
+  "resumen": "Siger fue profesor de la facultad de Artes de París en el siglo XIII. Defendía que había que explicar a Aristóteles con la razón, aunque sus conclusiones no encajaran con la fe cristiana. Por eso algunas ideas parecidas a las suyas fueron condenadas en 1277 y él tuvo problemas con la [[Inquisición|inquisicion]]. Murió en Italia hacia 1284.",
+  "ideas": [
+   "La razón debe llegar hasta donde pueda, aunque su resultado no cuadre con lo que enseña la Iglesia.",
+   "Según la lectura de Aristóteles que defendió, la parte pensante de las personas sería única para toda la humanidad ([[monopsiquismo]]), idea que cambió con el tiempo.",
+   "Decía que su trabajo como filósofo era explicar qué concluía Aristóteles, no decidir qué es verdad para la fe."
+  ],
+  "curiosidad": "Dante lo coloca en el Paraíso de la «Divina Comedia», junto a Tomás de Aquino, que lo había criticado.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Cuestiones sobre el alma intelectiva",
+    "anio": "c. 1273",
+    "deQueVa": "Pregunta qué es la inteligencia humana y si cada persona tiene la suya."
+   },
+   {
+    "titulo": "Cuestiones sobre la Metafísica",
+    "anio": "",
+    "deQueVa": "Comentarios a la «Metafísica» de Aristóteles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "peter-john-olivi",
+  "nombre": "Pedro Juan Olivi",
+  "fechas": "1248 – 1298",
+  "region": "Francia (Languedoc)",
+  "escuela": "Escolástica franciscana",
+  "categorias": [
+   "etica",
+   "sociedad",
+   "existencia"
+  ],
+  "conocidoPor": "Defender la libertad de la voluntad y pensar con mucha lucidez el dinero y la pobreza",
+  "resumen": "Olivi fue un [[franciscano|franciscano]] del sur de Francia. Insistió en que somos libres de verdad y en que la pobreza voluntaria era el ideal de su orden. También escribió sobre cómo funcionan los contratos y el comercio. Sus escritos causaron tanta polémica que después de su muerte algunos fueron condenados.",
+  "ideas": [
+   "Somos libres porque podemos querer o no querer, aunque nuestra mente vea con claridad lo que es mejor.",
+   "El dinero puede ser capital que produce ganancia, y por eso un préstamo o un negocio no son siempre injustos.",
+   "Vivir en pobreza como Jesús era para muchos franciscanos el camino más fiel al Evangelio."
+  ],
+  "curiosidad": "Algunas de sus ideas sobre el alma fueron discutidas en el Concilio de Vienne (1311–1312), años después de su muerte.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado sobre los contratos",
+    "anio": "c. 1293",
+    "deQueVa": "Cómo se debe comprar, vender y prestar con justicia."
+   },
+   {
+    "titulo": "Lectura sobre el Apocalipsis",
+    "anio": "c. 1297",
+    "deQueVa": "Interpretación del último libro de la Biblia, muy leída por los franciscanos espirituales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "marguerite-porete",
+  "nombre": "Margarita Porete",
+  "fechas": "c. 1250 – 1310",
+  "region": "Francia (Henao)",
+  "escuela": "Mística beguina",
+  "categorias": [
+   "religion",
+   "existencia",
+   "etica"
+  ],
+  "conocidoPor": "Escribir «El espejo de las almas simples» y morir en la hoguera en París por no renegar de él",
+  "resumen": "Margarita era una [[beguina|beguina]] del norte de Francia. Escribió en francés un libro sobre un amor a Dios tan grande que el alma se queda sin querer nada propio. La Iglesia lo condenó como [[herejía|herejia]]. Ella se negó a responder ante el inquisidor y fue quemada en París el 1 de junio de 1310.",
+  "ideas": [
+   "El alma más perfecta ama a Dios sin pedirle nada a cambio, ni premio ni consuelo.",
+   "Para ella, quien llega a ese amor ya no depende de normas y actos externos, y eso fue lo que más escandalizó a sus jueces.",
+   "Hablar de Dios con palabras sencillas y en la lengua de todos es una forma de compartir la sabiduría."
+  ],
+  "curiosidad": "Su libro circuló durante siglos sin nombre de autora. No se la identificó como autora hasta 1946.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El espejo de las almas simples",
+    "anio": "antes de 1310",
+    "deQueVa": "Diálogo entre el Amor, la Razón y el Alma sobre cómo unirse a Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "walter-burley",
+  "nombre": "Walter Burley",
+  "fechas": "c. 1275 – después de 1344",
+  "region": "Inglaterra",
+  "escuela": "Escolástica (realismo)",
+  "categorias": [
+   "logica",
+   "metafisica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Defender que los conceptos generales existen en las cosas, frente a su rival Guillermo de Ockham",
+  "resumen": "Burley fue un lógico inglés del siglo XIV, profesor en Oxford y París. Escribió mucho sobre lógica y sobre Aristóteles. Defendió que las ideas generales, como «hombre» o «blanco», tienen una realidad en el mundo y no son solo palabras. En eso fue rival de Ockham.",
+  "ideas": [
+   "Cuando decimos «perro», nos referimos a algo real que comparten todos los perros, no solo a un nombre ([[universales]]).",
+   "Entender bien cómo funcionan las frases ayuda a pensar bien: la lógica es una herramienta para todo.",
+   "Escribió comentarios sobre muchas obras de Aristóteles para que más gente pudiera entenderlas."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "De la pureza del arte de la lógica",
+    "anio": "c. 1328",
+    "deQueVa": "Manual de lógica muy leído en su época."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "thomas-bradwardine",
+  "nombre": "Tomás Bradwardine",
+  "fechas": "c. 1290 – 1349",
+  "region": "Inglaterra",
+  "escuela": "Escolástica (Merton)",
+  "categorias": [
+   "ciencia",
+   "religion",
+   "metafisica"
+  ],
+  "conocidoPor": "Matemático de Oxford que quiso medir el movimiento con proporciones y llegó a arzobispo de Canterbury",
+  "resumen": "Bradwardine fue un teólogo y matemático inglés del siglo XIV. En Oxford formó parte del grupo de Merton, que intentaba describir el movimiento con números. Más tarde defendió que la salvación depende de la [[gracia|gracia]] de Dios y no de los méritos propios. Llegó a ser arzobispo de Canterbury y murió de peste.",
+  "ideas": [
+   "El movimiento se puede estudiar con matemáticas: propuso una regla que relaciona fuerza, resistencia y velocidad con proporciones.",
+   "Dios actúa en todo lo que ocurre; nadie se gana la salvación solo con sus obras (contra el [[pelagianismo]]).",
+   "También escribió sobre geometría y sobre el infinito, y los trató con rigor matemático."
+  ],
+  "curiosidad": "Murió de la peste negra en agosto de 1349, pocas semanas después de ser consagrado arzobispo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado sobre las proporciones",
+    "anio": "1328",
+    "deQueVa": "Cómo cambia la velocidad según la fuerza y la resistencia."
+   },
+   {
+    "titulo": "De la causa de Dios contra Pelagio",
+    "anio": "c. 1344",
+    "deQueVa": "Defiende que sin la gracia de Dios nadie se salva."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "john-wycliffe"
+  ]
+ },
+ {
+  "id": "gregory-palamas",
+  "nombre": "Gregorio Palamás",
+  "fechas": "1296 – 1359",
+  "region": "Imperio bizantino (Grecia)",
+  "escuela": "Hesicasmo (ortodoxia bizantina)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "existencia"
+  ],
+  "conocidoPor": "Defender que se puede vivir una experiencia real de Dios a través de la oración silenciosa",
+  "resumen": "Palamás fue un monje del monte Athos y luego arzobispo de Tesalónica, en el Imperio bizantino. Defendió el [[hesicasmo]]: una forma de oración silenciosa y repetida para sentir a Dios. Explicó que Dios es imposible de conocer en su fondo, pero que sí podemos tocar sus «energías». Es un santo muy importante en la Iglesia ortodoxa.",
+  "ideas": [
+   "Nadie puede conocer a Dios tal como es en sí mismo, pero sí podemos experimentar su acción, como la luz del sol sin tocar el sol.",
+   "El cuerpo también participa en la oración, no solo la mente: la respiración y el silencio ayudan.",
+   "La fe no se prueba solo con argumentos: se vive."
+  ],
+  "curiosidad": "En 1354, de viaje en barco, fue capturado por corsarios turcos y estuvo cautivo cerca de un año.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tríadas en defensa de los santos hesicastas",
+    "anio": "c. 1338 – 1341",
+    "deQueVa": "Respuesta a quienes se burlaban de la oración silenciosa de los monjes."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "adam-of-wodeham",
+  "nombre": "Adam de Wodeham",
+  "fechas": "c. 1298 – 1358",
+  "region": "Inglaterra",
+  "escuela": "Nominalismo franciscano",
+  "categorias": [
+   "conocimiento",
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Discípulo de Ockham que se hizo preguntas muy finas sobre qué conocemos cuando sabemos algo",
+  "resumen": "Adam fue un fraile [[franciscano]] inglés del siglo XIV y alumno cercano de Guillermo de Ockham. Enseñó en Oxford y Londres. Sus escritos sirvieron para que otros pensadores aprendieran la lógica y la teoría del conocimiento de su escuela.",
+  "ideas": [
+   "Cuando sabemos algo, lo que conocemos es lo que dice una frase entera, no solo una cosa suelta.",
+   "Las cosas se pueden dividir en partes, pero ¿hasta el infinito? Discutió si existen partes indivisibles.",
+   "Sus ideas sobre lo indivisible y lo continuo eran muy discutidas en Oxford."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lectura sobre el primer libro de las Sentencias",
+    "anio": "",
+    "deQueVa": "Comentario a un libro de teología, lleno de discusión filosófica."
+   },
+   {
+    "titulo": "Tratado de los indivisibles",
+    "anio": "",
+    "deQueVa": "Sobre si el espacio y el tiempo se pueden dividir sin fin."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "gregory-of-rimini"
+  ]
+ },
+ {
+  "id": "nicholas-of-autrecourt",
+  "nombre": "Nicolás de Autrecourt",
+  "fechas": "c. 1299 – después de 1369",
+  "region": "Francia",
+  "escuela": "Escepticismo medieval",
+  "categorias": [
+   "conocimiento",
+   "metafisica"
+  ],
+  "conocidoPor": "Decir que casi nada se puede probar con certeza total, ni siquiera que una cosa cause otra",
+  "resumen": "Nicolás fue un profesor de París del siglo XIV. Dijo que solo es seguro lo que no puede ser falso sin contradicción, y que casi todo lo demás, como que el fuego quema, es probable pero no demostrable. Fue acusado ante el papa en Aviñón y en 1347 tuvo que quemar sus escritos. Algunos lo comparan con David Hume por esta duda sobre la [[causalidad]].",
+  "ideas": [
+   "Que una cosa sea causa de otra no se puede probar como se prueba una suma: solo vemos que una va seguida de la otra.",
+   "Solo tenemos certeza total en lo que sería contradictorio negar; lo demás es solo probable.",
+   "Aristóteles no debe aceptarse por ser Aristóteles: hay que probar lo que se dice."
+  ],
+  "curiosidad": "En 1347 fue obligado a quemar en público sus escritos en París.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado «Exigit ordo»",
+    "anio": "c. 1340",
+    "deQueVa": "Su obra más conocida, con sus argumentos sobre la certeza."
+   },
+   {
+    "titulo": "Cartas a Bernardo de Arezzo",
+    "anio": "",
+    "deQueVa": "Intercambio de cartas donde defiende que casi nada es demostrable."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gregory-of-rimini",
+  "nombre": "Gregorio de Rímini",
+  "fechas": "c. 1300 – 1358",
+  "region": "Italia",
+  "escuela": "Escolástica agustina",
+  "categorias": [
+   "conocimiento",
+   "religion",
+   "logica"
+  ],
+  "conocidoPor": "Teólogo agustino de París que defendió que conocemos lo que dicen las frases enteras",
+  "resumen": "Gregorio fue un fraile agustino italiano que enseñó en París y en otras universidades. Era muy leído y conocía bien a los lógicos de Oxford. Fue elegido jefe de su orden en 1357 y murió en Viena al año siguiente.",
+  "ideas": [
+   "Lo que sabemos no son cosas sueltas sino lo que afirma una frase: «la nieve es blanca», no solo «nieve» y «blanco».",
+   "Seguía de cerca a san Agustín, para quien sin la ayuda de Dios no podemos hacer el bien.",
+   "Era un buen conocedor de lógica y matemáticas y las usó para discutir temas de teología."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lectura sobre los libros primero y segundo de las Sentencias",
+    "anio": "c. 1344",
+    "deQueVa": "Su obra principal: teología con mucha lógica y filosofía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "thomas-of-erfurt",
+  "nombre": "Tomás de Erfurt",
+  "fechas": "activo hacia 1300",
+  "region": "Alemania",
+  "escuela": "Gramática especulativa (modistas)",
+  "categorias": [
+   "lenguaje",
+   "logica",
+   "metafisica"
+  ],
+  "conocidoPor": "Defender que todas las lenguas comparten una misma estructura de fondo",
+  "resumen": "Tomás fue un gramático alemán del siglo XIV, del grupo de los «modistas». Pensaba que la gramática no es solo costumbre, sino que refleja cómo es el mundo y cómo lo entendemos. Su libro fue durante mucho tiempo atribuido a otro autor.",
+  "ideas": [
+   "Las lenguas pueden ser distintas, pero tienen una estructura común, porque las cosas y nuestra mente son los mismos para todos.",
+   "La gramática sigue la forma en que las cosas existen, se entienden y se dicen.",
+   "Por eso la gramática se puede estudiar como una ciencia, no solo como una lista de reglas."
+  ],
+  "curiosidad": "Su libro estuvo atribuido a Duns Escoto hasta 1922. El joven Heidegger escribió su tesis de habilitación en 1915 (se publicó en 1916) creyendo que era de Escoto.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Gramática especulativa (Sobre los modos de significar)",
+    "anio": "",
+    "deQueVa": "Libro de gramática que busca la estructura común de todas las lenguas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "william-of-heytesbury",
+  "nombre": "Guillermo Heytesbury",
+  "fechas": "c. 1313 – 1372",
+  "region": "Inglaterra",
+  "escuela": "Calculadores de Merton",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "ciencia"
+  ],
+  "conocidoPor": "Lógico de Oxford que usó la lógica para resolver acertijos y estudiar el movimiento",
+  "resumen": "Heytesbury fue un profesor del Merton College, en Oxford, en el siglo XIV. Escribió un manual para resolver [[sofismas|sofismas]], frases que parecen decir algo absurdo y hay que desentrañar. También escribió sobre cómo describir el movimiento con números.",
+  "ideas": [
+   "Muchos acertijos de lenguaje se resuelven si se analiza con cuidado qué significan las palabras.",
+   "Un movimiento que va aumentando de velocidad de manera regular equivale a uno que va a la velocidad media durante todo el tiempo.",
+   "Hay que fijar reglas claras para razonar sobre lo que cambia, empieza o termina."
+  ],
+  "curiosidad": "Su regla de la velocidad media apareció siglos después, de forma parecida, en los escritos de Galileo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Reglas para resolver sofismas",
+    "anio": "1335",
+    "deQueVa": "Manual de lógica para desenredar frases con trampa."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "nicole-oresme",
+  "nombre": "Nicolás Oresme",
+  "fechas": "c. 1320 – 1382",
+  "region": "Francia",
+  "escuela": "Filosofía natural medieval",
+  "categorias": [
+   "ciencia",
+   "sociedad",
+   "conocimiento"
+  ],
+  "conocidoPor": "Pensador francés que dibujó gráficas, criticó la astrología y escribió sobre cómo funciona el dinero",
+  "resumen": "Oresme fue un sabio francés del siglo XIV, consejero del rey Carlos V y obispo de Lisieux. Tradujo a Aristóteles al francés, para que los no latinistas lo leyeran. Estudió el movimiento con una especie de gráficas y escribió con sentido común sobre dinero, y contra la astrología.",
+  "ideas": [
+   "Se pueden representar con dibujos, como gráficas, cosas que cambian, como la velocidad.",
+   "Los gobernantes no deben rebajar la moneda, es decir, poner menos metal valioso en cada moneda, porque engañan a la gente.",
+   "La astrología no sirve para predecir el futuro."
+  ],
+  "curiosidad": "Explicó con argumentos que la Tierra podría girar sobre sí misma, aunque al final concluyó que no lo creía.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado sobre el origen de la moneda",
+    "anio": "c. 1355",
+    "deQueVa": "Explica por qué los reyes no deben manipular el valor del dinero."
+   },
+   {
+    "titulo": "Libro del cielo y del mundo",
+    "anio": "c. 1377",
+    "deQueVa": "Comentario a Aristóteles sobre el cielo, con la discusión de si la Tierra gira."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "john-wycliffe",
+  "nombre": "John Wyclif",
+  "fechas": "c. 1328 – 1384",
+  "region": "Inglaterra",
+  "escuela": "Reforma medieval (realismo)",
+  "categorias": [
+   "religion",
+   "politica",
+   "metafisica"
+  ],
+  "conocidoPor": "Decir que la Biblia manda más que el papa y que la Iglesia no debía tener riquezas",
+  "resumen": "Wyclif fue teólogo en Oxford en el siglo XIV. Criticó que la Iglesia tuviera muchos bienes y poder, y defendió que la Biblia, y no el papa, es la máxima autoridad. Sus seguidores, los lolardos, hicieron las primeras traducciones de la Biblia completa al inglés. Se le considera un precursor de la [[Reforma protestante|reforma-protestante]].",
+  "ideas": [
+   "La Biblia es la autoridad principal y debe poder leerla cualquiera en su propia lengua.",
+   "Una Iglesia que vive en lujo y poder se aleja del mensaje de Jesús.",
+   "Creía en la existencia real de las ideas generales ([[realismo]]) y lo aplicaba a sus ideas sobre la Iglesia."
+  ],
+  "curiosidad": "En 1428, mucho después de su muerte, sus huesos fueron desenterrados y quemados por orden del papa, tras ser condenado en el Concilio de Constanza.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre el dominio civil",
+    "anio": "c. 1376",
+    "deQueVa": "Ideas sobre el poder y la propiedad de la Iglesia."
+   },
+   {
+    "titulo": "Sobre la verdad de la Sagrada Escritura",
+    "anio": "c. 1378",
+    "deQueVa": "Defiende la autoridad de la Biblia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "marsilius-of-inghen",
+  "nombre": "Marsilio de Inghen",
+  "fechas": "c. 1340 – 1396",
+  "region": "Países Bajos y Alemania",
+  "escuela": "Nominalismo",
+  "categorias": [
+   "logica",
+   "conocimiento",
+   "lenguaje"
+  ],
+  "conocidoPor": "Primer rector de la Universidad de Heidelberg y defensor del nominalismo",
+  "resumen": "Marsilio fue profesor en París y llegó a ser su rector. Más tarde ayudó a fundar la Universidad de Heidelberg, en Alemania, y fue su primer rector en 1386. Siguió la línea de Buridán y Ockham, para quienes las ideas generales son nombres y no cosas reales ([[nominalismo]]).",
+  "ideas": [
+   "Las palabras generales, como «árbol», son nombres que usamos para agrupar cosas parecidas.",
+   "El estudio de la lógica es la base para pensar con orden sobre cualquier tema.",
+   "Las universidades, con su enseñanza ordenada, son un buen lugar para extender el saber."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Cuestiones sobre las Sentencias",
+    "anio": "",
+    "deQueVa": "Su comentario de teología, con muchos temas de lógica y filosofía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "julian-of-norwich",
+  "nombre": "Juliana de Norwich",
+  "fechas": "1343 – después de 1416",
+  "region": "Inglaterra",
+  "escuela": "Mística cristiana",
+  "categorias": [
+   "religion",
+   "existencia"
+  ],
+  "conocidoPor": "Decir en sus visiones que Dios es amor y que «todo irá bien»",
+  "resumen": "Juliana fue una mujer inglesa que vivió encerrada en una celda junto a una iglesia, en Norwich, como [[anacoreta]]. A los treinta años, enferma de gravedad, tuvo una serie de visiones. Escribió sobre ellas el libro «Revelaciones del amor divino», que se considera el primer libro escrito en inglés por una mujer.",
+  "ideas": [
+   "Dios es sobre todo amor y compasión, no un juez que castiga.",
+   "Incluso con el mal y el sufrimiento del mundo, al final todo estará bien.",
+   "Dios es a la vez como un padre y como una madre que cuida."
+  ],
+  "curiosidad": "Tuvo sus visiones en mayo de 1373, mientras creían que se moría. No se sabe con seguridad cuándo murió, solo que vivía aún hacia 1416.",
+  "frase": {
+   "texto": "Todo irá bien, y todo irá bien, y toda clase de cosas irán bien.",
+   "fuente": "Revelaciones del amor divino, cap. 27 (traducción libre del inglés medieval)"
+  },
+  "obras": [
+   {
+    "titulo": "Revelaciones del amor divino",
+    "anio": "c. 1390",
+    "deQueVa": "Relato y reflexión sobre sus visiones del amor de Dios."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Revelations of Divine Love, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/52958",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "catherine-of-siena",
+  "nombre": "Catalina de Siena",
+  "fechas": "1347 – 1380",
+  "region": "Italia",
+  "escuela": "Mística dominica",
+  "categorias": [
+   "religion",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Mujer de familia humilde que aconsejó a papas y ayudó a que el papado volviera de Aviñón a Roma",
+  "resumen": "Catalina era una joven italiana que vivió como laica ligada a los [[dominicos|dominico]]. Escribió muchísimas cartas a papas y gobernantes pidiéndoles paz y reforma. Su «Diálogo» es un libro de [[mística|mistica]] y enseñanza espiritual. En 1970 fue declarada [[doctora de la Iglesia|doctor-de-la-iglesia]], igual que Teresa de Ávila.",
+  "ideas": [
+   "Cada persona puede hablar con Dios directamente, sin importar quién sea.",
+   "Quien dirige una Iglesia o un país tiene que dar ejemplo y buscar la paz.",
+   "Conocerse a uno mismo, con sus límites, es el primer paso para conocer a Dios."
+  ],
+  "curiosidad": "Escribió cartas al papa Gregorio XI animándole a volver a Roma. Él regresó en 1377. Murió con unos 33 años.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El Diálogo (Libro de la divina doctrina)",
+    "anio": "c. 1378",
+    "deQueVa": "Conversación entre el alma y Dios sobre el camino espiritual."
+   },
+   {
+    "titulo": "Cartas",
+    "anio": "c. 1370 – 1380",
+    "deQueVa": "Cientos de cartas a papas, reyes y gente corriente."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "je-tsongkhapa",
+  "nombre": "Je Tsongkhapa",
+  "fechas": "1357 – 1419",
+  "region": "Tíbet",
+  "escuela": "Budismo tibetano (Gelug)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "etica"
+  ],
+  "conocidoPor": "Fundar la escuela Gelug y explicar la vacuidad del budismo con razón y orden paso a paso",
+  "resumen": "Tsongkhapa fue un gran maestro del [[budismo]] tibetano. Fundó la escuela Gelug, a la que pertenecen los dalái lamas. Explicó con mucho método el camino budista y defendió la idea de la [[vacuidad]], en la línea del [[Madhyamaka|madhyamaka]]. En 1409 se fundó el monasterio de Ganden, ligado a él.",
+  "ideas": [
+   "Nada existe por sí solo y de forma independiente: todo depende de otras cosas (vacuidad).",
+   "El camino a la iluminación va por etapas: primero ética y compasión, luego sabiduría.",
+   "Hay que estudiar y razonar con rigor, no solo meditar: la lógica ayuda a ver lo real."
+  ],
+  "curiosidad": "El primer dalái lama, Gendun Drup, fue discípulo suyo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El gran tratado de las etapas del camino (Lamrim Chenmo)",
+    "anio": "1402",
+    "deQueVa": "Guía por etapas para el camino budista."
+   },
+   {
+    "titulo": "Océano de razonamiento",
+    "anio": "",
+    "deQueVa": "Comentario a la obra de Nagarjuna sobre la vacuidad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "joseph-albo",
+  "nombre": "José Albo",
+  "fechas": "c. 1380 – 1444",
+  "region": "Aragón (España)",
+  "escuela": "Filosofía judía medieval",
+  "categorias": [
+   "religion",
+   "etica"
+  ],
+  "conocidoPor": "Resumir el judaísmo en tres principios básicos en su «Libro de los principios»",
+  "resumen": "Albo fue un pensador judío de Aragón. Participó en la Disputa de Tortosa (1413–1414), un debate público entre rabinos y cristianos. Escribió «Sefer ha-Ikkarim», donde se pregunta qué creencias son imprescindibles para ser judío.",
+  "ideas": [
+   "Solo hay tres creencias esenciales: que Dios existe, que Dios dio su ley y que hay premio y castigo.",
+   "Las demás creencias son importantes, pero no son la base.",
+   "Distinguía tres tipos de leyes: las naturales, las que pactan los pueblos y las dadas por Dios."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Libro de los principios (Sefer ha-Ikkarim)",
+    "anio": "c. 1425",
+    "deQueVa": "Explica los principios básicos del judaísmo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "zara-yaqob",
+  "nombre": "Zara Yaqob",
+  "fechas": "1599 – 1692",
+  "region": "Etiopía",
+  "escuela": "Racionalismo etíope",
+  "categorias": [
+   "etica",
+   "religion",
+   "conocimiento",
+   "sociedad"
+  ],
+  "conocidoPor": "Autor del «Hatata», una «Investigación» que confía en la razón para ver qué es verdad en la religión",
+  "resumen": "Zara Yaqob fue un pensador etíope del siglo XVII. En su libro «Hatata» cuenta que, huyendo de una persecución, se refugió en una cueva y allí se puso a pensar sobre Dios y la vida. Defendió que la razón es una luz dada a todos y la usó para criticar la violencia entre religiones y la desigualdad.",
+  "ideas": [
+   "La razón es un don que Dios da a todas las personas y sirve para comprobar qué es verdad.",
+   "Ninguna religión puede imponerse por la fuerza, ni quitarle la libertad a nadie.",
+   "Hombres y mujeres tienen la misma dignidad, y el matrimonio debe ser entre dos, sin esclavitud."
+  ],
+  "curiosidad": "Algunos estudiosos discuten si el «Hatata» lo escribió él o un europeo del siglo XIX. Muchos expertos creen que es obra suya.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Hatata (Investigación)",
+    "anio": "1667",
+    "deQueVa": "Relato de su vida y de sus reflexiones filosóficas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "nezahualcoyotl",
+  "nombre": "Nezahualcóyotl",
+  "fechas": "1402 – 1472",
+  "region": "México (mundo náhuatl)",
+  "escuela": "Pensamiento náhuatl",
+  "categorias": [
+   "existencia",
+   "politica",
+   "estetica"
+  ],
+  "conocidoPor": "Rey poeta de Texcoco a quien se atribuyen poemas sobre lo breve que es la vida",
+  "resumen": "Nezahualcóyotl fue [[tlatoani]] de Texcoco, en el México antiguo, desde 1431 hasta su muerte. Gobernó una ciudad culta y a él se le atribuyen poemas sobre la brevedad de la vida y la búsqueda de la verdad. Los estudiosos lo ven como una voz importante del pensamiento náhuatl, que veía en la «flor y canto» un camino hacia lo verdadero.",
+  "ideas": [
+   "La vida en la tierra es breve y pasajera: hay que vivirla con sentido.",
+   "La poesía, la «flor y canto», puede acercar a lo verdadero mejor que muchas palabras.",
+   "Un buen gobernante cuida la ciudad, el saber y el arte."
+  ],
+  "curiosidad": "Fue fugitivo de joven, tras el asesinato de su padre. Después ayudó a organizar una alianza de tres ciudades y a construir un gran dique para proteger la ciudad de México-Tenochtitlan de las inundaciones.",
+  "frase": {
+   "texto": "No para siempre en la tierra: solo un poco aquí.",
+   "fuente": "Poema atribuido a Nezahualcóyotl, en la versión de Miguel León-Portilla (atribución discutida)"
+  },
+  "obras": [
+   {
+    "titulo": "Poemas atribuidos a Nezahualcóyotl",
+    "anio": "s. XVI (recopilados)",
+    "deQueVa": "Cantos sobre la vida breve, la belleza y la verdad, recogidos después de su muerte."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "lorenzo-valla",
+  "nombre": "Lorenzo Valla",
+  "fechas": "1407 – 1457",
+  "region": "Italia",
+  "escuela": "Humanismo renacentista",
+  "categorias": [
+   "lenguaje",
+   "conocimiento",
+   "etica"
+  ],
+  "conocidoPor": "Demostrar con análisis del lenguaje que la «Donación de Constantino» era una falsificación",
+  "resumen": "Valla fue un humanista italiano, es decir, un estudioso de los textos antiguos. Estudió el latín de un documento famoso y probó que era falso: la «Donación de Constantino», con la que la Iglesia reclamaba poder sobre territorios. Con ello mostró que el análisis de las palabras sirve para descubrir la verdad.",
+  "ideas": [
+   "Si un texto usa palabras de una época posterior, es una falsificación: hay que examinar el lenguaje.",
+   "El placer no es malo, y la sencilla búsqueda de la felicidad puede unirse a la vida cristiana.",
+   "Los argumentos de autoridad no valen mientras no se comprueben."
+  ],
+  "curiosidad": "Una de sus pruebas fue que el documento usaba palabras propias de siglos después de la época de Constantino.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la falsa Donación de Constantino",
+    "anio": "1440",
+    "deQueVa": "Prueba que el documento es falso."
+   },
+   {
+    "titulo": "Las elegancias de la lengua latina",
+    "anio": "c. 1441",
+    "deQueVa": "Guía del buen latín, muy leída por los humanistas."
+   },
+   {
+    "titulo": "Sobre el placer",
+    "anio": "c. 1431",
+    "deQueVa": "Diálogo que defiende el valor del placer."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "erasmus",
+   "martin-luther"
+  ]
+ },
+ {
+  "id": "isaac-abarbanel",
+  "nombre": "Isaac Abravanel",
+  "fechas": "1437 – 1508",
+  "region": "Portugal y España",
+  "escuela": "Filosofía judía",
+  "categorias": [
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Estadista y comentarista de la Biblia que pensó en el poder de los reyes y vivió el exilio de 1492",
+  "resumen": "Abravanel nació en Lisboa y fue tesorero y asesor financiero de reyes en Portugal y en España. En 1492, cuando se expulsó a los judíos de España, tuvo que irse a Italia. Escribió grandes comentarios a la Biblia y desconfió del poder absoluto de los reyes.",
+  "ideas": [
+   "Los reyes humanos pueden abusar del poder, así que no conviene darles demasiado.",
+   "Los textos de la Biblia hay que leerlos con atención a la historia y al contexto.",
+   "El exilio y el sufrimiento del pueblo judío no son el final: espera un futuro de salvación."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Comentario a la Biblia",
+    "anio": "c. 1480 – 1508",
+    "deQueVa": "Largos comentarios a los libros de la Biblia hebrea."
+   },
+   {
+    "titulo": "Fuentes de la salvación",
+    "anio": "1497",
+    "deQueVa": "Libro sobre las promesas de salvación en el libro de Daniel."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "pietro-pomponazzi",
+  "nombre": "Pietro Pomponazzi",
+  "fechas": "1462 – 1525",
+  "region": "Italia",
+  "escuela": "Aristotelismo renacentista (Padua)",
+  "categorias": [
+   "mente",
+   "religion",
+   "etica"
+  ],
+  "conocidoPor": "Decir que con la sola razón no se puede demostrar que el alma sea inmortal",
+  "resumen": "Pomponazzi fue profesor de filosofía en Padua y Bolonia. En 1516 publicó un libro en el que decía que, si seguimos solo a Aristóteles y a la razón, no se puede probar que el alma sea inmortal. Aclaró que, como cristiano, lo creía por fe. El libro fue muy criticado y ejemplares fueron quemados en Venecia.",
+  "ideas": [
+   "Desde la razón sola, el alma parece depender del cuerpo y morir con él.",
+   "La virtud no necesita premio tras la muerte: portarse bien ya es su propia recompensa.",
+   "Muchos hechos extraños tienen causas naturales, no magia."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado sobre la inmortalidad del alma",
+    "anio": "1516",
+    "deQueVa": "Si la razón puede probar que el alma no muere."
+   },
+   {
+    "titulo": "Sobre los encantamientos",
+    "anio": "c. 1520",
+    "deQueVa": "Explica con causas naturales cosas que la gente atribuía a la magia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "martin-luther",
+  "nombre": "Martín Lutero",
+  "fechas": "1483 – 1546",
+  "region": "Alemania",
+  "escuela": "Reforma protestante",
+  "categorias": [
+   "religion",
+   "politica",
+   "etica"
+  ],
+  "conocidoPor": "Monje alemán cuyas críticas a la Iglesia dieron origen a la Reforma protestante",
+  "resumen": "Lutero fue un monje y profesor alemán. En 1517 publicó sus «95 tesis» criticando la venta de indulgencias, es decir, el perdón de pecados a cambio de dinero. Eso desencadenó la [[Reforma protestante|reforma-protestante]]. Tradujo la Biblia al alemán, lo que ayudó a que mucha gente la leyera y a fijar la lengua alemana.",
+  "ideas": [
+   "Nos salvamos por la fe y la gracia de Dios, no comprando perdones ni haciendo méritos ([[justificación por la fe|justificacion-por-la-fe]]).",
+   "La Biblia es la autoridad principal y cualquier creyente puede leerla.",
+   "Cualquier trabajo honrado puede ser vocación y servicio a Dios, no solo ser cura."
+  ],
+  "curiosidad": "En 1521 se presentó ante la Dieta de Worms, ante el emperador, y se negó a retractarse de sus escritos.",
+  "frase": {
+   "texto": "Un cristiano es un señor libre sobre todas las cosas y no está sometido a nadie. Un cristiano es un siervo de todas las cosas y está sometido a todos.",
+   "fuente": "Sobre la libertad del cristiano, 1520 (traducción libre del alemán)"
+  },
+  "obras": [
+   {
+    "titulo": "Las noventa y cinco tesis",
+    "anio": "1517",
+    "deQueVa": "Críticas a la venta de indulgencias."
+   },
+   {
+    "titulo": "Sobre la libertad del cristiano",
+    "anio": "1520",
+    "deQueVa": "Qué significa ser libre y servir a la vez."
+   },
+   {
+    "titulo": "Sobre la voluntad esclava",
+    "anio": "1525",
+    "deQueVa": "Respuesta a Erasmo: niega que tengamos libre albedrío ante Dios."
+   },
+   {
+    "titulo": "Biblia en alemán",
+    "anio": "1522 – 1534",
+    "deQueVa": "Traducción del Nuevo Testamento (1522) y de toda la Biblia (1534)."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "philipp-melanchthon"
+  ]
+ },
+ {
+  "id": "domingo-de-soto",
+  "nombre": "Domingo de Soto",
+  "fechas": "1494 – 1560",
+  "region": "España",
+  "escuela": "Escuela de Salamanca",
+  "categorias": [
+   "politica",
+   "etica",
+   "sociedad",
+   "ciencia"
+  ],
+  "conocidoPor": "Teólogo de Salamanca que defendió los derechos de los pobres y ayudó a pensar la justicia",
+  "resumen": "Soto fue un fraile [[dominico]] y profesor en la Universidad de Salamanca. Escribió «Sobre la justicia y el derecho» y defendió que los pobres tenían derecho a ser ayudados y no castigados. Participó en el Concilio de Trento y resumió el debate de Valladolid sobre el trato a los indígenas de América.",
+  "ideas": [
+   "Todas las personas tienen derechos básicos por ser personas ([[derecho natural|derecho-natural]]).",
+   "Los contratos, los precios y la propiedad tienen que regirse por la justicia.",
+   "Los pobres de verdad tienen derecho a pedir y a ser ayudados."
+  ],
+  "curiosidad": "Se le atribuye haber dicho que un cuerpo que cae va ganando velocidad de forma uniforme, siglos antes de Galileo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Deliberación en la causa de los pobres",
+    "anio": "1545",
+    "deQueVa": "Defiende la ayuda a los pobres frente a las leyes que prohibían mendigar."
+   },
+   {
+    "titulo": "Sobre la justicia y el derecho",
+    "anio": "1553 – 1554",
+    "deQueVa": "Tratado sobre la justicia, la propiedad y los contratos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "philipp-melanchthon",
+  "nombre": "Felipe Melanchthon",
+  "fechas": "1497 – 1560",
+  "region": "Alemania",
+  "escuela": "Reforma protestante (humanismo)",
+  "categorias": [
+   "religion",
+   "sociedad",
+   "etica"
+  ],
+  "conocidoPor": "Reformador amigo de Lutero y gran maestro, llamado «el maestro de Alemania»",
+  "resumen": "Melanchthon fue un profesor de griego en Wittenberg y amigo cercano de Lutero. Puso por escrito de forma ordenada las ideas de la Reforma y reorganizó las escuelas y universidades alemanas, por lo que se le llamó «Praeceptor Germaniae», el maestro de Alemania. Fue figura clave del [[humanismo]] protestante.",
+  "ideas": [
+   "Estudiar los textos antiguos en su lengua original ayuda a entender mejor la Biblia.",
+   "La fe y la educación pueden ir juntas: hay que enseñar a leer y pensar.",
+   "Para evitar guerras entre cristianos, conviene buscar acuerdos."
+  ],
+  "curiosidad": "Su apellido de nacimiento era Schwartzerdt, «tierra negra»; Melanchthon es su traducción al griego.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Lugares comunes de la teología (Loci communes)",
+    "anio": "1521",
+    "deQueVa": "El primer resumen ordenado de la teología luterana."
+   },
+   {
+    "titulo": "Confesión de Augsburgo",
+    "anio": "1530",
+    "deQueVa": "Texto fundamental de las iglesias luteranas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gomez-pereira",
+  "nombre": "Gómez Pereira",
+  "fechas": "c. 1500 – c. 1567",
+  "region": "España",
+  "escuela": "Filosofía natural española",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "conocimiento"
+  ],
+  "conocidoPor": "Médico español que dijo que los animales son como máquinas, casi un siglo antes que Descartes",
+  "resumen": "Pereira fue un médico de Medina del Campo, en Castilla. En su libro «Antoniana Margarita» (1554) criticó a Aristóteles y sostuvo que los animales no sienten ni piensan como nosotros, sino que funcionan como máquinas. Esta idea se parece mucho a la que Descartes defendió décadas después, y se discute si la conoció.",
+  "ideas": [
+   "Los animales actúan por mecanismos del cuerpo, sin un alma que piense, como un reloj ([[animal-máquina|animal-maquina]]).",
+   "Una frase suya recuerda al «pienso, luego existo»: «Sé que sé algo, y todo lo que sabe existe, luego yo existo».",
+   "No hay que aceptar a Aristóteles solo por ser Aristóteles: hay que comprobar las cosas."
+  ],
+  "curiosidad": "El título de su libro viene de los nombres de sus padres, Antonio y Margarita.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Antoniana Margarita",
+    "anio": "1554",
+    "deQueVa": "Libro de filosofía y medicina que critica a Aristóteles y explica a los animales como máquinas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "yi-hwang",
+  "nombre": "Yi Hwang (Toegye)",
+  "fechas": "1501 – 1570",
+  "region": "Corea",
+  "escuela": "Neoconfucianismo coreano",
+  "categorias": [
+   "etica",
+   "metafisica",
+   "existencia"
+  ],
+  "conocidoPor": "Gran maestro del neoconfucianismo coreano, que enseñó a cultivar el carácter con atención y respeto",
+  "resumen": "Yi Hwang, llamado Toegye, vivió en la Corea de la dinastía Joseon. Fue funcionario y sobre todo maestro del [[neoconfucianismo]]. Para él, la vida consistía en cultivar el propio carácter con atención y respeto. Su retrato aparece hoy en el billete de 1.000 wones.",
+  "ideas": [
+   "El mundo tiene un principio ordenador ([[li]]) y una materia que se mueve ([[qi]]); son distintos aunque van juntos.",
+   "Según su famoso debate sobre «los cuatro comienzos y las siete emociones», los sentimientos buenos vienen del principio ordenador y los desordenados de la materia.",
+   "Para ser sabio hace falta vivir con atención y respeto en cada momento."
+  ],
+  "curiosidad": "Pidió muchas veces retirarse de la vida de la corte para dedicarse a estudiar y enseñar.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Diez diagramas sobre el aprendizaje de los sabios",
+    "anio": "1568",
+    "deQueVa": "Resumen en dibujos y textos del camino para cultivarse, dedicado al joven rey Seonjo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "alonso-gutierrez",
+  "nombre": "Alonso de la Vera Cruz",
+  "fechas": "1507 – 1584",
+  "region": "México (Nueva España)",
+  "escuela": "Escolástica (Escuela de Salamanca)",
+  "categorias": [
+   "logica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Fraile agustino que escribió y publicó en México los primeros libros de filosofía de América",
+  "resumen": "Alonso nació en España y estudió en Salamanca, donde fue alumno de Francisco de Vitoria. En 1536 llegó a México. Enseñó en la universidad y escribió los primeros libros de filosofía impresos en América (1554–1557). También defendió que los pueblos indígenas tenían derechos sobre sus tierras.",
+  "ideas": [
+   "Los pueblos de América tenían derecho a sus tierras y su gobierno antes de la llegada de los españoles.",
+   "Una conquista solo es justa si hay razones de justicia: el poder por sí solo no basta.",
+   "Para razonar bien hay que aprender lógica, y por eso escribió manuales para sus alumnos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Recognitio summularum",
+    "anio": "1554",
+    "deQueVa": "Manual de lógica para estudiantes."
+   },
+   {
+    "titulo": "Dialectica resolutio",
+    "anio": "1554",
+    "deQueVa": "Explicación del arte de razonar siguiendo a Aristóteles."
+   },
+   {
+    "titulo": "Physica speculatio",
+    "anio": "1557",
+    "deQueVa": "Manual de física, según Aristóteles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "bernardino-telesio",
+  "nombre": "Bernardino Telesio",
+  "fechas": "1507 – 1588",
+  "region": "Italia",
+  "escuela": "Filosofía natural renacentista",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "metafisica"
+  ],
+  "conocidoPor": "Querer explicar la naturaleza por sí misma, con el calor, el frío y los sentidos, sin recurrir a Aristóteles",
+  "resumen": "Telesio fue un filósofo italiano de Cosenza. Criticó a Aristóteles y propuso explicar la naturaleza solo con sus propias fuerzas: el calor y el frío actuando sobre la materia. Defendía que debemos fiarnos de lo que nos dicen los sentidos. Fundó una pequeña academia en su ciudad.",
+  "ideas": [
+   "La naturaleza se explica por sus propios principios, con el calor, el frío y la materia.",
+   "Pensaba que toda la materia tiene algo de sensibilidad, y que las sensaciones son el punto de partida del conocimiento.",
+   "No hace falta recurrir a la autoridad de Aristóteles: hay que mirar la naturaleza con los propios ojos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Sobre la naturaleza de las cosas según sus propios principios",
+    "anio": "1565",
+    "deQueVa": "Su obra principal, que amplió en 1570 y 1586."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "tommaso-campanella"
+  ]
+ },
+ {
+  "id": "petrus-ramus",
+  "nombre": "Pedro Ramus",
+  "fechas": "1515 – 1572",
+  "region": "Francia",
+  "escuela": "Humanismo (reforma de la lógica)",
+  "categorias": [
+   "logica",
+   "lenguaje",
+   "sociedad"
+  ],
+  "conocidoPor": "Reformar la lógica y la retórica con un método de dividir de dos en dos que se enseñó en toda Europa",
+  "resumen": "Ramus fue un profesor francés del siglo XVI. Criticó mucho a Aristóteles y propuso una lógica más sencilla de enseñar. Su método, que ordena las ideas dividiéndolas en dos partes una y otra vez, se hizo muy popular en colegios y universidades de Europa. Murió asesinado en la matanza de San Bartolomé, en 1572.",
+  "ideas": [
+   "Las ideas se aprenden mejor si se ordenan en esquemas que se dividen en dos.",
+   "Hay que separar la lógica, que enseña a razonar, de la retórica, que enseña a convencer.",
+   "Lo importante es que lo aprendido se pueda usar en la vida real, no memorizar mucha teoría."
+  ],
+  "curiosidad": "Según la tradición, en su examen de maestro defendió que todo lo dicho por Aristóteles era falso.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Particiones de dialéctica",
+    "anio": "1543",
+    "deQueVa": "Su nueva forma de enseñar lógica."
+   },
+   {
+    "titulo": "Críticas a la dialéctica de Aristóteles",
+    "anio": "1543",
+    "deQueVa": "Ataque a la lógica de Aristóteles."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jean-bodin",
+  "nombre": "Jean Bodin",
+  "fechas": "1530 – 1596",
+  "region": "Francia",
+  "escuela": "Teoría política renacentista",
+  "categorias": [
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Definir la soberanía como el poder supremo y duradero dentro de un Estado",
+  "resumen": "Bodin fue jurista y pensador francés del siglo XVI, en tiempos de guerras de religión. Explicó que en todo Estado debe haber un poder máximo, el [[soberano]], que hace las leyes. También escribió que la subida de precios de su época se debía a la llegada de plata de América. Escribió además un libro que defendía la persecución de las brujas, un error muy grave.",
+  "ideas": [
+   "En un Estado tiene que haber un poder supremo que dicta las leyes y no depende de otro.",
+   "El soberano debe respetar las leyes de Dios y de la naturaleza, y los contratos.",
+   "Si hay mucho dinero en circulación, los precios suben."
+  ],
+  "curiosidad": "Escribió en secreto un diálogo en el que personas de siete religiones distintas conversan con respeto. Se publicó mucho después de su muerte.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Los seis libros de la República",
+    "anio": "1576",
+    "deQueVa": "Cómo es un Estado y quién debe mandar."
+   },
+   {
+    "titulo": "Sobre la demonomanía de los brujos",
+    "anio": "1580",
+    "deQueVa": "Libro que defiende la persecución de las brujas."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "luis-de-molina",
+  "nombre": "Luis de Molina",
+  "fechas": "1535 – 1600",
+  "region": "España",
+  "escuela": "Escuela de Salamanca (jesuita)",
+  "categorias": [
+   "religion",
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Intentar explicar cómo somos libres aunque Dios lo sepa todo, con su «ciencia media»",
+  "resumen": "Molina fue un [[jesuita]] español, profesor en Évora, Portugal, que murió en Madrid. Se hizo famoso por una teoría sobre cómo encajan la libertad humana y el conocimiento de Dios. Esa teoría provocó una gran polémica con los dominicos. También escribió sobre justicia, propiedad y economía.",
+  "ideas": [
+   "Somos libres de verdad: podríamos haber hecho otra cosa en cada momento.",
+   "Dios sabe qué haría cada persona en cada situación posible, antes de que ocurra, y aun así no nos obliga ([[ciencia media|ciencia-media]]).",
+   "Los precios justos dependen de lo que la gente quiere y de lo que hay, no solo de los costes."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Concordia del libre albedrío con los dones de la gracia",
+    "anio": "1588",
+    "deQueVa": "Su obra más famosa y polémica."
+   },
+   {
+    "titulo": "Sobre la justicia y el derecho",
+    "anio": "1593 – 1609",
+    "deQueVa": "Tratado sobre justicia, propiedad y economía."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "yi-i",
+  "nombre": "Yi I (Yulgok)",
+  "fechas": "1536 – 1584",
+  "region": "Corea",
+  "escuela": "Neoconfucianismo coreano",
+  "categorias": [
+   "etica",
+   "politica",
+   "metafisica"
+  ],
+  "conocidoPor": "Neoconfuciano coreano que propuso reformas y defendió que principio y materia nunca van separados",
+  "resumen": "Yi I, llamado Yulgok, fue un sabio y político de la Corea de Joseon. Sacó notas muy altas en los exámenes oficiales, entró en el gobierno y propuso reformas para ayudar al pueblo. En filosofía discutió con Toegye si el principio ordenador ([[li]]) y la materia ([[qi]]) funcionan por separado. Aparece en el billete de 5.000 wones.",
+  "ideas": [
+   "El principio ordenador y la materia van siempre juntos: no hay uno sin la otra.",
+   "Todas las emociones de una persona nacen del movimiento de la materia, y el principio las guía.",
+   "Un gobierno debe reformar sus leyes y cuidar al pueblo, no solo hablar de virtud."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Esencia del aprendizaje de los sabios",
+    "anio": "1575",
+    "deQueVa": "Resumen de su pensamiento educativo y moral."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "inca-garcilaso-de-la-vega",
+  "nombre": "Inca Garcilaso de la Vega",
+  "fechas": "1539 – 1616",
+  "region": "Perú y España",
+  "escuela": "Humanismo mestizo",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "existencia"
+  ],
+  "conocidoPor": "Contar la historia y las creencias de los incas en español, desde dentro, en los «Comentarios reales»",
+  "resumen": "El Inca Garcilaso nació en Cusco, hijo de un capitán español y de una noble inca. Con unos veinte años se fue a España y allí se hizo escritor. Su libro «Comentarios reales de los Incas» (1609) cuenta la historia, la religión y las costumbres del Perú antiguo con orgullo de su doble herencia. Es una gran obra del [[humanismo]] renacentista escrita desde América.",
+  "ideas": [
+   "Se puede ser de dos mundos a la vez y sentirse orgulloso de los dos ([[mestizaje]]).",
+   "Contar la historia de un pueblo con palabras de quien la conoce desde dentro da una visión distinta a la de los conquistadores.",
+   "Escribió en español, pero con palabras y recuerdos quechuas, para que su lengua materna no se perdiera."
+  ],
+  "curiosidad": "Tradujo al español los «Diálogos de amor», un libro de filosofía de León Hebreo, publicado en 1590.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La Florida del Inca",
+    "anio": "1605",
+    "deQueVa": "Relato de una expedición española a Norteamérica."
+   },
+   {
+    "titulo": "Comentarios reales de los Incas",
+    "anio": "1609",
+    "deQueVa": "Historia y cultura del Perú inca."
+   },
+   {
+    "titulo": "Historia general del Perú",
+    "anio": "1617",
+    "deQueVa": "Sobre la conquista del Perú, publicada tras su muerte."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Comentarios reales de los incas, texto en Wikisource",
+    "url": "https://es.wikisource.org/wiki/Comentarios_reales_de_los_incas",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": []
+ },
+ {
+  "id": "justus-lipsius",
+  "nombre": "Justo Lipsio",
+  "fechas": "1547 – 1606",
+  "region": "Flandes (Países Bajos del Sur)",
+  "escuela": "Neoestoicismo",
+  "categorias": [
+   "etica",
+   "politica",
+   "sociedad"
+  ],
+  "conocidoPor": "Resucitar el estoicismo en el siglo XVI para aguantar los tiempos de guerra y desgracia",
+  "resumen": "Lipsio fue un humanista flamenco del siglo XVI y gran estudioso del latín y de los textos antiguos. Escribió «De la constancia» (1584), un diálogo en el que propone un [[estoicismo]] cristianizado, el [[neoestoicismo]], como consuelo durante las guerras de religión de su época.",
+  "ideas": [
+   "Hay que mantener la calma ante las desgracias que no podemos cambiar.",
+   "El gobernante debe ser prudente y guiarse por la virtud y la experiencia.",
+   "Las [[pasiones]] nublan la razón, y hay que aprender a dominarlas."
+  ],
+  "curiosidad": "Cambió de confesión religiosa varias veces, según el lugar donde enseñaba, y por eso muchos lo criticaron.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "De la constancia",
+    "anio": "1584",
+    "deQueVa": "Diálogo sobre cómo aguantar las desgracias con calma."
+   },
+   {
+    "titulo": "Seis libros de política",
+    "anio": "1589",
+    "deQueVa": "Consejos para gobernar con prudencia."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "francisco-sanches",
+  "nombre": "Francisco Sánchez el Escéptico",
+  "fechas": "1550 – 1623",
+  "region": "España y Francia",
+  "escuela": "Escepticismo renacentista",
+  "categorias": [
+   "conocimiento",
+   "ciencia"
+  ],
+  "conocidoPor": "Decir en «Que nada se sabe» que no podemos conocer perfectamente nada y que hay que mirar la experiencia",
+  "resumen": "Sánchez fue médico y profesor en Toulouse, en Francia. En su libro «Que nada se sabe» (1581) criticó la ciencia de su tiempo por basarse en definiciones y [[silogismos|silogismo]]. Defendió que nunca llegamos a conocer del todo ninguna cosa, y que hay que observar con cuidado y por experiencia.",
+  "ideas": [
+   "Nunca llegamos a conocer del todo ni siquiera una cosa, porque cada cosa está unida a muchas otras.",
+   "El [[silogismo]] y las definiciones no descubren verdades nuevas.",
+   "Hay que observar la naturaleza y la experiencia, no solo discutir con palabras."
+  ],
+  "curiosidad": "Se discute si nació en Tui, Galicia, o en Braga, Portugal, y en qué año exacto.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Que nada se sabe",
+    "anio": "1581",
+    "deQueVa": "Defiende que no podemos tener conocimiento perfecto."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "oliva-sabuco",
+  "nombre": "Oliva Sabuco",
+  "fechas": "1562 – c. 1622",
+  "region": "España",
+  "escuela": "Naturalismo renacentista",
+  "categorias": [
+   "mente",
+   "ciencia",
+   "sociedad"
+  ],
+  "conocidoPor": "Escribir que las emociones influyen en la salud, en la «Nueva filosofía de la naturaleza del hombre»",
+  "resumen": "Oliva Sabuco nació en Alcaraz (Albacete). En 1587 se publicó la «Nueva filosofía de la naturaleza del hombre», que lleva su nombre en la portada. Defiende que las emociones, como la tristeza, afectan a la salud, y critica ideas médicas de su época. Se ha discutido si de verdad lo escribió ella o su padre.",
+  "ideas": [
+   "Las emociones influyen en la salud del cuerpo: la tristeza enferma y la alegría ayuda a curar.",
+   "El cerebro es el centro de la vida del cuerpo.",
+   "Presentó una «nueva filosofía» propia, que rompe con la medicina y la filosofía de los antiguos."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Nueva filosofía de la naturaleza del hombre",
+    "anio": "1587",
+    "deQueVa": "Sobre cómo las emociones afectan al cuerpo y a la salud."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "galileo-galilei",
+  "nombre": "Galileo Galilei",
+  "fechas": "1564 – 1642",
+  "region": "Italia",
+  "escuela": "Revolución científica",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "metafisica"
+  ],
+  "conocidoPor": "Usar el telescopio y las matemáticas para estudiar el cielo y defender que la Tierra se mueve",
+  "resumen": "Galileo fue un científico italiano. Con el telescopio descubrió, entre otras cosas, cuatro grandes lunas de Júpiter. Defendió que la Tierra gira alrededor del Sol, y eso le llevó a un juicio de la [[Inquisición|inquisicion]] en 1633. Pasó sus últimos años bajo arresto domiciliario. Enseñó que la naturaleza se entiende con medidas y [[método experimental|metodo-experimental]].",
+  "ideas": [
+   "La naturaleza está escrita en lenguaje matemático: para entenderla hay que medir.",
+   "Hay que apoyarse en observaciones y experimentos y no solo en lo que dijeron los antiguos.",
+   "Si lanzamos una bola en un barco que se mueve con suavidad, dentro todo parece igual: por eso no notamos que la Tierra se mueve."
+  ],
+  "curiosidad": "La frase «Y sin embargo se mueve» que se le atribuye no tiene pruebas de que la dijera.",
+  "frase": {
+   "texto": "La filosofía está escrita en ese grandísimo libro que continuamente está abierto ante nuestros ojos, el universo, pero no se puede entender si antes no se aprende su lengua y se conocen los caracteres en que está escrito. Está escrito en lengua matemática.",
+   "fuente": "El ensayador (Il Saggiatore), 1623 (traducción libre del italiano)"
+  },
+  "obras": [
+   {
+    "titulo": "Mensajero de las estrellas",
+    "anio": "1610",
+    "deQueVa": "Sus descubrimientos con el telescopio."
+   },
+   {
+    "titulo": "El ensayador",
+    "anio": "1623",
+    "deQueVa": "Sobre cómo se debe hacer ciencia."
+   },
+   {
+    "titulo": "Diálogo sobre los dos máximos sistemas del mundo",
+    "anio": "1632",
+    "deQueVa": "Debate entre el sistema de Ptolomeo y el de Copérnico."
+   },
+   {
+    "titulo": "Discursos sobre dos nuevas ciencias",
+    "anio": "1638",
+    "deQueVa": "Su estudio del movimiento y de la resistencia de los materiales."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "isaac-newton"
+  ]
+ },
+ {
+  "id": "marie-de-gournay",
+  "nombre": "Marie de Gournay",
+  "fechas": "1565 – 1645",
+  "region": "Francia",
+  "escuela": "Humanismo (igualitarismo)",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "lenguaje"
+  ],
+  "conocidoPor": "Editar los «Ensayos» de Montaigne y defender por escrito la igualdad entre hombres y mujeres",
+  "resumen": "Marie de Gournay fue una escritora francesa. Admiradora de Montaigne, se encargó de preparar la edición de sus «Ensayos» de 1595, después de su muerte. En «La igualdad de los hombres y las mujeres» (1622) explicó que la razón es igual en ambos sexos y que la desigualdad viene de la educación y la costumbre.",
+  "ideas": [
+   "Hombres y mujeres tienen la misma capacidad de razonar: lo que cambia es la educación que reciben.",
+   "Las mujeres han sido ignoradas durante siglos porque no se les dejaba aprender, no porque no pudieran.",
+   "Ser fiel a un maestro es cuidar su obra, como ella hizo con los «Ensayos» de Montaigne."
+  ],
+  "curiosidad": "Montaigne la llamó su «hija de alianza» (fille d'alliance), un lazo de cariño intelectual.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "La igualdad de los hombres y las mujeres",
+    "anio": "1622",
+    "deQueVa": "Defiende que la razón es igual en ambos sexos."
+   },
+   {
+    "titulo": "El lamento de las damas",
+    "anio": "1626",
+    "deQueVa": "Denuncia que se impida a las mujeres tener educación y cargos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "jakob-bohme",
+  "nombre": "Jakob Böhme",
+  "fechas": "1575 – 1624",
+  "region": "Alemania",
+  "escuela": "Misticismo luterano (teosofía)",
+  "categorias": [
+   "religion",
+   "metafisica",
+   "existencia"
+  ],
+  "conocidoPor": "Zapatero alemán que escribió sobre Dios, el bien y el mal como una lucha de opuestos",
+  "resumen": "Böhme era un zapatero de la ciudad alemana de Görlitz. Sin estudios universitarios, escribió libros sobre Dios, la naturaleza y el mal. Su obra «Aurora» (1612) circuló en copias y las autoridades le prohibieron escribir. Pensaba que todo nace de una tensión entre opuestos, como luz y oscuridad. Su influencia llegó hasta Hegel y Schelling.",
+  "ideas": [
+   "Todo lo que existe nace de opuestos que se tensan: sí y no, luz y sombra, amor y cólera.",
+   "Dios es la fuente de todo, y el mal hace falta para que el bien se note.",
+   "La verdad se puede vivir de forma directa, no solo aprender por libros ([[mística|mistica]])."
+  ],
+  "curiosidad": "Según la tradición, su gran experiencia espiritual empezó al mirar un cacharro de estaño que reflejaba la luz del sol, en 1600.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Aurora (La aurora naciente)",
+    "anio": "1612",
+    "deQueVa": "Su primer libro, sobre Dios, el mundo y el mal."
+   },
+   {
+    "titulo": "El camino hacia Cristo",
+    "anio": "1622",
+    "deQueVa": "Guía espiritual práctica."
+   },
+   {
+    "titulo": "De la signatura de las cosas",
+    "anio": "1622",
+    "deQueVa": "Cómo las cosas llevan señales de su naturaleza interior."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "georg-wilhelm-friedrich-hegel",
+   "friedrich-wilhelm-joseph-schelling"
+  ]
+ },
+ {
+  "id": "marin-mersenne",
+  "nombre": "Marin Mersenne",
+  "fechas": "1588 – 1648",
+  "region": "Francia",
+  "escuela": "Filosofía mecánica",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "estetica"
+  ],
+  "conocidoPor": "Fraile que unió a los sabios de Europa por carta: Descartes, Hobbes, Galileo, Pascal y muchos más",
+  "resumen": "Mersenne fue un fraile francés de la orden de los Mínimos, matemático y estudioso de la música y del sonido. Fue sobre todo un gran conector: se escribía con los mejores científicos y filósofos de Europa y compartía sus ideas. Así hizo de «buzón» de la ciencia de su tiempo.",
+  "ideas": [
+   "La ciencia avanza más si los sabios comparten sus resultados y discuten entre sí.",
+   "Defendió que la nueva ciencia mecánica no estaba en contra de la fe.",
+   "Estudió el sonido con números: cuánto vibra una cuerda según su longitud, su grosor y su tensión."
+  ],
+  "curiosidad": "Los números primos de la forma 2 elevado a p menos 1 se llaman «primos de Mersenne». Los mayores primos conocidos suelen ser de ese tipo.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Armonía universal",
+    "anio": "1636 – 1637",
+    "deQueVa": "Gran tratado sobre el sonido y la música."
+   },
+   {
+    "titulo": "Las mecánicas de Galileo (traducción)",
+    "anio": "1634",
+    "deQueVa": "Traducción al francés de la mecánica de Galileo."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "anna-maria-van-schurman",
+  "nombre": "Anna Maria van Schurman",
+  "fechas": "1607 – 1678",
+  "region": "Países Bajos",
+  "escuela": "Humanismo y feminismo temprano",
+  "categorias": [
+   "sociedad",
+   "religion",
+   "conocimiento"
+  ],
+  "conocidoPor": "Defender que las mujeres también deben estudiar y asistir a clases universitarias en Utrecht",
+  "resumen": "Anna Maria van Schurman fue una erudita holandesa que sabía latín, griego, hebreo y otras lenguas. En 1636 asistió a clases de la Universidad de Utrecht desde detrás de una cortina que la ocultaba. Defendió por escrito que las mujeres tienen capacidad para estudiar. Más tarde se unió a un grupo religioso protestante muy austero.",
+  "ideas": [
+   "Las mujeres tienen la misma capacidad para aprender que los hombres.",
+   "El estudio ayuda a las personas a ser mejores y a conocer a Dios.",
+   "Buscó una vida religiosa sencilla y se unió a la comunidad de los labadistas."
+  ],
+  "curiosidad": "Era también pintora, grabadora y música.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Disertación sobre la aptitud de la mujer para el estudio",
+    "anio": "1641",
+    "deQueVa": "Defiende el derecho de las mujeres a estudiar."
+   },
+   {
+    "titulo": "Eucleria",
+    "anio": "1673",
+    "deQueVa": "Defensa de la vida religiosa que eligió."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "antoine-arnauld",
+  "nombre": "Antoine Arnauld",
+  "fechas": "1612 – 1694",
+  "region": "Francia",
+  "escuela": "Jansenismo y cartesianismo crítico",
+  "categorias": [
+   "logica",
+   "religion",
+   "conocimiento"
+  ],
+  "conocidoPor": "Teólogo jansenista de Port-Royal que escribió una lógica famosa y criticó a Descartes y a Malebranche",
+  "resumen": "Arnauld fue un teólogo francés, líder del [[jansenismo]], un movimiento católico muy estricto. Con Pierre Nicole escribió la «Lógica de Port-Royal», un manual muy leído durante siglos. Envió críticas a Descartes, que se publicaron con las respuestas de éste, y discutió con Malebranche. Fue expulsado de la Sorbona en 1656 y murió exiliado en Bruselas.",
+  "ideas": [
+   "Hay que aprender a pensar con claridad: la lógica sirve para la vida diaria, no solo para la escuela.",
+   "Las ideas son actos de la mente que se refieren directamente a las cosas, no imágenes que hay entre medias.",
+   "La gracia de Dios es necesaria para hacer el bien, y sin ella somos incapaces de hacerlo."
+  ],
+  "curiosidad": "Escribió con Claude Lancelot la «Gramática de Port-Royal» (1660), que buscaba las reglas comunes a todas las lenguas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Gramática general y razonada (con Lancelot)",
+    "anio": "1660",
+    "deQueVa": "Intenta explicar la gramática con reglas que sirven para todas las lenguas."
+   },
+   {
+    "titulo": "La lógica o el arte de pensar (con Nicole)",
+    "anio": "1662",
+    "deQueVa": "Manual de lógica muy usado durante siglos."
+   },
+   {
+    "titulo": "Sobre las ideas verdaderas y las falsas",
+    "anio": "1683",
+    "deQueVa": "Crítica a Malebranche sobre cómo conocemos."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "henry-more",
+  "nombre": "Henry More",
+  "fechas": "1614 – 1687",
+  "region": "Inglaterra",
+  "escuela": "Platónicos de Cambridge",
+  "categorias": [
+   "metafisica",
+   "religion",
+   "mente"
+  ],
+  "conocidoPor": "Defender que el espacio es infinito, que Dios lo llena y que existen espíritus, frente al mecanicismo",
+  "resumen": "Henry More fue un filósofo inglés, miembro de los [[platónicos de Cambridge|platonicos-de-cambridge]]. Al principio admiró a Descartes, con quien se escribió, pero luego le criticó que lo redujera todo a materia en movimiento. Defendió que existen el espíritu y una fuerza ordenadora en la naturaleza.",
+  "ideas": [
+   "Hay realidades que no son materia, como los espíritus y Dios, y la razón puede mostrarlas.",
+   "El espacio es infinito y es en cierto modo una forma de la presencia de Dios.",
+   "Hay una «fuerza de la naturaleza» que ordena el mundo y no es solo materia en choque."
+  ],
+  "curiosidad": "Fue maestro y amigo de Anne Conway, que le consultaba sus ideas.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Antídoto contra el ateísmo",
+    "anio": "1653",
+    "deQueVa": "Argumentos para defender la existencia de Dios y de los espíritus."
+   },
+   {
+    "titulo": "La inmortalidad del alma",
+    "anio": "1659",
+    "deQueVa": "Defiende que el alma sobrevive al cuerpo."
+   },
+   {
+    "titulo": "Enchiridion metaphysicum",
+    "anio": "1671",
+    "deQueVa": "Manual de metafísica, donde discute sobre el espacio."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "anne-conway",
+   "isaac-newton"
+  ]
+ },
+ {
+  "id": "ralph-cudworth",
+  "nombre": "Ralph Cudworth",
+  "fechas": "1617 – 1688",
+  "region": "Inglaterra",
+  "escuela": "Platónicos de Cambridge",
+  "categorias": [
+   "etica",
+   "metafisica",
+   "religion"
+  ],
+  "conocidoPor": "Defender que el bien y el mal no son un invento ni una orden, sino verdades eternas que la razón conoce",
+  "resumen": "Cudworth fue un filósofo inglés de los [[platónicos de Cambridge|platonicos-de-cambridge]] y director de un colegio de la Universidad de Cambridge. Contra Hobbes, sostuvo que la moral no depende del poder ni de la voluntad de nadie. Escribió una enorme obra contra el ateísmo.",
+  "ideas": [
+   "El bien y el mal son verdades eternas, como las matemáticas: ni los reyes ni siquiera una orden de Dios pueden cambiarlos por capricho.",
+   "Hay en la naturaleza «naturalezas plásticas», fuerzas que ordenan lo vivo sin ser conscientes ([[naturaleza plástica|naturaleza-plastica]]).",
+   "El ateísmo y el materialismo no pueden explicar la mente ni la moral."
+  ],
+  "curiosidad": "Su hija Damaris fue amiga de John Locke y filósofa.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "El verdadero sistema intelectual del universo",
+    "anio": "1678",
+    "deQueVa": "Gran obra contra el ateísmo y el materialismo."
+   },
+   {
+    "titulo": "Tratado sobre la moral eterna e inmutable",
+    "anio": "1731 (póstumo)",
+    "deQueVa": "Defiende que la moral es verdad eterna."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "damaris-cudworth-masham"
+  ]
+ },
+ {
+  "id": "geraud-de-cordemoy",
+  "nombre": "Géraud de Cordemoy",
+  "fechas": "1626 – 1684",
+  "region": "Francia",
+  "escuela": "Cartesianismo (ocasionalismo y atomismo)",
+  "categorias": [
+   "metafisica",
+   "lenguaje",
+   "mente"
+  ],
+  "conocidoPor": "Cartesiano que pensó el lenguaje como señal de que otra persona tiene mente",
+  "resumen": "Cordemoy fue un abogado y filósofo francés, seguidor de Descartes. Defendió que el mundo está hecho de átomos y que el cuerpo no puede mover al alma ni al revés. Escribió también sobre el lenguaje y llegó a ser lector del hijo del rey Luis XIV.",
+  "ideas": [
+   "Sabemos que otra persona tiene mente porque habla con sentido y responde a lo que decimos.",
+   "El cuerpo y la mente son tan distintos que es difícil explicar cómo actúan uno sobre otro, y esto lleva al [[ocasionalismo]].",
+   "Los cuerpos están hechos de átomos y vacío, pero la mente no."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Discernimiento del cuerpo y del alma",
+    "anio": "1666",
+    "deQueVa": "Defiende la distinción entre cuerpo y alma."
+   },
+   {
+    "titulo": "Discurso físico de la palabra",
+    "anio": "1668",
+    "deQueVa": "Sobre cómo hablamos y cómo entendemos a otros."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "robert-boyle",
+  "nombre": "Robert Boyle",
+  "fechas": "1627 – 1691",
+  "region": "Irlanda e Inglaterra",
+  "escuela": "Filosofía mecánica",
+  "categorias": [
+   "ciencia",
+   "conocimiento",
+   "religion"
+  ],
+  "conocidoPor": "Padre de la química moderna: defendió probar las ideas con experimentos y explicar la materia con partículas",
+  "resumen": "Boyle nació en Irlanda y vivió en Inglaterra. Fue uno de los fundadores de la Royal Society. Descubrió que el volumen de un gas disminuye si lo aprietas más, la «ley de Boyle». Usó la [[filosofía mecánica|filosofia-mecanica]]: todo estaba hecho de [[corpúsculos|corpusculos]] diminutos en movimiento.",
+  "ideas": [
+   "Hay que comprobar las ideas con experimentos que otros puedan repetir y ver.",
+   "Todo está hecho de partículas diminutas y sus formas y movimientos explican lo que vemos.",
+   "Los colores, olores y sabores no están tal cual en las cosas, sino que surgen de cómo actúan sobre nosotros."
+  ],
+  "curiosidad": "En su testamento dejó dinero para unas conferencias anuales que defendieran la fe cristiana con razones, las «Boyle Lectures».",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Nuevos experimentos físico-mecánicos sobre el resorte del aire",
+    "anio": "1660",
+    "deQueVa": "Sus experimentos con la bomba de aire."
+   },
+   {
+    "titulo": "El químico escéptico",
+    "anio": "1661",
+    "deQueVa": "Critica las ideas antiguas sobre los elementos."
+   },
+   {
+    "titulo": "Origen de las formas y cualidades",
+    "anio": "1666",
+    "deQueVa": "Explica cómo las partículas dan lugar a lo que percibimos."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "The Sceptical Chymist, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/22914",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "john-locke"
+  ]
+ },
+ {
+  "id": "sophia-of-hanover",
+  "nombre": "Sofía de Hannover",
+  "fechas": "1630 – 1714",
+  "region": "Alemania (Hannover)",
+  "escuela": "Corte ilustrada y patrona de Leibniz",
+  "categorias": [
+   "sociedad",
+   "politica",
+   "religion"
+  ],
+  "conocidoPor": "Princesa y electora de Hannover que protegió a Leibniz y discutió filosofía por carta con él",
+  "resumen": "Sofía fue una princesa nacida en La Haya, hermana de Isabel del Palatinado, otra pensadora. Se casó con el duque de Hannover y llegó a ser electora. Hizo de su corte un lugar de debate y fue amiga y protectora de Leibniz, con quien se escribió mucho. No escribió obras de filosofía, pero favoreció a quienes las hacían.",
+  "ideas": [
+   "Las ideas se discuten mejor entre amigos, en la corte y por carta.",
+   "Mantuvo correspondencia durante años con Leibniz, que trabajó para su familia.",
+   "La filosofía no es solo cosa de profesores: la hacen también personas curiosas que conversan."
+  ],
+  "curiosidad": "Murió en junio de 1714, pocas semanas antes que la reina Ana. Por eso su hijo, Jorge I, heredó el trono de Gran Bretaña.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Memorias",
+    "anio": "",
+    "deQueVa": "Sus recuerdos escritos de su vida y de las cortes de Europa."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "gabrielle-suchon",
+  "nombre": "Gabrielle Suchon",
+  "fechas": "1631 – 1703",
+  "region": "Francia",
+  "escuela": "Feminismo temprano",
+  "categorias": [
+   "sociedad",
+   "etica",
+   "politica"
+  ],
+  "conocidoPor": "Pedir libertad, ciencia y autoridad para las mujeres y defender la soltería como una elección",
+  "resumen": "Gabrielle Suchon fue una pensadora francesa de Borgoña. Escribió que a las mujeres se les quitaba la libertad, el estudio y el derecho a mandar, y que eso era injusto. También defendió que no casarse ni hacerse monja podía ser una decisión legítima. Se la considera una precursora del [[feminismo]].",
+  "ideas": [
+   "Las mujeres tienen derecho a la libertad y a decidir sobre su propia vida.",
+   "Las mujeres deben poder estudiar y tener acceso a las ciencias.",
+   "Las mujeres también pueden tener autoridad y cargos de gobierno."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Tratado de la moral y la política",
+    "anio": "1693",
+    "deQueVa": "Defiende la libertad, el saber y la autoridad para las mujeres."
+   },
+   {
+    "titulo": "Del celibato voluntario",
+    "anio": "1700",
+    "deQueVa": "Defiende elegir la soltería."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "isaac-newton",
+  "nombre": "Isaac Newton",
+  "fechas": "1643 – 1727",
+  "region": "Inglaterra",
+  "escuela": "Filosofía natural (revolución científica)",
+  "categorias": [
+   "ciencia",
+   "metafisica",
+   "conocimiento"
+  ],
+  "conocidoPor": "Explicar con las mismas leyes la caída de una manzana y el movimiento de la Luna: la gravitación universal",
+  "resumen": "Newton fue un matemático y físico inglés. En 1687 publicó los «Principia», donde formula las tres leyes del movimiento y la [[gravitación universal|gravitacion-universal]]. Con ello mostró que la naturaleza obedece leyes matemáticas. También estudió la luz y desarrolló el [[cálculo infinitesimal|calculo-infinitesimal]]. Presidió la Royal Society.",
+  "ideas": [
+   "Las mismas leyes sirven para lo que cae en la Tierra y para los planetas en el cielo.",
+   "Se debe partir de observaciones y experimentos para llegar a leyes generales ([[inducción|induccion]]).",
+   "Decía que no «inventaba hipótesis» sobre la causa de la gravedad: describía cómo actúa, aunque no supiera por qué."
+  ],
+  "curiosidad": "Escribió muchísimo sobre alquimia y teología, casi más que sobre física.",
+  "frase": {
+   "texto": "Si he visto más lejos es porque estoy subido a hombros de gigantes.",
+   "fuente": "Carta a Robert Hooke, 5 de febrero de 1675/76 (traducción libre)"
+  },
+  "obras": [
+   {
+    "titulo": "Principios matemáticos de la filosofía natural (Principia)",
+    "anio": "1687",
+    "deQueVa": "Las leyes del movimiento y la gravitación universal."
+   },
+   {
+    "titulo": "Óptica",
+    "anio": "1704",
+    "deQueVa": "Sus experimentos con la luz y los colores."
+   }
+  ],
+  "enlaces": [
+   {
+    "titulo": "Principia, traducción inglesa de 1846 (Wikisource)",
+    "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)",
+    "tipo": "texto"
+   },
+   {
+    "titulo": "Opticks, texto completo en inglés (Proyecto Gutenberg)",
+    "url": "https://www.gutenberg.org/ebooks/33504",
+    "tipo": "texto"
+   }
+  ],
+  "influyeEn": [
+   "samuel-clarke",
+   "voltaire",
+   "immanuel-kant"
+  ]
+ },
+ {
+  "id": "john-norris",
+  "nombre": "John Norris",
+  "fechas": "1657 – 1711",
+  "region": "Inglaterra",
+  "escuela": "Platonismo de Cambridge (malebranchismo)",
+  "categorias": [
+   "metafisica",
+   "conocimiento",
+   "religion"
+  ],
+  "conocidoPor": "Clérigo inglés que siguió a Malebranche: dijo que vemos las ideas en la mente de Dios",
+  "resumen": "Norris fue un clérigo y filósofo inglés, párroco de Bemerton. Siguió a Malebranche y defendió que Dios es el origen de todo conocimiento. Criticó a Locke y su [[empirismo]]. Mantuvo una correspondencia con Mary Astell, que se publicó en 1695.",
+  "ideas": [
+   "Conocemos las verdades porque vemos las ideas en la mente de Dios, no porque las saquemos de los sentidos.",
+   "Solo Dios merece nuestro amor total, y las criaturas no.",
+   "Rechazó que todo conocimiento venga de la experiencia, como decía Locke."
+  ],
+  "curiosidad": null,
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Reflexiones apresuradas sobre el Ensayo de Locke",
+    "anio": "1690",
+    "deQueVa": "Crítica a Locke desde el platonismo."
+   },
+   {
+    "titulo": "Ensayo hacia una teoría del mundo ideal e inteligible",
+    "anio": "1701 – 1704",
+    "deQueVa": "Su obra principal, sobre las ideas en Dios."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": [
+   "mary-astell"
+  ]
+ },
+ {
+  "id": "damaris-cudworth-masham",
+  "nombre": "Damaris Cudworth Masham",
+  "fechas": "1659 – 1708",
+  "region": "Inglaterra",
+  "escuela": "Racionalismo cristiano",
+  "categorias": [
+   "etica",
+   "religion",
+   "sociedad"
+  ],
+  "conocidoPor": "Filósofa inglesa, amiga de Locke y de Leibniz, que defendió la educación de las mujeres",
+  "resumen": "Damaris era hija del filósofo Ralph Cudworth. Se casó con Francis Masham y en su casa vivió John Locke durante sus últimos años. Escribió libros sobre el amor a Dios y la vida cristiana. Se escribió con Leibniz. Defendió que las mujeres merecen una buena educación.",
+  "ideas": [
+   "Amar a Dios es compatible con amar a las personas y las cosas buenas del mundo.",
+   "La vida moral se basa en la razón y en una religión sin superstición.",
+   "Las madres y las mujeres necesitan buena educación porque educan a los hijos."
+  ],
+  "curiosidad": "Cuidó a Locke en su casa de Oates, en Essex, hasta su muerte en 1704.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Discurso sobre el amor de Dios",
+    "anio": "1696",
+    "deQueVa": "Responde a quienes decían que solo se debe amar a Dios."
+   },
+   {
+    "titulo": "Pensamientos ocasionales sobre una vida virtuosa y cristiana",
+    "anio": "1705",
+    "deQueVa": "Sobre moral, religión y educación."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "samuel-clarke",
+  "nombre": "Samuel Clarke",
+  "fechas": "1675 – 1729",
+  "region": "Inglaterra",
+  "escuela": "Racionalismo teológico (newtoniano)",
+  "categorias": [
+   "metafisica",
+   "etica",
+   "religion",
+   "ciencia"
+  ],
+  "conocidoPor": "Defender las ideas de Newton y discutir por carta con Leibniz sobre el espacio, Dios y la libertad",
+  "resumen": "Clarke fue un clérigo y filósofo inglés, amigo de Newton. Tradujo la «Óptica» de Newton al latín. Defendió que se puede demostrar con razón que Dios existe y que el bien y el mal son verdades que la razón descubre. Es famoso por su correspondencia con Leibniz.",
+  "ideas": [
+   "El espacio y el tiempo son reales, aunque no haya nada en ellos ([[espacio absoluto|espacio-absoluto]]).",
+   "Podemos saber con la razón qué está bien y qué está mal, igual que sabemos que dos más dos son cuatro.",
+   "Dios interviene en el mundo y lo mantiene: no es un relojero que se retira."
+  ],
+  "curiosidad": "La correspondencia con Leibniz (1715–1716) comenzó porque Leibniz escribió a la princesa Carolina de Gales, que se la pasó a Clarke.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Demostración del ser y los atributos de Dios",
+    "anio": "1704 – 1705",
+    "deQueVa": "Sus conferencias contra el ateísmo."
+   },
+   {
+    "titulo": "Correspondencia con Leibniz",
+    "anio": "1717",
+    "deQueVa": "Debate sobre el espacio, Dios y la libertad."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ },
+ {
+  "id": "anthony-collins",
+  "nombre": "Anthony Collins",
+  "fechas": "1676 – 1729",
+  "region": "Inglaterra",
+  "escuela": "Libre pensamiento (deísmo)",
+  "categorias": [
+   "religion",
+   "conocimiento",
+   "existencia"
+  ],
+  "conocidoPor": "Defender el derecho a pensar libremente sobre religión y decir que nuestras acciones tienen causas necesarias",
+  "resumen": "Collins fue un pensador inglés, amigo de Locke. En «Discurso sobre el libre pensamiento» (1713) defendió que cada persona tiene derecho a examinar las creencias religiosas con su razón. También sostuvo que nuestras acciones tienen causas necesarias, aunque llamemos libre a actuar sin que nos obliguen. Fue un representante del [[libre pensamiento|libre-pensamiento]].",
+  "ideas": [
+   "Cada persona tiene derecho a pensar sobre la religión y a dudar sin miedo.",
+   "Nuestras decisiones tienen causas, como todo lo demás: somos libres cuando actuamos sin obstáculos.",
+   "Las creencias religiosas deben apoyarse en razones y no en miedo o autoridad."
+  ],
+  "curiosidad": "Debatió por escrito con Samuel Clarke sobre si el alma es inmaterial, en 1707 y 1708.",
+  "frase": null,
+  "obras": [
+   {
+    "titulo": "Discurso sobre el libre pensamiento",
+    "anio": "1713",
+    "deQueVa": "Defiende pensar libremente sobre religión."
+   },
+   {
+    "titulo": "Investigación filosófica sobre la libertad humana",
+    "anio": "1717",
+    "deQueVa": "Sostiene que las acciones tienen causas necesarias."
+   }
+  ],
+  "enlaces": [],
+  "influyeEn": []
+ }
+]
