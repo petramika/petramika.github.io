@@ -163,7 +163,7 @@ export default function App() {
     const io = new IntersectionObserver(([e]) => e.isIntersecting && setLimite((l) => l + TANDA), {rootMargin: '1200px 0px'});
     io.observe(el);
     return () => io.disconnect();
-  }, [limite, visibles.length]);
+  }, [limite, visibles.length, vista]); // al volver de «Con historia» el centinela es nuevo
   let quedan = limite;
   const pintados = grupos
     .map((g) => ({
