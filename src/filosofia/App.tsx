@@ -117,7 +117,8 @@ export default function App() {
     const suyos = visibles.filter((f) => f.era === e.id);
     const siglos = new Map<number, Filosofo[]>();
     suyos.forEach((f) => {
-      const k = numSiglo(f.nace ?? f.fl - 35);
+      // Por el siglo en que hicieron su obra (nacimiento + 35, mas o menos), como la edad
+      const k = numSiglo(f.fl);
       siglos.set(k, [...(siglos.get(k) ?? []), f]);
     });
     return {e, suyos, siglos: [...siglos.entries()].sort((a, b) => a[0] - b[0])};
@@ -296,7 +297,7 @@ export default function App() {
               {siglos.map(([k, fs]) => (
                 <div key={k} className="siglo">
                   <h3 className="siglo-nombre">
-                    <span>{siglo(fs[0].nace ?? fs[0].fl - 35)}</span>
+                    <span>{siglo(fs[0].fl)}</span>
                   </h3>
                   <div className="tarjetas">
                     {fs.map((f) => (
