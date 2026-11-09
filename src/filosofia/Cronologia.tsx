@@ -284,7 +284,15 @@ export function pintarSiglo({
 
   const colocadas = apilarV(pills, (p) => Y(p.anio), 26, L);
   const caras = apilarV(filosofos, (f) => Y(f.fl), 46, R, 6);
-  const duran = eventos.filter((e) => e.hasta != null && e.hasta > e.anio + 1);
+  // Lo que duro años (guerras…): una barra sobre el propio eje, solo si su pill se ve
+  const duran: {e: Evento; carril: number}[] = [];
+  colocadas.forEach(({t}) => {
+    if (t.k !== 'evento' || t.e.hasta == null || t.e.hasta <= t.e.anio + 1) return;
+    const e = t.e;
+    let carril = 0;
+    while (duran.some((d) => d.carril === carril && d.e.anio < e.hasta! && e.anio < d.e.hasta!)) carril++;
+    duran.push({e, carril});
+  });
   const paso = pxAnio * 10 >= 60 ? 10 : 25;
   const marcas: number[] = [];
   for (let a = inicio + paso; a < fin; a += paso) marcas.push(a);
@@ -314,12 +322,12 @@ export function pintarSiglo({
           </button>
         );
       })}
-      {duran.map((e, i) => (
+      {duran.map(({e, carril}) => (
         <button
           key={'d' + e.id}
           type="button"
           className={`crono-dura${elegido?.id === e.id ? ' on' : ''}`}
-          style={{left: x0 + (i % PL) * (bandaW + 3) + bandaW / 2 - 2.5, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
+          style={{left: izqW + EJE - 2.5 - carril * 8, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
           onClick={() => setSel(elegido?.id === e.id ? null : {id: e.id})}
           title={`${e.titulo} (${anioTxt(e.anio)} – ${anioTxt(e.hasta!)})`}
           aria-label={e.titulo}
