@@ -1,12 +1,13 @@
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
-import {CAT, CATEGORIAS, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
+import {CAT, CATEGORIAS, COLOR_EDAD, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
 import Buscador, {type Termino} from './Buscador';
 import {mejores, palabras, puntuar, type Sugerencia} from './buscar';
 import LISTA from './datos/lista.json';
 import Ficha from './Ficha';
-import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
+import {plano, ProveedorGlosario, type Diccionario} from '../comun/Glosario';
 import Pie from '../comun/Pie';
 import Linea from './Linea';
+import Multi from './Multi';
 import {BarraHistoria, DetalleHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
 import Tarjeta from './Tarjeta';
 import type {Filosofo, Sexo} from './tipos';
@@ -46,7 +47,7 @@ const SUGERENCIAS: Sugerencia[] = (() => {
 })();
 
 export default function App() {
-  const [era, setEra] = useState<EraId | null>(null);
+  const [eras, setEras] = useState<Set<EraId>>(new Set());
   const [cats, setCats] = useState<Set<CatId>>(new Set());
   const [q, setQ] = useState('');
   // El glosario se baja despues de pintar: hasta entonces las palabras salen sin gris
@@ -54,7 +55,7 @@ export default function App() {
   useEffect(() => {
     import('./datos/glosario.json').then((m) => setGlosario(m.default as Diccionario));
   }, []);
-  const [sexo, setSexo] = useState<Sexo | null>(null);
+  const [sexos, setSexos] = useState<Set<Sexo>>(new Set());
   const [terminos, setTerminos] = useState<Termino[]>([]);
   // Con varios terminos: los que cumplen cualquiera (suma) o todos a la vez (va filtrando)
   const [modo, setModo] = useState<'alguno' | 'todos'>('alguno');
@@ -92,27 +93,24 @@ export default function App() {
     setSel(null);
   }, []);
 
-  const alternarCat = (c: CatId) =>
-    setCats((s) => {
-      const n = new Set(s);
-      n.has(c) ? n.delete(c) : n.add(c);
-      return n;
-    });
-
-  const alternarFama = (n: number) =>
-    setFamas((s) => {
-      const x = new Set(s);
-      x.has(n) ? x.delete(n) : x.add(n);
-      return x;
-    });
+  /** Marca o desmarca un valor en un filtro de varios */
+  const alterna =
+    <T,>(set: (f: (s: Set<T>) => Set<T>) => void) =>
+    (v: T) =>
+      set((s) => {
+        const n = new Set(s);
+        n.has(v) ? n.delete(v) : n.add(v);
+        return n;
+      });
+  const alternarEra = alterna(setEras);
 
   const visibles = useMemo(() => {
     const consulta = palabras(q);
     const pasan = TODOS.filter(
       (f) =>
-        (!era || f.era === era) &&
+        (!eras.size || eras.has(f.era)) &&
         (!cats.size || f.categorias.some((c) => cats.has(c))) &&
-        (!sexo || f.sexo === sexo) &&
+        (!sexos.size || sexos.has(f.sexo)) &&
         (!famas.size || (f.fama && famas.has(f.fama.n))),
     );
     if (!consulta.length && !terminos.length) return pasan;
@@ -130,7 +128,7 @@ export default function App() {
     });
     if (consulta.length) sirve.push(porTexto(q));
     return pasan.filter((f) => (modo === 'todos' ? sirve.every((x) => x.has(f.id)) : sirve.some((x) => x.has(f.id))));
-  }, [era, cats, q, sexo, famas, terminos, modo]);
+  }, [eras, cats, q, sexos, famas, terminos, modo]);
 
   // Un tema activa su pastilla de tema; lo demas se queda como termino de busqueda
   const anadirTermino = (s: {clave: string; texto: string; tipo: string}) => {
@@ -158,7 +156,7 @@ export default function App() {
   const TANDA = 60;
   const [limite, setLimite] = useState(TANDA);
   const centinela = useRef<HTMLDivElement>(null);
-  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas, terminos, modo]);
+  useEffect(() => setLimite(TANDA), [eras, cats, q, sexos, famas, terminos, modo]);
   useEffect(() => {
     const el = centinela.current;
     if (!el) return;
@@ -211,7 +209,7 @@ export default function App() {
   };
 
   const elegido = TODOS.find((f) => f.id === sel);
-  const filtrando = Boolean(era || cats.size || q || sexo || famas.size || terminos.length);
+  const filtrando = Boolean(eras.size || cats.size || q || sexos.size || famas.size || terminos.length);
 
   // «Con historia»: el rail de los siglos se va al centro y a la izquierda aparece la historia
   const conHistoria = vista === 'cronologia';
@@ -229,11 +227,11 @@ export default function App() {
   const rail = movil ? RAIL_MOVIL : RAIL;
   const izqW = Math.round(movil ? (W - rail) * 0.56 : (W - rail) / 2);
   const derW = W - rail - izqW;
-  const filtrandoFil = Boolean(cats.size || q.trim() || sexo || famas.size || terminos.length);
+  const filtrandoFil = Boolean(cats.size || q.trim() || sexos.size || famas.size || terminos.length);
   // Con historia: todos los siglos con filosofos o con historia (si no se filtran filosofos), por edad
   const conHist = useMemo(() => {
     if (!conHistoria) return [];
-    const m = porSiglo(visibles, h, era);
+    const m = porSiglo(visibles, h, eras);
     return ERAS.map((e) => {
       const siglos = [...m.entries()]
         .filter(([k, sd]) => {
@@ -244,7 +242,7 @@ export default function App() {
         .sort((a, b) => a[0] - b[0]);
       return {e, suyos: siglos.flatMap(([, sd]) => sd.fil), siglos};
     }).filter((g) => g.siglos.length);
-  }, [conHistoria, visibles, h, era, filtrandoFil]);
+  }, [conHistoria, visibles, h, eras, filtrandoFil]);
 
   return (
     <ProveedorGlosario glosario={glosario}>
@@ -254,61 +252,42 @@ export default function App() {
             Filosofía <em>comprimida</em>
           </h1>
           <p className="entradilla">
-            2.600 años de ideas en una línea del tiempo. {TODOS.length} pensadores: qué plantearon y dónde saber más de cada uno. Sin tecnicismos: las palabras raras, como{' '}
-            <Texto>{'[[metafísica|metafisica]] o [[a priori|a-priori]]'}</Texto>, tienen fondo gris. Pasa el ratón por encima, o tócalas, y te
-            las explico.
+            2.600 años de ideas en una línea del tiempo. Pensadores: qué plantearon y dónde saber más de cada uno.
           </p>
         </header>
 
-        <Linea todos={TODOS} visibles={ids} era={era} elegirEra={setEra} abrir={abrir} />
+        <Linea todos={TODOS} visibles={ids} eras={eras} alternarEra={alternarEra} abrir={abrir} />
 
         <div className="filtros" ref={filtrosRef}>
-          <div className="pills" role="group" aria-label="Edad">
-            <button type="button" className="pill" aria-pressed={!era} onClick={() => setEra(null)}>
-              Todas
-            </button>
-            {ERAS.map((e) => (
-              <button key={e.id} type="button" className="pill" aria-pressed={era === e.id} onClick={() => setEra(era === e.id ? null : e.id)}>
-                {e.corto}
-              </button>
-            ))}
-          </div>
-          <div className="pills cats" role="group" aria-label="Temas">
-            {CATEGORIAS.map((c) => (
-              <button
-                key={c.id}
-                type="button"
-                className="pill cat"
-                aria-pressed={cats.has(c.id)}
-                title={c.pregunta}
-                style={{['--c' as string]: c.color}}
-                onClick={() => alternarCat(c.id)}
-              >
-                <i aria-hidden="true" />
-                {c.nombre}
-              </button>
-            ))}
-          </div>
-          <div className="pills-fila">
-            <div className="pills" role="group" aria-label="Reconocimiento">
-              <span className="pills-titulo">Reconocimiento</span>
-              {FAMAS.map((x) => (
-                <button key={x.n} type="button" className="pill fama" aria-pressed={famas.has(x.n)} title={x.ayuda} onClick={() => alternarFama(x.n)}>
-                  <span className="fama-puntos" aria-hidden="true">
-                    {'●'.repeat(x.n)}
-                  </span>
-                  {x.nombre}
-                </button>
-              ))}
-            </div>
-            <div className="pills" role="group" aria-label="Sexo">
-              <span className="pills-titulo">Sexo</span>
-              {SEXOS.map((x) => (
-                <button key={x.id} type="button" className="pill" aria-pressed={sexo === x.id} onClick={() => setSexo(sexo === x.id ? null : x.id)}>
-                  {x.nombre} <small>{TODOS.filter((f) => f.sexo === x.id).length}</small>
-                </button>
-              ))}
-            </div>
+          <div className="multis">
+            <Multi
+              titulo="Época"
+              opciones={ERAS.map((e) => ({id: e.id, nombre: e.corto, color: COLOR_EDAD[e.id], cuenta: TODOS.filter((f) => f.era === e.id).length}))}
+              elegidos={eras}
+              alternar={(id) => alternarEra(id as EraId)}
+              limpiar={() => setEras(new Set())}
+            />
+            <Multi
+              titulo="Tema"
+              opciones={CATEGORIAS.map((c) => ({id: c.id, nombre: c.nombre, color: c.color, ayuda: c.pregunta}))}
+              elegidos={cats}
+              alternar={(id) => alterna(setCats)(id as CatId)}
+              limpiar={() => setCats(new Set())}
+            />
+            <Multi
+              titulo="Reconocimiento"
+              opciones={FAMAS.map((x) => ({id: String(x.n), nombre: x.nombre, antes: '●'.repeat(x.n), ayuda: x.ayuda}))}
+              elegidos={new Set([...famas].map(String))}
+              alternar={(id) => alterna(setFamas)(Number(id))}
+              limpiar={() => setFamas(new Set())}
+            />
+            <Multi
+              titulo="Sexo"
+              opciones={SEXOS.map((x) => ({id: x.id, nombre: x.nombre, cuenta: TODOS.filter((f) => f.sexo === x.id).length}))}
+              elegidos={sexos}
+              alternar={(id) => alterna(setSexos)(id as Sexo)}
+              limpiar={() => setSexos(new Set())}
+            />
           </div>
           <div className="filtros-fila historia-fila">
             <label className="interruptor">
@@ -318,7 +297,7 @@ export default function App() {
               </span>
               Con historia
             </label>
-            {conHistoria && <BarraHistoria h={h} />}
+            <BarraHistoria h={h} activa={conHistoria} />
           </div>
           <div className="filtros-fila">
             <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
@@ -340,11 +319,11 @@ export default function App() {
                 type="button"
                 className="limpiar"
                 onClick={() => {
-                  setEra(null);
+                  setEras(new Set());
                   setCats(new Set());
                   setQ('');
                   setTerminos([]);
-                  setSexo(null);
+                  setSexos(new Set());
                   setFamas(new Set());
                 }}
               >
@@ -371,7 +350,7 @@ export default function App() {
                     <p className="edad-texto">{e.texto}</p>
                   </header>
                   {siglos.map(([k, sd]) => {
-                    const p = pintarSiglo({k, s: sd, h, edad: e.id, izqW, derW, movil, era, abrir});
+                    const p = pintarSiglo({k, s: sd, h, edad: e.id, izqW, derW, movil, eras, abrir});
                     return (
                       <div key={k} className="siglo" data-siglo={k}>
                         {p.izq}

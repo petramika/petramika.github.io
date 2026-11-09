@@ -398,3 +398,41 @@ button { font: inherit; color: inherit; }
   main:not(.con-historia) .siglo-izq { display: none; }
   main:not(.con-historia) .siglo > .tarjetas { margin-left: 0; }
 }
+
+/* Filtros compactos: selectores de varios valores, con lo elegido a la vista */
+.multis { display: flex; flex-wrap: wrap; gap: 8px 10px; padding: 0 4px; }
+.multi { position: relative; }
+.multi-caja {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 5px; min-height: 36px; padding: 3px 6px 3px 4px; cursor: pointer;
+  border: 1.5px solid var(--raya); border-radius: 12px; background: var(--papel2); transition: border-color .15s;
+}
+.multi-caja:hover, .multi.abierto .multi-caja { border-color: var(--tenue); }
+.multi.con .multi-caja { border-color: var(--suave); }
+.multi-titulo { appearance: none; border: 0; background: none; cursor: pointer; padding: 4px 6px 4px 8px; font: 500 12px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--suave); display: inline-flex; gap: 8px; align-items: baseline; }
+.multi.con .multi-titulo { color: var(--tinta); }
+.multi-todos { font: 14px var(--f-ui); text-transform: none; letter-spacing: 0; color: var(--tenue); }
+.multi-chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 2px 2px 2px 9px; border-radius: 999px; font: 13.5px var(--f-ui); color: var(--tinta);
+  border: 1px solid var(--c, var(--raya)); background: color-mix(in srgb, var(--c, var(--suave)) 10%, var(--papel2)); animation: aparece .15s ease-out;
+}
+.multi-chip button { appearance: none; border: 0; background: none; cursor: pointer; width: 20px; height: 20px; border-radius: 50%; font: 15px/1 var(--f-ui); color: var(--suave); padding: 0; }
+.multi-chip button:hover { background: color-mix(in srgb, var(--tinta) 10%, transparent); color: var(--tinta); }
+.multi-punto { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.multi-antes { font-size: 8px; letter-spacing: 1px; color: #B8860B; }
+.multi-flecha { appearance: none; border: 0; background: none; cursor: pointer; padding: 4px; color: var(--suave); display: inline-flex; transition: transform .15s; }
+.multi.abierto .multi-flecha { transform: rotate(180deg); }
+.multi-menu {
+  position: absolute; z-index: 30; top: calc(100% + 6px); left: 0; min-width: 100%; width: max-content; max-width: min(320px, calc(100vw - 32px)); max-height: 60vh; overflow-y: auto;
+  background: var(--papel); border: 1px solid var(--raya); border-radius: 12px; box-shadow: 0 14px 36px rgba(0,0,0,.14); padding: 6px; animation: aparece .12s ease-out;
+}
+.multi-op { display: flex; align-items: center; gap: 9px; width: 100%; appearance: none; border: 0; background: none; cursor: pointer; padding: 7px 10px 7px 6px; border-radius: 8px; font: 14.5px var(--f-ui); color: var(--tinta); text-align: left; }
+.multi-op:hover { background: var(--papel2); }
+.multi-op small { margin-left: auto; padding-left: 14px; font: 11.5px var(--f-mono); color: var(--suave); }
+.multi-check { width: 16px; height: 16px; flex: none; border: 1.5px solid var(--tenue); border-radius: 4px; font: 700 11px/13px var(--f-ui); text-align: center; color: var(--papel); }
+.multi-op[aria-selected="true"] .multi-check { background: var(--tinta); border-color: var(--tinta); }
+.multi-limpiar { display: block; width: 100%; margin-top: 4px; padding: 8px 10px 4px; border: 0; border-top: 1px solid var(--raya); background: none; cursor: pointer; text-align: left; font: 500 13px var(--f-ui); color: var(--suave); text-decoration: underline; }
+.multi-limpiar:hover { color: var(--tinta); }
+@media (max-width: 700px) { .multi-chip { font-size: 13px; } }
+.multi.desactivado { opacity: .45; filter: grayscale(1); }
+.multi.desactivado .multi-caja, .multi.desactivado button { cursor: not-allowed; }
+.multi.desactivado .multi-caja:hover { border-color: var(--raya); }

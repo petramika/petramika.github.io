@@ -1,5 +1,6 @@
 import {useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode, type RefObject} from 'react';
 import {ERAS, anioTxt, numSiglo, type EraId} from './config';
+import Multi from './Multi';
 import Retrato from './Retrato';
 import {TIPOS, cargarHistoria, historiaCargada, type DatosHistoria, type Evento, type Frase} from './historia';
 import type {Filosofo} from './tipos';
@@ -143,9 +144,11 @@ export function useHistoria(activa: boolean, caja: RefObject<HTMLElement | null>
 export type Historia = ReturnType<typeof useHistoria>;
 
 /** Lo que pasa en cada siglo: acontecimientos y frases (filtrados) y filosofos */
-export function porSiglo(visibles: Filosofo[], h: Historia, era: EraId | null) {
-  const rango = era ? ERAS.find((e) => e.id === era)! : null;
-  const dentro = (a: number) => !rango || (a >= rango.desde && a < rango.hasta);
+/** Lo de la historia que cae en las edades elegidas (todas si no se elige ninguna) */
+const enEdades = (eras: Set<EraId>, desde: number, hasta = desde + 1) => !eras.size || ERAS.some((e) => eras.has(e.id) && hasta > e.desde && desde < e.hasta);
+
+export function porSiglo(visibles: Filosofo[], h: Historia, eras: Set<EraId>) {
+  const dentro = (a: number) => enEdades(eras, a);
   const m = new Map<number, SigloDatos>();
   const de = (a: number) => {
     const k = numSiglo(a);
@@ -161,35 +164,23 @@ export function porSiglo(visibles: Filosofo[], h: Historia, era: EraId | null) {
 }
 
 /** Pills de tipos (filtran los acontecimientos) */
-export function BarraHistoria({h}: {h: Historia}) {
+export function BarraHistoria({h, activa}: {h: Historia; activa: boolean}) {
   return (
-    <>
-      <p className="hist-leyenda crono-tipos" role="group" aria-label="Filtrar acontecimientos por tipo">
-        {Object.entries(TIPOS).map(([k, t]) => (
-          <button
-            key={k}
-            type="button"
-            style={{['--c' as string]: t.color}}
-            aria-pressed={h.tipos.has(k)}
-            className={h.tipos.size && !h.tipos.has(k) ? 'apagado' : undefined}
-            onClick={() =>
-              h.setTipos((s) => {
-                const n = new Set(s);
-                n.has(k) ? n.delete(k) : n.add(k);
-                return n;
-              })
-            }
-          >
-            {t.nombre}
-          </button>
-        ))}
-        {h.tipos.size > 0 && (
-          <button type="button" className="hist-todos" onClick={() => h.setTipos(new Set())}>
-            Ver todos
-          </button>
-        )}
-      </p>
-    </>
+    <Multi
+      titulo="Historia"
+      opciones={Object.entries(TIPOS).map(([id, t]) => ({id, nombre: t.nombre, color: t.color}))}
+      elegidos={h.tipos}
+      alternar={(k) =>
+        h.setTipos((s) => {
+          const n = new Set(s);
+          n.has(k) ? n.delete(k) : n.add(k);
+          return n;
+        })
+      }
+      limpiar={() => h.setTipos(new Set())}
+      desactivado={!activa}
+      ayuda={activa ? undefined : 'Enciende «Con historia» para filtrar los acontecimientos'}
+    />
   );
 }
 
@@ -222,7 +213,7 @@ export function pintarSiglo({
   izqW,
   derW,
   movil,
-  era,
+  eras,
   abrir,
 }: {
   k: number;
@@ -232,11 +223,10 @@ export function pintarSiglo({
   izqW: number;
   derW: number;
   movil: boolean;
-  era: EraId | null;
+  eras: Set<EraId>;
   abrir: (id: string) => void;
 }): {izq: ReactNode; rail: ReactNode; der: ReactNode; alto: number} {
   const {datos, tipos, z, sel, setSel, carrilPeriodo} = h;
-  const rango = era ? ERAS.find((e) => e.id === era)! : null;
   const inicio = k < 0 ? k * 100 : (k - 1) * 100;
   const fin = inicio + 100;
 
@@ -258,7 +248,7 @@ export function pintarSiglo({
     .filter((f, i) => (f.fama?.n ?? 1) >= famaMin || i < 2);
   const periodos =
     datos && !tipos.size
-      ? datos.periodos.filter((p) => carrilPeriodo.has(p.id) && p.desde < fin && p.hasta > inicio && (p.nivel === 1 || pxAnio >= 8) && (!rango || (p.hasta > rango.desde && p.desde < rango.hasta)))
+      ? datos.periodos.filter((p) => carrilPeriodo.has(p.id) && p.desde < fin && p.hasta > inicio && (p.nivel === 1 || pxAnio >= 8) && enEdades(eras, p.desde, p.hasta))
       : [];
   // Orden de prioridad al colocar: grandes acontecimientos, frases famosas y luego el resto
   const prioridad = (p: Pill) => (p.k === 'evento' ? (p.e.nivel - 1) * 2 : (p.fr.nivel - 1) * 2 + 1);

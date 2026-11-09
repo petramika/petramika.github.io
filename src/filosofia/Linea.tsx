@@ -10,9 +10,9 @@ import type {Filosofo} from './tipos';
   aunque duren distinto: si fueran proporcionales, la Contemporanea seria un
   hilo con 100 filosofos apretados.
 */
-type Props = {todos: Filosofo[]; visibles: Set<string>; era: EraId | null; elegirEra: (e: EraId | null) => void; abrir: (id: string) => void};
+type Props = {todos: Filosofo[]; visibles: Set<string>; eras: Set<EraId>; alternarEra: (e: EraId) => void; abrir: (id: string) => void};
 
-export default function Linea({todos, visibles, era, elegirEra, abrir}: Props) {
+export default function Linea({todos, visibles, eras, alternarEra, abrir}: Props) {
   // Tarjetita al pasar por una raya: sale al instante (el title del navegador tarda y no deja claro de quien es)
   const caja = useRef<HTMLDivElement>(null);
   const [enc, setEnc] = useState<{f: Filosofo; x: number; y: number; lado: 'centro' | 'izq' | 'der'} | null>(null);
@@ -31,9 +31,9 @@ export default function Linea({todos, visibles, era, elegirEra, abrir}: Props) {
             <button
               key={e.id}
               type="button"
-              className={`tramo${era === e.id ? ' on' : ''}${era && era !== e.id ? ' off' : ''}`}
-              aria-pressed={era === e.id}
-              onClick={() => elegirEra(era === e.id ? null : e.id)}
+              className={`tramo${eras.has(e.id) ? ' on' : ''}${eras.size && !eras.has(e.id) ? ' off' : ''}`}
+              aria-pressed={eras.has(e.id)}
+              onClick={() => alternarEra(e.id)}
             >
               <span className="tramo-nombre">
                 {e.nombre} <small>{suyos.length}</small>
