@@ -241,10 +241,10 @@ export function pintarSiglo({
 }): {izq: ReactNode; rail: ReactNode; der: ReactNode; alto: number} {
   const {datos, tipos, z, sel, setSel, carrilPeriodo} = h;
   const inicio = k < 0 ? k * 100 : (k - 1) * 100;
-  const fin = inicio + 100;
+  const fin = Math.min(inicio + 100, new Date().getFullYear()); // el siglo XXI acaba hoy
 
   const pxAnio = z * PESO[edad] * (movil ? 0.8 : 1);
-  const alto = Math.round(100 * pxAnio) + 30;
+  const alto = Math.round((fin - inicio) * pxAnio) + 30;
   const Y = (a: number) => 15 + (Math.min(Math.max(a, inicio), fin) - inicio) * pxAnio;
 
   // Cuanto mas cerca, mas detalle (y lo que no cabe se queda fuera al colocar)
