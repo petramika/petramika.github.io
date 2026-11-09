@@ -217,8 +217,16 @@ button { font: inherit; color: inherit; }
 .fama-puntos { font-size: 7px; letter-spacing: 1px; color: #C08A2E; }
 
 /* Buscador con sugerencias */
-.buscador { position: relative; flex: 0 1 380px; min-width: 0; display: flex; }
-.buscador .buscar { flex: 1; }
+.buscador {
+  position: relative; flex: 1 1 560px; max-width: 720px; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  background: var(--papel2); border: 1.5px solid var(--raya); border-radius: 22px; padding: 4px 6px 4px 8px; cursor: text;
+}
+.buscador:focus-within { border-color: var(--suave); }
+.buscador .buscar { flex: 1 1 180px; min-width: 120px; border: 0; background: none; padding: 4px 8px; }
+.buscador .buscar:focus { outline: none; }
+.busca-pastilla { display: inline-flex; align-items: center; gap: 4px; padding: 3px 4px 3px 11px; border-radius: 999px; background: var(--papel); border: 1px solid var(--raya); font: 14px var(--f-ui); color: var(--tinta); max-width: 100%; }
+.busca-pastilla button { appearance: none; border: 0; background: none; width: 20px; height: 20px; border-radius: 50%; cursor: pointer; color: var(--suave); font: 11px var(--f-ui); display: grid; place-items: center; }
+.busca-pastilla button:hover { background: var(--raya); color: var(--tinta); }
 .sugerencias {
   position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 40; list-style: none; margin: 0; padding: 6px;
   background: var(--papel2); border: 1px solid var(--raya); border-radius: 14px; box-shadow: 0 12px 32px rgba(0,0,0,.12);

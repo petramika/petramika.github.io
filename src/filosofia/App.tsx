@@ -1,6 +1,6 @@
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {CAT, CATEGORIAS, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
-import Buscador from './Buscador';
+import Buscador, {type Termino} from './Buscador';
 import {mejores, palabras, puntuar, type Sugerencia} from './buscar';
 import LISTA from './datos/lista.json';
 import Ficha from './Ficha';
@@ -55,6 +55,7 @@ export default function App() {
     import('./datos/glosario.json').then((m) => setGlosario(m.default as Diccionario));
   }, []);
   const [sexo, setSexo] = useState<Sexo | null>(null);
+  const [terminos, setTerminos] = useState<Termino[]>([]);
   const [famas, setFamas] = useState<Set<number>>(new Set());
   const [historia, setHistoria] = useState(false);
   const cerrarHistoria = useCallback(() => setHistoria(false), []);
@@ -98,18 +99,31 @@ export default function App() {
         (!sexo || f.sexo === sexo) &&
         (!famas.size || (f.fama && famas.has(f.fama.n))),
     );
-    if (!consulta.length) return pasan;
-    return mejores(pasan.map((f) => ({x: f, r: puntuar(consulta, INDICE.get(f.id)!)}))).map((y) => y.x);
-  }, [era, cats, q, sexo, famas]);
+    if (!consulta.length && !terminos.length) return pasan;
+    // Varios terminos: salen los que cumplen cualquiera (lo que se esta escribiendo cuenta como uno mas)
+    const porTexto = (texto: string) => {
+      const c = palabras(texto);
+      return new Set(mejores(pasan.map((f) => ({x: f, r: puntuar(c, INDICE.get(f.id)!)}))).map((y) => y.x.id));
+    };
+    const sirve = terminos.map((t) => {
+      const [tipo, valor] = [t.clave.slice(0, 1), t.clave.slice(2)];
+      if (tipo === 'f') return new Set([valor]);
+      if (tipo === 'e') return new Set(pasan.filter((f) => f.escuela === valor).map((f) => f.id));
+      if (tipo === 'r') return new Set(pasan.filter((f) => f.region === valor).map((f) => f.id));
+      return porTexto(t.texto);
+    });
+    if (consulta.length) sirve.push(porTexto(q));
+    return pasan.filter((f) => sirve.some((x) => x.has(f.id)));
+  }, [era, cats, q, sexo, famas, terminos]);
 
-  const elegirSugerencia = (s: Sugerencia) => {
+  // Un tema activa su pastilla de tema; lo demas se queda como termino de busqueda
+  const anadirTermino = (s: {clave: string; texto: string; tipo: string}) => {
     const [tipo, valor] = [s.clave.slice(0, 1), s.clave.slice(2)];
-    if (tipo === 'f') abrir(valor);
-    else if (tipo === 'c') {
-      setCats((x) => new Set(x).add(valor as CatId));
-      setQ('');
-    } else setQ(s.texto);
+    if (tipo === 'c') setCats((x) => new Set(x).add(valor as CatId));
+    else setTerminos((ts) => (ts.some((t) => t.clave === s.clave) ? ts : [...ts, {clave: s.clave, texto: s.texto, tipo: s.tipo}]));
+    setQ('');
   };
+  const quitarTermino = (clave: string) => setTerminos((ts) => ts.filter((t) => t.clave !== clave));
   const ids = useMemo(() => new Set(visibles.map((f) => f.id)), [visibles]);
 
   // Por edad y, dentro, por siglo de nacimiento
@@ -128,7 +142,7 @@ export default function App() {
   const TANDA = 60;
   const [limite, setLimite] = useState(TANDA);
   const centinela = useRef<HTMLDivElement>(null);
-  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas]);
+  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas, terminos]);
   useEffect(() => {
     const el = centinela.current;
     if (!el) return;
@@ -181,7 +195,7 @@ export default function App() {
   };
 
   const elegido = TODOS.find((f) => f.id === sel);
-  const filtrando = Boolean(era || cats.size || q || sexo || famas.size);
+  const filtrando = Boolean(era || cats.size || q || sexo || famas.size || terminos.length);
 
   return (
     <ProveedorGlosario glosario={glosario}>
@@ -257,7 +271,7 @@ export default function App() {
             </div>
           </div>
           <div className="filtros-fila">
-            <Buscador valor={q} cambiar={setQ} todas={SUGERENCIAS} elegir={elegirSugerencia} />
+            <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
             </span>
@@ -269,6 +283,7 @@ export default function App() {
                   setEra(null);
                   setCats(new Set());
                   setQ('');
+                  setTerminos([]);
                   setSexo(null);
                   setFamas(new Set());
                 }}
