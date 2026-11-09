@@ -7,7 +7,7 @@ import Ficha from './Ficha';
 import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
 import Pie from '../comun/Pie';
 import Linea from './Linea';
-import {BarraHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
+import {BarraHistoria, DetalleHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
 import Tarjeta from './Tarjeta';
 import type {Filosofo, Sexo} from './tipos';
 
@@ -378,11 +378,6 @@ export default function App() {
                         <h3 className="siglo-nombre" style={{height: p.alto}}>
                           <span>
                             {siglo((k < 0 ? k * 100 : (k - 1) * 100) + 50)}
-                            {p.ocultos > 0 && (
-                              <button type="button" className="crono-mas" onClick={(ev) => h.zoom(1.8, ev.currentTarget.getBoundingClientRect().bottom + 100)} title="Acercar para ver más">
-                                +{p.ocultos} al acercar
-                              </button>
-                            )}
                           </span>
                           {p.rail}
                         </h3>
@@ -428,6 +423,7 @@ export default function App() {
           )}
         </main>
         {conHistoria && <ZoomHistoria h={h} />}
+        {conHistoria && <DetalleHistoria h={h} abrir={abrir} />}
         <div className="saltos" role="group" aria-label="Desplazarse">
           <button type="button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} aria-label="Subir arriba" title="Subir arriba" className={bajado ? '' : 'oculto'}>
             <svg viewBox="0 0 24 24" aria-hidden="true">

@@ -15,10 +15,10 @@ import type {Filosofo} from './tipos';
   A la derecha, en vez de tarjetas, la cara de cada filosofo en su año.
   Zoom: botones − y +, pellizco del trackpad o Ctrl + rueda; al acercar aparece
   mas detalle y el año que se mira no se mueve. Al pulsar algo de la historia,
-  su explicacion sale a la derecha del eje, a su altura.
+  su explicacion se abre en una pestaña pequeña al lado, como la ficha.
 */
 type Pill = {k: 'evento'; id: string; anio: number; e: Evento} | {k: 'frase'; id: string; anio: number; fr: Frase};
-export type Sel = {id: string; siglo: number; y: number} | null;
+export type Sel = {id: string} | null;
 export type SigloDatos = {eventos: Evento[]; frases: Frase[]; fil: Filosofo[]};
 
 /** Sitio por año de cada edad (como en la lupa): en las modernas pasan mas cosas */
@@ -234,7 +234,7 @@ export function pintarSiglo({
   movil: boolean;
   era: EraId | null;
   abrir: (id: string) => void;
-}): {izq: ReactNode; rail: ReactNode; der: ReactNode; alto: number; ocultos: number} {
+}): {izq: ReactNode; rail: ReactNode; der: ReactNode; alto: number} {
   const {datos, tipos, z, sel, setSel, carrilPeriodo} = h;
   const rango = era ? ERAS.find((e) => e.id === era)! : null;
   const inicio = k < 0 ? k * 100 : (k - 1) * 100;
@@ -262,14 +262,16 @@ export function pintarSiglo({
     (a, b) => prioridad(a) - prioridad(b) || a.anio - b.anio,
   );
 
-  // Izquierda, de fuera hacia el rail: pills, bandas de periodos y barras finas de lo que dura
+  // Izquierda, del borde hacia el rail: bandas de periodos, barras de lo que dura y pills
   const bandaW = movil ? 13 : 18;
   const PL = movil ? 2 : 3;
-  const finDuras = 16;
-  const finBandas = finDuras + PL * (bandaW + 3) + 6;
+  const x0 = 2;
+  const xDuras = x0 + PL * (bandaW + 3) + 3;
+  const inicioPills = xDuras + 3 * 7 + 6;
+  const hueco = movil ? 10 : 22; // sitio para el tallo hasta el eje
   const L = movil || izqW < 520 ? 1 : 2;
-  const anchoPill = Math.max(80, (izqW - finBandas - 8 - (L - 1) * 10) / L);
-  const xPill = (c: number) => izqW - finBandas - c * (anchoPill + 10); // borde derecho de la pill
+  const anchoPill = Math.max(80, (izqW - hueco - inicioPills - (L - 1) * 10) / L);
+  const xPill = (c: number) => izqW - hueco - c * (anchoPill + 10); // borde derecho de la pill
   // Derecha: caras en carriles
   const anchoCara = movil ? 44 : Math.min(230, Math.max(150, derW / 4));
   const R = Math.max(1, Math.floor((derW - 12) / anchoCara));
@@ -277,22 +279,18 @@ export function pintarSiglo({
   const colocadas = apilarV(pills, (p) => Y(p.anio), 26, L);
   const caras = apilarV(filosofos, (f) => Y(f.fl), 46, R, 6);
   const duran = eventos.filter((e) => e.hasta != null && e.hasta > e.anio + 1);
-  const ocultos = s.eventos.length - colocadas.filter((c) => c.t.k === 'evento').length + (s.fil.length - caras.length);
   const paso = pxAnio * 10 >= 60 ? 10 : 25;
   const marcas: number[] = [];
   for (let a = inicio + paso; a < fin; a += paso) marcas.push(a);
 
-  const elegido = sel && sel.siglo === k ? sel : null;
-  const ev = elegido && datos ? datos.eventos.find((e) => e.id === elegido.id) : undefined;
-  const fr = elegido && datos ? datos.frases.find((f) => f.id === elegido.id) : undefined;
-  const pe = elegido && datos ? datos.periodos.find((p) => p.id === elegido.id) : undefined;
+  const elegido = sel;
   const color = (p: Pill) => (p.k === 'evento' ? TIPOS[p.e.tipo]?.color ?? '#868E96' : 'var(--tinta)');
 
   const izq = (
     <div className="siglo-izq" style={{height: alto}}>
       <svg className="crono-rayas" width={izqW + EJE} height={alto} aria-hidden="true">
         {colocadas.map(({t: p, carril, y}) => (
-          <polyline key={p.id} points={`${izqW + EJE},${Y(p.anio)} ${izqW - finBandas + 4},${Y(p.anio)} ${xPill(carril)},${y}`} fill="none" stroke={color(p)} strokeOpacity={0.4} strokeWidth={1} />
+          <polyline key={p.id} points={`${izqW + EJE},${Y(p.anio)} ${izqW - hueco + 8},${Y(p.anio)} ${xPill(carril)},${y}`} fill="none" stroke={color(p)} strokeOpacity={0.4} strokeWidth={1} />
         ))}
       </svg>
       {periodos.map((p) => {
@@ -302,8 +300,8 @@ export function pintarSiglo({
             key={'b' + p.id}
             type="button"
             className={`crono-banda${p.desde >= inicio ? ' empieza' : ''}${p.hasta <= fin ? ' acaba' : ''}${elegido?.id === p.id ? ' on' : ''}`}
-            style={{left: izqW - finDuras - (carrilPeriodo.get(p.id)! + 1) * (bandaW + 3), top, height: Math.max(6, bajo - top), width: bandaW}}
-            onClick={() => setSel(elegido?.id === p.id ? null : {id: p.id, siglo: k, y: top + 8})}
+            style={{left: x0 + carrilPeriodo.get(p.id)! * (bandaW + 3), top, height: Math.max(6, bajo - top), width: bandaW}}
+            onClick={() => setSel(elegido?.id === p.id ? null : {id: p.id})}
             title={`${p.nombre} (${anioTxt(p.desde)} – ${anioTxt(p.hasta)})`}
           >
             {bajo - top > 50 && <span>{p.nombre}</span>}
@@ -311,10 +309,14 @@ export function pintarSiglo({
         );
       })}
       {duran.map((e, i) => (
-        <span
+        <button
           key={'d' + e.id}
-          className="crono-dura"
-          style={{left: izqW - 7 - (i % 3) * 5, top: Y(e.anio), height: Math.max(3, Y(e.hasta!) - Y(e.anio)), background: TIPOS[e.tipo]?.color ?? '#868E96'}}
+          type="button"
+          className={`crono-dura${elegido?.id === e.id ? ' on' : ''}`}
+          style={{left: xDuras + (i % 3) * 7, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
+          onClick={() => setSel(elegido?.id === e.id ? null : {id: e.id})}
+          title={`${e.titulo} (${anioTxt(e.anio)} – ${anioTxt(e.hasta!)})`}
+          aria-label={e.titulo}
         />
       ))}
       {colocadas.map(({t: p, carril, y}) => {
@@ -325,7 +327,7 @@ export function pintarSiglo({
             type="button"
             className={`crono-pill ${p.k}${p.k === 'evento' ? ' n' + p.e.nivel : ''}${on ? ' on' : ''}`}
             style={{top: y, left: xPill(carril) - anchoPill, width: anchoPill, ['--c' as string]: p.k === 'evento' ? color(p) : undefined}}
-            onClick={() => setSel(on ? null : {id: p.id, siglo: k, y})}
+            onClick={() => setSel(on ? null : {id: p.id})}
             title={p.k === 'evento' ? p.e.titulo : p.fr.texto}
           >
             {p.k === 'frase' ? (
@@ -372,62 +374,72 @@ export function pintarSiglo({
           {!movil && <span>{f.nombre}</span>}
         </button>
       ))}
-      {elegido && (ev || fr || pe) && (
-        <div className="crono-detalle" style={movil ? {top: elegido.y + 16, right: 4, width: Math.min(330, izqW + derW)} : {top: Math.max(0, elegido.y - 14), left: 10, width: Math.min(400, derW - 20)}} role="dialog" aria-label="Más información">
-          <button type="button" className="cd-cerrar" onClick={() => setSel(null)} aria-label="Cerrar">
-            ✕
-          </button>
-          {ev && (
-            <>
-              <p className="cd-meta" style={{color: TIPOS[ev.tipo]?.color}}>
-                {TIPOS[ev.tipo]?.nombre} · {ev.region}
-              </p>
-              <h4>{ev.titulo}</h4>
-              <p className="cd-fecha">{ev.hasta != null ? `${anioTxt(ev.anio)} – ${anioTxt(ev.hasta)}` : anioTxt(ev.anio)}</p>
-              <p>{ev.texto}</p>
-              <a href={ev.wiki} target="_blank" rel="noopener">
-                Leer más en Wikipedia ↗
-              </a>
-            </>
-          )}
-          {pe && (
-            <>
-              <p className="cd-meta">Periodo · {pe.region}</p>
-              <h4>{pe.nombre}</h4>
-              <p className="cd-fecha">
-                {anioTxt(pe.desde)} – {anioTxt(pe.hasta)}
-              </p>
-              <p>{pe.texto}</p>
-              <a href={pe.wiki} target="_blank" rel="noopener">
-                Leer más en Wikipedia ↗
-              </a>
-            </>
-          )}
-          {fr && (
-            <>
-              <p className="cd-meta">Frase que dio que hablar · {anioTxt(fr.anio)}</p>
-              <p className="cd-frase">«{fr.texto}»</p>
-              <p className="cd-fecha">
-                {fr.autor ? (
-                  <button type="button" className="crono-autor" onClick={() => abrir(fr.autor!)}>
-                    {fr.autorNombre}
-                  </button>
-                ) : (
-                  fr.autorNombre
-                )}
-                , <i>{fr.obra}</i>
-              </p>
-              <p>{fr.porQue}</p>
-              {fr.nota && <p className="cd-nota">{fr.nota}</p>}
-              <a href={fr.fuente} target="_blank" rel="noopener">
-                Fuente ↗
-              </a>
-            </>
-          )}
-        </div>
-      )}
     </div>
   );
 
-  return {izq, rail: marcasRail, der, alto, ocultos};
+  return {izq, rail: marcasRail, der, alto};
+}
+
+/** Pestaña pequeña al lado (como la ficha de los filosofos) con lo pulsado de la historia */
+export function DetalleHistoria({h, abrir}: {h: Historia; abrir: (id: string) => void}) {
+  const {datos, sel, setSel} = h;
+  if (!sel || !datos) return null;
+  const ev = datos.eventos.find((e) => e.id === sel.id);
+  const fr = datos.frases.find((f) => f.id === sel.id);
+  const pe = datos.periodos.find((p) => p.id === sel.id);
+  if (!ev && !fr && !pe) return null;
+  return (
+    <aside key={sel.id} className="crono-detalle" role="dialog" aria-label="Más información">
+      <button type="button" className="cd-cerrar" onClick={() => setSel(null)} aria-label="Cerrar">
+        ✕
+      </button>
+      {ev && (
+        <>
+          <p className="cd-meta" style={{color: TIPOS[ev.tipo]?.color}}>
+            {TIPOS[ev.tipo]?.nombre} · {ev.region}
+          </p>
+          <h4>{ev.titulo}</h4>
+          <p className="cd-fecha">{ev.hasta != null ? `${anioTxt(ev.anio)} – ${anioTxt(ev.hasta)}` : anioTxt(ev.anio)}</p>
+          <p>{ev.texto}</p>
+          <a href={ev.wiki} target="_blank" rel="noopener">
+            Leer más en Wikipedia ↗
+          </a>
+        </>
+      )}
+      {pe && (
+        <>
+          <p className="cd-meta">Periodo · {pe.region}</p>
+          <h4>{pe.nombre}</h4>
+          <p className="cd-fecha">
+            {anioTxt(pe.desde)} – {anioTxt(pe.hasta)}
+          </p>
+          <p>{pe.texto}</p>
+          <a href={pe.wiki} target="_blank" rel="noopener">
+            Leer más en Wikipedia ↗
+          </a>
+        </>
+      )}
+      {fr && (
+        <>
+          <p className="cd-meta">Frase que dio que hablar · {anioTxt(fr.anio)}</p>
+          <p className="cd-frase">«{fr.texto}»</p>
+          <p className="cd-fecha">
+            {fr.autor ? (
+              <button type="button" className="crono-autor" onClick={() => abrir(fr.autor!)}>
+                {fr.autorNombre}
+              </button>
+            ) : (
+              fr.autorNombre
+            )}
+            , <i>{fr.obra}</i>
+          </p>
+          <p>{fr.porQue}</p>
+          {fr.nota && <p className="cd-nota">{fr.nota}</p>}
+          <a href={fr.fuente} target="_blank" rel="noopener">
+            Fuente ↗
+          </a>
+        </>
+      )}
+    </aside>
+  );
 }
