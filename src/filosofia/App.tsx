@@ -1,7 +1,7 @@
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {CAT, CATEGORIAS, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
 import Buscador from './Buscador';
-import {palabras, puntuar, type Sugerencia} from './buscar';
+import {mejores, palabras, puntuar, type Sugerencia} from './buscar';
 import LISTA from './datos/lista.json';
 import Ficha from './Ficha';
 import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
@@ -91,14 +91,15 @@ export default function App() {
 
   const visibles = useMemo(() => {
     const consulta = palabras(q);
-    return TODOS.filter(
+    const pasan = TODOS.filter(
       (f) =>
         (!era || f.era === era) &&
         (!cats.size || f.categorias.some((c) => cats.has(c))) &&
         (!sexo || f.sexo === sexo) &&
-        (!famas.size || (f.fama && famas.has(f.fama.n))) &&
-        (!consulta.length || puntuar(consulta, INDICE.get(f.id)!) > 0),
+        (!famas.size || (f.fama && famas.has(f.fama.n))),
     );
+    if (!consulta.length) return pasan;
+    return mejores(pasan.map((f) => ({x: f, r: puntuar(consulta, INDICE.get(f.id)!)}))).map((y) => y.x);
   }, [era, cats, q, sexo, famas]);
 
   const elegirSugerencia = (s: Sugerencia) => {
