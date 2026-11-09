@@ -98,14 +98,21 @@ button { font: inherit; color: inherit; }
 .limpiar:hover { color: var(--tinta); }
 
 /* Edades */
-.edad { margin-top: 56px; }
-.edad-cabeza { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 24px; align-items: baseline; padding-bottom: 14px; border-bottom: 2px solid var(--tinta); }
-.edad-cabeza h2 { font: 700 clamp(32px, 4.4vw, 50px)/1.05 var(--f-texto); margin: 0; }
-.edad-cabeza h2 em { font-weight: 400; font-style: italic; }
-.edad-anios { margin: 0; font: 500 18px var(--f-mono); text-align: right; }
-.edad-anios span { color: var(--tenue); }
-.edad-anios small { display: block; font: 400 12px var(--f-ui); color: var(--suave); }
-.edad-texto { grid-column: 1 / -1; margin: 6px 0 0; color: var(--suave); font-style: italic; }
+.edad { display: grid; grid-template-columns: var(--franja, 30px) minmax(0, 1fr); column-gap: var(--franja-hueco, 14px); margin-top: 6px; }
+.edad:first-of-type { margin-top: 26px; }
+.edad-siglos { min-width: 0; }
+/* La franja de la edad: su color a la izquierda de todo y el nombre, que acompaña al bajar */
+.edad-franja { position: relative; cursor: pointer; border-radius: 8px; background: color-mix(in srgb, var(--ce) 13%, var(--papel)); box-shadow: inset 3px 0 0 var(--ce); transition: background .15s; }
+.edad-franja:hover { background: color-mix(in srgb, var(--ce) 24%, var(--papel)); }
+.edad-franja > button {
+  position: sticky; top: calc(var(--alto-filtros, 170px) + 16px); display: block; width: 100%; margin: 0; padding: 14px 0; appearance: none; border: 0; background: none; cursor: pointer;
+  writing-mode: vertical-rl; transform: rotate(180deg); font: italic 700 15px/1 var(--f-texto); color: color-mix(in srgb, var(--ce) 70%, var(--tinta)); white-space: nowrap;
+}
+@media (max-width: 700px) { .edad-franja > button { font-size: 12.5px; } }
+.edad-info h2 { font: 700 36px/1.05 var(--f-texto); margin: 4px 0; }
+.edad-info .ficha-era { color: var(--ce); }
+.edad-info-hito { margin: 4px 0 0; font: 14px var(--f-ui); color: var(--suave); }
+.lateral { width: min(480px, 100%); }
 
 .siglo { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 20px; padding-top: 22px; position: relative; }
 .siglo::before { content: ""; position: absolute; left: 7px; top: 0; bottom: 0; border-left: 1.5px dashed var(--raya); }
@@ -193,8 +200,6 @@ button { font: inherit; color: inherit; }
   .pills { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
   .pills::-webkit-scrollbar { display: none; }
   .pill { flex: none; }
-  .edad-cabeza { grid-template-columns: 1fr; }
-  .edad-anios { text-align: left; grid-column: 1; }
   .siglo { grid-template-columns: 1fr; gap: 10px; }
   .siglo::before { display: none; }
   .siglo-nombre { padding-left: 20px; }
@@ -308,7 +313,8 @@ button { font: inherit; color: inherit; }
 .crono-zoom button { width: 34px; height: 34px; border-radius: 50%; border: 0; background: none; font: 20px/1 var(--f-ui); color: var(--tinta); cursor: pointer; }
 .crono-zoom button:hover:not(:disabled) { background: var(--papel); }
 .crono-zoom button:disabled { opacity: .3; cursor: default; }
-.crono-zoom span { font: 500 9.5px var(--f-mono); text-transform: uppercase; letter-spacing: .04em; color: var(--suave); }
+.crono-zoom button { display: inline-flex; align-items: center; justify-content: center; }
+.crono-reloj { display: inline-flex; color: var(--suave); padding: 2px 0; }
 
 /* El rail: el mismo de las tarjetas, que con historia se desliza al centro */
 .siglo { grid-template-columns: var(--izq, 0px) var(--rail, 120px) minmax(0, 1fr); column-gap: 0; transition: grid-template-columns .65s cubic-bezier(.2,.8,.2,1); }
@@ -350,16 +356,11 @@ button { font: inherit; color: inherit; }
 .crono-cara span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .crono-cara:hover span { text-decoration: underline; text-underline-offset: 3px; }
 
-/* La explicacion de lo pulsado: pestaña pequeña al lado, como la ficha */
-.crono-detalle {
-  position: fixed; z-index: 45; right: 16px; top: calc(var(--alto-filtros, 120px) + 16px); width: min(380px, calc(100vw - 32px)); max-height: calc(100vh - var(--alto-filtros, 120px) - 32px); overflow-y: auto; overscroll-behavior: contain;
-  background: var(--papel); border: 1px solid var(--raya); border-radius: 14px; box-shadow: -10px 10px 40px rgba(0,0,0,.16); padding: 16px 18px 14px; font: 14.5px/1.5 var(--f-ui); animation: ficha .28s cubic-bezier(.2, .8, .2, 1);
-}
-@media (max-width: 700px) { .crono-detalle { top: auto; bottom: 12px; right: 12px; max-height: 60vh; } }
-.crono-detalle h4 { margin: 2px 26px 2px 0; font: 400 20px/1.25 var(--f-texto); }
+/* La explicacion de lo pulsado, en la pestaña lateral */
+.crono-detalle { font: 16px/1.55 var(--f-ui); }
+.crono-detalle h4 { margin: 4px 48px 4px 0; font: 700 30px/1.1 var(--f-texto); }
 .crono-detalle p { margin: 6px 0; }
 .crono-detalle a { color: var(--tinta); }
-.cd-cerrar { position: absolute; top: 8px; right: 8px; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--raya); background: var(--papel); cursor: pointer; color: var(--tinta); }
 .cd-meta { font: 500 11.5px var(--f-mono); text-transform: uppercase; letter-spacing: .05em; color: var(--suave); margin: 0 26px 0 0 !important; }
 .cd-fecha { font: 12.5px var(--f-mono); color: var(--suave); margin-top: 0 !important; }
 .cd-frase { font: italic 19px/1.35 var(--f-texto); }

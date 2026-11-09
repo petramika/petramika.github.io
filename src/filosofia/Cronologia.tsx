@@ -1,5 +1,6 @@
 import {useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode, type RefObject} from 'react';
 import {ERAS, anioTxt, numSiglo, type EraId} from './config';
+import Lateral from './Lateral';
 import Multi from './Multi';
 import Retrato from './Retrato';
 import {TIPOS, cargarHistoria, historiaCargada, type DatosHistoria, type Evento, type Frase} from './historia';
@@ -128,6 +129,7 @@ export function useHistoria(activa: boolean, caja: RefObject<HTMLElement | null>
     if (!datos) return m;
     const ocupado: [number, number][][] = Array.from({length: 3}, () => []);
     [...datos.periodos]
+      .filter((p) => !ERAS.some((e) => e.nombre === p.nombre))
       .sort((a, b) => a.nivel - b.nivel || b.hasta - b.desde - (a.hasta - a.desde))
       .forEach((p) => {
         const c = ocupado.findIndex((segs) => segs.every(([x, y]) => p.hasta + 5 <= x || p.desde >= y + 5));
@@ -189,12 +191,23 @@ export function ZoomHistoria({h}: {h: Historia}) {
   return (
     <>
       <div className="crono-zoom" role="group" aria-label="Zoom de la historia">
-        <button type="button" onClick={() => h.zoom(1 / 1.6)} disabled={h.z <= 2} aria-label="Alejar">
-          −
+        <button type="button" onClick={() => h.zoom(1.6)} disabled={h.z >= 30} aria-label="Acercar" title="Acercar">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+            <path d="M15.5 15.5 20 20 M10.5 7.5v6 M7.5 10.5h6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+          </svg>
         </button>
-        <span>{h.z < 4 ? 'Siglos' : h.z < 10 ? 'Décadas' : 'Años'}</span>
-        <button type="button" onClick={() => h.zoom(1.6)} disabled={h.z >= 30} aria-label="Acercar">
-          +
+        <span className="crono-reloj" title={h.z < 4 ? 'Ves siglos' : h.z < 10 ? 'Ves décadas' : 'Ves años'} aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+            <path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </span>
+        <button type="button" onClick={() => h.zoom(1 / 1.6)} disabled={h.z <= 2} aria-label="Alejar" title="Alejar">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+            <path d="M15.5 15.5 20 20 M7.5 10.5h6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+          </svg>
         </button>
       </div>
     </>
@@ -260,8 +273,7 @@ export function pintarSiglo({
   const bandaW = movil ? 13 : 18;
   const PL = movil ? 2 : 3;
   const x0 = 2;
-  const xDuras = x0 + PL * (bandaW + 3) + 3;
-  const inicioPills = xDuras + 3 * 7 + 6;
+  const inicioPills = x0 + PL * (bandaW + 3) + 6;
   const hueco = movil ? 10 : 22; // sitio para el tallo hasta el eje
   const L = movil || izqW < 520 ? 1 : 2;
   const anchoPill = Math.max(80, (izqW - hueco - inicioPills - (L - 1) * 10) / L);
@@ -307,7 +319,7 @@ export function pintarSiglo({
           key={'d' + e.id}
           type="button"
           className={`crono-dura${elegido?.id === e.id ? ' on' : ''}`}
-          style={{left: xDuras + (i % 3) * 7, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
+          style={{left: x0 + (i % PL) * (bandaW + 3) + bandaW / 2 - 2.5, top: Y(e.anio), height: Math.max(4, Y(e.hasta!) - Y(e.anio)), ['--c' as string]: TIPOS[e.tipo]?.color ?? '#868E96'}}
           onClick={() => setSel(elegido?.id === e.id ? null : {id: e.id})}
           title={`${e.titulo} (${anioTxt(e.anio)} – ${anioTxt(e.hasta!)})`}
           aria-label={e.titulo}
@@ -369,16 +381,15 @@ export function pintarSiglo({
 /** Pestaña pequeña al lado (como la ficha de los filosofos) con lo pulsado de la historia */
 export function DetalleHistoria({h, abrir}: {h: Historia; abrir: (id: string) => void}) {
   const {datos, sel, setSel} = h;
+  const cerrarDetalle = useCallback(() => setSel(null), [setSel]);
   if (!sel || !datos) return null;
   const ev = datos.eventos.find((e) => e.id === sel.id);
   const fr = datos.frases.find((f) => f.id === sel.id);
   const pe = datos.periodos.find((p) => p.id === sel.id);
   if (!ev && !fr && !pe) return null;
   return (
-    <aside key={sel.id} className="crono-detalle" role="dialog" aria-label="Más información">
-      <button type="button" className="cd-cerrar" onClick={() => setSel(null)} aria-label="Cerrar">
-        ✕
-      </button>
+    <Lateral cerrar={cerrarDetalle} etiqueta={ev?.titulo ?? pe?.nombre ?? 'Frase'}>
+      <div className="crono-detalle">
       {ev && (
         <>
           <p className="cd-meta" style={{color: TIPOS[ev.tipo]?.color}}>
@@ -411,7 +422,7 @@ export function DetalleHistoria({h, abrir}: {h: Historia; abrir: (id: string) =>
           <p className="cd-frase">«{fr.texto}»</p>
           <p className="cd-fecha">
             {fr.autor ? (
-              <button type="button" className="crono-autor" onClick={() => abrir(fr.autor!)}>
+              <button type="button" className="crono-autor" onClick={() => (setSel(null), abrir(fr.autor!))}>
                 {fr.autorNombre}
               </button>
             ) : (
@@ -426,6 +437,7 @@ export function DetalleHistoria({h, abrir}: {h: Historia; abrir: (id: string) =>
           </a>
         </>
       )}
-    </aside>
+      </div>
+    </Lateral>
   );
 }

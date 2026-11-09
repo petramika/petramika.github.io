@@ -1,11 +1,12 @@
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
-import {CAT, CATEGORIAS, COLOR_EDAD, ERAS, FAMAS, SEXOS, numSiglo, siglo, type CatId, type EraId} from './config';
+import {CAT, CATEGORIAS, COLOR_EDAD, ERAS, ETAPAS, FAMAS, SEXOS, anioTxt, numSiglo, siglo, type CatId, type EraId} from './config';
 import Buscador, {type Termino} from './Buscador';
 import {mejores, palabras, puntuar, type Sugerencia} from './buscar';
 import LISTA from './datos/lista.json';
 import Ficha from './Ficha';
 import {plano, ProveedorGlosario, type Diccionario} from '../comun/Glosario';
 import Pie from '../comun/Pie';
+import Lateral from './Lateral';
 import Linea from './Linea';
 import Multi from './Multi';
 import {BarraHistoria, DetalleHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
@@ -225,8 +226,21 @@ export default function App() {
   const h = useHistoria(conHistoria, mainRef);
   const movil = W < 700;
   const rail = movil ? RAIL_MOVIL : RAIL;
-  const izqW = Math.round(movil ? (W - rail) * 0.56 : (W - rail) / 2);
-  const derW = W - rail - izqW;
+  // A la izquierda de todo, la franja de color de cada edad (con su nombre, que acompaña al bajar)
+  const [franja, franjaHueco] = movil ? [18, 6] : [30, 14];
+  const anchoSiglos = W - franja - franjaHueco;
+  const izqW = Math.round(movil ? (anchoSiglos - rail) * 0.56 : (anchoSiglos - rail) / 2);
+  const derW = anchoSiglos - rail - izqW;
+  const [edadInfo, setEdadInfo] = useState<EraId | null>(null);
+  const cerrarEdad = useCallback(() => setEdadInfo(null), []);
+  const franjaDe = (e: (typeof ERAS)[number]) => (
+    // Un div con el nombre dentro como boton pegajoso: dentro de un <button> el sticky no funciona bien
+    <div className="edad-franja" onClick={() => setEdadInfo(e.id)} title={`${e.nombre} · ${e.desdeTxt} → ${e.hastaTxt}`}>
+      <button type="button" aria-label={`${e.nombre}: más información`}>
+        {e.nombre}
+      </button>
+    </div>
+  );
   const filtrandoFil = Boolean(cats.size || q.trim() || sexos.size || famas.size || terminos.length);
   // Con historia: todos los siglos con filosofos o con historia (si no se filtran filosofos), por edad
   const conHist = useMemo(() => {
@@ -333,22 +347,17 @@ export default function App() {
           </div>
         </div>
 
-        <main ref={mainRef} className={conHistoria ? 'con-historia' : undefined} style={{['--izq' as string]: conHistoria ? `${izqW}px` : '0px', ['--rail' as string]: `${rail}px`}}>
+        <main
+          ref={mainRef}
+          className={conHistoria ? 'con-historia' : undefined}
+          style={{['--izq' as string]: conHistoria ? `${izqW}px` : '0px', ['--rail' as string]: `${rail}px`, ['--franja' as string]: `${franja}px`, ['--franja-hueco' as string]: `${franjaHueco}px`}}
+        >
           {(conHistoria ? conHist : grupos).length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
           {conHistoria
             ? conHist.map(({e, suyos, siglos}) => (
-                <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
-                  <header className="edad-cabeza">
-                    <h2 id={`edad-${e.id}`}>
-                      <em>{e.nombre.split(' ')[0]}</em> {e.nombre.split(' ').slice(1).join(' ')}
-                    </h2>
-                    <p className="edad-anios">
-                      {e.desdeTxt} <span>→</span> {e.hastaTxt}
-                      {e.hito && <small>{e.hito}</small>}
-                      <small>{suyos.length} filósofos</small>
-                    </p>
-                    <p className="edad-texto">{e.texto}</p>
-                  </header>
+                <section key={e.id} className={`edad ${e.id}`} aria-label={e.nombre} style={{['--ce' as string]: COLOR_EDAD[e.id]}}>
+                  {franjaDe(e)}
+                  <div className="edad-siglos">
                   {siglos.map(([k, sd]) => {
                     const p = pintarSiglo({k, s: sd, h, edad: e.id, izqW, derW, movil, eras, abrir});
                     return (
@@ -364,21 +373,13 @@ export default function App() {
                       </div>
                     );
                   })}
+                  </div>
                 </section>
               ))
             : pintados.map(({e, suyos, siglos}) => (
-                <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
-                  <header className="edad-cabeza">
-                    <h2 id={`edad-${e.id}`}>
-                      <em>{e.nombre.split(' ')[0]}</em> {e.nombre.split(' ').slice(1).join(' ')}
-                    </h2>
-                    <p className="edad-anios">
-                      {e.desdeTxt} <span>→</span> {e.hastaTxt}
-                      {e.hito && <small>{e.hito}</small>}
-                      <small>{suyos.length} filósofos</small>
-                    </p>
-                    <p className="edad-texto">{e.texto}</p>
-                  </header>
+                <section key={e.id} className={`edad ${e.id}`} aria-label={e.nombre} style={{['--ce' as string]: COLOR_EDAD[e.id]}}>
+                  {franjaDe(e)}
+                  <div className="edad-siglos">
                   {siglos.map(([k, fs]) => (
                     <div key={k} className="siglo" data-siglo={k}>
                       <div className="siglo-izq" />
@@ -392,6 +393,7 @@ export default function App() {
                       </div>
                     </div>
                   ))}
+                  </div>
                 </section>
               ))}
           <div ref={finRef} />
@@ -403,6 +405,7 @@ export default function App() {
         </main>
         {conHistoria && <ZoomHistoria h={h} />}
         {conHistoria && <DetalleHistoria h={h} abrir={abrir} />}
+        {edadInfo && <EdadInfo id={edadInfo} abrir={abrir} cerrar={cerrarEdad} />}
         <div className="saltos" role="group" aria-label="Desplazarse">
           <button type="button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} aria-label="Subir arriba" title="Subir arriba" className={bajado ? '' : 'oculto'}>
             <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -420,5 +423,49 @@ export default function App() {
       </div>
       {elegido && <Ficha f={elegido} todos={TODOS} abrir={abrir} cerrar={cerrar} />}
     </ProveedorGlosario>
+  );
+}
+
+/** La pestaña lateral de una edad: fechas, de qué va, sus etapas y sus filósofos más conocidos */
+function EdadInfo({id, abrir, cerrar}: {id: EraId; abrir: (id: string) => void; cerrar: () => void}) {
+  const e = ERAS.find((x) => x.id === id)!;
+  const suyos = TODOS.filter((f) => f.era === id);
+  const top = [...suyos].sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999)).slice(0, 8);
+  return (
+    <Lateral cerrar={cerrar} etiqueta={e.nombre}>
+      <div className="edad-info" style={{['--ce' as string]: COLOR_EDAD[id]}}>
+        <p className="ficha-era">Edad</p>
+        <h2>{e.nombre}</h2>
+        <p className="ficha-fechas">
+          {e.desdeTxt} → {e.hastaTxt}
+        </p>
+        {e.hito && <p className="edad-info-hito">{e.hito}</p>}
+        <p className="ficha-resumen">{e.texto}</p>
+        <section>
+          <h3>Etapas de la filosofía</h3>
+          <ul className="ficha-obras">
+            {ETAPAS.filter((t) => t.era === id).map((t) => (
+              <li key={t.nombre}>
+                <span className="anio">
+                  {anioTxt(t.desde)} – {anioTxt(t.hasta)}
+                </span>{' '}
+                <b>{t.nombre}</b>
+                <span className="dequeva">{t.texto}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section>
+          <h3>Los más conocidos</h3>
+          <p className="ficha-con">
+            {top.map((f) => (
+              <button key={f.id} type="button" onClick={() => (cerrar(), abrir(f.id))}>
+                {f.nombre}
+              </button>
+            ))}
+          </p>
+        </section>
+      </div>
+    </Lateral>
   );
 }
