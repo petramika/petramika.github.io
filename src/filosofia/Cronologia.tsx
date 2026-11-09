@@ -167,7 +167,7 @@ export function porSiglo(visibles: Filosofo[], h: Historia, eras: Set<EraId>) {
 export function BarraHistoria({h, activa}: {h: Historia; activa: boolean}) {
   return (
     <Multi
-      titulo="Historia"
+      titulo="Eventos"
       opciones={Object.entries(TIPOS).map(([id, t]) => ({id, nombre: t.nombre, color: t.color}))}
       elegidos={h.tipos}
       alternar={(k) =>

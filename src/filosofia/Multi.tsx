@@ -1,5 +1,8 @@
 import {useEffect, useRef, useState, type ReactNode} from 'react';
 
+/** Chips que caben en la caja; el resto se resume en «+N» */
+const VISIBLES = 2;
+
 export type Opcion = {id: string; nombre: string; color?: string; antes?: ReactNode; cuenta?: number; ayuda?: string};
 
 /**
@@ -59,15 +62,27 @@ export default function Multi({
           {titulo}
           {!marcadas.length && <span className="multi-todos">Todos</span>}
         </button>
-        {marcadas.map((o) => (
+        {marcadas.slice(0, VISIBLES).map((o) => (
           <span key={o.id} className="multi-chip" style={o.color ? {['--c' as string]: o.color} : undefined}>
             {punto(o)}
-            {o.nombre}
+            <span className="multi-chip-nombre">{o.nombre}</span>
             <button type="button" disabled={desactivado} onClick={() => alternar(o.id)} aria-label={`Quitar ${o.nombre}`}>
               ×
             </button>
           </span>
         ))}
+        {marcadas.length > VISIBLES && (
+          <button type="button" className="multi-mas" disabled={desactivado} onClick={() => setAbierto(true)} title={marcadas.slice(VISIBLES).map((o) => o.nombre).join(', ')}>
+            +{marcadas.length - VISIBLES}
+          </button>
+        )}
+        {marcadas.length > 0 && (
+          <button type="button" className="multi-borrar" disabled={desactivado} onClick={limpiar} aria-label={`Quitar todo de ${titulo}`} title="Quitar todo">
+            <svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M3 3l6 6M9 3 3 9" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
+          </button>
+        )}
         <button type="button" className="multi-flecha" tabIndex={-1} aria-hidden="true" disabled={desactivado} onClick={() => setAbierto((a) => !a)}>
           <svg viewBox="0 0 12 12" width="10" height="10">
             <path d="M2 4.5 6 8l4-3.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />

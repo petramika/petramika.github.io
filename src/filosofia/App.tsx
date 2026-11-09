@@ -288,16 +288,16 @@ export default function App() {
               alternar={(id) => alterna(setSexos)(id as Sexo)}
               limpiar={() => setSexos(new Set())}
             />
-          </div>
-          <div className="filtros-fila historia-fila">
-            <label className="interruptor">
-              <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
-              <span className="interruptor-pista" aria-hidden="true">
-                <span />
-              </span>
-              Con historia
-            </label>
-            <BarraHistoria h={h} activa={conHistoria} />
+            <div className="multis-historia">
+              <label className="toggle-texto" title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}>
+                <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
+                <span className="toggle-pista">
+                  <span className="toggle-nombre">Historia</span>
+                  <span className="toggle-bola" aria-hidden="true" />
+                </span>
+              </label>
+              <BarraHistoria h={h} activa={conHistoria} />
+            </div>
           </div>
           <div className="filtros-fila">
             <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
