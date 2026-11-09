@@ -275,13 +275,15 @@ export default function App() {
         <div className="filtros" ref={filtrosRef}>
           <div className="multis">
             <div className="multis-historia">
-              <label className="toggle-texto" title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}>
-                <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
-                <span className="toggle-pista">
-                  <span className="toggle-nombre">Historia</span>
-                  <span className="toggle-bola" aria-hidden="true" />
-                </span>
-              </label>
+              <button
+                type="button"
+                className="boton-historia"
+                aria-pressed={conHistoria}
+                onClick={() => cambiarVista(conHistoria ? 'tarjetas' : 'cronologia')}
+                title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}
+              >
+                Historia
+              </button>
               <BarraHistoria h={h} activa={conHistoria} />
             </div>
             <Multi
