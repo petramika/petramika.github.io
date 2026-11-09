@@ -19,10 +19,10 @@ const iniciales = (n: string) =>
     .join('');
 
 /** Retrato redondo con el anillo de categorias; si no hay foto, las iniciales */
-export default function Retrato({nombre, img, cats, size = 64, eager}: {nombre: string; img: string | null; cats: CatId[]; size?: number; eager?: boolean}) {
+export default function Retrato({nombre, img, cats, size = 64, eager, liso}: {nombre: string; img: string | null; cats: CatId[]; size?: number; eager?: boolean; /** Solo la cara, sin el anillo de categorias */ liso?: boolean}) {
   const [fallo, setFallo] = useState(false);
   return (
-    <span className="retrato" style={{width: size, height: size, background: anillo(cats)}} aria-hidden="true">
+    <span className={`retrato${liso ? ' liso' : ''}`} style={{width: size, height: size, background: liso ? undefined : anillo(cats)}} aria-hidden="true">
       {img && !fallo ? (
         <img src={size > 40 ? img.replace('/120px-', '/250px-').replace('-120px-', '-250px-') : img} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" onError={() => setFallo(true)} />
       ) : (

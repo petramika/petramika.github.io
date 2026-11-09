@@ -135,6 +135,8 @@ button { font: inherit; color: inherit; }
 .retrato { flex: none; border-radius: 50%; display: block; position: relative; }
 .retrato img, .retrato .iniciales { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 50%; border: 2.5px solid var(--papel2); object-fit: cover; object-position: center 22%; background: var(--gris); display: grid; place-items: center; }
 .retrato .iniciales { font-family: var(--f-texto); color: var(--suave); }
+.retrato.liso img, .retrato.liso .iniciales { inset: 0; width: 100%; height: 100%; border: 0; }
+.retrato.liso .iniciales { background: var(--raya); }
 
 .vacio { margin: 48px 0; color: var(--suave); text-align: center; }
 
@@ -316,8 +318,27 @@ button { font: inherit; color: inherit; }
 .hist-mapa i { position: absolute; top: 0; bottom: 0; }
 .hist-mapa i { opacity: .55; }
 .hist-mapa b { position: absolute; top: 0; bottom: 0; border: 2px solid var(--tinta); border-radius: 7px; transition: none; }
-.hist-leyenda { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0; font: 13px var(--f-ui); color: var(--suave); }
-.hist-leyenda span::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 5px; }
+.hist-leyenda { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; font: 13px var(--f-ui); color: var(--suave); }
+.hist-leyenda button {
+  appearance: none; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; border: 1.5px solid var(--raya); background: var(--papel2);
+  border-radius: 999px; padding: 3px 12px 3px 9px; font: 13.5px var(--f-ui); color: var(--tenue, var(--suave)); transition: color .15s, border-color .15s, background .15s, opacity .15s;
+}
+.hist-leyenda button::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--c); opacity: .6; }
+.hist-leyenda button:hover { color: var(--tinta); border-color: var(--suave); }
+.hist-leyenda button[aria-pressed="true"] { color: var(--tinta); border-color: var(--c); background: color-mix(in srgb, var(--c) 9%, var(--papel2)); }
+.hist-leyenda button[aria-pressed="true"]::before { opacity: 1; }
+.hist-leyenda button.apagado { opacity: .55; }
+.hist-leyenda .hist-todos { border-color: transparent; background: none; text-decoration: underline; padding-left: 4px; }
+.hist-leyenda .hist-todos::before { display: none; }
+.hist-titulo { display: flex; align-items: center; gap: 10px; }
+.hist-ayuda { position: relative; display: inline-flex; }
+.hist-ayuda .ibtn { width: 18px; height: 18px; border-radius: 50%; border: 1.3px solid var(--suave); background: none; color: var(--suave); font: italic 600 12px/1 var(--f-texto); cursor: pointer; display: grid; place-items: center; padding: 0; }
+.hist-ayuda .ibtn:hover, .hist-ayuda .ibtn[aria-expanded="true"] { color: var(--tinta); border-color: var(--tinta); }
+.hist-ayuda-texto {
+  position: absolute; top: calc(100% + 10px); left: -12px; z-index: 20; width: min(340px, calc(100vw - 48px)); padding: 12px 14px;
+  background: var(--tinta); color: var(--papel); border-radius: 12px; font: 13.5px/1.5 var(--f-ui); box-shadow: 0 12px 30px rgba(0,0,0,.2);
+}
+.hist-ayuda-texto b { font-weight: 700; }
 
 .hist-detalle {
   position: absolute; right: 22px; bottom: 74px; width: min(380px, calc(100% - 44px)); max-height: 62%; overflow: auto; z-index: 5;
@@ -355,8 +376,10 @@ button { font: inherit; color: inherit; }
   .hist-eje { top: 338px; }
   .hist-detalle { left: 8px; right: 8px; width: auto; bottom: 8px; max-height: 55%; }
   .hist-rango { display: none; }
+  .hist-ayuda-texto { position: fixed; top: 62px; left: 12px; right: 12px; width: auto; }
   .hist-barra { flex-wrap: nowrap; align-items: flex-start; }
-  .hist-leyenda { flex: 1; min-width: 0; font-size: 12px; gap: 4px 12px; }
+  .hist-leyenda { flex: 1; min-width: 0; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 6px; }
+  .hist-leyenda button { flex: none; font-size: 12.5px; }
   .hist-zoom { flex: none; }
   .hist-barra .pill { flex: none; }
 }

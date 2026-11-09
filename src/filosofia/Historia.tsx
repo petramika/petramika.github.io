@@ -85,6 +85,9 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
   const aU = (v: Vista): VistaU => ({u0: U(Math.max(MIN, v.x0)), u1: U(Math.min(MAX, v.x1))});
   const [vista, setVista] = useState<VistaU>(aU(inicio ?? {x0: MIN, x1: MAX}));
   const [sel, setSel] = useState<Sel>(null);
+  // Tipos de acontecimiento que se ven (vacio = todos)
+  const [tipos, setTipos] = useState<Set<string>>(new Set());
+  const [ayuda, setAyuda] = useState<'encima' | 'fija' | null>(null);
   const [W, setW] = useState(1000);
   const [H, setH] = useState(600);
   const lienzo = useRef<HTMLDivElement>(null);
@@ -167,7 +170,7 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
     cierre.current?.focus({preventScroll: true});
     const tecla = (e: KeyboardEvent) => {
       if (document.querySelector('.ficha-fondo')) return;
-      if (e.key === 'Escape') sel ? setSel(null) : cerrar();
+      if (e.key === 'Escape') ayuda ? setAyuda(null) : sel ? setSel(null) : cerrar();
       else if (e.key === '+' || e.key === '=') irU(zoom(0.6));
       else if (e.key === '-') irU(zoom(1 / 0.6));
       else if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') irU(mueve(vistaRef.current, W * 0.25 * (e.key === 'ArrowLeft' ? -1 : 1)));
@@ -179,7 +182,7 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
       if (!document.querySelector('.ficha-fondo')) document.body.style.overflow = '';
       antes?.focus?.({preventScroll: true});
     };
-  }, [cerrar, irU, zoom, sel, W]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [cerrar, irU, zoom, sel, W, ayuda]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Rueda: acercar y alejar donde esta el raton; desplazamiento lateral del trackpad: mover
   useEffect(() => {
@@ -279,10 +282,10 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
 
   const eventos = useMemo(() => {
     if (!datos) return [];
-    const vis = datos.eventos.filter((e) => e.nivel <= nivelEv && (e.hasta ?? e.anio) >= x0 && e.anio <= x1).sort((a, b) => a.nivel - b.nivel || a.anio - b.anio);
+    const vis = datos.eventos.filter((e) => (!tipos.size || tipos.has(e.tipo)) && e.nivel <= (tipos.size ? 3 : nivelEv) && (e.hasta ?? e.anio) >= x0 && e.anio <= x1).sort((a, b) => a.nivel - b.nivel || a.anio - b.anio);
     const ancho = (e: Evento) => Math.min(estrecho ? 150 : 220, e.titulo.length * 6.6 + 22);
     return apilar(vis, (e) => X(e.anio) - 6, ancho, estrecho ? 4 : 6);
-  }, [datos, nivelEv, x0, x1, X, estrecho]);
+  }, [datos, nivelEv, x0, x1, X, estrecho, tipos]);
 
   const frases = useMemo(() => {
     const vis = (datos?.frases ?? []).filter((f) => f.anio >= x0 && f.anio <= x1 && (f.nivel === 1 || span < 1400)).sort((a, b) => a.nivel - b.nivel || a.anio - b.anio);
@@ -338,21 +341,55 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
     <div className="hist-fondo" onClick={cerrar}>
       <div className="hist" role="dialog" aria-modal="true" aria-labelledby="hist-titulo" onClick={(e) => e.stopPropagation()}>
         <header className="hist-cabeza">
-          <h2 id="hist-titulo" title="Acércate con la rueda, pellizcando o con + y −; arrastra para moverte">
-            La historia <em>con lupa</em>
-          </h2>
+          <div className="hist-titulo">
+            <h2 id="hist-titulo">
+              La historia <em>con lupa</em>
+            </h2>
+            <span className="hist-ayuda" onPointerEnter={(e) => e.pointerType === 'mouse' && setAyuda((a) => a ?? 'encima')} onPointerLeave={(e) => e.pointerType === 'mouse' && setAyuda((a) => (a === 'encima' ? null : a))}>
+              <button type="button" className="ibtn" aria-label="Cómo se usa" aria-expanded={ayuda != null} onClick={() => setAyuda((a) => (a === 'fija' ? null : 'fija'))}>
+                i
+              </button>
+              {ayuda && (
+                <span className="hist-ayuda-texto" role="tooltip">
+                  <b>Acercar y alejar:</b> rueda del ratón, pellizco en el trackpad o el móvil, botones + y −, o doble clic.
+                  <br />
+                  <b>Moverse:</b> arrastra, desliza en horizontal o usa las flechas del teclado.
+                  <br />
+                  Cuanto más cerca, más acontecimientos, frases y filósofos aparecen. Pulsa cualquiera para saber más; los colores de arriba filtran los acontecimientos.
+                </span>
+              )}
+            </span>
+          </div>
           <button ref={cierre} type="button" className="hist-cerrar" onClick={cerrar} aria-label="Cerrar">
             ✕
           </button>
         </header>
 
         <div className="hist-barra">
-          <p className="hist-leyenda" aria-label="Colores de los acontecimientos">
+          <p className="hist-leyenda" role="group" aria-label="Filtrar acontecimientos por tipo">
             {Object.entries(TIPOS).map(([k, t]) => (
-              <span key={k} style={{['--c' as string]: t.color}}>
+              <button
+                key={k}
+                type="button"
+                style={{['--c' as string]: t.color}}
+                aria-pressed={tipos.has(k)}
+                className={tipos.size && !tipos.has(k) ? 'apagado' : undefined}
+                onClick={() =>
+                  setTipos((s) => {
+                    const n = new Set(s);
+                    n.has(k) ? n.delete(k) : n.add(k);
+                    return n;
+                  })
+                }
+              >
                 {t.nombre}
-              </span>
+              </button>
             ))}
+            {tipos.size > 0 && (
+              <button type="button" className="hist-todos" onClick={() => setTipos(new Set())}>
+                Ver todos
+              </button>
+            )}
           </p>
           <div className="hist-zoom">
             <span className="hist-rango">
@@ -485,7 +522,7 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
                 onFocus={() => setEncima({f, x: X(f.fl) - 13, fila})}
                 onBlur={() => setEncima(null)}
               >
-                <Retrato nombre={f.nombre} img={f.img} cats={f.categorias} size={26} />
+                <Retrato nombre={f.nombre} img={f.img} cats={f.categorias} size={26} liso />
                 <span>{f.nombre}</span>
               </button>
             ))}
