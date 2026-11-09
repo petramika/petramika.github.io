@@ -455,6 +455,6 @@ button { font: inherit; color: inherit; }
 .multi-fila .multi-chip:first-child { min-width: 70px; }
 .modo-busca { appearance: none; display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 32px; border: 1.5px solid var(--tinta); border-radius: 999px; background: var(--tinta); color: var(--papel); cursor: pointer; padding: 0; flex: none; transition: border-color .15s; }
 .modo-busca:hover { background: color-mix(in srgb, var(--tinta) 85%, var(--papel)); }
-.boton-historia { appearance: none; flex: none; height: 36px; padding: 0 18px; border-radius: 999px; border: 1.5px solid var(--raya); background: var(--papel2); color: var(--suave); font: 500 14px var(--f-ui); cursor: pointer; transition: background .2s, color .2s, border-color .2s; }
+.boton-historia { appearance: none; flex: none; display: inline-flex; align-items: center; justify-content: center; height: 36px; width: 46px; padding: 0; border-radius: 999px; border: 1.5px solid var(--raya); background: var(--papel2); color: var(--suave); font: 500 14px var(--f-ui); cursor: pointer; transition: background .2s, color .2s, border-color .2s; }
 .boton-historia:hover { border-color: var(--tenue); color: var(--tinta); }
 .boton-historia[aria-pressed="true"] { background: var(--tinta); border-color: var(--tinta); color: var(--papel); }

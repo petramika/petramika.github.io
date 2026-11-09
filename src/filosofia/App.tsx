@@ -280,9 +280,15 @@ export default function App() {
                 className="boton-historia"
                 aria-pressed={conHistoria}
                 onClick={() => cambiarVista(conHistoria ? 'tarjetas' : 'cronologia')}
-                title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}
+                title={conHistoria ? 'Historia: quitarla' : 'Historia: ver qué pasaba en el mundo, junto a los filósofos'}
+                aria-label="Historia"
               >
-                Historia
+                {/* Reloj con la flecha hacia atrás: el icono de siempre para «historia» */}
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path d="M3.5 12a8.5 8.5 0 1 0 2.5-6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <path d="M3 3.5v4.5h4.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </button>
               <BarraHistoria h={h} activa={conHistoria} />
             </div>
