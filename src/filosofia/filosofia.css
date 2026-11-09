@@ -402,7 +402,6 @@ button { font: inherit; color: inherit; }
 .multi.con .multi-caja { border-color: var(--suave); }
 .multi-titulo { appearance: none; border: 0; background: none; cursor: pointer; padding: 4px 6px 4px 8px; font: 500 12px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--suave); display: inline-flex; gap: 8px; align-items: baseline; }
 .multi.con .multi-titulo { color: var(--tinta); }
-.multi-todos { font: 14px var(--f-ui); text-transform: none; letter-spacing: 0; color: var(--tenue); }
 .multi-chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 2px 2px 2px 9px; border-radius: 999px; font: 13.5px var(--f-ui); color: var(--tinta);
   border: 1px solid var(--c, var(--raya)); background: color-mix(in srgb, var(--c, var(--suave)) 10%, var(--papel2)); animation: aparece .15s ease-out;

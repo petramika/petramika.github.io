@@ -82,7 +82,6 @@ export default function Multi({
       <div className="multi-caja" onClick={(e) => !desactivado && (e.target === e.currentTarget || e.target === fila.current) && setAbierto((a) => !a)}>
         <button ref={boton} type="button" className="multi-titulo" aria-haspopup="listbox" aria-expanded={abierto} disabled={desactivado} onClick={() => setAbierto((a) => !a)}>
           {titulo}
-          {!marcadas.length && <span className="multi-todos">Todos</span>}
         </button>
         <span className="multi-fila" ref={fila}>
         {marcadas.map((o, i) => (
