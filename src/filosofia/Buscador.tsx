@@ -22,6 +22,8 @@ type Props = {
 export default function Buscador({valor, cambiar, terminos, anadir, quitar, todas}: Props) {
   const [abierta, setAbierta] = useState(false);
   const [activa, setActiva] = useState(-1);
+  // Enter solo coge una sugerencia si se eligio con las flechas; pasar el raton por encima solo la resalta
+  const [conFlechas, setConFlechas] = useState(false);
   const id = useId();
   const caja = useRef<HTMLInputElement>(null);
   const yaEstan = useMemo(() => new Set(terminos.map((t) => t.clave)), [terminos]);
@@ -31,6 +33,7 @@ export default function Buscador({valor, cambiar, terminos, anadir, quitar, toda
   const tomar = (s: Sugerencia) => {
     anadir(s);
     setActiva(-1);
+    setConFlechas(false);
     caja.current?.focus();
   };
 
@@ -62,13 +65,14 @@ export default function Buscador({valor, cambiar, terminos, anadir, quitar, toda
         aria-expanded={ver}
         aria-controls={id}
         aria-autocomplete="list"
-        aria-activedescendant={ver && activa >= 0 ? `${id}-${activa}` : undefined}
+        aria-activedescendant={ver && conFlechas && activa >= 0 ? `${id}-${activa}` : undefined}
         autoComplete="off"
         spellCheck={false}
         onChange={(e) => {
           cambiar(e.target.value);
           setAbierta(true);
           setActiva(-1);
+          setConFlechas(false);
         }}
         onFocus={() => setAbierta(true)}
         onBlur={() => setTimeout(() => setAbierta(false), 120)}
@@ -76,14 +80,19 @@ export default function Buscador({valor, cambiar, terminos, anadir, quitar, toda
           if (e.key === 'ArrowDown' && lista.length) {
             e.preventDefault();
             setAbierta(true);
+            setConFlechas(true);
             setActiva((a) => (a + 1) % lista.length);
           } else if (e.key === 'ArrowUp' && lista.length) {
             e.preventDefault();
+            setConFlechas(true);
             setActiva((a) => (a <= 0 ? lista.length - 1 : a - 1));
           } else if (e.key === 'Enter') {
             e.preventDefault();
-            if (ver && activa >= 0) tomar(lista[activa]);
-            else if (valor.trim()) anadir({clave: 't:' + valor.trim().toLowerCase(), texto: valor.trim(), tipo: 'Texto'});
+            if (ver && conFlechas && activa >= 0) tomar(lista[activa]);
+            else if (valor.trim()) {
+              anadir({clave: 't:' + valor.trim().toLowerCase(), texto: valor.trim(), tipo: 'Texto'});
+              setActiva(-1);
+            }
           } else if (e.key === 'Backspace' && !valor && terminos.length) {
             quitar(terminos[terminos.length - 1].clave);
           } else if (e.key === 'Escape' && ver) {
@@ -101,7 +110,10 @@ export default function Buscador({valor, cambiar, terminos, anadir, quitar, toda
               role="option"
               aria-selected={i === activa}
               onMouseDown={(e) => e.preventDefault()}
-              onMouseEnter={() => setActiva(i)}
+              onMouseEnter={() => {
+                setActiva(i);
+                setConFlechas(false);
+              }}
               onClick={(e) => {
                 e.stopPropagation();
                 tomar(s);
