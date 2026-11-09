@@ -9,7 +9,7 @@
 
    Para volver a medirlo todo cada pocos meses: `python3 fama.py --todo`.
 4. `fichas/`: los textos y el glosario de cada bloque, escritos según `INSTRUCCIONES.md`. `glosario-base.json` tiene las palabras comunes.
-5. `historia/`: los datos de «La historia con lupa». `eventos.json` y `periodos.json` traen enlaces a Wikipedia comprobados; `frases.json` trae frases célebres verificadas con su fuente.
+5. `historia/`: los datos de la cronología (la historia a la izquierda de los filósofos). `eventos.json` y `periodos.json` traen enlaces a Wikipedia comprobados; `frases.json` trae frases célebres verificadas con su fuente.
 6. `python3 build.py ../../src/filosofia/datos` junta todo en `lista.json`, `fichas/NN.json` (trozos de 40), `glosario.json` e `historia.json`. Solo salen en la web los filósofos que tienen ficha.
 
 **Reconocimiento**

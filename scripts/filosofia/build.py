@@ -147,7 +147,5 @@ if os.path.exists('historia/eventos.json'):
     ids = {x['id'] for x in lista}
     for f in fr:
         if f.get('autor') and f['autor'] not in ids: f['autor'] = None
-    # La frase de cada filosofo que sale en la linea del tiempo (reconocimiento alto o muy alto)
-    frasesFil = {x['id']: detalle[x['id']]['frase'] for x in lista if (x.get('fama') or {}).get('n', 0) >= 3 and detalle[x['id']].get('frase')}
-    json.dump({'eventos': ev, 'periodos': pe, 'frases': fr, 'frasesFil': frasesFil}, open(f'{DEST}/historia.json', 'w'), ensure_ascii=False, separators=(',', ':'))
+    json.dump({'eventos': ev, 'periodos': pe, 'frases': fr}, open(f'{DEST}/historia.json', 'w'), ensure_ascii=False, separators=(',', ':'))
     print('historia', len(ev), 'eventos', len(pe), 'periodos', len(fr), 'frases')

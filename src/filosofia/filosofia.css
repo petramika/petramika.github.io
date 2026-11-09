@@ -245,87 +245,7 @@ button { font: inherit; color: inherit; }
 .ficha-relevancia .fama-puntos { font-size: 11px; letter-spacing: 2px; }
 .ficha-relevancia .apagados { color: var(--raya); }
 
-/* ===== La historia con lupa (modal) ===== */
-.hist-fondo { position: fixed; inset: 0; z-index: 45; background: rgba(20, 20, 18, .45); display: flex; align-items: center; justify-content: center; animation: fondo .2s ease-out; }
-.hist {
-  position: relative; width: min(1400px, calc(100vw - 32px)); height: min(860px, calc(100vh - 32px)); background: var(--papel); border-radius: 18px;
-  box-shadow: 0 30px 80px rgba(0,0,0,.3); display: flex; flex-direction: column; overflow: hidden; padding: 18px 22px 14px;
-}
-.hist-cabeza { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
-.hist-cabeza h2 { font: 400 30px/1.1 var(--f-titulo, var(--f-texto)); margin: 0; }
-.hist-cabeza h2 em { color: var(--suave); }
-.hist-cabeza p { margin: 4px 0 0; font: 14px var(--f-ui); color: var(--suave); }
-.hist-cerrar { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--raya); background: var(--papel2); cursor: pointer; font: 16px var(--f-ui); color: var(--tinta); }
-.hist-barra { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 20px; margin: 10px 0 10px; }
-.hist-barra .pills { padding: 0; }
-.hist-barra .pill { font-size: 14px; padding: 4px 14px; }
-.hist-zoom { display: flex; align-items: center; gap: 6px; }
-.hist-rango { font: 13px var(--f-mono); color: var(--suave); margin-right: 6px; }
-.hist-rango b { color: var(--tinta); font-weight: 500; }
-.hist-zoom button { width: 36px; height: 36px; border-radius: 50%; border: 1.5px solid var(--raya); background: var(--papel2); font: 20px/1 var(--f-ui); color: var(--tinta); cursor: pointer; }
-.hist-zoom button:disabled { opacity: .35; cursor: default; }
-
-.hist-lienzo { position: relative; flex: 1; min-height: 520px; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab; border-radius: 12px; background: var(--papel2); border: 1px solid var(--raya); }
-.hist-lienzo:active { cursor: grabbing; }
-.hist-edad { position: absolute; top: 0; bottom: 0; border-left: 1px dashed color-mix(in srgb, var(--c) 40%, transparent); pointer-events: none; background: color-mix(in srgb, var(--c) 4%, transparent); }
-.hist-edad-nombre {
-  display: block; height: 24px; padding: 0 10px; background: var(--c); color: #fff; font: 600 13px/24px var(--f-ui); letter-spacing: .03em;
-  text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-.hist-etapas { position: absolute; top: 26px; left: 0; right: 0; height: 22px; }
-.hist-etapa {
-  position: absolute; top: 0; height: 22px; border: 0; border-right: 1px solid var(--papel2); padding: 0 8px; cursor: pointer; text-align: left; overflow: hidden;
-  background: color-mix(in srgb, var(--c) 16%, var(--papel2)); color: color-mix(in srgb, var(--c) 70%, var(--tinta)); font: italic 12.5px/22px var(--f-texto); white-space: nowrap; text-overflow: ellipsis;
-}
-.hist-etapa:hover, .hist-etapa.on { background: color-mix(in srgb, var(--c) 30%, var(--papel2)); }
-
-.hist-periodos { position: absolute; top: 56px; left: 0; right: 0; height: 66px; }
-.hist-periodo {
-  position: absolute; height: 20px; border: 0; border-radius: 5px; padding: 0 7px; cursor: pointer; overflow: hidden; text-align: left;
-  background: color-mix(in srgb, var(--suave) 13%, transparent); color: var(--tinta); font: 12px/20px var(--f-ui); white-space: nowrap; text-overflow: ellipsis;
-}
-.hist-periodo:hover, .hist-periodo.on { background: color-mix(in srgb, var(--suave) 26%, transparent); }
-.hist-periodo span { position: sticky; left: 4px; }
-
-.hist-lienzo { --fil-top: 392px; }
-.hist-frases { position: absolute; top: 128px; left: 0; right: 0; height: 50px; }
-.hist-frase {
-  position: absolute; max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; appearance: none; cursor: pointer;
-  border: 0; border-left: 2px solid var(--tinta); background: color-mix(in srgb, var(--papel2) 85%, transparent); padding: 1px 8px; text-align: left;
-  font: italic 14px/22px var(--f-texto); color: var(--tinta);
-}
-.hist-frase small { font: 11px var(--f-mono); color: var(--suave); font-style: normal; margin-left: 4px; }
-.hist-frase:hover, .hist-frase.on { background: var(--papel); box-shadow: 0 0 0 1px var(--raya); }
-.hist-eventos { position: absolute; top: 184px; left: 0; right: 0; height: 168px; }
-.hist-ev { position: absolute; bottom: 0; width: 0; }
-.hist-ev::after { content: ''; position: absolute; left: -4px; bottom: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2px var(--papel2); }
-.hist-palo { position: absolute; left: 0; bottom: 0; width: 1px; height: calc(10px + var(--fila) * 27px); background: var(--c); opacity: .45; }
-.hist-dura { position: absolute; left: 0; bottom: -2px; height: 4px; border-radius: 2px; background: var(--c); opacity: .3; }
-.hist-ev-txt {
-  position: absolute; left: -6px; bottom: calc(10px + var(--fila) * 27px); max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  appearance: none; border: 1px solid transparent; background: var(--papel2); border-radius: 6px; padding: 2px 6px; cursor: pointer; text-align: left;
-  font: 12.5px/1.3 var(--f-ui); color: var(--tinta);
-}
-.hist-ev-txt b { font: 500 11px var(--f-mono); color: var(--c); margin-right: 2px; }
-.hist-ev-txt.n1 { font-weight: 600; }
-.hist-ev-txt.n3 { color: var(--suave); }
-.hist-ev-txt:hover, .hist-ev-txt.on { border-color: var(--c); z-index: 2; }
-
-.hist-eje { position: absolute; top: 358px; left: 0; right: 0; height: 26px; border-top: 1.5px solid var(--tinta); }
-.hist-eje span { position: absolute; top: 4px; transform: translateX(-50%); font: 11.5px var(--f-mono); color: var(--suave); white-space: nowrap; }
-.hist-eje span::before { content: ''; position: absolute; left: 50%; top: -8px; width: 1px; height: 6px; background: var(--tinta); }
-
-.hist-filosofos { position: absolute; top: var(--fil-top); left: 0; right: 0; bottom: 0; }
-.hist-fil { position: absolute; display: flex; align-items: center; gap: 6px; appearance: none; border: 0; background: none; padding: 0; cursor: pointer; font: 12.5px var(--f-ui); color: var(--tinta); white-space: nowrap; max-width: 170px; }
-.hist-fil span { overflow: hidden; text-overflow: ellipsis; }
-.hist-fil:hover span { text-decoration: underline; text-decoration-color: var(--c); text-underline-offset: 3px; }
-.hist-fil > :first-child { flex: none; }
-.hist-cargando { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; font: 15px var(--f-ui); color: var(--suave); }
-
-.hist-mapa { position: relative; height: 14px; margin: 10px 0 0; border-radius: 7px; overflow: hidden; background: var(--raya); cursor: pointer; }
-.hist-mapa i { position: absolute; top: 0; bottom: 0; }
-.hist-mapa i { opacity: .55; }
-.hist-mapa b { position: absolute; top: 0; bottom: 0; border: 2px solid var(--tinta); border-radius: 7px; transition: none; }
+/* Pills de tipos de acontecimiento (cronologia) */
 .hist-leyenda { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; font: 13px var(--f-ui); color: var(--suave); }
 .hist-leyenda button {
   appearance: none; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; border: 1.5px solid var(--raya); background: var(--papel2);
@@ -338,37 +258,7 @@ button { font: inherit; color: inherit; }
 .hist-leyenda button.apagado { opacity: .55; }
 .hist-leyenda .hist-todos { border-color: transparent; background: none; text-decoration: underline; padding-left: 4px; }
 .hist-leyenda .hist-todos::before { display: none; }
-.hist-titulo { display: flex; align-items: center; gap: 8px; }
-.hist-ayuda { position: relative; display: inline-flex; }
-.hist-ayuda .ibtn { position: relative; width: 14px; height: 14px; border-radius: 50%; border: 1.2px solid var(--suave); background: none; color: var(--suave); font: italic 600 9.5px/1 var(--f-texto); cursor: pointer; display: grid; place-items: center; padding: 0; transform: translateY(1px); }
-.hist-ayuda .ibtn::after { content: ''; position: absolute; inset: -9px; }
-.hist-ayuda .ibtn:hover, .hist-ayuda .ibtn[aria-expanded="true"] { color: var(--tinta); border-color: var(--tinta); }
-.hist-ayuda-texto {
-  position: absolute; top: calc(100% + 10px); left: -12px; z-index: 20; width: min(340px, calc(100vw - 48px)); padding: 12px 14px;
-  background: var(--tinta); color: var(--papel); border-radius: 12px; font: 13.5px/1.5 var(--f-ui); box-shadow: 0 12px 30px rgba(0,0,0,.2);
-}
-.hist-ayuda-texto b { font-weight: 700; }
-
-.hist-detalle {
-  position: absolute; right: 22px; bottom: 74px; width: min(380px, calc(100% - 44px)); max-height: 62%; overflow: auto; z-index: 5;
-  background: var(--papel2); border: 1px solid var(--raya); border-radius: 14px; box-shadow: 0 16px 40px rgba(0,0,0,.18); padding: 16px 18px 14px;
-  font: 15px/1.5 var(--f-ui); animation: fondo .15s ease-out;
-}
-.hist-detalle h3 { font: 400 22px/1.2 var(--f-titulo, var(--f-texto)); margin: 2px 28px 2px 0; }
-.hist-detalle p { margin: 6px 0; }
-.hist-detalle-cerrar { position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--raya); background: var(--papel); cursor: pointer; color: var(--tinta); }
-.hd-meta { font: 500 11.5px var(--f-mono) !important; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); }
-.hd-fecha { font: 13px var(--f-mono) !important; color: var(--suave); margin-top: 0 !important; }
-.hd-vivos > p { font: 500 12px var(--f-mono); color: var(--suave); text-transform: uppercase; letter-spacing: .05em; margin-top: 12px !important; }
-.hd-vivos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
-.hd-vivos button { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--raya); background: var(--papel); border-radius: 999px; padding: 2px 10px 2px 3px; cursor: pointer; font: 13px var(--f-ui); color: var(--tinta); }
-.hd-vivos button:hover { border-color: var(--suave); }
-.hd-pie { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 12px !important; font-size: 14px; }
-.hd-pie a { color: var(--tinta); }
-.hd-pie button { border: 0; background: none; font: 500 13px var(--f-ui); color: var(--suave); text-decoration: underline; cursor: pointer; }
-
-/* Boton que abre la historia */
-.linea-cabeza { display: flex; justify-content: flex-end; margin: 0 0 8px; }
+/* La pill que lleva a la cronologia */
 .abrir-historia {
   display: inline-flex; align-items: center; gap: 8px; appearance: none; cursor: pointer; border: 1.5px solid var(--raya); background: var(--papel2);
   border-radius: 999px; padding: 6px 16px 6px 12px; font: 500 14px var(--f-ui); color: var(--tinta); transition: border-color .15s, transform .15s;
@@ -376,34 +266,6 @@ button { font: inherit; color: inherit; }
 .abrir-historia:hover { border-color: var(--suave); transform: translateY(-1px); }
 .abrir-historia svg { width: 18px; height: 18px; }
 
-@media (max-width: 700px) {
-  .hist { width: 100vw; height: 100dvh; border-radius: 0; padding: 14px 12px 10px; }
-  .hist-cabeza h2 { font-size: 24px; }
-  .hist-lienzo { min-height: 480px; }
-  .hist-lienzo { --fil-top: 372px; min-height: 560px; }
-  .hist-eventos { height: 148px; }
-  .hist-eje { top: 338px; }
-  .hist-detalle { left: 8px; right: 8px; width: auto; bottom: 8px; max-height: 55%; }
-  .hist-rango { display: none; }
-  .hist-ayuda-texto { position: fixed; top: 62px; left: 12px; right: 12px; width: auto; }
-  .hist-barra { flex-wrap: nowrap; align-items: flex-start; }
-  .hist-leyenda { flex: 1; min-width: 0; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 6px; }
-  .hist-leyenda button { flex: none; font-size: 12.5px; }
-  .hist-zoom { flex: none; }
-  .hist-barra .pill { flex: none; }
-}
-
-.hist-tarjeta {
-  position: absolute; z-index: 6; width: 290px; pointer-events: none; background: var(--papel2); border: 1px solid var(--raya); border-radius: 12px;
-  box-shadow: 0 12px 30px rgba(0,0,0,.14); padding: 10px 14px; font: 13px/1.45 var(--f-ui); color: var(--suave);
-}
-.hist-tarjeta b { color: var(--tinta); font-size: 15px; }
-.hist-tarjeta q { display: block; margin: 6px 0 2px; font: italic 16px/1.4 var(--f-texto); color: var(--tinta); quotes: "«" "»"; }
-.hist-tarjeta p { margin: 6px 0 0; color: var(--tinta); }
-.hist-tarjeta small { display: block; font-size: 11.5px; }
-.hd-frase { margin: 8px 0 4px; font: italic 22px/1.3 var(--f-texto); }
-.hd-autor { appearance: none; border: 0; background: none; padding: 0; font: inherit; color: var(--tinta); text-decoration: underline; cursor: pointer; }
-.hd-nota { font-size: 13px !important; color: var(--suave); border-left: 2px solid var(--raya); padding-left: 10px; }
 
 .cargando-mas { text-align: center; padding: 40px 0 60px; font: 14px var(--f-ui); color: var(--suave); }
 
@@ -447,3 +309,79 @@ button { font: inherit; color: inherit; }
 /* La pill de la linea del tiempo dentro de la entradilla */
 .abrir-historia.en-texto { font: inherit; font-size: .92em; color: var(--tinta); padding: 1px 13px 2px 9px; gap: 6px; vertical-align: baseline; position: relative; top: -1px; }
 .abrir-historia.en-texto svg { width: 16px; height: 16px; }
+
+/* ===== Cronologia: historia a la izquierda, filosofos a la derecha ===== */
+.vista { margin-left: auto; }
+.crono { padding-top: 18px; }
+.crono-barra { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0 0 18px; }
+.crono-desplegar { margin-left: auto; appearance: none; border: 0; background: none; font: 500 14px var(--f-ui); color: var(--suave); text-decoration: underline; cursor: pointer; }
+.crono-desplegar:hover { color: var(--tinta); }
+
+.crono-siglo { margin: 0 0 8px; }
+.crono-cabeza {
+  position: sticky; top: var(--alto-filtros, 170px); z-index: 6; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px;
+  padding: 12px 0 10px; background: color-mix(in srgb, var(--papel) 94%, transparent); backdrop-filter: blur(6px);
+  border-bottom: 2px solid var(--edad);
+}
+.crono-cabeza h3 { margin: 0; font: italic 700 22px/1.2 var(--f-texto); }
+.crono-etapas { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; font: 12.5px var(--f-ui); }
+.crono-etapas span { padding: 1px 9px; border-radius: 999px; background: color-mix(in srgb, var(--edad) 12%, var(--papel2)); color: color-mix(in srgb, var(--edad) 70%, var(--tinta)); }
+.crono-etapas .crono-edad { background: var(--edad); color: #fff; font-weight: 600; }
+.crono-cuenta { margin: 0; font: 12.5px var(--f-mono); color: var(--suave); }
+.crono-ver { margin-left: auto; appearance: none; cursor: pointer; border: 1.5px solid var(--raya); background: var(--papel2); border-radius: 999px; padding: 3px 14px; font: 500 13.5px var(--f-ui); color: var(--tinta); }
+.crono-ver:hover { border-color: var(--suave); }
+.crono-resumen { margin: 10px 0 0; font: 14px/1.5 var(--f-ui); color: var(--suave); }
+.crono-resumen > span { font: 500 11.5px var(--f-mono); text-transform: uppercase; letter-spacing: .05em; margin-right: 8px; }
+.crono-resumen b { font: 500 12px var(--f-mono); color: var(--tinta); }
+
+.crono-lista { position: relative; list-style: none; margin: 0; padding: 14px 0 22px; }
+.crono-lista::before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; margin-left: -1px; background: var(--raya); }
+.crono-fila { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 30px minmax(0, 1fr); align-items: start; padding: 5px 0; }
+.crono-punto { grid-column: 2; grid-row: 1; justify-self: center; margin-top: 7px; width: 11px; height: 11px; border-radius: 50%; background: var(--c, var(--suave)); box-shadow: 0 0 0 3px var(--papel); position: relative; z-index: 1; }
+.crono-anio { grid-row: 1; font: 12px/1.4 var(--f-mono); color: var(--suave); padding-top: 4px; }
+.crono-fila.izq .crono-anio { grid-column: 3; padding-left: 8px; }
+.crono-fila.izq > :last-child { grid-column: 1; grid-row: 1; text-align: right; padding-right: 8px; }
+.crono-fila.der .crono-anio { grid-column: 1; text-align: right; padding-right: 8px; }
+.crono-fila.der > :last-child { grid-column: 3; grid-row: 1; padding-left: 8px; }
+
+.crono-ev button, .crono-frase > button { appearance: none; border: 0; background: none; padding: 0; cursor: pointer; text-align: inherit; font: 15px/1.4 var(--f-ui); color: var(--tinta); }
+.crono-ev button:hover, .crono-frase > button:hover { text-decoration: underline; text-decoration-color: var(--c, var(--suave)); text-underline-offset: 3px; }
+.crono-fila.n1 .crono-ev button { font-weight: 700; }
+.crono-fila.n3 .crono-ev button { color: var(--suave); }
+.crono-ev p, .crono-frase p { margin: 4px 0 6px; font: 14px/1.5 var(--f-ui); color: var(--suave); }
+.crono-ev a, .crono-frase a { color: var(--tinta); }
+.crono-fila.periodo .crono-punto { width: 9px; height: 18px; border-radius: 3px; background: color-mix(in srgb, var(--suave) 45%, var(--papel)); margin-top: 3px; }
+.crono-fila.periodo .crono-ev button { font-style: italic; color: var(--suave); }
+.crono-fila.frase .crono-punto { background: var(--tinta); width: 9px; height: 9px; margin-top: 8px; }
+.crono-frase > button { font: italic 17px/1.35 var(--f-texto); }
+.crono-frase small { display: block; margin-top: 2px; font: 12.5px var(--f-ui); color: var(--suave); }
+.crono-autor { appearance: none; border: 0; background: none; padding: 0; font: inherit; color: var(--tinta); text-decoration: underline; cursor: pointer; }
+.crono-nota { color: var(--suave); font-style: italic; }
+
+.crono-fil { appearance: none; border: 0; background: none; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 12px; text-align: left; color: var(--tinta); width: 100%; }
+.crono-nombre { display: block; appearance: none; border: 0; background: none; padding: 0; cursor: pointer; text-align: left; color: var(--tinta); font: 700 16.5px/1.25 var(--f-texto); }
+.crono-fil small { display: block; font: 13.5px/1.4 var(--f-ui); color: var(--suave); margin-top: 2px; }
+.crono-fil:hover .crono-nombre { text-decoration: underline; text-underline-offset: 3px; }
+.crono-fila.der .crono-punto { margin-top: 18px; }
+.crono-fila.der .crono-anio { padding-top: 15px; }
+
+/* Solo filosofos: la columna de la historia se recoge */
+.crono.sin-historia .crono-fila { grid-template-columns: 120px 30px minmax(0, 1fr); }
+.crono.sin-historia .crono-lista::before { left: 135px; }
+
+@media (max-width: 700px) {
+  .crono-cabeza { gap: 4px 10px; }
+  .crono-cabeza h3 { font-size: 19px; }
+  .crono-ver { margin-left: 0; }
+  .crono-lista::before, .crono.sin-historia .crono-lista::before { left: 15px; }
+  .crono-fila, .crono.sin-historia .crono-fila { grid-template-columns: 30px minmax(0, 1fr); }
+  .crono-punto { grid-column: 1; }
+  .crono-fila .crono-anio, .crono-fila.izq .crono-anio, .crono-fila.der .crono-anio { grid-column: 2; grid-row: 1; text-align: left; padding: 0 0 0 6px; }
+  .crono-fila > :last-child, .crono-fila.izq > :last-child, .crono-fila.der > :last-child { grid-column: 2; grid-row: 2; text-align: left; padding: 0 0 0 6px; }
+  .crono-fila.izq > :last-child { border-left: 3px solid var(--c, var(--raya)); padding-left: 10px; margin-left: 6px; }
+  .crono-fila.der .crono-punto { margin-top: 7px; }
+  .crono-fila.der .crono-anio { padding-top: 4px; }
+  .crono-desplegar { margin-left: 0; }
+  .crono-barra .hist-leyenda { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; }
+  .crono-barra .hist-leyenda button { flex: none; font-size: 12.5px; }
+}

@@ -7,7 +7,7 @@ import Ficha from './Ficha';
 import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
 import Pie from '../comun/Pie';
 import Linea from './Linea';
-import Historia from './Historia';
+import Cronologia from './Cronologia';
 import Tarjeta from './Tarjeta';
 import type {Filosofo, Sexo} from './tipos';
 
@@ -59,8 +59,23 @@ export default function App() {
   // Con varios terminos: los que cumplen cualquiera (suma) o todos a la vez (va filtrando)
   const [modo, setModo] = useState<'alguno' | 'todos'>('alguno');
   const [famas, setFamas] = useState<Set<number>>(new Set());
-  const [historia, setHistoria] = useState(false);
-  const cerrarHistoria = useCallback(() => setHistoria(false), []);
+  // Dos vistas: tarjetas, o la cronologia con la historia a la izquierda
+  const [vista, setVista] = useState<'tarjetas' | 'cronologia'>(() => {
+    try {
+      return localStorage.getItem('filo-vista') === 'cronologia' ? 'cronologia' : 'tarjetas';
+    } catch {
+      return 'tarjetas';
+    }
+  });
+  const cambiarVista = useCallback((v: 'tarjetas' | 'cronologia') => {
+    setVista(v);
+    try {
+      localStorage.setItem('filo-vista', v);
+    } catch {
+      /* sin almacenamiento */
+    }
+  }, []);
+  const mainRef = useRef<HTMLElement>(null);
   const [sel, setSel] = useState<string | null>(() => (TODOS.some((f) => f.id === idDeHash()) ? idDeHash() : null));
 
   // La ficha abierta va en la direccion (#plato), asi se puede compartir y el boton atras la cierra
@@ -208,7 +223,14 @@ export default function App() {
           </h1>
           <p className="entradilla">
             2.600 años de ideas en{' '}
-            <button type="button" className="abrir-historia en-texto" onClick={() => setHistoria(true)}>
+            <button
+              type="button"
+              className="abrir-historia en-texto"
+              onClick={() => {
+                cambiarVista('cronologia');
+                requestAnimationFrame(() => mainRef.current?.scrollIntoView({behavior: 'smooth'}));
+              }}
+            >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
                 <circle cx="10.5" cy="10.5" r="6.5" />
                 <path d="M15.5 15.5 21 21M8 10.5h5M10.5 8v5" />
@@ -283,6 +305,14 @@ export default function App() {
                 </button>
               </div>
             )}
+            <div className="modo-busca vista" role="group" aria-label="Vista">
+              <button type="button" aria-pressed={vista === 'tarjetas'} onClick={() => cambiarVista('tarjetas')}>
+                Tarjetas
+              </button>
+              <button type="button" aria-pressed={vista === 'cronologia'} onClick={() => cambiarVista('cronologia')}>
+                Cronología
+              </button>
+            </div>
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
             </span>
@@ -305,9 +335,10 @@ export default function App() {
           </div>
         </div>
 
-        <main>
-          {grupos.length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
-          {pintados.map(({e, suyos, siglos}) => (
+        <main ref={mainRef}>
+          {vista === 'cronologia' && <Cronologia visibles={visibles} filtrando={Boolean(cats.size || q.trim() || sexo || famas.size || terminos.length)} era={era} abrir={abrir} />}
+          {vista === 'tarjetas' && grupos.length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
+          {vista === 'tarjetas' && pintados.map(({e, suyos, siglos}) => (
             <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
               <header className="edad-cabeza">
                 <h2 id={`edad-${e.id}`}>
@@ -335,7 +366,7 @@ export default function App() {
             </section>
           ))}
           <div ref={finRef} />
-          {limite < visibles.length && (
+          {vista === 'tarjetas' && limite < visibles.length && (
             <div ref={centinela} className="cargando-mas" aria-hidden="true">
               Cargando más filósofos…
             </div>
@@ -356,7 +387,6 @@ export default function App() {
         <Pie marca="Filosofía" fuente='"Philosopher", Georgia, serif' />
 
       </div>
-      {historia && <Historia todos={TODOS} cerrar={cerrarHistoria} abrir={abrir} />}
       {elegido && <Ficha f={elegido} todos={TODOS} abrir={abrir} cerrar={cerrar} />}
     </ProveedorGlosario>
   );
