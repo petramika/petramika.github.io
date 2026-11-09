@@ -56,6 +56,8 @@ export default function App() {
   }, []);
   const [sexo, setSexo] = useState<Sexo | null>(null);
   const [terminos, setTerminos] = useState<Termino[]>([]);
+  // Con varios terminos: los que cumplen cualquiera (suma) o todos a la vez (va filtrando)
+  const [modo, setModo] = useState<'alguno' | 'todos'>('alguno');
   const [famas, setFamas] = useState<Set<number>>(new Set());
   const [historia, setHistoria] = useState(false);
   const cerrarHistoria = useCallback(() => setHistoria(false), []);
@@ -113,8 +115,8 @@ export default function App() {
       return porTexto(t.texto);
     });
     if (consulta.length) sirve.push(porTexto(q));
-    return pasan.filter((f) => sirve.some((x) => x.has(f.id)));
-  }, [era, cats, q, sexo, famas, terminos]);
+    return pasan.filter((f) => (modo === 'todos' ? sirve.every((x) => x.has(f.id)) : sirve.some((x) => x.has(f.id))));
+  }, [era, cats, q, sexo, famas, terminos, modo]);
 
   // Un tema activa su pastilla de tema; lo demas se queda como termino de busqueda
   const anadirTermino = (s: {clave: string; texto: string; tipo: string}) => {
@@ -142,7 +144,7 @@ export default function App() {
   const TANDA = 60;
   const [limite, setLimite] = useState(TANDA);
   const centinela = useRef<HTMLDivElement>(null);
-  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas, terminos]);
+  useEffect(() => setLimite(TANDA), [era, cats, q, sexo, famas, terminos, modo]);
   useEffect(() => {
     const el = centinela.current;
     if (!el) return;
@@ -272,6 +274,16 @@ export default function App() {
           </div>
           <div className="filtros-fila">
             <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
+            {terminos.length + (q.trim() ? 1 : 0) >= 2 && (
+              <div className="modo-busca" role="group" aria-label="Cómo combinar los términos">
+                <button type="button" aria-pressed={modo === 'alguno'} onClick={() => setModo('alguno')} title="Salen los que cumplen cualquiera de los términos">
+                  Cualquiera
+                </button>
+                <button type="button" aria-pressed={modo === 'todos'} onClick={() => setModo('todos')} title="Solo los que cumplen todos los términos a la vez">
+                  Todos
+                </button>
+              </div>
+            )}
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
             </span>

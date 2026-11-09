@@ -421,3 +421,8 @@ button { font: inherit; color: inherit; }
 .saltos button:hover { border-color: var(--suave); transform: translateY(-1px); }
 .saltos button.oculto { opacity: 0; pointer-events: none; transform: translateY(6px); }
 .saltos svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Cualquiera / todos */
+.modo-busca { display: inline-flex; border: 1.5px solid var(--raya); border-radius: 999px; padding: 2px; background: var(--papel2); }
+.modo-busca button { appearance: none; border: 0; background: none; border-radius: 999px; padding: 4px 12px; font: 13.5px var(--f-ui); color: var(--suave); cursor: pointer; }
+.modo-busca button[aria-pressed="true"] { background: var(--tinta); color: var(--papel2); }

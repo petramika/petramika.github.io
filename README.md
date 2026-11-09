@@ -49,6 +49,10 @@ una nota (i) a un indicador, basta con su campo `note` en
    `node scripts/avatar.mjs "Nombre del proyecto" carpeta` y enlazarlo en su
    `<head>`: `<link rel="icon" type="image/svg+xml" href="/avatares/carpeta.svg">`.
    Son las iniciales (máximo dos) en un círculo de color, como los de Google.
+5. Cerrar la página con el pie común: `<Pie marca="Nombre" />` de `src/comun/Pie.tsx`.
+   Todas las webs llevan el mismo pie en blanco y negro (marca, ©, autora con
+   GitHub y carpeta al índice, «¿Dudas o ideas? Abre un ticket» y la fecha de
+   actualización). El resto del diseño de cada web es libre.
 
 ## ROTA — Una autopsia del silencio
 
