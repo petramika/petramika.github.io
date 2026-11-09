@@ -16,14 +16,18 @@
 "visitas": 47288
 },
 "abraham-ibn-daud": {
+"buscado": "Abraham ibn Daud",
 "idiomas": 31,
 "medido": "2026-11-09",
+"papers": 56,
 "sep": true,
 "visitas": 10754
 },
 "abraham-ibn-ezra": {
+"buscado": "Abraham ibn Ezra",
 "idiomas": 52,
 "medido": "2026-11-09",
+"papers": 466,
 "sep": true,
 "visitas": 34203
 },
@@ -44,14 +48,18 @@
 "visitas": 54309
 },
 "adam-ferguson": {
+"buscado": "Adam Ferguson",
 "idiomas": 46,
 "medido": "2026-11-09",
+"papers": 492,
 "sep": false,
 "visitas": 16042
 },
 "adam-of-wodeham": {
+"buscado": "Adam of Wodeham",
 "idiomas": 4,
 "medido": "2026-11-09",
+"papers": 27,
 "sep": true,
 "visitas": 748
 },
@@ -80,8 +88,10 @@
 "visitas": 565881
 },
 "aenesidemus": {
+"buscado": "Aenesidemus",
 "idiomas": 41,
 "medido": "2026-11-09",
+"papers": 111,
 "sep": false,
 "visitas": 10122
 },
@@ -94,8 +104,10 @@
 "visitas": 13380
 },
 "ailton-krenak": {
+"buscado": "Ailton Krenak",
 "idiomas": 10,
 "medido": "2026-11-09",
+"papers": 459,
 "sep": false,
 "visitas": 16258
 },
@@ -204,8 +216,10 @@
 "visitas": 9401
 },
 "alexander-of-aphrodisias": {
+"buscado": "Alexander of Aphrodisias",
 "idiomas": 42,
 "medido": "2026-11-09",
+"papers": 666,
 "sep": true,
 "visitas": 14433
 },
@@ -242,8 +256,10 @@
 "visitas": 6091
 },
 "alexius-meinong": {
+"buscado": "Alexius Meinong",
 "idiomas": 29,
 "medido": "2026-11-09",
+"papers": 199,
 "sep": true,
 "visitas": 17282
 },
@@ -272,8 +288,10 @@
 "visitas": 50662
 },
 "ali-shariati": {
+"buscado": "Ali Shariati",
 "idiomas": 53,
 "medido": "2026-11-09",
+"papers": 255,
 "sep": false,
 "visitas": 112745
 },
@@ -286,8 +304,10 @@
 "visitas": 4329
 },
 "alonzo-church": {
+"buscado": "Alonzo Church",
 "idiomas": 54,
 "medido": "2026-11-09",
+"papers": 464,
 "sep": true,
 "visitas": 77924
 },
@@ -300,8 +320,10 @@
 "visitas": 11929
 },
 "alvin-goldman": {
+"buscado": "Alvin Goldman",
 "idiomas": 16,
 "medido": "2026-11-09",
+"papers": 268,
 "sep": false,
 "visitas": 8841
 },
@@ -402,8 +424,10 @@
 "visitas": 28686
 },
 "anita-l-allen": {
+"buscado": "Anita L. Allen",
 "idiomas": 12,
 "medido": "2026-11-09",
+"papers": 27,
 "sep": false,
 "visitas": 3679
 },
@@ -416,8 +440,10 @@
 "visitas": 61619
 },
 "anna-maria-van-schurman": {
+"buscado": "Anna Maria van Schurman",
 "idiomas": 41,
 "medido": "2026-11-09",
+"papers": 168,
 "sep": false,
 "visitas": 13333
 },
@@ -454,14 +480,18 @@
 "visitas": 18548
 },
 "anthony-collins": {
+"buscado": "Anthony Collins",
 "idiomas": 22,
 "medido": "2026-11-09",
+"papers": 190,
 "sep": true,
 "visitas": 4265
 },
 "antiochus-of-ascalon": {
+"buscado": "Antiochus of Ascalon",
 "idiomas": 36,
 "medido": "2026-11-09",
+"papers": 57,
 "sep": true,
 "visitas": 11383
 },
@@ -474,8 +504,10 @@
 "visitas": 55987
 },
 "antoine-arnauld": {
+"buscado": "Antoine Arnauld",
 "idiomas": 37,
 "medido": "2026-11-09",
+"papers": 256,
 "sep": true,
 "visitas": 12376
 },
@@ -504,8 +536,10 @@
 "visitas": 54470
 },
 "antonio-rosmini": {
+"buscado": "Antonio Rosmini",
 "idiomas": 39,
 "medido": "2026-11-09",
+"papers": 345,
 "sep": true,
 "visitas": 11202
 },
@@ -518,8 +552,10 @@
 "visitas": 9067
 },
 "archytas": {
+"buscado": "Archytas",
 "idiomas": 62,
 "medido": "2026-11-09",
+"papers": 403,
 "sep": true,
 "visitas": 28205
 },
@@ -556,8 +592,10 @@
 "visitas": 23707
 },
 "arthur-prior": {
+"buscado": "Arthur Prior",
 "idiomas": 12,
 "medido": "2026-11-09",
+"papers": 177,
 "sep": true,
 "visitas": 6487
 },
@@ -618,8 +656,10 @@
 "visitas": 1492211
 },
 "augusto-salazar-bondy": {
+"buscado": "Augusto Salazar Bondy",
 "idiomas": 3,
 "medido": "2026-11-09",
+"papers": 96,
 "sep": false,
 "visitas": 7517
 },
@@ -744,14 +784,18 @@
 "visitas": 26733
 },
 "bernard-bolzano": {
+"buscado": "Bernard Bolzano",
 "idiomas": 61,
 "medido": "2026-11-09",
+"papers": 366,
 "sep": true,
 "visitas": 29836
 },
 "bernard-bosanquet": {
+"buscado": "Bernard Bosanquet",
 "idiomas": 22,
 "medido": "2026-11-09",
+"papers": 205,
 "sep": true,
 "visitas": 8796
 },
@@ -788,8 +832,10 @@
 "visitas": 50059
 },
 "bernardino-telesio": {
+"buscado": "Bernardino Telesio",
 "idiomas": 40,
 "medido": "2026-11-09",
+"papers": 74,
 "sep": true,
 "visitas": 5499
 },
@@ -850,8 +896,10 @@
 "visitas": 136113
 },
 "bruno-bauer": {
+"buscado": "Bruno Bauer",
 "idiomas": 53,
 "medido": "2026-11-09",
+"papers": 317,
 "sep": true,
 "visitas": 51598
 },
@@ -888,8 +936,10 @@
 "visitas": 323447
 },
 "carl-stumpf": {
+"buscado": "Carl Stumpf",
 "idiomas": 33,
 "medido": "2026-11-09",
+"papers": 275,
 "sep": true,
 "visitas": 9904
 },
@@ -942,14 +992,18 @@
 "visitas": 57601
 },
 "catharine-macaulay": {
+"buscado": "Catharine Macaulay",
 "idiomas": 21,
 "medido": "2026-11-09",
+"papers": 175,
 "sep": true,
 "visitas": 23139
 },
 "catharine-trotter-cockburn": {
+"buscado": "Catharine Trotter Cockburn",
 "idiomas": 20,
 "medido": "2026-11-09",
+"papers": 42,
 "sep": true,
 "visitas": 2951
 },
@@ -962,14 +1016,18 @@
 "visitas": 20674
 },
 "catherine-of-siena": {
+"buscado": "Catherine of Siena",
 "idiomas": 83,
 "medido": "2026-11-09",
+"papers": 570,
 "sep": false,
 "visitas": 471482
 },
 "celia-amoros": {
+"buscado": "Celia Amorós",
 "idiomas": 10,
 "medido": "2026-11-09",
+"papers": 110,
 "sep": false,
 "visitas": 6909
 },
@@ -998,8 +1056,10 @@
 "visitas": 40292
 },
 "charles-darwin": {
+"buscado": "Charles Darwin",
 "idiomas": 279,
 "medido": "2026-11-09",
+"papers": 10652,
 "sep": false,
 "visitas": 1438030
 },
@@ -1028,8 +1088,10 @@
 "visitas": 20388
 },
 "chauncey-wright": {
+"buscado": "Chauncey Wright",
 "idiomas": 10,
 "medido": "2026-11-09",
+"papers": 67,
 "sep": true,
 "visitas": 2046
 },
@@ -1042,8 +1104,10 @@
 "visitas": 53094
 },
 "cheng-yi": {
+"buscado": "Cheng Yi",
 "idiomas": 25,
 "medido": "2026-11-09",
+"papers": 450,
 "sep": false,
 "visitas": 5887
 },
@@ -1056,14 +1120,18 @@
 "visitas": 26207
 },
 "christian-von-ehrenfels": {
+"buscado": "Christian von Ehrenfels",
 "idiomas": 21,
 "medido": "2026-11-09",
+"papers": 74,
 "sep": true,
 "visitas": 8396
 },
 "christian-wolff": {
+"buscado": "Christian Wolff",
 "idiomas": 61,
 "medido": "2026-11-09",
+"papers": 932,
 "sep": true,
 "visitas": 57952
 },
@@ -1100,8 +1168,10 @@
 "visitas": 876991
 },
 "claude-adrien-helvetius": {
+"buscado": "Claude Adrien Helvétius",
 "idiomas": 77,
 "medido": "2026-11-09",
+"papers": 45,
 "sep": false,
 "visitas": 18711
 },
@@ -1122,8 +1192,10 @@
 "visitas": 20049
 },
 "clement-of-alexandria": {
+"buscado": "Clement of Alexandria",
 "idiomas": 76,
 "medido": "2026-11-09",
+"papers": 1171,
 "sep": false,
 "visitas": 128315
 },
@@ -1184,8 +1256,10 @@
 "visitas": 57125
 },
 "damaris-cudworth-masham": {
+"buscado": "Damaris Cudworth Masham",
 "idiomas": 19,
 "medido": "2026-11-09",
+"papers": 24,
 "sep": true,
 "visitas": 6881
 },
@@ -1206,8 +1280,10 @@
 "visitas": 237287
 },
 "davi-kopenawa-yanomami": {
+"buscado": "Davi Kopenawa Yanomami",
 "idiomas": 14,
 "medido": "2026-11-09",
+"papers": 16,
 "sep": false,
 "visitas": 8016
 },
@@ -1220,8 +1296,10 @@
 "visitas": 112245
 },
 "david-hartley": {
+"buscado": "David Hartley",
 "idiomas": 37,
 "medido": "2026-11-09",
+"papers": 174,
 "sep": true,
 "visitas": 8367
 },
@@ -1282,8 +1360,10 @@
 "visitas": 17991
 },
 "diodorus-cronus": {
+"buscado": "Diodorus Cronus",
 "idiomas": 25,
 "medido": "2026-11-09",
+"papers": 66,
 "sep": true,
 "visitas": 5876
 },
@@ -1528,8 +1608,10 @@
 "visitas": 507258
 },
 "ernest-sosa": {
+"buscado": "Ernest Sosa",
 "idiomas": 14,
 "medido": "2026-11-09",
+"papers": 346,
 "sep": false,
 "visitas": 7579
 },
@@ -1558,8 +1640,10 @@
 "visitas": 56902
 },
 "ernst-mach": {
+"buscado": "Ernst Mach",
 "idiomas": 92,
 "medido": "2026-11-09",
+"papers": 1155,
 "sep": true,
 "visitas": 83592
 },
@@ -1612,8 +1696,10 @@
 "visitas": 7368
 },
 "f-h-bradley": {
+"buscado": "F. H. Bradley",
 "idiomas": 36,
 "medido": "2026-11-09",
+"papers": 276,
 "sep": true,
 "visitas": 19296
 },
@@ -1626,14 +1712,18 @@
 "visitas": 43277
 },
 "fatema-mernissi": {
+"buscado": "Fatema Mernissi",
 "idiomas": 56,
 "medido": "2026-11-09",
+"papers": 62,
 "sep": false,
 "visitas": 23100
 },
 "felix-guattari": {
+"buscado": "Félix Guattari",
 "idiomas": 45,
 "medido": "2026-11-09",
+"papers": 4571,
 "sep": false,
 "visitas": 96610
 },
@@ -1654,8 +1744,10 @@
 "visitas": 156866
 },
 "frances-power-cobbe": {
+"buscado": "Frances Power Cobbe",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 129,
 "sep": false,
 "visitas": 7906
 },
@@ -1740,8 +1832,10 @@
 "visitas": 478151
 },
 "franz-brentano": {
+"buscado": "Franz Brentano",
 "idiomas": 50,
 "medido": "2026-11-09",
+"papers": 867,
 "sep": true,
 "visitas": 44302
 },
@@ -1770,8 +1864,10 @@
 "visitas": 88889
 },
 "friedrich-albert-lange": {
+"buscado": "Friedrich Albert Lange",
 "idiomas": 31,
 "medido": "2026-11-09",
+"papers": 65,
 "sep": true,
 "visitas": 6777
 },
@@ -1792,8 +1888,10 @@
 "visitas": 379240
 },
 "friedrich-heinrich-jacobi": {
+"buscado": "Friedrich Heinrich Jacobi",
 "idiomas": 44,
 "medido": "2026-11-09",
+"papers": 245,
 "sep": true,
 "visitas": 35991
 },
@@ -1806,14 +1904,18 @@
 "visitas": 2076403
 },
 "friedrich-schiller": {
+"buscado": "Friedrich Schiller",
 "idiomas": 183,
 "medido": "2026-11-09",
+"papers": 3012,
 "sep": true,
 "visitas": 194889
 },
 "friedrich-schlegel": {
+"buscado": "Friedrich Schlegel",
 "idiomas": 75,
 "medido": "2026-11-09",
+"papers": 1773,
 "sep": true,
 "visitas": 32419
 },
@@ -1858,14 +1960,18 @@
 "visitas": 43486
 },
 "gabrielle-suchon": {
+"buscado": "Gabrielle Suchon",
 "idiomas": 9,
 "medido": "2026-11-09",
+"papers": 49,
 "sep": false,
 "visitas": 2052
 },
 "galileo-galilei": {
+"buscado": "Galileo Galilei",
 "idiomas": 271,
 "medido": "2026-11-09",
+"papers": 2249,
 "sep": true,
 "visitas": 1337903
 },
@@ -1926,8 +2032,10 @@
 "visitas": 160730
 },
 "george-boole": {
+"buscado": "George Boole",
 "idiomas": 94,
 "medido": "2026-11-09",
+"papers": 468,
 "sep": true,
 "visitas": 165541
 },
@@ -1956,8 +2064,10 @@
 "visitas": 24082
 },
 "geraud-de-cordemoy": {
+"buscado": "Géraud de Cordemoy",
 "idiomas": 13,
 "medido": "2026-11-09",
+"papers": 20,
 "sep": true,
 "visitas": 1135
 },
@@ -2114,20 +2224,26 @@
 "visitas": 19978
 },
 "gregory-of-nyssa": {
+"buscado": "Gregory of Nyssa",
 "idiomas": 69,
 "medido": "2026-11-09",
+"papers": 1676,
 "sep": false,
 "visitas": 138078
 },
 "gregory-of-rimini": {
+"buscado": "Gregory of Rimini",
 "idiomas": 13,
 "medido": "2026-11-09",
+"papers": 97,
 "sep": true,
 "visitas": 5069
 },
 "gregory-palamas": {
+"buscado": "Gregory Palamas",
 "idiomas": 50,
 "medido": "2026-11-09",
+"papers": 444,
 "sep": false,
 "visitas": 61320
 },
@@ -2140,8 +2256,10 @@
 "visitas": 52750
 },
 "gustav-fechner": {
+"buscado": "Gustav Fechner",
 "idiomas": 63,
 "medido": "2026-11-09",
+"papers": 81,
 "sep": true,
 "visitas": 24752
 },
@@ -2226,8 +2344,10 @@
 "visitas": 33781
 },
 "hans-kelsen": {
+"buscado": "Hans Kelsen",
 "idiomas": 54,
 "medido": "2026-11-09",
+"papers": 2975,
 "sep": false,
 "visitas": 79553
 },
@@ -2240,14 +2360,18 @@
 "visitas": 25269
 },
 "hans-vaihinger": {
+"buscado": "Hans Vaihinger",
 "idiomas": 32,
 "medido": "2026-11-09",
+"papers": 174,
 "sep": true,
 "visitas": 9159
 },
 "harriet-martineau": {
+"buscado": "Harriet Martineau",
 "idiomas": 55,
 "medido": "2026-11-09",
+"papers": 810,
 "sep": false,
 "visitas": 712501
 },
@@ -2268,8 +2392,10 @@
 "visitas": 29122
 },
 "hartmut-rosa": {
+"buscado": "Hartmut Rosa",
 "idiomas": 17,
 "medido": "2026-11-09",
+"papers": 787,
 "sep": false,
 "visitas": 48394
 },
@@ -2282,8 +2408,10 @@
 "visitas": 9216
 },
 "heinrich-rickert": {
+"buscado": "Heinrich Rickert",
 "idiomas": 34,
 "medido": "2026-11-09",
+"papers": 294,
 "sep": true,
 "visitas": 9602
 },
@@ -2328,8 +2456,10 @@
 "visitas": 79416
 },
 "henri-poincare": {
+"buscado": "Henri Poincaré",
 "idiomas": 131,
 "medido": "2026-11-09",
+"papers": 2006,
 "sep": true,
 "visitas": 169274
 },
@@ -2342,14 +2472,18 @@
 "visitas": 759750
 },
 "henry-home-lord-kames": {
+"buscado": "Henry Home, Lord Kames",
 "idiomas": 21,
 "medido": "2026-11-09",
+"papers": 68,
 "sep": false,
 "visitas": 7935
 },
 "henry-more": {
+"buscado": "Henry More",
 "idiomas": 31,
 "medido": "2026-11-09",
+"papers": 516,
 "sep": true,
 "visitas": 12363
 },
@@ -2362,14 +2496,18 @@
 "visitas": 3734
 },
 "henry-of-ghent": {
+"buscado": "Henry of Ghent",
 "idiomas": 24,
 "medido": "2026-11-09",
+"papers": 352,
 "sep": true,
 "visitas": 5552
 },
 "henry-sidgwick": {
+"buscado": "Henry Sidgwick",
 "idiomas": 39,
 "medido": "2026-11-09",
+"papers": 456,
 "sep": true,
 "visitas": 24200
 },
@@ -2406,14 +2544,18 @@
 "visitas": 14836
 },
 "hermann-lotze": {
+"buscado": "Hermann Lotze",
 "idiomas": 42,
 "medido": "2026-11-09",
+"papers": 160,
 "sep": true,
 "visitas": 11247
 },
 "hermann-von-helmholtz": {
+"buscado": "Hermann von Helmholtz",
 "idiomas": 86,
 "medido": "2026-11-09",
+"papers": 984,
 "sep": true,
 "visitas": 81029
 },
@@ -2450,8 +2592,10 @@
 "visitas": 38285
 },
 "hugh-of-saint-victor": {
+"buscado": "Hugh of Saint Victor",
 "idiomas": 39,
 "medido": "2026-11-09",
+"papers": 156,
 "sep": false,
 "visitas": 17871
 },
@@ -2576,8 +2720,10 @@
 "visitas": 48504
 },
 "inca-garcilaso-de-la-vega": {
+"buscado": "Inca Garcilaso de la Vega",
 "idiomas": 52,
 "medido": "2026-11-09",
+"papers": 715,
 "sep": false,
 "visitas": 111579
 },
@@ -2606,8 +2752,10 @@
 "visitas": 27462
 },
 "isaac-newton": {
+"buscado": "Isaac Newton",
 "idiomas": 303,
 "medido": "2026-11-09",
+"papers": 5589,
 "sep": true,
 "visitas": 2793188
 },
@@ -2652,14 +2800,18 @@
 "visitas": 25526
 },
 "j-m-e-mctaggart": {
+"buscado": "J. M. E. McTaggart",
 "idiomas": 29,
 "medido": "2026-11-09",
+"papers": 41,
 "sep": true,
 "visitas": 20480
 },
 "jaakko-hintikka": {
+"buscado": "Jaakko Hintikka",
 "idiomas": 33,
 "medido": "2026-11-09",
+"papers": 389,
 "sep": false,
 "visitas": 11318
 },
@@ -2688,8 +2840,10 @@
 "visitas": 327702
 },
 "jacques-maritain": {
+"buscado": "Jacques Maritain",
 "idiomas": 51,
 "medido": "2026-11-09",
+"papers": 1686,
 "sep": true,
 "visitas": 70387
 },
@@ -2718,14 +2872,18 @@
 "visitas": 20598
 },
 "jakob-bohme": {
+"buscado": "Jakob Böhme",
 "idiomas": 59,
 "medido": "2026-11-09",
+"papers": 183,
 "sep": false,
 "visitas": 92575
 },
 "james-ward": {
+"buscado": "James Ward",
 "idiomas": 9,
 "medido": "2026-11-09",
+"papers": 205,
 "sep": true,
 "visitas": 4051
 },
@@ -2746,8 +2904,10 @@
 "visitas": 13614
 },
 "javier-muguerza": {
+"buscado": "Javier Muguerza",
 "idiomas": 3,
 "medido": "2026-11-09",
+"papers": 98,
 "sep": false,
 "visitas": 3011
 },
@@ -2768,8 +2928,10 @@
 "visitas": 294670
 },
 "jean-bodin": {
+"buscado": "Jean Bodin",
 "idiomas": 61,
 "medido": "2026-11-09",
+"papers": 1045,
 "sep": true,
 "visitas": 46494
 },
@@ -2798,14 +2960,18 @@
 "visitas": 798573
 },
 "jean-le-rond-d-alembert": {
+"buscado": "Jean Le Rond d'Alembert",
 "idiomas": 115,
 "medido": "2026-11-09",
+"papers": 187,
 "sep": false,
 "visitas": 31229
 },
 "jean-luc-marion": {
+"buscado": "Jean-Luc Marion",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 1405,
 "sep": false,
 "visitas": 30094
 },
@@ -2866,20 +3032,26 @@
 "visitas": 4626
 },
 "joaquin-xirau-palau": {
+"buscado": "Joaquín Xirau Palau",
 "idiomas": 6,
 "medido": "2026-11-09",
+"papers": 0,
 "sep": false,
 "visitas": 1716
 },
 "johann-friedrich-herbart": {
+"buscado": "Johann Friedrich Herbart",
 "idiomas": 57,
 "medido": "2026-11-09",
+"papers": 270,
 "sep": true,
 "visitas": 20050
 },
 "johann-georg-hamann": {
+"buscado": "Johann Georg Hamann",
 "idiomas": 45,
 "medido": "2026-11-09",
+"papers": 385,
 "sep": true,
 "visitas": 26889
 },
@@ -2916,8 +3088,10 @@
 "visitas": 880728
 },
 "john-mbiti": {
+"buscado": "John Mbiti",
 "idiomas": 12,
 "medido": "2026-11-09",
+"papers": 118,
 "sep": false,
 "visitas": 13441
 },
@@ -2930,14 +3104,18 @@
 "visitas": 22992
 },
 "john-norris": {
+"buscado": "John Norris",
 "idiomas": 9,
 "medido": "2026-11-09",
+"papers": 225,
 "sep": true,
 "visitas": 2004
 },
 "john-of-damascus": {
+"buscado": "John of Damascus",
 "idiomas": 80,
 "medido": "2026-11-09",
+"papers": 466,
 "sep": false,
 "visitas": 144466
 },
@@ -2982,14 +3160,18 @@
 "visitas": 423884
 },
 "john-wycliffe": {
+"buscado": "John Wycliffe",
 "idiomas": 85,
 "medido": "2026-11-09",
+"papers": 97,
 "sep": true,
 "visitas": 267377
 },
 "jonathan-edwards": {
+"buscado": "Jonathan Edwards",
 "idiomas": 43,
 "medido": "2026-11-09",
+"papers": 2363,
 "sep": true,
 "visitas": 166763
 },
@@ -3058,8 +3240,10 @@
 "visitas": 93629
 },
 "joseph-albo": {
+"buscado": "Joseph Albo",
 "idiomas": 24,
 "medido": "2026-11-09",
+"papers": 40,
 "sep": true,
 "visitas": 5205
 },
@@ -3072,26 +3256,34 @@
 "visitas": 32817
 },
 "joseph-butler": {
+"buscado": "Joseph Butler",
 "idiomas": 34,
 "medido": "2026-11-09",
+"papers": 217,
 "sep": false,
 "visitas": 13286
 },
 "joseph-priestley": {
+"buscado": "Joseph Priestley",
 "idiomas": 93,
 "medido": "2026-11-09",
+"papers": 896,
 "sep": false,
 "visitas": 115855
 },
 "joseph-raz": {
+"buscado": "Joseph Raz",
 "idiomas": 23,
 "medido": "2026-11-09",
+"papers": 910,
 "sep": false,
 "visitas": 22985
 },
 "josiah-royce": {
+"buscado": "Josiah Royce",
 "idiomas": 30,
 "medido": "2026-11-09",
+"papers": 730,
 "sep": true,
 "visitas": 64966
 },
@@ -3168,20 +3360,26 @@
 "visitas": 40770
 },
 "julian-of-norwich": {
+"buscado": "Julian of Norwich",
 "idiomas": 45,
 "medido": "2026-11-09",
+"papers": 914,
 "sep": false,
 "visitas": 258830
 },
 "julian-sanz-del-rio": {
+"buscado": "Julián Sanz del Río",
 "idiomas": 8,
 "medido": "2026-11-09",
+"papers": 44,
 "sep": false,
 "visitas": 5744
 },
 "julien-offray-de-la-mettrie": {
+"buscado": "Julien Offray de La Mettrie",
 "idiomas": 62,
 "medido": "2026-11-09",
+"papers": 88,
 "sep": false,
 "visitas": 22916
 },
@@ -3202,8 +3400,10 @@
 "visitas": 557950
 },
 "justus-lipsius": {
+"buscado": "Justus Lipsius",
 "idiomas": 33,
 "medido": "2026-11-09",
+"papers": 477,
 "sep": true,
 "visitas": 24292
 },
@@ -3256,8 +3456,10 @@
 "visitas": 22990
 },
 "kazimierz-twardowski": {
+"buscado": "Kazimierz Twardowski",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 277,
 "sep": true,
 "visitas": 5900
 },
@@ -3270,8 +3472,10 @@
 "visitas": 23473
 },
 "kendall-walton": {
+"buscado": "Kendall Walton",
 "idiomas": 4,
 "medido": "2026-11-09",
+"papers": 241,
 "sep": false,
 "visitas": 5814
 },
@@ -3300,8 +3504,10 @@
 "visitas": 27569
 },
 "krishna-chandra-bhattacharya": {
+"buscado": "Krishna Chandra Bhattacharya",
 "idiomas": 8,
 "medido": "2026-11-09",
+"papers": 1,
 "sep": false,
 "visitas": 4433
 },
@@ -3354,8 +3560,10 @@
 "visitas": 23008
 },
 "lady-mary-shepherd": {
+"buscado": "Lady Mary Shepherd",
 "idiomas": 5,
 "medido": "2026-11-09",
+"papers": 22,
 "sep": true,
 "visitas": 2743
 },
@@ -3432,8 +3640,10 @@
 "visitas": 9928
 },
 "linda-tuhiwai-smith": {
+"buscado": "Linda Tuhiwai Smith",
 "idiomas": 10,
 "medido": "2026-11-09",
+"papers": 188,
 "sep": false,
 "visitas": 15219
 },
@@ -3446,8 +3656,10 @@
 "visitas": 7138
 },
 "lorenzo-valla": {
+"buscado": "Lorenzo Valla",
 "idiomas": 60,
 "medido": "2026-11-09",
+"papers": 621,
 "sep": true,
 "visitas": 27571
 },
@@ -3564,14 +3776,18 @@
 "visitas": 425344
 },
 "maine-de-biran": {
+"buscado": "Maine de Biran",
 "idiomas": 30,
 "medido": "2026-11-09",
+"papers": 567,
 "sep": false,
 "visitas": 7934
 },
 "manuel-garcia-morente": {
+"buscado": "Manuel García Morente",
 "idiomas": 8,
 "medido": "2026-11-09",
+"papers": 84,
 "sep": false,
 "visitas": 9869
 },
@@ -3608,8 +3824,10 @@
 "visitas": 53431
 },
 "marguerite-porete": {
+"buscado": "Marguerite Porete",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 343,
 "sep": false,
 "visitas": 77659
 },
@@ -3630,14 +3848,18 @@
 "visitas": 118531
 },
 "marie-de-gournay": {
+"buscado": "Marie de Gournay",
 "idiomas": 31,
 "medido": "2026-11-09",
+"papers": 213,
 "sep": false,
 "visitas": 8509
 },
 "marin-mersenne": {
+"buscado": "Marin Mersenne",
 "idiomas": 59,
 "medido": "2026-11-09",
+"papers": 315,
 "sep": true,
 "visitas": 33289
 },
@@ -3682,8 +3904,10 @@
 "visitas": 70072
 },
 "marsilius-of-inghen": {
+"buscado": "Marsilius of Inghen",
 "idiomas": 16,
 "medido": "2026-11-09",
+"papers": 98,
 "sep": true,
 "visitas": 1661
 },
@@ -3720,8 +3944,10 @@
 "visitas": 609115
 },
 "martin-luther": {
+"buscado": "Martin Luther",
 "idiomas": 260,
 "medido": "2026-11-09",
+"papers": 15238,
 "sep": true,
 "visitas": 1740182
 },
@@ -3758,8 +3984,10 @@
 "visitas": 613738
 },
 "maurice-blanchot": {
+"buscado": "Maurice Blanchot",
 "idiomas": 46,
 "medido": "2026-11-09",
+"papers": 2167,
 "sep": false,
 "visitas": 41202
 },
@@ -3772,8 +4000,10 @@
 "visitas": 120585
 },
 "mauricio-beuchot": {
+"buscado": "Mauricio Beuchot",
 "idiomas": 3,
 "medido": "2026-11-09",
+"papers": 289,
 "sep": false,
 "visitas": 5942
 },
@@ -3794,8 +4024,10 @@
 "visitas": 52539
 },
 "max-stirner": {
+"buscado": "Max Stirner",
 "idiomas": 91,
 "medido": "2026-11-09",
+"papers": 438,
 "sep": true,
 "visitas": 254976
 },
@@ -3808,14 +4040,18 @@
 "visitas": 480124
 },
 "maximus-the-confessor": {
+"buscado": "Maximus the Confessor",
 "idiomas": 58,
 "medido": "2026-11-09",
+"papers": 835,
 "sep": false,
 "visitas": 91146
 },
 "mechthild-of-magdeburg": {
+"buscado": "Mechthild of Magdeburg",
 "idiomas": 30,
 "medido": "2026-11-09",
+"papers": 282,
 "sep": false,
 "visitas": 24951
 },
@@ -3852,8 +4088,10 @@
 "visitas": 53896
 },
 "michael-psellos": {
+"buscado": "Michael Psellos",
 "idiomas": 50,
 "medido": "2026-11-09",
+"papers": 322,
 "sep": false,
 "visitas": 26052
 },
@@ -3890,14 +4128,18 @@
 "visitas": 909275
 },
 "michel-henry": {
+"buscado": "Michel Henry",
 "idiomas": 19,
 "medido": "2026-11-09",
+"papers": 1487,
 "sep": true,
 "visitas": 13193
 },
 "michel-serres": {
+"buscado": "Michel Serres",
 "idiomas": 38,
 "medido": "2026-11-09",
+"papers": 1368,
 "sep": false,
 "visitas": 25187
 },
@@ -3918,8 +4160,10 @@
 "visitas": 462688
 },
 "miguel-leon-portilla": {
+"buscado": "Miguel León-Portilla",
 "idiomas": 17,
 "medido": "2026-11-09",
+"papers": 416,
 "sep": false,
 "visitas": 22373
 },
@@ -3948,8 +4192,10 @@
 "visitas": 7476
 },
 "mohammed-abed-al-jabri": {
+"buscado": "Mohammed Abed al-Jabri",
 "idiomas": 16,
 "medido": "2026-11-09",
+"papers": 40,
 "sep": false,
 "visitas": 7533
 },
@@ -4002,8 +4248,10 @@
 "visitas": 82935
 },
 "muhammad-iqbal": {
+"buscado": "Muhammad Iqbal",
 "idiomas": 110,
 "medido": "2026-11-09",
+"papers": 1105,
 "sep": false,
 "visitas": 321429
 },
@@ -4096,8 +4344,10 @@
 "visitas": 21258
 },
 "nezahualcoyotl": {
+"buscado": "Nezahualcóyotl",
 "idiomas": 38,
 "medido": "2026-11-09",
+"papers": 984,
 "sep": false,
 "visitas": 91488
 },
@@ -4110,8 +4360,10 @@
 "visitas": 1405421
 },
 "nicholas-of-autrecourt": {
+"buscado": "Nicholas of Autrecourt",
 "idiomas": 13,
 "medido": "2026-11-09",
+"papers": 70,
 "sep": true,
 "visitas": 3322
 },
@@ -4140,8 +4392,10 @@
 "visitas": 31481
 },
 "nicole-oresme": {
+"buscado": "Nicole Oresme",
 "idiomas": 49,
 "medido": "2026-11-09",
+"papers": 389,
 "sep": true,
 "visitas": 28213
 },
@@ -4194,8 +4448,10 @@
 "visitas": 13147
 },
 "origen": {
+"buscado": "Origen",
 "idiomas": 83,
 "medido": "2026-11-09",
+"papers": 135969,
 "sep": true,
 "visitas": 330288
 },
@@ -4288,8 +4544,10 @@
 "visitas": 33428
 },
 "paul-natorp": {
+"buscado": "Paul Natorp",
 "idiomas": 32,
 "medido": "2026-11-09",
+"papers": 287,
 "sep": true,
 "visitas": 7436
 },
@@ -4302,8 +4560,10 @@
 "visitas": 76574
 },
 "paul-tillich": {
+"buscado": "Paul Tillich",
 "idiomas": 53,
 "medido": "2026-11-09",
+"papers": 3007,
 "sep": false,
 "visitas": 102361
 },
@@ -4332,14 +4592,18 @@
 "visitas": 148260
 },
 "peter-john-olivi": {
+"buscado": "Peter John Olivi",
 "idiomas": 16,
 "medido": "2026-11-09",
+"papers": 77,
 "sep": true,
 "visitas": 5556
 },
 "peter-lombard": {
+"buscado": "Peter Lombard",
 "idiomas": 47,
 "medido": "2026-11-09",
+"papers": 466,
 "sep": false,
 "visitas": 27770
 },
@@ -4368,8 +4632,10 @@
 "visitas": 22555
 },
 "petrus-ramus": {
+"buscado": "Petrus Ramus",
 "idiomas": 35,
 "medido": "2026-11-09",
+"papers": 141,
 "sep": true,
 "visitas": 15365
 },
@@ -4390,8 +4656,10 @@
 "visitas": 17612
 },
 "philipp-melanchthon": {
+"buscado": "Philipp Melanchthon",
 "idiomas": 80,
 "medido": "2026-11-09",
+"papers": 415,
 "sep": false,
 "visitas": 34111
 },
@@ -4412,20 +4680,26 @@
 "visitas": 158660
 },
 "philo-of-larissa": {
+"buscado": "Philo of Larissa",
 "idiomas": 33,
 "medido": "2026-11-09",
+"papers": 41,
 "sep": true,
 "visitas": 6284
 },
 "philodemus": {
+"buscado": "Philodemus",
 "idiomas": 36,
 "medido": "2026-11-09",
+"papers": 546,
 "sep": true,
 "visitas": 23677
 },
 "philolaus": {
+"buscado": "Philolaus",
 "idiomas": 55,
 "medido": "2026-11-09",
+"papers": 173,
 "sep": true,
 "visitas": 26759
 },
@@ -4446,8 +4720,10 @@
 "visitas": 296033
 },
 "pierre-duhem": {
+"buscado": "Pierre Duhem",
 "idiomas": 41,
 "medido": "2026-11-09",
+"papers": 446,
 "sep": true,
 "visitas": 14321
 },
@@ -4468,14 +4744,18 @@
 "visitas": 24869
 },
 "pierre-joseph-proudhon": {
+"buscado": "Pierre-Joseph Proudhon",
 "idiomas": 108,
 "medido": "2026-11-09",
+"papers": 353,
 "sep": false,
 "visitas": 184731
 },
 "pietro-pomponazzi": {
+"buscado": "Pietro Pomponazzi",
 "idiomas": 40,
 "medido": "2026-11-09",
+"papers": 163,
 "sep": true,
 "visitas": 7114
 },
@@ -4520,8 +4800,10 @@
 "visitas": 54083
 },
 "posidonius": {
+"buscado": "Posidonius",
 "idiomas": 59,
 "medido": "2026-11-09",
+"papers": 473,
 "sep": false,
 "visitas": 34882
 },
@@ -4574,8 +4856,10 @@
 "visitas": 25915
 },
 "quentin-skinner": {
+"buscado": "Quentin Skinner",
 "idiomas": 26,
 "medido": "2026-11-09",
+"papers": 1218,
 "sep": false,
 "visitas": 35850
 },
@@ -4588,8 +4872,10 @@
 "visitas": 16722
 },
 "rabia-basri": {
+"buscado": "Rabia Basri",
 "idiomas": 66,
 "medido": "2026-11-09",
+"papers": 4,
 "sep": false,
 "visitas": 95171
 },
@@ -4602,8 +4888,10 @@
 "visitas": 966281
 },
 "rahel-jaeggi": {
+"buscado": "Rahel Jaeggi",
 "idiomas": 8,
 "medido": "2026-11-09",
+"papers": 196,
 "sep": false,
 "visitas": 12526
 },
@@ -4616,8 +4904,10 @@
 "visitas": 11544
 },
 "ralph-cudworth": {
+"buscado": "Ralph Cudworth",
 "idiomas": 24,
 "medido": "2026-11-09",
+"papers": 225,
 "sep": true,
 "visitas": 8393
 },
@@ -4646,8 +4936,10 @@
 "visitas": 130349
 },
 "raymond-aron": {
+"buscado": "Raymond Aron",
 "idiomas": 65,
 "medido": "2026-11-09",
+"papers": 1363,
 "sep": false,
 "visitas": 49053
 },
@@ -4660,8 +4952,10 @@
 "visitas": 952926
 },
 "richard-price": {
+"buscado": "Richard Price",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 671,
 "sep": true,
 "visitas": 23627
 },
@@ -4674,8 +4968,10 @@
 "visitas": 96379
 },
 "robert-boyle": {
+"buscado": "Robert Boyle",
 "idiomas": 116,
 "medido": "2026-11-09",
+"papers": 1631,
 "sep": true,
 "visitas": 156348
 },
@@ -4712,14 +5008,18 @@
 "visitas": 11771
 },
 "roderick-chisholm": {
+"buscado": "Roderick Chisholm",
 "idiomas": 18,
 "medido": "2026-11-09",
+"papers": 151,
 "sep": true,
 "visitas": 10211
 },
 "rodolfo-kusch": {
+"buscado": "Rodolfo Kusch",
 "idiomas": 2,
 "medido": "2026-11-09",
+"papers": 225,
 "sep": false,
 "visitas": 13631
 },
@@ -4828,8 +5128,10 @@
 "visitas": 11970
 },
 "samuel-clarke": {
+"buscado": "Samuel Clarke",
 "idiomas": 28,
 "medido": "2026-11-09",
+"papers": 277,
 "sep": true,
 "visitas": 10248
 },
@@ -4842,8 +5144,10 @@
 "visitas": 8052
 },
 "samuel-taylor-coleridge": {
+"buscado": "Samuel Taylor Coleridge",
 "idiomas": 123,
 "medido": "2026-11-09",
+"papers": 1777,
 "sep": false,
 "visitas": 279234
 },
@@ -4904,8 +5208,10 @@
 "visitas": 751164
 },
 "sengzhao": {
+"buscado": "Sengzhao",
 "idiomas": 17,
 "medido": "2026-11-09",
+"papers": 55,
 "sep": false,
 "visitas": 3282
 },
@@ -4942,8 +5248,10 @@
 "visitas": 112248
 },
 "siger-of-brabant": {
+"buscado": "Siger of Brabant",
 "idiomas": 29,
 "medido": "2026-11-09",
+"papers": 216,
 "sep": false,
 "visitas": 9423
 },
@@ -5020,14 +5328,18 @@
 "visitas": 41035
 },
 "sophia-of-hanover": {
+"buscado": "Sophia of Hanover",
 "idiomas": 46,
 "medido": "2026-11-09",
+"papers": 7,
 "sep": false,
 "visitas": 212859
 },
 "sophie-de-condorcet": {
+"buscado": "Sophie de Condorcet",
 "idiomas": 24,
 "medido": "2026-11-09",
+"papers": 10,
 "sep": true,
 "visitas": 9507
 },
@@ -5048,8 +5360,10 @@
 "visitas": 6632
 },
 "speusippus": {
+"buscado": "Speusippus",
 "idiomas": 37,
 "medido": "2026-11-09",
+"papers": 109,
 "sep": true,
 "visitas": 14227
 },
@@ -5142,14 +5456,18 @@
 "visitas": 38761
 },
 "syrianus": {
+"buscado": "Syrianus",
 "idiomas": 26,
 "medido": "2026-11-09",
+"papers": 169,
 "sep": true,
 "visitas": 4573
 },
 "t-h-green": {
+"buscado": "T. H. Green",
 "idiomas": 39,
 "medido": "2026-11-09",
+"papers": 316,
 "sep": true,
 "visitas": 15980
 },
@@ -5162,8 +5480,10 @@
 "visitas": 26101
 },
 "taha-abdurrahman": {
+"buscado": "Taha Abdurrahman",
 "idiomas": 11,
 "medido": "2026-11-09",
+"papers": 62,
 "sep": false,
 "visitas": 8008
 },
@@ -5232,8 +5552,10 @@
 "visitas": 1189526
 },
 "thomas-bradwardine": {
+"buscado": "Thomas Bradwardine",
 "idiomas": 31,
 "medido": "2026-11-09",
+"papers": 177,
 "sep": false,
 "visitas": 8902
 },
@@ -5270,8 +5592,10 @@
 "visitas": 109266
 },
 "thomas-of-erfurt": {
+"buscado": "Thomas of Erfurt",
 "idiomas": 9,
 "medido": "2026-11-09",
+"papers": 44,
 "sep": true,
 "visitas": 1492
 },
@@ -5284,8 +5608,10 @@
 "visitas": 26281
 },
 "timon-of-phlius": {
+"buscado": "Timon of Phlius",
 "idiomas": 35,
 "medido": "2026-11-09",
+"papers": 24,
 "sep": true,
 "visitas": 8611
 },
@@ -5362,8 +5688,10 @@
 "visitas": 27601
 },
 "victor-cousin": {
+"buscado": "Victor Cousin",
 "idiomas": 40,
 "medido": "2026-11-09",
+"papers": 371,
 "sep": false,
 "visitas": 11368
 },
@@ -5376,8 +5704,10 @@
 "visitas": 18234
 },
 "victoria-lady-welby": {
+"buscado": "Victoria, Lady Welby",
 "idiomas": 13,
 "medido": "2026-11-09",
+"papers": 48,
 "sep": false,
 "visitas": 4743
 },
@@ -5390,8 +5720,10 @@
 "visitas": 10993
 },
 "vine-deloria-jr": {
+"buscado": "Vine Deloria Jr.",
 "idiomas": 13,
 "medido": "2026-11-09",
+"papers": 233,
 "sep": false,
 "visitas": 26810
 },
@@ -5420,8 +5752,10 @@
 "visitas": 333447
 },
 "walter-burley": {
+"buscado": "Walter Burley",
 "idiomas": 16,
 "medido": "2026-11-09",
+"papers": 335,
 "sep": true,
 "visitas": 3055
 },
@@ -5474,20 +5808,26 @@
 "visitas": 43843
 },
 "wilhelm-von-humboldt": {
+"buscado": "Wilhelm von Humboldt",
 "idiomas": 98,
 "medido": "2026-11-09",
+"papers": 1671,
 "sep": true,
 "visitas": 66411
 },
 "wilhelm-windelband": {
+"buscado": "Wilhelm Windelband",
 "idiomas": 41,
 "medido": "2026-11-09",
+"papers": 156,
 "sep": true,
 "visitas": 7080
 },
 "wilhelm-wundt": {
+"buscado": "Wilhelm Wundt",
 "idiomas": 92,
 "medido": "2026-11-09",
+"papers": 854,
 "sep": true,
 "visitas": 140185
 },
@@ -5508,8 +5848,10 @@
 "visitas": 96259
 },
 "william-godwin": {
+"buscado": "William Godwin",
 "idiomas": 73,
 "medido": "2026-11-09",
+"papers": 1114,
 "sep": true,
 "visitas": 178617
 },
@@ -5530,20 +5872,26 @@
 "visitas": 112699
 },
 "william-of-auvergne": {
+"buscado": "William of Auvergne",
 "idiomas": 14,
 "medido": "2026-11-09",
+"papers": 133,
 "sep": true,
 "visitas": 4373
 },
 "william-of-champeaux": {
+"buscado": "William of Champeaux",
 "idiomas": 24,
 "medido": "2026-11-09",
+"papers": 39,
 "sep": true,
 "visitas": 3776
 },
 "william-of-heytesbury": {
+"buscado": "William of Heytesbury",
 "idiomas": 10,
 "medido": "2026-11-09",
+"papers": 3,
 "sep": true,
 "visitas": 904
 },
@@ -5556,14 +5904,18 @@
 "visitas": 194376
 },
 "william-stanley-jevons": {
+"buscado": "William Stanley Jevons",
 "idiomas": 50,
 "medido": "2026-11-09",
+"papers": 280,
 "sep": true,
 "visitas": 44602
 },
 "william-whewell": {
+"buscado": "William Whewell",
 "idiomas": 46,
 "medido": "2026-11-09",
+"papers": 456,
 "sep": true,
 "visitas": 26174
 },
@@ -5584,8 +5936,10 @@
 "visitas": 20083
 },
 "xenocrates": {
+"buscado": "Xenocrates",
 "idiomas": 53,
 "medido": "2026-11-09",
+"papers": 141,
 "sep": true,
 "visitas": 18511
 },
