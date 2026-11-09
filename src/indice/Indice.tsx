@@ -16,7 +16,6 @@ export default function Indice() {
       <Manchas />
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-16 pt-14 sm:px-8 sm:pt-24">
         <header>
-        <p className="font-mono text-xs tracking-wide text-suave">petramika.github.io</p>
         <h1 className="mt-2 font-display text-5xl font-black tracking-tight sm:text-7xl">
           Index of <span className="text-suave">/</span>
         </h1>

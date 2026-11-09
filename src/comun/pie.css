@@ -6,3 +6,6 @@
 .pie-linea.tenue { color: color-mix(in srgb, currentColor 42%, transparent); }
 .pie-carpeta { display: inline-flex; color: inherit; opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .pie-carpeta:hover, .pie-carpeta:focus-visible { opacity: 1; transform: translateY(-2px); }
+.pie-ticket { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 4px; transition: text-decoration-color .15s; }
+.pie-ticket:hover, .pie-ticket:focus-visible { text-decoration-color: currentColor; }
+.pie-iconos { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
