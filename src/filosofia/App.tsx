@@ -62,9 +62,9 @@ export default function App() {
   // Dos vistas: tarjetas, o la cronologia con la historia a la izquierda
   const [vista, setVista] = useState<'tarjetas' | 'cronologia'>(() => {
     try {
-      return localStorage.getItem('filo-vista') === 'cronologia' ? 'cronologia' : 'tarjetas';
+      return localStorage.getItem('filo-vista') === 'tarjetas' ? 'tarjetas' : 'cronologia';
     } catch {
-      return 'tarjetas';
+      return 'cronologia';
     }
   });
   const cambiarVista = useCallback((v: 'tarjetas' | 'cronologia') => {
