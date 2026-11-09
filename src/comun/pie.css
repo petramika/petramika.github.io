@@ -6,6 +6,6 @@
 .pie-linea.tenue { color: color-mix(in srgb, currentColor 42%, transparent); }
 .pie-carpeta { display: inline-flex; color: inherit; opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .pie-carpeta:hover, .pie-carpeta:focus-visible { opacity: 1; transform: translateY(-2px); }
-.pie-ticket { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 4px; transition: text-decoration-color .15s; }
-.pie-ticket:hover, .pie-ticket:focus-visible { text-decoration-color: currentColor; }
-.pie-iconos { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
+.pie-ticket { display: inline-flex; align-items: center; gap: 2px; color: inherit; text-decoration: none; padding-bottom: 2px; border-bottom: 1px solid color-mix(in srgb, currentColor 35%, transparent); transition: border-color .15s; }
+.pie-ticket:hover, .pie-ticket:focus-visible { border-bottom-color: currentColor; }
+.pie-github { display: inline-block; margin: 0 2px 0 6px; }
