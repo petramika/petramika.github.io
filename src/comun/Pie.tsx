@@ -18,7 +18,7 @@ export function Carpeta({className}: {className?: string}) {
 
 const REPO = 'https://github.com/petramika/petramika.github.io';
 
-/** El gato de GitHub, junto a «Abre un ticket» (los tickets estan alli) */
+/** El gato de GitHub en «¿Dudas o ideas?»: lleva a abrir un ticket alli */
 function IconoGithub() {
   return (
     <svg className="pie-github" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
@@ -41,8 +41,8 @@ export default function Pie({marca, fuente, indice}: {marca?: string; fuente?: s
         {!indice && <Carpeta className="pie-carpeta" />}
       </p>
       <p className="pie-linea">
-        <a className="pie-ticket" href={`${REPO}/issues/new`} target="_blank" rel="noopener">
-          ¿Dudas o ideas? Abre un ticket <IconoGithub /> ↗
+        <a className="pie-ticket" href={`${REPO}/issues/new`} target="_blank" rel="noopener" title="Abre un ticket en GitHub" aria-label="¿Dudas o ideas? Abre un ticket en GitHub">
+          ¿Dudas o ideas? <IconoGithub /> ↗
         </a>
       </p>
       <p className="pie-linea tenue">Actualizado · {actualizado}</p>
