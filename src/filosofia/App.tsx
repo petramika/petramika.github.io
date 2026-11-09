@@ -7,7 +7,7 @@ import Ficha from './Ficha';
 import {plano, ProveedorGlosario, Texto, type Diccionario} from '../comun/Glosario';
 import Pie from '../comun/Pie';
 import Linea from './Linea';
-import Cronologia from './Cronologia';
+import {BarraHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
 import Tarjeta from './Tarjeta';
 import type {Filosofo, Sexo} from './tipos';
 
@@ -59,7 +59,7 @@ export default function App() {
   // Con varios terminos: los que cumplen cualquiera (suma) o todos a la vez (va filtrando)
   const [modo, setModo] = useState<'alguno' | 'todos'>('alguno');
   const [famas, setFamas] = useState<Set<number>>(new Set());
-  // Dos vistas: tarjetas, o la cronologia con la historia a la izquierda
+  // «Con historia»: apagado, las tarjetas; encendido, la cronologia con la historia a la izquierda
   const [vista, setVista] = useState<'tarjetas' | 'cronologia'>(() => {
     try {
       return localStorage.getItem('filo-vista') === 'tarjetas' ? 'tarjetas' : 'cronologia';
@@ -75,7 +75,6 @@ export default function App() {
       /* sin almacenamiento */
     }
   }, []);
-  const mainRef = useRef<HTMLElement>(null);
   const [sel, setSel] = useState<string | null>(() => (TODOS.some((f) => f.id === idDeHash()) ? idDeHash() : null));
 
   // La ficha abierta va en la direccion (#plato), asi se puede compartir y el boton atras la cierra
@@ -214,6 +213,39 @@ export default function App() {
   const elegido = TODOS.find((f) => f.id === sel);
   const filtrando = Boolean(era || cats.size || q || sexo || famas.size || terminos.length);
 
+  // «Con historia»: el rail de los siglos se va al centro y a la izquierda aparece la historia
+  const conHistoria = vista === 'cronologia';
+  const mainRef = useRef<HTMLElement>(null);
+  const [W, setW] = useState(1100);
+  useEffect(() => {
+    const el = mainRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(([e]) => setW(e.contentRect.width));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  const h = useHistoria(conHistoria, mainRef);
+  const movil = W < 700;
+  const rail = movil ? RAIL_MOVIL : RAIL;
+  const izqW = Math.round(movil ? (W - rail) * 0.56 : (W - rail) / 2);
+  const derW = W - rail - izqW;
+  const filtrandoFil = Boolean(cats.size || q.trim() || sexo || famas.size || terminos.length);
+  // Con historia: todos los siglos con filosofos o con historia (si no se filtran filosofos), por edad
+  const conHist = useMemo(() => {
+    if (!conHistoria) return [];
+    const m = porSiglo(visibles, h, era);
+    return ERAS.map((e) => {
+      const siglos = [...m.entries()]
+        .filter(([k, sd]) => {
+          const medio = (k < 0 ? k * 100 : (k - 1) * 100) + 50;
+          const suya = medio < ERAS[0].desde ? ERAS[0] : ERAS.find((x) => medio >= x.desde && medio < x.hasta) ?? ERAS[ERAS.length - 1];
+          return suya.id === e.id && (sd.fil.length || (!filtrandoFil && (sd.eventos.length || sd.frases.length)));
+        })
+        .sort((a, b) => a[0] - b[0]);
+      return {e, suyos: siglos.flatMap(([, sd]) => sd.fil), siglos};
+    }).filter((g) => g.siglos.length);
+  }, [conHistoria, visibles, h, era, filtrandoFil]);
+
   return (
     <ProveedorGlosario glosario={glosario}>
       <div className="pagina">
@@ -222,22 +254,7 @@ export default function App() {
             Filosofía <em>comprimida</em>
           </h1>
           <p className="entradilla">
-            2.600 años de ideas en{' '}
-            <button
-              type="button"
-              className="abrir-historia en-texto"
-              onClick={() => {
-                cambiarVista('cronologia');
-                requestAnimationFrame(() => mainRef.current?.scrollIntoView({behavior: 'smooth'}));
-              }}
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
-                <circle cx="10.5" cy="10.5" r="6.5" />
-                <path d="M15.5 15.5 21 21M8 10.5h5M10.5 8v5" />
-              </svg>
-              una línea del tiempo
-            </button>
-            . {TODOS.length} pensadores: qué plantearon y dónde saber más de cada uno. Sin tecnicismos: las palabras raras, como{' '}
+            2.600 años de ideas en una línea del tiempo. {TODOS.length} pensadores: qué plantearon y dónde saber más de cada uno. Sin tecnicismos: las palabras raras, como{' '}
             <Texto>{'[[metafísica|metafisica]] o [[a priori|a-priori]]'}</Texto>, tienen fondo gris. Pasa el ratón por encima, o tócalas, y te
             las explico.
           </p>
@@ -293,6 +310,16 @@ export default function App() {
               ))}
             </div>
           </div>
+          <div className="filtros-fila historia-fila">
+            <label className="interruptor">
+              <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
+              <span className="interruptor-pista" aria-hidden="true">
+                <span />
+              </span>
+              Con historia
+            </label>
+            {conHistoria && <BarraHistoria h={h} />}
+          </div>
           <div className="filtros-fila">
             <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
             {terminos.length + (q.trim() ? 1 : 0) >= 2 && (
@@ -305,14 +332,6 @@ export default function App() {
                 </button>
               </div>
             )}
-            <div className="modo-busca vista" role="group" aria-label="Vista">
-              <button type="button" aria-pressed={vista === 'tarjetas'} onClick={() => cambiarVista('tarjetas')}>
-                Tarjetas
-              </button>
-              <button type="button" aria-pressed={vista === 'cronologia'} onClick={() => cambiarVista('cronologia')}>
-                Cronología
-              </button>
-            </div>
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
             </span>
@@ -335,43 +354,80 @@ export default function App() {
           </div>
         </div>
 
-        <main ref={mainRef}>
-          {vista === 'cronologia' && <Cronologia visibles={visibles} filtrando={Boolean(cats.size || q.trim() || sexo || famas.size || terminos.length)} era={era} abrir={abrir} />}
-          {vista === 'tarjetas' && grupos.length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
-          {vista === 'tarjetas' && pintados.map(({e, suyos, siglos}) => (
-            <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
-              <header className="edad-cabeza">
-                <h2 id={`edad-${e.id}`}>
-                  <em>{e.nombre.split(' ')[0]}</em> {e.nombre.split(' ').slice(1).join(' ')}
-                </h2>
-                <p className="edad-anios">
-                  {e.desdeTxt} <span>→</span> {e.hastaTxt}
-                  {e.hito && <small>{e.hito}</small>}
-                  <small>{suyos.length} filósofos</small>
-                </p>
-                <p className="edad-texto">{e.texto}</p>
-              </header>
-              {siglos.map(([k, fs]) => (
-                <div key={k} className="siglo">
-                  <h3 className="siglo-nombre">
-                    <span>{siglo(fs[0].fl)}</span>
-                  </h3>
-                  <div className="tarjetas">
-                    {fs.map((f) => (
-                      <Tarjeta key={f.id} f={f} abrir={abrir} />
-                    ))}
-                  </div>
-                </div>
+        <main ref={mainRef} className={conHistoria ? 'con-historia' : undefined} style={{['--izq' as string]: conHistoria ? `${izqW}px` : '0px', ['--rail' as string]: `${rail}px`}}>
+          {(conHistoria ? conHist : grupos).length === 0 && <p className="vacio">Nadie cumple esos filtros. Prueba a quitar alguno.</p>}
+          {conHistoria
+            ? conHist.map(({e, suyos, siglos}) => (
+                <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
+                  <header className="edad-cabeza">
+                    <h2 id={`edad-${e.id}`}>
+                      <em>{e.nombre.split(' ')[0]}</em> {e.nombre.split(' ').slice(1).join(' ')}
+                    </h2>
+                    <p className="edad-anios">
+                      {e.desdeTxt} <span>→</span> {e.hastaTxt}
+                      {e.hito && <small>{e.hito}</small>}
+                      <small>{suyos.length} filósofos</small>
+                    </p>
+                    <p className="edad-texto">{e.texto}</p>
+                  </header>
+                  {siglos.map(([k, sd]) => {
+                    const p = pintarSiglo({k, s: sd, h, edad: e.id, izqW, derW, movil, era, abrir});
+                    return (
+                      <div key={k} className="siglo" data-siglo={k}>
+                        {p.izq}
+                        <h3 className="siglo-nombre" style={{height: p.alto}}>
+                          <span>
+                            {siglo((k < 0 ? k * 100 : (k - 1) * 100) + 50)}
+                            {p.ocultos > 0 && (
+                              <button type="button" className="crono-mas" onClick={(ev) => h.zoom(1.8, ev.currentTarget.getBoundingClientRect().bottom + 100)} title="Acercar para ver más">
+                                +{p.ocultos} al acercar
+                              </button>
+                            )}
+                          </span>
+                          {p.rail}
+                        </h3>
+                        {p.der}
+                      </div>
+                    );
+                  })}
+                </section>
+              ))
+            : pintados.map(({e, suyos, siglos}) => (
+                <section key={e.id} className={`edad ${e.id}`} aria-labelledby={`edad-${e.id}`}>
+                  <header className="edad-cabeza">
+                    <h2 id={`edad-${e.id}`}>
+                      <em>{e.nombre.split(' ')[0]}</em> {e.nombre.split(' ').slice(1).join(' ')}
+                    </h2>
+                    <p className="edad-anios">
+                      {e.desdeTxt} <span>→</span> {e.hastaTxt}
+                      {e.hito && <small>{e.hito}</small>}
+                      <small>{suyos.length} filósofos</small>
+                    </p>
+                    <p className="edad-texto">{e.texto}</p>
+                  </header>
+                  {siglos.map(([k, fs]) => (
+                    <div key={k} className="siglo" data-siglo={k}>
+                      <div className="siglo-izq" />
+                      <h3 className="siglo-nombre">
+                        <span>{siglo(fs[0].fl)}</span>
+                      </h3>
+                      <div className="tarjetas">
+                        {fs.map((f) => (
+                          <Tarjeta key={f.id} f={f} abrir={abrir} />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </section>
               ))}
-            </section>
-          ))}
           <div ref={finRef} />
-          {vista === 'tarjetas' && limite < visibles.length && (
+          {!conHistoria && limite < visibles.length && (
             <div ref={centinela} className="cargando-mas" aria-hidden="true">
               Cargando más filósofos…
             </div>
           )}
         </main>
+        {conHistoria && <ZoomHistoria h={h} />}
         <div className="saltos" role="group" aria-label="Desplazarse">
           <button type="button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} aria-label="Subir arriba" title="Subir arriba" className={bajado ? '' : 'oculto'}>
             <svg viewBox="0 0 24 24" aria-hidden="true">
