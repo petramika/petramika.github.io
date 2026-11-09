@@ -250,7 +250,12 @@ export function pintarSiglo({
   // Siempre al menos los 3 principales de cada siglo, aunque sean menores
   const eventos = ordenados.filter((e, i) => e.nivel <= nivelEv || i < 3);
   const frases = s.frases.filter((f) => f.nivel === 1 || pxAnio >= 10);
-  const filosofos = [...s.fil].sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999));
+  // Caras por reconocimiento: de lejos solo los muy conocidos y, al acercar, entran los demas
+  // (siempre los 2 mas conocidos del siglo, para que ninguno se quede vacio)
+  const famaMin = z < 3 ? 4 : z < 5 ? 3 : z < 9 ? 2 : 1;
+  const filosofos = [...s.fil]
+    .sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999))
+    .filter((f, i) => (f.fama?.n ?? 1) >= famaMin || i < 2);
   const periodos =
     datos && !tipos.size
       ? datos.periodos.filter((p) => carrilPeriodo.has(p.id) && p.desde < fin && p.hasta > inicio && (p.nivel === 1 || pxAnio >= 8) && (!rango || (p.hasta > rango.desde && p.desde < rango.hasta)))
