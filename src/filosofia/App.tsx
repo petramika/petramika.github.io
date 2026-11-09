@@ -64,9 +64,10 @@ export default function App() {
   // «Con historia»: apagado, las tarjetas; encendido, la cronologia con la historia a la izquierda
   const [vista, setVista] = useState<'tarjetas' | 'cronologia'>(() => {
     try {
-      return localStorage.getItem('filo-vista') === 'tarjetas' ? 'tarjetas' : 'cronologia';
+      // Por defecto la vista simple; si alguien enciende la historia, se recuerda
+      return localStorage.getItem('filo-vista') === 'cronologia' ? 'cronologia' : 'tarjetas';
     } catch {
-      return 'cronologia';
+      return 'tarjetas';
     }
   });
   const cambiarVista = useCallback((v: 'tarjetas' | 'cronologia') => {
