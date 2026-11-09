@@ -92,6 +92,8 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
   const punteros = useRef(new Map<number, number>());
   const gesto = useRef<{x: number; vista: VistaU; dist?: number; centro?: number} | null>(null);
   const movido = useRef(false);
+  // Cada gesto de rueda/trackpad decide al empezar si es mover (horizontal) o acercar (vertical) y no cambia
+  const eje = useRef<{modo: 'x' | 'y'; t: number}>({modo: 'y', t: 0});
   const [encima, setEncima] = useState<{f: Filosofo; x: number; fila: number} | null>(null);
 
   useEffect(() => {
@@ -183,8 +185,12 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
       e.preventDefault();
       cancelAnimationFrame(anim.current);
       const r = el.getBoundingClientRect();
-      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) setVista(limitar(mueve(vistaRef.current, e.deltaX)));
-      else setVista(limitar(zoom(Math.exp(Math.max(-60, Math.min(60, e.deltaY)) * (e.ctrlKey ? 0.01 : 0.004)), e.clientX - r.left)));
+      const ahora = performance.now();
+      if (ahora - eje.current.t > 250) eje.current.modo = Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.shiftKey ? 'x' : 'y';
+      eje.current.t = ahora;
+      if (e.ctrlKey) setVista(limitar(zoom(Math.exp(Math.max(-60, Math.min(60, e.deltaY)) * 0.01), e.clientX - r.left)));
+      else if (eje.current.modo === 'x') setVista(limitar(mueve(vistaRef.current, e.shiftKey && !e.deltaX ? e.deltaY : e.deltaX)));
+      else setVista(limitar(zoom(Math.exp(Math.max(-60, Math.min(60, e.deltaY)) * 0.004), e.clientX - r.left)));
     };
     el.addEventListener('wheel', rueda, {passive: false});
     return () => el.removeEventListener('wheel', rueda);
@@ -280,14 +286,35 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
     return apilar(vis, (f) => X(f.anio) - 8, ancho, 2, 10);
   }, [datos, x0, x1, span, X, estrecho]);
 
+  /*
+    Los recientes tienen menos papers e idiomas solo porque han tenido menos
+    tiempo. Ademas de los de reconocimiento alto, entra el primer cuarto de
+    cada generacion (tramos de 25 años), comparados entre ellos.
+  */
+  const destacados = useMemo(() => {
+    const s = new Set(todos.filter((f) => (f.fama?.n ?? 0) >= 3).map((f) => f.id));
+    const tramos = new Map<number, Filosofo[]>();
+    todos.forEach((f) => {
+      const k = Math.floor(f.fl / 25);
+      tramos.set(k, [...(tramos.get(k) ?? []), f]);
+    });
+    tramos.forEach((fs) => {
+      if (fs.length < 4) return;
+      fs.sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999))
+        .slice(0, Math.ceil(fs.length / 4))
+        .forEach((f) => s.add(f.id));
+    });
+    return s;
+  }, [todos]);
+
   const pensadores = useMemo(() => {
     const vis = todos
-      // Solo los de reconocimiento alto y muy alto
-      .filter((f) => f.fl >= x0 - 10 && f.fl <= x1 + 10 && (f.fama?.n ?? 0) >= 3)
+      // Solo los que destacan: reconocimiento alto o muy alto, o de los primeros de su generacion
+      .filter((f) => f.fl >= x0 - 10 && f.fl <= x1 + 10 && destacados.has(f.id))
       .sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999));
     const ancho = (f: Filosofo) => Math.min(170, f.nombre.length * 6.4 + 38);
     return apilar(vis, (f) => X(f.fl) - 13, ancho, estrecho ? 5 : 6, 6);
-  }, [todos, x0, x1, X, estrecho]);
+  }, [todos, destacados, x0, x1, X, estrecho]);
 
   const vivosEn = (a: number, b = a) =>
     todos
@@ -413,7 +440,7 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
                 onClick={() => !movido.current && setSel({tipo: 'frase', fr: f})}
                 title={`${f.autorNombre}, ${f.obra}`}
               >
-                «{f.texto.replace(/\.$/, '')}» <small>{f.autorNombre.split(' ').slice(-1)[0]}</small>
+                «{f.texto.replace(/\.$/, '')}» <small>{f.autorNombre.replace(/,?\s+Jr\.?$/, '').split(' ').slice(-1)[0]}</small>
               </button>
             ))}
           </div>

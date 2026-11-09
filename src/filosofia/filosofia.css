@@ -109,9 +109,9 @@ button { font: inherit; color: inherit; }
 
 .siglo { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 20px; padding-top: 22px; position: relative; }
 .siglo::before { content: ""; position: absolute; left: 7px; top: 0; bottom: 0; border-left: 1.5px dashed var(--raya); }
-.siglo-nombre { margin: 0; font: italic 700 15px/1.3 var(--f-texto); color: var(--suave); position: relative; padding: 6px 0 0 24px; }
+.siglo-nombre { margin: 0; font: italic 700 15px/1.3 var(--f-texto); color: var(--suave); position: relative; padding: 6px 0 0 24px; align-self: stretch; }
 .siglo-nombre::before { content: ""; position: absolute; left: 1px; top: 8px; width: 11px; height: 11px; border-radius: 50%; background: var(--papel); border: 2px solid var(--tinta); }
-.siglo-nombre span { position: sticky; top: 170px; }
+.siglo-nombre span { position: sticky; top: calc(var(--alto-filtros, 170px) + 14px); display: block; }
 
 .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 12px; }
 .tarjeta {
@@ -196,6 +196,7 @@ button { font: inherit; color: inherit; }
   .siglo { grid-template-columns: 1fr; gap: 10px; }
   .siglo::before { display: none; }
   .siglo-nombre { padding-left: 20px; }
+  .siglo-nombre { position: sticky; top: var(--alto-filtros, 170px); z-index: 5; background: color-mix(in srgb, var(--papel) 94%, transparent); padding-top: 8px; padding-bottom: 6px; align-self: start; }
   .siglo-nombre span { position: static; }
   .ficha { padding: 20px 18px 32px; }
   .ficha-cabeza { flex-direction: column; align-items: flex-start; gap: 12px; }
@@ -381,3 +382,10 @@ button { font: inherit; color: inherit; }
 .ficha-esqueleto i.e-titulo { width: 38%; height: 18px; margin-top: 12px; }
 @keyframes brillo { to { background-position: -200% 0; } }
 @media (prefers-reduced-motion: reduce) { .ficha-esqueleto i { animation: none; } }
+
+/* Subir / bajar */
+.saltos { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 30; display: flex; flex-direction: column; gap: 8px; }
+.saltos button { width: 42px; height: 42px; border-radius: 50%; border: 1.5px solid var(--raya); background: var(--papel2); color: var(--tinta); cursor: pointer; display: grid; place-items: center; box-shadow: 0 6px 18px rgba(0,0,0,.1); transition: opacity .2s, transform .2s, border-color .15s; }
+.saltos button:hover { border-color: var(--suave); transform: translateY(-1px); }
+.saltos button.oculto { opacity: 0; pointer-events: none; transform: translateY(6px); }
+.saltos svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }

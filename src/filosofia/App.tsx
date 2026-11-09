@@ -149,6 +149,36 @@ export default function App() {
     }))
     .filter((g) => g.siglos.length);
 
+  // Alto de la barra de filtros (fija arriba), para que el siglo se quede pegado justo debajo
+  const filtrosRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = filtrosRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => document.documentElement.style.setProperty('--alto-filtros', el.offsetHeight + 'px'));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // Subir arriba / ir al final de lo filtrado (pintando antes todo lo que falte)
+  const finRef = useRef<HTMLDivElement>(null);
+  const [irAlFinal, setIrAlFinal] = useState(false);
+  const [bajado, setBajado] = useState(false);
+  useEffect(() => {
+    const mira = () => setBajado(window.scrollY > 600);
+    mira();
+    window.addEventListener('scroll', mira, {passive: true});
+    return () => window.removeEventListener('scroll', mira);
+  }, []);
+  useEffect(() => {
+    if (!irAlFinal) return;
+    requestAnimationFrame(() => finRef.current?.scrollIntoView({behavior: 'smooth', block: 'end'}));
+    setIrAlFinal(false);
+  }, [irAlFinal, limite]);
+  const alFinal = () => {
+    setLimite(visibles.length);
+    setIrAlFinal(true);
+  };
+
   const elegido = TODOS.find((f) => f.id === sel);
   const filtrando = Boolean(era || cats.size || q || sexo || famas.size);
 
@@ -177,7 +207,7 @@ export default function App() {
         </div>
         <Linea todos={TODOS} visibles={ids} era={era} elegirEra={setEra} abrir={abrir} />
 
-        <div className="filtros">
+        <div className="filtros" ref={filtrosRef}>
           <div className="pills" role="group" aria-label="Edad">
             <button type="button" className="pill" aria-pressed={!era} onClick={() => setEra(null)}>
               Todas
@@ -277,12 +307,25 @@ export default function App() {
               ))}
             </section>
           ))}
+          <div ref={finRef} />
           {limite < visibles.length && (
             <div ref={centinela} className="cargando-mas" aria-hidden="true">
               Cargando más filósofos…
             </div>
           )}
         </main>
+        <div className="saltos" role="group" aria-label="Desplazarse">
+          <button type="button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} aria-label="Subir arriba" title="Subir arriba" className={bajado ? '' : 'oculto'}>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 19V5M6 11l6-6 6 6" />
+            </svg>
+          </button>
+          <button type="button" onClick={alFinal} aria-label="Ir al final de la lista" title="Ir al final de la lista">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 5v14M6 13l6 6 6-6" />
+            </svg>
+          </button>
+        </div>
         <Pie marca="Filosofía" fuente='"Philosopher", Georgia, serif' />
 
       </div>
