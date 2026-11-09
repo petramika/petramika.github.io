@@ -239,7 +239,6 @@ export function pintarSiglo({
   const rango = era ? ERAS.find((e) => e.id === era)! : null;
   const inicio = k < 0 ? k * 100 : (k - 1) * 100;
   const fin = inicio + 100;
-  const rail = movil ? RAIL_MOVIL : RAIL;
 
   const pxAnio = z * PESO[edad] * (movil ? 0.8 : 1);
   const alto = Math.round(100 * pxAnio) + 30;
@@ -355,19 +354,11 @@ export function pintarSiglo({
       {colocadas.map(({t: p}) => (
         <span key={'p' + p.id} className="crono-punto" style={{top: Y(p.anio), background: color(p)}} />
       ))}
-      {caras.map(({t: f}) => (
-        <span key={'pf' + f.id} className="crono-punto fil" style={{top: Y(f.fl)}} />
-      ))}
     </span>
   );
 
   const der = (
     <div className="siglo-der" style={{height: alto}}>
-      <svg className="crono-rayas" width={derW + rail} height={alto} aria-hidden="true" style={{left: -rail + EJE}}>
-        {caras.map(({t: f, carril, y}) => (
-          <polyline key={f.id} points={`0,${Y(f.fl)} ${rail - EJE + 4},${Y(f.fl)} ${rail - EJE + 10 + carril * anchoCara},${y}`} fill="none" stroke="var(--suave)" strokeOpacity={0.3} strokeWidth={1} />
-        ))}
-      </svg>
       {caras.map(({t: f, carril, y}) => (
         <button key={f.id} type="button" className="crono-cara" style={{top: y, left: 10 + carril * anchoCara, maxWidth: anchoCara - 6}} onClick={() => abrir(f.id)} title={`${f.nombre} (${f.fechas})`}>
           <Retrato nombre={f.nombre} img={f.img} cats={f.categorias} size={38} />
