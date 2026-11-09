@@ -283,11 +283,15 @@ export default function App() {
                 title={conHistoria ? 'Historia: quitarla' : 'Historia: ver qué pasaba en el mundo, junto a los filósofos'}
                 aria-label="Historia"
               >
-                {/* Reloj con la flecha hacia atrás: el icono de siempre para «historia» */}
-                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-                  <path d="M3.5 12a8.5 8.5 0 1 0 2.5-6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  <path d="M3 3.5v4.5h4.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                {/* Bola del mundo de escritorio sobre un libro: la historia del mundo */}
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <circle cx="12.6" cy="9" r="5.6" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M9.6 4.6c.9.5 1.1 1.4.5 2-.6.7.2 1.6 1.1 1.4.9-.2 1.5.6 1.1 1.4-.4.8.1 1.7.9 2.2M15.6 4.4c-.6.9-.3 2 .6 2.5.8.5 1.3 1.3 1.2 2.1" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M7.7 3.6a7.4 7.4 0 0 0 9.9 10.9" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                  <path d="M6.6 2.5l2 2M16.7 13.6l2 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                  <path d="M12.6 16.4v1.8" stroke="currentColor" strokeWidth="1.5" />
+                  <rect x="9.6" y="18.2" width="6" height="1.6" rx=".8" fill="currentColor" />
+                  <rect x="4.5" y="20.3" width="15.5" height="2.6" rx="1" fill="none" stroke="currentColor" strokeWidth="1.4" />
                 </svg>
               </button>
               <BarraHistoria h={h} activa={conHistoria} />
