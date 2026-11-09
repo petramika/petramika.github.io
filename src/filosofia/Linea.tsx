@@ -1,4 +1,6 @@
+import {useRef, useState} from 'react';
 import {CAT, ERAS, type EraId} from './config';
+import Retrato from './Retrato';
 import type {Filosofo} from './tipos';
 
 /*
@@ -11,8 +13,17 @@ import type {Filosofo} from './tipos';
 type Props = {todos: Filosofo[]; visibles: Set<string>; era: EraId | null; elegirEra: (e: EraId | null) => void; abrir: (id: string) => void};
 
 export default function Linea({todos, visibles, era, elegirEra, abrir}: Props) {
+  // Tarjetita al pasar por una raya: sale al instante (el title del navegador tarda y no deja claro de quien es)
+  const caja = useRef<HTMLDivElement>(null);
+  const [enc, setEnc] = useState<{f: Filosofo; x: number; y: number; lado: 'centro' | 'izq' | 'der'} | null>(null);
+  const mostrar = (f: Filosofo, el: HTMLElement) => {
+    const r = el.getBoundingClientRect(), c = caja.current!.getBoundingClientRect();
+    const x = r.left + r.width / 2 - c.left;
+    // Cerca de los bordes la tarjeta se abre hacia dentro; la flecha siempre apunta a la raya
+    setEnc({f, x, y: r.top - c.top, lado: x < 170 ? 'izq' : x > c.width - 170 ? 'der' : 'centro'});
+  };
   return (
-    <div className="linea" role="group" aria-label="Las cuatro edades de la historia">
+    <div className="linea" role="group" aria-label="Las cuatro edades de la historia" ref={caja} onMouseLeave={() => setEnc(null)}>
       <div className="linea-tramos">
         {ERAS.map((e) => {
           const suyos = todos.filter((f) => f.era === e.id);
@@ -33,8 +44,10 @@ export default function Linea({todos, visibles, era, elegirEra, abrir}: Props) {
                   return (
                     <i
                       key={f.id}
-                      title={`${f.nombre} (${f.fechas})`}
-                      className={visibles.has(f.id) ? undefined : 'apagada'}
+                      aria-label={`${f.nombre} (${f.fechas})`}
+                      className={`${visibles.has(f.id) ? '' : 'apagada'}${enc?.f.id === f.id ? ' encima' : ''}`.trim() || undefined}
+                      onMouseEnter={(ev) => mostrar(f, ev.currentTarget)}
+                      onMouseLeave={() => setEnc(null)}
                       style={{left: x + '%', background: f.categorias[0] ? CAT[f.categorias[0]].color : 'var(--suave)'}}
                       onClick={(ev) => (ev.stopPropagation(), abrir(f.id))}
                     />
@@ -45,6 +58,23 @@ export default function Linea({todos, visibles, era, elegirEra, abrir}: Props) {
           );
         })}
       </div>
+      {enc && (
+        <div className={`linea-tip ${enc.lado}`} style={{left: enc.x, top: enc.y}} aria-hidden="true">
+          <Retrato nombre={enc.f.nombre} img={enc.f.img} cats={enc.f.categorias} size={34} liso />
+          <span>
+            <b>{enc.f.nombre}</b>
+            <small>{enc.f.fechas}</small>
+            <span className="linea-tip-cats">
+              {enc.f.categorias.map((c) => (
+                <span key={c}>
+                  <i style={{background: CAT[c].color}} />
+                  {CAT[c].nombre}
+                </span>
+              ))}
+            </span>
+          </span>
+        </div>
+      )}
       <div className="linea-anios" aria-hidden="true">
         {ERAS.map((e, i) => (
           <span key={e.id} style={{left: `${(i * 100) / ERAS.length}%`}} className={i === 0 ? 'primero' : undefined}>
