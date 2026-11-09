@@ -283,9 +283,6 @@ button { font: inherit; color: inherit; }
 .saltos svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Cualquiera / todos */
-.modo-busca { display: inline-flex; border: 1.5px solid var(--raya); border-radius: 999px; padding: 2px; background: var(--papel2); }
-.modo-busca button { appearance: none; border: 0; background: none; border-radius: 999px; padding: 4px 12px; font: 13.5px var(--f-ui); color: var(--suave); cursor: pointer; }
-.modo-busca button[aria-pressed="true"] { background: var(--tinta); color: var(--papel2); }
 
 /* Tarjetita al pasar por una raya de la linea */
 .linea-tip {
@@ -431,7 +428,7 @@ button { font: inherit; color: inherit; }
 /* La caja no crece sin fin: dos chips y el resto en «+N» */
 .multi-caja { flex-wrap: nowrap; width: 100%; box-sizing: border-box; }
 /* Toda la fila: una rejilla que llena el ancho, cajas iguales; dentro, los chips que quepan y «+N» */
-.multis { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr) minmax(0, 1.2fr) minmax(0, .85fr) minmax(0, 1.6fr); gap: 8px 10px; }
+.multis { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr) minmax(0, 1.2fr) minmax(0, 1.2fr) minmax(0, .85fr); gap: 8px 10px; }
 .multis-historia > .multi { flex: 1 1 0; min-width: 0; }
 .multi { min-width: 0; }
 .multi-fila { position: relative; flex: 1 1 0; min-width: 0; display: flex; gap: 5px; overflow: hidden; }
@@ -468,3 +465,5 @@ button { font: inherit; color: inherit; }
 .multi.con .multi-titulo { position: absolute; top: -8px; left: 10px; padding: 0 5px; font-size: 9.5px; line-height: 14px; background: var(--papel); border-radius: 4px; z-index: 1; }
 .multi.con .multi-caja { padding-left: 6px; }
 .multi-fila .multi-chip:first-child { min-width: 70px; }
+.modo-busca { appearance: none; display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 32px; border: 1.5px solid var(--raya); border-radius: 999px; background: var(--papel2); color: var(--tinta); cursor: pointer; padding: 0; flex: none; transition: border-color .15s; }
+.modo-busca:hover { border-color: var(--suave); }

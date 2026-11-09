@@ -274,6 +274,16 @@ export default function App() {
 
         <div className="filtros" ref={filtrosRef}>
           <div className="multis">
+            <div className="multis-historia">
+              <label className="toggle-texto" title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}>
+                <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
+                <span className="toggle-pista">
+                  <span className="toggle-nombre">Historia</span>
+                  <span className="toggle-bola" aria-hidden="true" />
+                </span>
+              </label>
+              <BarraHistoria h={h} activa={conHistoria} />
+            </div>
             <Multi
               titulo="Época"
               opciones={ERAS.map((e) => ({id: e.id, nombre: e.corto, color: COLOR_EDAD[e.id], cuenta: TODOS.filter((f) => f.era === e.id).length}))}
@@ -302,28 +312,35 @@ export default function App() {
               alternar={(id) => alterna(setSexos)(id as Sexo)}
               limpiar={() => setSexos(new Set())}
             />
-            <div className="multis-historia">
-              <label className="toggle-texto" title={conHistoria ? 'Quitar la historia' : 'Ver qué pasaba en el mundo, junto a los filósofos'}>
-                <input type="checkbox" role="switch" checked={conHistoria} onChange={(e) => cambiarVista(e.target.checked ? 'cronologia' : 'tarjetas')} />
-                <span className="toggle-pista">
-                  <span className="toggle-nombre">Historia</span>
-                  <span className="toggle-bola" aria-hidden="true" />
-                </span>
-              </label>
-              <BarraHistoria h={h} activa={conHistoria} />
-            </div>
           </div>
           <div className="filtros-fila">
             <Buscador valor={q} cambiar={setQ} terminos={terminos} anadir={anadirTermino} quitar={quitarTermino} todas={SUGERENCIAS} />
             {terminos.length + (q.trim() ? 1 : 0) >= 2 && (
-              <div className="modo-busca" role="group" aria-label="Cómo combinar los términos">
-                <button type="button" aria-pressed={modo === 'alguno'} onClick={() => setModo('alguno')} title="Salen los que cumplen cualquiera de los términos">
-                  Cualquiera
-                </button>
-                <button type="button" aria-pressed={modo === 'todos'} onClick={() => setModo('todos')} title="Solo los que cumplen todos los términos a la vez">
-                  Todos
-                </button>
-              </div>
+              <button
+                type="button"
+                className="modo-busca"
+                onClick={() => setModo(modo === 'alguno' ? 'todos' : 'alguno')}
+                title={modo === 'alguno' ? 'Unión: salen los que cumplen cualquiera de los términos. Pulsa para ver solo los que cumplen todos' : 'Intersección: solo los que cumplen todos los términos a la vez. Pulsa para ver los que cumplen cualquiera'}
+                aria-label={modo === 'alguno' ? 'Combinar: cualquiera de los términos (unión)' : 'Combinar: todos los términos a la vez (intersección)'}
+              >
+                <svg viewBox="0 0 28 18" width="28" height="18" aria-hidden="true">
+                  <defs>
+                    <clipPath id="interseccion-a">
+                      <circle cx="10" cy="9" r="7" />
+                    </clipPath>
+                  </defs>
+                  {modo === 'alguno' ? (
+                    <>
+                      <circle cx="10" cy="9" r="7" fill="currentColor" fillOpacity=".85" />
+                      <circle cx="18" cy="9" r="7" fill="currentColor" fillOpacity=".85" />
+                    </>
+                  ) : (
+                    <circle cx="18" cy="9" r="7" fill="currentColor" fillOpacity=".85" clipPath="url(#interseccion-a)" />
+                  )}
+                  <circle cx="10" cy="9" r="7" fill="none" stroke="currentColor" strokeWidth="1.3" />
+                  <circle cx="18" cy="9" r="7" fill="none" stroke="currentColor" strokeWidth="1.3" />
+                </svg>
+              </button>
             )}
             <span className="cuenta" aria-live="polite">
               {visibles.length === TODOS.length ? `${TODOS.length} filósofos` : `${visibles.length} de ${TODOS.length}`}
