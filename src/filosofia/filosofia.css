@@ -241,12 +241,12 @@ button { font: inherit; color: inherit; }
   position: relative; width: min(1400px, calc(100vw - 32px)); height: min(860px, calc(100vh - 32px)); background: var(--papel); border-radius: 18px;
   box-shadow: 0 30px 80px rgba(0,0,0,.3); display: flex; flex-direction: column; overflow: hidden; padding: 18px 22px 14px;
 }
-.hist-cabeza { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+.hist-cabeza { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
 .hist-cabeza h2 { font: 400 30px/1.1 var(--f-titulo, var(--f-texto)); margin: 0; }
 .hist-cabeza h2 em { color: var(--suave); }
 .hist-cabeza p { margin: 4px 0 0; font: 14px var(--f-ui); color: var(--suave); }
 .hist-cerrar { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--raya); background: var(--papel2); cursor: pointer; font: 16px var(--f-ui); color: var(--tinta); }
-.hist-barra { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin: 12px 0 8px; }
+.hist-barra { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 20px; margin: 10px 0 10px; }
 .hist-barra .pills { padding: 0; }
 .hist-barra .pill { font-size: 14px; padding: 4px 14px; }
 .hist-zoom { display: flex; align-items: center; gap: 6px; }
@@ -316,7 +316,7 @@ button { font: inherit; color: inherit; }
 .hist-mapa i { position: absolute; top: 0; bottom: 0; }
 .hist-mapa i { opacity: .55; }
 .hist-mapa b { position: absolute; top: 0; bottom: 0; border: 2px solid var(--tinta); border-radius: 7px; transition: none; }
-.hist-leyenda { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0 0; font: 12px var(--f-ui); color: var(--suave); }
+.hist-leyenda { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0; font: 13px var(--f-ui); color: var(--suave); }
 .hist-leyenda span::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 5px; }
 
 .hist-detalle {
@@ -355,8 +355,8 @@ button { font: inherit; color: inherit; }
   .hist-eje { top: 338px; }
   .hist-detalle { left: 8px; right: 8px; width: auto; bottom: 8px; max-height: 55%; }
   .hist-rango { display: none; }
-  .hist-barra { flex-wrap: nowrap; }
-  .hist-barra .pills { flex: 1; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+  .hist-barra { flex-wrap: nowrap; align-items: flex-start; }
+  .hist-leyenda { flex: 1; min-width: 0; font-size: 12px; gap: 4px 12px; }
   .hist-zoom { flex: none; }
   .hist-barra .pill { flex: none; }
 }

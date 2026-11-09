@@ -86,6 +86,7 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
   const [vista, setVista] = useState<VistaU>(aU(inicio ?? {x0: MIN, x1: MAX}));
   const [sel, setSel] = useState<Sel>(null);
   const [W, setW] = useState(1000);
+  const [H, setH] = useState(600);
   const lienzo = useRef<HTMLDivElement>(null);
   const cierre = useRef<HTMLButtonElement>(null);
   const anim = useRef<number>(0);
@@ -104,7 +105,10 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
   useEffect(() => {
     const el = lienzo.current;
     if (!el) return;
-    const ro = new ResizeObserver(([e]) => setW(e.contentRect.width));
+    const ro = new ResizeObserver(([e]) => {
+      setW(e.contentRect.width);
+      setH(e.contentRect.height);
+    });
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
@@ -313,8 +317,10 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
       .filter((f) => f.fl >= x0 - 10 && f.fl <= x1 + 10 && destacados.has(f.id))
       .sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999));
     const ancho = (f: Filosofo) => Math.min(170, f.nombre.length * 6.4 + 38);
-    return apilar(vis, (f) => X(f.fl) - 13, ancho, estrecho ? 5 : 6, 6);
-  }, [todos, destacados, x0, x1, X, estrecho]);
+    // Tantas filas como quepan debajo del eje (la franja empieza en --fil-top: 372 en movil, 392 en escritorio)
+    const filas = Math.max(3, Math.floor((H - (estrecho ? 372 : 392) - 8) / 36));
+    return apilar(vis, (f) => X(f.fl) - 13, ancho, filas, 6);
+  }, [todos, destacados, x0, x1, X, estrecho, H]);
 
   const vivosEn = (a: number, b = a) =>
     todos
@@ -332,28 +338,22 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
     <div className="hist-fondo" onClick={cerrar}>
       <div className="hist" role="dialog" aria-modal="true" aria-labelledby="hist-titulo" onClick={(e) => e.stopPropagation()}>
         <header className="hist-cabeza">
-          <div>
-            <h2 id="hist-titulo">
-              La historia <em>con lupa</em>
-            </h2>
-            <p>Acércate con la rueda, pellizcando o con + y −; arrastra para moverte. Cuanto más cerca, más cosas pasan.</p>
-          </div>
+          <h2 id="hist-titulo" title="Acércate con la rueda, pellizcando o con + y −; arrastra para moverte">
+            La historia <em>con lupa</em>
+          </h2>
           <button ref={cierre} type="button" className="hist-cerrar" onClick={cerrar} aria-label="Cerrar">
             ✕
           </button>
         </header>
 
         <div className="hist-barra">
-          <div className="pills" role="group" aria-label="Ir a una edad">
-            <button type="button" className="pill" onClick={() => ir({x0: MIN, x1: MAX})}>
-              Todo
-            </button>
-            {ERAS.map((e) => (
-              <button key={e.id} type="button" className="pill" onClick={() => ir({x0: e.desde - 20, x1: Math.min(e.hasta, 2030) + 20})}>
-                {e.corto}
-              </button>
+          <p className="hist-leyenda" aria-label="Colores de los acontecimientos">
+            {Object.entries(TIPOS).map(([k, t]) => (
+              <span key={k} style={{['--c' as string]: t.color}}>
+                {t.nombre}
+              </span>
             ))}
-          </div>
+          </p>
           <div className="hist-zoom">
             <span className="hist-rango">
               {fechaTxt(x0)} – {fechaTxt(x1)} · <b>{nombreZoom}</b>
@@ -523,13 +523,6 @@ export default function Historia({todos, cerrar, abrir, inicio}: {todos: Filosof
           <b style={{left: `${((u0 - UMIN) / (UMAX - UMIN)) * 100}%`, width: `${Math.max(0.8, ((u1 - u0) / (UMAX - UMIN)) * 100)}%`}} />
         </div>
 
-        <p className="hist-leyenda">
-          {Object.entries(TIPOS).map(([k, t]) => (
-            <span key={k} style={{['--c' as string]: t.color}}>
-              {t.nombre}
-            </span>
-          ))}
-        </p>
 
         {sel && (
           <aside className="hist-detalle" aria-live="polite">
