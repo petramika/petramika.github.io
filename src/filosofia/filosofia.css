@@ -212,11 +212,11 @@ button { font: inherit; color: inherit; }
   .pills { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
   .pills::-webkit-scrollbar { display: none; }
   .pill { flex: none; }
-  .siglo { grid-template-columns: 1fr; gap: 10px; }
-  .siglo::before { display: none; }
-  .siglo-nombre { padding-left: 20px; }
-  .siglo-nombre { position: sticky; top: var(--alto-filtros, 170px); z-index: 5; background: color-mix(in srgb, var(--papel) 94%, transparent); padding-top: 8px; padding-bottom: 6px; align-self: start; }
-  .siglo-nombre > span:first-child { position: static; }
+  /* Solo las tarjetas: el siglo arriba de su bloque y pegado al bajar. Con historia el eje sigue igual */
+  main:not(.con-historia) .siglo { grid-template-columns: 1fr; gap: 10px; }
+  main:not(.con-historia) .siglo::before { display: none; }
+  main:not(.con-historia) .siglo-nombre { position: sticky; top: var(--alto-filtros, 0px); z-index: 5; background: color-mix(in srgb, var(--papel) 94%, transparent); padding: 8px 0 6px 20px; align-self: start; }
+  main:not(.con-historia) .siglo-nombre > span:first-child { position: static; }
   .ficha { padding: 20px 18px 32px; }
   .ficha-cabeza { flex-direction: column; align-items: flex-start; gap: 12px; }
   .ficha h2 { font-size: 28px; }
@@ -390,7 +390,7 @@ button { font: inherit; color: inherit; }
   .con-historia .siglo { grid-template-columns: var(--izq) var(--rail) minmax(0, 1fr); gap: 0; }
   .con-historia .siglo-nombre { padding: 0; }
   .con-historia .siglo-nombre::before { left: 1px; top: 4px; }
-  .con-historia .siglo-nombre > span { writing-mode: vertical-rl; transform: rotate(180deg); position: sticky; top: calc(var(--alto-filtros, 170px) + 8px); padding: 8px 0 0; margin-left: 18px; font-size: 13px; }
+  .con-historia .siglo-nombre > span:first-child { writing-mode: vertical-rl; transform: rotate(180deg); position: sticky; top: calc(var(--alto-filtros, 170px) + 8px); padding: 8px 0 0; margin-left: 18px; font-size: 13px; }
   .con-historia   .crono-marca { display: none; }
   .crono-pill { font-size: 12px; padding: 2px 6px; }
     }
@@ -470,3 +470,11 @@ button { font: inherit; color: inherit; }
 .boton-historia { --fondo-boton: var(--papel2); appearance: none; flex: none; display: inline-flex; align-items: center; justify-content: center; height: 36px; width: 46px; padding: 0; border-radius: 999px; border: 1.5px solid var(--raya); background: var(--papel2); color: var(--suave); font: 500 14px var(--f-ui); cursor: pointer; transition: background .2s, color .2s, border-color .2s; }
 .boton-historia:hover { border-color: var(--tenue); color: var(--tinta); }
 .boton-historia[aria-pressed="true"] { --fondo-boton: var(--tinta); background: var(--tinta); border-color: var(--tinta); color: var(--papel); }
+
+/*
+  Rendimiento: cada siglo que esta lejos de la pantalla ni se coloca ni se
+  pinta (content-visibility). Con 750 filosofos y la historia son miles de
+  elementos; asi solo trabaja lo que se ve. El alto de reserva es aproximado
+  y el navegador recuerda el de verdad una vez visto (auto).
+*/
+.siglo { content-visibility: auto; contain-intrinsic-size: auto 640px; }

@@ -186,7 +186,10 @@ export default function App() {
   useEffect(() => {
     const el = filtrosRef.current;
     if (!el) return;
-    const ro = new ResizeObserver(() => document.documentElement.style.setProperty('--alto-filtros', el.offsetHeight + 'px'));
+    // Lo pegado al bajar (siglo, edad) se queda justo debajo de los filtros; en movil los filtros no se pegan: 0
+    const ro = new ResizeObserver(() =>
+      document.documentElement.style.setProperty('--alto-filtros', (getComputedStyle(el).position === 'sticky' ? el.offsetHeight : 0) + 'px'),
+    );
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
@@ -231,7 +234,8 @@ export default function App() {
   // A la izquierda de todo, la franja de color de cada edad (con su nombre, que acompaña al bajar)
   const [franja, franjaHueco] = movil ? [18, 6] : [30, 14];
   const anchoSiglos = W - franja - franjaHueco;
-  const izqW = Math.round(movil ? (anchoSiglos - rail) * 0.56 : (anchoSiglos - rail) / 2);
+  // En movil las caras caben en dos columnas estrechas: mas sitio para la historia
+  const izqW = Math.round(movil ? (anchoSiglos - rail) * 0.64 : (anchoSiglos - rail) / 2);
   const derW = anchoSiglos - rail - izqW;
   const [edadInfo, setEdadInfo] = useState<EraId | null>(null);
   const cerrarEdad = useCallback(() => setEdadInfo(null), []);
@@ -393,7 +397,7 @@ export default function App() {
                   {siglos.map(([k, sd]) => {
                     const p = pintarSiglo({k, s: sd, h, edad: e.id, izqW, derW, movil, eras, abrir});
                     return (
-                      <div key={k} className="siglo" data-siglo={k}>
+                      <div key={k} className="siglo" data-siglo={k} style={{containIntrinsicSize: `auto ${p.alto + 22}px`}}>
                         {p.izq}
                         <h3 className="siglo-nombre" style={{height: p.alto}}>
                           <span>

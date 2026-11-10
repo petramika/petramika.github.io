@@ -5,7 +5,7 @@
   unos segundos aunque algo se atasque.
 */
 const MINIMO_MS = 900;
-const MAXIMO_MS = 5000;
+const MAXIMO_MS = 3500;
 
 const cargada = () =>
   new Promise<void>((ok) => {

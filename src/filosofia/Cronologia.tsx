@@ -214,6 +214,16 @@ export function ZoomHistoria({h}: {h: Historia}) {
   );
 }
 
+/** El año en poco sitio (movil): «500 aC», «499–493 aC», «1618–48» */
+function anioCorto(a: number, hasta?: number | null) {
+  const t = (x: number) => (x < 0 ? String(-x) : String(x));
+  if (hasta == null) return a < 0 ? `${t(a)} aC` : t(a);
+  if (a < 0 && hasta < 0) return `${t(a)}–${t(hasta)} aC`;
+  if (a < 0) return `${t(a)} aC–${t(hasta)}`;
+  // Mismo siglo: el final con dos cifras
+  return Math.floor(a / 100) === Math.floor(hasta / 100) ? `${a}–${String(hasta).slice(-2)}` : `${a}–${hasta}`;
+}
+
 /**
   Pinta un siglo con historia: devuelve lo que va a la izquierda del rail, las
   marcas y puntos del rail, lo que va a la derecha y el alto de la fila.
@@ -248,20 +258,24 @@ export function pintarSiglo({
   const Y = (a: number) => 15 + (Math.min(Math.max(a, inicio), fin) - inicio) * pxAnio;
 
   // Cuanto mas cerca, mas detalle (y lo que no cabe se queda fuera al colocar)
-  const nivelEv = pxAnio < 6 ? 1 : pxAnio < 14 ? 2 : 3;
+  // En movil cabe mucho menos: se pide el doble de zoom para el mismo detalle
+  const detalle = movil ? pxAnio / 2 : pxAnio;
+  const nivelEv = detalle < 6 ? 1 : detalle < 14 ? 2 : 3;
   const ordenados = [...s.eventos].sort((a, b) => a.nivel - b.nivel || a.anio - b.anio);
   // Siempre al menos los 3 principales de cada siglo, aunque sean menores
-  const eventos = ordenados.filter((e, i) => e.nivel <= nivelEv || i < 3);
-  const frases = s.frases.filter((f) => f.nivel === 1 || pxAnio >= 10);
+  const eventos = ordenados.filter((e, i) => e.nivel <= nivelEv || i < (movil ? 2 : 3));
+  // Las frases, en movil solo al acercar; las muy famosas, antes
+  const frases = s.frases.filter((f) => (movil ? detalle >= 5 && (f.nivel === 1 || detalle >= 10) : f.nivel === 1 || detalle >= 10));
   // Caras por reconocimiento: de lejos solo los muy conocidos y, al acercar, entran los demas
   // (siempre los 2 mas conocidos del siglo, para que ninguno se quede vacio)
-  const famaMin = z < 3 ? 4 : z < 5 ? 3 : z < 9 ? 2 : 1;
+  const zf = movil ? z / 2 : z;
+  const famaMin = zf < 3 ? 4 : zf < 5 ? 3 : zf < 9 ? 2 : 1;
   const filosofos = [...s.fil]
     .sort((a, b) => (a.fama?.puesto ?? 9999) - (b.fama?.puesto ?? 9999))
     .filter((f, i) => (f.fama?.n ?? 1) >= famaMin || i < 2);
   const periodos =
     datos && !tipos.size
-      ? datos.periodos.filter((p) => carrilPeriodo.has(p.id) && p.desde < fin && p.hasta > inicio && (p.nivel === 1 || pxAnio >= 8) && enEdades(eras, p.desde, p.hasta))
+      ? datos.periodos.filter((p) => carrilPeriodo.has(p.id) && p.desde < fin && p.hasta > inicio && (p.nivel === 1 || detalle >= 8) && enEdades(eras, p.desde, p.hasta))
       : [];
   // Orden de prioridad al colocar: grandes acontecimientos, frases famosas y luego el resto
   const prioridad = (p: Pill) => (p.k === 'evento' ? (p.e.nivel - 1) * 2 : (p.fr.nivel - 1) * 2 + 1);
@@ -350,7 +364,7 @@ export function pintarSiglo({
               </>
             ) : (
               <>
-                <b>{p.e.hasta != null ? `${anioTxt(p.e.anio)}–${anioTxt(p.e.hasta)}` : anioTxt(p.e.anio)}</b> {p.e.titulo}
+                <b>{movil ? anioCorto(p.e.anio, p.e.hasta) : p.e.hasta != null ? `${anioTxt(p.e.anio)}–${anioTxt(p.e.hasta)}` : anioTxt(p.e.anio)}</b> {p.e.titulo}
               </>
             )}
           </button>

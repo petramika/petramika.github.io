@@ -37,6 +37,11 @@ export default defineConfig(() => {
       rota/index.html, y una ruta que no existe da 404 en vez de caer en el
       indice sin avisar.
     */
+    /*
+      Los datos (filosofos, historia, indicadores…) como JSON.parse('…') en vez
+      de objetos de JavaScript: el navegador los lee bastante mas rapido.
+    */
+    json: {stringify: true},
     appType: 'mpa' as const,
     // Fecha de la ultima actualizacion, para el pie de todas las paginas
     define: {__ACTUALIZADO__: JSON.stringify(new Date().toISOString())},
