@@ -11,6 +11,7 @@ import PestanaEconomia from './pestanas/economia/PestanaEconomia';
 import PestanaVivienda from './pestanas/vivienda/PestanaVivienda';
 import PestanaInmigracion from './pestanas/inmigracion/PestanaInmigracion';
 import PestanaMedios from './pestanas/medios/PestanaMedios';
+import BotonTema from '../comun/tema';
 
 // Partidos lleva medio mega de programas: se descarga solo al abrir la pestaña
 const PestanaPartidos = lazy(() => import('./pestanas/partidos/PestanaPartidos'));
@@ -52,6 +53,7 @@ export default function App() {
       <ProveedorGlosario glosario={GLOSARIO}>
       <TipProvider>
         <div className="wrap">
+          <BotonTema />
           <header className="top">
             <div className="eyebrow">
               Congreso de los Diputados · Legislaturas {PRIMERA.num} a {ULTIMA.num} · {yr(PRIMERA.a)}–{yr(ULTIMA.b)}

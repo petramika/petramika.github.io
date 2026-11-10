@@ -2,7 +2,8 @@
   Constantes de presentacion: medidas de las graficas, colores y opciones.
   No son datos (no salen de ninguna fuente), por eso viven aqui y no en datos/.
 */
-export const INK = '#1F2328';
+/** La tinta de la pagina: una variable, para que de noche las series «negras» se vean claras */
+export const INK = 'var(--ink)';
 export const TEAL = '#0B7A75';
 
 // Plot arriba (T..H-B), etiquetas de años, y debajo una franja con la subida/bajada de cada legislatura.

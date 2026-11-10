@@ -1,0 +1,43 @@
+/*
+  España política en datos de noche: las mismas variables con otros valores, y
+  los pocos sitios que tenian un blanco o un gris fijo. Sirve para las tres
+  paginas (la principal, fuentes y sobre la autora). Sin eleccion sigue al
+  sistema; con el boton +/- se fija (data-theme en <html>).
+*/
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #15171a; --soft: #1e2125; --ink: #e6e8eb; --muted: #9aa1aa; --line: #2d3137;
+    --ok: #4cc26a; --ok-bg: rgba(30, 142, 62, .2);
+    --half: #e2b100; --half-bg: rgba(226, 177, 0, .16); --half-bar: #e2b100;
+    --sent: #f08a3a; --sent-bg: rgba(240, 124, 26, .16); --sent-bar: #f07c1a;
+    --ko: #f2665c; --ko-bg: rgba(217, 48, 37, .2);
+    --wip: #9aa1aa; --wip-bg: #262a2f; --wip-bar: #5c636c;
+    --accent: #2bb3ab; --sel: #232a33;
+    --g-fondo: #2a2e34; --g-fondo-on: #383d44; --g-raya: #7a828c; --g-tip: #e6e8eb; --g-tip-texto: #15171a;
+  }
+  :root:not([data-theme="light"]) .hito.ctx { background: var(--bg); }
+  :root:not([data-theme="light"]) .track { background: var(--bg); }
+  :root:not([data-theme="light"]) table.glance tbody tr.sel { background: var(--sel); }
+  :root:not([data-theme="light"]) .tbl-wrap.fija table.glance tbody tr.sel td:nth-child(-n+2) { background: var(--sel); }
+  :root:not([data-theme="light"]) .leg.failed { background-image: repeating-linear-gradient(135deg, transparent 0 5px, var(--line) 5px 6px) !important; }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #15171a; --soft: #1e2125; --ink: #e6e8eb; --muted: #9aa1aa; --line: #2d3137;
+  --ok: #4cc26a; --ok-bg: rgba(30, 142, 62, .2);
+  --half: #e2b100; --half-bg: rgba(226, 177, 0, .16); --half-bar: #e2b100;
+  --sent: #f08a3a; --sent-bg: rgba(240, 124, 26, .16); --sent-bar: #f07c1a;
+  --ko: #f2665c; --ko-bg: rgba(217, 48, 37, .2);
+  --wip: #9aa1aa; --wip-bg: #262a2f; --wip-bar: #5c636c;
+  --accent: #2bb3ab; --sel: #232a33;
+  --g-fondo: #2a2e34; --g-fondo-on: #383d44; --g-raya: #7a828c; --g-tip: #e6e8eb; --g-tip-texto: #15171a;
+}
+:root[data-theme="dark"] .hito.ctx { background: var(--bg); }
+:root[data-theme="dark"] .track { background: var(--bg); }
+:root[data-theme="dark"] table.glance tbody tr.sel { background: var(--sel); }
+:root[data-theme="dark"] .tbl-wrap.fija table.glance tbody tr.sel td:nth-child(-n+2) { background: var(--sel); }
+:root[data-theme="dark"] .leg.failed { background-image: repeating-linear-gradient(135deg, transparent 0 5px, var(--line) 5px 6px) !important; }
+:root[data-theme="dark"] .faq-pos { background: rgba(43, 138, 62, .15); }
+:root[data-theme="dark"] .faq-neg { background: rgba(201, 42, 42, .15); }

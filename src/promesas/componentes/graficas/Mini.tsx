@@ -135,16 +135,16 @@ export default function Mini({id, title, sub, series: todas, f, x0, x1: x1Dado, 
             return (
               <g key={si} data-s={si} className={claseSerie(h, si)}>
                 {pts.map((p) => (
-                  <rect key={p.x} x={f1(X(p.x) - bw / 2)} y={f1(Y(p.v))} width={f1(bw)} height={f1(Y(y0) - Y(p.v))} rx={2} fill={s.c} />
+                  <rect key={p.x} x={f1(X(p.x) - bw / 2)} y={f1(Y(p.v))} width={f1(bw)} height={f1(Y(y0) - Y(p.v))} rx={2} style={{fill: s.c}} />
                 ))}
               </g>
             );
           }
           return (
             <g key={si} data-s={si} className={claseSerie(h, si)}>
-              <path d={pts.map((p, i) => (i ? 'L' : 'M') + f1(X(p.x)) + ' ' + f1(Y(p.v))).join('')} fill="none" stroke={s.c} strokeWidth={2} strokeDasharray={s.dash ? '5 4' : undefined} strokeLinejoin="round" />
+              <path d={pts.map((p, i) => (i ? 'L' : 'M') + f1(X(p.x)) + ' ' + f1(Y(p.v))).join('')} fill="none" style={{stroke: s.c}} strokeWidth={2} strokeDasharray={s.dash ? '5 4' : undefined} strokeLinejoin="round" />
               {pts.map((p) => (
-                <circle key={p.x} cx={f1(X(p.x))} cy={f1(Y(p.v))} r={3} fill={s.c} />
+                <circle key={p.x} cx={f1(X(p.x))} cy={f1(Y(p.v))} r={3} style={{fill: s.c}} />
               ))}
             </g>
           );

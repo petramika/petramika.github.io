@@ -118,7 +118,7 @@ export function MarcasHover({h, info, y2}: {h: EstadoHover | null; info: InfoHov
       {!info.bars &&
         info.S.map((s, i) => {
           const q = h.at[i];
-          return q ? <circle key={i} className="hx hxd" r={5} fill={s.c} stroke="#fff" strokeWidth={2} cx={px} cy={info.Y(q.v)} /> : null;
+          return q ? <circle key={i} className="hx hxd" r={5} style={{fill: s.c}} stroke="var(--bg)" strokeWidth={2} cx={px} cy={info.Y(q.v)} /> : null;
         })}
     </>
   );

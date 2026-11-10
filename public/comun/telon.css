@@ -1,0 +1,44 @@
+/*
+  El telon de carga de cada pagina (ROTA tiene el suyo, el papel roto): el
+  icono de la pagina en el centro, sobre una linea que se va dibujando; cuando
+  ya estan las fuentes, la linea se abre en dos y deja ver la pagina.
+  Va en public/ y enlazado en el <head> para que este pintado antes que nada.
+  Cada pagina le da su color de papel con --telon y --telon-oscuro.
+*/
+#telon {
+  --fondo: var(--telon, #fbfbfb); --linea: color-mix(in srgb, var(--telon-tinta, #141518) 30%, transparent);
+  position: fixed; inset: 0; z-index: 9999;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) #telon { --fondo: var(--telon-oscuro, #111214); --linea: color-mix(in srgb, var(--telon-tinta-oscura, #ededee) 30%, transparent); }
+}
+:root[data-theme="dark"] #telon { --fondo: var(--telon-oscuro, #111214); --linea: color-mix(in srgb, var(--telon-tinta-oscura, #ededee) 30%, transparent); }
+html:has(#telon) { overflow: hidden; }
+
+.telon-mitad { position: absolute; left: 0; right: 0; height: 50.5%; background: var(--fondo); transition: transform .95s cubic-bezier(.76, 0, .24, 1) .32s; }
+.telon-mitad.arriba { top: 0; }
+.telon-mitad.abajo { bottom: 0; }
+.telon-raya {
+  position: absolute; left: 0; right: 0; top: 50%; height: 1px; margin-top: -.5px; background: var(--linea);
+  transform-origin: center; animation: telon-raya 1.6s cubic-bezier(.65, 0, .35, 1) infinite alternate;
+}
+.telon-icono {
+  position: absolute; top: 50%; left: 50%; width: 76px; height: 76px; margin: -38px 0 0 -38px; border-radius: 50%; object-fit: cover;
+  background: var(--fondo); box-shadow: 0 0 0 8px var(--fondo); animation: telon-respira 1.8s ease-in-out infinite;
+}
+
+/* Abrir: la linea llega a los bordes, el icono se va y el papel se parte en dos */
+#telon.abre .telon-raya { animation: none; transform: scaleX(1); transition: opacity .3s .55s; opacity: 0; }
+#telon.abre .telon-icono { animation: none; opacity: 0; transform: scale(.85); transition: opacity .3s, transform .3s; }
+#telon.abre .telon-mitad.arriba { transform: translateY(-101%); }
+#telon.abre .telon-mitad.abajo { transform: translateY(101%); }
+
+@keyframes telon-raya { from { transform: scaleX(.04); } to { transform: scaleX(.62); } }
+@keyframes telon-respira { 50% { transform: scale(1.06); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .telon-raya, .telon-icono { animation: none; }
+  .telon-raya { transform: scaleX(.4); }
+  #telon.abre { opacity: 0; transition: opacity .4s; }
+  #telon.abre .telon-mitad { transform: none; }
+}

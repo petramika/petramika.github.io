@@ -3,6 +3,7 @@ import {ArrowUpRight, CornerLeftUp, Folder, FolderOpen} from 'lucide-react';
 import Pie from '../comun/Pie';
 import Manchas from './Manchas';
 import {proyectos} from './proyectos';
+import BotonTema from '../comun/tema';
 
 /*
   Un "Index of /" de los de Apache, pero hecho a mano: las carpetas son los
@@ -14,6 +15,7 @@ export default function Indice() {
   return (
     <div className="flex min-h-dvh flex-col">
       <Manchas />
+      <BotonTema />
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-16 pt-14 sm:px-8 sm:pt-24">
         <header>
         <h1 className="mt-2 font-display text-5xl font-black tracking-tight sm:text-7xl">

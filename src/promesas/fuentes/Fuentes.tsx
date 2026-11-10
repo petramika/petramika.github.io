@@ -3,6 +3,7 @@ import {useState} from 'react';
 import D from '../datos/fuentes/fuentes.json';
 // El mismo JSON, publicado como fichero para descargarlo tal cual
 import urlJson from '../datos/fuentes/fuentes.json?url';
+import BotonTema from '../../comun/tema';
 
 /* De donde salen los datos: metodo, datos dudosos y fuentes por seccion, con buscador. */
 type Fuente = {nombre: string; url: string; tipo: string; nota?: string};
@@ -21,6 +22,7 @@ export default function Fuentes() {
 
   return (
     <div className="wrap">
+      <BotonTema />
       <div className="top">
         <div className="eyebrow">España política en datos</div>
       </div>

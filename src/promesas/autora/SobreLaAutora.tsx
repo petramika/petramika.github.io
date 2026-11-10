@@ -4,6 +4,7 @@ import {GLOSARIO} from '../datos/glosario';
 import GraficaReformas from './GraficaReformas';
 import Info from '../componentes/Info';
 import textos from '../datos/autora/textos.json';
+import BotonTema from '../../comun/tema';
 
 /* Sobre la autora: por que existe la web y que preguntarse antes de votar. Los textos estan en datos/autora/textos.json. */
 /** Una pregunta puede llevar una (i) larga que se abre en el panel lateral */
@@ -13,6 +14,7 @@ export default function SobreLaAutora() {
   return (
     <ProveedorGlosario glosario={GLOSARIO}>
     <div className="wrap">
+      <BotonTema />
       <div className="top">
         <div className="eyebrow">España política en datos</div>
       </div>

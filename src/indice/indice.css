@@ -12,16 +12,27 @@
   --raya: #e4e4e7;
   /* Cuanto se ve el subrayador: entero sobre papel, apagado sobre negro */
   --marca-fuerza: 100%;
+  color-scheme: light;
 }
 
+/* De noche: la del sistema, o la elegida con el boton +/- (data-theme en <html>) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --papel: #111214;
     --tinta: #ededee;
     --suave: #9b9ea6;
     --raya: #2a2c31;
     --marca-fuerza: 38%;
+    color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+    --papel: #111214;
+    --tinta: #ededee;
+    --suave: #9b9ea6;
+    --raya: #2a2c31;
+    --marca-fuerza: 38%;
+    color-scheme: dark;
 }
 
 @theme inline {

@@ -141,7 +141,7 @@
       {
         "k": "gasto",
         "lab": "Gasto",
-        "c": "#1F2328"
+        "c": "var(--ink)"
       },
       {
         "k": "ingr",

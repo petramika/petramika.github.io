@@ -1,0 +1,16 @@
+/*
+  El boton de modo, como el de ROTA: una pastilla pequeña arriba a la derecha.
+  Toma los colores del sistema (Canvas / CanvasText), que siguen al
+  color-scheme de la pagina, asi vale igual en todas sin saber su paleta.
+*/
+.boton-tema {
+  position: absolute; z-index: 60; top: max(16px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right));
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; border-radius: 999px; cursor: pointer;
+  font: 500 11px/1 "IBM Plex Mono", ui-monospace, Menlo, monospace; letter-spacing: .04em; user-select: none;
+  color: color-mix(in srgb, CanvasText 68%, Canvas); background: color-mix(in srgb, Canvas 80%, transparent);
+  border: 1px solid color-mix(in srgb, CanvasText 14%, Canvas); transition: color .2s, background .2s, border-color .2s;
+}
+.boton-tema:hover { color: CanvasText; border-color: color-mix(in srgb, CanvasText 40%, Canvas); }
+.boton-tema.oscuro { color: Canvas; background: CanvasText; border-color: CanvasText; }
+.boton-tema:focus-visible { outline: 2px solid CanvasText; outline-offset: 2px; }
+.boton-tema svg { flex: none; }

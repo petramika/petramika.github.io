@@ -174,15 +174,15 @@ export default function Grafico({m, acontecimientos = false}: {m: Indicador; aco
           <title>{`Legislatura seleccionada: ${l.num} (${yr(l.a)}–${yr(l.b)})`}</title>
           <rect x={f1(sx1)} y={T} width={f1(sw)} height={H - T - 6} fill="none" stroke="var(--ink)" strokeWidth={1.5} strokeDasharray="4 3" />
           <rect x={f1(sx1 + sw / 2 - 13)} y={T + 2} width={26} height={13} rx={3} fill="var(--ink)" />
-          <text x={f1(sx1 + sw / 2)} y={T + 11.5} textAnchor="middle" style={{fill: '#fff', fontSize: '9px', fontWeight: 700}}>{l.num}</text>
+          <text x={f1(sx1 + sw / 2)} y={T + 11.5} textAnchor="middle" style={{fill: 'var(--bg)', fontSize: '9px', fontWeight: 700}}>{l.num}</text>
         </g>
         {m.k === 'gasto' && <GapArea a={S[0].pts} b={S[1].pts} X={X} Y={Y} />}
         {S.map((sr, si) => (
           <g key={si} data-s={si} className={claseSerie(h, si)}>
-            <path d={linePath(sr.pts, m.src, X, Y)} fill="none" stroke={sr.c} strokeWidth={2} strokeDasharray={sr.dash ? '5 4' : undefined} strokeLinejoin="round" strokeLinecap="round" />
+            <path d={linePath(sr.pts, m.src, X, Y)} fill="none" style={{stroke: sr.c}} strokeWidth={2} strokeDasharray={sr.dash ? '5 4' : undefined} strokeLinejoin="round" strokeLinecap="round" />
             {m.src !== 'annual' &&
-              sr.pts.slice(0, m.src === 'step' ? -1 : undefined).map((p, i) => <circle key={i} cx={f1(X(p.x))} cy={f1(Y(p.v))} r={3} fill={sr.c} />)}
-            <circle cx={f1(X(sr.pts.at(-1)!.x))} cy={f1(Y(sr.pts.at(-1)!.v))} r={4.5} fill={sr.c} stroke="var(--bg)" strokeWidth={2} />
+              sr.pts.slice(0, m.src === 'step' ? -1 : undefined).map((p, i) => <circle key={i} cx={f1(X(p.x))} cy={f1(Y(p.v))} r={3} style={{fill: sr.c}} />)}
+            <circle cx={f1(X(sr.pts.at(-1)!.x))} cy={f1(Y(sr.pts.at(-1)!.v))} r={4.5} style={{fill: sr.c}} stroke="var(--bg)" strokeWidth={2} />
           </g>
         ))}
         {ANIOS.map((y) => (

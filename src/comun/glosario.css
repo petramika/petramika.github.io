@@ -10,6 +10,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --g-fondo: #2a2926; --g-fondo-on: #3a3934; --g-raya: #75726c; --g-tip: #ecebe7; --g-tip-texto: #141413; }
 }
+:root[data-theme="dark"] { --g-fondo: #2a2926; --g-fondo-on: #3a3934; --g-raya: #75726c; --g-tip: #ecebe7; --g-tip-texto: #141413; }
 .termino {
   appearance: none; border: 0; margin: 0; padding: 0 3px; border-radius: 4px; cursor: help;
   font: inherit; color: inherit; background: var(--g-fondo);

@@ -12,6 +12,7 @@ import Multi from './Multi';
 import {BarraHistoria, DetalleHistoria, ZoomHistoria, RAIL, RAIL_MOVIL, pintarSiglo, porSiglo, useHistoria, type SigloDatos} from './Cronologia';
 import Tarjeta from './Tarjeta';
 import type {Filosofo, Sexo} from './tipos';
+import BotonTema from '../comun/tema';
 
 const TODOS = LISTA as unknown as Filosofo[];
 const idDeHash = () => decodeURIComponent(location.hash.slice(1));
@@ -262,6 +263,7 @@ export default function App() {
   return (
     <ProveedorGlosario glosario={glosario}>
       <div className="pagina">
+        <BotonTema />
         <header className="cabecera">
           <h1>
             Filosofía <em>comprimida</em>
