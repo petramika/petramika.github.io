@@ -504,8 +504,10 @@ export default function PestanaFuturo() {
               Es el cambio más grande y el que más se nota en la vida de la gente. Cada año se forman más del doble de hogares que casas se construyen, así
               que faltan casas (unas {n0(S.vivienda.deficitBdE.cifra / 1000)} mil desde 2021) y suben los precios y los alquileres mucho más que los sueldos:
               un piso cuesta {n1(aniosU)} años de sueldo y los jóvenes se van de casa a los 30. Las casas vacías están sobre todo en pueblos, lejos del
-              trabajo. Como la población seguirá creciendo, esto solo mejora si se construye mucho más donde vive la gente, y sobre todo vivienda de precio
-              limitado, que casi ha desaparecido.
+              trabajo. Como la población seguirá creciendo, no hay una sola solución, sino varias que suman: construir mucho más donde vive la gente,
+              sobre todo vivienda de precio limitado, que casi ha desaparecido; hacer atractivo vivir en pueblos y ciudades medianas (teletrabajo,
+              servicios, sanidad y colegios cerca); y mejorar el transporte público para que las zonas más baratas queden a un trayecto razonable del
+              trabajo, y que las casas vacías vuelvan a usarse.
             </dd>
           </div>
           <div className="half">
