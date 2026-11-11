@@ -326,9 +326,6 @@ export default function PestanaViolencia() {
           }
         />
       </div>
-      <p className="note" style={{marginTop: 12}}>
-        ¿Con arma blanca o de fuego? No hay estadística oficial: el Ministerio del Interior clasifica los delitos por tipo, no por el arma usada.
-      </p>
       <CuestionesViolencia />
     </section>
   );

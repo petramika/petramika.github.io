@@ -259,18 +259,24 @@ export default function CuestionesViolencia() {
       />
 
       <Cuestion
-        pregunta="¿Hay cada vez más delitos con navaja?"
-        veredicto="No hay datos"
+        pregunta="¿Hay cada vez más delitos con navaja o con armas?"
+        veredicto="No se sabe"
         tono="matiz"
         conclusion={
           <>
-            No hay estadística oficial: el Ministerio del Interior clasifica los delitos por tipo, no por el arma usada. Las cifras que circulan son de
-            casos sueltos o de armas intervenidas, que no dicen cuántos delitos hubo.
+            <b>Nadie publica ese dato.</b> El Ministerio del Interior cuenta los delitos por lo que son (una lesión, un robo, un homicidio) y no por
+            el arma con la que se cometen, así que no hay una cifra oficial de delitos con arma blanca ni con arma de fuego. Lo que se suele citar son
+            casos sueltos de las noticias o las armas que requisa la policía, y ninguna de las dos cosas dice cuántos delitos hubo.
           </>
         }
-        positivo={[<>Los homicidios en España siguen por debajo de la media de la UE.</>]}
+        positivo={[
+          <>Lo más grave, las muertes, no se dispara: España sigue por debajo de la media de la UE en homicidios ({fmt(hom.tasas.ES, 2)} por cada 100.000 habitantes en {E.anio}).</>,
+        ]}
         negativo={[
-          <>Las lesiones registradas han subido un {pct(sube('lesiones'))} desde {DESDE}, y sin datos por arma no se puede saber cuántas fueron con navaja.</>,
+          <>
+            Las lesiones registradas han subido un {pct(sube('lesiones'))} y los robos con violencia o intimidación un {pct(sube('robosViolencia'))} desde{' '}
+            {DESDE}, pero sin el dato del arma no se puede saber cuántos fueron con navaja.
+          </>,
         ]}
       />
 
