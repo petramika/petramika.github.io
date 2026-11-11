@@ -1,8 +1,9 @@
-import {ANNUAL, HAY_CASAS, POB_INMIG, VIV} from '../../datos';
+import {ANNUAL, EMPLEO, HAY_CASAS, MIGRACIONES, POB_INMIG, VIV} from '../../datos';
 import {fmt} from '../../lib/formato';
 import Mini from '../../componentes/graficas/Mini';
 import Barras from '../../componentes/graficas/Barras';
-import Teselas from '../../componentes/graficas/Teselas';
+import Icono from '../../componentes/Icono';
+import TemaPorTema from './TemaPorTema';
 import Info from '../../componentes/Info';
 import {L} from '../../componentes/enlace';
 import DEMO from '../../datos/futuro/demografia.json';
@@ -105,18 +106,28 @@ export default function PestanaFuturo() {
           presión fiscal sube despacio. Pero unos pocos se han desbordado, y casi todos apuntan a lo mismo: <b>un país más viejo, más endeudado, donde
           vivir cuesta mucho más y que necesita a quien llega de fuera para crecer</b>.
         </p>
-        <Teselas
-          list={[
-            [`${n1(anios['1987'])} → ${n1(aniosU)}`, `años de sueldo para comprar un piso (1987 → ${aAnios})`, 'Banco de España e INE'],
-            [`${n0(deuda['1986'])} % → ${n0(deudaU)} %`, `deuda pública sobre el PIB (1986 → ${aDeuda}); en 2007 era el ${n0(deuda['2007'])} %`, 'Banco de España'],
-            [`${n0(H.pct65['1986'])} % → ${n0(pct65H)} %`, `población de 65 años o más (1986 → ${aH}); ${n0(P.pct65['2050'])} % en 2050`, 'INE'],
-            [`${n0(H.nacimientos['1976'] / 1000)} mil → ${n0(nacU / 1000)} mil`, `nacimientos al año (1976 → ${aNac})`, 'INE'],
-            [`${n1(fuera['1981'])} % → ${n1(fueraU)} %`, `población nacida fuera de España (1981 → ${aFuera})`, 'INE'],
-            [`${n0(vpo['1986'] / 1000)} mil → ${n0(vpoU / 1000)} mil`, `viviendas protegidas al año (1986 → ${aVpo})`, 'Ministerio de Vivienda'],
-            [`${n0(term['2006'] / 1000)} mil → ${n0(ult(term)[1] / 1000)} mil`, `viviendas terminadas al año (2006 → ${ult(term)[0]})`, 'Ministerio de Vivienda'],
-            [`${n0(ratioUE['2000'])} % → ${n0(ult(ratioUE)[1])} %`, `renta por habitante de España sobre la media de la UE (2000 → ${ult(ratioUE)[0]})`, 'Eurostat'],
-          ]}
-        />
+        <div className="tiles">
+          {[
+            {k: 'viv', tema: 'Vivienda', fila: [`${n1(anios['1987'])} → ${n1(aniosU)}`, `años de sueldo para comprar un piso (1987 → ${aAnios})`, 'Banco de España e INE'] as const},
+            {k: 'imp', tema: 'Economía e impuestos', fila: [`${n0(deuda['1986'])} % → ${n0(deudaU)} %`, `deuda pública sobre el PIB (1986 → ${aDeuda}); en 2007 era el ${n0(deuda['2007'])} %`, 'Banco de España'] as const},
+            {k: 'pen', tema: 'Pensiones', fila: [`${n0(H.pct65['1986'])} % → ${n0(pct65H)} %`, `población de 65 años o más (1986 → ${aH}); ${n0(P.pct65['2050'])} % en 2050`, 'INE'] as const},
+            {k: 'soc', tema: 'Servicios sociales', fila: [`${n0(H.nacimientos['1976'] / 1000)} mil → ${n0(nacU / 1000)} mil`, `nacimientos al año (1976 → ${aNac})`, 'INE'] as const},
+            {k: 'der', tema: 'Derechos y sociedad', fila: [`${n1(fuera['1981'])} % → ${n1(fueraU)} %`, `población nacida fuera de España (1981 → ${aFuera})`, 'INE'] as const},
+            {k: 'viv', tema: 'Vivienda', fila: [`${n0(vpo['1986'] / 1000)} mil → ${n0(vpoU / 1000)} mil`, `viviendas protegidas al año (1986 → ${aVpo})`, 'Ministerio de Vivienda'] as const},
+            {k: 'viv', tema: 'Vivienda', fila: [`${n0(term['2006'] / 1000)} mil → ${n0(ult(term)[1] / 1000)} mil`, `viviendas terminadas al año (2006 → ${ult(term)[0]})`, 'Ministerio de Vivienda'] as const},
+            {k: 'imp', tema: 'Economía e impuestos', fila: [`${n0(ratioUE['2000'])} % → ${n0(ult(ratioUE)[1])} %`, `renta por habitante de España sobre la media de la UE (2000 → ${ult(ratioUE)[0]})`, 'Eurostat'] as const},
+          ].map(({k, tema, fila: [v, txt, src]}) => (
+            <div key={txt} className="tile">
+              <span className="fut-pill">
+                <Icono k={k} size={14} />
+                {tema}
+              </span>
+              <span className="big num">{v}</span>
+              <span>{txt}</span>
+              <span className="srcl">{src}</span>
+            </div>
+          ))}
+        </div>
         <dl className="cuenta">
           <div className="ok">
             <dt>Lo que casi no se mueve</dt>
@@ -481,6 +492,8 @@ export default function PestanaFuturo() {
         </div>
       </div>
 
+      <TemaPorTema />
+
       <div className="box" id="fut-lectura" style={{marginTop: 22}}>
         <h3>
           Lo que yo leo en todo esto{' '}
@@ -496,6 +509,30 @@ export default function PestanaFuturo() {
               En 2050 casi uno de cada tres tendrá 65 años o más, y habrá {n0(P.dependencia['2050'])} mayores por cada 100 en edad de trabajar. Pensiones,
               sanidad y cuidados van a costar bastante más, y eso no depende de quién gobierne. La discusión de verdad es cómo se paga: más años trabajando,
               más cotizaciones, más inmigración o pensiones algo menores.
+              <span className="fut-sol-intro">Qué se puede hacer, además de que llegue gente de fuera:</span>
+              <span className="fut-sol">
+                {[
+                  ['soc', 'Que nazcan más niños', `Hoy hay ${fmt(H.fecundidad['2024'], 2)} hijos por mujer. Ayudan los permisos, la escuela de 0 a 3 años gratis, las ayudas por hijo y, sobre todo, la vivienda: quien se va de casa a los ${n0(ult(VIV.edad as Serie)[1])} años tiene hijos tarde y menos.`],
+                  ['trab', 'Que trabaje más gente', `Trabajan el ${n0(ult(EMPLEO.m as Serie)[1])} % de las mujeres y el ${n0(ult(EMPLEO.h as Serie)[1])} % de los hombres en edad de trabajar, y el paro sigue en torno al 10 %. Cada persona más trabajando es una más que cotiza.`],
+                  ['pen', 'Trabajar más años, si se quiere', 'Jubilación flexible y poder cobrar parte de la pensión mientras se trabaja; ligar la edad de jubilación a cuánto se vive.'],
+                  ['imp', 'Ahorro para la jubilación además de la pública', 'Planes de pensiones de empresa, como en Países Bajos o Suecia: la pensión pública sigue siendo la base y se suma un ahorro propio.'],
+                  ['eco', 'Producir más por persona', 'Con menos trabajadores por jubilado, solo se pagan buenas pensiones si cada uno produce y gana más: formación, inversión y tecnología, también la IA.'],
+                  ['eur', 'Que vuelvan los que se fueron', `Hay ${fmt(ult(MIGRACIONES.espanolesExterior as Serie)[1] / 1e6, 1)} millones de españoles viviendo fuera; ${n0(ult(MIGRACIONES.espanolesExteriorNacidosEspana as Serie)[1] / 1000)} mil nacieron en España.`],
+                  ['san', 'Envejecer con salud', 'Prevención y cuidados en casa: más años con buena salud significan más gente que puede seguir activa y menos gasto en hospitales.'],
+                ].map(([k, tit, txt]) => (
+                  <span key={tit} className="fut-sol-c">
+                    <span className="fut-sol-t">
+                      <Icono k={k} size={16} />
+                      {tit}
+                    </span>
+                    <span>{txt}</span>
+                  </span>
+                ))}
+              </span>
+              <span className="fut-sol-intro">
+                Ninguna basta sola y casi todas tardan años en notarse. Sin inmigración, la población bajaría igualmente: las proyecciones del INE ya
+                cuentan con que lleguen cientos de miles de personas al año.
+              </span>
             </dd>
           </div>
           <div className="ko">
