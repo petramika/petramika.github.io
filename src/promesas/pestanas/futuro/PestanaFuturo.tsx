@@ -1,4 +1,4 @@
-import {ANNUAL, POB_INMIG, VIV} from '../../datos';
+import {ANNUAL, HAY_CASAS, POB_INMIG, VIV} from '../../datos';
 import {fmt} from '../../lib/formato';
 import Mini from '../../componentes/graficas/Mini';
 import Barras from '../../componentes/graficas/Barras';
@@ -299,12 +299,25 @@ export default function PestanaFuturo() {
           x0={2005.5}
           yMin={0}
           note={
-            <p>
-              En 2006 se terminaron {n0(term['2006'])} viviendas; desde 2014 no se pasa de unas 100.000 al año. Mientras, cada año hay más de 200.000 hogares
-              nuevos. Según el Banco de España, desde 2021 faltan unas {n0(S.vivienda.deficitBdE.cifra)} viviendas para los hogares que se han formado. Con
-              la población creciendo por la inmigración, la diferencia va a más si no se construye más, y es lo que más empuja el precio: hoy un piso
-              cuesta {n1(aniosU)} años de sueldo, frente a {n1(anios['1987'])} en 1987.
-            </p>
+            <>
+              <p>
+                <b>El problema, en sencillo:</b> cada año hay muchos más hogares nuevos que casas nuevas. Hogares nuevos son parejas que se independizan,
+                gente que se separa, personas mayores que viven solas y familias que llegan de fuera: más de 200.000 al año. Casas nuevas se terminan unas
+                90.000 o 100.000 al año, cuando en 2006 se terminaron {n0(term['2006'])}. Desde 2021, según el Banco de España, faltan unas{' '}
+                {n0(S.vivienda.deficitBdE.cifra)} viviendas.
+              </p>
+              <p>
+                <b>Qué pasa cuando faltan casas:</b> muchos buscan y hay pocas, así que suben los precios de compra y de alquiler. Los sueldos no suben igual:
+                en 1987 un piso costaba {n1(anios['1987'])} años de sueldo y hoy {n1(aniosU)}. Por eso la gente se independiza tarde (a los{' '}
+                {n0(VIV.edad[ult(VIV.edad as Serie)[0]])} años de media) y solo el {n1(ult(VIV.emanc as Serie)[1])} % de los jóvenes de 16 a 29 años vive fuera
+                de casa de sus padres.
+              </p>
+              <p>
+                <b>¿Y las casas vacías?</b> Hay {fmt(HAY_CASAS.censo2021.vacias / 1e6, 1)} millones (censo de 2021), pero casi la mitad (
+                {n0(HAY_CASAS.censo2021.vaciasPorTamano.menos10000.vacias)} %) está en pueblos de menos de 10.000 habitantes, lejos de donde está el trabajo.
+                Y la vivienda protegida, la que tiene precio limitado, casi ha desaparecido: de {n0(vpo['1986'])} al año en 1986 a {n0(vpoU)} en {aVpo}.
+              </p>
+            </>
           }
           src={
             <>
@@ -369,21 +382,33 @@ export default function PestanaFuturo() {
         />
         <div className="chart" id="fut-recesiones">
           <div className="chead">
-            <h3>Las recesiones desde 1970</h3>
+            <h3>
+              Las recesiones desde 1970{' '}
+              <Info titulo="Las recesiones desde 1970">
+                <dl className="cuenta">
+                  {(C.recesiones as any[]).map((r) => (
+                    <div key={r.nombre} className="half">
+                      <dt>
+                        {r.nombre} ({r.inicio}–{r.fin})
+                      </dt>
+                      <dd>
+                        {r.caidaPIB != null ? `El PIB cayó un ${fmt(-r.caidaPIB, 1)} %.` : 'Sin dato publicado de la caída del PIB.'}
+                        {r.paroMax ? ` Paro máximo: ${fmt(r.paroMax.valor, 1)} % (${r.paroMax.periodo}).` : ''}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+                <p className="srcl">
+                  Fuente: {L('Comité de Fechado del Ciclo Económico de la AEE', 'https://www.asesec.org/CFCweb/')}; paro: INE (EPA) y Banco Mundial.
+                </p>
+              </Info>
+            </h3>
           </div>
-          <dl className="cuenta">
-            {(C.recesiones as any[]).map((r) => (
-              <div key={r.nombre} className="half">
-                <dt>
-                  {r.nombre} ({r.inicio}–{r.fin})
-                </dt>
-                <dd>
-                  {r.caidaPIB != null ? `El PIB cayó un ${fmt(-r.caidaPIB, 1)} %.` : 'Sin dato publicado de la caída del PIB.'}
-                  {r.paroMax ? ` Paro máximo: ${fmt(r.paroMax.valor, 1)} % (${r.paroMax.periodo}).` : ''}
-                </dd>
-              </div>
-            ))}
-          </dl>
+          <p className="note">
+            {(C.recesiones as any[]).length} recesiones en 50 años: dos con las crisis del petróleo de los setenta, la de 1992–93, la de 2008–2013 en dos
+            fases y la de la pandemia. La más larga, la de 2010–2013: el paro llegó al 26,9 %. La más brusca, la de 2020: el PIB cayó un 22 % en medio año,
+            pero se recuperó deprisa. Pulsa (i) para verlas una a una.
+          </p>
         </div>
       </div>
 
@@ -434,15 +459,25 @@ export default function PestanaFuturo() {
         />
         <div className="chart" id="fut-ia-efectos">
           <div className="chead">
-            <h3>Lo que se ha visto hasta ahora</h3>
+            <h3>
+              Lo que se ha visto hasta ahora{' '}
+              <Info titulo="Lo que se ha visto hasta ahora">
+                <ul className="fut-lista">
+                  {(I.efectosObservados as any[]).map((e) => (
+                    <li key={e.fuente}>
+                      <b>{e.fuente.split(/[,(']/)[0].trim()}</b> ({String(e.fecha).slice(0, 7)}): {e.resumen}{' '}
+                      {e.url && <a href={e.url} target="_blank" rel="noopener">Fuente ↗</a>}
+                    </li>
+                  ))}
+                </ul>
+              </Info>
+            </h3>
           </div>
-          <ul className="fut-lista">
-            {(I.efectosObservados as any[]).map((e) => (
-              <li key={e.fuente}>
-                <b>{e.fuente.split(/[,(']/)[0].trim()}</b> ({String(e.fecha).slice(0, 7)}): {e.resumen}
-              </li>
-            ))}
-          </ul>
+          <p className="note">
+            De momento, ni en España ni en Europa hay despidos por la IA: casi 9 de cada 10 empresas que la usan dicen que no ha cambiado su plantilla, y
+            las que más la usan contratan algo más. La única señal clara viene de Estados Unidos: en los trabajos más expuestos se contrata menos a los
+            jóvenes de 22 a 25 años. Pulsa (i) para ver cada estudio.
+          </p>
         </div>
       </div>
 
@@ -466,9 +501,11 @@ export default function PestanaFuturo() {
           <div className="ko">
             <dt>Ya está aquí: la vivienda</dt>
             <dd>
-              Es el cambio más grande y el que más se nota en la vida de la gente: {n1(aniosU)} años de sueldo por un piso, una edad de emancipación que no
-              baja y unas {n0(S.vivienda.deficitBdE.cifra / 1000)} mil viviendas de menos desde 2021. Con la población creciendo por la inmigración, solo
-              mejora si se construye mucho más, sobre todo vivienda protegida, que ha caído casi un 90 %.
+              Es el cambio más grande y el que más se nota en la vida de la gente. Cada año se forman más del doble de hogares que casas se construyen, así
+              que faltan casas (unas {n0(S.vivienda.deficitBdE.cifra / 1000)} mil desde 2021) y suben los precios y los alquileres mucho más que los sueldos:
+              un piso cuesta {n1(aniosU)} años de sueldo y los jóvenes se van de casa a los 30. Las casas vacías están sobre todo en pueblos, lejos del
+              trabajo. Como la población seguirá creciendo, esto solo mejora si se construye mucho más donde vive la gente, y sobre todo vivienda de precio
+              limitado, que casi ha desaparecido.
             </dd>
           </div>
           <div className="half">
