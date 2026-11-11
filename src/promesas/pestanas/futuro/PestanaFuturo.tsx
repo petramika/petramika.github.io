@@ -196,7 +196,7 @@ export default function PestanaFuturo() {
     ['trab', 'Que trabaje más gente', `Trabajan el ${n0(mU)} % de las mujeres y el ${n0(ult(EMPLEO.h as Serie)[1])} % de los hombres en edad de trabajar, y el paro sigue en torno al 10 %. Cada persona más trabajando es una más que cotiza.`],
     ['pen', 'Trabajar más años, si se quiere', 'Jubilación flexible y poder cobrar parte de la pensión mientras se trabaja; ligar la edad de jubilación a cuánto se vive.'],
     ['imp', 'Ahorro para la jubilación además de la pública', 'Planes de pensiones de empresa, como en Países Bajos o Suecia: la pensión pública sigue siendo la base y se suma un ahorro propio.'],
-    ['eco', 'Producir más por persona', 'Con menos trabajadores por jubilado, solo se pagan buenas pensiones si cada uno produce y gana más: formación, inversión y tecnología, también la IA.'],
+    ['eco', 'Producir más por persona', 'Con menos trabajadores por jubilado, las pensiones dependen de que cada uno produzca y gane más. La tecnología ayuda, pero también sustituye puestos: solo sirve si lo que se gana llega a sueldos y cotizaciones.'],
     ['eur', 'Que vuelvan los que se fueron', `Hay ${fmt(ult(MIGRACIONES.espanolesExterior as Serie)[1] / 1e6, 1)} millones de españoles viviendo fuera; ${n0(ult(MIGRACIONES.espanolesExteriorNacidosEspana as Serie)[1] / 1000)} mil nacieron en España.`],
     ['san', 'Envejecer con salud', 'Prevención y cuidados en casa: más años con buena salud significan más gente que puede seguir activa y menos gasto en hospitales.'],
   ];
@@ -272,7 +272,10 @@ export default function PestanaFuturo() {
       hacer: [
         <>Ahorrar en los años buenos para tener margen en la próxima crisis.</>,
         <>Revisar en qué se gasta y qué funciona, además de recaudar mejor.</>,
-        <>Crecer por productividad: formación, inversión y tecnología. Con más PIB, la misma deuda pesa menos.</>,
+        <>
+          Crecer por productividad: empresas más grandes, menos papeleo, formación e inversión. Con más PIB, la misma deuda pesa menos, siempre que la mejora
+          no se quede solo en beneficios y llegue también a sueldos.
+        </>,
       ],
       extra: (
         <p className="note">
@@ -372,8 +375,22 @@ export default function PestanaFuturo() {
         ...(funcas ? [<>Previsión de Funcas: pérdida neta de unos {n0(-funcas.cifra / 1000)} mil empleos entre 2025 y 2035.</>] : []),
       ],
       hacer: [
-        <>Formación profesional ligada a lo que piden las empresas, y reciclaje para quien pierde su tarea por la IA.</>,
-        <>Más inversión en tecnología para que cada empleo produzca y pague más.</>,
+        <>
+          <strong>Formar mejor, no solo más.</strong> España tiene muchos universitarios en trabajos que no piden su título y le faltan técnicos: más FP dual
+          (en la empresa) y reciclaje a lo largo de la vida, para quien cambia de trabajo o pierde tareas por la IA.
+        </>,
+        <>
+          <strong>Hacer atractivos los oficios que faltan:</strong> construcción, campo, cuidados, transporte. Cuesta encontrar gente porque son duros, pagan poco o
+          son temporales; atrae más subir sueldos, dar estabilidad y seguridad y prestigiarlos que obligar a nadie.
+        </>,
+        <>
+          <strong>Buenas condiciones también sin título:</strong> no todo empleo necesita estudios largos, pero todos necesitan un sueldo digno, horarios
+          razonables y contrato estable.
+        </>,
+        <>
+          <strong>Tecnología, con cuidado:</strong> hace que cada empleo produzca más, pero también sustituye puestos. Sirve si lo que se gana llega a sueldos,
+          jornada y cotizaciones, y si quien pierde su puesto tiene a dónde ir.
+        </>,
         <>Conciliación (horarios, escuela de 0 a 3 años) para que trabaje quien quiera.</>,
       ],
       graficas: (
