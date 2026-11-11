@@ -12,6 +12,7 @@ export const PESTANAS = [
   ['economia', 'Economía'],
   ['vivienda', 'Vivienda'],
   ['inmigracion', 'Inmigración'],
+  ['sanidad', 'Sanidad'],
   ['violencia', 'Violencia'],
   ['medios', 'Medios'],
 ] as const;

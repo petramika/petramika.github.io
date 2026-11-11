@@ -13,6 +13,7 @@ import PestanaVivienda from './pestanas/vivienda/PestanaVivienda';
 import PestanaInmigracion from './pestanas/inmigracion/PestanaInmigracion';
 import PestanaMedios from './pestanas/medios/PestanaMedios';
 import PestanaViolencia from './pestanas/violencia/PestanaViolencia';
+import PestanaSanidad from './pestanas/sanidad/PestanaSanidad';
 import BotonTema from '../comun/tema';
 
 // Partidos lleva medio mega de programas: se descarga solo al abrir la pestaña
@@ -54,6 +55,7 @@ function Contenido({tab}: {tab: ReturnType<typeof useEstado>['tab']}) {
         {tab === 'economia' && <PestanaEconomia />}
         {tab === 'vivienda' && <PestanaVivienda />}
         {tab === 'inmigracion' && <PestanaInmigracion />}
+        {tab === 'sanidad' && <PestanaSanidad />}
         {tab === 'violencia' && <PestanaViolencia />}
         {tab === 'medios' && <PestanaMedios />}
         {tab === 'futuro' && (

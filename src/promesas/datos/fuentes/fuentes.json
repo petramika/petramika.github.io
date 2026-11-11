@@ -1642,6 +1642,101 @@
       ]
     },
     {
+      "seccion": "Sanidad",
+      "bloques": [
+        {
+          "dato": "Cobertura sanitaria: pública, privada o las dos",
+          "detalle": "Porcentaje de la población según su cobertura en cada Encuesta de Salud con el reparto completo: ENS 2003, 2006, 2011/12 y 2017; EESE 2014 y 2020 (solo mayores de 15 años); ESdE 2023 y 2025. Los mutualistas (MUFACE, ISFAS, MUGEJU) sin otro seguro cuentan como «solo la pública»; en 2003, la única ola que los publica aparte, se suman a esa categoría. Hasta 2001 las encuestas preguntaban de otra forma (respuesta múltiple, adultos y niños por separado) y no se comparan.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Sanidad, Encuesta Nacional de Salud",
+              "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/encuestaNacional/home.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Encuesta Europea de Salud en España 2020",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?tpx=47937",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE y Ministerio de Sanidad, Encuesta de Salud de España 2025",
+              "url": "https://www.ine.es/",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Gasto sanitario público y privado",
+          "detalle": "Gasto corriente en salud según el Sistema de Cuentas de Salud (OCDE), % del PIB, por habitante y parte pública, 1986–2024 (privado desde 1991); pago directo y seguros voluntarios. Media de la UE de Eurostat desde 2014. La serie de la OCDE tiene cambios de método en 1999 y 2003.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "OCDE, Health Expenditure and Financing (SHA)",
+              "url": "https://data-explorer.oecd.org/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, hlth_sha11_hf",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_sha11_hf/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Listas de espera",
+          "detalle": "Lista de espera quirúrgica (pacientes, días de media, % de más de seis meses) y de primera consulta con el especialista (días de media, % de más de 60 días), cortes de diciembre de 2003 a 2025. Junio de 2012 es el primer corte con todas las comunidades; en diciembre de 2018 Andalucía cambia la forma de contar.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Sanidad, SISLE-SNS",
+              "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Opinión: Barómetro Sanitario",
+          "detalle": "Satisfacción con el sistema sanitario público (1 a 10) desde 2002; opinión sobre si funciona bien (suma de «funciona bastante bien» y «bien con algunos cambios») desde 1997; listas de espera que empeoran desde 2000; días de espera para el médico de cabecera desde 2018. Sin barómetro en 2001, 2020 y 2021; en 2022 pasa a entrevistas telefónicas y se repondera. La serie del CIS sobre la sanidad como problema de España no está publicada en su web actual.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Sanidad y CIS, Barómetro Sanitario",
+              "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/BarometroSanitario/home_BS.htm",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Médicos, enfermeras, camas y plazas MIR",
+          "detalle": "Médicos y enfermeras en activo por 100.000 habitantes (Eurostat; no publica media de la UE); médicos colegiados con 65 años o más y mujeres (INE, colegiados incluye jubilados); camas de hospital por 100.000 habitantes y por titularidad (Eurostat); plazas MIR de cada convocatoria 2010–2026 (BOE).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, hlth_rs_prs2",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_rs_prs2/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Eurostat, hlth_rs_bds1 y hlth_rs_bds2",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_rs_bds1/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Estadística de Profesionales Sanitarios Colegiados",
+              "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176781&menu=resultados&idp=1254735573175",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "BOE, convocatorias MIR",
+              "url": "https://www.boe.es/",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "seccion": "Violencia",
       "bloques": [
         {
