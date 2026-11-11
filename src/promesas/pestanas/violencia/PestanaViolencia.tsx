@@ -203,6 +203,30 @@ export default function PestanaViolencia() {
       <h3 style={{marginTop: 22}}>Violencia sexual</h3>
       <div className="charts" id="charts-vio-sexual">
         <Estimado />
+        <Edad />
+        <Barras
+          id="vio-agresores"
+          title="¿Quién viola?"
+          sub="relación del agresor con la mujer violada fuera de la pareja, % (Macroencuesta 2024)"
+          series={[{lab: 'Agresores', c: COL.sexMujeres}]}
+          filas={Object.entries(M.agresoresViolacion as Record<string, number>).map(([lab, v]) => ({lab, vals: [v]}))}
+          f={pctF}
+          max={100}
+          note={
+            <>
+              <p>
+                El {fmt(M.violadas, 1)} % de las mujeres de 16 años o más ha sido violada fuera de la pareja alguna vez. En casi 9 de cada 10 casos el
+                agresor era alguien que conocía: amigos, conocidos o familiares. Solo el {fmt(M.agresoresViolacion.Desconocidos, 0)} % fueron
+                desconocidos.
+              </p>
+              <p>
+                Solo se denunció el {fmt(M.denunciaViolaciones, 1)} % de las violaciones; el {fmt(M.contaronAAlguien, 1)} % de las víctimas de violencia
+                sexual fuera de la pareja se lo contó a alguien. A esto se suman las violaciones dentro de la pareja, que la encuesta cuenta aparte.
+              </p>
+            </>
+          }
+          src={L('Ministerio de Igualdad, Macroencuesta de Violencia contra la Mujer 2024', MACRO24)}
+        />
         <dl className="cuenta" id="vio-registrado-claves" style={{gridColumn: '1 / -1', marginTop: 0}}>
           <div>
             <dt>Más víctimas mujeres que hombres</dt>
@@ -229,30 +253,6 @@ export default function PestanaViolencia() {
             </dd>
           </div>
         </dl>
-        <Edad />
-        <Barras
-          id="vio-agresores"
-          title="¿Quién viola?"
-          sub="relación del agresor con la mujer violada fuera de la pareja, % (Macroencuesta 2024)"
-          series={[{lab: 'Agresores', c: COL.sexMujeres}]}
-          filas={Object.entries(M.agresoresViolacion as Record<string, number>).map(([lab, v]) => ({lab, vals: [v]}))}
-          f={pctF}
-          max={100}
-          note={
-            <>
-              <p>
-                El {fmt(M.violadas, 1)} % de las mujeres de 16 años o más ha sido violada fuera de la pareja alguna vez. En casi 9 de cada 10 casos el
-                agresor era alguien que conocía: amigos, conocidos o familiares. Solo el {fmt(M.agresoresViolacion.Desconocidos, 0)} % fueron
-                desconocidos.
-              </p>
-              <p>
-                Solo se denunció el {fmt(M.denunciaViolaciones, 1)} % de las violaciones; el {fmt(M.contaronAAlguien, 1)} % de las víctimas de violencia
-                sexual fuera de la pareja se lo contó a alguien. A esto se suman las violaciones dentro de la pareja, que la encuesta cuenta aparte.
-              </p>
-            </>
-          }
-          src={L('Ministerio de Igualdad, Macroencuesta de Violencia contra la Mujer 2024', MACRO24)}
-        />
       </div>
 
       <h3 style={{marginTop: 22}}>Abortos</h3>
