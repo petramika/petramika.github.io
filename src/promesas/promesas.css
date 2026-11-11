@@ -592,3 +592,9 @@ body{margin:0}[hidden]{display:none!important}img{max-width:100%}
 .era .statlegend{margin-top:0;color:#D0D4DA}
 .era .statlegend b{color:#fff}
 .era .stack{gap:2px}
+
+/* Puerta a la pestaña escondida: el año final de la cabecera, sin aspecto de botón */
+.puerta{appearance:none;background:none;border:0;padding:0;font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;cursor:text}
+.puerta:hover{cursor:pointer}
+.puerta:focus-visible{outline:1px dotted currentColor;outline-offset:2px}
+.fut-lista{margin:8px 0 0;padding-left:1.1em;display:grid;gap:8px;font-size:13px;line-height:1.45}

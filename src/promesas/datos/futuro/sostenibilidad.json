@@ -1,0 +1,430 @@
+{
+ "generado": "2026-11-11",
+ "deuda": {
+  "fmi": {
+   "edicion": "IMF World Economic Outlook, October 2026 (datamapper last-modified 2026-10-08); indicador GGXWDG_NGDP deuda bruta AAPP % PIB",
+   "url": "https://www.imf.org/external/datamapper/GGXWDG_NGDP@WEO/ESP",
+   "api": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/ESP",
+   "serie": {
+    "2019": 97.6,
+    "2020": 119.2,
+    "2021": 115.6,
+    "2022": 109.2,
+    "2023": 105.2,
+    "2024": 101.4,
+    "2025": 100.5,
+    "2026": 97.6,
+    "2027": 95.2,
+    "2028": 93.2,
+    "2029": 92.0,
+    "2030": 90.7,
+    "2031": 89.4
+   },
+   "historico": {
+    "2000": 57.8,
+    "2007": 35.7,
+    "2013": 100.0,
+    "2014": 104.4
+   },
+   "saldoAAPP_pctPIB": {
+    "2024": -3.2,
+    "2025": -2.4,
+    "2026": -2.4,
+    "2027": -2.3,
+    "2028": -2.2,
+    "2029": -2.2,
+    "2030": -2.1,
+    "2031": -2.1
+   },
+   "notas": "2025 en adelante = proyecciones FMI (2025 puede ser estimación). Senda descendente: 100,5% (2025) -> 89,4% (2031). Deuda incluye pasivos GFSM (puede diferir algo de deuda PDE)."
+  },
+  "airef": {
+   "documento": "AIReF, Opinión sobre la sostenibilidad de las AAPP a largo plazo (2ª opinión, 31/03/2025), escenario a políticas constantes",
+   "url": "https://www.airef.es/wp-content/uploads/2025/03/Opini%C3%B3n_sobre_la_sostenibilidad_de_las_AAPP_largo_plazo/Opinion.pdf",
+   "urlEN": "https://www.airef.es/wp-content/uploads/2025/03/Opini%C3%B3n_sobre_la_sostenibilidad_de_las_AAPP_largo_plazo/AIReF.-Opinion-on-the-Long-term-Sustainability-of-General-Government.-Demography-and-Climate-Change.pdf",
+   "notaPrensa": "https://www.airef.es/wp-content/uploads/2025/03/Informe_regla_de_gasto_de_pensiones/Nota-de-prensa.pdf",
+   "serie": {
+    "2050": 129,
+    "2070": 181
+   },
+   "escenarios": {
+    "desfavorable": {
+     "2050": 143,
+     "2070": 215
+    },
+    "favorable": {
+     "2050": 116,
+     "2070": 153
+    },
+    "conAjusteFiscal_aprox3,2pp_2025_2040": {
+     "2050": 62,
+     "2070": "51-52"
+    }
+   },
+   "opinionAnterior2023": {
+    "2050": 147,
+    "2070": 186,
+    "url": "https://www.airef.es/wp-content/uploads/2023/03/OPINI%C3%93N-SOSTENIBILIDAD/230324.-Opinio%CC%81n-sostenibilidad-largo-plazo-AAPP.-Incidencia-demografi%CC%81a.-web.pdf"
+   },
+   "estudioReglaPensiones_mayo2026": {
+    "url": "https://www.airef.es/wp-content/uploads/2026/05/Pensiones/AIReF.-Estudio-de-evaluacion-de-la-regla-de-gasto-de-pensiones.pdf",
+    "fecha": "2026-05-29",
+    "deuda2050": 123,
+    "nota": "deuda 123% PIB en 2050 a políticas constantes (cifra vía resumen de búsqueda/prensa, no leída en el PDF)"
+   },
+   "notas": "airef.es sirve una cadena TLS incompleta: no pude descargar los PDF. Cifras leídas en los extractos del índice de búsqueda sobre documentos de airef.es (nota de prensa 31/03/2025 y opinión). Verificar en el PDF antes de publicar. Déficit ~7% PIB 2050 y 7,7% 2070 (vía prensa)."
+  },
+  "comision": {
+   "edicion": "European Commission, Debt Sustainability Monitor 2025 (Institutional Paper 332, 12/02/2026), ficha España, escenario baseline (sin nuevas medidas tras 2026)",
+   "url": "https://economy-finance.ec.europa.eu/publications/debt-sustainability-monitor-2025_en",
+   "datos": "https://economy-finance.ec.europa.eu/document/download/19852ffb-d8c5-4d47-a402-aa6179dc8051_en?filename=DSM%202025%20country%20fiches%20tables%20and%20graphs.xlsx",
+   "serie": {
+    "2024": 101.65,
+    "2025": 100.03,
+    "2026": 98.21,
+    "2027": 97.27,
+    "2028": 96.59,
+    "2029": 96.83,
+    "2030": 97.31,
+    "2031": 97.84,
+    "2032": 99.03,
+    "2033": 100.64,
+    "2034": 102.66,
+    "2035": 105.08,
+    "2036": 107.72
+   },
+   "escenarios2036": {
+    "baseline": 107.72,
+    "SPB_historico": 113.29,
+    "SPB_menor": 112.89,
+    "r-g_adverso": 116.33,
+    "estres_financiero": 108.95
+   },
+   "saldoPrimario": {
+    "2024": -0.78,
+    "2025": 0.02,
+    "2026": 0.5,
+    "2030": -0.91,
+    "2036": -2.18
+   },
+   "costeEnvejecimientoAcum_vs2026": {
+    "2030": 0.6,
+    "2036": 2.0,
+    "deElloPensiones2036": 1.8
+   },
+   "riesgo": {
+    "medioPlazo": "ALTO",
+    "largoPlazo_S1_S2": "MEDIO",
+    "S1": 4.79,
+    "S2": 5.07
+   },
+   "probabilidadDeuda2030>2025": 0.42,
+   "notas": "Mínimo en 2028 (96,6%), luego sube por envejecimiento e intereses. DSM 2024 proyectaba 114,9% en 2035 (ver misma hoja)."
+  },
+  "intereses": {
+   "comisionDSM2025_gasto_intereses_pctPIB": {
+    "2024": 2.43,
+    "2025": 2.54,
+    "2026": 2.58,
+    "2027": 2.62,
+    "2028": 2.71,
+    "2029": 2.8,
+    "2030": 2.91,
+    "2031": 3.04,
+    "2032": 3.18,
+    "2033": 3.36,
+    "2034": 3.55,
+    "2035": 3.77,
+    "2036": 3.97
+   },
+   "comisionDSM2025_tipoImplicito_pct": {
+    "2024": 2.46,
+    "2030": 3.11,
+    "2036": 3.91
+   },
+   "fmi_historico_interesesPagados_pctPIB": {
+    "fuente": "IMF Public Finances in Modern History Database (Dec 2025), indicador 'ie'",
+    "url": "https://www.imf.org/external/datamapper/ie@FPP/ESP",
+    "serie": {
+     "2000": 3.24,
+     "2007": 1.61,
+     "2013": 3.58,
+     "2014": 3.51,
+     "2019": 2.26,
+     "2021": 2.12,
+     "2024": 2.45
+    }
+   },
+   "fmi_interesesNetos_implicitos_pctPIB": {
+    "fuente": "Calculado: saldo primario (Fiscal Monitor Oct 2026, GGXONLB_G01_GDP_PT) menos saldo total (WEO Oct 2026). Son intereses NETOS (pagados menos cobrados).",
+    "serie": {
+     "2024": 1.8,
+     "2025": 1.9,
+     "2026": 2.2,
+     "2027": 2.2,
+     "2028": 2.3,
+     "2029": 2.4,
+     "2030": 2.3,
+     "2031": 2.3
+    }
+   },
+   "notas": "Serie principal: Comisión (gasto bruto en intereses). 2,4% PIB hoy -> ~4% en 2036."
+  }
+ },
+ "pensiones": {
+  "ageingReport2024": {
+   "url": "https://economy-finance.ec.europa.eu/publications/2024-ageing-report-economic-and-budgetary-projections-eu-member-states-2022-2070_en",
+   "datos": "https://economy-finance.ec.europa.eu/document/download/e248db46-f876-4e72-8821-efae678e81ea_en?filename=2024_Ageing_Report-Statistical_annex_all_countryfiches.xlsx (hoja ESb)",
+   "fecha": "2024-04-18",
+   "indicador": "Public pensions, gross, % PIB (baseline)",
+   "serie": {
+    "2022": 13.09,
+    "2025": 13.72,
+    "2030": 14.33,
+    "2035": 15.45,
+    "2040": 16.2,
+    "2045": 16.92,
+    "2050": 17.28,
+    "2051": 17.29,
+    "2052": 17.29,
+    "2055": 17.19,
+    "2060": 16.86,
+    "2065": 16.62,
+    "2070": 16.7
+   },
+   "pico": {
+    "anio": "2051-2052",
+    "valor": 17.29
+   },
+   "ratioSoporte_cotizantesPor100pensionistas": {
+    "2022": 236.73,
+    "2030": 222.65,
+    "2040": 180.94,
+    "2050": 146.18,
+    "2060": 138.1,
+    "2070": 137.35
+   },
+   "pensionistasPublicos_miles": {
+    "2022": 9984.3,
+    "2030": 11136.79,
+    "2050": 15604.97
+   },
+   "tasaDependenciaVejez_65+/20-64": {
+    "2022": 33.31,
+    "2050": 63.85,
+    "2070": 64.47
+   },
+   "tasaBeneficio_pct": {
+    "2022": 64.05,
+    "2050": 56.49
+   },
+   "notas": "Incluye la reforma 2021-2023 (revalorización con IPC). +4,2 pp PIB 2022-2050. Proyección oficial del Comité de Política Económica (AWG)."
+  },
+  "airef": {
+   "documento": "AIReF, Opinión sostenibilidad AAPP largo plazo + Informe regla de gasto de pensiones (31/03/2025)",
+   "url": "https://www.airef.es/wp-content/uploads/2025/03/Informe_regla_de_gasto_de_pensiones/Informe.pdf",
+   "serie": {
+    "2023": 12.9,
+    "2050": 16.1,
+    "2070": 14.7
+   },
+   "pico": {
+    "anio": 2049,
+    "valor": "16,3 (según página EN de airef.es; no verificado en el PDF)"
+   },
+   "aumento2023_2050_pp": 3.4,
+   "reglaGasto": {
+    "gastoNetoMedio2022_2050_informe2025": 13.2,
+    "estudioMayo2026": 13.0,
+    "umbral": 13.3,
+    "conclusion": "Se cumple formalmente pero no garantiza la sostenibilidad (AIReF 29/05/2026)",
+    "urlEstudio2026": "https://www.airef.es/wp-content/uploads/2026/05/Pensiones/AIReF.-Estudio-de-evaluacion-de-la-regla-de-gasto-de-pensiones.pdf"
+   },
+   "notas": "Cifras vía extractos del índice de búsqueda de airef.es (TLS impidió descarga). El estudio de mayo 2026 cita gasto ~16,3-16,4% PIB en 2050 con nuevas proyecciones de población de Eurostat (no verificado)."
+  },
+  "afiliadosPorPensionista": {
+   "2025-10": {
+    "afiliadosMedios": 21839592,
+    "pensionesContributivas": 10397372,
+    "pensionistas": 9405352,
+    "afiliadosPorPension": 2.1,
+    "afiliadosPorPensionista": 2.32,
+    "fuentes": [
+     "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2025/041125-afiliacion-seguridad-social-octubre.aspx",
+     "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2025/281025-pensiones-octubre.aspx"
+    ]
+   },
+   "2026-10": {
+    "afiliadosMedios": 22624165,
+    "pensionesContributivas": 10565782,
+    "pensionistas": "cerca de 9,6 millones",
+    "afiliadosPorPension": 2.14,
+    "afiliadosPorPensionista": "~2,36",
+    "nominaMensual_MEUR": 14540,
+    "pensionMedia_EUR": 1376.1,
+    "fuentes": [
+     "https://revista.seg-social.es/-/afiliacion-octubre-2026 (04/11/2026)",
+     "https://revista.seg-social.es/-/la-pension-media-del-sistema-de-la-seguridad-social-alcanza-los-1.376-1-euros-en-octubre-un-4-6-mas-alta-que-hace-un-ano (27/10/2026)"
+    ]
+   },
+   "proyeccionAgeingReport": "ver ageingReport2024.ratioSoporte (2,37 en 2022 -> 1,46 en 2050 -> 1,37 en 2070; cotizantes/pensionistas, definición AWG)",
+   "notas": "Ratios calculados por mí con cifras oficiales del mismo mes (afiliados medios / pensiones contributivas en nómina). No hallé una serie histórica oficial de la ratio (2007, 2013) legible por máquina; la Seguridad Social no publica la ratio directamente."
+  }
+ },
+ "vivienda": {
+  "deficitBdE": {
+   "cifra": 750000,
+   "anio": "acumulado 2021-2025",
+   "fecha": "2026-06-18",
+   "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/Fich/IIPP-2026-06-18-lopez-salido-es-or.pdf",
+   "texto": "El diferencial acumulado desde 2021 asciende a unas 750.000 viviendas (diapositiva 29, presentación del Informe Anual 2025, David López Salido). Calculado como viviendas residenciales terminadas menos creación neta de hogares residentes, 2021-2025. Equivale a -3,9% de los hogares promedio (Portugal -7%, Países Bajos -4,7%, Italia -1,5%, Francia -0,02%, Alemania +0,5%).",
+   "estimacionesAnteriores": {
+    "InformeAnual2023": {
+     "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf",
+     "texto": "~375.000 en 2022-2023 + >225.000 adicionales en 2024-2025 (~600.000) — vía extracto de búsqueda, no leído en el PDF"
+    },
+    "2024": "400.000-450.000 acumulado 2022-2024 (intervenciones públicas BdE 2024, vía extracto de búsqueda)"
+   }
+  },
+  "terminadas": {
+   "fuente": "Ministerio de Vivienda y Agenda Urbana, Boletín Online: Tabla 3.2 viviendas libres terminadas (32201000.XLS, 'datos estimados') + Tabla 1.6 calificaciones definitivas de vivienda protegida, planes estatales y autonómicos (31306000.XLS); ficheros guardados 15/09/2026",
+   "urls": [
+    "https://apps.fomento.gob.es/BoletinOnline2/sedal/32201000.XLS",
+    "https://apps.fomento.gob.es/BoletinOnline2/sedal/31306000.XLS"
+   ],
+   "total": {
+    "2006": 658510,
+    "2007": 647179,
+    "2013": 60289,
+    "2014": 50428,
+    "2019": 78810,
+    "2020": 87504,
+    "2021": 94728,
+    "2022": 89545,
+    "2023": 89320,
+    "2024": 100980,
+    "2025": 93650
+   },
+   "libres": {
+    "2006": 597632,
+    "2007": 579665,
+    "2013": 43230,
+    "2014": 35382,
+    "2019": 71562,
+    "2020": 77531,
+    "2021": 84091,
+    "2022": 79935,
+    "2023": 80473,
+    "2024": 86609,
+    "2025": 80792
+   },
+   "protegidas": {
+    "2006": 60878,
+    "2007": 67514,
+    "2013": 17059,
+    "2014": 15046,
+    "2019": 7248,
+    "2020": 9973,
+    "2021": 10637,
+    "2022": 9610,
+    "2023": 8847,
+    "2024": 14371,
+    "2025": 12858
+   },
+   "notas": "total = libres + protegidas; coincide con la nota del Ministerio de 23/05/2025 (100.980 en 2024; 89.320 en 2023). Máximo 2006: 658.510; mínimo 2014: 50.428. La nota de prensa de 2025 citaba 11.104 protegidas en 2025; la tabla actual da 12.858 (revisión)."
+  },
+  "hogaresNuevos": {
+   "fuente": "INE, Estadística Continua de Población: número de hogares a 1 de enero (provisional)",
+   "urls": [
+    "https://www.ine.es/dyngs/Prensa/ECP2T26.htm (06/08/2026; 2023-2026)",
+    "https://www.ine.es/dyngs/Prensa/ECP4T23.htm (2021-2022)"
+   ],
+   "hogares1enero": {
+    "2021": 18539223,
+    "2022": 18821499,
+    "2023": 19103050,
+    "2024": 19314630,
+    "2025": 19521046,
+    "2026": 19762059,
+    "2026-07-01": 19874860
+   },
+   "aumentoAnual": {
+    "2021": 282276,
+    "2022": 281019,
+    "2023": 211580,
+    "2024": 206416,
+    "2025": 241013
+   },
+   "terminadasMenosHogaresNuevos": {
+    "2021": -187548,
+    "2022": -191474,
+    "2023": -122260,
+    "2024": -105436,
+    "2025": -147363
+   },
+   "acumulado2021_2025": {
+    "hogaresNuevos": 1222304,
+    "terminadas": 468223,
+    "diferencia": -754081
+   },
+   "notas": "Cálculo propio; 2021-2022 de la versión ECP4T23 (2022: 19.102.518 a 1/1/2023 en esa versión), 2023-2025 de ECP2T26. El acumulado (~-754.000) cuadra con los ~750.000 del BdE."
+  }
+ },
+ "salarios": {
+  "pibPerCapitaReal": {
+   "fuente": "Eurostat sdg_08_10, PIB real per cápita, volúmenes encadenados 2020, EUR (actualizado 05/11/2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/sdg_08_10/default/table",
+   "ES": {
+    "2000": 22930,
+    "2007": 25990,
+    "2013": 23310,
+    "2019": 26930,
+    "2024": 27820,
+    "2025": 28260
+   },
+   "UE27": {
+    "2000": 25610,
+    "2007": 29140,
+    "2013": 28700,
+    "2019": 32310,
+    "2024": 33850,
+    "2025": 34250
+   },
+   "crecimiento2000_2024_pct": {
+    "ES": 21.3,
+    "UE27": 32.2
+   },
+   "notas": "España 2024-2025 provisional. ES/UE: 89,5% en 2000 -> 82,2% en 2024 (en euros constantes, no PPS)."
+  },
+  "pibPerCapitaPPS_UE100": {
+   "fuente": "Eurostat tec00114 (índice volumen per cápita PPS, UE27=100; actualizado 09/07/2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/tec00114/default/table",
+   "ES": {
+    "2014": 90,
+    "2019": 90,
+    "2020": 82,
+    "2024": 91,
+    "2025": 92
+   },
+   "notas": "Serie solo desde 2014 en esta tabla."
+  },
+  "salariosReales": "No buscado (opcional); sin dato."
+ },
+ "fuentes": [
+  "IMF WEO Oct 2026 datamapper: https://www.imf.org/external/datamapper/GGXWDG_NGDP@WEO/ESP",
+  "IMF Fiscal Monitor Oct 2026 primary balance: https://www.imf.org/external/datamapper/GGXONLB_G01_GDP_PT@FM/ESP",
+  "European Commission DSM 2025 (12/02/2026): https://economy-finance.ec.europa.eu/publications/debt-sustainability-monitor-2025_en",
+  "European Commission 2024 Ageing Report (18/04/2024): https://economy-finance.ec.europa.eu/publications/2024-ageing-report-economic-and-budgetary-projections-eu-member-states-2022-2070_en",
+  "AIReF Opinión sostenibilidad AAPP largo plazo (31/03/2025): https://www.airef.es/wp-content/uploads/2025/03/Opini%C3%B3n_sobre_la_sostenibilidad_de_las_AAPP_largo_plazo/Opinion.pdf",
+  "AIReF Estudio regla de gasto de pensiones (29/05/2026): https://www.airef.es/wp-content/uploads/2026/05/Pensiones/AIReF.-Estudio-de-evaluacion-de-la-regla-de-gasto-de-pensiones.pdf",
+  "Seguridad Social afiliación oct 2026 (04/11/2026): https://revista.seg-social.es/-/afiliacion-octubre-2026",
+  "Seguridad Social pensiones oct 2026 (27/10/2026): https://revista.seg-social.es/-/la-pension-media-del-sistema-de-la-seguridad-social-alcanza-los-1.376-1-euros-en-octubre-un-4-6-mas-alta-que-hace-un-ano",
+  "Banco de España, presentación Informe Anual 2025 (18/06/2026): https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/Fich/IIPP-2026-06-18-lopez-salido-es-or.pdf",
+  "MIVAU Boletín Online, viviendas libres terminadas: https://apps.fomento.gob.es/BoletinOnline2/sedal/32201000.XLS",
+  "MIVAU Boletín Online, calificaciones definitivas VP: https://apps.fomento.gob.es/BoletinOnline2/sedal/31306000.XLS",
+  "Moncloa/MIVAU nota 23/05/2025 (100.980 terminadas 2024): https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/230525-compraventa-construccion-vivienda-2024.aspx",
+  "INE ECP 2T 2026 (06/08/2026): https://www.ine.es/dyngs/Prensa/ECP2T26.htm",
+  "Eurostat sdg_08_10: https://ec.europa.eu/eurostat/databrowser/view/sdg_08_10/default/table"
+ ],
+ "notas": "Todas las cifras leídas de la fuente indicada (ficheros XLS/XLSX/JSON oficiales descargados o páginas oficiales) salvo AIReF y las estimaciones BdE anteriores a 2026, que vienen de extractos del buscador sobre documentos oficiales (airef.es no se pudo descargar por cadena TLS incompleta). Ratios, totales de viviendas y diferencias hogares-viviendas calculados a partir de cifras oficiales. FMI e CE difieren: FMI ve deuda bajando a 89,4% en 2031 (supone consolidación según plan), CE baseline sin nuevas medidas tras 2026 la ve subir desde 2029 hasta 107,7% en 2036; AIReF a políticas constantes 129% en 2050 y 181% en 2070."
+}

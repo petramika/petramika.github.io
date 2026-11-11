@@ -15,9 +15,11 @@ export const PESTANAS = [
   ['violencia', 'Violencia'],
   ['medios', 'Medios'],
 ] as const;
-export type Pestana = (typeof PESTANAS)[number][0];
+/** Pestañas que no salen en la barra: solo se llega por su enlace o por su puerta escondida */
+export const OCULTAS = [['futuro', 'Lo que viene']] as const;
+export type Pestana = (typeof PESTANAS)[number][0] | (typeof OCULTAS)[number][0];
 
-const OTRAS = PESTANAS.map(([id]) => '#' + id).filter((h) => h !== '#global');
+const OTRAS = [...PESTANAS, ...OCULTAS].map(([id]) => '#' + id).filter((h) => h !== '#global');
 
 type Estado = {
   tab: Pestana;

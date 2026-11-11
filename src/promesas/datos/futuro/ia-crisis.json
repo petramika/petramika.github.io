@@ -1,0 +1,405 @@
+{
+ "ia": {
+  "exposicion": [
+   {
+    "fuente": "FMI, Staff Discussion Note SDN/2024/001 'Gen-AI: Artificial Intelligence and the Future of Work' (Cazzaniga et al.)",
+    "fecha": "2024-01-14",
+    "url": "https://www.imf.org/en/Publications/staff-discussion-notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+    "ambito": "economías avanzadas",
+    "dato": "Empleo en ocupaciones de alta exposición a la IA en economías avanzadas (~la mitad podría verse afectada negativamente, el resto beneficiarse)",
+    "cifra": 60
+   },
+   {
+    "fuente": "FMI, SDN/2024/001",
+    "fecha": "2024-01-14",
+    "url": "https://www.imf.org/en/Publications/staff-discussion-notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+    "ambito": "economías avanzadas",
+    "dato": "Alta exposición y alta complementariedad (la IA potencia al trabajador) — economía avanzada media",
+    "cifra": 27
+   },
+   {
+    "fuente": "FMI, SDN/2024/001",
+    "fecha": "2024-01-14",
+    "url": "https://www.imf.org/en/Publications/staff-discussion-notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+    "ambito": "economías avanzadas",
+    "dato": "Alta exposición y baja complementariedad (riesgo de sustitución) — economía avanzada media",
+    "cifra": 33
+   },
+   {
+    "fuente": "FMI, SDN/2024/001",
+    "fecha": "2024-01-14",
+    "url": "https://www.imf.org/en/Publications/staff-discussion-notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+    "ambito": "mundo",
+    "dato": "Empleo mundial expuesto a la IA",
+    "cifra": 40
+   },
+   {
+    "fuente": "OCDE, Job Creation and Local Economic Development 2024: The Geography of Generative AI — Country Note Spain",
+    "fecha": "2024-11",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/job-creation-and-local-economic-development-2024-country-notes_65d489c5/spain_29232eed/ca8409d1-en.pdf",
+    "ambito": "España",
+    "dato": "Trabajadores expuestos a IA generativa (>=20% de tareas podrían hacerse en la mitad de tiempo); OCDE 26%; rango 19,6% Castilla-La Mancha a 36,6% Madrid. Datos 2022",
+    "cifra": 27.4
+   },
+   {
+    "fuente": "OCDE, Job Creation and Local Economic Development 2024 — Country Note Spain",
+    "fecha": "2024-11",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/job-creation-and-local-economic-development-2024-country-notes_65d489c5/spain_29232eed/ca8409d1-en.pdf",
+    "ambito": "España",
+    "dato": "Trabajadores en alto riesgo de automatización (>25% de habilidades automatizables, tecnologías a finales de 2021); OCDE 12%; rango 1,5% Canarias a 11,2% La Rioja",
+    "cifra": 5.9
+   },
+   {
+    "fuente": "OCDE, Employment Outlook 2023 — nota país España",
+    "fecha": "2023-07-11",
+    "url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/spain_ea6f5f6f.html",
+    "ambito": "España",
+    "dato": "Empleo en ocupaciones de alto riesgo de automatización considerando todas las tecnologías incluida la IA (OCDE 27%). Leído vía extracto de búsqueda: la web OCDE bloquea descarga directa",
+    "cifra": 28
+   },
+   {
+    "fuente": "OIT, Working Paper 140 'Generative AI and Jobs: A Refined Global Index of Occupational Exposure' (Gmyrek et al.)",
+    "fecha": "2025-05-20",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "ambito": "mundo",
+    "dato": "Empleo mundial en ocupaciones con alguna exposición a IA generativa (34% en países de renta alta; 3,3% en el gradiente máximo). Sin cifra para España en la página; la OIT dice que el impacto más probable es la transformación de empleos",
+    "cifra": 25
+   },
+   {
+    "fuente": "OIT, Working Paper 140",
+    "fecha": "2025-05-20",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "ambito": "economías avanzadas",
+    "dato": "Empleo expuesto a IA generativa en países de renta alta",
+    "cifra": 34
+   },
+   {
+    "fuente": "BBVA Research, 'Spain: AI, from job exposure to productivity'",
+    "fecha": "2026-09-21",
+    "url": "https://www.bbvaresearch.com/en/publicaciones/spain-ai-from-job-exposure-to-productivity/",
+    "ambito": "España",
+    "dato": "Empleo en grupos de exposición media-alta y alta a la IA: 'algo más del 30%' (cifra aproximada); >40% de titulados superiores frente a 15% con secundaria o menos",
+    "cifra": 30
+   },
+   {
+    "fuente": "Funcas, F. Rodríguez Fernández, 'Artificial intelligence and the labor market in Spain: Occupational exposure and estimated effects on employment', SEFO vol. 15 n.º 3",
+    "fecha": "2026-05",
+    "url": "https://www.funcas.es/articulos/artificial-intelligence-and-the-labor-market-in-spain-occupational-exposure-and-estimated-effects-on-employment/",
+    "ambito": "España",
+    "dato": "PROYECCIÓN 2025-2035 (no observado): desplazamiento bruto 1,7-2,3 millones de empleos (central 2,0 M), creación 1,61 M, pérdida neta ~400.000 en escenario base; ~3,1 M trabajadores se beneficiarían (complementariedad)",
+    "cifra": -400000
+   }
+  ],
+  "adopcionEmpresasINE": {
+   "2023": 9.6,
+   "2024": 12.4,
+   "2025": 21.1,
+   "2026": 33.6
+  },
+  "adopcionEmpresasINE_meta": {
+   "definicion": "% de empresas de 10 o más empleados que emplean tecnologías de IA, primer trimestre del año. Encuesta sobre el uso de TIC y del comercio electrónico en las empresas (INE)",
+   "fuentes": {
+    "2024": "https://www.ine.es/dyngs/Prensa/ETICCE20231T2024.htm (21-10-2024): 12,4%, +2,8 puntos",
+    "2025": "https://www.ine.es/dyngs/Prensa/ETICCE20241T2025.htm (22-10-2025): 21,1%, +8,7 puntos; servicios 25,7%; empresas <10 empleados 13,4%",
+    "2026": "https://www.ine.es/dyngs/Prensa/ETICCE20251T2026.htm (02-10-2026): 33,6%"
+   },
+   "avisos": [
+    "2023 (9,6%) derivado: 12,4 menos 2,8 puntos que indica la nota de 2024, no leído en la nota de 2023",
+    "2026 no estrictamente comparable: el INE pasa a CNAE-2025 e incluye la división 56 y el grupo 95.1"
+   ]
+  },
+  "encuestasBancoEspana": [
+   {
+    "fuente": "Banco de España, Boletín Económico 2025/T2 art. 06 (Izquierdo, Fernández Cerezo, Hidalgo), EBAE 4T2024",
+    "fecha": "2025-05-07",
+    "url": "https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/boletin-economico/2025t2-articulo-06-la-adopcion-de-la-inteligencia-artificial-en-las-empresas-espanolas-un-primer-analisis-basado-en-la-ebae.html",
+    "resumen": "Casi el 20% de las empresas encuestadas usan IA; el 80% cree que la IA no afectará al empleo; las que ya la usan esperan impacto positivo"
+   }
+  ],
+  "efectosObservados": [
+   {
+    "fuente": "Banco de España, Blog (Jacob Hess), EBAE 1T2026",
+    "fecha": "2026-10-28",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/blog/asi-adoptan-la-ia-las-empresas-espanolas-como-ven-el-impacto-actual-y-a-futuro.html",
+    "resumen": "España, observado (declarado por empresas): cerca del 89% de las empresas que usan IA no observa efectos significativos en el empleo en los últimos tres años; ~6% aumentó plantilla y ~6% la redujo. Expectativas a 3 años: ~24% de grandes empresas prevé reducir empleo frente a ~18% que prevé aumentarlo; pymes ~8-9% en ambos sentidos. Uso de IA: ~70% grandes, 30-35% pymes"
+   },
+   {
+    "fuente": "BBVA Research, 'Spain: AI, from job exposure to productivity'",
+    "fecha": "2026-09-21",
+    "url": "https://www.bbvaresearch.com/en/publicaciones/spain-ai-from-job-exposure-to-productivity/",
+    "resumen": "España, observado: el empleo crece desde 2022 en los cuatro grupos de exposición, más en los de exposición media-alta y alta; 'hasta ahora no se observa relación negativa entre exposición a la IA y empleo' (demasiado pronto para conclusiones causales)"
+   },
+   {
+    "fuente": "BBVA Research (Rafael Doménech), 'España: IA y empleo, señales tempranas de ajuste'",
+    "fecha": "2026-05-11",
+    "url": "https://www.bbvaresearch.com/publicaciones/espana-ia-y-empleo-senales-tempranas-de-ajuste/",
+    "resumen": "España, observado: programación informática, telecomunicaciones y servicios de información redujeron su empleo un 6,4% en el último año; el sector financiero (alta exposición) creció un 10,3% interanual. Señal temprana, no atribución causal"
+   },
+   {
+    "fuente": "BCE, Blog (Lebastard y Sondermann), 'Artificial Intelligence: friend or foe for hiring in Europe today?', encuesta SAFE ~5.000 empresas",
+    "fecha": "2026-03-04",
+    "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260304~d9e34fc95f.en.html",
+    "resumen": "Zona euro, observado: empresas con uso intensivo de IA ~4% más probabilidad de contratar; las que invierten en IA ~2%; solo el 15% usa IA para reducir costes laborales (ese grupo sí contrata menos y despide más, pero es pequeño). Efecto neutro en grandes empresas"
+   },
+   {
+    "fuente": "Stanford Digital Economy Lab, Brynjolfsson, Chandar y Chen, 'Canaries in the Coal Mine' (revisión ago-2026, datos nómina ADP hasta jun-2026)",
+    "fecha": "2026-08-12",
+    "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+    "resumen": "EE. UU., observado (descriptivo, no causal): el empleo de 22-25 años en ocupaciones muy expuestas a la IA está ~19% por debajo de donde estaría si siguiera a sus pares menos expuestos (15% en jul-2025); sin caída para trabajadores con más experiencia; ajuste vía menos contratación de jóvenes, no más despidos; 'no vemos desplazamiento de empleo generalizado en toda la economía'"
+   },
+   {
+    "fuente": "Yale Budget Lab (Gimbel, Kinder, Kendall, Lee), 'Evaluating the Impact of AI on the Labor Market: Current State of Affairs'",
+    "fecha": "2025-10-01",
+    "url": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
+    "resumen": "EE. UU., observado: el mercado laboral no ha sufrido una disrupción apreciable 33 meses después de ChatGPT; las medidas de exposición, automatización y aumento no muestran relación con cambios en empleo o paro"
+   },
+   {
+    "fuente": "Humlum y Vestergaard, 'Large Language Models, Small Labor Market Effects', NBER WP 33777 (Dinamarca, 25.000 trabajadores, 7.000 empresas)",
+    "fecha": "2025-05",
+    "url": "https://ideas.repec.org/p/nbr/nberwo/33777.html",
+    "resumen": "Dinamarca, observado: efectos nulos precisos de los chatbots de IA en salarios y horas en 11 ocupaciones expuestas; intervalos de confianza descartan efectos medios >1%; ahorro de tiempo medio ~3%. Leído vía resumen/búsqueda; versión 2026 retitulada 'Still Waters, Rapid Currents' (RFBerlin DP 078/26) no revisada"
+   }
+  ]
+ },
+ "crisis": {
+  "recesiones": [
+   {
+    "nombre": "Crisis del petróleo (1.ª)",
+    "inicio": "1974T4",
+    "fin": "1975T2",
+    "caidaPIB": null,
+    "paroMax": null,
+    "duracionTrimestres": 2,
+    "fuente": "AEE, Comité de Fechado del Ciclo Económico Español"
+   },
+   {
+    "nombre": "Crisis del petróleo (2.ª)",
+    "inicio": "1978T3",
+    "fin": "1979T2",
+    "caidaPIB": null,
+    "paroMax": {
+     "valor": 21.64,
+     "periodo": "1985 (anual)",
+     "nota": "el paro siguió subiendo tras la recesión hasta 1985",
+     "fuente": "Banco Mundial SL.UEM.TOTL.NE.ZS (estimación nacional)"
+    },
+    "duracionTrimestres": 3,
+    "fuente": "AEE, Comité de Fechado del Ciclo Económico Español"
+   },
+   {
+    "nombre": "Crisis europea (SME 1992-93)",
+    "inicio": "1992T1",
+    "fin": "1993T3",
+    "caidaPIB": -2.5,
+    "caidaPIB_nota": "'aproximadamente 2,5%' según nota AEE de 2015, que fechaba el valle en 1993T2; la tabla actual lo sitúa en 1993T3",
+    "paroMax": {
+     "valor": 24.21,
+     "periodo": "1994 (anual)",
+     "fuente": "Banco Mundial SL.UEM.TOTL.NE.ZS; OCDE armonizado desestacionalizado: 22,2% en 1994T1 (FRED LRHUTTTTESQ156S)"
+    },
+    "duracionTrimestres": 6,
+    "fuente": "AEE, Comité de Fechado; nota 'La Crisis Europea' (2015)"
+   },
+   {
+    "nombre": "Gran Recesión (1.ª fase, crisis financiera global)",
+    "inicio": "2008T2",
+    "fin": "2009T4",
+    "caidaPIB": -4.6,
+    "caidaPIB_nota": "AEE (dic-2016). Con datos Eurostat actuales (namq_10_gdp CLV10, SCA): -4,2% pico-valle fechado; mínimo en 2009T1 (-4,4%)",
+    "paroMax": null,
+    "duracionTrimestres": 6,
+    "fuente": "AEE, nota 'La Crisis Financiera Global y la doble recesión en España' (dic-2016)"
+   },
+   {
+    "nombre": "Gran Recesión (2.ª fase, crisis de deuda)",
+    "inicio": "2010T4",
+    "fin": "2013T2",
+    "caidaPIB": -5.5,
+    "caidaPIB_nota": "AEE 'aproximadamente 5,5%'. Con datos Eurostat actuales: -5,0%",
+    "paroMax": {
+     "valor": 26.94,
+     "periodo": "2013T1",
+     "fuente": "INE EPA, serie EPA815"
+    },
+    "duracionTrimestres": 12,
+    "fuente": "AEE, nota dic-2016"
+   },
+   {
+    "nombre": "Recesión Covid-19",
+    "inicio": "2019T4",
+    "fin": "2020T2",
+    "caidaPIB": -22.1,
+    "caidaPIB_nota": "AEE (2022). Con datos Eurostat actuales: -22,0%. 2020T1 -5,4% y 2020T2 -17,7% intertrimestral según la nota AEE",
+    "paroMax": {
+     "valor": 16.26,
+     "periodo": "2020T3",
+     "nota": "contenido por los ERTE (no cuentan como parados)",
+     "fuente": "INE EPA, serie EPA815"
+    },
+    "duracionTrimestres": 2,
+    "fuente": "AEE, nota 'El valle de la recesión derivada de la crisis sanitaria' (2022)"
+   }
+  ],
+  "recesiones_nota": "Fechas pico-valle de la AEE (pico = 'inicio', valle = 'fin'; ambos incluidos en la duración). La AEE no fecha ninguna recesión después de 2020T2. Caídas de 1974-75 y 1978-79 no localizadas en fuente legible (nota AEE de las crisis del petróleo con fuente PDF ilegible); el PIB anual creció 0,5% en 1975 y 0,0% en 1979 (Banco Mundial). Paro anual en 1975: 5,0%, 1979: 8,6% (BM, estimación nacional).",
+  "crecimientoPIB": {
+   "1971": 4.65,
+   "1972": 8.15,
+   "1973": 7.79,
+   "1974": 5.62,
+   "1975": 0.54,
+   "1976": 3.3,
+   "1977": 2.84,
+   "1978": 1.46,
+   "1979": 0.04,
+   "1980": 2.21,
+   "1981": -0.13,
+   "1982": 1.25,
+   "1983": 1.77,
+   "1984": 1.78,
+   "1985": 2.32,
+   "1986": 3.25,
+   "1987": 5.55,
+   "1988": 5.09,
+   "1989": 4.83,
+   "1990": 3.78,
+   "1991": 2.55,
+   "1992": 0.93,
+   "1993": -1.03,
+   "1994": 2.38,
+   "1995": 2.76,
+   "1996": 2.61,
+   "1997": 3.59,
+   "1998": 4.3,
+   "1999": 4.41,
+   "2000": 5.2,
+   "2001": 3.92,
+   "2002": 2.76,
+   "2003": 2.94,
+   "2004": 3.11,
+   "2005": 3.55,
+   "2006": 4.04,
+   "2007": 3.53,
+   "2008": 0.77,
+   "2009": -3.77,
+   "2010": 0.09,
+   "2011": -0.64,
+   "2012": -2.87,
+   "2013": -1.43,
+   "2014": 1.52,
+   "2015": 4.06,
+   "2016": 2.92,
+   "2017": 2.9,
+   "2018": 2.4,
+   "2019": 1.96,
+   "2020": -10.94,
+   "2021": 6.68,
+   "2022": 6.37,
+   "2023": 2.46,
+   "2024": 3.46,
+   "2025": 2.82
+  },
+  "crecimientoPIB_meta": "Banco Mundial NY.GDP.MKTP.KD.ZG (PIB real, % anual), última actualización 2026-10-08. Años negativos: 1981 (-0,13), 1993 (-1,03), 2009 (-3,77), 2011 (-0,64), 2012 (-2,87), 2013 (-1,43), 2020 (-10,94)",
+  "paroAnual": {
+   "1970": 1.1,
+   "1971": 1.5,
+   "1972": 1.5,
+   "1973": 2.5,
+   "1974": 3.1,
+   "1975": 5,
+   "1976": 4.88,
+   "1977": 5.2,
+   "1978": 6.97,
+   "1979": 8.61,
+   "1980": 11.4,
+   "1981": 14.17,
+   "1982": 16.02,
+   "1983": 17.49,
+   "1984": 20.25,
+   "1985": 21.64,
+   "1986": 21.26,
+   "1987": 20.61,
+   "1988": 19.85,
+   "1989": 17.33,
+   "1990": 16.27,
+   "1991": 15.93,
+   "1992": 17.7,
+   "1993": 22.16,
+   "1994": 24.21,
+   "1995": 22.68,
+   "1996": 22.14,
+   "1997": 20.7,
+   "1998": 18.67,
+   "1999": 15.47,
+   "2000": 13.79,
+   "2001": 10.35,
+   "2002": 11.15,
+   "2003": 11.28,
+   "2004": 11.09,
+   "2005": 9.15,
+   "2006": 8.45,
+   "2007": 8.23,
+   "2008": 11.25,
+   "2009": 17.86,
+   "2010": 19.86,
+   "2011": 21.39,
+   "2012": 24.79,
+   "2013": 26.09,
+   "2014": 24.44,
+   "2015": 22.06,
+   "2016": 19.64,
+   "2017": 17.22,
+   "2018": 15.26,
+   "2019": 14.1,
+   "2020": 15.53,
+   "2021": 14.91,
+   "2022": 13.03,
+   "2023": 12.18,
+   "2024": 11.34,
+   "2025": 10.5
+  },
+  "paroAnual_meta": "Banco Mundial SL.UEM.TOTL.NE.ZS (estimación nacional, % población activa), actualizado 2026-10-08",
+  "fuentes": [
+   {
+    "nombre": "AEE, Comité de Fechado del Ciclo Económico Español — fechado",
+    "url": "https://www.asesec.org/CFCweb/"
+   },
+   {
+    "nombre": "AEE, archivo histórico del ciclo económico español",
+    "url": "https://www.asesec.org/CFCweb/index.php/archivo-historico-del-ciclo-economico-espanol/"
+   },
+   {
+    "nombre": "AEE, nota 'La Crisis Europea' (2015)",
+    "url": "http://www.asesec.org/CFCweb/wp-content/uploads/2020/04/europa_11Mar2015.pdf"
+   },
+   {
+    "nombre": "AEE, nota 'La Crisis Financiera Global y la doble recesión en España' (dic-2016)",
+    "url": "http://www.asesec.org/CFCweb/wp-content/uploads/2020/04/LaDoble-Recesion_dic2016-1.docx"
+   },
+   {
+    "nombre": "AEE, nota 'El valle de la recesión derivada de la crisis sanitaria' (2022)",
+    "url": "http://www.asesec.org/CFCweb/wp-content/uploads/2022/02/Salida-de-la-recesion-Covid19.pdf"
+   },
+   {
+    "nombre": "Banco Mundial, PIB real % anual España",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=ES"
+   },
+   {
+    "nombre": "Banco Mundial, paro (estimación nacional) España",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS?locations=ES"
+   },
+   {
+    "nombre": "Eurostat namq_10_gdp (PIB trimestral volumen encadenado, SCA)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/namq_10_gdp/default/table"
+   },
+   {
+    "nombre": "INE EPA, tasa de paro serie EPA815",
+    "url": "https://www.ine.es/consul/serie.do?s=EPA815"
+   },
+   {
+    "nombre": "OCDE armonizado vía FRED LRHUTTTTESQ156S",
+    "url": "https://fred.stlouisfed.org/series/LRHUTTTTESQ156S"
+   }
+  ]
+ },
+ "notas": "Exposición ≠ pérdida de empleo: los índices (FMI, OCDE, OIT, BBVA) miden cuántos empleos tienen tareas que la IA podría hacer o acelerar, no despidos. Los efectos observados hasta 2026 son pequeños o nulos en el agregado (BdE: 89% de empresas sin efecto; BCE: más contratación en usuarios intensivos; Yale, Dinamarca: sin disrupción), con señales tempranas localizadas: menos contratación de jóvenes en ocupaciones muy expuestas en EE. UU. (Stanford) y caída del 6,4% del empleo en programación/telecom/información en España (BBVA Research, sin atribución causal). Las expectativas empresariales son más negativas entre grandes empresas (24% prevé recortar). Cifras de distintas fuentes no son comparables entre sí (definiciones distintas: OCDE 28% EO2023 vs 5,9% JCLED2024 por umbrales y tecnologías diferentes). El FMI incluye España en su muestra de 142 países pero no publica en texto la cifra española. No se encontró cifra española en OIT 2025. Banco Mundial 2024-2025 del paro difiere ligeramente de la serie modelada OIT. Fecha de consulta: 2026-11-11."
+}

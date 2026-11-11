@@ -17,6 +17,8 @@ import BotonTema from '../comun/tema';
 
 // Partidos lleva medio mega de programas: se descarga solo al abrir la pestaña
 const PestanaPartidos = lazy(() => import('./pestanas/partidos/PestanaPartidos'));
+// La escondida se descarga solo si alguien la abre
+const PestanaFuturo = lazy(() => import('./pestanas/futuro/PestanaFuturo'));
 
 function Pestanas() {
   const {tab, setTab} = useEstado();
@@ -54,7 +56,22 @@ function Contenido({tab}: {tab: ReturnType<typeof useEstado>['tab']}) {
         {tab === 'inmigracion' && <PestanaInmigracion />}
         {tab === 'violencia' && <PestanaViolencia />}
         {tab === 'medios' && <PestanaMedios />}
+        {tab === 'futuro' && (
+          <Suspense fallback={<Esqueleto />}>
+            <PestanaFuturo />
+          </Suspense>
+        )}
     </>
+  );
+}
+
+/** El año final de la cabecera abre, sin avisar, la pestaña escondida «Lo que viene» */
+function PuertaFuturo({anio}: {anio: number}) {
+  const {setTab} = useEstado();
+  return (
+    <button type="button" className="puerta" onClick={() => setTab('futuro')} aria-label={`${anio}: ¿y después?`}>
+      {anio}
+    </button>
   );
 }
 
@@ -70,7 +87,7 @@ export default function App() {
           <BotonTema />
           <header className="top">
             <div className="eyebrow">
-              Congreso de los Diputados · Legislaturas {PRIMERA.num} a {ULTIMA.num} · {yr(PRIMERA.a)}–{yr(ULTIMA.b)}
+              Congreso de los Diputados · Legislaturas {PRIMERA.num} a {ULTIMA.num} · {yr(PRIMERA.a)}–<PuertaFuturo anio={yr(ULTIMA.b)} />
             </div>
             <h1>España política en datos</h1>
             <p>
