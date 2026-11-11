@@ -55,6 +55,7 @@ import migraciones from './inmigracion/migraciones.json';
 import menores from './inmigracion/menores.json';
 import remesas from './inmigracion/remesas.json';
 import medios from './medios/medios.json';
+import violenciaConsentimiento from './violencia/violencia.json';
 
 /** Un indicador: paro, deuda, salario minimo... `dec` y `suf` dicen como se escribe. */
 export type Indicador = {
@@ -127,3 +128,5 @@ export const MIGRACIONES = migraciones as any;
 export const MENORES = menores as any;
 export const REMESAS = remesas as any;
 export const MEDIA = medios as any;
+/** Víctimas por sexo, agresiones sexuales, abortos y violencia no sexual, 2016–2025 (Interior, Sanidad, Macroencuesta 2019) */
+export const VIOLENCIA = violenciaConsentimiento as any;

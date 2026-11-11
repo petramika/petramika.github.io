@@ -26,7 +26,8 @@ src/promesas/
 ├── estado.tsx           Pestaña y legislatura elegidas (viven en la URL: #economia, #l2004…)
 ├── promesas.css         Estilos de la página
 ├── datos/               Un JSON por tema, por carpetas: comun/, global/, partidos/,
-│                        economia/, vivienda/, inmigracion/, medios/, fuentes/, autora/
+│                        economia/, vivienda/, inmigracion/, medios/, violencia/,
+│                        fuentes/, autora/
 │   └── index.ts         Los reexporta (los de partidos van aparte: se cargan con su pestaña)
 ├── lib/                 Funciones puras: formato de números y fechas, series, constantes
 ├── componentes/         Lo común: (i), etiqueta flotante, punto de fuente, iconos,

@@ -12,7 +12,8 @@ export const PESTANAS = [
   ['economia', 'Economía'],
   ['vivienda', 'Vivienda'],
   ['inmigracion', 'Inmigración'],
-  ['medios', 'Medios e información'],
+  ['violencia', 'Violencia'],
+  ['medios', 'Medios'],
 ] as const;
 export type Pestana = (typeof PESTANAS)[number][0];
 

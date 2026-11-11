@@ -1,7 +1,8 @@
 import {ProveedorGlosario, T} from '../comun/Glosario';
 import Pie from '../comun/Pie';
 import {GLOSARIO} from './datos/glosario';
-import {lazy, Suspense} from 'react';
+import {lazy, Suspense, useDeferredValue} from 'react';
+import Esqueleto from './componentes/Esqueleto';
 import {TipProvider} from './componentes/Tip';
 import {EstadoProvider, PESTANAS, useEstado} from './estado';
 import {LEGS} from './datos';
@@ -11,6 +12,7 @@ import PestanaEconomia from './pestanas/economia/PestanaEconomia';
 import PestanaVivienda from './pestanas/vivienda/PestanaVivienda';
 import PestanaInmigracion from './pestanas/inmigracion/PestanaInmigracion';
 import PestanaMedios from './pestanas/medios/PestanaMedios';
+import PestanaViolencia from './pestanas/violencia/PestanaViolencia';
 import BotonTema from '../comun/tema';
 
 // Partidos lleva medio mega de programas: se descarga solo al abrir la pestaña
@@ -18,6 +20,8 @@ const PestanaPartidos = lazy(() => import('./pestanas/partidos/PestanaPartidos')
 
 function Pestanas() {
   const {tab, setTab} = useEstado();
+  // La pestaña nueva se dibuja en segundo plano: mientras, su esqueleto
+  const vista = useDeferredValue(tab);
   return (
     <>
       <div className="tabs" role="tablist" aria-label="Secciones">
@@ -29,17 +33,27 @@ function Pestanas() {
       </div>
 
       <div id={`tab-${tab}`} role="tabpanel" aria-labelledby={`t-${tab}`}>
+        {vista !== tab && <Esqueleto />}
+        {vista === tab && <Contenido tab={tab} />}
+      </div>
+    </>
+  );
+}
+
+function Contenido({tab}: {tab: ReturnType<typeof useEstado>['tab']}) {
+  return (
+    <>
         {tab === 'global' && <PestanaGlobal />}
         {tab === 'partidos' && (
-          <Suspense fallback={<section style={{borderTop: 0}}><p className="note">Cargando los programas…</p></section>}>
+          <Suspense fallback={<Esqueleto />}>
             <PestanaPartidos />
           </Suspense>
         )}
         {tab === 'economia' && <PestanaEconomia />}
         {tab === 'vivienda' && <PestanaVivienda />}
         {tab === 'inmigracion' && <PestanaInmigracion />}
+        {tab === 'violencia' && <PestanaViolencia />}
         {tab === 'medios' && <PestanaMedios />}
-      </div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 {
   "titulo": "España política en datos — fuentes de los datos",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-11",
   "metodo": [
     "Las cifras están redondeadas. Cuando un dato se toma «en una elección», es el último disponible antes de votar: el mes de la elección para el IPC, el trimestre de la elección para el paro y los años de sueldo para comprar un piso y el último cierre anual para deuda, gasto, impuestos, viviendas y edad de emancipación.",
     "«% conseguido» de cada Gobierno = promesas cumplidas + la mitad de las «a medias», entre todas las evaluadas. Las que siguen en curso no cuentan. Las «presentadas, no aprobadas» cuentan como no cumplidas.",
@@ -1070,7 +1070,7 @@
         },
         {
           "dato": "¿Hay casas para todos?: adultos, hogares y viviendas (2026) y viviendas vacías (censo de 2021)",
-          "detalle": "Personas en viviendas familiares por edad y hogares por tamaño a 1 de julio de 2026 (INE, Estadística Continua de Población, provisional): 41.645.770 adultos, 7.764.106 menores, 19.874.860 hogares, 5.678.769 de una persona. Viviendas: estimación del parque del Ministerio de Vivienda a final de 2025 (27,1 millones). Vacías y de uso esporádico: Censo 2021, el último que las mide (45,0 % de las vacías en municipios de menos de 10.000 habitantes; 10,5 % en los de más de 250.000).",
+          "detalle": "Personas en viviendas familiares por edad y hogares por tamaño a 1 de julio de 2026 (INE, Estadística Continua de Población, provisional): 41.645.770 adultos, 7.764.106 menores, 19.874.860 hogares, 5.678.769 de una persona. Viviendas: estimación del parque del Ministerio de Vivienda a final de 2025 (27,1 millones). Vacías y de uso esporádico: Censo 2021, el último que las mide (45,0 % de las vacías en municipios de menos de 10.000 habitantes; 10,5 % en los de más de 250.000). Reparto de las viviendas por uso en los censos de 1991, 2001, 2011 y 2021 (principales, secundarias o de uso esporádico, vacías y otras). 2001: INE, «España al comienzo del siglo XXI», con la variación desde 1991; 2011: nota de prensa del INE; 2021 se mide con el consumo eléctrico y no se compara del todo. 2022–2026, estimación propia: viviendas del Ministerio de Vivienda a 31 de diciembre del año anterior menos hogares del INE a 1 de enero; lo que queda son vacías, de uso esporádico y otras sin separar, y dentro los pisos turísticos del INE (mayo).",
           "verificado": "sí",
           "fuentes": [
             {
@@ -1091,6 +1091,16 @@
             {
               "nombre": "INE, Censos de Población y Viviendas 2021: hogares y viviendas",
               "url": "https://ine.es/prensa/censo_2021_jun.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Censos de Población y Viviendas 2011 (nota de prensa)",
+              "url": "https://www.ine.es/prensa/np775.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, España al comienzo del siglo XXI: Censo de Población y Viviendas 2001",
+              "url": "https://www.ine.es/prodyser/pubweb/pub_otras/espXXI_completo.pdf",
               "tipo": "oficial"
             }
           ]
@@ -1632,7 +1642,211 @@
       ]
     },
     {
-      "seccion": "Medios e información",
+      "seccion": "Violencia",
+      "bloques": [
+        {
+          "dato": "Víctimas de violencia por tipo, sexo y edad",
+          "detalle": "Victimizaciones registradas por Policía Nacional, Guardia Civil, policías autonómicas y locales, total nacional, 2010–2025: homicidios y tentativas, lesiones, malos tratos en el ámbito familiar, otros contra las personas, robos con violencia o intimidación, agresión sexual y agresión sexual con penetración, por sexo y grupo de edad. Se dejan fuera las víctimas de sexo desconocido. Hasta 2015 «otros contra las personas» incluye las faltas de lesiones y malos tratos, que la reforma del Código Penal de julio de 2015 suprimió.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio del Interior, Sistema Estadístico de Criminalidad, victimizaciones por tipología penal y sexo (tabla 04001)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos4/l0/04001.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio del Interior, Sistema Estadístico de Criminalidad, hechos conocidos por tipología penal (tabla 01001)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos1/l0/01001.px",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Muertes por homicidio desde 1980",
+          "detalle": "Defunciones por la causa «Agresiones (homicidio)» de la lista reducida, por sexo, total nacional, 1980–2024, según los certificados de defunción. En 1999 se pasa de la CIE-9 (E960–E969) a la CIE-10 (X85–Y09): los dos periodos se comparan solo aproximadamente. 2004 incluye a las víctimas del 11-M. No es dato policial.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Defunciones por causas (lista reducida) por sexo y grupos de edad (tabla 7947)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=7947",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Defunciones por causas (lista reducida) por sexo (tabla 9936)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=9936",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "España frente a la media de la UE, 2008–2024",
+          "detalle": "Homicidios, violencia sexual, violaciones y robos registrados por la policía por cada 100.000 habitantes. Media de la UE de cada año: total de delitos entre la población total de los países con dato (cálculo propio); en violencia sexual faltan algunos países los primeros años.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, crim_off_cat",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "¿Es mucha o poca violencia? Tasa y comparación con la UE y el mundo",
+          "detalle": "Tasa: víctimas registradas (Ministerio del Interior) entre la población a 1 de enero (INE), por cada 100.000 habitantes. Comparación: homicidios dolosos, violencia sexual, violaciones y robos registrados por la policía de cada país por cada 100.000 habitantes, 2023 (Eurostat). La media de la UE es el total de delitos entre la población total de los países con dato (cálculo propio con el número de delitos y la tasa de cada país). Nivel bajo, medio o alto: menos del 80 %, entre el 80 % y el 120 % o más del 120 % de esa media (criterio propio). Media mundial y por continentes de homicidios: UNODC, 2021.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Eurostat, Police-recorded offences by offence category (crim_off_cat)",
+              "url": "https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "UNODC, Global Study on Homicide 2023 (nota de prensa)",
+              "url": "https://unodc.org/unodc/press/releases/2023/December/fifty-two-people-lost-their-lives-to-homicide-globally-every-hour-in-2021--says-new-report-from-unodc.html",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Estadística Continua de Población",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56936",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Quién comete la violencia: condenados según su sexo",
+          "detalle": "Delitos de los condenados en sentencia firme según el sexo del condenado: total, lesiones, amenazas y delitos sexuales desde 2007; homicidio, asesinato, trato degradante y violencia y robo con violencia desde 2013 (antes el INE solo publica grupos más amplios). 2007–2012: «Estadística de condenados: Adultos» (tabla 03002 de cada año), misma fuente (Registro Central de Penados) y misma unidad; 2012 y 2013 empalman sin salto. Desde 2015 se cuentan también los delitos leves (antes faltas). Violencia de género y doméstica: condenados desde 2015, denunciados y víctimas con orden de protección desde 2011.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Estadística de la Población Condenada Adulta, delitos según sexo (tabla 25998)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=25998",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Violencia de género: condenados (tabla 28196)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28196",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Violencia doméstica: condenados por sexo (tabla 28401)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28401",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Violencia doméstica: denunciados por sexo (tabla 28338)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28338",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Estadística de condenados: Adultos 2007–2012 (tabla 03002)",
+              "url": "https://www.ine.es/jaxi/Tabla.htm?path=/t18/p466/a2012/l0/&file=03002.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Violencia doméstica: condenados por sexo (tabla 34969)",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=34969",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Detenidos e investigados extranjeros y casos resueltos",
+          "detalle": "Porcentaje de detenciones e investigados de nacionalidad extranjera en cada tipo de delito (tabla 03005 entre tabla 03001), y hechos esclarecidos entre hechos conocidos (tabla 02001 entre 01001), 2025. Población extranjera: INE, a 1 de enero.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio del Interior, detenciones e investigados por tipología penal (tabla 03001)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos3/l0/03001.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio del Interior, detenciones e investigados extranjeros por tipología penal y sexo (tabla 03005)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos3/l0/03005.px",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio del Interior, hechos esclarecidos por tipología penal (tabla 02001)",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/files/_px/es/px/Datos2/l0/02001.px",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Violencia en la pareja y la familia, y asesinatos en la pareja",
+          "detalle": "Las mismas series que la pestaña Global: víctimas con orden de protección o medidas cautelares (INE) y víctimas mortales en la pareja (CGPJ).",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "INE, Estadística de Violencia Doméstica y Violencia de Género",
+              "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28195",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "CGPJ, informe de víctimas mortales de la violencia de género y doméstica 2025",
+              "url": "https://www.poderjudicial.es/stfls/SALA%20DE%20PRENSA/DOCUMENTOS%20DE%20INTERES/Informe%20Muertes%20Violencia%20de%20G%C3%A9nero%20y%20Dom%C3%A9stica%202025.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Abortos y método anticonceptivo",
+          "detalle": "Interrupciones voluntarias del embarazo notificadas, 1986–2024, y tasa por 1.000 mujeres de 15 a 44 años desde 1987, de las tablas de evolución de los informes del Ministerio de Sanidad (1990, 2000, 2004, 2014 y 2024); 1986, del informe provisional de ese año. 1987–1989 no incluyen Cataluña. Cuando dos informes dan cifras distintas para un año se usa la más reciente. Método anticonceptivo: 1986–1989 y 2011–2024 (entre medias no se pregunta). El INE no publica esta estadística. La coerción reproductiva no se mide en España: las cifras de comparación son de estudios de Estados Unidos.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "Ministerio de Sanidad, informes IVE anteriores (1986–2023)",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/embarazo/anterioresIVEs.htm",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Sanidad, IVE 2024",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/embarazo/docs/IVE_2024.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Miller y otros, «Pregnancy coercion, intimate partner violence and unintended pregnancy», Contraception (2010)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442065/table/T3",
+              "tipo": "académica"
+            }
+          ]
+        },
+        {
+          "dato": "Violencia sexual que no se denuncia, y quién viola",
+          "detalle": "Macroencuesta de Violencia contra la Mujer 2024 (11.894 entrevistas): 14,5 % de las mujeres de 16 años o más ha sufrido violencia sexual fuera de la pareja, 7,4 % en la infancia, 3,1 % ha sido violada; denuncia el 4,9 % de la violencia sexual fuera de la pareja (9,9 % de las violaciones); agresores de las violaciones: 62,7 % amigos o conocidos, 23,1 % familiares, 12 % desconocidos; violencia en la pareja: 30,3 % alguna vez, denuncia el 16,8 %. La de 2019 daba un 8 % de denuncia, con otra forma de preguntar por los tocamientos: no son comparables. Las estimaciones de agresiones reales dividen las registradas entre esos porcentajes: cálculo propio y aproximado.",
+          "verificado": "sí",
+          "fuentes": [
+            {
+              "nombre": "La Moncloa, presentación de la Macroencuesta 2024 (3 de diciembre de 2025)",
+              "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/igualdad/Paginas/2025/031225-macroencuesta-violencia-genero.aspx",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Igualdad, Macroencuesta 2024, capítulo 16 (violencia sexual fuera de la pareja)",
+              "url": "https://violenciagenero.igualdad.gob.es/wp-content/uploads/Capitulo-16.-VSx-fuera-pareja.pdf",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "Ministerio de Igualdad, Macroencuesta 2019, principales resultados",
+              "url": "https://violenciagenero.igualdad.gob.es/wp-content/uploads/Principales_Resultados_Macroencuesta2019.pdf",
+              "tipo": "oficial"
+            }
+          ]
+        },
+        {
+          "dato": "Delitos con arma blanca o de fuego",
+          "detalle": "No hay estadística oficial: el Ministerio del Interior clasifica los delitos por tipo, no por el arma usada.",
+          "fuentes": [
+            {
+              "nombre": "Ministerio del Interior, Portal Estadístico de Criminalidad",
+              "url": "https://estadisticasdecriminalidad.ses.mir.es/",
+              "tipo": "oficial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "Medios",
       "bloques": [
         {
           "dato": "Consumo de noticias, confianza y preocupación por los bulos",
