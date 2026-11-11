@@ -184,7 +184,7 @@ export default function PestanaFuturo() {
     {id: 'vivienda', k: 'viv', tema: 'Vivienda', v: `${n1(aniosSueldo['1987'])} → ${n1(asU)}`, txt: `años de sueldo para comprar un piso (1987 → ${aAS})`, src: 'Banco de España e INE'},
     {id: 'economia', k: 'imp', tema: 'Economía e impuestos', v: `${n0(deuda['1986'])} % → ${n0(deudaU)} %`, txt: `deuda pública sobre el PIB (1986 → ${aDeuda}); en 2007 era el ${n0(deuda['2007'])} %`, src: 'Banco de España'},
     {id: 'pensiones', k: 'pen', tema: 'Pensiones', v: `${n0(H.pct65['1986'])} % → ${n0(pct65H)} %`, txt: `población de 65 años o más (1986 → ${aH}); ${n0(P.pct65['2050'])} % en 2050`, src: 'INE'},
-    {id: 'natalidad', k: 'soc', tema: 'Servicios sociales', v: `${n0(H.nacimientos['1976'] / 1000)} mil → ${n0(nacU / 1000)} mil`, txt: `nacimientos al año (1976 → ${aNac})`, src: 'INE'},
+    {id: 'pensiones', k: 'pen', tema: 'Pensiones', v: `${n0(H.nacimientos['1976'] / 1000)} mil → ${n0(nacU / 1000)} mil`, txt: `nacimientos al año (1976 → ${aNac})`, src: 'INE'},
     {id: 'derechos', k: 'der', tema: 'Derechos y sociedad', v: `${n1(fuera['1981'])} % → ${n1(fueraU)} %`, txt: `población nacida fuera de España (1981 → ${aFuera})`, src: 'INE'},
     {id: 'vivienda', k: 'viv', tema: 'Vivienda', v: `${n0(vpo['1986'] / 1000)} mil → ${n0(vpoU / 1000)} mil`, txt: `viviendas protegidas al año (1986 → ${aVpo})`, src: 'Ministerio de Vivienda'},
     {id: 'vivienda', k: 'viv', tema: 'Vivienda', v: `${n0(term['2006'] / 1000)} mil → ${n0(ult(term)[1] / 1000)} mil`, txt: `viviendas terminadas al año (2006 → ${ult(term)[0]})`, src: 'Ministerio de Vivienda'},
@@ -203,252 +203,52 @@ export default function PestanaFuturo() {
 
   const TEMAS: Tema[] = [
     {
-      id: 'pensiones',
-      k: 'pen',
-      tema: 'Pensiones y envejecimiento',
-      veredicto: 'Va a peor',
-      tono: 'falso',
+      id: 'derechos',
+      k: 'der',
+      tema: 'Derechos y sociedad',
+      veredicto: 'Mixto',
+      tono: 'matiz',
       resumen: (
         <>
-          Lo más seguro de todo: en 2050 casi uno de cada tres tendrá 65 años o más y habrá {n0(P.dependencia['2050'])} mayores por cada 100 en edad de
-          trabajar (hoy {n0(H.dependencia[aH])}). Pensiones, sanidad y cuidados van a costar bastante más, gobierne quien gobierne. La discusión de verdad es
-          cómo se paga.
+          La inmigración sostiene la población y cada vez más de los que llegan se hacen españoles, pero crece la irregularidad. La violencia más grave sigue
+          baja, mientras la registrada sube, sobre todo la sexual, en parte porque se denuncia más. Más detalle en las pestañas Inmigración y Violencia.
         </>
       ),
       mejor: [
-        <>Se vive más: {n1(H.esperanzaVida['2024'])} años de esperanza de vida en 2024, frente a {n1(H.esperanzaVida['1986'])} en 1986.</>,
-        <>La pensión media ha crecido más que los precios: se ha multiplicado por 2,2 en términos reales desde 1986.</>,
+        ...pre('Inmigración', [
+          <>Uno de cada tres nacidos fuera ya es español ({n0(ult(espanoles)[1])} %, {ult(espanoles)[0]}), y las que vienen tienen cada vez menos hijos, como las españolas.</>,
+          <>Sin ella, la población ya estaría bajando: es la que sostiene el número de trabajadores.</>,
+        ]),
+        ...pre('Violencia', [
+          <>Pocos homicidios: por debajo de la media de la UE y unas ocho veces menos que la media mundial.</>,
+          <>Se resuelven más robos con violencia: del {n0(resueltos('2010'))} % en 2010 al {n0(resueltos(ultV))} % en {ultV}, y se denuncia más la violencia sexual.</>,
+        ]),
       ],
       peor: [
-        <>Los mayores de 65 pasan del {pct1(H.pct65['1986'])} en 1986 al {pct1(pct65H)} hoy y al {pct1(P.pct65['2050'])} en 2050.</>,
-        <>El gasto en pensiones pasaría del {fmt(AR.serie['2022'], 1)} % al {fmt(AR.serie['2050'], 1)} % del PIB en 2050, y habrá {fmt(soporte['2050'], 2)} cotizantes por pensionista.</>,
-      ],
-      hacer: [<>Las siete ideas de abajo: ninguna basta sola, y casi todas tardan años en notarse.</>],
-      extra: (
-        <>
-          <p className="fut-sol-intro">Qué se puede hacer, además de que llegue gente de fuera:</p>
-          <div className="fut-sol">
-            {SOLUCIONES_EDAD.map(([k, tit, txt]) => (
-              <div key={tit} className="fut-sol-c">
-                <span className="fut-sol-t">
-                  <Icono k={k} size={16} />
-                  {tit}
-                </span>
-                <span>{txt}</span>
-              </div>
-            ))}
-          </div>
-          <p className="note" style={{marginTop: 8}}>
-            Sin inmigración, la población bajaría igualmente: las proyecciones del INE ya cuentan con que lleguen cientos de miles de personas al año.
-          </p>
-        </>
-      ),
-      graficas: (
-        <>
-          <Mini
-            id="fut-mayores"
-            title="Cada vez más mayores"
-            sub="% de la población (proyección del INE en discontinua)"
-            series={[
-              {lab: '65 años o más', c: '#C2255C', data: desde(H.pct65, 1976)},
-              {lab: '65 o más, proyección', c: '#C2255C', dash: true, data: P.pct65},
-              {lab: '80 años o más', c: '#7048E8', data: desde(H.pct80, 1976)},
-              {lab: '80 o más, proyección', c: '#7048E8', dash: true, data: P.pct80},
-            ]}
-            f={pct1}
-            x0={1975.5}
-            yMin={0}
-            hitos={[PROY]}
-            note={
-              <p>
-                Es lo más seguro de toda la página: los que tendrán 65 años en 2050 ya han nacido, y la migración o la natalidad lo mueven poco. Los mayores de
-                80 pasan del {pct1(H.pct80['1986'])} en 1986 al {pct1(P.pct80['2050'])} en 2050. Proyección del INE 2026–2076, publicada en junio de 2026.
-              </p>
-            }
-            src={
-              <>
-                {L('INE, Indicadores Demográficos Básicos', INE_IDB)}; {L('INE, Proyecciones de Población 2026–2076', INE_PROY)}
-              </>
-            }
-          />
-          <Mini
-            id="fut-dependencia"
-            title="Mayores por cada 100 en edad de trabajar"
-            sub="personas de 65 o más por cada 100 de 16 a 64 años"
-            series={[
-              {lab: 'Hasta hoy', c: '#E8590C', data: desde(H.dependencia, 1976)},
-              {lab: 'Proyección del INE', c: '#E8590C', dash: true, data: P.dependencia},
-            ]}
-            f={n1}
-            x0={1975.5}
-            yMin={0}
-            hitos={[PROY]}
-            note={
-              <p>
-                Es la cuenta de fondo de las pensiones y la sanidad: menos gente trabajando por cada jubilado, aunque la proyección ya cuenta con que llegue
-                mucha gente de fuera.
-              </p>
-            }
-            src={L('INE, Indicadores Demográficos Básicos y Proyecciones 2026–2076', INE_PROY)}
-          />
-          <Mini
-            id="fut-pensiones"
-            title="Gasto en pensiones"
-            sub="% del PIB, proyección de la Comisión Europea (Ageing Report 2024)"
-            series={[{lab: 'Pensiones públicas, bruto', c: '#7048E8', dash: true, data: solo(AR.serie)}]}
-            f={(v) => fmt(v, 1) + ' %'}
-            x0={2021.5}
-            yMin={0}
-            note={
-              <p>
-                Del {fmt(AR.serie['2022'], 1)} % del PIB en 2022 al {fmt(AR.serie['2050'], 1)} % en 2050, ya contando la reforma de 2021–2023: unos 4 puntos más,
-                parecido a todo lo que hoy se gasta en educación (4,1 %). Incluye todas las pensiones públicas, por eso sale más que el 10,8 % de las
-                contributivas de la pestaña Economía. Cotizantes por pensionista: {fmt(soporte['2022'], 2)} en 2022, {fmt(soporte['2050'], 2)} en 2050 y{' '}
-                {fmt(soporte['2070'], 2)} en 2070. AIReF (según sus resúmenes) proyecta algo menos, en torno al 16 % en 2050.
-              </p>
-            }
-            src={L('Comisión Europea, 2024 Ageing Report', AR.url)}
-          />
-        </>
-      ),
-    },
-    {
-      id: 'natalidad',
-      k: 'soc',
-      tema: 'Natalidad y población',
-      veredicto: 'Va a peor',
-      tono: 'falso',
-      resumen: (
-        <>
-          Nacen la mitad de niños que en 1976 y mueren más personas de las que nacen desde 2017. La población solo crece porque llega gente de fuera: si
-          llegara menos, bajaría.
-        </>
-      ),
-      mejor: [<>En {aNac} nacieron {n0(nacU)} niños, algo más que el año anterior, y el INE supone que la fecundidad sube un poco.</>],
-      peor: [
-        <>{fmt(H.fecundidad['2024'], 2)} hijos por mujer (2024), muy lejos de los 2,1 que mantienen una población: de los más bajos del mundo.</>,
-        <>En {aSaldo} murieron {n0(-saldoU)} personas más de las que nacieron; en 2050 serían {n0(-P.saldoNatural['2050'])}.</>,
+        ...pre('Inmigración', [
+          <>Los que viven en situación irregular han pasado de {n0((irr['2017'] ?? 0) * 1000)} mil en 2017 a unos {n0(irrU * 1000)} mil en {aIrr} (Funcas).</>,
+          <>Están por encima de su peso entre los detenidos por delitos violentos, también por edad y sexo.</>,
+        ]),
+        ...pre('Violencia', [
+          <>Las víctimas registradas por habitante han subido de {n0(tasa('2016'))} a {n0(tasa(ultV))} por cada 100.000 (2016–{ultV}).</>,
+          <>Las agresiones sexuales a mujeres registradas se han multiplicado por {n1(sexual(ultV) / sexual('2016'))} desde 2016, y una de cada tres víctimas es menor.</>,
+        ]),
       ],
       hacer: [
-        <>Vivienda asequible para que la gente se emancipe antes de los 30.</>,
-        <>Permisos y escuela de 0 a 3 años gratis; ayudas por hijo.</>,
-        <>Horarios que permitan criar sin dejar de trabajar.</>,
+        ...pre('Inmigración', [
+          <>Vías legales de llegada ligadas al trabajo, para que menos gente quede sin papeles.</>,
+          <>Idioma, formación y empleo desde el primer año, y repartir mejor dónde se vive.</>,
+        ]),
+        ...pre('Violencia', [
+          <>Educación en consentimiento y en relaciones sanas desde el colegio.</>,
+          <>Que denunciar sea fácil y rápido, con juzgados que respondan pronto, y prevención con los chicos jóvenes.</>,
+        ]),
       ],
-      graficas: (
-        <>
-          <Mini
-            id="fut-nacimientos"
-            title="Nacen menos de los que mueren"
-            sub="miles al año (proyección del INE en discontinua)"
-            series={[
-              {lab: 'Nacimientos', c: '#2F9E44', data: escala(desde(H.nacimientos, 1976), 1000)},
-              {lab: 'Nacimientos, proyección', c: '#2F9E44', dash: true, data: escala(P.nacimientos, 1000)},
-              {lab: 'Defunciones', c: '#212529', data: escala(desde(H.defunciones, 1976), 1000)},
-              {lab: 'Defunciones, proyección', c: '#212529', dash: true, data: escala(P.defunciones, 1000)},
-            ]}
-            f={(v) => n0(v * 1000)}
-            x0={1975.5}
-            yMin={0}
-            hitos={[PROY]}
-            note={
-              <p>
-                El INE supone que la fecundidad sube un poco, de {fmt(H.fecundidad['2024'], 2)} hijos por mujer en 2024 a {fmt(P.fecundidad['2050'], 2)} en
-                2050, y aun así las muertes superan a los nacimientos cada vez más.
-              </p>
-            }
-            src={L('INE (Movimiento Natural de la Población y Proyecciones 2026–2076); Eurostat demo_gind', INE_PROY)}
-          />
-          <Mini
-            id="fut-poblacion"
-            title="Una población que solo crece por la inmigración"
-            sub="millones de habitantes a 1 de enero"
-            series={[
-              {lab: 'Hasta hoy', c: '#3B5BDB', data: escala(desde(H.poblacion, 1976), 1e6)},
-              {lab: 'Proyección del INE', c: '#3B5BDB', dash: true, data: escala(P.poblacion, 1e6)},
-            ]}
-            f={(v) => fmt(v, 1) + ' M'}
-            x0={1975.5}
-            hitos={[PROY]}
-            note={
-              <p>
-                De {fmt(H.poblacion['1986'] / 1e6, 1)} millones en 1986 a {fmt(ult(H.poblacion)[1] / 1e6, 1)} hoy y {fmt(P.poblacion['2050'] / 1e6, 1)} en 2050
-                según el INE, que supone que cada año llegan más de los que se van (unos {n0(P.saldoMigratorioSupuesto['2026'] / 1000)} mil netos en 2026 y{' '}
-                {n0(P.saldoMigratorioSupuesto['2050'] / 1000)} mil en 2050).
-                {eu2050 != null && ` Eurostat, que supone menos migración, proyecta ${fmt(eu2050 / 1e6, 1)} millones en 2050.`}
-              </p>
-            }
-            src={L('INE, Proyecciones de Población 2026–2076', INE_PROY)}
-          />
-        </>
-      ),
-    },
-    {
-      id: 'vivienda',
-      k: 'viv',
-      tema: 'Vivienda',
-      veredicto: 'Va a peor',
-      tono: 'falso',
-      resumen: (
-        <>
-          El cambio más grande y el que más se nota en la vida de la gente. Cada año se forman más del doble de hogares que casas se construyen, así que
-          faltan casas y suben los precios y los alquileres mucho más que los sueldos: un piso cuesta {n1(asU)} años de sueldo y los jóvenes se van de casa a
-          los 30.
-        </>
-      ),
-      mejor: [
-        <>Los desahucios han bajado de {n0(desMax)} en {aDesMax} a {n0(desU)} en {aDes}.</>,
-        <>Los pisos turísticos bajan: de {n0(tMax)} en {aTMax} a {n0(tU)} en {aT}.</>,
-      ],
-      peor: [
-        <>Un piso cuesta {n1(asU)} años de sueldo ({aAS}), frente a {n1(aniosSueldo['1987'])} en 1987.</>,
-        <>Faltan unas {n0(S.vivienda.deficitBdE.cifra)} viviendas desde 2021, y la vivienda protegida ha caído de {n0(vpo['1986'])} al año en 1986 a {n0(vpoU)} en {aVpo}.</>,
-        <>Hay {fmt(HAY_CASAS.censo2021.vacias / 1e6, 1)} millones de casas vacías, pero casi la mitad está en pueblos de menos de 10.000 habitantes, lejos del trabajo.</>,
-      ],
-      hacer: [
-        <>No hay una sola solución, sino varias que suman.</>,
-        <>Construir más donde vive la gente, sobre todo vivienda de precio limitado y de alquiler social.</>,
-        <>Hacer atractivos los pueblos y ciudades medianas: teletrabajo, sanidad, colegios.</>,
-        <>Mejor transporte público para que lo barato quede cerca del trabajo, y sacar casas vacías al alquiler.</>,
-      ],
-      graficas: (
-        <Mini
-          id="fut-vivienda"
-          title="Se construye mucho menos de lo que se necesita"
-          sub="miles al año: viviendas terminadas y hogares nuevos"
-          series={[
-            {lab: 'Viviendas terminadas', c: '#2F9E44', data: escala(term, 1000)},
-            {lab: 'Hogares nuevos', c: '#E03131', data: escala(hog, 1000)},
-          ]}
-          f={(v) => n0(v * 1000)}
-          x0={2005.5}
-          yMin={0}
-          note={
-            <>
-              <p>
-                <b>El problema, en sencillo:</b> cada año hay muchos más hogares nuevos que casas nuevas. Hogares nuevos son parejas que se independizan, gente
-                que se separa, personas mayores que viven solas y familias que llegan de fuera: más de 200.000 al año. Casas nuevas se terminan unas 90.000 o
-                100.000 al año, cuando en 2006 se terminaron {n0(term['2006'])}.
-              </p>
-              <p>
-                <b>Qué pasa cuando faltan casas:</b> muchos buscan y hay pocas, así que suben los precios de compra y de alquiler, y los sueldos no suben igual.
-                Por eso la gente se independiza tarde (a los {n0(ult(VIV.edad as Serie)[1])} años de media) y solo el {n1(ult(VIV.emanc as Serie)[1])} % de los
-                jóvenes de 16 a 29 años vive fuera de casa de sus padres.
-              </p>
-            </>
-          }
-          src={
-            <>
-              {L('Ministerio de Vivienda, viviendas terminadas', S.vivienda.terminadas.urls?.[0] ?? 'https://www.mivau.gob.es')};{' '}
-              {L('INE, hogares', 'https://www.ine.es/jaxiT3/Tabla.htm?t=60131')}; {L('Banco de España, Informe Anual 2025', S.vivienda.deficitBdE.url)}
-            </>
-          }
-        />
-      ),
     },
     {
       id: 'economia',
       k: 'imp',
-      tema: 'Economía, deuda y crisis',
+      tema: 'Economía e impuestos',
       veredicto: 'Mixto',
       tono: 'matiz',
       resumen: (
@@ -552,7 +352,7 @@ export default function PestanaFuturo() {
     {
       id: 'trabajo',
       k: 'trab',
-      tema: 'Trabajo e inteligencia artificial',
+      tema: 'Trabajo',
       veredicto: 'Mixto',
       tono: 'matiz',
       resumen: (
@@ -644,52 +444,9 @@ export default function PestanaFuturo() {
       ),
     },
     {
-      id: 'derechos',
-      k: 'der',
-      tema: 'Derechos y sociedad: inmigración y violencia',
-      veredicto: 'Mixto',
-      tono: 'matiz',
-      resumen: (
-        <>
-          La inmigración sostiene la población y cada vez más de los que llegan se hacen españoles, pero crece la irregularidad. La violencia más grave sigue
-          baja, mientras la registrada sube, sobre todo la sexual, en parte porque se denuncia más. Más detalle en las pestañas Inmigración y Violencia.
-        </>
-      ),
-      mejor: [
-        ...pre('Inmigración', [
-          <>Uno de cada tres nacidos fuera ya es español ({n0(ult(espanoles)[1])} %, {ult(espanoles)[0]}), y las que vienen tienen cada vez menos hijos, como las españolas.</>,
-          <>Sin ella, la población ya estaría bajando: es la que sostiene el número de trabajadores.</>,
-        ]),
-        ...pre('Violencia', [
-          <>Pocos homicidios: por debajo de la media de la UE y unas ocho veces menos que la media mundial.</>,
-          <>Se resuelven más robos con violencia: del {n0(resueltos('2010'))} % en 2010 al {n0(resueltos(ultV))} % en {ultV}, y se denuncia más la violencia sexual.</>,
-        ]),
-      ],
-      peor: [
-        ...pre('Inmigración', [
-          <>Los que viven en situación irregular han pasado de {n0((irr['2017'] ?? 0) * 1000)} mil en 2017 a unos {n0(irrU * 1000)} mil en {aIrr} (Funcas).</>,
-          <>Están por encima de su peso entre los detenidos por delitos violentos, también por edad y sexo.</>,
-        ]),
-        ...pre('Violencia', [
-          <>Las víctimas registradas por habitante han subido de {n0(tasa('2016'))} a {n0(tasa(ultV))} por cada 100.000 (2016–{ultV}).</>,
-          <>Las agresiones sexuales a mujeres registradas se han multiplicado por {n1(sexual(ultV) / sexual('2016'))} desde 2016, y una de cada tres víctimas es menor.</>,
-        ]),
-      ],
-      hacer: [
-        ...pre('Inmigración', [
-          <>Vías legales de llegada ligadas al trabajo, para que menos gente quede sin papeles.</>,
-          <>Idioma, formación y empleo desde el primer año, y repartir mejor dónde se vive.</>,
-        ]),
-        ...pre('Violencia', [
-          <>Educación en consentimiento y en relaciones sanas desde el colegio.</>,
-          <>Que denunciar sea fácil y rápido, con juzgados que respondan pronto, y prevención con los chicos jóvenes.</>,
-        ]),
-      ],
-    },
-    {
       id: 'instituciones',
       k: 'inst',
-      tema: 'Instituciones y medios',
+      tema: 'Instituciones',
       veredicto: 'Va a peor',
       tono: 'falso',
       resumen: (
@@ -715,6 +472,176 @@ export default function PestanaFuturo() {
       ],
     },
     {
+      id: 'pensiones',
+      k: 'pen',
+      tema: 'Pensiones',
+      veredicto: 'Va a peor',
+      tono: 'falso',
+      resumen: (
+        <>
+          Lo más seguro de todo: en 2050 casi uno de cada tres tendrá 65 años o más y habrá {n0(P.dependencia['2050'])} mayores por cada 100 en edad de
+          trabajar (hoy {n0(H.dependencia[aH])}). Pensiones, sanidad y cuidados van a costar bastante más, gobierne quien gobierne. La discusión de verdad es
+          cómo se paga. Y nacen la mitad de niños que en 1976: desde 2017 mueren más personas de las que nacen, y la población solo crece porque llega
+          gente de fuera.
+        </>
+      ),
+      mejor: [
+        ...pre('Envejecimiento', [
+          <>Se vive más: {n1(H.esperanzaVida['2024'])} años de esperanza de vida en 2024, frente a {n1(H.esperanzaVida['1986'])} en 1986.</>,
+          <>La pensión media ha crecido más que los precios: se ha multiplicado por 2,2 en términos reales desde 1986.</>,
+        ]),
+        ...pre('Natalidad', [<>En {aNac} nacieron {n0(nacU)} niños, algo más que el año anterior, y el INE supone que la fecundidad sube un poco.</>]),
+      ],
+      peor: [
+        ...pre('Envejecimiento', [
+          <>Los mayores de 65 pasan del {pct1(H.pct65['1986'])} en 1986 al {pct1(pct65H)} hoy y al {pct1(P.pct65['2050'])} en 2050.</>,
+          <>El gasto en pensiones pasaría del {fmt(AR.serie['2022'], 1)} % al {fmt(AR.serie['2050'], 1)} % del PIB en 2050, y habrá {fmt(soporte['2050'], 2)} cotizantes por pensionista.</>,
+        ]),
+        ...pre('Natalidad', [
+          <>{fmt(H.fecundidad['2024'], 2)} hijos por mujer (2024), muy lejos de los 2,1 que mantienen una población: de los más bajos del mundo.</>,
+          <>En {aSaldo} murieron {n0(-saldoU)} personas más de las que nacieron; en 2050 serían {n0(-P.saldoNatural['2050'])}.</>,
+        ]),
+      ],
+      hacer: [
+        ...pre('Natalidad', [
+<>Vivienda asequible para que la gente se emancipe antes de los 30.</>,
+        <>Permisos y escuela de 0 a 3 años gratis; ayudas por hijo.</>,
+        <>Horarios que permitan criar sin dejar de trabajar.</>,
+        ]),
+        <>Para las pensiones, las siete ideas de abajo: ninguna basta sola, y casi todas tardan años en notarse.</>,
+      ],
+      extra: (
+        <>
+          <p className="fut-sol-intro">Qué se puede hacer, además de que llegue gente de fuera:</p>
+          <div className="fut-sol">
+            {SOLUCIONES_EDAD.map(([k, tit, txt]) => (
+              <div key={tit} className="fut-sol-c">
+                <span className="fut-sol-t">
+                  <Icono k={k} size={16} />
+                  {tit}
+                </span>
+                <span>{txt}</span>
+              </div>
+            ))}
+          </div>
+          <p className="note" style={{marginTop: 8}}>
+            Sin inmigración, la población bajaría igualmente: las proyecciones del INE ya cuentan con que lleguen cientos de miles de personas al año.
+          </p>
+        </>
+      ),
+      graficas: (
+        <>
+          <Mini
+            id="fut-mayores"
+            title="Cada vez más mayores"
+            sub="% de la población (proyección del INE en discontinua)"
+            series={[
+              {lab: '65 años o más', c: '#C2255C', data: desde(H.pct65, 1976)},
+              {lab: '65 o más, proyección', c: '#C2255C', dash: true, data: P.pct65},
+              {lab: '80 años o más', c: '#7048E8', data: desde(H.pct80, 1976)},
+              {lab: '80 o más, proyección', c: '#7048E8', dash: true, data: P.pct80},
+            ]}
+            f={pct1}
+            x0={1975.5}
+            yMin={0}
+            hitos={[PROY]}
+            note={
+              <p>
+                Es lo más seguro de toda la página: los que tendrán 65 años en 2050 ya han nacido, y la migración o la natalidad lo mueven poco. Los mayores de
+                80 pasan del {pct1(H.pct80['1986'])} en 1986 al {pct1(P.pct80['2050'])} en 2050. Proyección del INE 2026–2076, publicada en junio de 2026.
+              </p>
+            }
+            src={
+              <>
+                {L('INE, Indicadores Demográficos Básicos', INE_IDB)}; {L('INE, Proyecciones de Población 2026–2076', INE_PROY)}
+              </>
+            }
+          />
+          <Mini
+            id="fut-dependencia"
+            title="Mayores por cada 100 en edad de trabajar"
+            sub="personas de 65 o más por cada 100 de 16 a 64 años"
+            series={[
+              {lab: 'Hasta hoy', c: '#E8590C', data: desde(H.dependencia, 1976)},
+              {lab: 'Proyección del INE', c: '#E8590C', dash: true, data: P.dependencia},
+            ]}
+            f={n1}
+            x0={1975.5}
+            yMin={0}
+            hitos={[PROY]}
+            note={
+              <p>
+                Es la cuenta de fondo de las pensiones y la sanidad: menos gente trabajando por cada jubilado, aunque la proyección ya cuenta con que llegue
+                mucha gente de fuera.
+              </p>
+            }
+            src={L('INE, Indicadores Demográficos Básicos y Proyecciones 2026–2076', INE_PROY)}
+          />
+          <Mini
+            id="fut-pensiones"
+            title="Gasto en pensiones"
+            sub="% del PIB, proyección de la Comisión Europea (Ageing Report 2024)"
+            series={[{lab: 'Pensiones públicas, bruto', c: '#7048E8', dash: true, data: solo(AR.serie)}]}
+            f={(v) => fmt(v, 1) + ' %'}
+            x0={2021.5}
+            yMin={0}
+            note={
+              <p>
+                Del {fmt(AR.serie['2022'], 1)} % del PIB en 2022 al {fmt(AR.serie['2050'], 1)} % en 2050, ya contando la reforma de 2021–2023: unos 4 puntos más,
+                parecido a todo lo que hoy se gasta en educación (4,1 %). Incluye todas las pensiones públicas, por eso sale más que el 10,8 % de las
+                contributivas de la pestaña Economía. Cotizantes por pensionista: {fmt(soporte['2022'], 2)} en 2022, {fmt(soporte['2050'], 2)} en 2050 y{' '}
+                {fmt(soporte['2070'], 2)} en 2070. AIReF (según sus resúmenes) proyecta algo menos, en torno al 16 % en 2050.
+              </p>
+            }
+            src={L('Comisión Europea, 2024 Ageing Report', AR.url)}
+          />
+          <Mini
+            id="fut-nacimientos"
+            title="Nacen menos de los que mueren"
+            sub="miles al año (proyección del INE en discontinua)"
+            series={[
+              {lab: 'Nacimientos', c: '#2F9E44', data: escala(desde(H.nacimientos, 1976), 1000)},
+              {lab: 'Nacimientos, proyección', c: '#2F9E44', dash: true, data: escala(P.nacimientos, 1000)},
+              {lab: 'Defunciones', c: '#212529', data: escala(desde(H.defunciones, 1976), 1000)},
+              {lab: 'Defunciones, proyección', c: '#212529', dash: true, data: escala(P.defunciones, 1000)},
+            ]}
+            f={(v) => n0(v * 1000)}
+            x0={1975.5}
+            yMin={0}
+            hitos={[PROY]}
+            note={
+              <p>
+                El INE supone que la fecundidad sube un poco, de {fmt(H.fecundidad['2024'], 2)} hijos por mujer en 2024 a {fmt(P.fecundidad['2050'], 2)} en
+                2050, y aun así las muertes superan a los nacimientos cada vez más.
+              </p>
+            }
+            src={L('INE (Movimiento Natural de la Población y Proyecciones 2026–2076); Eurostat demo_gind', INE_PROY)}
+          />
+          <Mini
+            id="fut-poblacion"
+            title="Una población que solo crece por la inmigración"
+            sub="millones de habitantes a 1 de enero"
+            series={[
+              {lab: 'Hasta hoy', c: '#3B5BDB', data: escala(desde(H.poblacion, 1976), 1e6)},
+              {lab: 'Proyección del INE', c: '#3B5BDB', dash: true, data: escala(P.poblacion, 1e6)},
+            ]}
+            f={(v) => fmt(v, 1) + ' M'}
+            x0={1975.5}
+            hitos={[PROY]}
+            note={
+              <p>
+                De {fmt(H.poblacion['1986'] / 1e6, 1)} millones en 1986 a {fmt(ult(H.poblacion)[1] / 1e6, 1)} hoy y {fmt(P.poblacion['2050'] / 1e6, 1)} en 2050
+                según el INE, que supone que cada año llegan más de los que se van (unos {n0(P.saldoMigratorioSupuesto['2026'] / 1000)} mil netos en 2026 y{' '}
+                {n0(P.saldoMigratorioSupuesto['2050'] / 1000)} mil en 2050).
+                {eu2050 != null && ` Eurostat, que supone menos migración, proyecta ${fmt(eu2050 / 1e6, 1)} millones en 2050.`}
+              </p>
+            }
+            src={L('INE, Proyecciones de Población 2026–2076', INE_PROY)}
+          />
+        </>
+      ),
+    },
+    {
       id: 'ambiente',
       k: 'env',
       tema: 'Medio ambiente',
@@ -731,6 +658,69 @@ export default function PestanaFuturo() {
       ],
       peor: [<>Siguen por encima de las de 1990, y el calor, la sequía y las danas pesan cada vez más.</>],
       hacer: [<>Seguir con las renovables y la red eléctrica, transporte público y adaptar ciudades y campo al calor y al agua.</>],
+    },
+    {
+      id: 'vivienda',
+      k: 'viv',
+      tema: 'Vivienda',
+      veredicto: 'Va a peor',
+      tono: 'falso',
+      resumen: (
+        <>
+          El cambio más grande y el que más se nota en la vida de la gente. Cada año se forman más del doble de hogares que casas se construyen, así que
+          faltan casas y suben los precios y los alquileres mucho más que los sueldos: un piso cuesta {n1(asU)} años de sueldo y los jóvenes se van de casa a
+          los 30.
+        </>
+      ),
+      mejor: [
+        <>Los desahucios han bajado de {n0(desMax)} en {aDesMax} a {n0(desU)} en {aDes}.</>,
+        <>Los pisos turísticos bajan: de {n0(tMax)} en {aTMax} a {n0(tU)} en {aT}.</>,
+      ],
+      peor: [
+        <>Un piso cuesta {n1(asU)} años de sueldo ({aAS}), frente a {n1(aniosSueldo['1987'])} en 1987.</>,
+        <>Faltan unas {n0(S.vivienda.deficitBdE.cifra)} viviendas desde 2021, y la vivienda protegida ha caído de {n0(vpo['1986'])} al año en 1986 a {n0(vpoU)} en {aVpo}.</>,
+        <>Hay {fmt(HAY_CASAS.censo2021.vacias / 1e6, 1)} millones de casas vacías, pero casi la mitad está en pueblos de menos de 10.000 habitantes, lejos del trabajo.</>,
+      ],
+      hacer: [
+        <>No hay una sola solución, sino varias que suman.</>,
+        <>Construir más donde vive la gente, sobre todo vivienda de precio limitado y de alquiler social.</>,
+        <>Hacer atractivos los pueblos y ciudades medianas: teletrabajo, sanidad, colegios.</>,
+        <>Mejor transporte público para que lo barato quede cerca del trabajo, y sacar casas vacías al alquiler.</>,
+      ],
+      graficas: (
+        <Mini
+          id="fut-vivienda"
+          title="Se construye mucho menos de lo que se necesita"
+          sub="miles al año: viviendas terminadas y hogares nuevos"
+          series={[
+            {lab: 'Viviendas terminadas', c: '#2F9E44', data: escala(term, 1000)},
+            {lab: 'Hogares nuevos', c: '#E03131', data: escala(hog, 1000)},
+          ]}
+          f={(v) => n0(v * 1000)}
+          x0={2005.5}
+          yMin={0}
+          note={
+            <>
+              <p>
+                <b>El problema, en sencillo:</b> cada año hay muchos más hogares nuevos que casas nuevas. Hogares nuevos son parejas que se independizan, gente
+                que se separa, personas mayores que viven solas y familias que llegan de fuera: más de 200.000 al año. Casas nuevas se terminan unas 90.000 o
+                100.000 al año, cuando en 2006 se terminaron {n0(term['2006'])}.
+              </p>
+              <p>
+                <b>Qué pasa cuando faltan casas:</b> muchos buscan y hay pocas, así que suben los precios de compra y de alquiler, y los sueldos no suben igual.
+                Por eso la gente se independiza tarde (a los {n0(ult(VIV.edad as Serie)[1])} años de media) y solo el {n1(ult(VIV.emanc as Serie)[1])} % de los
+                jóvenes de 16 a 29 años vive fuera de casa de sus padres.
+              </p>
+            </>
+          }
+          src={
+            <>
+              {L('Ministerio de Vivienda, viviendas terminadas', S.vivienda.terminadas.urls?.[0] ?? 'https://www.mivau.gob.es')};{' '}
+              {L('INE, hogares', 'https://www.ine.es/jaxiT3/Tabla.htm?t=60131')}; {L('Banco de España, Informe Anual 2025', S.vivienda.deficitBdE.url)}
+            </>
+          }
+        />
+      ),
     },
   ];
 
