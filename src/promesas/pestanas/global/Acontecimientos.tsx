@@ -1,10 +1,13 @@
-import {useLayoutEffect, useRef, useState, type CSSProperties} from 'react';
+import {useCallback, useLayoutEffect, useRef, useState, type CSSProperties} from 'react';
+import {createPortal} from 'react-dom';
+import Lateral from '../../componentes/Lateral';
 import {EVENTS, GOVS, PARTY, type Legislatura} from '../../datos';
 import {toYear} from '../../lib/formato';
 
 /*
   Linea temporal de acontecimientos (renderEvents en el original). Con una
-  legislatura, marca su periodo y solo deja pulsar lo que paso en el.
+  legislatura, marca su periodo y resalta lo que paso en el. Pulsar cualquier
+  acontecimiento abre su ficha en el panel lateral sin cambiar la legislatura.
   Quien la usa le pone key por legislatura: asi vuelve a empezar (primer
   acontecimiento del periodo elegido y scroll centrado) al cambiarla.
 */
@@ -22,6 +25,8 @@ export default function Acontecimientos({leg}: {leg: Legislatura | null}) {
   const la = leg ? toYear(leg.a) : -1e9, lb = leg ? toYear(leg.b) : 1e9, inP = (x: number) => x >= la && x < lb;
   const firstIn = ev.findIndex((e) => inP(e[0]));
   const [sel, setSel] = useState(firstIn);
+  const [ficha, setFicha] = useState<number | null>(null);
+  const cerrar = useCallback(() => setFicha(null), []);
   const wrapRef = useRef<HTMLDivElement>(null), htlRef = useRef<HTMLDivElement>(null);
 
   // Centrar el periodo en la linea si no cabe: la posicion del scroll solo se puede fijar en el DOM
@@ -42,13 +47,19 @@ export default function Acontecimientos({leg}: {leg: Legislatura | null}) {
     last[r] = P;
     const R = ROWS[r], stem = R.up ? 72 - (R.top + 18) : R.top - 74, on = inP(x);
     const mostrar = () => setSel(i);
+    const abrir = () => {
+      if (on) setSel(i);
+      setFicha(i);
+    };
     return (
       <button
         key={i}
         type="button"
         className={`hev${on ? '' : ' off'}${sel === i ? ' on' : ''}`}
         data-i={i}
-        {...(on ? {onMouseEnter: mostrar, onFocus: mostrar, onClick: mostrar} : {disabled: true, 'aria-disabled': true, tabIndex: -1})}
+        aria-haspopup="dialog"
+        onClick={abrir}
+        {...(on ? {onMouseEnter: mostrar, onFocus: mostrar} : {})}
         style={{left: `${P.toFixed(2)}%`, top: `${R.top}px`, '--stem': `${stem}px`} as CSSProperties}
       >
         <span className={`hlab ${R.up ? 'up' : 'dn'}`}>{lab}</span>
@@ -107,6 +118,20 @@ export default function Acontecimientos({leg}: {leg: Legislatura | null}) {
         </div>
       </div>
       <p className="htl-det">{det}</p>
+      {ficha != null &&
+        createPortal(
+          <Lateral
+            antetitulo={`${ev[ficha][2]} · Gobierno ${PARTY[g(ev[ficha][0]).p].n}`}
+            titulo={ev[ficha][1]}
+            color={PARTY[g(ev[ficha][0]).p].c}
+            cerrar={cerrar}
+          >
+            <div className="lat-info">
+              <p>{ev[ficha][3]}</p>
+            </div>
+          </Lateral>,
+          document.body,
+        )}
     </>
   );
 }

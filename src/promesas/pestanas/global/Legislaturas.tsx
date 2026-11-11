@@ -93,7 +93,7 @@ export default function Legislaturas() {
         <div className="evhead">
           Lo que pasó en España en esos años{' '}
           <span className="note" style={{display: 'inline', margin: 0}}>
-            · pasa el ratón o toca una legislatura para ver su periodo; solo se pueden abrir los acontecimientos de ese periodo
+            · pasa el ratón o toca una legislatura para ver su periodo; pulsa cualquier acontecimiento para leer qué pasó
           </span>
         </div>
         <div id="ev-rail">
