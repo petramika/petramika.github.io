@@ -612,3 +612,10 @@ body{margin:0}[hidden]{display:none!important}img{max-width:100%}
 .fut-col.ok{background:rgba(47,158,68,.08)}.fut-col.ok>b{color:var(--ok)}
 .fut-col.ko{background:rgba(224,49,49,.07)}.fut-col.ko>b{color:var(--ko)}
 .fut-col.sol{background:rgba(59,91,219,.07)}.fut-col.sol>b{color:#3B5BDB}
+.fut-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:8px;margin:10px 0}
+.fut-qt{display:inline-flex;align-items:center;gap:8px}
+.fut-q .faq-body>.charts{margin-top:12px}
+.fut-tile{appearance:none;font:inherit;color:inherit;text-align:left;background:var(--bg);cursor:pointer;transition:border-color .15s}
+.fut-tile:hover{border-color:var(--ink)}
+.fut-tile:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.fut-q .charts>.chart:only-child{grid-column:auto}
