@@ -1,7 +1,6 @@
 import {DELITO} from '../../datos';
 import {fmt} from '../../lib/formato';
 import Mini from '../../componentes/graficas/Mini';
-import Barras from '../../componentes/graficas/Barras';
 import {L} from '../../componentes/enlace';
 import {COL_ES, COL_EX} from './colores';
 import {T} from '../../../comun/Glosario';
@@ -12,6 +11,15 @@ import {claves, penultimo, ultimo} from './ultimo';
   Ninguna estadistica nacional separa por pais de nacimiento: se explica.
 */
 const INE_COND = 'https://www.ine.es/dyngs/Prensa/EPCAEPCM2025.htm';
+const ANIOS_EDAD = Object.keys(DELITO.porEdad).sort();
+const EDADES_LINEA = [
+  {k: 'De 18 a 20 años', lab: '18 a 20 años', c: '#E8590C'},
+  {k: 'De 26 a 30 años', lab: '26 a 30 años', c: '#AE3EC9'},
+  {k: 'De 41 a 50 años', lab: '41 a 50 años', c: '#3B5BDB'},
+  {k: 'De 61 a 70 años', lab: '61 a 70 años', c: '#2F9E44'},
+];
+const tasaEdad = (quien: 'espanoles' | 'extranjeros', edad: string) =>
+  Object.fromEntries(ANIOS_EDAD.map((y) => [y, DELITO.porEdad[y][quien][edad] as number]));
 
 export default function Delincuencia() {
   type Est = {espanoles: number; extranjeros: number; ratioBruta: number; ratioPorEdad: number};
@@ -19,7 +27,8 @@ export default function Delincuencia() {
   const [, nacFuera] = ultimo<number>(DELITO.espanolesAdultosNacidosFuera);
   const edades = Object.keys(DELITO.porEdad2024.espanoles);
   const [e1, e2] = [edades[0], edades.at(-1)!];
-  const pe = DELITO.porEdad2024;
+  const yE = ANIOS_EDAD[ANIOS_EDAD.length - 1];
+  const pe = DELITO.porEdad[yE];
 
   // Delitos conocidos: ultimo año frente a 2008
   const [aInf, tInf] = ultimo<number>(DELITO.tasaInfracciones), t08 = DELITO.tasaInfracciones['2008'];
@@ -116,29 +125,36 @@ export default function Delincuencia() {
             </>
           }
         />
-        <Barras
+        <Mini
           id="inm-edad"
           title="Condenados según la edad"
-          sub="por cada 1.000 adultos de esa edad y nacionalidad, 2024"
-          series={[
-            {lab: 'Españoles', c: COL_ES},
-            {lab: 'Extranjeros', c: COL_EX},
-          ]}
-          filas={edades.map((k) => ({lab: k.replace(/^De /, '').replace(' años', ''), vals: [DELITO.porEdad2024.espanoles[k], DELITO.porEdad2024.extranjeros[k]]}))}
+          sub="por cada 1.000 adultos de esa edad y nacionalidad: extranjeros (línea continua) y españoles (discontinua)"
+          series={EDADES_LINEA.flatMap((g) => [
+            {lab: `Extranjeros, ${g.lab}`, c: g.c, data: tasaEdad('extranjeros', g.k)},
+            {lab: `Españoles, ${g.lab}`, c: g.c, dash: true, data: tasaEdad('espanoles', g.k)},
+          ])}
           f={(v) => fmt(v, 1)}
+          x0={Number(ANIOS_EDAD[0]) - 0.5}
+          yMin={0}
+          hitos={[{x: 2015.5, lab: 'Entran los delitos leves'}]}
           note={
             <>
               <p>
-                En cualquier grupo, los jóvenes concentran las condenas: entre los españoles de 18 a 20 años hay {fmt(pe.espanoles[e1], 1)} condenados
+                En {yE}, en cualquier grupo, los jóvenes concentran las condenas: entre los españoles de 18 a 20 años hay {fmt(pe.espanoles[e1], 1)} condenados
                 por cada 1.000; a partir de los 70, {pe.espanoles[e2] < 1 ? 'menos de 1' : fmt(pe.espanoles[e2], 1)}.
               </p>
               <p>
                 A igual edad, los extranjeros siguen teniendo más condenas (de 18 a 20 años, {fmt(pe.extranjeros[e1], 0)} frente a {fmt(pe.espanoles[e1], 0)}), pero la distancia es menor que en el
                 total, porque hay muchos más extranjeros jóvenes.
               </p>
+              <p>
+                Hay datos desde 2013. En 2016 empiezan a contarse los delitos leves (antes eran faltas), así que las tasas suben de golpe en todas las
+                edades: no se compara con los años anteriores. El bache de 2020 es la pandemia. En 2025 la población es la de 1 de enero (aún no hay la
+                de julio por edad y nacionalidad), y por eso la tasa de los extranjeros sale algo más alta.
+              </p>
             </>
           }
-          src={L('INE, tabla 25645, y población de la tabla 56938 (cálculo propio)', 'https://www.ine.es/jaxiT3/Tabla.htm?t=25645')}
+          src={L('INE, tabla 25645, y población de la tabla 56938 (cálculo propio, 2013–2025)', 'https://www.ine.es/jaxiT3/Tabla.htm?t=25645')}
         />
     </>
   );

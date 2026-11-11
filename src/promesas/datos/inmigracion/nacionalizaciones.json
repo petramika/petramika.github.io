@@ -205,5 +205,1398 @@
     "concesionesAcumuladas": 73019,
     "solicitudesDGSJFP": 89112,
     "nota": "Carta de naturaleza (Ley 12/2015), acumulado; no incluido en residencia."
+  },
+  "porAnio": {
+    "2013": {
+      "total": 225793,
+      "top10": [
+        "Colombia",
+        "Ecuador",
+        "Marruecos",
+        "Bolivia",
+        "Perú",
+        "República Dominicana",
+        "Argentina",
+        "Cuba",
+        "Venezuela",
+        "Brasil"
+      ],
+      "paises": [
+        {
+          "pais": "Colombia",
+          "n": 39331,
+          "pct": 17.4,
+          "vivenPct": 5.91
+        },
+        {
+          "pais": "Ecuador",
+          "n": 39225,
+          "pct": 17.4,
+          "vivenPct": 7.32
+        },
+        {
+          "pais": "Marruecos",
+          "n": 31673,
+          "pct": 14.0,
+          "vivenPct": 12.19
+        },
+        {
+          "pais": "Bolivia",
+          "n": 19278,
+          "pct": 8.5,
+          "vivenPct": 2.86
+        },
+        {
+          "pais": "Perú",
+          "n": 19225,
+          "pct": 8.5,
+          "vivenPct": 3.13
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 14611,
+          "pct": 6.5,
+          "vivenPct": 2.47
+        },
+        {
+          "pais": "Argentina",
+          "n": 8843,
+          "pct": 3.9,
+          "vivenPct": 4.27
+        },
+        {
+          "pais": "Cuba",
+          "n": 7026,
+          "pct": 3.1,
+          "vivenPct": 1.99
+        },
+        {
+          "pais": "Venezuela",
+          "n": 6217,
+          "pct": 2.8,
+          "vivenPct": 2.53
+        },
+        {
+          "pais": "Brasil",
+          "n": 4698,
+          "pct": 2.1,
+          "vivenPct": 1.82
+        },
+        {
+          "pais": "Paraguay",
+          "n": 2958,
+          "pct": 1.3,
+          "vivenPct": 1.2
+        },
+        {
+          "pais": "Pakistán",
+          "n": 1949,
+          "pct": 0.9,
+          "vivenPct": 1.09
+        },
+        {
+          "pais": "Honduras",
+          "n": 1702,
+          "pct": 0.8,
+          "vivenPct": 0.61
+        },
+        {
+          "pais": "Rumanía",
+          "n": 1174,
+          "pct": 0.5,
+          "vivenPct": 11.59
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 417,
+          "pct": 0.2,
+          "vivenPct": 0.32
+        }
+      ]
+    },
+    "2014": {
+      "total": 205880,
+      "top10": [
+        "Marruecos",
+        "Ecuador",
+        "Colombia",
+        "Bolivia",
+        "Perú",
+        "República Dominicana",
+        "Argentina",
+        "Cuba",
+        "Venezuela",
+        "Brasil"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 34807,
+          "pct": 16.9,
+          "vivenPct": 12.35
+        },
+        {
+          "pais": "Ecuador",
+          "n": 32757,
+          "pct": 15.9,
+          "vivenPct": 7.19
+        },
+        {
+          "pais": "Colombia",
+          "n": 25115,
+          "pct": 12.2,
+          "vivenPct": 5.9
+        },
+        {
+          "pais": "Bolivia",
+          "n": 20895,
+          "pct": 10.1,
+          "vivenPct": 2.72
+        },
+        {
+          "pais": "Perú",
+          "n": 16601,
+          "pct": 8.1,
+          "vivenPct": 3.12
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 14110,
+          "pct": 6.9,
+          "vivenPct": 2.58
+        },
+        {
+          "pais": "Argentina",
+          "n": 7059,
+          "pct": 3.4,
+          "vivenPct": 4.26
+        },
+        {
+          "pais": "Cuba",
+          "n": 5618,
+          "pct": 2.7,
+          "vivenPct": 2.1
+        },
+        {
+          "pais": "Venezuela",
+          "n": 4302,
+          "pct": 2.1,
+          "vivenPct": 2.6
+        },
+        {
+          "pais": "Brasil",
+          "n": 4017,
+          "pct": 2.0,
+          "vivenPct": 1.74
+        },
+        {
+          "pais": "Pakistán",
+          "n": 3327,
+          "pct": 1.6,
+          "vivenPct": 1.06
+        },
+        {
+          "pais": "Paraguay",
+          "n": 3003,
+          "pct": 1.5,
+          "vivenPct": 1.11
+        },
+        {
+          "pais": "Honduras",
+          "n": 2142,
+          "pct": 1.0,
+          "vivenPct": 0.65
+        },
+        {
+          "pais": "Rumanía",
+          "n": 1608,
+          "pct": 0.8,
+          "vivenPct": 11.24
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 729,
+          "pct": 0.4,
+          "vivenPct": 0.34
+        }
+      ]
+    },
+    "2015": {
+      "total": 114351,
+      "top10": [
+        "Marruecos",
+        "Ecuador",
+        "Colombia",
+        "Bolivia",
+        "República Dominicana",
+        "Perú",
+        "Cuba",
+        "Argentina",
+        "Pakistán",
+        "Venezuela"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 24285,
+          "pct": 21.2,
+          "vivenPct": 12.47
+        },
+        {
+          "pais": "Ecuador",
+          "n": 13949,
+          "pct": 12.2,
+          "vivenPct": 7.04
+        },
+        {
+          "pais": "Colombia",
+          "n": 11881,
+          "pct": 10.4,
+          "vivenPct": 5.86
+        },
+        {
+          "pais": "Bolivia",
+          "n": 11164,
+          "pct": 9.8,
+          "vivenPct": 2.66
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 8171,
+          "pct": 7.1,
+          "vivenPct": 2.65
+        },
+        {
+          "pais": "Perú",
+          "n": 6954,
+          "pct": 6.1,
+          "vivenPct": 3.11
+        },
+        {
+          "pais": "Cuba",
+          "n": 3072,
+          "pct": 2.7,
+          "vivenPct": 2.17
+        },
+        {
+          "pais": "Argentina",
+          "n": 3054,
+          "pct": 2.7,
+          "vivenPct": 4.24
+        },
+        {
+          "pais": "Pakistán",
+          "n": 2798,
+          "pct": 2.4,
+          "vivenPct": 1.09
+        },
+        {
+          "pais": "Venezuela",
+          "n": 2332,
+          "pct": 2.0,
+          "vivenPct": 2.74
+        },
+        {
+          "pais": "Brasil",
+          "n": 2273,
+          "pct": 2.0,
+          "vivenPct": 1.73
+        },
+        {
+          "pais": "Paraguay",
+          "n": 1935,
+          "pct": 1.7,
+          "vivenPct": 1.11
+        },
+        {
+          "pais": "Honduras",
+          "n": 1632,
+          "pct": 1.4,
+          "vivenPct": 0.72
+        },
+        {
+          "pais": "Rumanía",
+          "n": 966,
+          "pct": 0.8,
+          "vivenPct": 10.96
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 599,
+          "pct": 0.5,
+          "vivenPct": 0.37
+        }
+      ]
+    },
+    "2016": {
+      "total": 150944,
+      "top10": [
+        "Marruecos",
+        "Bolivia",
+        "Ecuador",
+        "Colombia",
+        "República Dominicana",
+        "Perú",
+        "Cuba",
+        "Argentina",
+        "Brasil",
+        "Paraguay"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 37009,
+          "pct": 24.5,
+          "vivenPct": 12.55
+        },
+        {
+          "pais": "Bolivia",
+          "n": 15802,
+          "pct": 10.5,
+          "vivenPct": 2.65
+        },
+        {
+          "pais": "Ecuador",
+          "n": 15255,
+          "pct": 10.1,
+          "vivenPct": 6.88
+        },
+        {
+          "pais": "Colombia",
+          "n": 14299,
+          "pct": 9.5,
+          "vivenPct": 5.81
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 9176,
+          "pct": 6.1,
+          "vivenPct": 2.68
+        },
+        {
+          "pais": "Perú",
+          "n": 6933,
+          "pct": 4.6,
+          "vivenPct": 3.11
+        },
+        {
+          "pais": "Cuba",
+          "n": 4353,
+          "pct": 2.9,
+          "vivenPct": 2.21
+        },
+        {
+          "pais": "Argentina",
+          "n": 3716,
+          "pct": 2.5,
+          "vivenPct": 4.21
+        },
+        {
+          "pais": "Brasil",
+          "n": 3427,
+          "pct": 2.3,
+          "vivenPct": 1.78
+        },
+        {
+          "pais": "Paraguay",
+          "n": 3358,
+          "pct": 2.2,
+          "vivenPct": 1.15
+        },
+        {
+          "pais": "Pakistán",
+          "n": 3148,
+          "pct": 2.1,
+          "vivenPct": 1.11
+        },
+        {
+          "pais": "Venezuela",
+          "n": 3127,
+          "pct": 2.1,
+          "vivenPct": 2.95
+        },
+        {
+          "pais": "Honduras",
+          "n": 2525,
+          "pct": 1.7,
+          "vivenPct": 0.83
+        },
+        {
+          "pais": "Rumanía",
+          "n": 1469,
+          "pct": 1.0,
+          "vivenPct": 10.59
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 1280,
+          "pct": 0.8,
+          "vivenPct": 0.41
+        }
+      ]
+    },
+    "2017": {
+      "total": 66498,
+      "top10": [
+        "Marruecos",
+        "Ecuador",
+        "Bolivia",
+        "Colombia",
+        "República Dominicana",
+        "Perú",
+        "Pakistán",
+        "Argentina",
+        "Cuba",
+        "Brasil"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 17082,
+          "pct": 25.7,
+          "vivenPct": 12.57
+        },
+        {
+          "pais": "Ecuador",
+          "n": 7301,
+          "pct": 11.0,
+          "vivenPct": 6.73
+        },
+        {
+          "pais": "Bolivia",
+          "n": 6124,
+          "pct": 9.2,
+          "vivenPct": 2.64
+        },
+        {
+          "pais": "Colombia",
+          "n": 5647,
+          "pct": 8.5,
+          "vivenPct": 5.93
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 4107,
+          "pct": 6.2,
+          "vivenPct": 2.71
+        },
+        {
+          "pais": "Perú",
+          "n": 3224,
+          "pct": 4.8,
+          "vivenPct": 3.12
+        },
+        {
+          "pais": "Pakistán",
+          "n": 1708,
+          "pct": 2.6,
+          "vivenPct": 1.16
+        },
+        {
+          "pais": "Argentina",
+          "n": 1445,
+          "pct": 2.2,
+          "vivenPct": 4.18
+        },
+        {
+          "pais": "Cuba",
+          "n": 1429,
+          "pct": 2.1,
+          "vivenPct": 2.23
+        },
+        {
+          "pais": "Brasil",
+          "n": 1294,
+          "pct": 1.9,
+          "vivenPct": 1.86
+        },
+        {
+          "pais": "Honduras",
+          "n": 1267,
+          "pct": 1.9,
+          "vivenPct": 0.97
+        },
+        {
+          "pais": "Paraguay",
+          "n": 1265,
+          "pct": 1.9,
+          "vivenPct": 1.23
+        },
+        {
+          "pais": "Venezuela",
+          "n": 1068,
+          "pct": 1.6,
+          "vivenPct": 3.31
+        },
+        {
+          "pais": "Rumanía",
+          "n": 696,
+          "pct": 1.0,
+          "vivenPct": 10.14
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 473,
+          "pct": 0.7,
+          "vivenPct": 0.46
+        }
+      ]
+    },
+    "2018": {
+      "total": 90774,
+      "top10": [
+        "Marruecos",
+        "Bolivia",
+        "Ecuador",
+        "Colombia",
+        "República Dominicana",
+        "Perú",
+        "Cuba",
+        "Paraguay",
+        "Brasil",
+        "Pakistán"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 25315,
+          "pct": 27.9,
+          "vivenPct": 12.59
+        },
+        {
+          "pais": "Bolivia",
+          "n": 8157,
+          "pct": 9.0,
+          "vivenPct": 2.62
+        },
+        {
+          "pais": "Ecuador",
+          "n": 7988,
+          "pct": 8.8,
+          "vivenPct": 6.53
+        },
+        {
+          "pais": "Colombia",
+          "n": 6826,
+          "pct": 7.5,
+          "vivenPct": 6.13
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 4940,
+          "pct": 5.4,
+          "vivenPct": 2.73
+        },
+        {
+          "pais": "Perú",
+          "n": 3273,
+          "pct": 3.6,
+          "vivenPct": 3.18
+        },
+        {
+          "pais": "Cuba",
+          "n": 2688,
+          "pct": 3.0,
+          "vivenPct": 2.25
+        },
+        {
+          "pais": "Paraguay",
+          "n": 2500,
+          "pct": 2.8,
+          "vivenPct": 1.31
+        },
+        {
+          "pais": "Brasil",
+          "n": 2153,
+          "pct": 2.4,
+          "vivenPct": 1.95
+        },
+        {
+          "pais": "Pakistán",
+          "n": 2054,
+          "pct": 2.3,
+          "vivenPct": 1.21
+        },
+        {
+          "pais": "Argentina",
+          "n": 2043,
+          "pct": 2.3,
+          "vivenPct": 4.14
+        },
+        {
+          "pais": "Venezuela",
+          "n": 2034,
+          "pct": 2.2,
+          "vivenPct": 3.93
+        },
+        {
+          "pais": "Honduras",
+          "n": 1783,
+          "pct": 2.0,
+          "vivenPct": 1.21
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 1069,
+          "pct": 1.2,
+          "vivenPct": 0.53
+        },
+        {
+          "pais": "Rumanía",
+          "n": 991,
+          "pct": 1.1,
+          "vivenPct": 9.56
+        }
+      ]
+    },
+    "2019": {
+      "total": 98954,
+      "top10": [
+        "Marruecos",
+        "Ecuador",
+        "Colombia",
+        "Bolivia",
+        "República Dominicana",
+        "Perú",
+        "Cuba",
+        "Pakistán",
+        "Honduras",
+        "Brasil"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 24527,
+          "pct": 24.8,
+          "vivenPct": 12.69
+        },
+        {
+          "pais": "Ecuador",
+          "n": 8157,
+          "pct": 8.2,
+          "vivenPct": 6.23
+        },
+        {
+          "pais": "Colombia",
+          "n": 7515,
+          "pct": 7.6,
+          "vivenPct": 6.48
+        },
+        {
+          "pais": "Bolivia",
+          "n": 7417,
+          "pct": 7.5,
+          "vivenPct": 2.56
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 5366,
+          "pct": 5.4,
+          "vivenPct": 2.68
+        },
+        {
+          "pais": "Perú",
+          "n": 3798,
+          "pct": 3.8,
+          "vivenPct": 3.25
+        },
+        {
+          "pais": "Cuba",
+          "n": 3105,
+          "pct": 3.1,
+          "vivenPct": 2.27
+        },
+        {
+          "pais": "Pakistán",
+          "n": 3057,
+          "pct": 3.1,
+          "vivenPct": 1.27
+        },
+        {
+          "pais": "Honduras",
+          "n": 2739,
+          "pct": 2.8,
+          "vivenPct": 1.48
+        },
+        {
+          "pais": "Brasil",
+          "n": 2737,
+          "pct": 2.8,
+          "vivenPct": 2.04
+        },
+        {
+          "pais": "Paraguay",
+          "n": 2726,
+          "pct": 2.8,
+          "vivenPct": 1.36
+        },
+        {
+          "pais": "Venezuela",
+          "n": 2554,
+          "pct": 2.6,
+          "vivenPct": 4.73
+        },
+        {
+          "pais": "Argentina",
+          "n": 2493,
+          "pct": 2.5,
+          "vivenPct": 4.09
+        },
+        {
+          "pais": "Rumanía",
+          "n": 1696,
+          "pct": 1.7,
+          "vivenPct": 8.92
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 1201,
+          "pct": 1.2,
+          "vivenPct": 0.66
+        }
+      ]
+    },
+    "2020": {
+      "total": 126266,
+      "top10": [
+        "Marruecos",
+        "Colombia",
+        "Ecuador",
+        "Bolivia",
+        "República Dominicana",
+        "Venezuela",
+        "Cuba",
+        "Pakistán",
+        "Perú",
+        "Honduras"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 28240,
+          "pct": 22.4,
+          "vivenPct": 12.76
+        },
+        {
+          "pais": "Colombia",
+          "n": 9021,
+          "pct": 7.1,
+          "vivenPct": 7.0
+        },
+        {
+          "pais": "Ecuador",
+          "n": 8336,
+          "pct": 6.6,
+          "vivenPct": 5.91
+        },
+        {
+          "pais": "Bolivia",
+          "n": 7794,
+          "pct": 6.2,
+          "vivenPct": 2.47
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 6897,
+          "pct": 5.5,
+          "vivenPct": 2.6
+        },
+        {
+          "pais": "Venezuela",
+          "n": 5817,
+          "pct": 4.6,
+          "vivenPct": 5.43
+        },
+        {
+          "pais": "Cuba",
+          "n": 5405,
+          "pct": 4.3,
+          "vivenPct": 2.31
+        },
+        {
+          "pais": "Pakistán",
+          "n": 4458,
+          "pct": 3.5,
+          "vivenPct": 1.34
+        },
+        {
+          "pais": "Perú",
+          "n": 4219,
+          "pct": 3.3,
+          "vivenPct": 3.37
+        },
+        {
+          "pais": "Honduras",
+          "n": 3868,
+          "pct": 3.1,
+          "vivenPct": 1.76
+        },
+        {
+          "pais": "Paraguay",
+          "n": 3647,
+          "pct": 2.9,
+          "vivenPct": 1.43
+        },
+        {
+          "pais": "Argentina",
+          "n": 3581,
+          "pct": 2.8,
+          "vivenPct": 4.13
+        },
+        {
+          "pais": "Brasil",
+          "n": 3382,
+          "pct": 2.7,
+          "vivenPct": 2.1
+        },
+        {
+          "pais": "Rumanía",
+          "n": 2771,
+          "pct": 2.2,
+          "vivenPct": 8.21
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 2100,
+          "pct": 1.7,
+          "vivenPct": 0.85
+        }
+      ]
+    },
+    "2021": {
+      "total": 144012,
+      "top10": [
+        "Marruecos",
+        "Colombia",
+        "Ecuador",
+        "Bolivia",
+        "República Dominicana",
+        "Venezuela",
+        "Pakistán",
+        "Cuba",
+        "Honduras",
+        "Perú"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 42000,
+          "pct": 29.2,
+          "vivenPct": 12.82
+        },
+        {
+          "pais": "Colombia",
+          "n": 8328,
+          "pct": 5.8,
+          "vivenPct": 7.34
+        },
+        {
+          "pais": "Ecuador",
+          "n": 8325,
+          "pct": 5.8,
+          "vivenPct": 5.73
+        },
+        {
+          "pais": "Bolivia",
+          "n": 8311,
+          "pct": 5.8,
+          "vivenPct": 2.44
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 6791,
+          "pct": 4.7,
+          "vivenPct": 2.55
+        },
+        {
+          "pais": "Venezuela",
+          "n": 6536,
+          "pct": 4.5,
+          "vivenPct": 5.68
+        },
+        {
+          "pais": "Pakistán",
+          "n": 5921,
+          "pct": 4.1,
+          "vivenPct": 1.41
+        },
+        {
+          "pais": "Cuba",
+          "n": 4975,
+          "pct": 3.5,
+          "vivenPct": 2.29
+        },
+        {
+          "pais": "Honduras",
+          "n": 4235,
+          "pct": 2.9,
+          "vivenPct": 1.93
+        },
+        {
+          "pais": "Perú",
+          "n": 4082,
+          "pct": 2.8,
+          "vivenPct": 3.44
+        },
+        {
+          "pais": "Paraguay",
+          "n": 3219,
+          "pct": 2.2,
+          "vivenPct": 1.47
+        },
+        {
+          "pais": "Brasil",
+          "n": 3209,
+          "pct": 2.2,
+          "vivenPct": 2.12
+        },
+        {
+          "pais": "Argentina",
+          "n": 3120,
+          "pct": 2.2,
+          "vivenPct": 4.17
+        },
+        {
+          "pais": "Rumanía",
+          "n": 3006,
+          "pct": 2.1,
+          "vivenPct": 7.8
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 2181,
+          "pct": 1.5,
+          "vivenPct": 0.94
+        }
+      ]
+    },
+    "2022": {
+      "total": 181581,
+      "top10": [
+        "Marruecos",
+        "Colombia",
+        "Ecuador",
+        "Bolivia",
+        "República Dominicana",
+        "Venezuela",
+        "Pakistán",
+        "Honduras",
+        "Perú",
+        "Cuba"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 55463,
+          "pct": 30.5,
+          "vivenPct": 12.85
+        },
+        {
+          "pais": "Colombia",
+          "n": 11125,
+          "pct": 6.1,
+          "vivenPct": 7.56
+        },
+        {
+          "pais": "Ecuador",
+          "n": 10845,
+          "pct": 6.0,
+          "vivenPct": 5.61
+        },
+        {
+          "pais": "Bolivia",
+          "n": 9016,
+          "pct": 5.0,
+          "vivenPct": 2.39
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 8100,
+          "pct": 4.5,
+          "vivenPct": 2.51
+        },
+        {
+          "pais": "Venezuela",
+          "n": 8036,
+          "pct": 4.4,
+          "vivenPct": 5.9
+        },
+        {
+          "pais": "Pakistán",
+          "n": 6400,
+          "pct": 3.5,
+          "vivenPct": 1.42
+        },
+        {
+          "pais": "Honduras",
+          "n": 5778,
+          "pct": 3.2,
+          "vivenPct": 2.01
+        },
+        {
+          "pais": "Perú",
+          "n": 5152,
+          "pct": 2.8,
+          "vivenPct": 3.54
+        },
+        {
+          "pais": "Cuba",
+          "n": 4780,
+          "pct": 2.6,
+          "vivenPct": 2.37
+        },
+        {
+          "pais": "Rumanía",
+          "n": 4217,
+          "pct": 2.3,
+          "vivenPct": 7.32
+        },
+        {
+          "pais": "Paraguay",
+          "n": 4172,
+          "pct": 2.3,
+          "vivenPct": 1.46
+        },
+        {
+          "pais": "Brasil",
+          "n": 3831,
+          "pct": 2.1,
+          "vivenPct": 2.06
+        },
+        {
+          "pais": "Argentina",
+          "n": 3792,
+          "pct": 2.1,
+          "vivenPct": 4.38
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 2756,
+          "pct": 1.5,
+          "vivenPct": 0.92
+        }
+      ]
+    },
+    "2023": {
+      "total": 240208,
+      "top10": [
+        "Marruecos",
+        "Venezuela",
+        "Colombia",
+        "Ecuador",
+        "Honduras",
+        "República Dominicana",
+        "Cuba",
+        "Bolivia",
+        "Perú",
+        "Argentina"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 54027,
+          "pct": 22.5,
+          "vivenPct": 12.51
+        },
+        {
+          "pais": "Venezuela",
+          "n": 30154,
+          "pct": 12.6,
+          "vivenPct": 6.33
+        },
+        {
+          "pais": "Colombia",
+          "n": 18738,
+          "pct": 7.8,
+          "vivenPct": 8.72
+        },
+        {
+          "pais": "Ecuador",
+          "n": 11326,
+          "pct": 4.7,
+          "vivenPct": 5.25
+        },
+        {
+          "pais": "Honduras",
+          "n": 11189,
+          "pct": 4.7,
+          "vivenPct": 2.16
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 10275,
+          "pct": 4.3,
+          "vivenPct": 2.36
+        },
+        {
+          "pais": "Cuba",
+          "n": 9790,
+          "pct": 4.1,
+          "vivenPct": 2.42
+        },
+        {
+          "pais": "Bolivia",
+          "n": 9103,
+          "pct": 3.8,
+          "vivenPct": 2.24
+        },
+        {
+          "pais": "Perú",
+          "n": 8489,
+          "pct": 3.5,
+          "vivenPct": 3.93
+        },
+        {
+          "pais": "Argentina",
+          "n": 7208,
+          "pct": 3.0,
+          "vivenPct": 4.55
+        },
+        {
+          "pais": "Pakistán",
+          "n": 6829,
+          "pct": 2.8,
+          "vivenPct": 1.4
+        },
+        {
+          "pais": "Brasil",
+          "n": 5759,
+          "pct": 2.4,
+          "vivenPct": 2.04
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 5160,
+          "pct": 2.1,
+          "vivenPct": 0.98
+        },
+        {
+          "pais": "Paraguay",
+          "n": 4947,
+          "pct": 2.1,
+          "vivenPct": 1.56
+        },
+        {
+          "pais": "Rumanía",
+          "n": 4932,
+          "pct": 2.1,
+          "vivenPct": 6.57
+        }
+      ]
+    },
+    "2024": {
+      "total": 252476,
+      "top10": [
+        "Marruecos",
+        "Venezuela",
+        "Colombia",
+        "Honduras",
+        "Ecuador",
+        "Perú",
+        "República Dominicana",
+        "Argentina",
+        "Bolivia",
+        "Cuba"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 42910,
+          "pct": 17.0,
+          "vivenPct": 12.37
+        },
+        {
+          "pais": "Venezuela",
+          "n": 35403,
+          "pct": 14.0,
+          "vivenPct": 6.79
+        },
+        {
+          "pais": "Colombia",
+          "n": 26224,
+          "pct": 10.4,
+          "vivenPct": 9.69
+        },
+        {
+          "pais": "Honduras",
+          "n": 15574,
+          "pct": 6.2,
+          "vivenPct": 2.28
+        },
+        {
+          "pais": "Ecuador",
+          "n": 10871,
+          "pct": 4.3,
+          "vivenPct": 5.08
+        },
+        {
+          "pais": "Perú",
+          "n": 10480,
+          "pct": 4.2,
+          "vivenPct": 4.29
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 9452,
+          "pct": 3.7,
+          "vivenPct": 2.28
+        },
+        {
+          "pais": "Argentina",
+          "n": 8558,
+          "pct": 3.4,
+          "vivenPct": 4.71
+        },
+        {
+          "pais": "Bolivia",
+          "n": 8385,
+          "pct": 3.3,
+          "vivenPct": 2.14
+        },
+        {
+          "pais": "Cuba",
+          "n": 8045,
+          "pct": 3.2,
+          "vivenPct": 2.53
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 7167,
+          "pct": 2.8,
+          "vivenPct": 0.99
+        },
+        {
+          "pais": "Pakistán",
+          "n": 6395,
+          "pct": 2.5,
+          "vivenPct": 1.4
+        },
+        {
+          "pais": "Rumanía",
+          "n": 5973,
+          "pct": 2.4,
+          "vivenPct": 6.02
+        },
+        {
+          "pais": "Paraguay",
+          "n": 5401,
+          "pct": 2.1,
+          "vivenPct": 1.65
+        },
+        {
+          "pais": "Brasil",
+          "n": 5312,
+          "pct": 2.1,
+          "vivenPct": 2.03
+        }
+      ]
+    },
+    "2025": {
+      "total": 299732,
+      "top10": [
+        "Marruecos",
+        "Colombia",
+        "Venezuela",
+        "Honduras",
+        "Perú",
+        "Cuba",
+        "Ecuador",
+        "Argentina",
+        "República Dominicana",
+        "Nicaragua"
+      ],
+      "paises": [
+        {
+          "pais": "Marruecos",
+          "n": 42114,
+          "pct": 14.1,
+          "vivenPct": 12.32
+        },
+        {
+          "pais": "Colombia",
+          "n": 37712,
+          "pct": 12.6,
+          "vivenPct": 10.33
+        },
+        {
+          "pais": "Venezuela",
+          "n": 36271,
+          "pct": 12.1,
+          "vivenPct": 7.32
+        },
+        {
+          "pais": "Honduras",
+          "n": 20745,
+          "pct": 6.9,
+          "vivenPct": 2.33
+        },
+        {
+          "pais": "Perú",
+          "n": 15920,
+          "pct": 5.3,
+          "vivenPct": 4.55
+        },
+        {
+          "pais": "Cuba",
+          "n": 14390,
+          "pct": 4.8,
+          "vivenPct": 2.67
+        },
+        {
+          "pais": "Ecuador",
+          "n": 13689,
+          "pct": 4.6,
+          "vivenPct": 4.95
+        },
+        {
+          "pais": "Argentina",
+          "n": 11291,
+          "pct": 3.8,
+          "vivenPct": 4.76
+        },
+        {
+          "pais": "República Dominicana",
+          "n": 9915,
+          "pct": 3.3,
+          "vivenPct": 2.19
+        },
+        {
+          "pais": "Nicaragua",
+          "n": 8951,
+          "pct": 3.0,
+          "vivenPct": 0.99
+        },
+        {
+          "pais": "Bolivia",
+          "n": 8902,
+          "pct": 3.0,
+          "vivenPct": 2.04
+        },
+        {
+          "pais": "Rumanía",
+          "n": 7185,
+          "pct": 2.4,
+          "vivenPct": 5.51
+        },
+        {
+          "pais": "Paraguay",
+          "n": 6946,
+          "pct": 2.3,
+          "vivenPct": 1.72
+        },
+        {
+          "pais": "Brasil",
+          "n": 6657,
+          "pct": 2.2,
+          "vivenPct": 2.0
+        },
+        {
+          "pais": "Pakistán",
+          "n": 6495,
+          "pct": 2.2,
+          "vivenPct": 1.43
+        }
+      ]
+    }
   }
 }
