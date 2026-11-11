@@ -1,19 +1,15 @@
 import Info from '../../componentes/Info';
 import Medios from './Medios';
+import AudienciaAnual from './AudienciaAnual';
 import CuestionesMedios from './CuestionesMedios';
 import {T} from '../../../comun/Glosario';
 import {MEDIA} from '../../datos';
 import {fmt} from '../../lib/formato';
-import {maximo, primero, ultimo} from './serie';
+import {maximo, ultimo} from './serie';
 
 // Cifras del recuadro, siempre del ultimo dato de medios.json
 const [anioPreocupa, preocupa] = ultimo(MEDIA.preocupa);
 const preocupaEsMaximo = maximo(MEDIA.preocupa)[1] === preocupa;
-const [, confia] = ultimo(MEDIA.confianza);
-const [anioConfiaMax, confiaMax] = maximo(MEDIA.confianza);
-const [anioDif0, dif0] = primero(MEDIA.difusion);
-const [anioDif1, dif1] = ultimo(MEDIA.difusion);
-const [, redes] = ultimo(MEDIA.fuente.redes);
 
 export default function PestanaMedios() {
   return (
@@ -54,30 +50,11 @@ export default function PestanaMedios() {
         </p>
         <p className="era-q">
           Nunca hemos tenido tanta información al alcance de la mano y, sin embargo, cuando más falta nos hace estar bien informados, más difícil
-          es encontrar información fiable.
+          es encontrar información fiable: el <b className="num">{fmt(preocupa, 0)} %</b> teme no distinguir lo real de lo falso en internet (
+          {preocupaEsMaximo ? 'máximo histórico, ' : ''}
+          {anioPreocupa}).
         </p>
-        <div className="era-d">
-          <span>
-            <b className="num">{fmt(preocupa, 0)} %</b> teme no distinguir lo real de lo falso en internet ({preocupaEsMaximo ? 'máximo histórico, ' : ''}
-            {anioPreocupa})
-          </span>
-          <span>
-            <b className="num">{fmt(confia, 0)} %</b> confía en las noticias; en {anioConfiaMax} era el {fmt(confiaMax, 0)} %
-          </span>
-          <span>
-            <b className="num">
-              {fmt(dif0, 1)} M → {fmt(dif1, 1)} M
-            </b>{' '}
-            periódicos vendidos al día entre {anioDif0} y {anioDif1}
-          </span>
-          <span>
-            <b className="num">{fmt(redes, 0)} %</b> se informa por redes sociales, donde circulan la mayoría de los bulos
-          </span>
-          <span>
-            <b className="num">casi 3 al día</b> bulos sobre la COVID desmentidos entre marzo y diciembre de 2020 (unos 800, según Maldita.es), justo cuando
-            más se necesitaba saber qué hacer
-          </span>
-        </div>
+        <AudienciaAnual />
         <p className="era-f">
           Más canales no significa más información: significa más ruido. Por eso importa preguntarse siempre quién dice algo, de dónde lo saca y
           quién gana si nos lo creemos.
