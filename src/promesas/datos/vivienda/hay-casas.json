@@ -36,5 +36,57 @@
         "vacias": 10.5
       }
     }
+  },
+  "censos": {
+    "1991": {
+      "viviendas": 17206363,
+      "principales": 11736376,
+      "vacias": 2475639,
+      "secundarias": 2923615,
+      "otras": 70733
+    },
+    "2001": {
+      "viviendas": 20946554,
+      "principales": 14184026,
+      "vacias": 3106422,
+      "secundarias": 3360631,
+      "otras": 295475
+    },
+    "2011": {
+      "viviendas": 25208623,
+      "principales": 18083692,
+      "vacias": 3443365,
+      "secundarias": 3681565,
+      "otras": 1
+    },
+    "2021": {
+      "viviendas": 26623708,
+      "principales": 18536616,
+      "vacias": 3837328,
+      "secundarias": 2514511,
+      "otras": 1735253
+    }
+  },
+  "estimados": {
+    "2022": {
+      "viviendas": 26720000,
+      "hogares": 18822103
+    },
+    "2023": {
+      "viviendas": 26810000,
+      "hogares": 19103050
+    },
+    "2024": {
+      "viviendas": 26900000,
+      "hogares": 19314630
+    },
+    "2025": {
+      "viviendas": 27000000,
+      "hogares": 19521046
+    },
+    "2026": {
+      "viviendas": 27100000,
+      "hogares": 19762059
+    }
   }
 }
