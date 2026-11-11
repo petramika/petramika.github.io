@@ -474,13 +474,19 @@ export default function PestanaFuturo() {
       ),
       mejor: [
         ...pre('Política', [<>Las elecciones y los cambios de gobierno siguen siendo pacíficos y por votación, desde 1977.</>]),
-        ...pre('Medios', [<>España sube en libertad de prensa: puesto {n0(rsfU)} en {aRsf} (el mejor, {n0(rsfMejor)} en {aRsfMejor}).</>]),
+        ...pre('Medios', [
+          <>
+            En libertad de prensa está mejor que en los años 2000: puesto {n0(rsfU)} de 180 en {aRsf} (cuanto más bajo, mejor), frente a puestos entre el 33 y
+            el 44 de 2003 a 2016. Su mejor puesto fue el {n0(rsfMejor)}, en {aRsfMejor}.
+          </>,
+        ]),
       ],
       peor: [
         ...pre('Política', [<>Se gobierna cada vez más por decreto ley: {n0(dec['1986'])} en 1986 y {n0(decU)} en {aDec}. Más legislaturas cortas y repeticiones electorales.</>]),
         ...pre('Medios', [
           <>Solo el {n0(confU)} % confía en las noticias ({aConf}); en {aConfMax} era el {n0(confMax)} %.</>,
           <>El {n0(preU)} % teme no distinguir lo real de lo falso en internet ({aPre}).</>,
+          <>En libertad de prensa, en {aRsf} bajó seis puestos respecto a {aRsfMejor}.</>,
         ]),
       ],
       hacer: [
@@ -521,7 +527,7 @@ export default function PestanaFuturo() {
       ],
       hacer: [
         ...pre('Natalidad', [
-<>Vivienda asequible para que la gente se emancipe antes de los 30.</>,
+<>Vivienda y alquiler asequible para que la gente se emancipe antes de los 30.</>,
         <>Permisos y escuela de 0 a 3 años gratis; ayudas por hijo.</>,
         <>Horarios que permitan criar sin dejar de trabajar.</>,
         ]),
