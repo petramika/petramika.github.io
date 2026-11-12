@@ -22,7 +22,7 @@ const C = (COB as any).cobertura as Record<string, any>;
 const G = (COB as any).gasto;
 const E = ESP as any;
 const R = REC as any;
-const POB = DEMO.historia.poblacion as Serie;
+const POB = DEMO.historia.poblacion as Serie, PCT65 = DEMO.historia.pct65 as Serie;
 
 const n0 = (v: number) => fmt(v, 0);
 const n1 = (v: number) => fmt(v, 1);
@@ -618,23 +618,47 @@ export default function PestanaSanidad() {
         />
         <Cuestion
           pregunta="«Faltan médicos»"
-          veredicto="Faltan más enfermeras"
+          veredicto="Hay más que nunca, pero no llegan"
           tono="matiz"
           conclusion={
             <>
-              Por habitante, España tiene tantos médicos en activo como Alemania, pero menos de la mitad de enfermeras. El problema de los médicos es de reparto
-              y de edad: el {n1(ult(mas65)[1])} % de los colegiados tiene 65 años o más, y en atención primaria y en los pueblos cuesta cubrir plazas.
+              Desde {BASE}, los médicos que trabajan se han multiplicado por {fmt(medP / medES[BASE], 1)} y las enfermeras por {fmt(enfP / enfES[BASE], 1)}, y la
+              población solo por {fmt(POB[aMedP] / POB[BASE], 1)}: a cada médico le tocan {n0(habMed[aMedP])} personas, frente a {n0(habMed[BASE])}. Aun así va a
+              peor porque se pide mucha más sanidad, están mal repartidos y faltan enfermeras. Y desde 2021 a cada enfermera le vuelven a tocar más personas.
             </>
           }
           positivo={[
+            <>
+              Hay {n0(medP / 1000)} mil médicos y {n0(enfP / 1000)} mil enfermeras trabajando ({aMedP}), frente a {n0(medES[BASE] / 1000)} mil y{' '}
+              {n0(enfES[BASE] / 1000)} mil en {BASE}. Por habitante, casi tantos médicos como Alemania.
+            </>,
             <>
               Las plazas MIR han subido de {n0(mir['2010'])} a {n0(ult(mir)[1])} desde 2010, y las de medicina de familia, a {n0(ult(mirFam)[1])}.
             </>,
           ]}
           negativo={[
-            <>Muchos médicos se jubilarán en los próximos años, y formar un especialista lleva una década.</>,
             <>
-              Con {n0(ult(enf.ES)[1])} enfermeras por cada 100.000 habitantes, España está muy por debajo de Alemania ({n0(ult(enf.DE)[1])}) o Francia.
+              <strong>Se pide mucha más sanidad.</strong> Los mayores de 65 han pasado de {fmt((POB[BASE] * PCT65[BASE]) / 100 / 1e6, 1)} a{' '}
+              {fmt((POB[aMedP] * PCT65[aMedP]) / 100 / 1e6, 1)} millones, y una persona mayor con varias enfermedades crónicas necesita muchas más consultas,
+              pruebas y operaciones. Además hoy se tratan cosas que en {BASE} no tenían tratamiento (prótesis, cataratas, cáncer): más tratamientos, más listas.
+            </>,
+            <>
+              <strong>Están mal repartidos.</strong> La cifra cuenta también a los que trabajan en la privada, que ha crecido. Faltan sobre todo en atención
+              primaria, en los pueblos y en algunas especialidades; en los hospitales de ciudad hay más.
+            </>,
+            <>
+              <strong>Faltan enfermeras.</strong> {n0(ult(enf.ES)[1])} por cada 100.000 habitantes, menos de la mitad que Alemania ({n0(ult(enf.DE)[1])}). Hay{' '}
+              {fmt(enfP / medP, 1)} enfermeras por médico, cuando lo normal en Europa es el doble, así que los médicos hacen trabajo que en otros países hace
+              enfermería.
+            </>,
+            <>
+              <strong>Las enfermeras, a peor desde 2021.</strong> A cada una le tocaban {n0(habEnf['2021'])} personas en 2021 y {n0(ult(habEnf)[1])} en{' '}
+              {ult(habEnf)[0]}, lo mismo que antes de la pandemia: se acabaron muchos contratos del COVID. Los médicos, en cambio, siguen mejorando poco a poco
+              ({n0(habMed['2021'])} en 2021, {n0(habMed[aMedP])} en {aMedP}).
+            </>,
+            <>
+              <strong>Los recortes de 2010 a 2014</strong> congelaron plazas y bajaron el gasto público, y formar un especialista lleva una década. Además, el{' '}
+              {n1(ult(mas65)[1])} % de los médicos colegiados tiene 65 años o más.
             </>,
           ]}
           graficas={[
