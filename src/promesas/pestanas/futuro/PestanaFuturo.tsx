@@ -11,6 +11,7 @@ import DEMO from '../../datos/futuro/demografia.json';
 import SOST from '../../datos/futuro/sostenibilidad.json';
 import IA from '../../datos/futuro/ia-crisis.json';
 import {masTemas} from './MasTemas';
+import {sectorPublico} from './SectorPublico';
 
 /*
   Pestaña escondida (se abre con el año final de la cabecera o con #futuro).
@@ -204,6 +205,7 @@ export default function PestanaFuturo() {
     ['san', 'Envejecer con salud', 'Prevención y cuidados en casa: más años con buena salud significan más gente que puede seguir activa y menos gasto en hospitales.'],
   ];
 
+  const SP = sectorPublico();
   const TEMAS: Tema[] = [
     {
       id: 'derechos',
@@ -471,8 +473,8 @@ export default function PestanaFuturo() {
       tono: 'falso',
       resumen: (
         <>
-          La democracia sigue funcionando por votación, pero se gobierna cada vez más por decreto y cada vez menos gente se fía de las noticias. Es lo que hace
-          más difícil ponerse de acuerdo en lo que dura más de una legislatura.
+          La democracia sigue funcionando por votación, pero se gobierna cada vez más por decreto y cada vez menos gente se fía de las noticias. España no tiene
+          demasiados empleados públicos comparada con Europa, pero sí cada vez más ministros, altos cargos y asesores.
         </>
       ),
       mejor: [
@@ -483,6 +485,7 @@ export default function PestanaFuturo() {
             el 44 de 2003 a 2016. Su mejor puesto fue el {n0(rsfMejor)}, en {aRsfMejor}.
           </>,
         ]),
+        ...pre('Administración', SP.mejor),
       ],
       peor: [
         ...pre('Política', [<>Se gobierna cada vez más por decreto ley: {n0(dec['1986'])} en 1986 y {n0(decU)} en {aDec}. Más legislaturas cortas y repeticiones electorales.</>]),
@@ -491,11 +494,14 @@ export default function PestanaFuturo() {
           <>El {n0(preU)} % teme no distinguir lo real de lo falso en internet ({aPre}).</>,
           <>En libertad de prensa, en {aRsf} bajó seis puestos respecto a {aRsfMejor}.</>,
         ]),
+        ...pre('Administración', SP.peor),
       ],
       hacer: [
         ...pre('Política', [<>Pactos de Estado en lo que dura más de una legislatura: pensiones, vivienda, educación; y presupuestos aprobados a tiempo.</>]),
         ...pre('Medios', [<>Enseñar en el colegio a contrastar fuentes y detectar bulos, y apoyar a los verificadores.</>]),
+        ...pre('Administración', SP.hacer),
       ],
+      graficas: SP.graficas,
     },
     {
       id: 'pensiones',
