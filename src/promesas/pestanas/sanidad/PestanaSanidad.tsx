@@ -2,13 +2,13 @@ import {useEffect, useState} from 'react';
 import {SANIDAD} from '../../datos';
 import {fmt} from '../../lib/formato';
 import Mini from '../../componentes/graficas/Mini';
-import Barras from '../../componentes/graficas/Barras';
 import Info from '../../componentes/Info';
 import {L} from '../../componentes/enlace';
 import {Cuestion, Cuestiones} from '../../componentes/Cuestiones';
 import COB from '../../datos/sanidad/cobertura.json';
 import ESP from '../../datos/sanidad/esperas.json';
 import REC from '../../datos/sanidad/recursos.json';
+import DEMO from '../../datos/futuro/demografia.json';
 
 /*
   Sanidad: quién paga y quién atiende (pública o privada), cuánto se espera,
@@ -22,6 +22,7 @@ const C = (COB as any).cobertura as Record<string, any>;
 const G = (COB as any).gasto;
 const E = ESP as any;
 const R = REC as any;
+const POB = DEMO.historia.poblacion as Serie, PCT65 = DEMO.historia.pct65 as Serie;
 
 const n0 = (v: number) => fmt(v, 0);
 const n1 = (v: number) => fmt(v, 1);
@@ -189,7 +190,14 @@ export default function PestanaSanidad() {
     ['IT', 'Italia'],
     ['PT', 'Portugal'],
   ];
-  const ultDe = (s: Serie | undefined) => (s ? ult(s) : null);
+  const COLORES: Record<string, string> = {ES: '#3B5BDB', DE: '#F59F00', FR: '#7048E8', IT: '#2F9E44', PT: '#C92A2A'};
+  const porPais = (o: Record<string, Serie>) => PAISES.filter(([k]) => o[k]).map(([k, lab]) => ({lab, c: COLORES[k], data: o[k]}));
+  const BASE = '1980';
+  const personas = (tasa: Serie): Serie => Object.fromEntries(anios(tasa).filter((y) => POB[y]).map((y) => [y, (tasa[y] * POB[y]) / 1e5]));
+  const medES = personas(med.ES), enfES = personas(enf.ES);
+  const mayores: Serie = Object.fromEntries(anios(PCT65).map((y) => [y, (POB[y] * PCT65[y]) / 100]));
+  const indice = (s: Serie): Serie => Object.fromEntries(anios(s).filter((y) => +y >= +BASE).map((y) => [y, (s[y] / s[BASE]) * 100]));
+  const [aMedP, medP] = ult(medES), [, enfP] = ult(enfES);
   const mas65 = R.colegiados.medicosMas65Pct as Serie, medicas = R.colegiados.medicasPct as Serie;
   const camasPub = R.camas.publicas as Serie, camasPriv = R.camas.privadas as Serie;
   const pctPrivadas = Object.fromEntries(anios(camasPub).map((y) => [y, (camasPriv[y] / (camasPub[y] + camasPriv[y])) * 100])) as Serie;
@@ -211,6 +219,42 @@ export default function PestanaSanidad() {
       <Cobertura />
 
       <div className="charts" id="charts-san">
+        <Mini
+          id="san-plantilla"
+          title="Médicos y enfermeras frente a la población"
+          sub={`cuánto ha crecido cada uno desde ${BASE} (${BASE} = 100)`}
+          series={[
+            {lab: 'Médicos que trabajan', c: '#3B5BDB', data: indice(medES)},
+            {lab: 'Enfermeras que trabajan', c: '#2F9E44', data: indice(enfES)},
+            {lab: 'Población', c: '#495057', dash: true, data: indice(POB)},
+            {lab: 'Mayores de 65 años', c: '#C92A2A', dash: true, data: indice(mayores)},
+          ]}
+          f={(v) => n0(v)}
+          x0={1979.5}
+          yMin={0}
+          note={
+            <>
+              <p>
+                Si la línea de médicos o de enfermeras sube más que la de población, hay más profesionales por persona; si se acercan o la cruzan, menos. La de
+                mayores importa porque son los que más usan la sanidad.
+              </p>
+              <p>
+                De {BASE} a {aMedP}: médicos que trabajan, de unos {n0(medES[BASE] / 1000)} mil a {n0(medP / 1000)} mil; enfermeras, de {n0(enfES[BASE] / 1000)} mil
+                a {n0(enfP / 1000)} mil; población, de {fmt(POB[BASE] / 1e6, 1)} a {fmt(POB[aMedP] / 1e6, 1)} millones; mayores de 65, de{' '}
+                {fmt(mayores[BASE] / 1e6, 1)} a {fmt(mayores[aMedP] / 1e6, 1)} millones.
+              </p>
+              <p>
+                Son profesionales en activo, no contrataciones de cada año: no hay una estadística oficial de contrataciones tan larga. Cálculo propio: tasa por
+                100.000 habitantes de Eurostat por la población del INE. Hay años sin dato antes de 1997.
+              </p>
+            </>
+          }
+          src={
+            <>
+              {L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)} e {L('INE, Estadística Continua de Población', 'https://www.ine.es/jaxiT3/Tabla.htm?t=56934')}
+            </>
+          }
+        />
         <Mini
           id="san-gasto"
           title="Cuánto se gasta en sanidad"
@@ -363,20 +407,35 @@ export default function PestanaSanidad() {
           }
           src={L('Ministerio de Sanidad y CIS, Barómetro Sanitario', BAROMETRO)}
         />
-        <Barras
+        <Mini
           id="san-personal"
-          title="Médicos y enfermeras que trabajan"
-          sub="por cada 100.000 habitantes, último año con dato"
-          series={[
-            {lab: 'Médicos', c: '#3B5BDB'},
-            {lab: 'Enfermeras', c: '#2F9E44'},
-          ]}
-          filas={PAISES.map(([k, lab]) => ({lab, vals: [ultDe(med[k])?.[1] ?? null, ultDe(enf[k])?.[1] ?? null]}))}
+          title="Médicos que trabajan"
+          sub="por cada 100.000 habitantes"
+          series={porPais(med)}
           f={(v) => n0(v)}
+          x0={1979.5}
+          yMin={0}
           note={
             <p>
-              España tiene tantos médicos por habitante como Alemania ({n0(ult(med.ES)[1])} frente a {n0(ult(med.DE)[1])} en {ult(med.ES)[0]}), pero menos de la
-              mitad de enfermeras ({n0(ult(enf.ES)[1])} frente a {n0(ult(enf.DE)[1])}). Son profesionales en activo; Eurostat no publica una media de la UE.
+              España pasa de {n0(med.ES['1980'])} médicos en activo por cada 100.000 habitantes en 1980 a {n0(ult(med.ES)[1])} en {ult(med.ES)[0]}, casi como
+              Alemania ({n0(ult(med.DE)[1])}). Eurostat no publica una media de la UE; de Portugal solo hay dato comparable desde 2021, y de Francia e Italia desde
+              2000. El salto de Italia en 2021 es un cambio en cómo cuenta a sus médicos.
+            </p>
+          }
+          src={L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)}
+        />
+        <Mini
+          id="san-enfermeras"
+          title="Enfermeras que trabajan"
+          sub="por cada 100.000 habitantes"
+          series={porPais(enf)}
+          f={(v) => n0(v)}
+          x0={1979.5}
+          yMin={0}
+          note={
+            <p>
+              España pasa de {n0(enf.ES['1980'])} enfermeras en activo por cada 100.000 habitantes en 1980 a {n0(ult(enf.ES)[1])} en {ult(enf.ES)[0]}: ha subido
+              mucho, pero sigue con menos de la mitad que Alemania ({n0(ult(enf.DE)[1])}).
             </p>
           }
           src={L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)}
@@ -505,7 +564,9 @@ export default function PestanaSanidad() {
             <>Con {n0(ult(enf.ES)[1])} enfermeras por cada 100.000 habitantes, España está muy por debajo de Alemania ({n0(ult(enf.DE)[1])}) o Francia.</>,
           ]}
           graficas={[
-            {id: 'san-personal', lab: 'Médicos y enfermeras'},
+            {id: 'san-plantilla', lab: 'Médicos y enfermeras frente a la población'},
+            {id: 'san-personal', lab: 'Médicos que trabajan'},
+            {id: 'san-enfermeras', lab: 'Enfermeras que trabajan'},
             {id: 'san-medicos-edad', lab: 'Médicos cerca de jubilarse'},
             {id: 'san-mir', lab: 'Plazas MIR'},
           ]}
