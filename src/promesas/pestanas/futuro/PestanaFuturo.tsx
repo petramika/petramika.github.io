@@ -10,6 +10,7 @@ import type {Tono} from '../../componentes/Cuestiones';
 import DEMO from '../../datos/futuro/demografia.json';
 import SOST from '../../datos/futuro/sostenibilidad.json';
 import IA from '../../datos/futuro/ia-crisis.json';
+import {masTemas} from './MasTemas';
 
 /*
   Pestaña escondida (se abre con el año final de la cabecera o con #futuro).
@@ -46,6 +47,8 @@ const solo = (o: Record<string, unknown>): Serie =>
 const INE_PROY = 'https://www.ine.es/dyngs/Prensa/PROP20262076.htm';
 const INE_IDB = 'https://www.ine.es/dynt3/inebase/es/index.htm?padre=1894';
 const PROY = {x: 2025.5, lab: 'Proyección'};
+
+const ORDEN = ['derechos', 'economia', 'trabajo', 'instituciones', 'educacion', 'sanidad', 'autonomias', 'exterior', 'pensiones', 'infraestructuras', 'ambiente', 'vivienda'];
 
 type Tema = {
   id: string;
@@ -802,7 +805,7 @@ export default function PestanaFuturo() {
         <p className="faq-intro">
           Qué va a mejor, qué va a peor y qué se podría hacer en cada tema, con sus gráficas y las proyecciones oficiales. Pulsa cada uno para abrirlo.
         </p>
-        {TEMAS.map((t) => (
+        {[...TEMAS, ...masTemas()].sort((a, b) => ORDEN.indexOf(a.id) - ORDEN.indexOf(b.id)).map((t) => (
           <Desplegable key={t.id} t={t} />
         ))}
       </section>
