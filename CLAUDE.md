@@ -8,6 +8,7 @@ Cada proyecto tiene además su propio CLAUDE.md con sus reglas:
 | -------- | ------ | ------ |
 | España política en datos | `src/promesas/` | `src/promesas/CLAUDE.md` |
 | Filosofía comprimida | `src/filosofia/` | `src/filosofia/CLAUDE.md` |
+| ROTA | `src/rota/` | `src/rota/CLAUDE.md` |
 
 ## Reglas para todos los proyectos
 
