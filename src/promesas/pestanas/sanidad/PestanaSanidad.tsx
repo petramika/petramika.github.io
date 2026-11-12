@@ -419,7 +419,7 @@ export default function PestanaSanidad() {
             <p>
               España pasa de {n0(med.ES['1980'])} médicos en activo por cada 100.000 habitantes en 1980 a {n0(ult(med.ES)[1])} en {ult(med.ES)[0]}, casi como
               Alemania ({n0(ult(med.DE)[1])}). Eurostat no publica una media de la UE; de Portugal solo hay dato comparable desde 2021, y de Francia e Italia desde
-              2000. El salto de Italia en 2021 es un cambio en cómo cuenta a sus médicos.
+              2000. Ojo con el salto de Italia en 2021: sube un tercio de un año a otro en los datos que envía a Eurostat, más de lo que se puede formar en un año.
             </p>
           }
           src={L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)}
