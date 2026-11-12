@@ -1645,7 +1645,7 @@
       "seccion": "Sanidad",
       "bloques": [
         {
-          "dato": "Cobertura sanitaria: pública, privada o las dos",
+          "dato": "Cobertura sanitaria: pública, privada o las dos (1977–2025)",
           "detalle": "Porcentaje de la población según su cobertura en cada Encuesta de Salud con el reparto completo: ENS 2003, 2006, 2011/12 y 2017; EESE 2014 y 2020 (solo mayores de 15 años); ESdE 2023 y 2025. Los mutualistas (MUFACE, ISFAS, MUGEJU) sin otro seguro cuentan como «solo la pública»; en 2003, la única ola que los publica aparte, se suman a esa categoría. Hasta 2001 las encuestas preguntaban de otra forma (respuesta múltiple, adultos y niños por separado) y no se comparan.",
           "verificado": "sí",
           "fuentes": [
@@ -1662,6 +1662,16 @@
             {
               "nombre": "INE y Ministerio de Sanidad, Encuesta de Salud de España 2025",
               "url": "https://www.ine.es/",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "INE, Anuario Estadístico de España 1983–1996: población protegida en asistencia sanitaria (INSALUD)",
+              "url": "https://www.ine.es/inebaseweb/libros.do?tntp=25687",
+              "tipo": "oficial"
+            },
+            {
+              "nombre": "OCDE, Health Statistics: cobertura pública y seguro privado voluntario (% de la población)",
+              "url": "https://data-explorer.oecd.org/",
               "tipo": "oficial"
             }
           ]

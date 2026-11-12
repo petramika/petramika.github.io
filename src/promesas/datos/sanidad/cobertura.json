@@ -1065,5 +1065,127 @@
    "anios": "2025"
   }
  ],
- "notas": "COBERTURA. Categorias oficiales desde 2003: 'publica exclusivamente', 'privada exclusivamente', 'mixta' (publica + privada = doble cobertura) y 'otras situaciones'. soloPublica = 'publica exclusivamente' e INCLUYE a los mutualistas (MUFACE/ISFAS/MUGEJU) sin seguro privado adicional, salvo en 2003, unica ola donde se publican separados (mutualidades 4,3 = 1,24 via SNS + 3,04 via entidad privada). Para el resto de olas 'mutualidades' = null; las cuotas de mutualistas se dan en 'multirrespuesta' (acogidas a SS / acogidas a seguro privado), que no son exclusivas. ninguna = 'No tiene seguro medico' de la tabla multirrespuesta (subconjunto de 'otras situaciones'); 2003 y 2006 no lo publican. conSeguroPrivado = soloPrivada + mixta (coincide con 'Privada: Total' de multirrespuesta). Poblacion: ENS/ENSE/ESdE = 0+ anos; EESE 2014 y 2020 = 15+ anos (no estrictamente comparables). 1987: la publicacion no incluye tabla de cobertura. 1993-2001: solo multirrespuesta (max. 2 respuestas), adultos 16+ y menores 0-15 por separado, sin categoria exclusiva ni total; 1993 en enteros por titular/beneficiario. EESE 2009 no pregunto cobertura. La 'ESdE 2025' (publicada 20-oct-2026) existe; ademas hay una ESdE 2023 (trabajo de campo ago-2023/ago-2024). GASTO. Gasto corriente en salud (SHA, HC total, sin inversion). publico = HF1 (administraciones + Seguridad Social obligatoria, incluye mutualidades); privado = HF2+HF3 (OCDE publica HF2HF3 desde 1991; antes solo total y publico). bolsillo = HF3 pago directo de hogares; seguroVoluntario = HF21 (seguro voluntario, desde 2003); voluntarioTotal = HF2 (incluye ISFL y empresas). Per capita en euros corrientes (OCDE, moneda nacional; anos pre-1999 convertidos de pesetas por la OCDE). Rupturas de serie OCDE en 1999 y 2003 (B): el salto 2002-2003 (6,8 a 7,6% PIB) es metodologico. 2025 excluido (estimacion E de OCDE: total 9,1% PIB, publico 6,5%). UE27: solo Eurostat desde 2014. EGSP no comparable con SHA (incluye capital, otra delimitacion)."
+ "notas": "COBERTURA. Categorias oficiales desde 2003: 'publica exclusivamente', 'privada exclusivamente', 'mixta' (publica + privada = doble cobertura) y 'otras situaciones'. soloPublica = 'publica exclusivamente' e INCLUYE a los mutualistas (MUFACE/ISFAS/MUGEJU) sin seguro privado adicional, salvo en 2003, unica ola donde se publican separados (mutualidades 4,3 = 1,24 via SNS + 3,04 via entidad privada). Para el resto de olas 'mutualidades' = null; las cuotas de mutualistas se dan en 'multirrespuesta' (acogidas a SS / acogidas a seguro privado), que no son exclusivas. ninguna = 'No tiene seguro medico' de la tabla multirrespuesta (subconjunto de 'otras situaciones'); 2003 y 2006 no lo publican. conSeguroPrivado = soloPrivada + mixta (coincide con 'Privada: Total' de multirrespuesta). Poblacion: ENS/ENSE/ESdE = 0+ anos; EESE 2014 y 2020 = 15+ anos (no estrictamente comparables). 1987: la publicacion no incluye tabla de cobertura. 1993-2001: solo multirrespuesta (max. 2 respuestas), adultos 16+ y menores 0-15 por separado, sin categoria exclusiva ni total; 1993 en enteros por titular/beneficiario. EESE 2009 no pregunto cobertura. La 'ESdE 2025' (publicada 20-oct-2026) existe; ademas hay una ESdE 2023 (trabajo de campo ago-2023/ago-2024). GASTO. Gasto corriente en salud (SHA, HC total, sin inversion). publico = HF1 (administraciones + Seguridad Social obligatoria, incluye mutualidades); privado = HF2+HF3 (OCDE publica HF2HF3 desde 1991; antes solo total y publico). bolsillo = HF3 pago directo de hogares; seguroVoluntario = HF21 (seguro voluntario, desde 2003); voluntarioTotal = HF2 (incluye ISFL y empresas). Per capita en euros corrientes (OCDE, moneda nacional; anos pre-1999 convertidos de pesetas por la OCDE). Rupturas de serie OCDE en 1999 y 2003 (B): el salto 2002-2003 (6,8 a 7,6% PIB) es metodologico. 2025 excluido (estimacion E de OCDE: total 9,1% PIB, publico 6,5%). UE27: solo Eurostat desde 2014. EGSP no comparable con SHA (incluye capital, otra delimitacion).",
+ "historica": {
+  "publicaPct": {
+   "1977": 81.4,
+   "1978": 82.0,
+   "1979": 81.7,
+   "1980": 82.9,
+   "1981": 83.8,
+   "1982": 84.7,
+   "1983": 86.7,
+   "1984": 93.6,
+   "1985": 96.0,
+   "1986": 95.9,
+   "1987": 96.6,
+   "1988": 98.2,
+   "1989": 99.0,
+   "1991": 99.8,
+   "1993": 98.4,
+   "1995": 98.6,
+   "1997": 98.5,
+   "2001": 98.9
+  },
+  "seguroPrivadoPct": {
+   "1995": 9.1,
+   "1997": 8.6,
+   "2001": 7.6
+  },
+  "fuentePublica": "1977–1989: INE, Anuario Estadístico (población protegida en asistencia sanitaria, INSALUD) entre la población; 1991: Sevilla (2006), Seguridad Social, sin verificar en fuente primaria; 1993–2001: OCDE, Health Statistics",
+  "urlPublica": "https://www.ine.es/inebaseweb/libros.do?tntp=25687",
+  "fuentePrivado": "OCDE, Health Statistics (seguro voluntario, % de la población), a partir de las Encuestas Nacionales de Salud",
+  "urlPrivado": "https://data-explorer.oecd.org/",
+  "nota": "Cobertura pública de asistencia sanitaria (Seguridad Social/INSALUD, desde 1986 SNS) en % de la población. Rupturas: (a) 1973-1982 media mensual de personas protegidas; desde 1983 dato a 31 de diciembre (1983 media mensual 32.809 miles vs 31-dic 33.066,6 miles). (b) 1983-1984 salto de 86,7 % a 93,6 %: crecen 'Regímenes especiales' (1,62 a 2,77 M) y pensionistas beneficiarios (1,09 a 2,05 M); la causa (incorporación de colectivos o cambio de recuento) sin verificar. (c) 1990: el registro INSALUD da 39.452 miles, 101,5 % de la población (duplicados administrativos): se excluye. (d) 1991: el INE publica 36.110 miles (92,7 %), caída incompatible con la universalización; probablemente omite CCAA con transferencias (sin verificar); se usa 99,8 % de Sevilla/Freire (fuente secundaria, sin verificar en primaria). (e) 1993-2017 OCDE (98,3-99,5 %) procede de encuestas (ENS/EESE) y mide declaración de cobertura, no derecho legal; desde 2018 OCDE = 100 % (RDL 7/2018), ruptura marcada por la OCDE. Sin dato fiable: 1990, 1992, 1994, 1996, 1998-2000, 2002, 2004-2005, 2007-2010, 2012-2013, 2015-2016. | Base probable: encuestas oficiales de salud (ENS/EESE) remitidas por el Ministerio de Sanidad a la OCDE; los años coinciden con las oleadas, pero la fuente exacta en los metadatos OCDE está sin verificar. Rupturas: 1995-2001 recoge solo seguro privado individual (ENS de adultos); desde 2003 incluye seguro de empresa y mutualistas con entidad privada, de ahí el salto 7,6 % (2001) a 11,9 % (2003). 'Primario' (0,7-1,3 %) = personas sin cobertura pública que se aseguran en privado. Antes de 1995 no hay dato oficial anual de % con seguro privado.",
+  "mutualistas": {
+   "fuente": "MUFACE, Memorias anuales 2010-2024 (tabla 'Distribución del colectivo asegurado' por entidad, a 31 de diciembre); ISFAS, Memorias 2019-2024",
+   "url": "https://www.muface.es/muface_Home/sobre-muface/que-hacemos/memoria.html ; https://www.defensa.gob.es/isfas/Galerias/ficheros/Memoria/Memoria_ISFAS_2024.pdf",
+   "nota": "Personas protegidas (titulares + beneficiarios) del concierto nacional de asistencia sanitaria; % privado = adscritos a entidades de seguro (Adeslas, Asisa, DKV, IMQ, Sanitas hasta 2014); el resto elige INSS/servicios públicos. MUFACE permite elegir sistema público desde 1984 (antes adscripción obligatoria a entidades privadas). ISFAS: % de modalidad A (entidades) frente a servicios públicos y Sanidad Militar. MUGEJU (unas 100.000 personas) sin datos: web inaccesible. MUFACE 2011, 2015 sin dato (PDF no legible); 2014 total calculado. Sevilla (2006) estima ~2 millones de mutualistas en las tres mutualidades (~4 % de la población) y advierte que la ENS sitúa en ~50 % los mutualistas atendidos por el SNS, frente a <15-20 % según las mutualidades (doble cobertura). Sin datos oficiales antes de 2010 localizados.",
+   "muface": {
+    "personas": {
+     "2010": 1550082,
+     "2012": 1535017,
+     "2013": 1525579,
+     "2016": 1476007,
+     "2017": 1466469,
+     "2018": 1473641,
+     "2019": 1486596,
+     "2020": 1483629,
+     "2021": 1499451,
+     "2022": 1496276,
+     "2023": 1537701,
+     "2024": 1572164
+    },
+    "personas_en_entidades_privadas": {
+     "2010": 1283677,
+     "2011": 1266693,
+     "2012": 1257449,
+     "2013": 1249177,
+     "2014": 1234344,
+     "2016": 1185034,
+     "2017": 1162801,
+     "2018": 1156913,
+     "2019": 1146095,
+     "2020": 1132378,
+     "2021": 1118497,
+     "2022": 1095393,
+     "2023": 1080360,
+     "2024": 1065408
+    },
+    "pct_entidades_privadas": {
+     "2010": 82.81,
+     "2012": 81.92,
+     "2013": 81.88,
+     "2014": 81.75,
+     "2016": 80.29,
+     "2017": 79.29,
+     "2018": 78.51,
+     "2019": 77.1,
+     "2020": 76.31,
+     "2021": 74.59,
+     "2022": 73.21,
+     "2023": 70.26,
+     "2024": 67.77
+    },
+    "nota": "2020: total = entidades + INSS (1.132.378 + 351.251), sin pendientes. 2016: memoria también cita 1.483.557 personas en el colectivo total (incluye exterior)."
+   },
+   "isfas": {
+    "personas": {
+     "2015": 614573,
+     "2016": 606727,
+     "2017": 597284,
+     "2018": 592106,
+     "2019": 585184,
+     "2020": 576314,
+     "2021": 572583,
+     "2022": 559887,
+     "2023": 546611,
+     "2024": 539637
+    },
+    "pct_entidades_privadas": {
+     "2019": 91.6,
+     "2020": 91.69,
+     "2021": 91.65,
+     "2022": 91.49,
+     "2023": 91.29,
+     "2024": 90.98
+    }
+   },
+   "data": {
+    "2010": 82.81,
+    "2012": 81.92,
+    "2013": 81.88,
+    "2014": 81.75,
+    "2016": 80.29,
+    "2017": 79.29,
+    "2018": 78.51,
+    "2019": 77.1,
+    "2020": 76.31,
+    "2021": 74.59,
+    "2022": 73.21,
+    "2023": 70.26,
+    "2024": 67.77
+   }
+  }
+ }
 }

@@ -52,17 +52,32 @@ const EUROSTAT_REC = 'https://ec.europa.eu/eurostat/databrowser/view/hlth_rs_prs
 const INE_COL = 'https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176781&menu=resultados&idp=1254735573175';
 
 /** Olas de la Encuesta de Salud con el reparto completo de la cobertura */
-const OLAS = Object.keys(C)
+const ENCUESTAS = Object.keys(C)
   .filter((y) => C[y].soloPublica != null)
   .sort();
+const PRIMERA = ENCUESTAS[0];
+const HIST = (COB as any).historica;
+const PUB_HIST = HIST.publicaPct as Serie, PRIV_HIST = HIST.seguroPrivadoPct as Serie;
+/** Antes de las encuestas completas: cobertura pública (registro y OCDE) y, desde 1995, seguro privado individual */
+const ANTIGUOS = anios(PUB_HIST).filter((y) => y < PRIMERA);
+const OLAS = [...ANTIGUOS, ...ENCUESTAS];
 const TROZOS = [
+  {k: 'conPublica', lab: 'Con sanidad pública', c: '#748FFC'},
   {k: 'soloPublica', lab: 'Solo la pública', c: '#3B5BDB'},
   {k: 'publicaYPrivada', lab: 'La pública y un seguro privado', c: '#F59F00'},
   {k: 'soloPrivada', lab: 'Solo privada', c: '#E8590C'},
   {k: 'ninguna', lab: 'Ninguna', c: '#ADB5BD'},
+  {k: 'sinPublica', lab: 'Sin sanidad pública', c: '#868E96'},
 ];
+const parteAntigua = (y: string, k: string): number => {
+  const pub = PUB_HIST[y], priv = PRIV_HIST[y];
+  if (k === 'sinPublica') return 100 - pub;
+  if (priv == null) return k === 'conPublica' ? pub : 0;
+  return k === 'soloPublica' ? pub - priv : k === 'publicaYPrivada' ? priv : 0;
+};
 /** 2003 publica aparte las mutualidades de funcionarios; las demás olas las cuentan dentro de «solo la pública» */
-const parte = (y: string, k: string) => (k === 'soloPublica' ? C[y].soloPublica + (C[y].mutualidades ?? 0) : C[y][k] ?? 0);
+const parte = (y: string, k: string): number =>
+  y < PRIMERA ? parteAntigua(y, k) : k === 'soloPublica' ? C[y].soloPublica + (C[y].mutualidades ?? 0) : C[y][k] ?? 0;
 const conPrivado = (y: string) => (C[y].publicaYPrivada ?? 0) + (C[y].soloPrivada ?? 0);
 
 function Cobertura() {
@@ -100,20 +115,46 @@ function Cobertura() {
             sanidad la paga el Estado, aunque muchos eligen una aseguradora privada.
           </p>
           <p>
-            Hasta 2001 las encuestas solo preguntaban de otra forma y no se pueden poner en la misma barra: en 1995 el 9,3 % de los adultos tenía un seguro
-            privado propio, en 2001 el 7,6 %, más los que lo tenían por la empresa. Las encuestas de 2014 y 2020 solo cuentan a los mayores de 15 años.
+            Antes de {PRIMERA} no hay una encuesta que reparta a toda la población. De 1977 a 1989 se cuenta a las personas con derecho a la sanidad pública según
+            el registro del INSALUD; no se sabe cuántas tenían además un seguro privado. De 1995 a 2001 el seguro privado es solo el que se paga uno mismo; desde{' '}
+            {PRIMERA} se suma el de la empresa, por eso sube de golpe. El dato de 1991 viene de un estudio de la Seguridad Social, sin comprobar en la fuente
+            original, y faltan 1990, 1992 y de 1998 a 2000. Las encuestas de 2014 y 2020 solo cuentan a los mayores de 15 años.
+          </p>
+          <p>
+            La sanidad pública no era para todos: en 1977 la Seguridad Social cubría a quienes cotizaban y a sus familias. La Ley General de Sanidad de 1986 y la
+            ampliación de 1989 a las personas sin recursos la hicieron casi universal; desde 2018 lo es del todo.
           </p>
           <p className="srcl">
-            Fuente: {L('Ministerio de Sanidad e INE, Encuestas Nacionales y Europeas de Salud y Encuesta de Salud de España', SANIDAD_ENC)}.
+            Fuente: {L('Ministerio de Sanidad e INE, Encuestas Nacionales y Europeas de Salud y Encuesta de Salud de España', SANIDAD_ENC)};{' '}
+            {L('INE, Anuario Estadístico (población protegida, INSALUD)', HIST.urlPublica)}; {L('OCDE, Health Statistics', HIST.urlPrivado)}.
           </p>
         </Info>
       </h3>
-      <p className="note">
-        En {ola}, <b>{pct1(conPrivado(ola))} de la población tenía un seguro privado</b>, casi siempre además de la pública. En {OLAS[0]} era el{' '}
-        {pct1(conPrivado(OLAS[0]))}: {conPrivado(ultimo) / conPrivado(OLAS[0]) >= 2 ? 'el doble' : `${fmt(conPrivado(ultimo) / conPrivado(OLAS[0]), 1)} veces más`}{' '}
-        en {+ultimo - +OLAS[0]} años, y la mayor subida es la de los últimos años. Mientras, el Estado paga el {n0(gPub)} % del gasto sanitario ({aG}),
-        menos que la media de la UE ({n0(ult(ue)[1])} %). Pulsa ▶ para ver cada encuesta.
-      </p>
+      {ola >= PRIMERA ? (
+        <p className="note">
+          En {ola}, <b>{pct1(conPrivado(ola))} de la población tenía un seguro privado</b>, casi siempre además de la pública. En {PRIMERA} era el{' '}
+          {pct1(conPrivado(PRIMERA))}: {conPrivado(ultimo) / conPrivado(PRIMERA) >= 2 ? 'el doble' : `${fmt(conPrivado(ultimo) / conPrivado(PRIMERA), 1)} veces más`}{' '}
+          en {+ultimo - +PRIMERA} años, y la mayor subida es la de los últimos años. Mientras, el Estado paga el {n0(gPub)} % del gasto sanitario ({aG}),
+          menos que la media de la UE ({n0(ult(ue)[1])} %). Pulsa ▶ para verlo año a año desde 1977.
+        </p>
+      ) : (
+        <p className="note">
+          En {ola}, <b>la sanidad pública cubría al {pct1(PUB_HIST[ola])} de la población</b>
+          {PUB_HIST[ola] < 99 && POB[ola] ? <>: unos {fmt((POB[ola] * (100 - PUB_HIST[ola])) / 100 / 1e6, 1)} millones de personas no tenían</> : null}.{' '}
+          {PRIV_HIST[ola] != null ? (
+            <>
+              El {pct1(PRIV_HIST[ola])} pagaba un seguro privado por su cuenta (sin contar el de la empresa, que hasta {PRIMERA} no se preguntaba).
+            </>
+          ) : (
+            <>No hay datos oficiales de cuántos tenían un seguro privado antes de 1995.</>
+          )}{' '}
+          {ola < '1986'
+            ? 'Era la sanidad de la Seguridad Social, para quien cotizaba y su familia; la Ley General de Sanidad de 1986 la abrió a casi todos.'
+            : ola < '1990'
+              ? 'La Ley General de Sanidad de 1986 la estaba abriendo a todos; en 1989 llegó a las personas sin recursos.'
+              : null}
+        </p>
+      )}
       <div className="tl-anios" role="group" aria-label="Elegir encuesta">
         <button type="button" className="tl-play" onClick={reproducir} aria-label={play ? 'Pausar' : 'Ver encuesta a encuesta'}>
           {play ? '❚❚' : '▶'}
@@ -142,7 +183,7 @@ function Cobertura() {
         ))}
       </div>
       <div className="statlegend">
-        {TROZOS.map((t) => (
+        {TROZOS.filter((t) => parte(ola, t.k) > 0).map((t) => (
           <span key={t.k}>
             <i className="sw" style={{background: t.c}} />
             {t.lab}: <b className="num">{pct1(parte(ola, t.k))}</b>
@@ -508,8 +549,8 @@ export default function PestanaSanidad() {
           tono="matiz"
           conclusion={
             <>
-              Cada vez más gente paga un seguro privado: el {pct1(conPrivado(OLAS[OLAS.length - 1]))} en {OLAS[OLAS.length - 1]}, frente al {pct1(conPrivado(OLAS[0]))} en{' '}
-              {OLAS[0]}. Pero <b>los hospitales no se han vuelto más privados</b>: las camas privadas son el {n0(ult(pctPrivadas)[1])} % del total, parecido
+              Cada vez más gente paga un seguro privado: el {pct1(conPrivado(OLAS[OLAS.length - 1]))} en {OLAS[OLAS.length - 1]}, frente al {pct1(conPrivado(PRIMERA))} en{' '}
+              {PRIMERA}. Pero <b>los hospitales no se han vuelto más privados</b>: las camas privadas son el {n0(ult(pctPrivadas)[1])} % del total, parecido
               al {n0(pctPrivadas['1980'])} % de 1980. Lo que crece es la gente que paga dos veces para no esperar.
             </>
           }
