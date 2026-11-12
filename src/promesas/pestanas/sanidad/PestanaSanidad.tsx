@@ -22,12 +22,15 @@ const C = (COB as any).cobertura as Record<string, any>;
 const G = (COB as any).gasto;
 const E = ESP as any;
 const R = REC as any;
-const POB = DEMO.historia.poblacion as Serie, PCT65 = DEMO.historia.pct65 as Serie;
+const POB = DEMO.historia.poblacion as Serie;
 
 const n0 = (v: number) => fmt(v, 0);
 const n1 = (v: number) => fmt(v, 1);
 const pct1 = (v: number) => fmt(v, 1) + ' %';
-const anios = (s: Record<string, unknown>) => Object.keys(s).filter((k) => /^\d{4}$/.test(k)).sort();
+const anios = (s: Record<string, unknown>) =>
+  Object.keys(s)
+    .filter((k) => /^\d{4}$/.test(k))
+    .sort();
 const ult = (s: Serie): [string, number] => {
   const k = anios(s).at(-1)!;
   return [k, s[k]];
@@ -57,7 +60,8 @@ const ENCUESTAS = Object.keys(C)
   .sort();
 const PRIMERA = ENCUESTAS[0];
 const HIST = (COB as any).historica;
-const PUB_HIST = HIST.publicaPct as Serie, PRIV_HIST = HIST.seguroPrivadoPct as Serie;
+const PUB_HIST = HIST.publicaPct as Serie,
+  PRIV_HIST = HIST.seguroPrivadoPct as Serie;
 /** Antes de las encuestas completas: cobertura pública (registro y OCDE) y, desde 1995, seguro privado individual */
 const ANTIGUOS = anios(PUB_HIST).filter((y) => y < PRIMERA);
 const OLAS = [...ANTIGUOS, ...ENCUESTAS];
@@ -70,14 +74,17 @@ const TROZOS = [
   {k: 'sinPublica', lab: 'Sin sanidad pública', c: '#868E96'},
 ];
 const parteAntigua = (y: string, k: string): number => {
-  const pub = PUB_HIST[y], priv = PRIV_HIST[y];
+  const pub = PUB_HIST[y],
+    priv = PRIV_HIST[y];
   if (k === 'sinPublica') return 100 - pub;
   if (priv == null) return k === 'conPublica' ? pub : 0;
   return k === 'soloPublica' ? pub - priv : k === 'publicaYPrivada' ? priv : 0;
 };
 /** 2003 publica aparte las mutualidades de funcionarios; las demás olas las cuentan dentro de «solo la pública» */
 const parte = (y: string, k: string): number =>
-  y < PRIMERA ? parteAntigua(y, k) : k === 'soloPublica' ? C[y].soloPublica + (C[y].mutualidades ?? 0) : C[y][k] ?? 0;
+  y < PRIMERA ? parteAntigua(y, k) : k === 'soloPublica' ? C[y].soloPublica + (C[y].mutualidades ?? 0) : (C[y][k] ?? 0);
+/** El INE da población desde 1976: para 1975 se usa la de 1976 */
+const poblacionHacia = (y: string) => POB[y] ?? POB[anios(POB)[0]];
 const conPrivado = (y: string) => (C[y].publicaYPrivada ?? 0) + (C[y].soloPrivada ?? 0);
 
 function Cobertura() {
@@ -110,19 +117,19 @@ function Cobertura() {
         ¿Pública o privada?{' '}
         <Info>
           <p>
-            Qué cobertura sanitaria tiene la gente según cada Encuesta de Salud: solo la sanidad pública, la pública y además un seguro privado, solo
-            privada o ninguna. Los funcionarios con mutualidad (MUFACE, ISFAS, MUGEJU) se cuentan como «solo la pública» si no tienen otro seguro: su
-            sanidad la paga el Estado, aunque muchos eligen una aseguradora privada.
+            Qué cobertura sanitaria tiene la gente según cada Encuesta de Salud: solo la sanidad pública, la pública y además un seguro privado, solo privada o
+            ninguna. Los funcionarios con mutualidad (MUFACE, ISFAS, MUGEJU) se cuentan como «solo la pública» si no tienen otro seguro: su sanidad la paga el
+            Estado, aunque muchos eligen una aseguradora privada.
           </p>
           <p>
-            Antes de {PRIMERA} no hay una encuesta que reparta a toda la población. De 1977 a 1989 se cuenta a las personas con derecho a la sanidad pública según
-            el registro del INSALUD; no se sabe cuántas tenían además un seguro privado. De 1995 a 2001 el seguro privado es solo el que se paga uno mismo; desde{' '}
-            {PRIMERA} se suma el de la empresa, por eso sube de golpe. El dato de 1991 viene de un estudio de la Seguridad Social, sin comprobar en la fuente
-            original, y faltan 1990, 1992 y de 1998 a 2000. Las encuestas de 2014 y 2020 solo cuentan a los mayores de 15 años.
+            Antes de {PRIMERA} no hay una encuesta que reparta a toda la población. De 1975 a 1989 se cuenta a las personas con derecho a la sanidad pública
+            según el registro del INSALUD; no se sabe cuántas tenían además un seguro privado. De 1995 a 2001 el seguro privado es solo el que se paga uno
+            mismo; desde {PRIMERA} se suma el de la empresa, por eso sube de golpe. El dato de 1991 viene de un estudio de la Seguridad Social, sin comprobar en
+            la fuente original, y faltan 1990, 1992 y de 1998 a 2000. Las encuestas de 2014 y 2020 solo cuentan a los mayores de 15 años.
           </p>
           <p>
-            La sanidad pública no era para todos: en 1977 la Seguridad Social cubría a quienes cotizaban y a sus familias. La Ley General de Sanidad de 1986 y la
-            ampliación de 1989 a las personas sin recursos la hicieron casi universal; desde 2018 lo es del todo.
+            La sanidad pública no era para todos: en 1975 la Seguridad Social cubría a quienes cotizaban y a sus familias. La Ley General de Sanidad de 1986 y
+            la ampliación de 1989 a las personas sin recursos la hicieron casi universal; desde 2018 lo es del todo.
           </p>
           <p className="srcl">
             Fuente: {L('Ministerio de Sanidad e INE, Encuestas Nacionales y Europeas de Salud y Encuesta de Salud de España', SANIDAD_ENC)};{' '}
@@ -133,14 +140,15 @@ function Cobertura() {
       {ola >= PRIMERA ? (
         <p className="note">
           En {ola}, <b>{pct1(conPrivado(ola))} de la población tenía un seguro privado</b>, casi siempre además de la pública. En {PRIMERA} era el{' '}
-          {pct1(conPrivado(PRIMERA))}: {conPrivado(ultimo) / conPrivado(PRIMERA) >= 2 ? 'el doble' : `${fmt(conPrivado(ultimo) / conPrivado(PRIMERA), 1)} veces más`}{' '}
-          en {+ultimo - +PRIMERA} años, y la mayor subida es la de los últimos años. Mientras, el Estado paga el {n0(gPub)} % del gasto sanitario ({aG}),
-          menos que la media de la UE ({n0(ult(ue)[1])} %). Pulsa ▶ para verlo año a año desde 1977.
+          {pct1(conPrivado(PRIMERA))}:{' '}
+          {conPrivado(ultimo) / conPrivado(PRIMERA) >= 2 ? 'el doble' : `${fmt(conPrivado(ultimo) / conPrivado(PRIMERA), 1)} veces más`} en {+ultimo - +PRIMERA}{' '}
+          años, y la mayor subida es la de los últimos años. Mientras, el Estado paga el {n0(gPub)} % del gasto sanitario ({aG}), menos que la media de la UE (
+          {n0(ult(ue)[1])} %). Pulsa ▶ para verlo año a año desde 1975, el año en que murió Franco.
         </p>
       ) : (
         <p className="note">
           En {ola}, <b>la sanidad pública cubría al {pct1(PUB_HIST[ola])} de la población</b>
-          {PUB_HIST[ola] < 99 && POB[ola] ? <>: unos {fmt((POB[ola] * (100 - PUB_HIST[ola])) / 100 / 1e6, 1)} millones de personas no tenían</> : null}.{' '}
+          {PUB_HIST[ola] < 99 ? <>: unos {fmt((poblacionHacia(ola) * (100 - PUB_HIST[ola])) / 100 / 1e6, 1)} millones de personas no tenían</> : null}.{' '}
           {PRIV_HIST[ola] != null ? (
             <>
               El {pct1(PRIV_HIST[ola])} pagaba un seguro privado por su cuenta (sin contar el de la empresa, que hasta {PRIMERA} no se preguntaba).
@@ -194,15 +202,15 @@ function Cobertura() {
         <div className="half">
           <dt>Pagar dos veces</dt>
           <dd>
-            Quien tiene un seguro privado sigue pagando la sanidad pública con sus impuestos: paga dos veces. Lo hace sobre todo para no esperar: para
-            ver al especialista, hacerse una prueba u operarse antes.
+            Quien tiene un seguro privado sigue pagando la sanidad pública con sus impuestos: paga dos veces. Lo hace sobre todo para no esperar: para ver al
+            especialista, hacerse una prueba u operarse antes.
           </dd>
         </div>
         <div className="ko">
           <dt>Por qué crece</dt>
           <dd>
-            Las listas de espera se han más que duplicado desde 2005 y la satisfacción con la sanidad pública está en su punto más bajo. Cuanto más se
-            espera, más gente que puede pagarlo se va también a la privada.
+            Las listas de espera se han más que duplicado desde 2005 y la satisfacción con la sanidad pública está en su punto más bajo. Cuanto más se espera,
+            más gente que puede pagarlo se va también a la privada.
           </dd>
         </div>
       </dl>
@@ -211,19 +219,35 @@ function Cobertura() {
 }
 
 export default function PestanaSanidad() {
-  const quir = diciembre(E.quirurgica, 'pacientes'), quirDias = diciembre(E.quirurgica, 'dias'), quir6 = diciembre(E.quirurgica, 'pctMas6Meses');
-  const consDias = diciembre(E.consultas, 'dias'), cons60 = diciembre(E.consultas, 'pctMas60Dias');
-  const [aQ, qU] = ult(quir), [aQD, qdU] = ult(quirDias), [aCD, cdU] = ult(consDias);
+  const quir = diciembre(E.quirurgica, 'pacientes'),
+    quirDias = diciembre(E.quirurgica, 'dias'),
+    quir6 = diciembre(E.quirurgica, 'pctMas6Meses');
+  const consDias = diciembre(E.consultas, 'dias'),
+    cons60 = diciembre(E.consultas, 'pctMas60Dias');
+  const [aQ, qU] = ult(quir),
+    [aQD, qdU] = ult(quirDias),
+    [aCD, cdU] = ult(consDias);
   const B = E.barometro;
-  const sat = B.satisfaccion as Serie, [aSat, satU] = ult(sat), [aSatMax, satMax] = maxDe(sat);
-  const prim = B.diasEsperaPrimaria as Serie, [aPrim, primU] = ult(prim);
-  const funciona = B.funcionaBien as Serie, empeoran = B.listasEmpeoran as Serie;
-  const pub = G.publicoPctPIB as Serie, priv = G.privadoPctPIB as Serie, tot = G.totalPctPIB as Serie;
+  const sat = B.satisfaccion as Serie,
+    [aSat, satU] = ult(sat),
+    [aSatMax, satMax] = maxDe(sat);
+  const prim = B.diasEsperaPrimaria as Serie,
+    [aPrim, primU] = ult(prim);
+  const funciona = B.funcionaBien as Serie,
+    empeoran = B.listasEmpeoran as Serie;
+  const pub = G.publicoPctPIB as Serie,
+    priv = G.privadoPctPIB as Serie,
+    tot = G.totalPctPIB as Serie;
   const [aGasto, totU] = ult(tot);
-  const ueTot = G.ue27.totalPctPIB as Serie, uePub = G.ue27.publicoPctTotal as Serie;
-  const bolsillo = G.bolsilloPctGasto as Serie, ueBolsillo = G.ue27.bolsilloPctGasto as Serie;
-  const perCapita = G.totalPerCapitaEUR as Serie, uePerCapita = G.ue27.totalPerCapitaEUR as Serie;
-  const med = R.ue.medicos100k, enf = R.ue.enfermeros100k, camas = R.ue.camas100k;
+  const ueTot = G.ue27.totalPctPIB as Serie,
+    uePub = G.ue27.publicoPctTotal as Serie;
+  const bolsillo = G.bolsilloPctGasto as Serie,
+    ueBolsillo = G.ue27.bolsilloPctGasto as Serie;
+  const perCapita = G.totalPerCapitaEUR as Serie,
+    uePerCapita = G.ue27.totalPerCapitaEUR as Serie;
+  const med = R.ue.medicos100k,
+    enf = R.ue.enfermeros100k,
+    camas = R.ue.camas100k;
   const PAISES: [string, string][] = [
     ['ES', 'España'],
     ['DE', 'Alemania'],
@@ -231,18 +255,40 @@ export default function PestanaSanidad() {
     ['IT', 'Italia'],
     ['PT', 'Portugal'],
   ];
-  const COLORES: Record<string, string> = {ES: '#3B5BDB', DE: '#F59F00', FR: '#7048E8', IT: '#2F9E44', PT: '#C92A2A'};
-  const porPais = (o: Record<string, Serie>) => PAISES.filter(([k]) => o[k]).map(([k, lab]) => ({lab, c: COLORES[k], data: o[k]}));
+  const COLORES: Record<string, string> = {
+    ES: '#3B5BDB',
+    DE: '#F59F00',
+    FR: '#7048E8',
+    IT: '#2F9E44',
+    PT: '#C92A2A',
+  };
+  const porPais = (o: Record<string, Serie>) =>
+    PAISES.filter(([k]) => o[k]).map(([k, lab]) => ({
+      lab,
+      c: COLORES[k],
+      data: o[k],
+    }));
   const BASE = '1980';
-  const personas = (tasa: Serie): Serie => Object.fromEntries(anios(tasa).filter((y) => POB[y]).map((y) => [y, (tasa[y] * POB[y]) / 1e5]));
-  const medES = personas(med.ES), enfES = personas(enf.ES);
-  const mayores: Serie = Object.fromEntries(anios(PCT65).map((y) => [y, (POB[y] * PCT65[y]) / 100]));
-  const indice = (s: Serie): Serie => Object.fromEntries(anios(s).filter((y) => +y >= +BASE).map((y) => [y, (s[y] / s[BASE]) * 100]));
-  const [aMedP, medP] = ult(medES), [, enfP] = ult(enfES);
-  const mas65 = R.colegiados.medicosMas65Pct as Serie, medicas = R.colegiados.medicasPct as Serie;
-  const camasPub = R.camas.publicas as Serie, camasPriv = R.camas.privadas as Serie;
+  const personas = (tasa: Serie): Serie =>
+    Object.fromEntries(
+      anios(tasa)
+        .filter((y) => POB[y])
+        .map((y) => [y, (tasa[y] * POB[y]) / 1e5]),
+    );
+  const medES = personas(med.ES),
+    enfES = personas(enf.ES);
+  const porCada = (tasa: Serie): Serie => Object.fromEntries(anios(tasa).map((y) => [y, 1e5 / tasa[y]]));
+  const habMed = porCada(med.ES),
+    habEnf = porCada(enf.ES);
+  const [aMedP, medP] = ult(medES),
+    [, enfP] = ult(enfES);
+  const mas65 = R.colegiados.medicosMas65Pct as Serie,
+    medicas = R.colegiados.medicasPct as Serie;
+  const camasPub = R.camas.publicas as Serie,
+    camasPriv = R.camas.privadas as Serie;
   const pctPrivadas = Object.fromEntries(anios(camasPub).map((y) => [y, (camasPriv[y] / (camasPub[y] + camasPriv[y])) * 100])) as Serie;
-  const mir = R.mir.total as Serie, mirFam = R.mir.familia as Serie;
+  const mir = R.mir.total as Serie,
+    mirFam = R.mir.familia as Serie;
   const SI = SANIDAD.indicadores as any[];
   const consultaFamilia = SI[0];
 
@@ -251,9 +297,9 @@ export default function PestanaSanidad() {
       <h2>
         Sanidad{' '}
         <Info>
-          Quién paga la sanidad y quién atiende, cuánto se espera, qué opina la gente y con cuántos médicos, enfermeras y camas se cuenta. Las cifras son
-          del Ministerio de Sanidad (Encuestas de Salud, listas de espera, Barómetro Sanitario), la OCDE y Eurostat (gasto y recursos), el INE (colegiados)
-          y el BOE (plazas MIR).
+          Quién paga la sanidad y quién atiende, cuánto se espera, qué opina la gente y con cuántos médicos, enfermeras y camas se cuenta. Las cifras son del
+          Ministerio de Sanidad (Encuestas de Salud, listas de espera, Barómetro Sanitario), la OCDE y Eurostat (gasto y recursos), el INE (colegiados) y el BOE
+          (plazas MIR).
         </Info>
       </h2>
 
@@ -262,13 +308,11 @@ export default function PestanaSanidad() {
       <div className="charts" id="charts-san">
         <Mini
           id="san-plantilla"
-          title="Médicos y enfermeras frente a la población"
-          sub={`cuánto ha crecido cada uno desde ${BASE} (${BASE} = 100)`}
+          title="¿A cuántas personas toca cada médico y cada enfermera?"
+          sub="habitantes de España por cada uno que trabaja"
           series={[
-            {lab: 'Médicos que trabajan', c: '#3B5BDB', data: indice(medES)},
-            {lab: 'Enfermeras que trabajan', c: '#2F9E44', data: indice(enfES)},
-            {lab: 'Población', c: '#495057', dash: true, data: indice(POB)},
-            {lab: 'Mayores de 65 años', c: '#C92A2A', dash: true, data: indice(mayores)},
+            {lab: 'Por cada médico', c: '#3B5BDB', data: habMed},
+            {lab: 'Por cada enfermera', c: '#2F9E44', data: habEnf},
           ]}
           f={(v) => n0(v)}
           x0={1979.5}
@@ -276,17 +320,16 @@ export default function PestanaSanidad() {
           note={
             <>
               <p>
-                Si la línea de médicos o de enfermeras sube más que la de población, hay más profesionales por persona; si se acercan o la cruzan, menos. La de
-                mayores importa porque son los que más usan la sanidad.
+                Cuanto más baja la línea, mejor: a cada profesional le tocan menos personas. En {BASE} había un médico por cada {n0(habMed[BASE])} habitantes y
+                en {aMedP}, uno por cada {n0(habMed[aMedP])}; una enfermera por cada {n0(habEnf[BASE])} y ahora por cada {n0(ult(habEnf)[1])}.
               </p>
               <p>
-                De {BASE} a {aMedP}: médicos que trabajan, de unos {n0(medES[BASE] / 1000)} mil a {n0(medP / 1000)} mil; enfermeras, de {n0(enfES[BASE] / 1000)} mil
-                a {n0(enfP / 1000)} mil; población, de {fmt(POB[BASE] / 1e6, 1)} a {fmt(POB[aMedP] / 1e6, 1)} millones; mayores de 65, de{' '}
-                {fmt(mayores[BASE] / 1e6, 1)} a {fmt(mayores[aMedP] / 1e6, 1)} millones.
+                En números: de unos {n0(medES[BASE] / 1000)} mil médicos trabajando en {BASE} a {n0(medP / 1000)} mil en {aMedP}, y de {n0(enfES[BASE] / 1000)}{' '}
+                mil a {n0(enfP / 1000)} mil enfermeras, mientras la población pasó de {fmt(POB[BASE] / 1e6, 1)} a {fmt(POB[aMedP] / 1e6, 1)} millones.
               </p>
               <p>
-                Son profesionales en activo, no contrataciones de cada año: no hay una estadística oficial de contrataciones tan larga. Cálculo propio: tasa por
-                100.000 habitantes de Eurostat por la población del INE. Hay años sin dato antes de 1997.
+                Son profesionales en activo, no contrataciones de cada año: no hay una estadística oficial de contrataciones tan larga. Hay años sin dato antes
+                de 1997.
               </p>
             </>
           }
@@ -304,7 +347,12 @@ export default function PestanaSanidad() {
             {lab: 'Total', c: '#212529', dash: true, data: tot},
             {lab: 'Público', c: '#3B5BDB', data: pub},
             {lab: 'Privado (bolsillo y seguros)', c: '#E8590C', data: priv},
-            {lab: 'Total, media de la UE', c: '#868E96', dash: true, data: ueTot},
+            {
+              lab: 'Total, media de la UE',
+              c: '#868E96',
+              dash: true,
+              data: ueTot,
+            },
           ]}
           f={pct1}
           x0={1985.5}
@@ -312,9 +360,9 @@ export default function PestanaSanidad() {
           hitos={[{x: 2003, lab: 'Cambio de método'}]}
           note={
             <p>
-              Gasto corriente en sanidad: del {n1(tot['1986'])} % del PIB en 1986 al {n1(totU)} % en {aGasto}, con un pico en 2020 por la pandemia. La media de la
-              UE está en el {n1(ult(ueTot)[1])} %. Por habitante, España gasta {n0(ult(perCapita)[1])} € al año y la UE {n0(ult(uePerCapita)[1])} €. El salto de
-              2003 es un cambio de método de la OCDE, no más gasto.
+              Gasto corriente en sanidad: del {n1(tot['1986'])} % del PIB en 1986 al {n1(totU)} % en {aGasto}, con un pico en 2020 por la pandemia. La media de
+              la UE está en el {n1(ult(ueTot)[1])} %. Por habitante, España gasta {n0(ult(perCapita)[1])} € al año y la UE {n0(ult(uePerCapita)[1])} €. El salto
+              de 2003 es un cambio de método de la OCDE, no más gasto.
             </p>
           }
           src={L('OCDE, System of Health Accounts; Eurostat (hlth_sha11_hf)', OCDE_SHA)}
@@ -332,8 +380,8 @@ export default function PestanaSanidad() {
           yMin={50}
           note={
             <p>
-              En 1986 el Estado pagaba el {n1(G.espanaPublicoPctTotal['1986'])} % del gasto sanitario; en {aGasto}, el {n1(ult(G.espanaPublicoPctTotal)[1])} %. España
-              está entre 7 y 10 puntos por debajo de la media de la UE: aquí una parte mayor sale del bolsillo de la gente.
+              En 1986 el Estado pagaba el {n1(G.espanaPublicoPctTotal['1986'])} % del gasto sanitario; en {aGasto}, el {n1(ult(G.espanaPublicoPctTotal)[1])} %.
+              España está entre 7 y 10 puntos por debajo de la media de la UE: aquí una parte mayor sale del bolsillo de la gente.
             </p>
           }
           src={L('OCDE y Eurostat', OCDE_SHA)}
@@ -344,8 +392,17 @@ export default function PestanaSanidad() {
           sub="% del gasto sanitario pagado directamente por las familias"
           series={[
             {lab: 'Pago directo, España', c: '#E8590C', data: bolsillo},
-            {lab: 'Seguros voluntarios, España', c: '#F59F00', data: G.seguroVoluntarioPctGasto},
-            {lab: 'Pago directo, media de la UE', c: '#868E96', dash: true, data: ueBolsillo},
+            {
+              lab: 'Seguros voluntarios, España',
+              c: '#F59F00',
+              data: G.seguroVoluntarioPctGasto,
+            },
+            {
+              lab: 'Pago directo, media de la UE',
+              c: '#868E96',
+              dash: true,
+              data: ueBolsillo,
+            },
           ]}
           f={pct1}
           x0={1990.5}
@@ -370,8 +427,8 @@ export default function PestanaSanidad() {
           hitos={[{x: 2018.9, lab: 'Andalucía cambia de método'}]}
           note={
             <p>
-              De {n0(quir['2005'])} personas esperando una operación en diciembre de 2005 a {n0(qU)} en diciembre de {aQ}: más del doble, con una población
-              un 12 % mayor. Desde junio de 2012 están todas las comunidades; en diciembre de 2018 Andalucía cambió la forma de contar.
+              De {n0(quir['2005'])} personas esperando una operación en diciembre de 2005 a {n0(qU)} en diciembre de {aQ}: más del doble, con una población un
+              12 % mayor. Desde junio de 2012 están todas las comunidades; en diciembre de 2018 Andalucía cambió la forma de contar.
             </p>
           }
           src={L('Ministerio de Sanidad, Sistema de Información sobre Listas de Espera (SISLE)', SISLE)}
@@ -382,36 +439,34 @@ export default function PestanaSanidad() {
           sub="días de media, cada diciembre"
           series={[
             {lab: 'Para operarse', c: '#C92A2A', data: quirDias},
-            {lab: 'Para el especialista (primera consulta)', c: '#7048E8', data: consDias},
+            {
+              lab: 'Para el especialista (primera consulta)',
+              c: '#7048E8',
+              data: consDias,
+            },
+            {lab: 'Para el médico de cabecera', c: '#2F9E44', data: prim},
           ]}
           f={(v) => n0(v) + ' días'}
           x0={2002.5}
           yMin={0}
           note={
-            <p>
-              Para operarse se esperaban {n0(quirDias['2005'])} días de media en 2005 y {n0(qdU)} en {aQD} (el máximo, 170 días en junio de 2020, con la
-              pandemia). Para ver al especialista por primera vez, {n0(consDias['2016'])} días en 2016 y {n0(cdU)} en {aCD}. El {n1(ult(quir6)[1])} % de los que
-              esperan una operación lleva más de seis meses, y el {n1(ult(cons60)[1])} % de los que esperan especialista, más de dos.
-            </p>
+            <>
+              <p>
+                Para operarse se esperaban {n0(quirDias['2005'])} días de media en 2005 y {n0(qdU)} en {aQD} (el máximo, 170 días en junio de 2020, con la
+                pandemia). Para ver al especialista por primera vez, {n0(consDias['2016'])} días en 2016 y {n0(cdU)} en {aCD}. El {n1(ult(quir6)[1])} % de los
+                que esperan una operación lleva más de seis meses, y el {n1(ult(cons60)[1])} % de los que esperan especialista, más de dos.
+              </p>
+              <p>
+                Médico de cabecera: días de espera de quienes no consiguen cita en el día, de {fmt(prim['2018'], 1)} en 2018 a {fmt(primU, 1)} en {aPrim}. No
+                hay dato de 2020 y 2021 (no se hizo el Barómetro Sanitario) y desde 2022 la encuesta es por teléfono.
+              </p>
+            </>
           }
-          src={L('Ministerio de Sanidad, SISLE', SISLE)}
-        />
-        <Mini
-          id="san-primaria"
-          title="Días para el médico de cabecera"
-          sub="días de espera para una cita, entre quienes no la consiguen en el día"
-          series={[{lab: 'Días', c: '#2F9E44', data: prim}]}
-          bars
-          f={(v) => fmt(v, 1) + ' días'}
-          x0={2017.5}
-          yMin={0}
-          note={
-            <p>
-              De {fmt(prim['2018'], 1)} días en 2018 a {fmt(primU, 1)} en {aPrim}: casi el doble. No hay dato de 2020 y 2021 porque no se hizo el Barómetro
-              Sanitario, y en 2022 la encuesta pasó a hacerse por teléfono.
-            </p>
+          src={
+            <>
+              {L('Ministerio de Sanidad, SISLE', SISLE)}; cabecera: {L('Barómetro Sanitario', BAROMETRO)}
+            </>
           }
-          src={L('Ministerio de Sanidad y CIS, Barómetro Sanitario', BAROMETRO)}
         />
         <Mini
           id="san-satisfaccion"
@@ -423,8 +478,8 @@ export default function PestanaSanidad() {
           yMin={5}
           note={
             <p>
-              Subió hasta {fmt(satMax, 2)} en {aSatMax} y ha bajado a {fmt(satU, 2)} en {aSat}, la más baja de toda la serie. En 2022 el Barómetro pasó de entrevistas
-              en persona a telefónicas y se reponderó, lo que también puede mover la cifra.
+              Subió hasta {fmt(satMax, 2)} en {aSatMax} y ha bajado a {fmt(satU, 2)} en {aSat}, la más baja de toda la serie. En 2022 el Barómetro pasó de
+              entrevistas en persona a telefónicas y se reponderó, lo que también puede mover la cifra.
             </p>
           }
           src={L('Ministerio de Sanidad y CIS, Barómetro Sanitario', BAROMETRO)}
@@ -434,8 +489,16 @@ export default function PestanaSanidad() {
           title="¿Funciona bien?"
           sub="% de la gente que opina…"
           series={[
-            {lab: 'Que funciona bien o necesita pocos cambios', c: '#2F9E44', data: funciona},
-            {lab: 'Que las listas de espera han empeorado', c: '#C92A2A', data: empeoran},
+            {
+              lab: 'Que funciona bien o necesita pocos cambios',
+              c: '#2F9E44',
+              data: funciona,
+            },
+            {
+              lab: 'Que las listas de espera han empeorado',
+              c: '#C92A2A',
+              data: empeoran,
+            },
           ]}
           f={pct1}
           x0={1996.5}
@@ -459,8 +522,9 @@ export default function PestanaSanidad() {
           note={
             <p>
               España pasa de {n0(med.ES['1980'])} médicos en activo por cada 100.000 habitantes en 1980 a {n0(ult(med.ES)[1])} en {ult(med.ES)[0]}, casi como
-              Alemania ({n0(ult(med.DE)[1])}). Eurostat no publica una media de la UE; de Portugal solo hay dato comparable desde 2021, y de Francia e Italia desde
-              2000. Ojo con el salto de Italia en 2021: sube un tercio de un año a otro en los datos que envía a Eurostat, más de lo que se puede formar en un año.
+              Alemania ({n0(ult(med.DE)[1])}). Eurostat no publica una media de la UE; de Portugal solo hay dato comparable desde 2021, y de Francia e Italia
+              desde 2000. Ojo con el salto de Italia en 2021: sube un tercio de un año a otro en los datos que envía a Eurostat, más de lo que se puede formar
+              en un año.
             </p>
           }
           src={L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)}
@@ -480,46 +544,6 @@ export default function PestanaSanidad() {
             </p>
           }
           src={L('Eurostat (hlth_rs_prs2)', EUROSTAT_REC)}
-        />
-        <Mini
-          id="san-medicos-edad"
-          title="Médicos cerca de jubilarse"
-          sub="% de los médicos colegiados"
-          series={[
-            {lab: 'Con 65 años o más', c: '#C92A2A', data: mas65},
-            {lab: 'Mujeres', c: '#7048E8', data: medicas},
-          ]}
-          f={pct1}
-          x0={1979.5}
-          yMin={0}
-          note={
-            <p>
-              El {n1(ult(mas65)[1])} % de los médicos colegiados tenía 65 años o más en {ult(mas65)[0]}, frente al {n1(mas65['2011'])} % en 2011 (incluye a los ya
-              jubilados que siguen colegiados). Las mujeres ya son mayoría: el {n1(ult(medicas)[1])} %, frente al {n1(medicas['1980'])} % en 1980.
-            </p>
-          }
-          src={L('INE, Estadística de Profesionales Sanitarios Colegiados', INE_COL)}
-        />
-        <Mini
-          id="san-camas"
-          title="Camas de hospital"
-          sub="por cada 100.000 habitantes"
-          series={[
-            {lab: 'España', c: '#3B5BDB', data: camas.ES},
-            {lab: 'Media de la UE', c: '#868E96', dash: true, data: camas.EU27},
-            {lab: 'Alemania', c: '#F59F00', data: camas.DE},
-          ]}
-          f={(v) => n0(v)}
-          x0={1979.5}
-          yMin={0}
-          note={
-            <p>
-              De {n0(camas.ES['1980'])} camas por cada 100.000 habitantes en 1980 a {n0(ult(camas.ES)[1])} en {ult(camas.ES)[0]}, frente a {n0(ult(camas.EU27)[1])} de
-              media en la UE. Pasa en toda Europa: las estancias son más cortas y se opera más sin ingresar. Las camas privadas son el{' '}
-              {n0(ult(pctPrivadas)[1])} % del total ({n0(pctPrivadas['1980'])} % en 1980).
-            </p>
-          }
-          src={L('Eurostat (hlth_rs_bds1 y hlth_rs_bds2)', 'https://ec.europa.eu/eurostat/databrowser/view/hlth_rs_bds1/default/table')}
         />
         <Mini
           id="san-mir"
@@ -549,23 +573,27 @@ export default function PestanaSanidad() {
           tono="matiz"
           conclusion={
             <>
-              Cada vez más gente paga un seguro privado: el {pct1(conPrivado(OLAS[OLAS.length - 1]))} en {OLAS[OLAS.length - 1]}, frente al {pct1(conPrivado(PRIMERA))} en{' '}
-              {PRIMERA}. Pero <b>los hospitales no se han vuelto más privados</b>: las camas privadas son el {n0(ult(pctPrivadas)[1])} % del total, parecido
-              al {n0(pctPrivadas['1980'])} % de 1980. Lo que crece es la gente que paga dos veces para no esperar.
+              Cada vez más gente paga un seguro privado: el {pct1(conPrivado(OLAS[OLAS.length - 1]))} en {OLAS[OLAS.length - 1]}, frente al{' '}
+              {pct1(conPrivado(PRIMERA))} en {PRIMERA}. Pero <b>los hospitales no se han vuelto más privados</b>: las camas privadas son el{' '}
+              {n0(ult(pctPrivadas)[1])} % del total, parecido al {n0(pctPrivadas['1980'])} % de 1980. Lo que crece es la gente que paga dos veces para no
+              esperar.
             </>
           }
           positivo={[
             <>La pública sigue atendiendo a casi todo el mundo: solo el {pct1(C[OLAS[OLAS.length - 1]].soloPrivada)} tiene únicamente sanidad privada.</>,
-            <>El gasto público en sanidad ha pasado del {n1(pub['1986'])} % al {n1(ult(pub)[1])} % del PIB desde 1986.</>,
+            <>
+              El gasto público en sanidad ha pasado del {n1(pub['1986'])} % al {n1(ult(pub)[1])} % del PIB desde 1986.
+            </>,
           ]}
           negativo={[
-            <>El Estado paga el {n0(ult(G.espanaPublicoPctTotal)[1])} % del gasto sanitario, por debajo de la media de la UE ({n0(ult(uePub)[1])} %).</>,
+            <>
+              El Estado paga el {n0(ult(G.espanaPublicoPctTotal)[1])} % del gasto sanitario, por debajo de la media de la UE ({n0(ult(uePub)[1])} %).
+            </>,
             <>Quien no puede pagar un seguro depende por completo de unas listas de espera que crecen.</>,
           ]}
           graficas={[
             {id: 'san-cobertura', lab: '¿Pública o privada?'},
             {id: 'san-publico', lab: 'Qué parte paga el Estado'},
-            {id: 'san-camas', lab: 'Camas de hospital'},
           ]}
         />
         <Cuestion
@@ -574,8 +602,8 @@ export default function PestanaSanidad() {
           tono="cierto"
           conclusion={
             <>
-              Hay {n0(qU)} personas esperando una operación ({aQ}), más del doble que en 2005, y se espera {n0(qdU)} días de media para operarse y {n0(cdU)} para
-              ver al especialista.
+              Hay {n0(qU)} personas esperando una operación ({aQ}), más del doble que en 2005, y se espera {n0(qdU)} días de media para operarse y {n0(cdU)}{' '}
+              para ver al especialista.
             </>
           }
           positivo={[<>Los días de espera para operarse están por debajo del máximo de la pandemia (170 en junio de 2020).</>]}
@@ -586,7 +614,6 @@ export default function PestanaSanidad() {
           graficas={[
             {id: 'san-lista', lab: 'Esperando una operación'},
             {id: 'san-dias', lab: 'Días de espera'},
-            {id: 'san-primaria', lab: 'Días para el médico de cabecera'},
           ]}
         />
         <Cuestion
@@ -595,20 +622,25 @@ export default function PestanaSanidad() {
           tono="matiz"
           conclusion={
             <>
-              Por habitante, España tiene tantos médicos en activo como Alemania, pero menos de la mitad de enfermeras. El problema de los médicos es de reparto y de
-              edad: el {n1(ult(mas65)[1])} % de los colegiados tiene 65 años o más, y en atención primaria y en los pueblos cuesta cubrir plazas.
+              Por habitante, España tiene tantos médicos en activo como Alemania, pero menos de la mitad de enfermeras. El problema de los médicos es de reparto
+              y de edad: el {n1(ult(mas65)[1])} % de los colegiados tiene 65 años o más, y en atención primaria y en los pueblos cuesta cubrir plazas.
             </>
           }
-          positivo={[<>Las plazas MIR han subido de {n0(mir['2010'])} a {n0(ult(mir)[1])} desde 2010, y las de medicina de familia, a {n0(ult(mirFam)[1])}.</>]}
+          positivo={[
+            <>
+              Las plazas MIR han subido de {n0(mir['2010'])} a {n0(ult(mir)[1])} desde 2010, y las de medicina de familia, a {n0(ult(mirFam)[1])}.
+            </>,
+          ]}
           negativo={[
             <>Muchos médicos se jubilarán en los próximos años, y formar un especialista lleva una década.</>,
-            <>Con {n0(ult(enf.ES)[1])} enfermeras por cada 100.000 habitantes, España está muy por debajo de Alemania ({n0(ult(enf.DE)[1])}) o Francia.</>,
+            <>
+              Con {n0(ult(enf.ES)[1])} enfermeras por cada 100.000 habitantes, España está muy por debajo de Alemania ({n0(ult(enf.DE)[1])}) o Francia.
+            </>,
           ]}
           graficas={[
-            {id: 'san-plantilla', lab: 'Médicos y enfermeras frente a la población'},
+            {id: 'san-plantilla', lab: 'Personas por médico y por enfermera'},
             {id: 'san-personal', lab: 'Médicos que trabajan'},
             {id: 'san-enfermeras', lab: 'Enfermeras que trabajan'},
-            {id: 'san-medicos-edad', lab: 'Médicos cerca de jubilarse'},
             {id: 'san-mir', lab: 'Plazas MIR'},
           ]}
         />
@@ -623,7 +655,11 @@ export default function PestanaSanidad() {
             </>
           }
           positivo={[<>Con menos dinero, España tiene una de las esperanzas de vida más altas del mundo (84 años).</>]}
-          negativo={[<>Las familias pagan de su bolsillo el {n1(ult(bolsillo)[1])} % del gasto, más que la media europea ({n1(ult(ueBolsillo)[1])} %).</>]}
+          negativo={[
+            <>
+              Las familias pagan de su bolsillo el {n1(ult(bolsillo)[1])} % del gasto, más que la media europea ({n1(ult(ueBolsillo)[1])} %).
+            </>,
+          ]}
           graficas={[
             {id: 'san-gasto', lab: 'Cuánto se gasta'},
             {id: 'san-bolsillo', lab: 'Lo que sale del bolsillo'},
@@ -650,14 +686,17 @@ export default function PestanaSanidad() {
           tono="matiz"
           conclusion={
             <>
-              La satisfacción ha caído de {fmt(satMax, 2)} en {aSatMax} a {fmt(satU, 2)} sobre 10 en {aSat}, la más baja de la serie, y solo el {n0(ult(funciona)[1])} % cree
-              que funciona bien o necesita pocos cambios.
+              La satisfacción ha caído de {fmt(satMax, 2)} en {aSatMax} a {fmt(satU, 2)} sobre 10 en {aSat}, la más baja de la serie, y solo el{' '}
+              {n0(ult(funciona)[1])} % cree que funciona bien o necesita pocos cambios.
             </>
           }
           positivo={[<>Sigue aprobando: la nota media está por encima de 6.</>]}
           negativo={[<>El {n0(ult(empeoran)[1])} % cree que las listas de espera han empeorado.</>]}
           graficas={[
-            {id: 'san-satisfaccion', lab: '¿Contentos con la sanidad pública?'},
+            {
+              id: 'san-satisfaccion',
+              lab: '¿Contentos con la sanidad pública?',
+            },
             {id: 'san-opinion', lab: '¿Funciona bien?'},
           ]}
         />
@@ -667,13 +706,12 @@ export default function PestanaSanidad() {
           tono="matiz"
           conclusion={
             <>
-              Hay casi la mitad de camas por habitante que en 1980 ({n0(ult(camas.ES)[1])} frente a {n0(camas.ES['1980'])} por cada 100.000), y menos que la media de la UE.
-              Pero baja en toda Europa, porque se ingresa menos tiempo y se opera más sin quedarse en el hospital.
+              Hay casi la mitad de camas por habitante que en 1980 ({n0(ult(camas.ES)[1])} frente a {n0(camas.ES['1980'])} por cada 100.000), y menos que la
+              media de la UE. Pero baja en toda Europa, porque se ingresa menos tiempo y se opera más sin quedarse en el hospital.
             </>
           }
           positivo={[<>Menos días ingresado suele ser mejor para el paciente y más barato.</>]}
           negativo={[<>Con más mayores, hacen falta más camas de media y larga estancia y más cuidados en casa.</>]}
-          graficas={[{id: 'san-camas', lab: 'Camas de hospital'}]}
         />
       </Cuestiones>
     </section>

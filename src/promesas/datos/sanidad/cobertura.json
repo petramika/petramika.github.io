@@ -1068,6 +1068,8 @@
  "notas": "COBERTURA. Categorias oficiales desde 2003: 'publica exclusivamente', 'privada exclusivamente', 'mixta' (publica + privada = doble cobertura) y 'otras situaciones'. soloPublica = 'publica exclusivamente' e INCLUYE a los mutualistas (MUFACE/ISFAS/MUGEJU) sin seguro privado adicional, salvo en 2003, unica ola donde se publican separados (mutualidades 4,3 = 1,24 via SNS + 3,04 via entidad privada). Para el resto de olas 'mutualidades' = null; las cuotas de mutualistas se dan en 'multirrespuesta' (acogidas a SS / acogidas a seguro privado), que no son exclusivas. ninguna = 'No tiene seguro medico' de la tabla multirrespuesta (subconjunto de 'otras situaciones'); 2003 y 2006 no lo publican. conSeguroPrivado = soloPrivada + mixta (coincide con 'Privada: Total' de multirrespuesta). Poblacion: ENS/ENSE/ESdE = 0+ anos; EESE 2014 y 2020 = 15+ anos (no estrictamente comparables). 1987: la publicacion no incluye tabla de cobertura. 1993-2001: solo multirrespuesta (max. 2 respuestas), adultos 16+ y menores 0-15 por separado, sin categoria exclusiva ni total; 1993 en enteros por titular/beneficiario. EESE 2009 no pregunto cobertura. La 'ESdE 2025' (publicada 20-oct-2026) existe; ademas hay una ESdE 2023 (trabajo de campo ago-2023/ago-2024). GASTO. Gasto corriente en salud (SHA, HC total, sin inversion). publico = HF1 (administraciones + Seguridad Social obligatoria, incluye mutualidades); privado = HF2+HF3 (OCDE publica HF2HF3 desde 1991; antes solo total y publico). bolsillo = HF3 pago directo de hogares; seguroVoluntario = HF21 (seguro voluntario, desde 2003); voluntarioTotal = HF2 (incluye ISFL y empresas). Per capita en euros corrientes (OCDE, moneda nacional; anos pre-1999 convertidos de pesetas por la OCDE). Rupturas de serie OCDE en 1999 y 2003 (B): el salto 2002-2003 (6,8 a 7,6% PIB) es metodologico. 2025 excluido (estimacion E de OCDE: total 9,1% PIB, publico 6,5%). UE27: solo Eurostat desde 2014. EGSP no comparable con SHA (incluye capital, otra delimitacion).",
  "historica": {
   "publicaPct": {
+   "1975": 77.1,
+   "1976": 79.2,
    "1977": 81.4,
    "1978": 82.0,
    "1979": 81.7,
@@ -1092,7 +1094,7 @@
    "1997": 8.6,
    "2001": 7.6
   },
-  "fuentePublica": "1977–1989: INE, Anuario Estadístico (población protegida en asistencia sanitaria, INSALUD) entre la población; 1991: Sevilla (2006), Seguridad Social, sin verificar en fuente primaria; 1993–2001: OCDE, Health Statistics",
+  "fuentePublica": "1975–1989: INE, Anuario Estadístico (población protegida en asistencia sanitaria, INSALUD) entre la población; 1991: Sevilla (2006), Seguridad Social, sin verificar en fuente primaria; 1993–2001: OCDE, Health Statistics",
   "urlPublica": "https://www.ine.es/inebaseweb/libros.do?tntp=25687",
   "fuentePrivado": "OCDE, Health Statistics (seguro voluntario, % de la población), a partir de las Encuestas Nacionales de Salud",
   "urlPrivado": "https://data-explorer.oecd.org/",
